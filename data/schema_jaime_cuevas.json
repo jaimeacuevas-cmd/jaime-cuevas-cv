@@ -1,0 +1,108 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://jaimecuevas.com/#person",
+      "name": "Jaime Cuevas",
+      "givenName": "Jaime Arnaldo",
+      "familyName": "Cuevas Pérez",
+      "additionalName": "Jaime Cuevas Pérez",
+      "url": "https://jaimecuevas.com",
+      "sameAs": [
+        "https://orcid.org/0000-0002-2563-6676",
+        "https://www.linkedin.com/in/jaime-cuevas-p%C3%A9rez-3999b050/",
+        "https://ub.academia.edu/JaimeCuevasP%C3%A9rez",
+        "https://github.com/jaimecuevas"
+      ],
+      "jobTitle": "Historiador del Arte, Investigador en Humanidades Digitales y Gestor de Colecciones",
+      "description": "Especialista en Web Semántica (Linked Open Data, CIDOC-CRM ISO 21127, RDF/Turtle, SPARQL), gestión de colecciones patrimoniales, historia del arte chileno y latinoamericano del siglo XIX, cartografía digital y políticas públicas de digitalización cultural.",
+      "nationality": [
+        {
+          "@type": "Country",
+          "name": "Chile"
+        },
+        {
+          "@type": "Country",
+          "name": "España"
+        }
+      ],
+      "knowsAbout": [
+        "Humanidades Digitales",
+        "Web Semántica (Linked Open Data)",
+        "CIDOC-CRM (ISO 21127)",
+        "Historia del Arte del Siglo XIX en América Latina",
+        "Gestión de Colecciones y Conservación Preventiva",
+        "Cartografía Digital y WebGIS",
+        "Pensamiento Decolonial y Estudios de Género",
+        "Ecosistemas Omeka S, IIIF y Apache Jena Fuseki"
+      ],
+      "alumniOf": [
+        {
+          "@type": "EducationalOrganization",
+          "name": "Universitat de Barcelona",
+          "url": "https://ub.edu",
+          "sameAs": "https://www.wikidata.org/wiki/Q219615"
+        },
+        {
+          "@type": "EducationalOrganization",
+          "name": "Universidad Adolfo Ibáñez",
+          "url": "https://uai.cl",
+          "sameAs": "https://www.wikidata.org/wiki/Q1465225"
+        },
+        {
+          "@type": "EducationalOrganization",
+          "name": "Universidad de Chile",
+          "url": "https://uchile.cl",
+          "sameAs": "https://www.wikidata.org/wiki/Q232438"
+        }
+      ],
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Máster Universitario en Humanidades Digitales",
+          "recognizedBy": {
+            "@type": "EducationalOrganization",
+            "name": "Universitat de Barcelona"
+          }
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Magíster en Historia del Arte",
+          "recognizedBy": {
+            "@type": "EducationalOrganization",
+            "name": "Universidad Adolfo Ibáñez"
+          }
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Licenciado en Artes c/m en Teoría e Historia del Arte",
+          "recognizedBy": {
+            "@type": "EducationalOrganization",
+            "name": "Universidad de Chile"
+          }
+        }
+      ],
+      "award": [
+        "Premio Internacional Fundación TyPA y Wikimedia Argentina (2024)",
+        "Beca General de Excelencia MEC, Gobierno de España (2025-2026)",
+        "Beca de Excelencia Académica Bicentenario, Universidad de Chile (2008-2011)"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://jaimecuevas.com/#website",
+      "url": "https://jaimecuevas.com",
+      "name": "Jaime Cuevas | Humanidades Digitales & Historia del Arte",
+      "description": "Ecosistema de investigación, cartografías interactivas, grafos de conocimiento y proyectos semánticos en patrimonio cultural.",
+      "author": {
+        "@id": "https://jaimecuevas.com/#person"
+      },
+      "inLanguage": [
+        "es",
+        "ca",
+        "en"
+      ]
+    }
+  ]
+}

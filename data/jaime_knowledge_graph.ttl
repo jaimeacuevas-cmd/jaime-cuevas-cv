@@ -1,0 +1,358 @@
+@prefix crm:    <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix schema: <https://schema.org/> .
+@prefix dc:     <http://purl.org/dc/elements/1.1/> .
+@prefix bibo:   <http://purl.org/ontology/bibo/> .
+@prefix geo:    <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix jc:     <https://jaimecuevas.com/resource/> .
+
+jc:PER_0001 a crm:E21_Person, schema:Person ;
+    rdfs:label "Jaime Arnaldo Cuevas Pérez" ;
+    schema:name "Jaime Cuevas" ;
+    schema:identifier "0000-00-2563-6676" ;
+    skos:exactMatch <https://orcid.org/0000-0002-2563-6676> ;
+    schema:sameAs <https://scholar.google.com/citations?user=M_10CSUAAAAJ&hl=es>, <https://www.linkedin.com/in/jaime-cuevas-p%C3%A9rez-3999b050/>, <https://ub.academia.edu/JaimeCuevasP%C3%A9rez>, <https://www.arteinformado.com/guia/f/jaime-cuevas-perez-188943>, <https://github.com/jaimecuevas> ;
+    schema:nationality "Española", "Chilena" ;
+    schema:jobTitle "Historiador del Arte, Investigador en Humanidades Digitales y Gestor de Colecciones" .
+
+jc:ORG_0001 a crm:E74_Group, schema:Organization ;
+    rdfs:label "MAC - Museo de Arte Contemporáneo" ;
+    schema:name "Museo de Arte Contemporáneo" ;
+    schema:alternateName "MAC" ;
+    schema:url <https://mac.uchile.cl> ; skos:exactMatch <https://www.wikidata.org/wiki/Q3329153> .
+
+jc:ORG_0002 a crm:E74_Group, schema:Organization ;
+    rdfs:label "MNBA - Museo Nacional de Bellas Artes" ;
+    schema:name "Museo Nacional de Bellas Artes" ;
+    schema:alternateName "MNBA" ;
+    schema:url <https://www.mnba.gob.cl> ; skos:exactMatch <https://www.wikidata.org/wiki/Q1138865> .
+
+jc:ORG_0003 a crm:E74_Group, schema:Organization ;
+    rdfs:label "UCH - Universidad de Chile" ;
+    schema:name "Universidad de Chile" ;
+    schema:alternateName "UCH" ;
+    schema:url <https://uchile.cl> ; skos:exactMatch <https://www.wikidata.org/wiki/Q232438> .
+
+jc:ORG_0004 a crm:E74_Group, schema:Organization ;
+    rdfs:label "UAI - Universidad Adolfo Ibáñez" ;
+    schema:name "Universidad Adolfo Ibáñez" ;
+    schema:alternateName "UAI" ;
+    schema:url <https://uai.cl> ; skos:exactMatch <https://www.wikidata.org/wiki/Q1465225> .
+
+jc:ORG_0005 a crm:E74_Group, schema:Organization ;
+    rdfs:label "UB - Universitat de Barcelona" ;
+    schema:name "Universitat de Barcelona" ;
+    schema:alternateName "UB" ;
+    schema:url <https://ub.edu> ; skos:exactMatch <https://www.wikidata.org/wiki/Q219615> .
+
+jc:ORG_0006 a crm:E74_Group, schema:Organization ;
+    rdfs:label "CNCR - Centro Nacional de Conservación y Restauración" ;
+    schema:name "Centro Nacional de Conservación y Restauración" ;
+    schema:alternateName "CNCR" ;
+    schema:url <https://www.cncr.gob.cl> ; skos:exactMatch <https://www.wikidata.org/wiki/Q5761404> .
+
+jc:ORG_0007 a crm:E74_Group, schema:Organization ;
+    rdfs:label "SERPAT - Servicio Nacional del Patrimonio Cultural" ;
+    schema:name "Servicio Nacional del Patrimonio Cultural" ;
+    schema:alternateName "SERPAT" ;
+    schema:url <https://www.patrimoniocultural.gob.cl> ; skos:exactMatch <https://www.wikidata.org/wiki/Q96475737> .
+
+jc:ORG_0008 a crm:E74_Group, schema:Organization ;
+    rdfs:label "MINCAP - Ministerio de las Culturas, las Artes y el Patrimonio" ;
+    schema:name "Ministerio de las Culturas, las Artes y el Patrimonio" ;
+    schema:alternateName "MINCAP" ;
+    schema:url <https://www.cultura.gob.cl> ; skos:exactMatch <https://www.wikidata.org/wiki/Q50682283> .
+
+jc:ORG_0009 a crm:E74_Group, schema:Organization ;
+    rdfs:label "UAH - Universidad Alberto Hurtado" ;
+    schema:name "Universidad Alberto Hurtado" ;
+    schema:alternateName "UAH" ;
+    schema:url <https://uahurtado.cl> ; skos:exactMatch <https://www.wikidata.org/wiki/Q7894229> .
+
+jc:ORG_0010 a crm:E74_Group, schema:Organization ;
+    rdfs:label "USACH - Universidad de Santiago de Chile (IDEA)" ;
+    schema:name "Universidad de Santiago de Chile (IDEA)" ;
+    schema:alternateName "USACH" ;
+    schema:url <https://usach.cl> ; skos:exactMatch <https://www.wikidata.org/wiki/Q1138767> .
+
+jc:ORG_0011 a crm:E74_Group, schema:Organization ;
+    rdfs:label "MAPA - Museo de Arte Popular Americano Tomás Lago" ;
+    schema:name "Museo de Arte Popular Americano Tomás Lago" ;
+    schema:alternateName "MAPA" ;
+    schema:url <https://mapa.uchile.cl> ; skos:exactMatch <https://www.wikidata.org/wiki/Q6034177> .
+
+jc:ORG_0012 a crm:E74_Group, schema:Organization ;
+    rdfs:label "MSSA - Museo de la Solidaridad Salvador Allende" ;
+    schema:name "Museo de la Solidaridad Salvador Allende" ;
+    schema:alternateName "MSSA" ;
+    schema:url <https://mssa.cl> ; skos:exactMatch <https://www.wikidata.org/wiki/Q6034346> .
+
+jc:ORG_0013 a crm:E74_Group, schema:Organization ;
+    rdfs:label "MECD_ES - Ministerio de Educación, Cultura y Deporte (España)" ;
+    schema:name "Ministerio de Educación, Cultura y Deporte (España)" ;
+    schema:alternateName "MECD_ES" ;
+    schema:url <https://www.cultura.gob.es> ; skos:exactMatch <https://www.wikidata.org/wiki/Q3315363> .
+
+jc:ORG_0014 a crm:E74_Group, schema:Organization ;
+    rdfs:label "MICIU_ES - Ministerio de Ciencia, Innovación y Universidades (España)" ;
+    schema:name "Ministerio de Ciencia, Innovación y Universidades (España)" ;
+    schema:alternateName "MICIU_ES" ;
+    schema:url <https://www.universidades.gob.es> ; skos:exactMatch <https://www.wikidata.org/wiki/Q54865181> .
+
+jc:ORG_0015 a crm:E74_Group, schema:Organization ;
+    rdfs:label "HARVARD - Harvard University" ;
+    schema:name "Harvard University" ;
+    schema:alternateName "HARVARD" ;
+    schema:url <https://harvard.edu> ; skos:exactMatch <https://www.wikidata.org/wiki/Q13371> .
+
+jc:ORG_0016 a crm:E74_Group, schema:Organization ;
+    rdfs:label "TYPA - Fundación TyPA (Teoría y Práctica de las Artes)" ;
+    schema:name "Fundación TyPA (Teoría y Práctica de las Artes)" ;
+    schema:alternateName "TYPA" ;
+    schema:url <https://typa.org.ar> ; skos:exactMatch <https://www.wikidata.org/wiki/Q124618790> .
+
+jc:ORG_0017 a crm:E74_Group, schema:Organization ;
+    rdfs:label "WIKIMEDIA_AR - Wikimedia Argentina" ;
+    schema:name "Wikimedia Argentina" ;
+    schema:alternateName "WIKIMEDIA_AR" ;
+    schema:url <https://wikimedia.org.ar> ; skos:exactMatch <https://www.wikidata.org/wiki/Q328> .
+
+jc:ORG_0018 a crm:E74_Group, schema:Organization ;
+    rdfs:label "MALI - Museo de Arte de Lima" ;
+    schema:name "Museo de Arte de Lima" ;
+    schema:alternateName "MALI" ;
+    schema:url <https://mali.pe> ; skos:exactMatch <https://www.wikidata.org/wiki/Q6940540> .
+
+jc:ORG_0019 a crm:E74_Group, schema:Organization ;
+    rdfs:label "PINACOTECA_SP - Pinacoteca do Estado de São Paulo" ;
+    schema:name "Pinacoteca do Estado de São Paulo" ;
+    schema:alternateName "PINACOTECA_SP" ;
+    schema:url <https://pinacoteca.org.br> ; skos:exactMatch <https://www.wikidata.org/wiki/Q1464673> .
+
+jc:ORG_0020 a crm:E74_Group, schema:Organization ;
+    rdfs:label "MPBA_FR - Museo Provincial de Bellas Artes Franklin Rawson" ;
+    schema:name "Museo Provincial de Bellas Artes Franklin Rawson" ;
+    schema:alternateName "MPBA_FR" ;
+    schema:url <https://museofranklinrawson.org> ; skos:exactMatch <https://www.wikidata.org/wiki/Q16609935> .
+
+jc:ORG_0021 a crm:E74_Group, schema:Organization ;
+    rdfs:label "UNSAM_TAREA - IIPC-TAREA, Universidad Nacional de San Martín" ;
+    schema:name "IIPC-TAREA, Universidad Nacional de San Martín" ;
+    schema:alternateName "UNSAM_TAREA" ;
+    schema:url <https://unsam.edu.ar/tarea> ; skos:exactMatch <https://www.wikidata.org/wiki/Q7894297> .
+
+jc:ORG_0022 a crm:E74_Group, schema:Organization ;
+    rdfs:label "LOM - LOM Ediciones" ;
+    schema:name "LOM Ediciones" ;
+    schema:alternateName "LOM" ;
+    schema:url <https://lom.cl> ; skos:exactMatch <https://www.wikidata.org/wiki/Q5961605> .
+
+jc:ORG_0023 a crm:E74_Group, schema:Organization ;
+    rdfs:label "CCE_GUATEMALA - Centro Cultural de España en Guatemala" ;
+    schema:name "Centro Cultural de España en Guatemala" ;
+    schema:alternateName "CCE_GUATEMALA" ;
+    schema:url <https://cceguatemala.org> ; skos:exactMatch <https://www.wikidata.org/wiki/Q5761159> .
+
+jc:ORG_0024 a crm:E74_Group, schema:Organization ;
+    rdfs:label "M100 - Centro Cultural Matucana 100" ;
+    schema:name "Centro Cultural Matucana 100" ;
+    schema:alternateName "M100" ;
+    schema:url <https://m100.cl> ; skos:exactMatch <https://www.wikidata.org/wiki/Q5763160> .
+
+jc:ORG_0025 a crm:E74_Group, schema:Organization ;
+    rdfs:label "CCU - Corporación Cultural CCU" ;
+    schema:name "Corporación Cultural CCU" ;
+    schema:alternateName "CCU" ;
+    schema:url <https://ccuenelarte.cl> ; skos:exactMatch <https://www.wikidata.org/wiki/Q2931448> .
+
+jc:ORG_0026 a crm:E74_Group, schema:Organization ;
+    rdfs:label "MMDH - Museo de la Memoria y los Derechos Humanos" ;
+    schema:name "Museo de la Memoria y los Derechos Humanos" ;
+    schema:alternateName "MMDH" ;
+    schema:url <https://museodelamemoria.cl> ; skos:exactMatch <https://www.wikidata.org/wiki/Q2006767> .
+
+jc:ORG_0027 a crm:E74_Group, schema:Organization ;
+    rdfs:label "M_LINARES - Museo de Arte y Artesanía de Linares" ;
+    schema:name "Museo de Arte y Artesanía de Linares" ;
+    schema:alternateName "M_LINARES" ;
+    schema:url <https://www.museodelinares.gob.cl> ; skos:exactMatch <https://www.wikidata.org/wiki/Q6033842> .
+
+jc:ORG_0028 a crm:E74_Group, schema:Organization ;
+    rdfs:label "PINACOTECA_UDEC - Pinacoteca Universidad de Concepción (Casa del Arte)" ;
+    schema:name "Pinacoteca Universidad de Concepción (Casa del Arte)" ;
+    schema:alternateName "PINACOTECA_UDEC" ;
+    schema:url <https://pinacoteca.udec.cl> ; skos:exactMatch <https://www.wikidata.org/wiki/Q5047879> .
+
+jc:ORG_0029 a crm:E74_Group, schema:Organization ;
+    rdfs:label "BND_BN - Biblioteca Nacional Digital / Biblioteca Nacional de Chile" ;
+    schema:name "Biblioteca Nacional Digital / Biblioteca Nacional de Chile" ;
+    schema:alternateName "BND_BN" ;
+    schema:url <https://www.bibliotecanacionaldigital.gob.cl> ; skos:exactMatch <https://www.wikidata.org/wiki/Q2478544> .
+
+jc:ORG_0030 a crm:E74_Group, schema:Organization ;
+    rdfs:label "UNIFESP - Universidade Federal de São Paulo" ;
+    schema:name "Universidade Federal de São Paulo" ;
+    schema:alternateName "UNIFESP" ;
+    schema:url <https://unifesp.br> ; skos:exactMatch <https://www.wikidata.org/wiki/Q1142270> .
+
+jc:ORG_0031 a crm:E74_Group, schema:Organization ;
+    rdfs:label "UBA_CAIA - CAIA / Universidad de Buenos Aires" ;
+    schema:name "CAIA / Universidad de Buenos Aires" ;
+    schema:alternateName "UBA_CAIA" ;
+    schema:url <https://caia.org.ar> ; skos:exactMatch <https://www.wikidata.org/wiki/Q193798> .
+
+jc:ORG_0032 a crm:E74_Group, schema:Organization ;
+    rdfs:label "UNMDP - Universidad Nacional de Mar del Plata" ;
+    schema:name "Universidad Nacional de Mar del Plata" ;
+    schema:alternateName "UNMDP" ;
+    schema:url <https://mdp.edu.ar> ; skos:exactMatch <https://www.wikidata.org/wiki/Q3551676> .
+
+jc:ORG_0033 a crm:E74_Group, schema:Organization ;
+    rdfs:label "PUC - Pontificia Universidad Católica de Chile" ;
+    schema:name "Pontificia Universidad Católica de Chile" ;
+    schema:alternateName "PUC" ;
+    schema:url <https://uc.cl> ; skos:exactMatch <https://www.wikidata.org/wiki/Q287900> .
+
+jc:ORG_0034 a crm:E74_Group, schema:Organization ;
+    rdfs:label "UNAB - Universidad Andrés Bello" ;
+    schema:name "Universidad Andrés Bello" ;
+    schema:alternateName "UNAB" ;
+    schema:url <https://unab.cl> ; skos:exactMatch <https://www.wikidata.org/wiki/Q7894220> .
+
+jc:ORG_0035 a crm:E74_Group, schema:Organization ;
+    rdfs:label "CENFOTO_UDP - CENFOTO, Universidad Diego Portales" ;
+    schema:name "CENFOTO, Universidad Diego Portales" ;
+    schema:alternateName "CENFOTO_UDP" ;
+    schema:url <https://cenfoto.udp.cl> ; skos:exactMatch <https://www.wikidata.org/wiki/Q50682284> .
+
+jc:ORG_0036 a crm:E74_Group, schema:Organization ;
+    rdfs:label "IMCR - Instituto Mexicano de Curaduría y Restauración" ;
+    schema:name "Instituto Mexicano de Curaduría y Restauración" ;
+    schema:alternateName "IMCR" ;
+    schema:url <https://imcr.mx> ; skos:exactMatch <https://www.wikidata.org/wiki/Q124618791> .
+
+jc:ORG_0037 a crm:E74_Group, schema:Organization ;
+    rdfs:label "ISUCH - Instituto de Estudios Secundarios, Facultad de Artes UCH" ;
+    schema:name "Instituto de Estudios Secundarios, Facultad de Artes UCH" ;
+    schema:alternateName "ISUCH" ;
+    schema:url <https://isuch.uchile.cl> ; skos:exactMatch <https://www.wikidata.org/wiki/Q124618792> .
+
+jc:ORG_0038 a crm:E74_Group, schema:Organization ;
+    rdfs:label "ISL - Instituto de Seguridad Laboral" ;
+    schema:name "Instituto de Seguridad Laboral" ;
+    schema:alternateName "ISL" ;
+    schema:url <https://isl.gob.cl> ; skos:exactMatch <https://www.wikidata.org/wiki/Q5918342> .
+
+jc:ORG_0039 a crm:E74_Group, schema:Organization ;
+    rdfs:label "MNSC_MEX - Museo Nacional de San Carlos" ;
+    schema:name "Museo Nacional de San Carlos" ;
+    schema:alternateName "MNSC_MEX" ;
+    schema:url <https://mnsancarlos.inba.gob.mx> ; skos:exactMatch <https://www.wikidata.org/wiki/Q6940509> .
+
+jc:ORG_0040 a crm:E74_Group, schema:Organization ;
+    rdfs:label "ICG - Isabel Croxatto Galería" ;
+    schema:name "Isabel Croxatto Galería" ;
+    schema:alternateName "ICG" ;
+    schema:url <https://isabelcroxattogaleria.com> ; skos:exactMatch <https://www.wikidata.org/wiki/Q124618814> .
+
+jc:ORG_0041 a crm:E74_Group, schema:Organization ;
+    rdfs:label "CECAL_UDEC - CECAL UdeC - Centro de Extensión Cultural Alfonso Lagos (Universidad de Concepción)" ;
+    schema:name "CECAL UdeC - Centro de Extensión Cultural Alfonso Lagos (Universidad de Concepción)" ;
+    schema:alternateName "CECAL_UDEC" ;
+    schema:url <https://cecal.udec.cl> ; skos:exactMatch <https://www.wikidata.org/wiki/Q124618815> .
+
+jc:ORG_0042 a crm:E74_Group, schema:Organization ;
+    rdfs:label "MUSAC - MUSAC - Museo de Arte Contemporáneo de Castilla y León" ;
+    schema:name "MUSAC - Museo de Arte Contemporáneo de Castilla y León" ;
+    schema:alternateName "MUSAC" ;
+    schema:url <https://musac.es> ; skos:exactMatch <https://www.wikidata.org/wiki/Q1398246> .
+
+jc:DIG_0001 a crm:E73_Information_Object, schema:WebApplication ;
+    rdfs:label "QUINSAC. Estudios razonados de arte y coleccionismo" ;
+    crm:P14_carried_out_by jc:PER_0001 ; schema:url <https://quinsac.mnba.gob.cl> ;
+    crm:P3_has_note "Plataforma digital interactiva y catálogo razonado que sistematizó el acervo de Raymond Monvoisin en el continente (más de 460 obras)." .
+
+
+
+
+
+jc:DIG_0006 a crm:E73_Information_Object, schema:WebApplication ;
+    rdfs:label "Monvoisin: huellas territoriales de un artista" ;
+    crm:P14_carried_out_by jc:PER_0001 ; schema:url <https://www.bibliotecanacionaldigital.gob.cl/visor/BND:666450> ;
+    crm:P3_has_note "Cápsula desarrollada en ArcGIS StoryMaps junto al CNCR y la Biblioteca Nacional que geolocaliza el recorrido del artista." .
+
+
+jc:DIG_0008 a crm:E73_Information_Object, schema:WebApplication ;
+    rdfs:label "Plataforma virtual Salón de Estudiantes" ;
+    crm:P14_carried_out_by jc:PER_0001 ; schema:url <http://www.salonestudiantes.cl> ;
+    crm:P3_has_note "Plataforma virtual para la puesta en valor de la tradición del Salón, albergando la historia y difundiendo el arte emergente." .
+
+jc:DIG_0009 a crm:E73_Information_Object, schema:WebApplication ;
+    rdfs:label "Callejera Madrid" ;
+    crm:P14_carried_out_by jc:PER_0001 ; schema:url <https://www.jaimecuevas.onl/callejera-madrid/> ;
+    crm:P3_has_note "Grafo de Conocimiento y plataforma LOD bajo estándar CIDOC-CRM ISO 21127 y RDF/Turtle para auditar asimetrías de género (66.745 tripletas, enlaces Wikidata)." .
+
+jc:DIG_0010 a crm:E73_Information_Object, schema:WebApplication ;
+    rdfs:label "Arquitectura Art Déco en Santiago centro" ;
+    crm:P14_carried_out_by jc:PER_0001 ; schema:url <https://artdeco-santiago.cl> ;
+    crm:P3_has_note "Catálogo digital y puesta en valor de 44 edificios patrimoniales con Omeka S y capas de accesibilidad universal WCAG 2.1 AA." .
+
+jc:DIG_0011 a crm:E73_Information_Object, schema:WebApplication ;
+    rdfs:label "Mármoles y Bronces entre el Mediterráneo y los Andes" ;
+    crm:P14_carried_out_by jc:PER_0001 ; schema:url <https://marmoles-y-bronces.vercel.app> ;
+    crm:P3_has_note "Infraestructura semántica y base de datos relacional que registra 18.845 agentes y 21.727 viajes de artesanos italianos a América Latina (1882-1920)." .
+
+jc:PER_0001 crm:P14i_performed jc:PRJ_0008 .
+jc:PRJ_0008 crm:P108_has_produced jc:DIG_0001 .
+jc:PRJ_0008 crm:P108_has_produced jc:DIG_0006 .
+jc:PRJ_0008 crm:P108_has_produced jc:PUB_0001 .
+jc:PRJ_0008 crm:P108_has_produced jc:PUB_0010 .
+jc:PRJ_0008 crm:P108_has_produced jc:PUB_0011 .
+jc:PRJ_0008 crm:P108_has_produced jc:PUB_0014 .
+jc:PRJ_0008 crm:P67_refers_to jc:EXP_0001 .
+jc:EXP_0001 crm:P9_consists_of jc:EXP_0001_M01 .
+jc:EXP_0001 crm:P9_consists_of jc:EXP_0001_M02 .
+jc:EXP_0001 crm:P9_consists_of jc:EXP_0001_M03 .
+jc:EXP_0001 crm:P9_consists_of jc:EXP_0001_M04 .
+jc:PRJ_0008 crm:P9_consists_of jc:PRJ_0008_N01 .
+jc:PRJ_0008 crm:P9_consists_of jc:PRJ_0008_N02 .
+jc:PRJ_0008 crm:P9_consists_of jc:PRJ_0008_N03 .
+jc:PRJ_0008 crm:P9_consists_of jc:PRJ_0008_N04 .
+jc:PRJ_0008 crm:P129_is_subject_of jc:COM_0001 .
+jc:PRJ_0008 crm:P129_is_subject_of jc:COM_0002 .
+jc:PRJ_0008 crm:P129_is_subject_of jc:COM_0020 .
+jc:PER_0001 crm:P14i_performed jc:PRJ_0001 .
+jc:PRJ_0001 crm:P108_has_produced jc:DIG_0010 .
+jc:PER_0001 crm:P14i_performed jc:PRJ_0002 .
+jc:PRJ_0002 crm:P108_has_produced jc:DIG_0011 .
+jc:PER_0001 crm:P14i_performed jc:DIG_0009 .
+jc:PER_0001 crm:P14i_performed jc:PRJ_0005 .
+jc:PRJ_0005 crm:P108_has_produced jc:PUB_0012 .
+jc:PER_0001 crm:P14i_performed jc:PRJ_0006 .
+jc:PRJ_0006 crm:P108_has_produced jc:PUB_0015 .
+jc:PER_0001 crm:P14i_performed jc:PRJ_0009 .
+jc:PRJ_0009 crm:P108_has_produced jc:PUB_0003 .
+jc:PRJ_0009 crm:P67_refers_to jc:EXP_0006 .
+jc:PER_0001 crm:P14i_performed jc:PRJ_0010 .
+jc:PRJ_0010 crm:P108_has_produced jc:EXP_0008 .
+jc:PRJ_0010 crm:P108_has_produced jc:DIG_0008 .
+jc:PRJ_0010 crm:P108_has_produced jc:PUB_0007 .
+jc:PER_0001 crm:P14i_performed jc:PUB_0005 .
+jc:PUB_0005 crm:P67_refers_to jc:PRJ_0003 .
+jc:PER_0001 crm:P14i_performed jc:EXP_0003 .
+jc:EXP_0003 crm:P108_has_produced jc:PUB_0004 .
+jc:EXP_0003 crm:P108_has_produced jc:PUB_0004 .
+jc:PER_0001 crm:P14i_performed jc:EXP_0004 .
+jc:EXP_0004 crm:P108_has_produced jc:PUB_0005 .
+jc:PER_0001 crm:P14i_performed jc:EXP_0012 .
+jc:PER_0001 crm:P14i_performed jc:EXP_0013 .
+jc:EXP_0013 crm:P7_took_place_at jc:ORG_0040 .
+jc:EXP_0011_01 crm:P7_took_place_at jc:ORG_0041 .
+jc:EXP_0012 crm:P67_refers_to jc:ORG_0042 .
+jc:PRJ_0016 crm:P14_carried_out_by jc:PER_0001 .
+jc:PRJ_0016 crm:P14_carried_out_by jc:PER_0011 .
+jc:PRJ_0016 crm:P108_has_produced jc:PUB_0017 .
+jc:PUB_0017 crm:P14_carried_out_by jc:ORG_0022 .
+jc:PRJ_0016 schema:funder jc:ORG_0008 .
