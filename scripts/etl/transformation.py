@@ -47,8 +47,9 @@ class DataTransformer:
 
         # Transform links from relations sheet
         if relations_raw:
-            self.links = self._transform_links(relations_raw)
-            logger.info(f"Transformed relations: {len(self.links)} links")
+            relation_links = self._transform_links(relations_raw)
+            self.links.extend(relation_links)
+            logger.info(f"Transformed relations: {len(relation_links)} links from relations sheet, total: {len(self.links)} links")
 
         logger.info(f"Total nodes after transformation: {len(self.nodes)}")
 
@@ -148,8 +149,23 @@ class DataTransformer:
                 'description': row.get('descripcion', '').strip() or None,
                 'why_relevant': row.get('por_que_relevante', '').strip() or None,
                 'micro_summary': row.get('resumen_micro', '').strip() or None,
+                'parent_org_id': row.get('parent_org_id') or None,
+                'is_user_primary': bool(row.get('is_user_primary', False)),
+                'precision_type': row.get('precision_type', 'exact'),
                 '_sheet_name': 'Lugares_y_Sedes',
             })
+
+            # Generate ORG→LOC link if parent_org_id is present
+            if node['parent_org_id']:
+                org_loc_link = {
+                    'id': f"REL_ORG_LOC_{idx+1:04d}",
+                    'source': node['parent_org_id'],
+                    'target': node['id'],
+                    'predicate': 'crm:P87_is_identified_by',
+                    'description': f"Organization {node['parent_org_id']} has location {node['id']}",
+                    '_sheet_name': 'Lugares_y_Sedes_GENERATED',
+                }
+                self.links.append(org_loc_link)
 
             nodes.append(node)
 

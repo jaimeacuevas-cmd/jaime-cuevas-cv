@@ -3,7 +3,7 @@
     "version": "2.0",
     "source": "CV_Dataset_Maestro_Jaime_Cuevas.xlsx",
     "node_count": 271,
-    "link_count": 52,
+    "link_count": 91,
     "sheet_count": 12,
     "validation_status": "PASS",
     "validation_warnings": 49
@@ -1732,7 +1732,10 @@
       ],
       "wikidata": "Q1138865",
       "why_relevant": "Investigador de Colecciones (2017-2025)",
-      "micro_summary": "Sede principal como Investigador de Colecciones"
+      "micro_summary": "Sede principal como Investigador de Colecciones",
+      "parent_org_id": "ORG_0002",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0002",
@@ -1753,7 +1756,10 @@
       ],
       "wikidata": "Q3329153",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0001",
+      "is_user_primary": true,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0003",
@@ -1774,7 +1780,10 @@
       ],
       "wikidata": "Q232438",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0034",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0004",
@@ -1795,7 +1804,10 @@
       ],
       "wikidata": "Q1465225",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0004",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0005",
@@ -1816,7 +1828,10 @@
       ],
       "wikidata": "Q219615",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0005",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0006",
@@ -1837,7 +1852,10 @@
       ],
       "wikidata": "Q5761404",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0006",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0007",
@@ -1858,7 +1876,10 @@
       ],
       "wikidata": "Q50682283",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0008",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0008",
@@ -1879,7 +1900,10 @@
       ],
       "wikidata": "Q7894229",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0009",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0009",
@@ -1900,7 +1924,10 @@
       ],
       "wikidata": "Q1138767",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0010",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0010",
@@ -1921,7 +1948,10 @@
       ],
       "wikidata": "Q6034177",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0011",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0011",
@@ -1942,7 +1972,10 @@
       ],
       "wikidata": "Q6034346",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0012",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0012",
@@ -1963,7 +1996,10 @@
       ],
       "wikidata": "Q54865181",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0013",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0013",
@@ -1984,7 +2020,10 @@
       ],
       "wikidata": "Q13371",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0015",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0014",
@@ -2005,7 +2044,10 @@
       ],
       "wikidata": null,
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0016",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0015",
@@ -2026,7 +2068,10 @@
       ],
       "wikidata": "Q6940540",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0018",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0016",
@@ -2047,7 +2092,10 @@
       ],
       "wikidata": "Q1464673",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0019",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0017",
@@ -2068,7 +2116,10 @@
       ],
       "wikidata": "Q16609935",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0020",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0018",
@@ -2089,7 +2140,10 @@
       ],
       "wikidata": "Q7894297",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0021",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0019",
@@ -2110,7 +2164,10 @@
       ],
       "wikidata": "Q5961605",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0022",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0020",
@@ -2131,7 +2188,10 @@
       ],
       "wikidata": "Q5761159",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0023",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0021",
@@ -2152,7 +2212,10 @@
       ],
       "wikidata": "Q5763160",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0024",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0022",
@@ -2173,7 +2236,10 @@
       ],
       "wikidata": "Q2931448",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0018",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0023",
@@ -2194,7 +2260,10 @@
       ],
       "wikidata": "Q2006767",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0026",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0024",
@@ -2215,7 +2284,10 @@
       ],
       "wikidata": "Q6033842",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0027",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0025",
@@ -2236,7 +2308,10 @@
       ],
       "wikidata": "Q5047879",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0028",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0026",
@@ -2257,7 +2332,10 @@
       ],
       "wikidata": "Q1050516",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": null,
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0027",
@@ -2278,7 +2356,10 @@
       ],
       "wikidata": "Q201016",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": null,
+      "is_user_primary": false,
+      "precision_type": "centroid"
     },
     {
       "id": "LOC_0028",
@@ -2299,7 +2380,10 @@
       ],
       "wikidata": "Q7126294",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": null,
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0029",
@@ -2320,7 +2404,10 @@
       ],
       "wikidata": "Q6034388",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0018",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0030",
@@ -2341,7 +2428,10 @@
       ],
       "wikidata": "Q2931448",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": null,
+      "is_user_primary": false,
+      "precision_type": "centroid"
     },
     {
       "id": "LOC_0031",
@@ -2362,7 +2452,10 @@
       ],
       "wikidata": "Q3691",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": null,
+      "is_user_primary": false,
+      "precision_type": "centroid"
     },
     {
       "id": "LOC_0032",
@@ -2383,7 +2476,10 @@
       ],
       "wikidata": "Q56125",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": null,
+      "is_user_primary": false,
+      "precision_type": "centroid"
     },
     {
       "id": "LOC_0033",
@@ -2404,7 +2500,10 @@
       ],
       "wikidata": "Q14424",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": null,
+      "is_user_primary": false,
+      "precision_type": "centroid"
     },
     {
       "id": "LOC_0034",
@@ -2425,7 +2524,10 @@
       ],
       "wikidata": "Q51594",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": null,
+      "is_user_primary": false,
+      "precision_type": "centroid"
     },
     {
       "id": "LOC_0035",
@@ -2446,7 +2548,10 @@
       ],
       "wikidata": "Q14484",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": null,
+      "is_user_primary": false,
+      "precision_type": "centroid"
     },
     {
       "id": "LOC_0036",
@@ -2467,7 +2572,10 @@
       ],
       "wikidata": "Q51079",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0009",
+      "is_user_primary": false,
+      "precision_type": "centroid"
     },
     {
       "id": "LOC_0037",
@@ -2488,7 +2596,10 @@
       ],
       "wikidata": "Q13063",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": null,
+      "is_user_primary": false,
+      "precision_type": "centroid"
     },
     {
       "id": "LOC_0038",
@@ -2509,7 +2620,10 @@
       ],
       "wikidata": "Q51048",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": null,
+      "is_user_primary": false,
+      "precision_type": "centroid"
     },
     {
       "id": "LOC_0039",
@@ -2530,7 +2644,10 @@
       ],
       "wikidata": "Q6940509",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0039",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0040",
@@ -2551,7 +2668,10 @@
       ],
       "wikidata": "Q1142270",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0030",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0041",
@@ -2572,7 +2692,10 @@
       ],
       "wikidata": "Q3551676",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0032",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0042",
@@ -2593,7 +2716,10 @@
       ],
       "wikidata": "Q287900",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0033",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0043",
@@ -2614,7 +2740,10 @@
       ],
       "wikidata": "Q7894220",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0034",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0044",
@@ -2635,7 +2764,10 @@
       ],
       "wikidata": "Q50682284",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0035",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0045",
@@ -2656,7 +2788,10 @@
       ],
       "wikidata": null,
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0036",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0046",
@@ -2677,7 +2812,10 @@
       ],
       "wikidata": null,
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0003",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0047",
@@ -2698,7 +2836,10 @@
       ],
       "wikidata": "Q5918342",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0038",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0048",
@@ -2719,7 +2860,10 @@
       ],
       "wikidata": "Q232438",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0037",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0049",
@@ -2740,7 +2884,10 @@
       ],
       "wikidata": "Q2478544",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0029",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0050",
@@ -2761,7 +2908,10 @@
       ],
       "wikidata": "Q7203673",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": null,
+      "is_user_primary": false,
+      "precision_type": "approximate"
     },
     {
       "id": "LOC_0051",
@@ -2782,7 +2932,10 @@
       ],
       "wikidata": null,
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": null,
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0052",
@@ -2803,7 +2956,10 @@
       ],
       "wikidata": "Q6033182",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": null,
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0053",
@@ -2824,7 +2980,10 @@
       ],
       "wikidata": "Q61",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": null,
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0054",
@@ -2845,7 +3004,10 @@
       ],
       "wikidata": "Q38",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": null,
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0055",
@@ -2866,7 +3028,10 @@
       ],
       "wikidata": "Q954318",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": null,
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0056",
@@ -2887,7 +3052,10 @@
       ],
       "wikidata": null,
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0040",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0057",
@@ -2908,7 +3076,10 @@
       ],
       "wikidata": null,
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": null,
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "CON_0001",
@@ -4779,6 +4950,318 @@
     }
   ],
   "links": [
+    {
+      "id": "REL_ORG_LOC_0001",
+      "source": "ORG_0002",
+      "target": "LOC_0001",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0002 has location LOC_0001",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0002",
+      "source": "ORG_0001",
+      "target": "LOC_0002",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0001 has location LOC_0002",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0003",
+      "source": "ORG_0034",
+      "target": "LOC_0003",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0034 has location LOC_0003",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0004",
+      "source": "ORG_0004",
+      "target": "LOC_0004",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0004 has location LOC_0004",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0005",
+      "source": "ORG_0005",
+      "target": "LOC_0005",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0005 has location LOC_0005",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0006",
+      "source": "ORG_0006",
+      "target": "LOC_0006",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0006 has location LOC_0006",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0007",
+      "source": "ORG_0008",
+      "target": "LOC_0007",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0008 has location LOC_0007",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0008",
+      "source": "ORG_0009",
+      "target": "LOC_0008",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0009 has location LOC_0008",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0009",
+      "source": "ORG_0010",
+      "target": "LOC_0009",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0010 has location LOC_0009",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0010",
+      "source": "ORG_0011",
+      "target": "LOC_0010",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0011 has location LOC_0010",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0011",
+      "source": "ORG_0012",
+      "target": "LOC_0011",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0012 has location LOC_0011",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0012",
+      "source": "ORG_0013",
+      "target": "LOC_0012",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0013 has location LOC_0012",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0013",
+      "source": "ORG_0015",
+      "target": "LOC_0013",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0015 has location LOC_0013",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0014",
+      "source": "ORG_0016",
+      "target": "LOC_0014",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0016 has location LOC_0014",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0015",
+      "source": "ORG_0018",
+      "target": "LOC_0015",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0018 has location LOC_0015",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0016",
+      "source": "ORG_0019",
+      "target": "LOC_0016",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0019 has location LOC_0016",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0017",
+      "source": "ORG_0020",
+      "target": "LOC_0017",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0020 has location LOC_0017",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0018",
+      "source": "ORG_0021",
+      "target": "LOC_0018",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0021 has location LOC_0018",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0019",
+      "source": "ORG_0022",
+      "target": "LOC_0019",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0022 has location LOC_0019",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0020",
+      "source": "ORG_0023",
+      "target": "LOC_0020",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0023 has location LOC_0020",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0021",
+      "source": "ORG_0024",
+      "target": "LOC_0021",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0024 has location LOC_0021",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0022",
+      "source": "ORG_0018",
+      "target": "LOC_0022",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0018 has location LOC_0022",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0023",
+      "source": "ORG_0026",
+      "target": "LOC_0023",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0026 has location LOC_0023",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0024",
+      "source": "ORG_0027",
+      "target": "LOC_0024",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0027 has location LOC_0024",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0025",
+      "source": "ORG_0028",
+      "target": "LOC_0025",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0028 has location LOC_0025",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0029",
+      "source": "ORG_0018",
+      "target": "LOC_0029",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0018 has location LOC_0029",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0036",
+      "source": "ORG_0009",
+      "target": "LOC_0036",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0009 has location LOC_0036",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0039",
+      "source": "ORG_0039",
+      "target": "LOC_0039",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0039 has location LOC_0039",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0040",
+      "source": "ORG_0030",
+      "target": "LOC_0040",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0030 has location LOC_0040",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0041",
+      "source": "ORG_0032",
+      "target": "LOC_0041",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0032 has location LOC_0041",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0042",
+      "source": "ORG_0033",
+      "target": "LOC_0042",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0033 has location LOC_0042",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0043",
+      "source": "ORG_0034",
+      "target": "LOC_0043",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0034 has location LOC_0043",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0044",
+      "source": "ORG_0035",
+      "target": "LOC_0044",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0035 has location LOC_0044",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0045",
+      "source": "ORG_0036",
+      "target": "LOC_0045",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0036 has location LOC_0045",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0046",
+      "source": "ORG_0003",
+      "target": "LOC_0046",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0003 has location LOC_0046",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0047",
+      "source": "ORG_0038",
+      "target": "LOC_0047",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0038 has location LOC_0047",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0048",
+      "source": "ORG_0037",
+      "target": "LOC_0048",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0037 has location LOC_0048",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0049",
+      "source": "ORG_0029",
+      "target": "LOC_0049",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0029 has location LOC_0049",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0056",
+      "source": "ORG_0040",
+      "target": "LOC_0056",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0040 has location LOC_0056",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
     {
       "id": "REL_0001",
       "source": "PER_0001",

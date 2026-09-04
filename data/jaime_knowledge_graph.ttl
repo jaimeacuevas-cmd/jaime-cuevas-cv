@@ -1147,6 +1147,84 @@ jc:DGH_0005 a crm:E73_Information_Object ;
 jc:DGH_0006 a crm:E73_Information_Object ;
     rdfs:label "Mármoles y Bronces entre el Mediterráneo y los Andes" .
 
+jc:ORG_0002 crm:P87_is_identified_by jc:LOC_0001 .
+
+jc:ORG_0001 crm:P87_is_identified_by jc:LOC_0002 .
+
+jc:ORG_0034 crm:P87_is_identified_by jc:LOC_0003 .
+
+jc:ORG_0004 crm:P87_is_identified_by jc:LOC_0004 .
+
+jc:ORG_0005 crm:P87_is_identified_by jc:LOC_0005 .
+
+jc:ORG_0006 crm:P87_is_identified_by jc:LOC_0006 .
+
+jc:ORG_0008 crm:P87_is_identified_by jc:LOC_0007 .
+
+jc:ORG_0009 crm:P87_is_identified_by jc:LOC_0008 .
+
+jc:ORG_0010 crm:P87_is_identified_by jc:LOC_0009 .
+
+jc:ORG_0011 crm:P87_is_identified_by jc:LOC_0010 .
+
+jc:ORG_0012 crm:P87_is_identified_by jc:LOC_0011 .
+
+jc:ORG_0013 crm:P87_is_identified_by jc:LOC_0012 .
+
+jc:ORG_0015 crm:P87_is_identified_by jc:LOC_0013 .
+
+jc:ORG_0016 crm:P87_is_identified_by jc:LOC_0014 .
+
+jc:ORG_0018 crm:P87_is_identified_by jc:LOC_0015 .
+
+jc:ORG_0019 crm:P87_is_identified_by jc:LOC_0016 .
+
+jc:ORG_0020 crm:P87_is_identified_by jc:LOC_0017 .
+
+jc:ORG_0021 crm:P87_is_identified_by jc:LOC_0018 .
+
+jc:ORG_0022 crm:P87_is_identified_by jc:LOC_0019 .
+
+jc:ORG_0023 crm:P87_is_identified_by jc:LOC_0020 .
+
+jc:ORG_0024 crm:P87_is_identified_by jc:LOC_0021 .
+
+jc:ORG_0018 crm:P87_is_identified_by jc:LOC_0022 .
+
+jc:ORG_0026 crm:P87_is_identified_by jc:LOC_0023 .
+
+jc:ORG_0027 crm:P87_is_identified_by jc:LOC_0024 .
+
+jc:ORG_0028 crm:P87_is_identified_by jc:LOC_0025 .
+
+jc:ORG_0018 crm:P87_is_identified_by jc:LOC_0029 .
+
+jc:ORG_0009 crm:P87_is_identified_by jc:LOC_0036 .
+
+jc:ORG_0039 crm:P87_is_identified_by jc:LOC_0039 .
+
+jc:ORG_0030 crm:P87_is_identified_by jc:LOC_0040 .
+
+jc:ORG_0032 crm:P87_is_identified_by jc:LOC_0041 .
+
+jc:ORG_0033 crm:P87_is_identified_by jc:LOC_0042 .
+
+jc:ORG_0034 crm:P87_is_identified_by jc:LOC_0043 .
+
+jc:ORG_0035 crm:P87_is_identified_by jc:LOC_0044 .
+
+jc:ORG_0036 crm:P87_is_identified_by jc:LOC_0045 .
+
+jc:ORG_0003 crm:P87_is_identified_by jc:LOC_0046 .
+
+jc:ORG_0038 crm:P87_is_identified_by jc:LOC_0047 .
+
+jc:ORG_0037 crm:P87_is_identified_by jc:LOC_0048 .
+
+jc:ORG_0029 crm:P87_is_identified_by jc:LOC_0049 .
+
+jc:ORG_0040 crm:P87_is_identified_by jc:LOC_0056 .
+
 jc:PER_0001 crm:P14i_performed jc:PRJ_0008 .
 
 jc:PRJ_0008 crm:P108_has_produced jc:DIG_0001 .

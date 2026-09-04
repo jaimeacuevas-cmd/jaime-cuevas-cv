@@ -24,7 +24,10 @@
         "description": null,
         "why_relevant": "Investigador de Colecciones (2017-2025)",
         "micro_summary": "Sede principal como Investigador de Colecciones",
-        "is_core": true
+        "is_core": true,
+        "parent_org_id": "ORG_0002",
+        "is_user_primary": false,
+        "precision_type": "exact"
       }
     },
     {
@@ -46,7 +49,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": "ORG_0001",
+        "is_user_primary": true,
+        "precision_type": "exact"
       }
     },
     {
@@ -68,7 +74,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": "ORG_0034",
+        "is_user_primary": false,
+        "precision_type": "exact"
       }
     },
     {
@@ -90,7 +99,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": "ORG_0004",
+        "is_user_primary": false,
+        "precision_type": "exact"
       }
     },
     {
@@ -112,7 +124,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": "ORG_0005",
+        "is_user_primary": false,
+        "precision_type": "exact"
       }
     },
     {
@@ -134,7 +149,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": "ORG_0006",
+        "is_user_primary": false,
+        "precision_type": "exact"
       }
     },
     {
@@ -156,7 +174,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": "ORG_0008",
+        "is_user_primary": false,
+        "precision_type": "exact"
       }
     },
     {
@@ -178,7 +199,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": "ORG_0009",
+        "is_user_primary": false,
+        "precision_type": "exact"
       }
     },
     {
@@ -200,7 +224,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": "ORG_0010",
+        "is_user_primary": false,
+        "precision_type": "exact"
       }
     },
     {
@@ -222,7 +249,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": "ORG_0011",
+        "is_user_primary": false,
+        "precision_type": "exact"
       }
     },
     {
@@ -244,7 +274,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": "ORG_0012",
+        "is_user_primary": false,
+        "precision_type": "exact"
       }
     },
     {
@@ -266,7 +299,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": "ORG_0013",
+        "is_user_primary": false,
+        "precision_type": "exact"
       }
     },
     {
@@ -288,7 +324,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": "ORG_0015",
+        "is_user_primary": false,
+        "precision_type": "exact"
       }
     },
     {
@@ -310,7 +349,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": "ORG_0016",
+        "is_user_primary": false,
+        "precision_type": "exact"
       }
     },
     {
@@ -332,7 +374,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": "ORG_0018",
+        "is_user_primary": false,
+        "precision_type": "exact"
       }
     },
     {
@@ -354,7 +399,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": "ORG_0019",
+        "is_user_primary": false,
+        "precision_type": "exact"
       }
     },
     {
@@ -376,7 +424,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": "ORG_0020",
+        "is_user_primary": false,
+        "precision_type": "exact"
       }
     },
     {
@@ -398,7 +449,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": "ORG_0021",
+        "is_user_primary": false,
+        "precision_type": "exact"
       }
     },
     {
@@ -420,7 +474,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": "ORG_0022",
+        "is_user_primary": false,
+        "precision_type": "exact"
       }
     },
     {
@@ -442,7 +499,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": "ORG_0023",
+        "is_user_primary": false,
+        "precision_type": "exact"
       }
     },
     {
@@ -464,7 +524,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": "ORG_0024",
+        "is_user_primary": false,
+        "precision_type": "exact"
       }
     },
     {
@@ -486,7 +549,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": "ORG_0018",
+        "is_user_primary": false,
+        "precision_type": "exact"
       }
     },
     {
@@ -508,7 +574,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": "ORG_0026",
+        "is_user_primary": false,
+        "precision_type": "exact"
       }
     },
     {
@@ -530,7 +599,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": "ORG_0027",
+        "is_user_primary": false,
+        "precision_type": "exact"
       }
     },
     {
@@ -552,7 +624,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": "ORG_0028",
+        "is_user_primary": false,
+        "precision_type": "exact"
       }
     },
     {
@@ -574,7 +649,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": null,
+        "is_user_primary": false,
+        "precision_type": "exact"
       }
     },
     {
@@ -596,7 +674,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": null,
+        "is_user_primary": false,
+        "precision_type": "centroid"
       }
     },
     {
@@ -618,7 +699,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": null,
+        "is_user_primary": false,
+        "precision_type": "exact"
       }
     },
     {
@@ -640,7 +724,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": "ORG_0018",
+        "is_user_primary": false,
+        "precision_type": "exact"
       }
     },
     {
@@ -662,7 +749,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": null,
+        "is_user_primary": false,
+        "precision_type": "centroid"
       }
     },
     {
@@ -684,7 +774,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": null,
+        "is_user_primary": false,
+        "precision_type": "centroid"
       }
     },
     {
@@ -706,7 +799,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": null,
+        "is_user_primary": false,
+        "precision_type": "centroid"
       }
     },
     {
@@ -728,7 +824,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": null,
+        "is_user_primary": false,
+        "precision_type": "centroid"
       }
     },
     {
@@ -750,7 +849,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": null,
+        "is_user_primary": false,
+        "precision_type": "centroid"
       }
     },
     {
@@ -772,7 +874,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": null,
+        "is_user_primary": false,
+        "precision_type": "centroid"
       }
     },
     {
@@ -794,7 +899,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": "ORG_0009",
+        "is_user_primary": false,
+        "precision_type": "centroid"
       }
     },
     {
@@ -816,7 +924,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": null,
+        "is_user_primary": false,
+        "precision_type": "centroid"
       }
     },
     {
@@ -838,7 +949,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": null,
+        "is_user_primary": false,
+        "precision_type": "centroid"
       }
     },
     {
@@ -860,7 +974,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": "ORG_0039",
+        "is_user_primary": false,
+        "precision_type": "exact"
       }
     },
     {
@@ -882,7 +999,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": "ORG_0030",
+        "is_user_primary": false,
+        "precision_type": "exact"
       }
     },
     {
@@ -904,7 +1024,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": "ORG_0032",
+        "is_user_primary": false,
+        "precision_type": "exact"
       }
     },
     {
@@ -926,7 +1049,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": "ORG_0033",
+        "is_user_primary": false,
+        "precision_type": "exact"
       }
     },
     {
@@ -948,7 +1074,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": "ORG_0034",
+        "is_user_primary": false,
+        "precision_type": "exact"
       }
     },
     {
@@ -970,7 +1099,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": "ORG_0035",
+        "is_user_primary": false,
+        "precision_type": "exact"
       }
     },
     {
@@ -992,7 +1124,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": "ORG_0036",
+        "is_user_primary": false,
+        "precision_type": "exact"
       }
     },
     {
@@ -1014,7 +1149,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": "ORG_0003",
+        "is_user_primary": false,
+        "precision_type": "exact"
       }
     },
     {
@@ -1036,7 +1174,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": "ORG_0038",
+        "is_user_primary": false,
+        "precision_type": "exact"
       }
     },
     {
@@ -1058,7 +1199,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": "ORG_0037",
+        "is_user_primary": false,
+        "precision_type": "exact"
       }
     },
     {
@@ -1080,7 +1224,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": "ORG_0029",
+        "is_user_primary": false,
+        "precision_type": "exact"
       }
     },
     {
@@ -1102,7 +1249,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": null,
+        "is_user_primary": false,
+        "precision_type": "approximate"
       }
     },
     {
@@ -1124,7 +1274,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": null,
+        "is_user_primary": false,
+        "precision_type": "exact"
       }
     },
     {
@@ -1146,7 +1299,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": null,
+        "is_user_primary": false,
+        "precision_type": "exact"
       }
     },
     {
@@ -1168,7 +1324,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": null,
+        "is_user_primary": false,
+        "precision_type": "exact"
       }
     },
     {
@@ -1190,7 +1349,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": null,
+        "is_user_primary": false,
+        "precision_type": "exact"
       }
     },
     {
@@ -1212,7 +1374,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": null,
+        "is_user_primary": false,
+        "precision_type": "exact"
       }
     },
     {
@@ -1234,7 +1399,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": "ORG_0040",
+        "is_user_primary": false,
+        "precision_type": "exact"
       }
     },
     {
@@ -1256,7 +1424,10 @@
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
-        "is_core": false
+        "is_core": false,
+        "parent_org_id": null,
+        "is_user_primary": false,
+        "precision_type": "exact"
       }
     }
   ]
