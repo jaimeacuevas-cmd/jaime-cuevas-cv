@@ -13,15 +13,18 @@
 
 jc:PER_0001 a crm:E21_Person ;
     rdfs:label "Jaime Arnaldo Cuevas Pérez" ;
+    skos:exactMatch <https://orcid.org/0000-0002-2563-6676> ;
     schema:url <https://scholar.google.com/citations?user=M_10CSUAAAAJ&hl=es> ;
     schema:nationality "Española | Chilena" .
 
 jc:PER_0002 a crm:E21_Person ;
     rdfs:label "Marcela Drien Fábregas" ;
+    skos:exactMatch <https://orcid.org/0000-0002-0223-0276> ;
     schema:nationality "Chilena" .
 
 jc:PER_0003 a crm:E21_Person ;
     rdfs:label "Manuel Alvarado Cornejo" ;
+    skos:exactMatch <https://orcid.org/0000-0002-0239-0872> ;
     schema:nationality "Chilena" .
 
 jc:PER_0004 a crm:E21_Person ;
@@ -30,10 +33,12 @@ jc:PER_0004 a crm:E21_Person ;
 
 jc:PER_0005 a crm:E21_Person ;
     rdfs:label "Antonia Viu" ;
+    skos:exactMatch <https://orcid.org/0000-0001-0164-8842> ;
     schema:nationality "Chilena" .
 
 jc:PER_0006 a crm:E21_Person ;
     rdfs:label "Noemí Cinelli" ;
+    skos:exactMatch <https://orcid.org/0000-0002-0284-486X> ;
     schema:nationality "Italiana | Chilena" .
 
 jc:PER_0007 a crm:E21_Person ;
@@ -58,6 +63,7 @@ jc:PER_0011 a crm:E21_Person ;
 
 jc:PER_0012 a crm:E21_Person ;
     rdfs:label "Fernando Guzmán Schiappacasse" ;
+    skos:exactMatch <https://orcid.org/0000-0002-0218-5061> ;
     schema:nationality "Chilena" .
 
 jc:PER_0013 a crm:E21_Person ;
