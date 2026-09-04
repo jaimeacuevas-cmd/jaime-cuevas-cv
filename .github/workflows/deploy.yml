@@ -3,6 +3,8 @@ name: Deploy CV Interactivo to GitHub Pages
 on:
   push:
     branches: [ main ]
+  pull_request:
+    branches: [ main ]
   workflow_dispatch:
 
 permissions:
@@ -69,13 +71,16 @@ jobs:
           "
 
       - name: Configurar GitHub Pages
+        if: github.event_name == 'push'
         uses: actions/configure-pages@v4
 
       - name: Subir Artefacto Web
+        if: github.event_name == 'push'
         uses: actions/upload-pages-artifact@v3
         with:
           path: 'dist/'
 
       - name: Desplegar a GitHub Pages
+        if: github.event_name == 'push'
         id: deployment
         uses: actions/deploy-pages@v4
