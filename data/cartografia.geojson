@@ -1,5 +1,9 @@
 {
   "type": "FeatureCollection",
+  "metadata": {
+    "projection": "WGS84",
+    "feature_count": 57
+  },
   "features": [
     {
       "type": "Feature",
@@ -13,14 +17,14 @@
       "properties": {
         "id": "LOC_0001",
         "name": "Museo Nacional de Bellas Artes (MNBA)",
-        "type": "Sede Institucional / Museo",
+        "type": "Location",
         "city": "Santiago",
-        "district": "Santiago Centro",
-        "country": "Chile",
+        "country": null,
         "wikidata": "Q1138865",
-        "description": "Sede central de desempeño profesional (2017–2025). Investigador de Colecciones, Gestor de Proyectos Patrimoniales (FAIP) y Punto Focal institucional para la Estrategia Nacional de Patrimonios Digitales (ENPD). Coordinó la investigación, catalogación en SURDOC y la logística de conservación 'clavo a clavo' para la gran exposición Episodio Monvoisin.",
-        "why_relevant": "Sede central de desempeño profesional (2017–2025). Investigador de Colecciones, Gestor de Proyectos Patrimoniales (FAIP) y Punto Focal institucional para la Estrategia Nacional de Patrimonios Digitales (ENPD). Coordinó la investigación, catalogación en SURDOC y la logística de conservación 'clavo a clavo' para la gran exposición Episodio Monvoisin.",
-        "micro_summary": "Sede principal como Investigador de Colecciones, Punto Focal ENPD y gestor de proyectos (FAIP / Episodio Monvoisin)."
+        "description": null,
+        "why_relevant": "Investigador de Colecciones (2017-2025)",
+        "micro_summary": "Sede principal como Investigador de Colecciones",
+        "is_core": true
       }
     },
     {
@@ -35,14 +39,14 @@
       "properties": {
         "id": "LOC_0002",
         "name": "Museo de Arte Contemporáneo (MAC Quinta Normal)",
-        "type": "Sede Institucional / Museo",
+        "type": "Location",
         "city": "Santiago",
-        "district": "Quinta Normal",
-        "country": "Chile",
+        "country": null,
         "wikidata": "Q3329153",
-        "description": "Sede de prácticas curatoriales y de archivo (2011–2014). Asistente curatorial en la Sala de Fotografía Emergente, producción de la retrospectiva de Luis Camnitzer y responsable general del emblemático proyecto de extensión 'Salón de Estudiantes 2013: Desde el resto' (Fondo Valentín Letelier).",
-        "why_relevant": "Sede de prácticas curatoriales y de archivo (2011–2014). Asistente curatorial en la Sala de Fotografía Emergente, producción de la retrospectiva de Luis Camnitzer y responsable general del emblemático proyecto de extensión 'Salón de Estudiantes 2013: Desde el resto' (Fondo Valentín Letelier).",
-        "micro_summary": "Asistente curatorial en Sala de Fotografía Emergente y responsable general del Salón de Estudiantes 2013."
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -57,14 +61,14 @@
       "properties": {
         "id": "LOC_0003",
         "name": "Casa Central Universidad de Chile / Archivo Andrés Bello",
-        "type": "Sede Universitaria",
+        "type": "Location",
         "city": "Santiago",
-        "district": "Santiago Centro",
-        "country": "Chile",
+        "country": null,
         "wikidata": "Q232438",
-        "description": "Sede de formación universitaria fundacional (2008–2011). Licenciatura en Artes c/m en Teoría e Historia del Arte con distinción máxima. Sede de gestión de proyectos de extensión universitaria (FVL) e investigación archivística.",
-        "why_relevant": "Sede de formación universitaria fundacional (2008–2011). Licenciatura en Artes c/m en Teoría e Historia del Arte con distinción máxima. Sede de gestión de proyectos de extensión universitaria (FVL) e investigación archivística.",
-        "micro_summary": "Licenciatura en Artes (UCh), formación fundacional en teoría del arte y gestión de extensión universitaria."
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -79,14 +83,14 @@
       "properties": {
         "id": "LOC_0004",
         "name": "Universidad Adolfo Ibáñez (Campus Peñalolén)",
-        "type": "Sede Universitaria",
+        "type": "Location",
         "city": "Santiago",
-        "district": "Peñalolén",
-        "country": "Chile",
+        "country": null,
         "wikidata": "Q1465225",
-        "description": "Sede de estudios de posgrado y docencia universitaria. Magíster en Historia del Arte (2015–2017) graduado con distinción máxima (tesis 6,9 sobre visualidad afromestiza), Diplomado en Curaduría (2012–2013) y Profesor Universitario de Cátedra (2018–2019) en la Facultad de Artes Liberales.",
-        "why_relevant": "Sede de estudios de posgrado y docencia universitaria. Magíster en Historia del Arte (2015–2017) graduado con distinción máxima (tesis 6,9 sobre visualidad afromestiza), Diplomado en Curaduría (2012–2013) y Profesor Universitario de Cátedra (2018–2019) en la Facultad de Artes Liberales.",
-        "micro_summary": "Magíster en Historia del Arte (Tesis 6,9), Diplomado en Curaduría y Profesor de Cátedra."
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -101,14 +105,14 @@
       "properties": {
         "id": "LOC_0005",
         "name": "Universitat de Barcelona (FIMA / Plaça Universitat)",
-        "type": "Sede Universitaria",
+        "type": "Location",
         "city": "Barcelona",
-        "district": "Eixample / Raval",
-        "country": "España",
+        "country": null,
         "wikidata": "Q219615",
-        "description": "Polo de especialización europea y formación de posgrado en Humanidades Digitales (2025–2026). Cursado del Máster Universitario en Humanitats Digitals en la Facultat d'Informació i Mitjans Audiovisuals como Becario de Excelencia MEC del Ministerio de Educación del Gobierno de España.",
-        "why_relevant": "Polo de especialización europea y formación de posgrado en Humanidades Digitales (2025–2026). Cursado del Máster Universitario en Humanitats Digitals en la Facultat d'Informació i Mitjans Audiovisuals como Becario de Excelencia MEC del Ministerio de Educación del Gobierno de España.",
-        "micro_summary": "Máster Universitario en Humanitats Digitals (UB) como Becario de Excelencia MEC del Gobierno de España."
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -123,14 +127,14 @@
       "properties": {
         "id": "LOC_0006",
         "name": "Centro Nacional de Conservación y Restauración (CNCR)",
-        "type": "Sede Técnica",
+        "type": "Location",
         "city": "Santiago",
-        "district": "Recoleta",
-        "country": "Chile",
+        "country": null,
         "wikidata": "Q5761404",
-        "description": "Centro técnico del Servicio Nacional del Patrimonio Cultural. Elaboración de estudios históricos y diagnósticos técnicos de conservación para los murales Monumento Nacional de Nemesio Antúnez (2019) y co-desarrollo de la cápsula cartográfica StoryMaps de Monvoisin (2024).",
-        "why_relevant": "Centro técnico del Servicio Nacional del Patrimonio Cultural. Elaboración de estudios históricos y diagnósticos técnicos de conservación para los murales Monumento Nacional de Nemesio Antúnez (2019) y co-desarrollo de la cápsula cartográfica StoryMaps de Monvoisin (2024).",
-        "micro_summary": "Estudios diagnósticos para murales Monumento Nacional de Nemesio Antúnez y StoryMaps Monvoisin."
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -145,14 +149,14 @@
       "properties": {
         "id": "LOC_0007",
         "name": "Ministerio de las Culturas, las Artes y el Patrimonio (MINCAP / FONDART)",
-        "type": "Sede Gubernamental",
+        "type": "Location",
         "city": "Santiago",
-        "district": "Santiago Centro",
-        "country": "Chile",
+        "country": null,
         "wikidata": "Q50682283",
-        "description": "Sede de gobernanza y políticas culturales públicas. Especialista Evaluador FONDART y Presidente de la Comisión de Evaluación Técnica (2018–2025). Coordinación de itinerancias expositivas y circulación territorial nacional (2015–2017).",
-        "why_relevant": "Sede de gobernanza y políticas culturales públicas. Especialista Evaluador FONDART y Presidente de la Comisión de Evaluación Técnica (2018–2025). Coordinación de itinerancias expositivas y circulación territorial nacional (2015–2017).",
-        "micro_summary": "Evaluador y Presidente de Comisión FONDART (2018–2025); Coordinador de Itinerancias Territoriales (2015–2017)."
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -167,14 +171,14 @@
       "properties": {
         "id": "LOC_0008",
         "name": "Universidad Alberto Hurtado (UAH)",
-        "type": "Sede Universitaria",
+        "type": "Location",
         "city": "Santiago",
-        "district": "Santiago Centro",
-        "country": "Chile",
+        "country": null,
         "wikidata": "Q7894229",
-        "description": "Sede de formación continua en gestión pública. Cursado del Diplomado en Gobierno y Gestión Pública (2023, 108 hrs), fortaleciendo capacidades para la administración estatal y políticas patrimoniales.",
-        "why_relevant": "Sede de formación continua en gestión pública. Cursado del Diplomado en Gobierno y Gestión Pública (2023, 108 hrs), fortaleciendo capacidades para la administración estatal y políticas patrimoniales.",
-        "micro_summary": "Diplomado en Gobierno y Gestión Pública (2023, 108 hrs) para administración y políticas patrimoniales."
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -189,14 +193,14 @@
       "properties": {
         "id": "LOC_0009",
         "name": "IDEA - Universidad de Santiago de Chile (USACH)",
-        "type": "Sede Universitaria",
+        "type": "Location",
         "city": "Santiago",
-        "district": "Estación Central / Providencia",
-        "country": "Chile",
+        "country": null,
         "wikidata": "Q1138767",
-        "description": "Instituto de Estudios Avanzados (USACH). Cursado y titulación del Diplomado en Museos y Museología: Nuevos enfoques para la educación, el pensamiento crítico y la transformación social (2014–2015).",
-        "why_relevant": "Instituto de Estudios Avanzados (USACH). Cursado y titulación del Diplomado en Museos y Museología: Nuevos enfoques para la educación, el pensamiento crítico y la transformación social (2014–2015).",
-        "micro_summary": "Diplomado en Museos y Museología: Nuevos enfoques para el pensamiento crítico y transformación social (USACH)."
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -211,14 +215,14 @@
       "properties": {
         "id": "LOC_0010",
         "name": "Museo de Arte Popular Americano Tomás Lago (GAM / MAPA)",
-        "type": "Sede Institucional / Museo",
+        "type": "Location",
         "city": "Santiago",
-        "district": "Santiago Centro",
-        "country": "Chile",
+        "country": null,
         "wikidata": "Q6034177",
-        "description": "Sede de trabajo museográfico y catalogación científica (2011). Asistente de investigación y montaje bajo la dirección de la artista Nury González para las exposiciones fundacionales 'Tesoros Latinoamericanos' y 'Tesoros Chilenos' en el Centro GAM.",
-        "why_relevant": "Sede de trabajo museográfico y catalogación científica (2011). Asistente de investigación y montaje bajo la dirección de la artista Nury González para las exposiciones fundacionales 'Tesoros Latinoamericanos' y 'Tesoros Chilenos' en el Centro GAM.",
-        "micro_summary": "Documentación, catalogación y montaje museográfico de exposiciones fundacionales 'Tesoros' en GAM/MAPA."
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -233,14 +237,14 @@
       "properties": {
         "id": "LOC_0011",
         "name": "Museo de la Solidaridad Salvador Allende (MSSA)",
-        "type": "Sede Institucional / Museo",
+        "type": "Location",
         "city": "Santiago",
-        "district": "Barrio República",
-        "country": "Chile",
+        "country": null,
         "wikidata": "Q6034346",
-        "description": "Sede de archivística y catalogación de memoria (2011–2012). Asistente de investigación en el fondo documental e institucional vinculado al arte político y solidaridad internacional.",
-        "why_relevant": "Sede de archivística y catalogación de memoria (2011–2012). Asistente de investigación en el fondo documental e institucional vinculado al arte político y solidaridad internacional.",
-        "micro_summary": "Investigación archivística y fichaje documental del acervo fundacional de arte político y memoria."
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -255,14 +259,14 @@
       "properties": {
         "id": "LOC_0012",
         "name": "MICIU / Ministerio de Cultura (Madrid)",
-        "type": "Sede Gubernamental",
+        "type": "Location",
         "city": "Madrid",
-        "district": "Centro",
-        "country": "España",
+        "country": null,
         "wikidata": "Q54865181",
-        "description": "Sede del Ministerio de Ciencia, Innovación y Universidades y Ministerio de Cultura de España. Organismo otorgante de la Beca de Excelencia MEC para el Máster en Humanidades Digitales (UB), la resolución de Equivalencia Oficial de Grado (2025) y beca de formación en gestión de exposiciones temporales (2012).",
-        "why_relevant": "Sede del Ministerio de Ciencia, Innovación y Universidades y Ministerio de Cultura de España. Organismo otorgante de la Beca de Excelencia MEC para el Máster en Humanidades Digitales (UB), la resolución de Equivalencia Oficial de Grado (2025) y beca de formación en gestión de exposiciones temporales (2012).",
-        "micro_summary": "Organismo otorgante de la Beca de Excelencia MEC, Equivalencia Oficial de Grado y Beca de Formación 3-C."
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -277,14 +281,14 @@
       "properties": {
         "id": "LOC_0013",
         "name": "Harvard University (Cambridge)",
-        "type": "Sede Universitaria",
+        "type": "Location",
         "city": "Cambridge, MA",
-        "district": "Middlesex County",
-        "country": "Estados Unidos",
+        "country": null,
         "wikidata": "Q13371",
-        "description": "Sede del Harvard-UAI Collaborative Research Fund Program (2018). Estadía de investigación intensiva en archivos y bibliotecas de Harvard University digitalizando revistas culturales latinoamericanas junto a la Dra. Antonia Viu.",
-        "why_relevant": "Sede del Harvard-UAI Collaborative Research Fund Program (2018). Estadía de investigación intensiva en archivos y bibliotecas de Harvard University digitalizando revistas culturales latinoamericanas junto a la Dra. Antonia Viu.",
-        "micro_summary": "Harvard-UAI Collaborative Program (2018): Estadía de investigación y digitalización de revistas culturales."
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -299,14 +303,14 @@
       "properties": {
         "id": "LOC_0014",
         "name": "Fundación TyPA / CAIA UBA (Buenos Aires)",
-        "type": "Sede Institucional",
+        "type": "Location",
         "city": "Buenos Aires",
-        "district": "Comuna 1",
-        "country": "Argentina",
-        "wikidata": "Q124618790",
-        "description": "Polo internacional de teoría y museología decolonial. Obtención del Premio Internacional Fundación TyPA y Wikimedia Argentina (2024) por el ensayo decolonial 'El canon revisitado'. Centro de vinculación investigativa con el CAIA de la Universidad de Buenos Aires.",
-        "why_relevant": "Polo internacional de teoría y museología decolonial. Obtención del Premio Internacional Fundación TyPA y Wikimedia Argentina (2024) por el ensayo decolonial 'El canon revisitado'. Centro de vinculación investigativa con el CAIA de la Universidad de Buenos Aires.",
-        "micro_summary": "Premio Internacional Fundación TyPA y Wikimedia Argentina (2024) por el ensayo decolonial 'El canon revisitado'."
+        "country": null,
+        "wikidata": null,
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -321,14 +325,14 @@
       "properties": {
         "id": "LOC_0015",
         "name": "Museo de Arte de Lima (MALI)",
-        "type": "Sede Institucional / Museo",
+        "type": "Location",
         "city": "Lima",
-        "district": "Cercado de Lima",
-        "country": "Perú",
+        "country": null,
         "wikidata": "Q6940540",
-        "description": "Nodo transnacional del proyecto 'Monvoisin en América'. Museo de Arte de Lima, espacio de investigación y catastro de pinturas del taller Monvoisin en colecciones peruanas para el catálogo razonado QUINSAC.",
-        "why_relevant": "Nodo transnacional del proyecto 'Monvoisin en América'. Museo de Arte de Lima, espacio de investigación y catastro de pinturas del taller Monvoisin en colecciones peruanas para el catálogo razonado QUINSAC.",
-        "micro_summary": "Nodo transnacional del proyecto 'Monvoisin en América': Relevamiento de obras en colecciones peruanas."
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -343,14 +347,14 @@
       "properties": {
         "id": "LOC_0016",
         "name": "Pinacoteca do Estado de São Paulo",
-        "type": "Sede Institucional / Museo",
+        "type": "Location",
         "city": "São Paulo",
-        "district": "Luz / Bom Retiro",
-        "country": "Brasil",
+        "country": null,
         "wikidata": "Q1464673",
-        "description": "Nodo transnacional del proyecto 'Monvoisin en América'. Pinacoteca do Estado de São Paulo, relevamiento de obras y circulación transatlántica de pintura decimonónica.",
-        "why_relevant": "Nodo transnacional del proyecto 'Monvoisin en América'. Pinacoteca do Estado de São Paulo, relevamiento de obras y circulación transatlántica de pintura decimonónica.",
-        "micro_summary": "Nodo transnacional: Relevamiento y circulación transatlántica de pintura decimonónica para QUINSAC."
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -365,14 +369,14 @@
       "properties": {
         "id": "LOC_0017",
         "name": "Museo Provincial de Bellas Artes Franklin Rawson",
-        "type": "Sede Institucional / Museo",
+        "type": "Location",
         "city": "San Juan",
-        "district": "Capital",
-        "country": "Argentina",
+        "country": null,
         "wikidata": "Q16609935",
-        "description": "Nodo transnacional central de la Escuela Cuyana. Museo Provincial de Bellas Artes Franklin Rawson (San Juan, Argentina), investigación del discipulaje femenino de Procesa Sarmiento y taller Monvoisin.",
-        "why_relevant": "Nodo transnacional central de la Escuela Cuyana. Museo Provincial de Bellas Artes Franklin Rawson (San Juan, Argentina), investigación del discipulaje femenino de Procesa Sarmiento y taller Monvoisin.",
-        "micro_summary": "Nodo Escuela Cuyana: Investigación del taller Monvoisin y discipulaje femenino de Procesa Sarmiento."
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -387,14 +391,14 @@
       "properties": {
         "id": "LOC_0018",
         "name": "IIPC-TAREA, Universidad Nacional de San Martín (UNSAM)",
-        "type": "Sede de Investigación",
+        "type": "Location",
         "city": "Buenos Aires",
-        "district": "San Martín",
-        "country": "Argentina",
+        "country": null,
         "wikidata": "Q7894297",
-        "description": "Instituto de Investigación en Patrimonio Cultural (UNSAM). Colaboración científica transnacional en estudios materiales, análisis físico-químico y restauración de obras de arte del siglo XIX.",
-        "why_relevant": "Instituto de Investigación en Patrimonio Cultural (UNSAM). Colaboración científica transnacional en estudios materiales, análisis físico-químico y restauración de obras de arte del siglo XIX.",
-        "micro_summary": "Colaboración científica transnacional en análisis físico-químico y restauración de obras del siglo XIX."
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -409,14 +413,14 @@
       "properties": {
         "id": "LOC_0019",
         "name": "LOM Ediciones (Barrio Concha y Toro)",
-        "type": "Sede Editorial",
+        "type": "Location",
         "city": "Santiago",
-        "district": "Santiago Centro",
-        "country": "Chile",
+        "country": null,
         "wikidata": "Q5961605",
-        "description": "Editorial independiente en Barrio Concha y Toro. Co-editor y gestor de fondos FONDART para la publicación periódica 'S/T Revista de Fotografía Contemporánea' (2014–2017) y co-investigador del libro 'Rodrigo Rojas De Negri: Un exilio sin retorno'.",
-        "why_relevant": "Editorial independiente en Barrio Concha y Toro. Co-editor y gestor de fondos FONDART para la publicación periódica 'S/T Revista de Fotografía Contemporánea' (2014–2017) y co-investigador del libro 'Rodrigo Rojas De Negri: Un exilio sin retorno'.",
-        "micro_summary": "Co-edición de S/T Revista de Fotografía Contemporánea (FONDART) y libro de Rodrigo Rojas De Negri."
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -431,14 +435,14 @@
       "properties": {
         "id": "LOC_0020",
         "name": "Centro Cultural de España en Guatemala",
-        "type": "Sede Cultural AECID",
+        "type": "Location",
         "city": "Ciudad de Guatemala",
-        "district": "Zona 1",
-        "country": "Guatemala",
+        "country": null,
         "wikidata": "Q5761159",
-        "description": "Sede de curatoría internacional (2018). Co-curador de la muestra 'Prácticas de Reiteración' en el Centro Cultural de España en Guatemala, articulando arte contemporáneo y colecciones del Museo del Mundo.",
-        "why_relevant": "Sede de curatoría internacional (2018). Co-curador de la muestra 'Prácticas de Reiteración' en el Centro Cultural de España en Guatemala, articulando arte contemporáneo y colecciones del Museo del Mundo.",
-        "micro_summary": "Co-curaduría de la exposición 'Prácticas de Reiteración' junto a Museo del Mundo en CCE Guatemala."
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -453,14 +457,14 @@
       "properties": {
         "id": "LOC_0021",
         "name": "Centro Cultural Matucana 100 (M100)",
-        "type": "Sede Cultural",
+        "type": "Location",
         "city": "Santiago",
-        "district": "Estación Central",
-        "country": "Chile",
+        "country": null,
         "wikidata": "Q5763160",
-        "description": "Sede de asistencia curatorial (2016–2017). Asistencia a Paco Barragán y Montserrat Rojas en la exposición 'Crisis, crisis, crisis: La normalidad de la emergencia', cruzando arte contemporáneo y ciencias socioambientales.",
-        "why_relevant": "Sede de asistencia curatorial (2016–2017). Asistencia a Paco Barragán y Montserrat Rojas en la exposición 'Crisis, crisis, crisis: La normalidad de la emergencia', cruzando arte contemporáneo y ciencias socioambientales.",
-        "micro_summary": "Asistencia curatorial para 'Crisis, crisis, crisis: La normalidad de la emergencia' (M100)."
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -475,14 +479,14 @@
       "properties": {
         "id": "LOC_0022",
         "name": "Sala de Arte CCU (Vitacura)",
-        "type": "Sede Corporativa / Galería",
+        "type": "Location",
         "city": "Santiago",
-        "district": "Vitacura",
-        "country": "Chile",
+        "country": null,
         "wikidata": "Q2931448",
-        "description": "Sede de curatoría institucional (2017). Co-curador junto a Gloria Cortés de la exposición 'La segunda naturaleza: Colección CCU', articulando 21 obras de arte contemporáneo desde la geografía crítica.",
-        "why_relevant": "Sede de curatoría institucional (2017). Co-curador junto a Gloria Cortés de la exposición 'La segunda naturaleza: Colección CCU', articulando 21 obras de arte contemporáneo desde la geografía crítica.",
-        "micro_summary": "Co-curador de la muestra 'La segunda naturaleza: Colección CCU' desde la geografía crítica."
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -497,14 +501,14 @@
       "properties": {
         "id": "LOC_0023",
         "name": "Museo de la Memoria y los Derechos Humanos (MMDH)",
-        "type": "Sede Institucional / Museo",
+        "type": "Location",
         "city": "Santiago",
-        "district": "Yungay / Matucana",
-        "country": "Chile",
+        "country": null,
         "wikidata": "Q2006767",
-        "description": "Sede de curatoría y derechos humanos (2016). Curador principal de la muestra retrospectiva 'A 30 años: Rodrigo Rojas De Negri', exhibida en la explanada del museo y Plaza de la Constitución.",
-        "why_relevant": "Sede de curatoría y derechos humanos (2016). Curador principal de la muestra retrospectiva 'A 30 años: Rodrigo Rojas De Negri', exhibida en la explanada del museo y Plaza de la Constitución.",
-        "micro_summary": "Curador principal de la exposición retrospectiva 'A 30 años: Rodrigo Rojas De Negri' (MMDH)."
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -519,14 +523,14 @@
       "properties": {
         "id": "LOC_0024",
         "name": "Museo de Arte y Artesanía de Linares",
-        "type": "Sede Regional SERPAT",
+        "type": "Location",
         "city": "Linares",
-        "district": "Linares",
-        "country": "Chile",
+        "country": null,
         "wikidata": "Q6033842",
-        "description": "Sede regional clave de itinerancia y mediación territorial (Región del Maule). Adaptación de guiones museográficos y montaje técnico para las muestras nacionales 'Violeta y sus contemporáneas' (2017) y 'Antúnez: Paisaje y Poesía' (2019).",
-        "why_relevant": "Sede regional clave de itinerancia y mediación territorial (Región del Maule). Adaptación de guiones museográficos y montaje técnico para las muestras nacionales 'Violeta y sus contemporáneas' (2017) y 'Antúnez: Paisaje y Poesía' (2019).",
-        "micro_summary": "Itinerancia territorial y adaptación museográfica de 'Violeta y sus contemporáneas' y Centenario Antúnez."
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -541,14 +545,14 @@
       "properties": {
         "id": "LOC_0025",
         "name": "Pinacoteca Universidad de Concepción (Casa del Arte)",
-        "type": "Sede Universitaria",
+        "type": "Location",
         "city": "Concepción",
-        "district": "Concepción",
-        "country": "Chile",
+        "country": null,
         "wikidata": "Q5047879",
-        "description": "Pinacoteca Casa del Arte UdeC (Concepción). Coordinación logística y montaje territorial para las itinerancias de Nemesio Antúnez y Violeta Parra en la Región del Biobío.",
-        "why_relevant": "Pinacoteca Casa del Arte UdeC (Concepción). Coordinación logística y montaje territorial para las itinerancias de Nemesio Antúnez y Violeta Parra en la Región del Biobío.",
-        "micro_summary": "Montaje territorial y coordinación de itinerancias de Nemesio Antúnez y Violeta Parra en Biobío."
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -563,14 +567,14 @@
       "properties": {
         "id": "LOC_0026",
         "name": "Catedral Metropolitana de la Santísima Concepción",
-        "type": "Sede Eclesiástica",
+        "type": "Location",
         "city": "Concepción",
-        "district": "Concepción",
-        "country": "Chile",
+        "country": null,
         "wikidata": "Q1050516",
-        "description": "Catedral de Concepción. Gestión y coordinación del rescate y traslado 'clavo a clavo' de la obra monumental 'Cristo y Magdalena' (1844) para la exposición Episodio Monvoisin en el MNBA.",
-        "why_relevant": "Catedral de Concepción. Gestión y coordinación del rescate y traslado 'clavo a clavo' de la obra monumental 'Cristo y Magdalena' (1844) para la exposición Episodio Monvoisin en el MNBA.",
-        "micro_summary": "Rescate y traslado 'clavo a clavo' del óleo monumental 'Cristo y Magdalena' (1844) para Episodio Monvoisin."
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -585,14 +589,14 @@
       "properties": {
         "id": "LOC_0027",
         "name": "Colección Privada Victoria (La Araucanía)",
-        "type": "Colección Privada",
+        "type": "Location",
         "city": "Victoria",
-        "district": "Victoria",
-        "country": "Chile",
+        "country": null,
         "wikidata": "Q201016",
-        "description": "Colección Privada Victoria (Región de La Araucanía). Coordinación de custodia, embalaje de alta conservación y traslado de la pintura histórica 'José Tomás de Urmeneta' (1843).",
-        "why_relevant": "Colección Privada Victoria (Región de La Araucanía). Coordinación de custodia, embalaje de alta conservación y traslado de la pintura histórica 'José Tomás de Urmeneta' (1843).",
-        "micro_summary": "Custodia y traslado especializado de la pintura histórica 'José Tomás de Urmeneta' (1843)."
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -607,14 +611,14 @@
       "properties": {
         "id": "LOC_0028",
         "name": "Palacio Cousiño (Santiago Centro)",
-        "type": "Inmueble Patrimonial",
+        "type": "Location",
         "city": "Santiago",
-        "district": "Dieciocho / Parque Almagro",
-        "country": "Chile",
+        "country": null,
         "wikidata": "Q7126294",
-        "description": "Palacio Cousiño (Santiago Centro). Coordinación técnica de salida temporal y resguardo patrimonial de obras clave para la muestra Episodio Monvoisin.",
-        "why_relevant": "Palacio Cousiño (Santiago Centro). Coordinación técnica de salida temporal y resguardo patrimonial de obras clave para la muestra Episodio Monvoisin.",
-        "micro_summary": "Coordinación técnica de salida temporal y resguardo de obras clave para la muestra Episodio Monvoisin."
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -629,14 +633,14 @@
       "properties": {
         "id": "LOC_0029",
         "name": "Museo del Carmen de Maipú",
-        "type": "Sede Institucional / Museo",
+        "type": "Location",
         "city": "Maipú",
-        "district": "Rinconada",
-        "country": "Chile",
+        "country": null,
         "wikidata": "Q6034388",
-        "description": "Museo del Carmen de Maipú. Tramitación y traslado interinstitucional de la monumental pintura 'Abdicación de O'Higgins' para su exhibición central en el MNBA.",
-        "why_relevant": "Museo del Carmen de Maipú. Tramitación y traslado interinstitucional de la monumental pintura 'Abdicación de O'Higgins' para su exhibición central en el MNBA.",
-        "micro_summary": "Tramitación y traslado interinstitucional del óleo monumental 'Abdicación de O'Higgins' para el MNBA."
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -651,14 +655,14 @@
       "properties": {
         "id": "LOC_0030",
         "name": "Colección Privada Vitacura",
-        "type": "Colección Privada",
+        "type": "Location",
         "city": "Santiago",
-        "district": "Vitacura",
-        "country": "Chile",
+        "country": null,
         "wikidata": "Q2931448",
-        "description": "Colección Privada Vitacura. Operativo logístico de traslado y seguro de 5 pinturas decimonónicas de colecciones particulares de alta relevancia histórica.",
-        "why_relevant": "Colección Privada Vitacura. Operativo logístico de traslado y seguro de 5 pinturas decimonónicas de colecciones particulares de alta relevancia histórica.",
-        "micro_summary": "Operativo logístico de traslado y seguro de 5 pinturas decimonónicas de colecciones particulares."
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -673,14 +677,14 @@
       "properties": {
         "id": "LOC_0031",
         "name": "Colección Privada Calera de Tango",
-        "type": "Colección Privada",
+        "type": "Location",
         "city": "Calera de Tango",
-        "district": "Calera de Tango",
-        "country": "Chile",
+        "country": null,
         "wikidata": "Q3691",
-        "description": "Colección Privada Calera de Tango. Traslado 'clavo a clavo' de 5 obras patrimoniales desde zonas periurbanas de la Región Metropolitana.",
-        "why_relevant": "Colección Privada Calera de Tango. Traslado 'clavo a clavo' de 5 obras patrimoniales desde zonas periurbanas de la Región Metropolitana.",
-        "micro_summary": "Traslado 'clavo a clavo' de 5 obras patrimoniales desde zonas periurbanas de la Región Metropolitana."
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -695,14 +699,14 @@
       "properties": {
         "id": "LOC_0032",
         "name": "Colección Privada Recoleta",
-        "type": "Colección Privada",
+        "type": "Location",
         "city": "Santiago",
-        "district": "Recoleta",
-        "country": "Chile",
+        "country": null,
         "wikidata": "Q56125",
-        "description": "Colección Privada Recoleta. Gestión de préstamo y resguardo patrimonial de obra pictórica decimonónica para exhibición nacional.",
-        "why_relevant": "Colección Privada Recoleta. Gestión de préstamo y resguardo patrimonial de obra pictórica decimonónica para exhibición nacional.",
-        "micro_summary": "Gestión de préstamo y resguardo patrimonial de obra pictórica decimonónica para exhibición nacional."
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -717,14 +721,14 @@
       "properties": {
         "id": "LOC_0033",
         "name": "Colección Privada Huechuraba",
-        "type": "Colección Privada",
+        "type": "Location",
         "city": "Santiago",
-        "district": "Huechuraba",
-        "country": "Chile",
+        "country": null,
         "wikidata": "Q14424",
-        "description": "Colección Privada Huechuraba. Coordinación logística de transporte especializado y póliza de seguro contra todo riesgo.",
-        "why_relevant": "Colección Privada Huechuraba. Coordinación logística de transporte especializado y póliza de seguro contra todo riesgo.",
-        "micro_summary": "Coordinación logística de transporte especializado y póliza de seguro contra todo riesgo."
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -739,14 +743,14 @@
       "properties": {
         "id": "LOC_0034",
         "name": "Colección Privada Providencia",
-        "type": "Colección Privada",
+        "type": "Location",
         "city": "Santiago",
-        "district": "Providencia",
-        "country": "Chile",
+        "country": null,
         "wikidata": "Q51594",
-        "description": "Colección Privada Providencia. Tramitación de préstamo institucional y embalaje especializado para exhibición en Sala Matta del MNBA.",
-        "why_relevant": "Colección Privada Providencia. Tramitación de préstamo institucional y embalaje especializado para exhibición en Sala Matta del MNBA.",
-        "micro_summary": "Tramitación de préstamo institucional y embalaje especializado para Sala Matta del MNBA."
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -761,14 +765,14 @@
       "properties": {
         "id": "LOC_0035",
         "name": "Colección Privada Las Condes",
-        "type": "Colección Privada",
+        "type": "Location",
         "city": "Santiago",
-        "district": "Las Condes",
-        "country": "Chile",
+        "country": null,
         "wikidata": "Q14484",
-        "description": "Colección Privada Las Condes. Coordinación de traslado de 2 óleos de gran formato con escolta y protocolos de conservación preventiva.",
-        "why_relevant": "Colección Privada Las Condes. Coordinación de traslado de 2 óleos de gran formato con escolta y protocolos de conservación preventiva.",
-        "micro_summary": "Traslado de 2 óleos de gran formato con escolta y protocolos de conservación preventiva."
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -783,14 +787,14 @@
       "properties": {
         "id": "LOC_0036",
         "name": "Colección Privada Padre Hurtado",
-        "type": "Colección Privada",
+        "type": "Location",
         "city": "Padre Hurtado",
-        "district": "Padre Hurtado",
-        "country": "Chile",
+        "country": null,
         "wikidata": "Q51079",
-        "description": "Colección Privada Padre Hurtado. Coordinación de embalaje térmico y traslado seguro hacia los depósitos del MNBA.",
-        "why_relevant": "Colección Privada Padre Hurtado. Coordinación de embalaje térmico y traslado seguro hacia los depósitos del MNBA.",
-        "micro_summary": "Embalaje térmico y traslado seguro hacia los depósitos técnicos del MNBA."
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -805,14 +809,14 @@
       "properties": {
         "id": "LOC_0037",
         "name": "Colección Privada Graneros",
-        "type": "Colección Privada",
+        "type": "Location",
         "city": "Graneros",
-        "district": "Graneros",
-        "country": "Chile",
+        "country": null,
         "wikidata": "Q13063",
-        "description": "Colección Privada Graneros (Región de O'Higgins). Descentralización logística y retiro de 2 piezas patrimoniales de coleccionismo regional.",
-        "why_relevant": "Colección Privada Graneros (Región de O'Higgins). Descentralización logística y retiro de 2 piezas patrimoniales de coleccionismo regional.",
-        "micro_summary": "Descentralización logística y retiro de 2 piezas patrimoniales de coleccionismo regional."
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -827,14 +831,14 @@
       "properties": {
         "id": "LOC_0038",
         "name": "Colección Privada Nancagua",
-        "type": "Colección Privada",
+        "type": "Location",
         "city": "Nancagua",
-        "district": "Nancagua",
-        "country": "Chile",
+        "country": null,
         "wikidata": "Q51048",
-        "description": "Colección Privada Nancagua (Valle de Colchagua). Coordinación de préstamo y traslado de obra patrimonial histórica.",
-        "why_relevant": "Colección Privada Nancagua (Valle de Colchagua). Coordinación de préstamo y traslado de obra patrimonial histórica.",
-        "micro_summary": "Coordinación de préstamo y traslado de obra patrimonial histórica en el Valle de Colchagua."
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -849,14 +853,14 @@
       "properties": {
         "id": "LOC_0039",
         "name": "Museo Nacional de San Carlos (Ciudad de México)",
-        "type": "Sede Institucional / Museo",
+        "type": "Location",
         "city": "Ciudad de México",
-        "district": "Cuauhtémoc / Tabacalera",
-        "country": "México",
+        "country": null,
         "wikidata": "Q6940509",
-        "description": "Sede de curaduría binacional internacional (2022). Co-curador y coordinador editorial de la exposición 'El canon revisitado: Una mirada al arte europeo desde América Latina' en el Museo Nacional de San Carlos.",
-        "why_relevant": "Sede de curaduría binacional internacional (2022). Co-curador y coordinador editorial de la exposición 'El canon revisitado: Una mirada al arte europeo desde América Latina' en el Museo Nacional de San Carlos.",
-        "micro_summary": "Co-curador y editor de 'El canon revisitado: Una mirada al arte europeo desde América Latina'."
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -871,14 +875,14 @@
       "properties": {
         "id": "LOC_0040",
         "name": "Universidade Federal de São Paulo (UNIFESP)",
-        "type": "Sede Universitaria",
+        "type": "Location",
         "city": "São Paulo",
-        "district": "Vila Clementino",
-        "country": "Brasil",
+        "country": null,
         "wikidata": "Q1142270",
-        "description": "Universidade Federal de São Paulo (Brasil). Ponencia y publicación internacional en actas sobre la pintura 'El Fuerte Bulnes' de Alessandro Ciccarelli y fronteras coloniales (2017).",
-        "why_relevant": "Universidade Federal de São Paulo (Brasil). Ponencia y publicación internacional en actas sobre la pintura 'El Fuerte Bulnes' de Alessandro Ciccarelli y fronteras coloniales (2017).",
-        "micro_summary": "Ponencia y publicación internacional en actas sobre 'El Fuerte Bulnes' y fronteras coloniales."
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -893,14 +897,14 @@
       "properties": {
         "id": "LOC_0041",
         "name": "Universidad Nacional de Mar del Plata (UNMDP)",
-        "type": "Sede Universitaria",
+        "type": "Location",
         "city": "Mar del Plata",
-        "district": "Centro",
-        "country": "Argentina",
+        "country": null,
         "wikidata": "Q3551676",
-        "description": "Universidad Nacional de Mar del Plata (Argentina). Participación en jornadas de historia del arte y redes de investigación sobre el mercado del arte en el Cono Sur.",
-        "why_relevant": "Universidad Nacional de Mar del Plata (Argentina). Participación en jornadas de historia del arte y redes de investigación sobre el mercado del arte en el Cono Sur.",
-        "micro_summary": "Jornadas de historia del arte y redes de investigación sobre el mercado del arte en el Cono Sur."
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -915,14 +919,14 @@
       "properties": {
         "id": "LOC_0042",
         "name": "Pontificia Universidad Católica de Chile (Casa Central / Campus Oriente)",
-        "type": "Sede Universitaria",
+        "type": "Location",
         "city": "Santiago",
-        "district": "Santiago / Providencia",
-        "country": "Chile",
+        "country": null,
         "wikidata": "Q287900",
-        "description": "Pontificia Universidad Católica de Chile. Cursos de formación en estatuto administrativo y publicación de capítulos de libros en simposios internacionales de estética.",
-        "why_relevant": "Pontificia Universidad Católica de Chile. Cursos de formación en estatuto administrativo y publicación de capítulos de libros en simposios internacionales de estética.",
-        "micro_summary": "Formación en estatuto administrativo y publicación en simposios internacionales de estética."
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -937,14 +941,14 @@
       "properties": {
         "id": "LOC_0043",
         "name": "Universidad Andrés Bello (UNAB Bellavista / República)",
-        "type": "Sede Universitaria",
+        "type": "Location",
         "city": "Santiago",
-        "district": "Recoleta / Santiago",
-        "country": "Chile",
+        "country": null,
         "wikidata": "Q7894220",
-        "description": "Universidad Andrés Bello. Evaluador externo y revisor ciego por pares para la Revista de Humanidades de la UNAB (2023).",
-        "why_relevant": "Universidad Andrés Bello. Evaluador externo y revisor ciego por pares para la Revista de Humanidades de la UNAB (2023).",
-        "micro_summary": "Evaluador externo y revisor ciego por pares para la Revista de Humanidades de la UNAB."
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -959,14 +963,14 @@
       "properties": {
         "id": "LOC_0044",
         "name": "CENFOTO UDP (Barrio Universitario)",
-        "type": "Sede Universitaria",
+        "type": "Location",
         "city": "Santiago",
-        "district": "Santiago Centro",
-        "country": "Chile",
+        "country": null,
         "wikidata": "Q50682284",
-        "description": "CENFOTO Universidad Diego Portales. Cursado de especialización técnica en digitalización de soportes fotográficos y documentos patrimoniales (2020).",
-        "why_relevant": "CENFOTO Universidad Diego Portales. Cursado de especialización técnica en digitalización de soportes fotográficos y documentos patrimoniales (2020).",
-        "micro_summary": "Especialización técnica en digitalización de soportes fotográficos y documentos patrimoniales."
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -981,14 +985,14 @@
       "properties": {
         "id": "LOC_0045",
         "name": "Instituto Mexicano de Curaduría y Restauración (IMCR)",
-        "type": "Sede Institucional",
+        "type": "Location",
         "city": "Ciudad de México",
-        "district": "Cuauhtémoc",
-        "country": "México",
-        "wikidata": "Q124618791",
-        "description": "Instituto Mexicano de Curaduría y Restauración. Certificación académica en museología crítica latinoamericana y herencia africana en el arte (2020).",
-        "why_relevant": "Instituto Mexicano de Curaduría y Restauración. Certificación académica en museología crítica latinoamericana y herencia africana en el arte (2020).",
-        "micro_summary": "Certificación académica en museología crítica latinoamericana y herencia africana en el arte."
+        "country": null,
+        "wikidata": null,
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -1003,14 +1007,14 @@
       "properties": {
         "id": "LOC_0046",
         "name": "ISUCH - Universidad de Chile",
-        "type": "Sede Educativa",
+        "type": "Location",
         "city": "Santiago",
-        "district": "Santiago Centro",
-        "country": "Chile",
-        "wikidata": "Q124618792",
-        "description": "Instituto de Estudios Secundarios (ISUCH). Docencia escolar especializada en Historia del Arte y Diseño para estudiantes de enseñanza media (2013).",
-        "why_relevant": "Instituto de Estudios Secundarios (ISUCH). Docencia escolar especializada en Historia del Arte y Diseño para estudiantes de enseñanza media (2013).",
-        "micro_summary": "Docencia escolar especializada en Historia del Arte y Diseño para estudiantes de enseñanza media."
+        "country": null,
+        "wikidata": null,
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -1025,14 +1029,14 @@
       "properties": {
         "id": "LOC_0047",
         "name": "Instituto de Seguridad Laboral (ISL)",
-        "type": "Sede Gubernamental",
+        "type": "Location",
         "city": "Santiago",
-        "district": "Santiago Centro",
-        "country": "Chile",
+        "country": null,
         "wikidata": "Q5918342",
-        "description": "Instituto de Seguridad Laboral (ISL). Capacitación certificada en prevención de riesgos laborales y metodología de árbol de causas en espacios de trabajo (2021).",
-        "why_relevant": "Instituto de Seguridad Laboral (ISL). Capacitación certificada en prevención de riesgos laborales y metodología de árbol de causas en espacios de trabajo (2021).",
-        "micro_summary": "Capacitación certificada en prevención de riesgos laborales y metodología de árbol de causas."
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -1047,14 +1051,14 @@
       "properties": {
         "id": "LOC_0048",
         "name": "Centro de Estudios Árabes y Judaicos UCH",
-        "type": "Sede Universitaria",
+        "type": "Location",
         "city": "Santiago",
-        "district": "Ñuñoa / Santiago",
-        "country": "Chile",
+        "country": null,
         "wikidata": "Q232438",
-        "description": "Centro de Estudios Árabes y Judaicos (Universidad de Chile). Cursado de diplomados de extensión en judaísmo e historia de civilizaciones del Medio Oriente antiguo (2008–2010).",
-        "why_relevant": "Centro de Estudios Árabes y Judaicos (Universidad de Chile). Cursado de diplomados de extensión en judaísmo e historia de civilizaciones del Medio Oriente antiguo (2008–2010).",
-        "micro_summary": "Diplomados de extensión en judaísmo e historia de civilizaciones del Medio Oriente antiguo."
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -1069,14 +1073,14 @@
       "properties": {
         "id": "LOC_0049",
         "name": "Biblioteca Nacional Digital / Biblioteca Nacional de Chile",
-        "type": "Sede Patrimonial",
+        "type": "Location",
         "city": "Santiago",
-        "district": "Santiago Centro",
-        "country": "Chile",
+        "country": null,
         "wikidata": "Q2478544",
-        "description": "Biblioteca Nacional Digital de Chile. Co-creación y publicación de la cápsula cartográfica interactiva 'Monvoisin: huellas territoriales de un artista' (ArcGIS StoryMaps, 2024).",
-        "why_relevant": "Biblioteca Nacional Digital de Chile. Co-creación y publicación de la cápsula cartográfica interactiva 'Monvoisin: huellas territoriales de un artista' (ArcGIS StoryMaps, 2024).",
-        "micro_summary": "Publicación de la cápsula cartográfica interactiva 'Monvoisin: huellas territoriales' (StoryMaps)."
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -1091,14 +1095,14 @@
       "properties": {
         "id": "LOC_0050",
         "name": "Plaza de la Constitución (Santiago)",
-        "type": "Espacio Público",
+        "type": "Location",
         "city": "Santiago",
-        "district": "Santiago Centro",
-        "country": "Chile",
+        "country": null,
         "wikidata": "Q7203673",
-        "description": "Plaza de la Constitución (Santiago). Espacio de intervención pública y memoria para la muestra fotográfica 'A 30 años: Rodrigo Rojas De Negri' (2016).",
-        "why_relevant": "Plaza de la Constitución (Santiago). Espacio de intervención pública y memoria para la muestra fotográfica 'A 30 años: Rodrigo Rojas De Negri' (2016).",
-        "micro_summary": "Intervención pública y memoria para la muestra fotográfica 'A 30 años: Rodrigo Rojas De Negri'."
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -1113,14 +1117,14 @@
       "properties": {
         "id": "LOC_0051",
         "name": "Artistas del Acero (Concepción)",
-        "type": "Centro Cultural",
+        "type": "Location",
         "city": "Concepción",
-        "district": "Centro",
-        "country": "Chile",
-        "wikidata": "Q124618795",
-        "description": "Centro Cultural Artistas del Acero (Concepción). Espacio cultural colaborador en itinerancias de artes visuales y mediación regional.",
-        "why_relevant": "Centro Cultural Artistas del Acero (Concepción). Espacio cultural colaborador en itinerancias de artes visuales y mediación regional.",
-        "micro_summary": "Espacio cultural colaborador en itinerancias de artes visuales y mediación regional en Biobío."
+        "country": null,
+        "wikidata": null,
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -1135,14 +1139,14 @@
       "properties": {
         "id": "LOC_0052",
         "name": "Museo Benjamín Vicuña Mackenna",
-        "type": "Sede Institucional / Museo",
+        "type": "Location",
         "city": "Santiago",
-        "district": "Providencia",
-        "country": "Chile",
+        "country": null,
         "wikidata": "Q6033182",
-        "description": "Museo Benjamín Vicuña Mackenna. Espacio de investigación sobre historia urbana y transformaciones de Santiago en el siglo XIX.",
-        "why_relevant": "Museo Benjamín Vicuña Mackenna. Espacio de investigación sobre historia urbana y transformaciones de Santiago en el siglo XIX.",
-        "micro_summary": "Investigación sobre historia urbana y transformaciones espaciales de Santiago en el siglo XIX."
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -1157,14 +1161,14 @@
       "properties": {
         "id": "LOC_0053",
         "name": "Washington D.C. (Exilio Rodrigo Rojas De Negri)",
-        "type": "Espacio Urbano Internacional",
+        "type": "Location",
         "city": "Washington D.C.",
-        "district": "District of Columbia",
-        "country": "Estados Unidos",
+        "country": null,
         "wikidata": "Q61",
-        "description": "Washington D.C. (EE.UU.). Espacio geohistórico del exilio del fotógrafo Rodrigo Rojas De Negri, investigado y catalogado en el proyecto FONDART 2015.",
-        "why_relevant": "Washington D.C. (EE.UU.). Espacio geohistórico del exilio del fotógrafo Rodrigo Rojas De Negri, investigado y catalogado en el proyecto FONDART 2015.",
-        "micro_summary": "Espacio geohistórico del exilio del fotógrafo Rodrigo Rojas De Negri (Proyecto FONDART 2015)."
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -1179,14 +1183,14 @@
       "properties": {
         "id": "LOC_0054",
         "name": "Roma / Florencia / Carrara (Italia - Redes Escultóricas)",
-        "type": "Espacio Urbano Internacional",
+        "type": "Location",
         "city": "Roma / Florencia",
-        "district": "Lazio / Toscana",
-        "country": "Italia",
+        "country": null,
         "wikidata": "Q38",
-        "description": "Roma / Florencia / Carrara (Italia). Nodos geográficos de origen del FONDECYT Regular 1241154 'De mármoles y bronces', mapeando viajes y contratos de artesanos italianos a Chile.",
-        "why_relevant": "Roma / Florencia / Carrara (Italia). Nodos geográficos de origen del FONDECYT Regular 1241154 'De mármoles y bronces', mapeando viajes y contratos de artesanos italianos a Chile.",
-        "micro_summary": "Nodos de origen del FONDECYT 'De mármoles y bronces' (contratos y viajes de artesanos a Chile)."
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -1201,14 +1205,14 @@
       "properties": {
         "id": "LOC_0055",
         "name": "Livingston (Guatemala - Red Prácticas de Reiteración)",
-        "type": "Espacio Comunitario / Puerto",
+        "type": "Location",
         "city": "Livingston",
-        "district": "Izabal",
-        "country": "Guatemala",
+        "country": null,
         "wikidata": "Q954318",
-        "description": "Livingston (Guatemala). Territorio de trabajo etnográfico y coleccionismo popular vinculado al proyecto curatorial 'Prácticas de Reiteración' (Museo del Mundo, 2018).",
-        "why_relevant": "Livingston (Guatemala). Territorio de trabajo etnográfico y coleccionismo popular vinculado al proyecto curatorial 'Prácticas de Reiteración' (Museo del Mundo, 2018).",
-        "micro_summary": "Territorio de trabajo etnográfico vinculado a la curaduría 'Prácticas de Reiteración' (2018)."
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -1223,14 +1227,14 @@
       "properties": {
         "id": "LOC_0056",
         "name": "Galería Isabel Croxatto (Vitacura)",
-        "type": "Galería de Arte Contemporáneo",
+        "type": "Location",
         "city": "Santiago",
-        "district": "Vitacura",
-        "country": "Chile",
-        "wikidata": "Q124618814",
-        "description": "Galería Isabel Croxatto (Santiago). Curador de la exposición individual 'Sonata' del artista Wladymir Bernechea (2022).",
-        "why_relevant": "Galería Isabel Croxatto (Santiago). Curador de la exposición individual 'Sonata' del artista Wladymir Bernechea (2022).",
-        "micro_summary": "Curador de la exposición individual 'Sonata' del artista visual Wladymir Bernechea (2022)."
+        "country": null,
+        "wikidata": null,
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     },
     {
@@ -1245,743 +1249,14 @@
       "properties": {
         "id": "LOC_0057",
         "name": "CECAL UdeC (Chillán)",
-        "type": "Centro de Extensión Universitario",
+        "type": "Location",
         "city": "Ñuble",
-        "district": "Chillán",
-        "country": "Chile",
-        "wikidata": "Q124618815",
-        "description": "Centro de Extensión CECAL UdeC (Chillán, Región de Ñuble). Itinerancia y montaje técnico de la exposición nacional Centenario Nemesio Antúnez (2018).",
-        "why_relevant": "Centro de Extensión CECAL UdeC (Chillán, Región de Ñuble). Itinerancia y montaje técnico de la exposición nacional Centenario Nemesio Antúnez (2018).",
-        "micro_summary": "Itinerancia y montaje técnico de la exposición nacional Centenario Nemesio Antúnez en Ñuble."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -70.6439,
-            -33.4352
-          ],
-          [
-            12.5673,
-            41.8719
-          ]
-        ]
-      },
-      "properties": {
-        "id": "PRJ_0002",
-        "title": "De mármoles y bronces entre el Mediterráneo y los Andes (FONDECYT 1241154)",
-        "origin": "Italia",
-        "destination": "Chile",
-        "scale": "Transnacional",
-        "concept": "Redes transatlánticas | Circulación de modelos",
-        "url": "https://marmoles-y-bronces.vercel.app",
-        "description": "Eje de conexión territorial e itinerancia: Italia ➔ Chile. Proyecto: De mármoles y bronces entre el Mediterráneo y los Andes (FONDECYT 1241154). Concepto: Redes transatlánticas | Circulación de modelos.",
-        "micro_summary": "Itinerancia: Italia ➔ Chile (De mármoles y bronces entre el Mediterráneo y los Andes (FONDECYT 1241154))"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -70.5516,
-            -33.4975
-          ],
-          [
-            -71.1167,
-            42.377
-          ]
-        ]
-      },
-      "properties": {
-        "id": "PRJ_0007",
-        "title": "Cultures of reading and global intellectual communities in Latin American periodicals",
-        "origin": "Cambridge (MA)",
-        "destination": "Santiago",
-        "scale": "Internacional",
-        "concept": "Redes intelectuales globales",
-        "url": "https://harvard.edu",
-        "description": "Eje de conexión territorial e itinerancia: Cambridge (MA) ➔ Santiago. Proyecto: Cultures of reading and global intellectual communities in Latin American periodicals. Concepto: Redes intelectuales globales.",
-        "micro_summary": "Itinerancia: Cambridge (MA) ➔ Santiago (Cultures of reading and global intellectual communities in Latin American periodicals)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -73.0503,
-            -36.8261
-          ],
-          [
-            -70.6439,
-            -33.4352
-          ]
-        ]
-      },
-      "properties": {
-        "id": "EXP_0001_M01",
-        "title": "Traslado obra monumental Cristo y Magdalena",
-        "origin": "Catedral de Concepción",
-        "destination": "MNBA",
-        "scale": "Nacional",
-        "concept": "Logística territorial | Descentralización",
-        "url": "https://www.diarioelsur.cl",
-        "description": "Eje de conexión territorial e itinerancia: Catedral de Concepción ➔ MNBA. Proyecto: Traslado obra monumental Cristo y Magdalena. Concepto: Logística territorial | Descentralización.",
-        "micro_summary": "Itinerancia: Catedral de Concepción ➔ MNBA (Traslado obra monumental Cristo y Magdalena)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -72.3323,
-            -38.2305
-          ],
-          [
-            -70.6439,
-            -33.4352
-          ]
-        ]
-      },
-      "properties": {
-        "id": "EXP_0001_M02",
-        "title": "Traslado y rescate obra José Tomás de Urmeneta",
-        "origin": "Victoria (Araucanía)",
-        "destination": "MNBA",
-        "scale": "Nacional",
-        "concept": "Trazabilidad territorial | Frontera",
-        "url": "https://www.mnba.gob.cl",
-        "description": "Eje de conexión territorial e itinerancia: Victoria (Araucanía) ➔ MNBA. Proyecto: Traslado y rescate obra José Tomás de Urmeneta. Concepto: Trazabilidad territorial | Frontera.",
-        "micro_summary": "Itinerancia: Victoria (Araucanía) ➔ MNBA (Traslado y rescate obra José Tomás de Urmeneta)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -70.6569,
-            -33.4522
-          ],
-          [
-            -70.6439,
-            -33.4352
-          ]
-        ]
-      },
-      "properties": {
-        "id": "EXP_0001_M03",
-        "title": "Traslado alta complejidad obras Palacio Cousiño",
-        "origin": "Palacio Cousiño",
-        "destination": "MNBA",
-        "scale": "Urbano",
-        "concept": "Riesgo y conservación | Logística urbana",
-        "url": "https://palaciocousino.cl",
-        "description": "Eje de conexión territorial e itinerancia: Palacio Cousiño ➔ MNBA. Proyecto: Traslado alta complejidad obras Palacio Cousiño. Concepto: Riesgo y conservación | Logística urbana.",
-        "micro_summary": "Itinerancia: Palacio Cousiño ➔ MNBA (Traslado alta complejidad obras Palacio Cousiño)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -70.7575,
-            -33.51
-          ],
-          [
-            -70.6439,
-            -33.4352
-          ]
-        ]
-      },
-      "properties": {
-        "id": "EXP_0001_M04",
-        "title": "Traslado Institucional Intercomunal (Abdicación de O'Higgins)",
-        "origin": "Maipú",
-        "destination": "MNBA",
-        "scale": "Urbano",
-        "concept": "Articulación interinstitucional",
-        "url": "https://museodelcarmen.cl",
-        "description": "Eje de conexión territorial e itinerancia: Maipú ➔ MNBA. Proyecto: Traslado Institucional Intercomunal (Abdicación de O'Higgins). Concepto: Articulación interinstitucional.",
-        "micro_summary": "Itinerancia: Maipú ➔ MNBA (Traslado Institucional Intercomunal (Abdicación de O'Higgins))"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -70.6,
-            -33.38
-          ],
-          [
-            -70.6439,
-            -33.4352
-          ]
-        ]
-      },
-      "properties": {
-        "id": "EXP_0001_M05",
-        "title": "Traslado Colección Privada Vitacura (5 obras)",
-        "origin": "Vitacura",
-        "destination": "MNBA",
-        "scale": "Urbano",
-        "concept": "Geografía del coleccionismo privado",
-        "url": "https://www.mnba.gob.cl",
-        "description": "Eje de conexión territorial e itinerancia: Vitacura ➔ MNBA. Proyecto: Traslado Colección Privada Vitacura (5 obras). Concepto: Geografía del coleccionismo privado.",
-        "micro_summary": "Itinerancia: Vitacura ➔ MNBA (Traslado Colección Privada Vitacura (5 obras))"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -70.7833,
-            -33.6333
-          ],
-          [
-            -70.6439,
-            -33.4352
-          ]
-        ]
-      },
-      "properties": {
-        "id": "EXP_0001_M06",
-        "title": "Traslado Colección Privada Calera de Tango (5 obras)",
-        "origin": "Calera de Tango",
-        "destination": "MNBA",
-        "scale": "Urbano",
-        "concept": "Trazabilidad territorial | Borde periurbano",
-        "url": "https://www.mnba.gob.cl",
-        "description": "Eje de conexión territorial e itinerancia: Calera de Tango ➔ MNBA. Proyecto: Traslado Colección Privada Calera de Tango (5 obras). Concepto: Trazabilidad territorial | Borde periurbano.",
-        "micro_summary": "Itinerancia: Calera de Tango ➔ MNBA (Traslado Colección Privada Calera de Tango (5 obras))"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -70.6333,
-            -33.4
-          ],
-          [
-            -70.6439,
-            -33.4352
-          ]
-        ]
-      },
-      "properties": {
-        "id": "EXP_0001_M07",
-        "title": "Traslado Colección Privada Recoleta (1 obra)",
-        "origin": "Recoleta",
-        "destination": "MNBA",
-        "scale": "Urbano",
-        "concept": "Geografía del coleccionismo privado",
-        "url": "https://www.mnba.gob.cl",
-        "description": "Eje de conexión territorial e itinerancia: Recoleta ➔ MNBA. Proyecto: Traslado Colección Privada Recoleta (1 obra). Concepto: Geografía del coleccionismo privado.",
-        "micro_summary": "Itinerancia: Recoleta ➔ MNBA (Traslado Colección Privada Recoleta (1 obra))"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -70.65,
-            -33.3667
-          ],
-          [
-            -70.6439,
-            -33.4352
-          ]
-        ]
-      },
-      "properties": {
-        "id": "EXP_0001_M08",
-        "title": "Traslado Colección Privada Huechuraba (1 obra)",
-        "origin": "Huechuraba",
-        "destination": "MNBA",
-        "scale": "Urbano",
-        "concept": "Geografía del coleccionismo privado",
-        "url": "https://www.mnba.gob.cl",
-        "description": "Eje de conexión territorial e itinerancia: Huechuraba ➔ MNBA. Proyecto: Traslado Colección Privada Huechuraba (1 obra). Concepto: Geografía del coleccionismo privado.",
-        "micro_summary": "Itinerancia: Huechuraba ➔ MNBA (Traslado Colección Privada Huechuraba (1 obra))"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -70.6167,
-            -33.4333
-          ],
-          [
-            -70.6439,
-            -33.4352
-          ]
-        ]
-      },
-      "properties": {
-        "id": "EXP_0001_M09",
-        "title": "Traslado Colección Privada Providencia (1 obra)",
-        "origin": "Providencia",
-        "destination": "MNBA",
-        "scale": "Urbano",
-        "concept": "Geografía del coleccionismo privado",
-        "url": "https://www.mnba.gob.cl",
-        "description": "Eje de conexión territorial e itinerancia: Providencia ➔ MNBA. Proyecto: Traslado Colección Privada Providencia (1 obra). Concepto: Geografía del coleccionismo privado.",
-        "micro_summary": "Itinerancia: Providencia ➔ MNBA (Traslado Colección Privada Providencia (1 obra))"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -70.5833,
-            -33.4167
-          ],
-          [
-            -70.6439,
-            -33.4352
-          ]
-        ]
-      },
-      "properties": {
-        "id": "EXP_0001_M10",
-        "title": "Traslado Colección Privada Las Condes (2 obras)",
-        "origin": "Las Condes",
-        "destination": "MNBA",
-        "scale": "Urbano",
-        "concept": "Geografía del coleccionismo privado",
-        "url": "https://www.mnba.gob.cl",
-        "description": "Eje de conexión territorial e itinerancia: Las Condes ➔ MNBA. Proyecto: Traslado Colección Privada Las Condes (2 obras). Concepto: Geografía del coleccionismo privado.",
-        "micro_summary": "Itinerancia: Las Condes ➔ MNBA (Traslado Colección Privada Las Condes (2 obras))"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -70.8167,
-            -33.5667
-          ],
-          [
-            -70.6439,
-            -33.4352
-          ]
-        ]
-      },
-      "properties": {
-        "id": "EXP_0001_M11",
-        "title": "Traslado Colección Privada Padre Hurtado (1 obra)",
-        "origin": "Padre Hurtado",
-        "destination": "MNBA",
-        "scale": "Urbano",
-        "concept": "Trazabilidad territorial",
-        "url": "https://www.mnba.gob.cl",
-        "description": "Eje de conexión territorial e itinerancia: Padre Hurtado ➔ MNBA. Proyecto: Traslado Colección Privada Padre Hurtado (1 obra). Concepto: Trazabilidad territorial.",
-        "micro_summary": "Itinerancia: Padre Hurtado ➔ MNBA (Traslado Colección Privada Padre Hurtado (1 obra))"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -70.7333,
-            -34.0667
-          ],
-          [
-            -70.6439,
-            -33.4352
-          ]
-        ]
-      },
-      "properties": {
-        "id": "EXP_0001_M12",
-        "title": "Traslado Colección Privada Graneros (2 obras)",
-        "origin": "Graneros (O'Higgins)",
-        "destination": "MNBA",
-        "scale": "Regional",
-        "concept": "Descentralización | Coleccionismo regional",
-        "url": "https://www.mnba.gob.cl",
-        "description": "Eje de conexión territorial e itinerancia: Graneros (O'Higgins) ➔ MNBA. Proyecto: Traslado Colección Privada Graneros (2 obras). Concepto: Descentralización | Coleccionismo regional.",
-        "micro_summary": "Itinerancia: Graneros (O'Higgins) ➔ MNBA (Traslado Colección Privada Graneros (2 obras))"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -71.2,
-            -34.6667
-          ],
-          [
-            -70.6439,
-            -33.4352
-          ]
-        ]
-      },
-      "properties": {
-        "id": "EXP_0001_M13",
-        "title": "Traslado Colección Privada Nancagua (1 obra)",
-        "origin": "Nancagua (O'Higgins)",
-        "destination": "MNBA",
-        "scale": "Regional",
-        "concept": "Descentralización | Coleccionismo regional",
-        "url": "https://www.mnba.gob.cl",
-        "description": "Eje de conexión territorial e itinerancia: Nancagua (O'Higgins) ➔ MNBA. Proyecto: Traslado Colección Privada Nancagua (1 obra). Concepto: Descentralización | Coleccionismo regional.",
-        "micro_summary": "Itinerancia: Nancagua (O'Higgins) ➔ MNBA (Traslado Colección Privada Nancagua (1 obra))"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -88.7514,
-            15.8286
-          ],
-          [
-            -90.5132,
-            14.6407
-          ]
-        ]
-      },
-      "properties": {
-        "id": "EXP_0002",
-        "title": "Prácticas de reiteración: Colección Museo del Mundo",
-        "origin": "Livingston (Guatemala)",
-        "destination": "Ciudad de Guatemala",
-        "scale": "Transnacional | Latinoamericano",
-        "concept": "Geografía radical | Desjerarquización del arte | Coleccionismo decolonial",
-        "url": "https://cceguatemala.org",
-        "description": "Eje de conexión territorial e itinerancia: Livingston (Guatemala) ➔ Ciudad de Guatemala. Proyecto: Prácticas de reiteración: Colección Museo del Mundo. Concepto: Geografía radical | Desjerarquización del arte | Coleccionismo decolonial.",
-        "micro_summary": "Itinerancia: Livingston (Guatemala) ➔ Ciudad de Guatemala (Prácticas de reiteración: Colección Museo del Mundo)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -99.1332,
-            19.4326
-          ],
-          [
-            -70.6439,
-            -33.4352
-          ]
-        ]
-      },
-      "properties": {
-        "id": "EXP_0004",
-        "title": "El canon revisitado. Una mirada al arte europeo desde América Latina",
-        "origin": "Ciudad de México",
-        "destination": "Santiago, Chile",
-        "scale": "Transnacional",
-        "concept": "Descolonización de la mirada | Canon",
-        "url": "https://www.mnba.gob.cl/cartelera/el-canon-revisitado-una-mirada-al-arte-europeo-desde-america-latina",
-        "description": "Eje de conexión territorial e itinerancia: Ciudad de México ➔ Santiago, Chile. Proyecto: El canon revisitado. Una mirada al arte europeo desde América Latina. Concepto: Descolonización de la mirada | Canon.",
-        "micro_summary": "Itinerancia: Ciudad de México ➔ Santiago, Chile (El canon revisitado. Una mirada al arte europeo desde América Latina)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -70.6823,
-            -33.4398
-          ],
-          [
-            -70.6538,
-            -33.4428
-          ]
-        ]
-      },
-      "properties": {
-        "id": "EXP_0006",
-        "title": "A 30 años de Rodrigo Rojas de Negri",
-        "origin": "MMDH",
-        "destination": "Plaza de la Constitución",
-        "scale": "Urbano",
-        "concept": "Micropolítica urbana | Espacio practicado",
-        "url": "https://museodelamemoria.cl",
-        "description": "Eje de conexión territorial e itinerancia: MMDH ➔ Plaza de la Constitución. Proyecto: A 30 años de Rodrigo Rojas de Negri. Concepto: Micropolítica urbana | Espacio practicado.",
-        "micro_summary": "Itinerancia: MMDH ➔ Plaza de la Constitución (A 30 años de Rodrigo Rojas de Negri)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -70.682,
-            -33.4414
-          ],
-          [
-            -70.6823,
-            -33.4398
-          ]
-        ]
-      },
-      "properties": {
-        "id": "EXP_0007",
-        "title": "Un exilio sin retorno. Rodrigo Rojas De Negri",
-        "origin": "MAC Quinta Normal",
-        "destination": "MMDH",
-        "scale": "Urbano",
-        "concept": "Memoria social | Derechos Humanos",
-        "url": "https://mac.uchile.cl",
-        "description": "Eje de conexión territorial e itinerancia: MAC Quinta Normal ➔ MMDH. Proyecto: Un exilio sin retorno. Rodrigo Rojas De Negri. Concepto: Memoria social | Derechos Humanos.",
-        "micro_summary": "Itinerancia: MAC Quinta Normal ➔ MMDH (Un exilio sin retorno. Rodrigo Rojas De Negri)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -70.6439,
-            -33.4352
-          ],
-          [
-            -71.5976,
-            -35.8454
-          ]
-        ]
-      },
-      "properties": {
-        "id": "EXP_0010",
-        "title": "Violeta y sus contemporáneas. Influencias y transferencias",
-        "origin": "Santiago",
-        "destination": "Linares",
-        "scale": "Regional",
-        "concept": "Descentralización | Eje Sur",
-        "url": "https://www.museodelinares.gob.cl/cartelera/violeta-y-sus-contemporaneas-influencias-y-transferencias-1958-1967",
-        "description": "Eje de conexión territorial e itinerancia: Santiago ➔ Linares. Proyecto: Violeta y sus contemporáneas. Influencias y transferencias. Concepto: Descentralización | Eje Sur.",
-        "micro_summary": "Itinerancia: Santiago ➔ Linares (Violeta y sus contemporáneas. Influencias y transferencias)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -71.5976,
-            -35.8454
-          ],
-          [
-            -73.0396,
-            -36.8282
-          ]
-        ]
-      },
-      "properties": {
-        "id": "EXP_0010_1",
-        "title": "Violeta y sus contemporáneas. Influencias y transferencias",
-        "origin": "Linares",
-        "destination": "Concepción",
-        "scale": "Regional",
-        "concept": "Descentralización | Eje Sur",
-        "url": "https://pinacoteca.udec.cl",
-        "description": "Eje de conexión territorial e itinerancia: Linares ➔ Concepción. Proyecto: Violeta y sus contemporáneas. Influencias y transferencias. Concepto: Descentralización | Eje Sur.",
-        "micro_summary": "Itinerancia: Linares ➔ Concepción (Violeta y sus contemporáneas. Influencias y transferencias)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -70.6439,
-            -33.4352
-          ],
-          [
-            -72.1034,
-            -36.6066
-          ]
-        ]
-      },
-      "properties": {
-        "id": "EXP_0011_01",
-        "title": "Antúnez: Paisaje y Poesía (Centenario Nemesio Antúnez - Estación Ñuble)",
-        "origin": "Santiago",
-        "destination": "CECAL UdeC (Chillán)",
-        "scale": "Regional",
-        "concept": "Descentralización | Eje Sur",
-        "url": "https://cecal.udec.cl",
-        "description": "Eje de conexión territorial e itinerancia: Santiago ➔ CECAL UdeC (Chillán). Proyecto: Antúnez: Paisaje y Poesía (Centenario Nemesio Antúnez - Estación Ñuble). Concepto: Descentralización | Eje Sur.",
-        "micro_summary": "Itinerancia: Santiago ➔ CECAL UdeC (Chillán) (Antúnez: Paisaje y Poesía (Centenario Nemesio Antúnez - Estación Ñuble))"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -72.1034,
-            -36.6066
-          ],
-          [
-            -73.0396,
-            -36.8282
-          ]
-        ]
-      },
-      "properties": {
-        "id": "EXP_0011_02",
-        "title": "Antúnez: Paisaje y Poesía (Centenario Nemesio Antúnez - Estación Biobío)",
-        "origin": "Chillán",
-        "destination": "Concepción",
-        "scale": "Regional",
-        "concept": "Descentralización | Eje Sur",
-        "url": "https://pinacoteca.udec.cl",
-        "description": "Eje de conexión territorial e itinerancia: Chillán ➔ Concepción. Proyecto: Antúnez: Paisaje y Poesía (Centenario Nemesio Antúnez - Estación Biobío). Concepto: Descentralización | Eje Sur.",
-        "micro_summary": "Itinerancia: Chillán ➔ Concepción (Antúnez: Paisaje y Poesía (Centenario Nemesio Antúnez - Estación Biobío))"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -73.0396,
-            -36.8282
-          ],
-          [
-            -71.5976,
-            -35.8454
-          ]
-        ]
-      },
-      "properties": {
-        "id": "EXP_0011_03",
-        "title": "Antúnez: Paisaje y Poesía (Centenario Nemesio Antúnez - Estación Maule)",
-        "origin": "Concepción",
-        "destination": "Linares",
-        "scale": "Regional",
-        "concept": "Descentralización | Eje Sur",
-        "url": "https://www.museodelinares.gob.cl",
-        "description": "Eje de conexión territorial e itinerancia: Concepción ➔ Linares. Proyecto: Antúnez: Paisaje y Poesía (Centenario Nemesio Antúnez - Estación Maule). Concepto: Descentralización | Eje Sur.",
-        "micro_summary": "Itinerancia: Concepción ➔ Linares (Antúnez: Paisaje y Poesía (Centenario Nemesio Antúnez - Estación Maule))"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -99.1332,
-            19.4326
-          ],
-          [
-            -70.6439,
-            -33.4352
-          ]
-        ]
-      },
-      "properties": {
-        "id": "PUB_0005",
-        "title": "El canon revisitado. Una mirada al arte europeo desde América Latina",
-        "origin": "Ciudad de México",
-        "destination": "Santiago, Chile",
-        "scale": "Transnacional",
-        "concept": "Descolonización de la mirada | Canon hegemónico",
-        "url": "https://www.mnba.gob.cl/cartelera/el-canon-revisitado-una-mirada-al-arte-europeo-desde-america-latina",
-        "description": "Eje de conexión territorial e itinerancia: Ciudad de México ➔ Santiago, Chile. Proyecto: El canon revisitado. Una mirada al arte europeo desde América Latina. Concepto: Descolonización de la mirada | Canon hegemónico.",
-        "micro_summary": "Itinerancia: Ciudad de México ➔ Santiago, Chile (El canon revisitado. Una mirada al arte europeo desde América Latina)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -70.6439,
-            -33.4352
-          ],
-          [
-            -46.6333,
-            -23.5505
-          ]
-        ]
-      },
-      "properties": {
-        "id": "PUB_0008",
-        "title": "Dos modelos de representación: el afromestizo en pinturas de batalla en Chile a mediados del siglo XIX",
-        "origin": "Santiago, Chile",
-        "destination": "São Paulo, Brasil",
-        "scale": "Transnacional",
-        "concept": "Subalternidad | Deconstrucción de imaginarios",
-        "url": "https://econtents.bc.unicamp.br/inpec/index.php/imagem/article/view/17892",
-        "description": "Eje de conexión territorial e itinerancia: Santiago, Chile ➔ São Paulo, Brasil. Proyecto: Dos modelos de representación: el afromestizo en pinturas de batalla en Chile a mediados del siglo XIX. Concepto: Subalternidad | Deconstrucción de imaginarios.",
-        "micro_summary": "Itinerancia: Santiago, Chile ➔ São Paulo, Brasil (Dos modelos de representación: el afromestizo en pinturas de batalla en Chile a mediados del siglo XIX)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -70.6439,
-            -33.4352
-          ],
-          [
-            -46.6333,
-            -23.5505
-          ]
-        ]
-      },
-      "properties": {
-        "id": "PUB_0016",
-        "title": "Trazar límites, deslindar fronteras. El caso de la pintura El Fuerte Bulnes (1848) de Alessandro Ciccarelli",
-        "origin": "Santiago, Chile",
-        "destination": "São Paulo, Brasil",
-        "scale": "Transnacional",
-        "concept": "Frontera y colonialismo | Alteridad patagónica",
-        "url": "https://unifesp.br",
-        "description": "Eje de conexión territorial e itinerancia: Santiago, Chile ➔ São Paulo, Brasil. Proyecto: Trazar límites, deslindar fronteras. El caso de la pintura El Fuerte Bulnes (1848) de Alessandro Ciccarelli. Concepto: Frontera y colonialismo | Alteridad patagónica.",
-        "micro_summary": "Itinerancia: Santiago, Chile ➔ São Paulo, Brasil (Trazar límites, deslindar fronteras. El caso de la pintura El Fuerte Bulnes (1848) de Alessandro Ciccarelli)"
+        "country": null,
+        "wikidata": null,
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false
       }
     }
   ]

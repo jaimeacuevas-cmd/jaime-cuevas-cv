@@ -29,9 +29,44 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Ejecutar Build Script
+      - name: Instalar Dependencias Python
+        run: |
+          python3 -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Ejecutar Pipeline ETL
         run: |
           python3 scripts/build.py
+
+      - name: Validar Outputs
+        run: |
+          python3 -c "
+          import json
+          import sys
+          try:
+            # Validate graph_data.json
+            with open('dist/data/graph_data.json') as f:
+              data = json.load(f)
+              assert 'nodes' in data and 'links' in data
+              print(f'✓ graph_data.json: {len(data[\"nodes\"])} nodes, {len(data[\"links\"])} links')
+
+            # Validate cartografia.geojson
+            with open('dist/data/cartografia.geojson') as f:
+              geo = json.load(f)
+              assert geo['type'] == 'FeatureCollection'
+              print(f'✓ cartografia.geojson: {len(geo[\"features\"])} features')
+
+            # Validate TTL
+            with open('dist/data/jaime_knowledge_graph.ttl') as f:
+              ttl = f.read()
+              assert '@prefix' in ttl
+              print(f'✓ jaime_knowledge_graph.ttl: valid Turtle ({len(ttl)} bytes)')
+
+            print('✓ All outputs validated successfully')
+          except Exception as e:
+            print(f'✗ Validation failed: {e}')
+            sys.exit(1)
+          "
 
       - name: Configurar GitHub Pages
         uses: actions/configure-pages@v4
