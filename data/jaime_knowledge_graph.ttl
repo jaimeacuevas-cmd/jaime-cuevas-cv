@@ -1,3 +1,6 @@
+# Generated RDF/Turtle Knowledge Graph
+# Source: CV_Dataset_Maestro_Jaime_Cuevas.xlsx
+
 @prefix crm:    <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix schema: <https://schema.org/> .
 @prefix dc:     <http://purl.org/dc/elements/1.1/> .
@@ -8,351 +11,1242 @@
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix jc:     <https://jaimecuevas.com/resource/> .
 
-jc:PER_0001 a crm:E21_Person, schema:Person ;
+jc:PER_0001 a crm:E21_Person ;
     rdfs:label "Jaime Arnaldo Cuevas Pérez" ;
-    schema:name "Jaime Cuevas" ;
-    schema:identifier "0000-00-2563-6676" ;
-    skos:exactMatch <https://orcid.org/0000-0002-2563-6676> ;
-    schema:sameAs <https://scholar.google.com/citations?user=M_10CSUAAAAJ&hl=es>, <https://www.linkedin.com/in/jaime-cuevas-p%C3%A9rez-3999b050/>, <https://ub.academia.edu/JaimeCuevasP%C3%A9rez>, <https://www.arteinformado.com/guia/f/jaime-cuevas-perez-188943>, <https://github.com/jaimecuevas> ;
-    schema:nationality "Española", "Chilena" ;
-    schema:jobTitle "Historiador del Arte, Investigador en Humanidades Digitales y Gestor de Colecciones" .
+    schema:url <https://scholar.google.com/citations?user=M_10CSUAAAAJ&hl=es> ;
+    schema:nationality "Española | Chilena" .
 
-jc:ORG_0001 a crm:E74_Group, schema:Organization ;
-    rdfs:label "MAC - Museo de Arte Contemporáneo" ;
-    schema:name "Museo de Arte Contemporáneo" ;
-    schema:alternateName "MAC" ;
-    schema:url <https://mac.uchile.cl> ; skos:exactMatch <https://www.wikidata.org/wiki/Q3329153> .
+jc:PER_0002 a crm:E21_Person ;
+    rdfs:label "Marcela Drien Fábregas" ;
+    schema:nationality "Chilena" .
 
-jc:ORG_0002 a crm:E74_Group, schema:Organization ;
-    rdfs:label "MNBA - Museo Nacional de Bellas Artes" ;
-    schema:name "Museo Nacional de Bellas Artes" ;
-    schema:alternateName "MNBA" ;
-    schema:url <https://www.mnba.gob.cl> ; skos:exactMatch <https://www.wikidata.org/wiki/Q1138865> .
+jc:PER_0003 a crm:E21_Person ;
+    rdfs:label "Manuel Alvarado Cornejo" ;
+    schema:nationality "Chilena" .
 
-jc:ORG_0003 a crm:E74_Group, schema:Organization ;
-    rdfs:label "UCH - Universidad de Chile" ;
-    schema:name "Universidad de Chile" ;
-    schema:alternateName "UCH" ;
-    schema:url <https://uchile.cl> ; skos:exactMatch <https://www.wikidata.org/wiki/Q232438> .
+jc:PER_0004 a crm:E21_Person ;
+    rdfs:label "Milencka Vidal Consiglieri" ;
+    schema:nationality "Chilena" .
 
-jc:ORG_0004 a crm:E74_Group, schema:Organization ;
-    rdfs:label "UAI - Universidad Adolfo Ibáñez" ;
-    schema:name "Universidad Adolfo Ibáñez" ;
-    schema:alternateName "UAI" ;
-    schema:url <https://uai.cl> ; skos:exactMatch <https://www.wikidata.org/wiki/Q1465225> .
+jc:PER_0005 a crm:E21_Person ;
+    rdfs:label "Antonia Viu" ;
+    schema:nationality "Chilena" .
 
-jc:ORG_0005 a crm:E74_Group, schema:Organization ;
-    rdfs:label "UB - Universitat de Barcelona" ;
-    schema:name "Universitat de Barcelona" ;
-    schema:alternateName "UB" ;
-    schema:url <https://ub.edu> ; skos:exactMatch <https://www.wikidata.org/wiki/Q219615> .
+jc:PER_0006 a crm:E21_Person ;
+    rdfs:label "Noemí Cinelli" ;
+    schema:nationality "Italiana | Chilena" .
 
-jc:ORG_0006 a crm:E74_Group, schema:Organization ;
-    rdfs:label "CNCR - Centro Nacional de Conservación y Restauración" ;
-    schema:name "Centro Nacional de Conservación y Restauración" ;
-    schema:alternateName "CNCR" ;
-    schema:url <https://www.cncr.gob.cl> ; skos:exactMatch <https://www.wikidata.org/wiki/Q5761404> .
+jc:PER_0007 a crm:E21_Person ;
+    rdfs:label "Camila Caris Seguel" ;
+    schema:nationality "Chilena" .
 
-jc:ORG_0007 a crm:E74_Group, schema:Organization ;
-    rdfs:label "SERPAT - Servicio Nacional del Patrimonio Cultural" ;
-    schema:name "Servicio Nacional del Patrimonio Cultural" ;
-    schema:alternateName "SERPAT" ;
-    schema:url <https://www.patrimoniocultural.gob.cl> ; skos:exactMatch <https://www.wikidata.org/wiki/Q96475737> .
+jc:PER_0008 a crm:E21_Person ;
+    rdfs:label "Estefanía Granja" ;
+    schema:nationality "Ecuatoriana | Española" .
 
-jc:ORG_0008 a crm:E74_Group, schema:Organization ;
-    rdfs:label "MINCAP - Ministerio de las Culturas, las Artes y el Patrimonio" ;
-    schema:name "Ministerio de las Culturas, las Artes y el Patrimonio" ;
-    schema:alternateName "MINCAP" ;
-    schema:url <https://www.cultura.gob.cl> ; skos:exactMatch <https://www.wikidata.org/wiki/Q50682283> .
+jc:PER_0009 a crm:E21_Person ;
+    rdfs:label "Daniela Colleoni" ;
+    schema:nationality "Chilena" .
 
-jc:ORG_0009 a crm:E74_Group, schema:Organization ;
-    rdfs:label "UAH - Universidad Alberto Hurtado" ;
-    schema:name "Universidad Alberto Hurtado" ;
-    schema:alternateName "UAH" ;
-    schema:url <https://uahurtado.cl> ; skos:exactMatch <https://www.wikidata.org/wiki/Q7894229> .
+jc:PER_0010 a crm:E21_Person ;
+    rdfs:label "Montserrat Rojas Corradi" ;
+    schema:nationality "Chilena" .
 
-jc:ORG_0010 a crm:E74_Group, schema:Organization ;
-    rdfs:label "USACH - Universidad de Santiago de Chile (IDEA)" ;
-    schema:name "Universidad de Santiago de Chile (IDEA)" ;
-    schema:alternateName "USACH" ;
-    schema:url <https://usach.cl> ; skos:exactMatch <https://www.wikidata.org/wiki/Q1138767> .
+jc:PER_0011 a crm:E21_Person ;
+    rdfs:label "Nury González" ;
+    schema:nationality "Chilena" .
 
-jc:ORG_0011 a crm:E74_Group, schema:Organization ;
-    rdfs:label "MAPA - Museo de Arte Popular Americano Tomás Lago" ;
-    schema:name "Museo de Arte Popular Americano Tomás Lago" ;
-    schema:alternateName "MAPA" ;
-    schema:url <https://mapa.uchile.cl> ; skos:exactMatch <https://www.wikidata.org/wiki/Q6034177> .
+jc:PER_0012 a crm:E21_Person ;
+    rdfs:label "Fernando Guzmán Schiappacasse" ;
+    schema:nationality "Chilena" .
 
-jc:ORG_0012 a crm:E74_Group, schema:Organization ;
-    rdfs:label "MSSA - Museo de la Solidaridad Salvador Allende" ;
-    schema:name "Museo de la Solidaridad Salvador Allende" ;
-    schema:alternateName "MSSA" ;
-    schema:url <https://mssa.cl> ; skos:exactMatch <https://www.wikidata.org/wiki/Q6034346> .
+jc:PER_0013 a crm:E21_Person ;
+    rdfs:label "Katherine Vyhmeister" ;
+    schema:nationality "Chilena" .
 
-jc:ORG_0013 a crm:E74_Group, schema:Organization ;
-    rdfs:label "MECD_ES - Ministerio de Educación, Cultura y Deporte (España)" ;
-    schema:name "Ministerio de Educación, Cultura y Deporte (España)" ;
-    schema:alternateName "MECD_ES" ;
-    schema:url <https://www.cultura.gob.es> ; skos:exactMatch <https://www.wikidata.org/wiki/Q3315363> .
+jc:PER_0014 a crm:E21_Person ;
+    rdfs:label "Raymond Quinsac Monvoisin" ;
+    schema:nationality "Francesa" .
 
-jc:ORG_0014 a crm:E74_Group, schema:Organization ;
-    rdfs:label "MICIU_ES - Ministerio de Ciencia, Innovación y Universidades (España)" ;
-    schema:name "Ministerio de Ciencia, Innovación y Universidades (España)" ;
-    schema:alternateName "MICIU_ES" ;
-    schema:url <https://www.universidades.gob.es> ; skos:exactMatch <https://www.wikidata.org/wiki/Q54865181> .
+jc:PER_0015 a crm:E21_Person ;
+    rdfs:label "Clara Filleul" ;
+    schema:nationality "Francesa" .
 
-jc:ORG_0015 a crm:E74_Group, schema:Organization ;
-    rdfs:label "HARVARD - Harvard University" ;
-    schema:name "Harvard University" ;
-    schema:alternateName "HARVARD" ;
-    schema:url <https://harvard.edu> ; skos:exactMatch <https://www.wikidata.org/wiki/Q13371> .
+jc:PER_0016 a crm:E21_Person ;
+    rdfs:label "Procesa Sarmiento de Lenoir" ;
+    schema:nationality "Argentina" .
 
-jc:ORG_0016 a crm:E74_Group, schema:Organization ;
-    rdfs:label "TYPA - Fundación TyPA (Teoría y Práctica de las Artes)" ;
-    schema:name "Fundación TyPA (Teoría y Práctica de las Artes)" ;
-    schema:alternateName "TYPA" ;
-    schema:url <https://typa.org.ar> ; skos:exactMatch <https://www.wikidata.org/wiki/Q124618790> .
+jc:PER_0017 a crm:E21_Person ;
+    rdfs:label "Gregorio Torres" ;
+    schema:nationality "Chilena" .
 
-jc:ORG_0017 a crm:E74_Group, schema:Organization ;
-    rdfs:label "WIKIMEDIA_AR - Wikimedia Argentina" ;
-    schema:name "Wikimedia Argentina" ;
-    schema:alternateName "WIKIMEDIA_AR" ;
-    schema:url <https://wikimedia.org.ar> ; skos:exactMatch <https://www.wikidata.org/wiki/Q328> .
+jc:PER_0018 a crm:E21_Person ;
+    rdfs:label "Francisco Javier Mandiola" ;
+    schema:nationality "Chilena" .
 
-jc:ORG_0018 a crm:E74_Group, schema:Organization ;
-    rdfs:label "MALI - Museo de Arte de Lima" ;
-    schema:name "Museo de Arte de Lima" ;
-    schema:alternateName "MALI" ;
-    schema:url <https://mali.pe> ; skos:exactMatch <https://www.wikidata.org/wiki/Q6940540> .
+jc:PER_0019 a crm:E21_Person ;
+    rdfs:label "Nemesio Antúnez Zañartu" ;
+    schema:nationality "Chilena" .
 
-jc:ORG_0019 a crm:E74_Group, schema:Organization ;
-    rdfs:label "PINACOTECA_SP - Pinacoteca do Estado de São Paulo" ;
-    schema:name "Pinacoteca do Estado de São Paulo" ;
-    schema:alternateName "PINACOTECA_SP" ;
-    schema:url <https://pinacoteca.org.br> ; skos:exactMatch <https://www.wikidata.org/wiki/Q1464673> .
+jc:PER_0020 a crm:E21_Person ;
+    rdfs:label "Violeta Parra Sandoval" ;
+    schema:nationality "Chilena" .
 
-jc:ORG_0020 a crm:E74_Group, schema:Organization ;
-    rdfs:label "MPBA_FR - Museo Provincial de Bellas Artes Franklin Rawson" ;
-    schema:name "Museo Provincial de Bellas Artes Franklin Rawson" ;
-    schema:alternateName "MPBA_FR" ;
-    schema:url <https://museofranklinrawson.org> ; skos:exactMatch <https://www.wikidata.org/wiki/Q16609935> .
+jc:PER_0021 a crm:E21_Person ;
+    rdfs:label "Rodrigo Rojas De Negri" ;
+    schema:nationality "Chilena" .
 
-jc:ORG_0021 a crm:E74_Group, schema:Organization ;
-    rdfs:label "UNSAM_TAREA - IIPC-TAREA, Universidad Nacional de San Martín" ;
-    schema:name "IIPC-TAREA, Universidad Nacional de San Martín" ;
-    schema:alternateName "UNSAM_TAREA" ;
-    schema:url <https://unsam.edu.ar/tarea> ; skos:exactMatch <https://www.wikidata.org/wiki/Q7894297> .
+jc:PER_0022 a crm:E21_Person ;
+    rdfs:label "Luis Camnitzer" ;
+    schema:nationality "Uruguaya | Estadounidense" .
 
-jc:ORG_0022 a crm:E74_Group, schema:Organization ;
-    rdfs:label "LOM - LOM Ediciones" ;
-    schema:name "LOM Ediciones" ;
-    schema:alternateName "LOM" ;
-    schema:url <https://lom.cl> ; skos:exactMatch <https://www.wikidata.org/wiki/Q5961605> .
+jc:PER_0023 a crm:E21_Person ;
+    rdfs:label "Pedro Lira Rencoret" ;
+    schema:nationality "Chilena" .
 
-jc:ORG_0023 a crm:E74_Group, schema:Organization ;
-    rdfs:label "CCE_GUATEMALA - Centro Cultural de España en Guatemala" ;
-    schema:name "Centro Cultural de España en Guatemala" ;
-    schema:alternateName "CCE_GUATEMALA" ;
-    schema:url <https://cceguatemala.org> ; skos:exactMatch <https://www.wikidata.org/wiki/Q5761159> .
+jc:PER_0024 a crm:E21_Person ;
+    rdfs:label "Alessandro Ciccarelli Manzoni" ;
+    schema:nationality "Italiana | Chilena" .
 
-jc:ORG_0024 a crm:E74_Group, schema:Organization ;
-    rdfs:label "M100 - Centro Cultural Matucana 100" ;
-    schema:name "Centro Cultural Matucana 100" ;
-    schema:alternateName "M100" ;
-    schema:url <https://m100.cl> ; skos:exactMatch <https://www.wikidata.org/wiki/Q5763160> .
+jc:PER_0025 a crm:E21_Person ;
+    rdfs:label "Oskar Trepte" ;
+    schema:nationality "Alemana | Chilena" .
 
-jc:ORG_0025 a crm:E74_Group, schema:Organization ;
-    rdfs:label "CCU - Corporación Cultural CCU" ;
-    schema:name "Corporación Cultural CCU" ;
-    schema:alternateName "CCU" ;
-    schema:url <https://ccuenelarte.cl> ; skos:exactMatch <https://www.wikidata.org/wiki/Q2931448> .
+jc:PER_0026 a crm:E21_Person ;
+    rdfs:label "Pedro Reszka Moreau" ;
+    schema:nationality "Chilena" .
 
-jc:ORG_0026 a crm:E74_Group, schema:Organization ;
-    rdfs:label "MMDH - Museo de la Memoria y los Derechos Humanos" ;
-    schema:name "Museo de la Memoria y los Derechos Humanos" ;
-    schema:alternateName "MMDH" ;
-    schema:url <https://museodelamemoria.cl> ; skos:exactMatch <https://www.wikidata.org/wiki/Q2006767> .
+jc:PER_0027 a crm:E21_Person ;
+    rdfs:label "Virginio Arias Cruz" ;
+    schema:nationality "Chilena" .
 
-jc:ORG_0027 a crm:E74_Group, schema:Organization ;
-    rdfs:label "M_LINARES - Museo de Arte y Artesanía de Linares" ;
-    schema:name "Museo de Arte y Artesanía de Linares" ;
-    schema:alternateName "M_LINARES" ;
-    schema:url <https://www.museodelinares.gob.cl> ; skos:exactMatch <https://www.wikidata.org/wiki/Q6033842> .
+jc:PER_0028 a crm:E21_Person ;
+    rdfs:label "Benito Rebolledo Correa" ;
+    schema:nationality "Chilena" .
 
-jc:ORG_0028 a crm:E74_Group, schema:Organization ;
-    rdfs:label "PINACOTECA_UDEC - Pinacoteca Universidad de Concepción (Casa del Arte)" ;
-    schema:name "Pinacoteca Universidad de Concepción (Casa del Arte)" ;
-    schema:alternateName "PINACOTECA_UDEC" ;
-    schema:url <https://pinacoteca.udec.cl> ; skos:exactMatch <https://www.wikidata.org/wiki/Q5047879> .
+jc:PER_0029 a crm:E21_Person ;
+    rdfs:label "Aristodemo Lattanzi Borghini" ;
+    schema:nationality "Italiana | Chilena" .
 
-jc:ORG_0029 a crm:E74_Group, schema:Organization ;
-    rdfs:label "BND_BN - Biblioteca Nacional Digital / Biblioteca Nacional de Chile" ;
-    schema:name "Biblioteca Nacional Digital / Biblioteca Nacional de Chile" ;
-    schema:alternateName "BND_BN" ;
-    schema:url <https://www.bibliotecanacionaldigital.gob.cl> ; skos:exactMatch <https://www.wikidata.org/wiki/Q2478544> .
+jc:PER_0030 a crm:E21_Person ;
+    rdfs:label "Wladymir Bernechea" ;
+    schema:nationality "Chilena" .
 
-jc:ORG_0030 a crm:E74_Group, schema:Organization ;
-    rdfs:label "UNIFESP - Universidade Federal de São Paulo" ;
-    schema:name "Universidade Federal de São Paulo" ;
-    schema:alternateName "UNIFESP" ;
-    schema:url <https://unifesp.br> ; skos:exactMatch <https://www.wikidata.org/wiki/Q1142270> .
+jc:PER_0031 a crm:E21_Person ;
+    rdfs:label "Jesús Arana" ;
+    schema:nationality "Española" .
 
-jc:ORG_0031 a crm:E74_Group, schema:Organization ;
-    rdfs:label "UBA_CAIA - CAIA / Universidad de Buenos Aires" ;
-    schema:name "CAIA / Universidad de Buenos Aires" ;
-    schema:alternateName "UBA_CAIA" ;
-    schema:url <https://caia.org.ar> ; skos:exactMatch <https://www.wikidata.org/wiki/Q193798> .
+jc:PER_0032 a crm:E21_Person ;
+    rdfs:label "Iván Navarro" ;
+    schema:nationality "Chilena" .
 
-jc:ORG_0032 a crm:E74_Group, schema:Organization ;
-    rdfs:label "UNMDP - Universidad Nacional de Mar del Plata" ;
-    schema:name "Universidad Nacional de Mar del Plata" ;
-    schema:alternateName "UNMDP" ;
-    schema:url <https://mdp.edu.ar> ; skos:exactMatch <https://www.wikidata.org/wiki/Q3551676> .
+jc:PER_0033 a crm:E21_Person ;
+    rdfs:label "Alfredo Jaar" ;
+    schema:nationality "Chilena" .
 
-jc:ORG_0033 a crm:E74_Group, schema:Organization ;
-    rdfs:label "PUC - Pontificia Universidad Católica de Chile" ;
-    schema:name "Pontificia Universidad Católica de Chile" ;
-    schema:alternateName "PUC" ;
-    schema:url <https://uc.cl> ; skos:exactMatch <https://www.wikidata.org/wiki/Q287900> .
+jc:PER_0034 a crm:E21_Person ;
+    rdfs:label "Voluspa Jarpa" ;
+    schema:nationality "Chilena" .
 
-jc:ORG_0034 a crm:E74_Group, schema:Organization ;
-    rdfs:label "UNAB - Universidad Andrés Bello" ;
-    schema:name "Universidad Andrés Bello" ;
-    schema:alternateName "UNAB" ;
-    schema:url <https://unab.cl> ; skos:exactMatch <https://www.wikidata.org/wiki/Q7894220> .
+jc:PER_0035 a crm:E21_Person ;
+    rdfs:label "Inés Puyó" ;
+    schema:nationality "Chilena" .
 
-jc:ORG_0035 a crm:E74_Group, schema:Organization ;
-    rdfs:label "CENFOTO_UDP - CENFOTO, Universidad Diego Portales" ;
-    schema:name "CENFOTO, Universidad Diego Portales" ;
-    schema:alternateName "CENFOTO_UDP" ;
-    schema:url <https://cenfoto.udp.cl> ; skos:exactMatch <https://www.wikidata.org/wiki/Q50682284> .
+jc:PER_0036 a crm:E21_Person ;
+    rdfs:label "Ximena Cristi" ;
+    schema:nationality "Chilena" .
 
-jc:ORG_0036 a crm:E74_Group, schema:Organization ;
-    rdfs:label "IMCR - Instituto Mexicano de Curaduría y Restauración" ;
-    schema:name "Instituto Mexicano de Curaduría y Restauración" ;
-    schema:alternateName "IMCR" ;
-    schema:url <https://imcr.mx> ; skos:exactMatch <https://www.wikidata.org/wiki/Q124618791> .
+jc:PER_0037 a crm:E21_Person ;
+    rdfs:label "Laura Rodig Pizarro" ;
+    schema:nationality "Chilena" .
 
-jc:ORG_0037 a crm:E74_Group, schema:Organization ;
-    rdfs:label "ISUCH - Instituto de Estudios Secundarios, Facultad de Artes UCH" ;
-    schema:name "Instituto de Estudios Secundarios, Facultad de Artes UCH" ;
-    schema:alternateName "ISUCH" ;
-    schema:url <https://isuch.uchile.cl> ; skos:exactMatch <https://www.wikidata.org/wiki/Q124618792> .
+jc:PER_0038 a crm:E21_Person ;
+    rdfs:label "Henriette Petit" ;
+    schema:nationality "Chilena" .
 
-jc:ORG_0038 a crm:E74_Group, schema:Organization ;
-    rdfs:label "ISL - Instituto de Seguridad Laboral" ;
-    schema:name "Instituto de Seguridad Laboral" ;
-    schema:alternateName "ISL" ;
-    schema:url <https://isl.gob.cl> ; skos:exactMatch <https://www.wikidata.org/wiki/Q5918342> .
+jc:PER_0039 a crm:E21_Person ;
+    rdfs:label "Sebastián Calfuqueo Aliste" ;
+    schema:nationality "Chilena | Mapuche" .
 
-jc:ORG_0039 a crm:E74_Group, schema:Organization ;
-    rdfs:label "MNSC_MEX - Museo Nacional de San Carlos" ;
-    schema:name "Museo Nacional de San Carlos" ;
-    schema:alternateName "MNSC_MEX" ;
-    schema:url <https://mnsancarlos.inba.gob.mx> ; skos:exactMatch <https://www.wikidata.org/wiki/Q6940509> .
+jc:PER_0040 a crm:E21_Person ;
+    rdfs:label "Soledad Pinto" ;
+    schema:nationality "Chilena" .
 
-jc:ORG_0040 a crm:E74_Group, schema:Organization ;
-    rdfs:label "ICG - Isabel Croxatto Galería" ;
-    schema:name "Isabel Croxatto Galería" ;
-    schema:alternateName "ICG" ;
-    schema:url <https://isabelcroxattogaleria.com> ; skos:exactMatch <https://www.wikidata.org/wiki/Q124618814> .
+jc:PER_0041 a crm:E21_Person ;
+    rdfs:label "Nicolás Grum" ;
+    schema:nationality "Chilena" .
 
-jc:ORG_0041 a crm:E74_Group, schema:Organization ;
-    rdfs:label "CECAL_UDEC - CECAL UdeC - Centro de Extensión Cultural Alfonso Lagos (Universidad de Concepción)" ;
-    schema:name "CECAL UdeC - Centro de Extensión Cultural Alfonso Lagos (Universidad de Concepción)" ;
-    schema:alternateName "CECAL_UDEC" ;
-    schema:url <https://cecal.udec.cl> ; skos:exactMatch <https://www.wikidata.org/wiki/Q124618815> .
+jc:PER_0042 a crm:E21_Person ;
+    rdfs:label "Gonzalo Cueto" ;
+    schema:nationality "Chilena" .
 
-jc:ORG_0042 a crm:E74_Group, schema:Organization ;
-    rdfs:label "MUSAC - MUSAC - Museo de Arte Contemporáneo de Castilla y León" ;
-    schema:name "MUSAC - Museo de Arte Contemporáneo de Castilla y León" ;
-    schema:alternateName "MUSAC" ;
-    schema:url <https://musac.es> ; skos:exactMatch <https://www.wikidata.org/wiki/Q1398246> .
+jc:ORG_0001 a crm:E74_Group ;
+    rdfs:label "Museo de Arte Contemporáneo" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q3329153> .
 
-jc:DIG_0001 a crm:E73_Information_Object, schema:WebApplication ;
-    rdfs:label "QUINSAC. Estudios razonados de arte y coleccionismo" ;
-    crm:P14_carried_out_by jc:PER_0001 ; schema:url <https://quinsac.mnba.gob.cl> ;
-    crm:P3_has_note "Plataforma digital interactiva y catálogo razonado que sistematizó el acervo de Raymond Monvoisin en el continente (más de 460 obras)." .
+jc:ORG_0002 a crm:E74_Group ;
+    rdfs:label "Museo Nacional de Bellas Artes" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q1138865> .
 
+jc:ORG_0003 a crm:E74_Group ;
+    rdfs:label "Universidad de Chile" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q232438> .
 
+jc:ORG_0004 a crm:E74_Group ;
+    rdfs:label "Universidad Adolfo Ibáñez" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q1465225> .
 
+jc:ORG_0005 a crm:E74_Group ;
+    rdfs:label "Universitat de Barcelona" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q219615> .
 
+jc:ORG_0006 a crm:E74_Group ;
+    rdfs:label "Centro Nacional de Conservación y Restauración" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q5761404> .
 
-jc:DIG_0006 a crm:E73_Information_Object, schema:WebApplication ;
-    rdfs:label "Monvoisin: huellas territoriales de un artista" ;
-    crm:P14_carried_out_by jc:PER_0001 ; schema:url <https://www.bibliotecanacionaldigital.gob.cl/visor/BND:666450> ;
-    crm:P3_has_note "Cápsula desarrollada en ArcGIS StoryMaps junto al CNCR y la Biblioteca Nacional que geolocaliza el recorrido del artista." .
+jc:ORG_0007 a crm:E74_Group ;
+    rdfs:label "Servicio Nacional del Patrimonio Cultural" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q96475737> .
 
+jc:ORG_0008 a crm:E74_Group ;
+    rdfs:label "Ministerio de las Culturas, las Artes y el Patrimonio" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q50682283> .
 
-jc:DIG_0008 a crm:E73_Information_Object, schema:WebApplication ;
-    rdfs:label "Plataforma virtual Salón de Estudiantes" ;
-    crm:P14_carried_out_by jc:PER_0001 ; schema:url <http://www.salonestudiantes.cl> ;
-    crm:P3_has_note "Plataforma virtual para la puesta en valor de la tradición del Salón, albergando la historia y difundiendo el arte emergente." .
+jc:ORG_0009 a crm:E74_Group ;
+    rdfs:label "Universidad Alberto Hurtado" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q7894229> .
 
-jc:DIG_0009 a crm:E73_Information_Object, schema:WebApplication ;
-    rdfs:label "Callejera Madrid" ;
-    crm:P14_carried_out_by jc:PER_0001 ; schema:url <https://www.jaimecuevas.onl/callejera-madrid/> ;
-    crm:P3_has_note "Grafo de Conocimiento y plataforma LOD bajo estándar CIDOC-CRM ISO 21127 y RDF/Turtle para auditar asimetrías de género (66.745 tripletas, enlaces Wikidata)." .
+jc:ORG_0010 a crm:E74_Group ;
+    rdfs:label "Universidad de Santiago de Chile (IDEA)" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q1138767> .
 
-jc:DIG_0010 a crm:E73_Information_Object, schema:WebApplication ;
-    rdfs:label "Arquitectura Art Déco en Santiago centro" ;
-    crm:P14_carried_out_by jc:PER_0001 ; schema:url <https://artdeco-santiago.cl> ;
-    crm:P3_has_note "Catálogo digital y puesta en valor de 44 edificios patrimoniales con Omeka S y capas de accesibilidad universal WCAG 2.1 AA." .
+jc:ORG_0011 a crm:E74_Group ;
+    rdfs:label "Museo de Arte Popular Americano Tomás Lago" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q6034177> .
 
-jc:DIG_0011 a crm:E73_Information_Object, schema:WebApplication ;
-    rdfs:label "Mármoles y Bronces entre el Mediterráneo y los Andes" ;
-    crm:P14_carried_out_by jc:PER_0001 ; schema:url <https://marmoles-y-bronces.vercel.app> ;
-    crm:P3_has_note "Infraestructura semántica y base de datos relacional que registra 18.845 agentes y 21.727 viajes de artesanos italianos a América Latina (1882-1920)." .
+jc:ORG_0012 a crm:E74_Group ;
+    rdfs:label "Museo de la Solidaridad Salvador Allende" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q6034346> .
+
+jc:ORG_0013 a crm:E74_Group ;
+    rdfs:label "Ministerio de Educación, Cultura y Deporte (España)" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q3315363> .
+
+jc:ORG_0014 a crm:E74_Group ;
+    rdfs:label "Ministerio de Ciencia, Innovación y Universidades (España)" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q54865181> .
+
+jc:ORG_0015 a crm:E74_Group ;
+    rdfs:label "Harvard University" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q13371> .
+
+jc:ORG_0016 a crm:E74_Group ;
+    rdfs:label "Fundación TyPA (Teoría y Práctica de las Artes)" .
+
+jc:ORG_0017 a crm:E74_Group ;
+    rdfs:label "Wikimedia Argentina" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q328> .
+
+jc:ORG_0018 a crm:E74_Group ;
+    rdfs:label "Museo de Arte de Lima" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q6940540> .
+
+jc:ORG_0019 a crm:E74_Group ;
+    rdfs:label "Pinacoteca do Estado de São Paulo" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q1464673> .
+
+jc:ORG_0020 a crm:E74_Group ;
+    rdfs:label "Museo Provincial de Bellas Artes Franklin Rawson" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q16609935> .
+
+jc:ORG_0021 a crm:E74_Group ;
+    rdfs:label "IIPC-TAREA, Universidad Nacional de San Martín" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q7894297> .
+
+jc:ORG_0022 a crm:E74_Group ;
+    rdfs:label "LOM Ediciones" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q5961605> .
+
+jc:ORG_0023 a crm:E74_Group ;
+    rdfs:label "Centro Cultural de España en Guatemala" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q5761159> .
+
+jc:ORG_0024 a crm:E74_Group ;
+    rdfs:label "Centro Cultural Matucana 100" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q5763160> .
+
+jc:ORG_0025 a crm:E74_Group ;
+    rdfs:label "Corporación Cultural CCU" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q2931448> .
+
+jc:ORG_0026 a crm:E74_Group ;
+    rdfs:label "Museo de la Memoria y los Derechos Humanos" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q2006767> .
+
+jc:ORG_0027 a crm:E74_Group ;
+    rdfs:label "Museo de Arte y Artesanía de Linares" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q6033842> .
+
+jc:ORG_0028 a crm:E74_Group ;
+    rdfs:label "Pinacoteca Universidad de Concepción (Casa del Arte)" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q5047879> .
+
+jc:ORG_0029 a crm:E74_Group ;
+    rdfs:label "Biblioteca Nacional Digital / Biblioteca Nacional de Chile" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q2478544> .
+
+jc:ORG_0030 a crm:E74_Group ;
+    rdfs:label "Universidade Federal de São Paulo" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q1142270> .
+
+jc:ORG_0031 a crm:E74_Group ;
+    rdfs:label "CAIA / Universidad de Buenos Aires" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q193798> .
+
+jc:ORG_0032 a crm:E74_Group ;
+    rdfs:label "Universidad Nacional de Mar del Plata" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q3551676> .
+
+jc:ORG_0033 a crm:E74_Group ;
+    rdfs:label "Pontificia Universidad Católica de Chile" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q287900> .
+
+jc:ORG_0034 a crm:E74_Group ;
+    rdfs:label "Universidad Andrés Bello" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q7894220> .
+
+jc:ORG_0035 a crm:E74_Group ;
+    rdfs:label "CENFOTO, Universidad Diego Portales" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q50682284> .
+
+jc:ORG_0036 a crm:E74_Group ;
+    rdfs:label "Instituto Mexicano de Curaduría y Restauración" .
+
+jc:ORG_0037 a crm:E74_Group ;
+    rdfs:label "Instituto de Estudios Secundarios, Facultad de Artes UCH" .
+
+jc:ORG_0038 a crm:E74_Group ;
+    rdfs:label "Instituto de Seguridad Laboral" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q5918342> .
+
+jc:ORG_0039 a crm:E74_Group ;
+    rdfs:label "Museo Nacional de San Carlos" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q6940509> .
+
+jc:ORG_0040 a crm:E74_Group ;
+    rdfs:label "Isabel Croxatto Galería" .
+
+jc:ORG_0041 a crm:E74_Group ;
+    rdfs:label "CECAL UdeC - Centro de Extensión Cultural Alfonso Lagos (Universidad de Concepción)" .
+
+jc:ORG_0042 a crm:E74_Group ;
+    rdfs:label "MUSAC - Museo de Arte Contemporáneo de Castilla y León" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q1398246> .
+
+jc:LOC_0001 a crm:E53_Place ;
+    rdfs:label "Museo Nacional de Bellas Artes (MNBA)" ;
+    geo:long -70.6439 ;
+    geo:lat -33.4352 ;
+    schema:areaServed "Santiago" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q1138865> .
+
+jc:LOC_0002 a crm:E53_Place ;
+    rdfs:label "Museo de Arte Contemporáneo (MAC Quinta Normal)" ;
+    geo:long -70.682 ;
+    geo:lat -33.4414 ;
+    schema:areaServed "Santiago" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q3329153> .
+
+jc:LOC_0003 a crm:E53_Place ;
+    rdfs:label "Casa Central Universidad de Chile / Archivo Andrés Bello" ;
+    geo:long -70.65 ;
+    geo:lat -33.444 ;
+    schema:areaServed "Santiago" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q232438> .
+
+jc:LOC_0004 a crm:E53_Place ;
+    rdfs:label "Universidad Adolfo Ibáñez (Campus Peñalolén)" ;
+    geo:long -70.5516 ;
+    geo:lat -33.4975 ;
+    schema:areaServed "Santiago" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q1465225> .
+
+jc:LOC_0005 a crm:E53_Place ;
+    rdfs:label "Universitat de Barcelona (FIMA / Plaça Universitat)" ;
+    geo:long 2.1734 ;
+    geo:lat 41.3851 ;
+    schema:areaServed "Barcelona" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q219615> .
+
+jc:LOC_0006 a crm:E53_Place ;
+    rdfs:label "Centro Nacional de Conservación y Restauración (CNCR)" ;
+    geo:long -70.6475 ;
+    geo:lat -33.4216 ;
+    schema:areaServed "Santiago" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q5761404> .
+
+jc:LOC_0007 a crm:E53_Place ;
+    rdfs:label "Ministerio de las Culturas, las Artes y el Patrimonio (MINCAP / FONDART)" ;
+    geo:long -70.6538 ;
+    geo:lat -33.4428 ;
+    schema:areaServed "Santiago" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q50682283> .
+
+jc:LOC_0008 a crm:E53_Place ;
+    rdfs:label "Universidad Alberto Hurtado (UAH)" ;
+    geo:long -70.6615 ;
+    geo:lat -33.4445 ;
+    schema:areaServed "Santiago" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q7894229> .
+
+jc:LOC_0009 a crm:E53_Place ;
+    rdfs:label "IDEA - Universidad de Santiago de Chile (USACH)" ;
+    geo:long -70.6789 ;
+    geo:lat -33.4468 ;
+    schema:areaServed "Santiago" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q1138767> .
+
+jc:LOC_0010 a crm:E53_Place ;
+    rdfs:label "Museo de Arte Popular Americano Tomás Lago (GAM / MAPA)" ;
+    geo:long -70.6394 ;
+    geo:lat -33.4392 ;
+    schema:areaServed "Santiago" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q6034177> .
+
+jc:LOC_0011 a crm:E53_Place ;
+    rdfs:label "Museo de la Solidaridad Salvador Allende (MSSA)" ;
+    geo:long -70.6667 ;
+    geo:lat -33.4503 ;
+    schema:areaServed "Santiago" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q6034346> .
+
+jc:LOC_0012 a crm:E53_Place ;
+    rdfs:label "MICIU / Ministerio de Cultura (Madrid)" ;
+    geo:long -3.7038 ;
+    geo:lat 40.4168 ;
+    schema:areaServed "Madrid" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q54865181> .
+
+jc:LOC_0013 a crm:E53_Place ;
+    rdfs:label "Harvard University (Cambridge)" ;
+    geo:long -71.1167 ;
+    geo:lat 42.377 ;
+    schema:areaServed "Cambridge, MA" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q13371> .
+
+jc:LOC_0014 a crm:E53_Place ;
+    rdfs:label "Fundación TyPA / CAIA UBA (Buenos Aires)" ;
+    geo:long -58.3816 ;
+    geo:lat -34.6037 ;
+    schema:areaServed "Buenos Aires" .
+
+jc:LOC_0015 a crm:E53_Place ;
+    rdfs:label "Museo de Arte de Lima (MALI)" ;
+    geo:long -77.0369 ;
+    geo:lat -12.0601 ;
+    schema:areaServed "Lima" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q6940540> .
+
+jc:LOC_0016 a crm:E53_Place ;
+    rdfs:label "Pinacoteca do Estado de São Paulo" ;
+    geo:long -46.6322 ;
+    geo:lat -23.534 ;
+    schema:areaServed "São Paulo" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q1464673> .
+
+jc:LOC_0017 a crm:E53_Place ;
+    rdfs:label "Museo Provincial de Bellas Artes Franklin Rawson" ;
+    geo:long -68.5364 ;
+    geo:lat -31.5375 ;
+    schema:areaServed "San Juan" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q16609935> .
+
+jc:LOC_0018 a crm:E53_Place ;
+    rdfs:label "IIPC-TAREA, Universidad Nacional de San Martín (UNSAM)" ;
+    geo:long -58.5286 ;
+    geo:lat -34.5796 ;
+    schema:areaServed "Buenos Aires" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q7894297> .
+
+jc:LOC_0019 a crm:E53_Place ;
+    rdfs:label "LOM Ediciones (Barrio Concha y Toro)" ;
+    geo:long -70.665 ;
+    geo:lat -33.445 ;
+    schema:areaServed "Santiago" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q5961605> .
+
+jc:LOC_0020 a crm:E53_Place ;
+    rdfs:label "Centro Cultural de España en Guatemala" ;
+    geo:long -90.5132 ;
+    geo:lat 14.6407 ;
+    schema:areaServed "Ciudad de Guatemala" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q5761159> .
+
+jc:LOC_0021 a crm:E53_Place ;
+    rdfs:label "Centro Cultural Matucana 100 (M100)" ;
+    geo:long -70.682 ;
+    geo:lat -33.4445 ;
+    schema:areaServed "Santiago" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q5763160> .
+
+jc:LOC_0022 a crm:E53_Place ;
+    rdfs:label "Sala de Arte CCU (Vitacura)" ;
+    geo:long -70.6 ;
+    geo:lat -33.415 ;
+    schema:areaServed "Santiago" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q2931448> .
+
+jc:LOC_0023 a crm:E53_Place ;
+    rdfs:label "Museo de la Memoria y los Derechos Humanos (MMDH)" ;
+    geo:long -70.6823 ;
+    geo:lat -33.4398 ;
+    schema:areaServed "Santiago" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q2006767> .
+
+jc:LOC_0024 a crm:E53_Place ;
+    rdfs:label "Museo de Arte y Artesanía de Linares" ;
+    geo:long -71.5976 ;
+    geo:lat -35.8454 ;
+    schema:areaServed "Linares" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q6033842> .
+
+jc:LOC_0025 a crm:E53_Place ;
+    rdfs:label "Pinacoteca Universidad de Concepción (Casa del Arte)" ;
+    geo:long -73.0396 ;
+    geo:lat -36.8282 ;
+    schema:areaServed "Concepción" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q5047879> .
+
+jc:LOC_0026 a crm:E53_Place ;
+    rdfs:label "Catedral Metropolitana de la Santísima Concepción" ;
+    geo:long -73.0503 ;
+    geo:lat -36.8261 ;
+    schema:areaServed "Concepción" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q1050516> .
+
+jc:LOC_0027 a crm:E53_Place ;
+    rdfs:label "Colección Privada Victoria (La Araucanía)" ;
+    geo:long -72.3323 ;
+    geo:lat -38.2305 ;
+    schema:areaServed "Victoria" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q201016> .
+
+jc:LOC_0028 a crm:E53_Place ;
+    rdfs:label "Palacio Cousiño (Santiago Centro)" ;
+    geo:long -70.6569 ;
+    geo:lat -33.4522 ;
+    schema:areaServed "Santiago" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q7126294> .
+
+jc:LOC_0029 a crm:E53_Place ;
+    rdfs:label "Museo del Carmen de Maipú" ;
+    geo:long -70.7575 ;
+    geo:lat -33.51 ;
+    schema:areaServed "Maipú" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q6034388> .
+
+jc:LOC_0030 a crm:E53_Place ;
+    rdfs:label "Colección Privada Vitacura" ;
+    geo:long -70.6 ;
+    geo:lat -33.38 ;
+    schema:areaServed "Santiago" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q2931448> .
+
+jc:LOC_0031 a crm:E53_Place ;
+    rdfs:label "Colección Privada Calera de Tango" ;
+    geo:long -70.7833 ;
+    geo:lat -33.6333 ;
+    schema:areaServed "Calera de Tango" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q3691> .
+
+jc:LOC_0032 a crm:E53_Place ;
+    rdfs:label "Colección Privada Recoleta" ;
+    geo:long -70.6333 ;
+    geo:lat -33.4 ;
+    schema:areaServed "Santiago" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q56125> .
+
+jc:LOC_0033 a crm:E53_Place ;
+    rdfs:label "Colección Privada Huechuraba" ;
+    geo:long -70.65 ;
+    geo:lat -33.3667 ;
+    schema:areaServed "Santiago" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q14424> .
+
+jc:LOC_0034 a crm:E53_Place ;
+    rdfs:label "Colección Privada Providencia" ;
+    geo:long -70.6167 ;
+    geo:lat -33.4333 ;
+    schema:areaServed "Santiago" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q51594> .
+
+jc:LOC_0035 a crm:E53_Place ;
+    rdfs:label "Colección Privada Las Condes" ;
+    geo:long -70.5833 ;
+    geo:lat -33.4167 ;
+    schema:areaServed "Santiago" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q14484> .
+
+jc:LOC_0036 a crm:E53_Place ;
+    rdfs:label "Colección Privada Padre Hurtado" ;
+    geo:long -70.8167 ;
+    geo:lat -33.5667 ;
+    schema:areaServed "Padre Hurtado" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q51079> .
+
+jc:LOC_0037 a crm:E53_Place ;
+    rdfs:label "Colección Privada Graneros" ;
+    geo:long -70.7333 ;
+    geo:lat -34.0667 ;
+    schema:areaServed "Graneros" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q13063> .
+
+jc:LOC_0038 a crm:E53_Place ;
+    rdfs:label "Colección Privada Nancagua" ;
+    geo:long -71.2 ;
+    geo:lat -34.6667 ;
+    schema:areaServed "Nancagua" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q51048> .
+
+jc:LOC_0039 a crm:E53_Place ;
+    rdfs:label "Museo Nacional de San Carlos (Ciudad de México)" ;
+    geo:long -99.1332 ;
+    geo:lat 19.4326 ;
+    schema:areaServed "Ciudad de México" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q6940509> .
+
+jc:LOC_0040 a crm:E53_Place ;
+    rdfs:label "Universidade Federal de São Paulo (UNIFESP)" ;
+    geo:long -46.6333 ;
+    geo:lat -23.5505 ;
+    schema:areaServed "São Paulo" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q1142270> .
+
+jc:LOC_0041 a crm:E53_Place ;
+    rdfs:label "Universidad Nacional de Mar del Plata (UNMDP)" ;
+    geo:long -57.5426 ;
+    geo:lat -38.0055 ;
+    schema:areaServed "Mar del Plata" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q3551676> .
+
+jc:LOC_0042 a crm:E53_Place ;
+    rdfs:label "Pontificia Universidad Católica de Chile (Casa Central / Campus Oriente)" ;
+    geo:long -70.6406 ;
+    geo:lat -33.4411 ;
+    schema:areaServed "Santiago" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q287900> .
+
+jc:LOC_0043 a crm:E53_Place ;
+    rdfs:label "Universidad Andrés Bello (UNAB Bellavista / República)" ;
+    geo:long -70.6506 ;
+    geo:lat -33.4372 ;
+    schema:areaServed "Santiago" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q7894220> .
+
+jc:LOC_0044 a crm:E53_Place ;
+    rdfs:label "CENFOTO UDP (Barrio Universitario)" ;
+    geo:long -70.65 ;
+    geo:lat -33.45 ;
+    schema:areaServed "Santiago" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q50682284> .
+
+jc:LOC_0045 a crm:E53_Place ;
+    rdfs:label "Instituto Mexicano de Curaduría y Restauración (IMCR)" ;
+    geo:long -99.1332 ;
+    geo:lat 19.4326 ;
+    schema:areaServed "Ciudad de México" .
+
+jc:LOC_0046 a crm:E53_Place ;
+    rdfs:label "ISUCH - Universidad de Chile" ;
+    geo:long -70.653 ;
+    geo:lat -33.439 ;
+    schema:areaServed "Santiago" .
+
+jc:LOC_0047 a crm:E53_Place ;
+    rdfs:label "Instituto de Seguridad Laboral (ISL)" ;
+    geo:long -70.65 ;
+    geo:lat -33.444 ;
+    schema:areaServed "Santiago" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q5918342> .
+
+jc:LOC_0048 a crm:E53_Place ;
+    rdfs:label "Centro de Estudios Árabes y Judaicos UCH" ;
+    geo:long -70.65 ;
+    geo:lat -33.444 ;
+    schema:areaServed "Santiago" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q232438> .
+
+jc:LOC_0049 a crm:E53_Place ;
+    rdfs:label "Biblioteca Nacional Digital / Biblioteca Nacional de Chile" ;
+    geo:long -70.6439 ;
+    geo:lat -33.4352 ;
+    schema:areaServed "Santiago" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q2478544> .
+
+jc:LOC_0050 a crm:E53_Place ;
+    rdfs:label "Plaza de la Constitución (Santiago)" ;
+    geo:long -70.6538 ;
+    geo:lat -33.4428 ;
+    schema:areaServed "Santiago" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q7203673> .
+
+jc:LOC_0051 a crm:E53_Place ;
+    rdfs:label "Artistas del Acero (Concepción)" ;
+    geo:long -73.0498 ;
+    geo:lat -36.8282 ;
+    schema:areaServed "Concepción" .
+
+jc:LOC_0052 a crm:E53_Place ;
+    rdfs:label "Museo Benjamín Vicuña Mackenna" ;
+    geo:long -70.6329 ;
+    geo:lat -33.4385 ;
+    schema:areaServed "Santiago" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q6033182> .
+
+jc:LOC_0053 a crm:E53_Place ;
+    rdfs:label "Washington D.C. (Exilio Rodrigo Rojas De Negri)" ;
+    geo:long -77.0369 ;
+    geo:lat 38.9072 ;
+    schema:areaServed "Washington D.C." ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q61> .
+
+jc:LOC_0054 a crm:E53_Place ;
+    rdfs:label "Roma / Florencia / Carrara (Italia - Redes Escultóricas)" ;
+    geo:long 12.5673 ;
+    geo:lat 41.8719 ;
+    schema:areaServed "Roma / Florencia" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q38> .
+
+jc:LOC_0055 a crm:E53_Place ;
+    rdfs:label "Livingston (Guatemala - Red Prácticas de Reiteración)" ;
+    geo:long -88.7514 ;
+    geo:lat 15.8286 ;
+    schema:areaServed "Livingston" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q954318> .
+
+jc:LOC_0056 a crm:E53_Place ;
+    rdfs:label "Galería Isabel Croxatto (Vitacura)" ;
+    geo:long -70.588 ;
+    geo:lat -33.398 ;
+    schema:areaServed "Santiago" .
+
+jc:LOC_0057 a crm:E53_Place ;
+    rdfs:label "CECAL UdeC (Chillán)" ;
+    geo:long -72.1034 ;
+    geo:lat -36.6066 ;
+    schema:areaServed "Ñuble" .
+
+jc:CON_0001 a skos:Concept ;
+    rdfs:label "Humanidades Digitales" ;
+    skos:definition "Campo metodológico que aplica herramientas computacionales, modelado de datos y visualizaciones al patrimonio y la cultura." .
+
+jc:CON_0002 a skos:Concept ;
+    rdfs:label "Web Semántica y Linked Open Data (LOD)" ;
+    skos:definition "Publicación de datos interconectados bajo estándares W3C (RDF, SPARQL, Ontologías) para interoperabilidad abierta." .
+
+jc:CON_0003 a skos:Concept ;
+    rdfs:label "CIDOC-CRM (ISO 21127)" ;
+    skos:definition "Estándar ontológico formal para la integración y mediación de información sobre patrimonio cultural." .
+
+jc:CON_0004 a skos:Concept ;
+    rdfs:label "Microhistoria Urbana" ;
+    skos:definition "Análisis cualitativo y cuantitativo a escala micro de la arquitectura, nomenclatura y memoria en el espacio de la ciudad." .
+
+jc:CON_0005 a skos:Concept ;
+    rdfs:label "Pensamiento Decolonial" ;
+    skos:definition "Perspectiva crítica que deconstruye las narrativas eurocéntricas y la colonialidad del saber en colecciones y museos." .
+
+jc:CON_0006 a skos:Concept ;
+    rdfs:label "Subalternidad y Representación Afromestiza" ;
+    skos:definition "Estudio de las representaciones visuales y ausencias de sujetos racializados e indígenas en la construcción visual de la nación." .
+
+jc:CON_0007 a skos:Concept ;
+    rdfs:label "Perspectiva de Género y Discipulaje Femenino" ;
+    skos:definition "Revalorización de la agencia de mujeres artistas históricamente subordinadas bajo categorías androcéntricas." .
+
+jc:CON_0008 a skos:Concept ;
+    rdfs:label "Geografía del Mercado del Arte" ;
+    skos:definition "Mapeo espacial de la oferta, tasación, especulación, coleccionismo y circulación de bienes artísticos." .
+
+jc:CON_0009 a skos:Concept ;
+    rdfs:label "Logística Clavo a Clavo y Conservación Preventiva" ;
+    skos:definition "Gestión integral del riesgo, embalaje, pólizas de seguro y traslado de alta complejidad de obras patrimoniales." .
+
+jc:CON_0010 a skos:Concept ;
+    rdfs:label "Descentralización e Itinerancia Territorial" ;
+    skos:definition "Circulación de acervos artísticos estatales hacia regiones fuera de la capital para democratizar el acceso." .
+
+jc:CON_0011 a skos:Concept ;
+    rdfs:label "Accesibilidad Universal Web (WCAG)" ;
+    skos:definition "Diseño de experiencias y plataformas digitales accesibles para personas con discapacidad bajo pautas W3C WCAG 2.1/2.2 AA." .
+
+jc:CON_0012 a skos:Concept ;
+    rdfs:label "Retrato y Modos de Representación" ;
+    skos:definition "Género artístico centrado en la representación de la individualidad o el colectivo y sus implicancias ideológicas de poder y género." .
+
+jc:CON_0013 a skos:Concept ;
+    rdfs:label "Catalogación Razonada y Catastro Curatorial" ;
+    skos:definition "Investigación sistemática y documental exhaustiva de la totalidad del corpus de un artista o acervo." .
+
+jc:CON_0014 a skos:Concept ;
+    rdfs:label "Salones Oficiales y Construcción de Identidad Nacional" ;
+    skos:definition "Espacios seculares de consagración artística y legitimación ideológica del Estado-nación decimonónico." .
+
+jc:CON_0015 a skos:Concept ;
+    rdfs:label "Memoria Política, Archivo y Derechos Humanos" ;
+    skos:definition "Uso testimonial y estético de la imagen para la denuncia, memoria histórica y resguardo de los derechos humanos." .
+
+jc:CON_0016 a skos:Concept ;
+    rdfs:label "Geografía Crítica y Redefinición del Paisaje" ;
+    skos:definition "Análisis espacial de las transformaciones territoriales, ecológicas y políticas a través del arte contemporáneo." .
+
+jc:CON_0017 a skos:Concept ;
+    rdfs:label "Museografía Crítica y Pigmentocracia" ;
+    skos:definition "Prácticas expográficas que interpelan la jerarquización eurocéntrica y racializada en la exhibición del patrimonio." .
+
+jc:CON_0018 a skos:Concept ;
+    rdfs:label "Fuentes Primarias y Archivo Histórico" ;
+    skos:definition "Metodología historiográfica basada en la consulta directa, transcripción y análisis crítico de documentos originales." .
+
+jc:CON_0019 a skos:Concept ;
+    rdfs:label "Imagenología y Peritaje Técnico Material" ;
+    skos:definition "Análisis físico-químico y óptico no destructivo de capas pictóricas y soportes para autenticación y conservación." .
+
+jc:CON_0020 a skos:Concept ;
+    rdfs:label "Descripción Archivística y Norma ISAD(G)" ;
+    skos:definition "Estándar internacional de descripción de fondos y colecciones de archivos históricos para acceso abierto." .
+
+jc:CON_0021 a skos:Concept ;
+    rdfs:label "Arte, Ciencia y Riesgo Socioambiental" ;
+    skos:definition "Prácticas transdisciplinares entre artes visuales y ciencias de la tierra para la denuncia y modelación de crisis." .
+
+jc:EDU_0001 a crm:E7_Activity ;
+    rdfs:label "Máster Universitario en Humanidades Digitales" .
+
+jc:EDU_0002 a crm:E7_Activity ;
+    rdfs:label "Equivalencia a nivel académico de Grado en España" .
+
+jc:EDU_0003 a crm:E7_Activity ;
+    rdfs:label "Magíster en Historia del Arte" .
+
+jc:EDU_0004 a crm:E7_Activity ;
+    rdfs:label "Licenciatura en Artes c/m en Teoría e Historia del Arte" .
+
+jc:EDU_0005 a crm:E7_Activity ;
+    rdfs:label "Diplomado en Gobierno y Gestión Pública" .
+
+jc:EDU_0006 a crm:E7_Activity ;
+    rdfs:label "Diplomado de Postítulo en Estudios Internacionales" .
+
+jc:EDU_0007 a crm:E7_Activity ;
+    rdfs:label "Diplomado en Museos y Museología" .
+
+jc:EDU_0008 a crm:E7_Activity ;
+    rdfs:label "Diplomado en Curaduría" .
+
+jc:EDU_0009 a crm:E7_Activity ;
+    rdfs:label "Gestión de Exposiciones Temporales: un modelo de gestión" .
+
+jc:EDU_0010 a crm:E7_Activity ;
+    rdfs:label "Cursos Online: Museología y Herencia Africana en el Arte" .
+
+jc:EDU_0011 a crm:E7_Activity ;
+    rdfs:label "Digitalización de soportes fotográficos y documentos patrimoniales" .
+
+jc:EDU_0012 a crm:E7_Activity ;
+    rdfs:label "Diplomado de Extensión en Ciencia de la Religión c/m en Judaísmo" .
+
+jc:EDU_0013 a crm:E7_Activity ;
+    rdfs:label "Seminario de Especialización en Egiptología y Medio Oriente Antiguo" .
+
+jc:EDU_0014 a crm:E7_Activity ;
+    rdfs:label "Curso Estatuto Administrativo" .
+
+jc:EDU_0015 a crm:E7_Activity ;
+    rdfs:label "Patrimonio Cultural | Enfoque de Género | IDE Patrimonio" .
+
+jc:EDU_0016 a crm:E7_Activity ;
+    rdfs:label "Prevención de Riesgos y Árbol de Causas" .
+
+jc:POS_0001 a crm:E7_Activity ;
+    rdfs:label "Gestor de Proyectos Patrimoniales | Punto Focal ENPD | Investigador de Colecciones" .
+
+jc:POS_0002 a crm:E7_Activity ;
+    rdfs:label "Evaluador de Proyectos Culturales (FONDART)" .
+
+jc:POS_0003 a crm:E7_Activity ;
+    rdfs:label "Evaluador Externo (Arbitraje por pares ciego)" .
+
+jc:POS_0004 a crm:E7_Activity ;
+    rdfs:label "Profesor Universitario de Cátedra" .
+
+jc:POS_0005 a crm:E7_Activity ;
+    rdfs:label "Co-Editor y Gestor Editorial" .
+
+jc:POS_0006 a crm:E7_Activity ;
+    rdfs:label "Asistente Curatorial y de Exposiciones Temporales" .
+
+jc:POS_0007 a crm:E7_Activity ;
+    rdfs:label "Profesor de Estética y Diseño Múltiple" .
+
+jc:POS_0008 a crm:E7_Activity ;
+    rdfs:label "Asistente de Investigación en Archivística y Documentación" .
+
+jc:POS_0009 a crm:E7_Activity ;
+    rdfs:label "Asistente de Investigación y Catalogación" .
+
+jc:POS_0010 a crm:E7_Activity ;
+    rdfs:label "Investigador Independiente de Patrimonio" .
+
+jc:POS_0011 a crm:E7_Activity ;
+    rdfs:label "Ayudante de Cátedra de Pregrado" .
+
+jc:EXH_0001 a crm:E7_Activity ;
+    rdfs:label "Episodio Monvoisin. Un pintor francés en el Chile del siglo XIX" .
+
+jc:EXH_0002 a crm:E7_Activity ;
+    rdfs:label "Traslado obra monumental Cristo y Magdalena" .
+
+jc:EXH_0003 a crm:E7_Activity ;
+    rdfs:label "Traslado y rescate obra José Tomás de Urmeneta" .
+
+jc:EXH_0004 a crm:E7_Activity ;
+    rdfs:label "Traslado alta complejidad obras Palacio Cousiño" .
+
+jc:EXH_0005 a crm:E7_Activity ;
+    rdfs:label "Traslado Institucional Intercomunal (Abdicación de O'Higgins)" .
+
+jc:EXH_0006 a crm:E7_Activity ;
+    rdfs:label "Traslado Colección Privada Vitacura (5 obras)" .
+
+jc:EXH_0007 a crm:E7_Activity ;
+    rdfs:label "Traslado Colección Privada Calera de Tango (5 obras)" .
+
+jc:EXH_0008 a crm:E7_Activity ;
+    rdfs:label "Traslado Colección Privada Recoleta (1 obra)" .
+
+jc:EXH_0009 a crm:E7_Activity ;
+    rdfs:label "Traslado Colección Privada Huechuraba (1 obra)" .
+
+jc:EXH_0010 a crm:E7_Activity ;
+    rdfs:label "Traslado Colección Privada Providencia (1 obra)" .
+
+jc:EXH_0011 a crm:E7_Activity ;
+    rdfs:label "Traslado Colección Privada Las Condes (2 obras)" .
+
+jc:EXH_0012 a crm:E7_Activity ;
+    rdfs:label "Traslado Colección Privada Padre Hurtado (1 obra)" .
+
+jc:EXH_0013 a crm:E7_Activity ;
+    rdfs:label "Traslado Colección Privada Graneros (2 obras)" .
+
+jc:EXH_0014 a crm:E7_Activity ;
+    rdfs:label "Traslado Colección Privada Nancagua (1 obra)" .
+
+jc:EXH_0015 a crm:E7_Activity ;
+    rdfs:label "Prácticas de reiteración: Colección Museo del Mundo" .
+
+jc:EXH_0016 a crm:E7_Activity ;
+    rdfs:label "Adquisiciones en contexto: La Sociedad Nacional de Bellas Artes 1918-1950" .
+
+jc:EXH_0017 a crm:E7_Activity ;
+    rdfs:label "El canon revisitado. Una mirada al arte europeo desde América Latina" .
+
+jc:EXH_0018 a crm:E7_Activity ;
+    rdfs:label "La segunda naturaleza. Colección CCU" .
+
+jc:EXH_0019 a crm:E7_Activity ;
+    rdfs:label "A 30 años de Rodrigo Rojas de Negri" .
+
+jc:EXH_0020 a crm:E7_Activity ;
+    rdfs:label "Un exilio sin retorno. Rodrigo Rojas De Negri" .
+
+jc:EXH_0021 a crm:E7_Activity ;
+    rdfs:label "Salón de Estudiantes 2013: Desde el resto; Farmacología estética" .
+
+jc:EXH_0022 a crm:E7_Activity ;
+    rdfs:label "Sala de Fotografía Emergente y Antología de Luis Camnitzer" .
+
+jc:EXH_0023 a crm:E7_Activity ;
+    rdfs:label "Violeta y sus contemporáneas. Influencias y transferencias" .
+
+jc:EXH_0024 a crm:E7_Activity ;
+    rdfs:label "Violeta y sus contemporáneas. Influencias y transferencias" .
+
+jc:EXH_0025 a crm:E7_Activity ;
+    rdfs:label "Antúnez: Paisaje y Poesía (Centenario Nemesio Antúnez - Estación Ñuble)" .
+
+jc:EXH_0026 a crm:E7_Activity ;
+    rdfs:label "Antúnez: Paisaje y Poesía (Centenario Nemesio Antúnez - Estación Biobío)" .
+
+jc:EXH_0027 a crm:E7_Activity ;
+    rdfs:label "Antúnez: Paisaje y Poesía (Centenario Nemesio Antúnez - Estación Maule)" .
+
+jc:EXH_0028 a crm:E7_Activity ;
+    rdfs:label "Crisis, crisis, crisis: La normalidad de la emergencia" .
+
+jc:EXH_0029 a crm:E7_Activity ;
+    rdfs:label "Sonata: Exposición Individual de Wladymir Bernechea" .
+
+jc:PRJ_0001 a crm:E7_Activity ;
+    rdfs:label "Arquitectura Art Déco en Santiago centro (Folio 826072)" .
+
+jc:PRJ_0002 a crm:E7_Activity ;
+    rdfs:label "De mármoles y bronces entre el Mediterráneo y los Andes (FONDECYT 1241154)" .
+
+jc:PRJ_0003 a crm:E7_Activity ;
+    rdfs:label "Premio Iberoamericano: Acciones y exhibiciones para descolonizar las narrativas" .
+
+jc:PRJ_0004 a crm:E7_Activity ;
+    rdfs:label "Comercio de arte en Chile 1811-1920 (FONDECYT 1230245)" .
+
+jc:PRJ_0005 a crm:E7_Activity ;
+    rdfs:label "Coleccionismo en Chile durante la segunda mitad del siglo XIX: Marcos Segundo Maturana" .
+
+jc:PRJ_0006 a crm:E7_Activity ;
+    rdfs:label "Ausencias y omisiones femeninas: Clara Filleul y Procesa Sarmiento en el taller Monvoisin" .
+
+jc:PRJ_0007 a crm:E7_Activity ;
+    rdfs:label "Cultures of reading and global intellectual communities in Latin American periodicals" .
+
+jc:PRJ_0008 a crm:E7_Activity ;
+    rdfs:label "Monvoisin en América (Nodo Central Chile)" .
+
+jc:PRJ_0009 a crm:E7_Activity ;
+    rdfs:label "Monvoisin en América (Nodo Argentina - San Juan)" .
+
+jc:PRJ_0010 a crm:E7_Activity ;
+    rdfs:label "Monvoisin en América (Nodo Argentina - Buenos Aires)" .
+
+jc:PRJ_0011 a crm:E7_Activity ;
+    rdfs:label "Monvoisin en América (Nodo Perú)" .
+
+jc:PRJ_0012 a crm:E7_Activity ;
+    rdfs:label "Monvoisin en América (Nodo Brasil)" .
+
+jc:PRJ_0013 a crm:E7_Activity ;
+    rdfs:label "Creación Archivo Fotográfico Rodrigo Rojas De Negri (FONDART Folio 84311)" .
+
+jc:PRJ_0014 a crm:E7_Activity ;
+    rdfs:label "Salón de Estudiantes 2013 Desde el resto; (FVL-2011)" .
+
+jc:PRJ_0015 a crm:E7_Activity ;
+    rdfs:label "Beca General MEC (Máster Universitario en Humanidades Digitales)" .
+
+jc:PRJ_0016 a crm:E7_Activity ;
+    rdfs:label "Programa de educación Salón de Estudiantes 2013 (FDI-MINEDUC)" .
+
+jc:PRJ_0017 a crm:E7_Activity ;
+    rdfs:label "Beca de Formación de Profesionales Iberoamericanos en el Sector Cultural" .
+
+jc:PRJ_0018 a crm:E7_Activity ;
+    rdfs:label "Beca de Inglés CORFO para Profesionales" .
+
+jc:PRJ_0019 a crm:E7_Activity ;
+    rdfs:label "Becas de Excelencia Académica (Beca Bicentenario | Equidad | PAE)" .
+
+jc:PRJ_0020 a crm:E7_Activity ;
+    rdfs:label "S/T Revista de Fotografía Contemporánea (FONDART Nacional Folio 89451)" .
+
+jc:MED_0001 a crm:E7_Activity ;
+    rdfs:label "Exposición Episodio Monvoisin. Un pintor francés en el Chile del siglo XIX" .
+
+jc:MED_0002 a crm:E7_Activity ;
+    rdfs:label "Raymond Monvoisin: El pintor que retrató la elite chilena (#3676)" .
+
+jc:MED_0003 a crm:E7_Activity ;
+    rdfs:label "Modelos de representación: el afromestizo en dos pinturas de batalla en el chile de mediados del siglo XIX" .
+
+jc:MED_0004 a crm:E7_Activity ;
+    rdfs:label "Notas de un itinerario: el perfil comercial del Taller Monvoisin en Chile (1843-1857)" .
+
+jc:MED_0005 a crm:E7_Activity ;
+    rdfs:label "Notas preliminares sobre Clara Filleul: de historiografía, exposiciones y fortuna crítica" .
+
+jc:MED_0006 a crm:E7_Activity ;
+    rdfs:label "Género y discipulaje. Los casos de Clara Filleul y Procesa Sarmiento en el Taller Monvoisin" .
+
+jc:MED_0007 a crm:E7_Activity ;
+    rdfs:label "Trazar límites, deslindar fronteras. El caso de la pintura El Fuerte Bulnes (1848) de Alessandro Ciccarelli" .
+
+jc:MED_0008 a crm:E7_Activity ;
+    rdfs:label "Espacio devocional y cotidiano, al encuentro del reconocimiento del afromestizo..." .
+
+jc:MED_0009 a crm:E7_Activity ;
+    rdfs:label "Modelos de representación. Ausencia y presencia afromestiza en imágenes. Chile siglo XIX" .
+
+jc:MED_0010 a crm:E7_Activity ;
+    rdfs:label "Incertidumbres en las visualidades de indígenas y negros en Chile" .
+
+jc:MED_0011 a crm:E7_Activity ;
+    rdfs:label "La constitución del Salón de Santiago. Notas sobre la institucionalización del sistema de exhibición..." .
+
+jc:MED_0012 a crm:E7_Activity ;
+    rdfs:label "Charla sobre curaduría e investigación del archivo fotográfico Rodrigo Rojas De Negri" .
+
+jc:MED_0013 a crm:E7_Activity ;
+    rdfs:label "De curador y curadores. Encuentro teórico" .
+
+jc:MED_0014 a crm:E7_Activity ;
+    rdfs:label "Charla en el marco de la exposición temporal Genius Loci" .
+
+jc:MED_0015 a crm:E7_Activity ;
+    rdfs:label "Valioso retrato de Monvoisin entra a la colección del Museo de Bellas Artes" .
+
+jc:MED_0016 a crm:E7_Activity ;
+    rdfs:label "Abre sus puertas: Exposición Episodio Monvoisin y logística de traslado de obras" .
+
+jc:MED_0017 a crm:E7_Activity ;
+    rdfs:label "Pintura de la Catedral de Concepción atrae miradas en el MNBA" .
+
+jc:MED_0018 a crm:E7_Activity ;
+    rdfs:label "Matriz Imaginada. Archivo Salón de Estudiantes 2013" .
+
+jc:MED_0019 a crm:E7_Activity ;
+    rdfs:label "Presentación del modelo de gestión Salón de Estudiantes 2013" .
+
+jc:MED_0020 a crm:E7_Activity ;
+    rdfs:label "Ciclo Instagram Live: Monvoisin en América (5 capítulos)" .
+
+jc:MED_0021 a crm:E7_Activity ;
+    rdfs:label "Desde el Museo. Miradas Alteradas: colonialismo y dominación" .
+
+jc:MED_0022 a crm:E7_Activity ;
+    rdfs:label "Instagram Live: Representación de la afrodescendencia en la Colección MNBA" .
+
+jc:MED_0023 a crm:E7_Activity ;
+    rdfs:label "Desde el Museo: Adquisiciones en contexto" .
+
+jc:MED_0024 a crm:E7_Activity ;
+    rdfs:label "Recorrido mediado por la exposición Adquisiciones en contexto" .
+
+jc:MED_0025 a crm:E7_Activity ;
+    rdfs:label "Lanzamiento plataforma web QUINSAC y libro Monvoisin en América" .
+
+jc:MED_0026 a crm:E7_Activity ;
+    rdfs:label "Los canteros de Pedro Lira: Trayectoria histórica y aproximación iconográfica" .
+
+jc:MED_0027 a crm:E7_Activity ;
+    rdfs:label "Cápsula audiovisual de mediación: Exposición Episodio Monvoisin en el MNBA" .
+
+jc:DGH_0001 a crm:E73_Information_Object ;
+    rdfs:label "QUINSAC. Estudios razonados de arte y coleccionismo" .
+
+jc:DGH_0002 a crm:E73_Information_Object ;
+    rdfs:label "Monvoisin: huellas territoriales de un artista" .
+
+jc:DGH_0003 a crm:E73_Information_Object ;
+    rdfs:label "Plataforma virtual Salón de Estudiantes" .
+
+jc:DGH_0004 a crm:E73_Information_Object ;
+    rdfs:label "Callejera Madrid" .
+
+jc:DGH_0005 a crm:E73_Information_Object ;
+    rdfs:label "Arquitectura Art Déco en Santiago centro" .
+
+jc:DGH_0006 a crm:E73_Information_Object ;
+    rdfs:label "Mármoles y Bronces entre el Mediterráneo y los Andes" .
 
 jc:PER_0001 crm:P14i_performed jc:PRJ_0008 .
+
 jc:PRJ_0008 crm:P108_has_produced jc:DIG_0001 .
+
 jc:PRJ_0008 crm:P108_has_produced jc:DIG_0006 .
+
 jc:PRJ_0008 crm:P108_has_produced jc:PUB_0001 .
+
 jc:PRJ_0008 crm:P108_has_produced jc:PUB_0010 .
+
 jc:PRJ_0008 crm:P108_has_produced jc:PUB_0011 .
+
 jc:PRJ_0008 crm:P108_has_produced jc:PUB_0014 .
+
 jc:PRJ_0008 crm:P67_refers_to jc:EXP_0001 .
+
 jc:EXP_0001 crm:P9_consists_of jc:EXP_0001_M01 .
+
 jc:EXP_0001 crm:P9_consists_of jc:EXP_0001_M02 .
+
 jc:EXP_0001 crm:P9_consists_of jc:EXP_0001_M03 .
+
 jc:EXP_0001 crm:P9_consists_of jc:EXP_0001_M04 .
+
 jc:PRJ_0008 crm:P9_consists_of jc:PRJ_0008_N01 .
+
 jc:PRJ_0008 crm:P9_consists_of jc:PRJ_0008_N02 .
+
 jc:PRJ_0008 crm:P9_consists_of jc:PRJ_0008_N03 .
+
 jc:PRJ_0008 crm:P9_consists_of jc:PRJ_0008_N04 .
+
 jc:PRJ_0008 crm:P129_is_subject_of jc:COM_0001 .
+
 jc:PRJ_0008 crm:P129_is_subject_of jc:COM_0002 .
+
 jc:PRJ_0008 crm:P129_is_subject_of jc:COM_0020 .
+
 jc:PER_0001 crm:P14i_performed jc:PRJ_0001 .
+
 jc:PRJ_0001 crm:P108_has_produced jc:DIG_0010 .
+
 jc:PER_0001 crm:P14i_performed jc:PRJ_0002 .
+
 jc:PRJ_0002 crm:P108_has_produced jc:DIG_0011 .
+
 jc:PER_0001 crm:P14i_performed jc:DIG_0009 .
+
 jc:PER_0001 crm:P14i_performed jc:PRJ_0005 .
+
 jc:PRJ_0005 crm:P108_has_produced jc:PUB_0012 .
+
 jc:PER_0001 crm:P14i_performed jc:PRJ_0006 .
+
 jc:PRJ_0006 crm:P108_has_produced jc:PUB_0015 .
+
 jc:PER_0001 crm:P14i_performed jc:PRJ_0009 .
+
 jc:PRJ_0009 crm:P108_has_produced jc:PUB_0003 .
+
 jc:PRJ_0009 crm:P67_refers_to jc:EXP_0006 .
+
 jc:PER_0001 crm:P14i_performed jc:PRJ_0010 .
+
 jc:PRJ_0010 crm:P108_has_produced jc:EXP_0008 .
+
 jc:PRJ_0010 crm:P108_has_produced jc:DIG_0008 .
+
 jc:PRJ_0010 crm:P108_has_produced jc:PUB_0007 .
+
 jc:PER_0001 crm:P14i_performed jc:PUB_0005 .
+
 jc:PUB_0005 crm:P67_refers_to jc:PRJ_0003 .
+
 jc:PER_0001 crm:P14i_performed jc:EXP_0003 .
+
 jc:EXP_0003 crm:P108_has_produced jc:PUB_0004 .
+
 jc:EXP_0003 crm:P108_has_produced jc:PUB_0004 .
+
 jc:PER_0001 crm:P14i_performed jc:EXP_0004 .
+
 jc:EXP_0004 crm:P108_has_produced jc:PUB_0005 .
+
 jc:PER_0001 crm:P14i_performed jc:EXP_0012 .
+
 jc:PER_0001 crm:P14i_performed jc:EXP_0013 .
+
 jc:EXP_0013 crm:P7_took_place_at jc:ORG_0040 .
+
 jc:EXP_0011_01 crm:P7_took_place_at jc:ORG_0041 .
+
 jc:EXP_0012 crm:P67_refers_to jc:ORG_0042 .
+
 jc:PRJ_0016 crm:P14_carried_out_by jc:PER_0001 .
+
 jc:PRJ_0016 crm:P14_carried_out_by jc:PER_0011 .
+
 jc:PRJ_0016 crm:P108_has_produced jc:PUB_0017 .
+
 jc:PUB_0017 crm:P14_carried_out_by jc:ORG_0022 .
+
 jc:PRJ_0016 schema:funder jc:ORG_0008 .
