@@ -356,22 +356,22 @@ jc:ORG_0038 a crm:E74_Group .
 
 jc:LOC_0001 a crm:E53_Place ;
     rdfs:label "Museo Nacional de Bellas Artes (MNBA)" ;
-    geo:long -70.6439 ;
-    geo:lat -33.4352 ;
+    geo:long -70.64354723358485 ;
+    geo:lat -33.43515306708146 ;
     schema:areaServed "Santiago" ;
     skos:exactMatch <https://www.wikidata.org/wiki/Q1138865> .
 
 jc:LOC_0002 a crm:E53_Place ;
     rdfs:label "Museo de Arte Contemporáneo (MAC Quinta Normal)" ;
-    geo:long -70.682 ;
-    geo:lat -33.4414 ;
+    geo:long -70.68037428569774 ;
+    geo:lat -33.44198933167025 ;
     schema:areaServed "Santiago" ;
     skos:exactMatch <https://www.wikidata.org/wiki/Q3329153> .
 
 jc:LOC_0003 a crm:E53_Place ;
     rdfs:label "Casa Central Universidad de Chile / Archivo Andrés Bello" ;
-    geo:long -70.65 ;
-    geo:lat -33.444 ;
+    geo:long -70.65069471823976 ;
+    geo:lat -33.44432093080183 ;
     schema:areaServed "Santiago" ;
     skos:exactMatch <https://www.wikidata.org/wiki/Q232438> .
 
@@ -384,8 +384,8 @@ jc:LOC_0004 a crm:E53_Place ;
 
 jc:LOC_0005 a crm:E53_Place ;
     rdfs:label "Universitat de Barcelona (FIMA / Plaça Universitat)" ;
-    geo:long 2.1734 ;
-    geo:lat 41.3851 ;
+    geo:long 2.139053349698989 ;
+    geo:lat 41.38154687801553 ;
     schema:areaServed "Barcelona" ;
     skos:exactMatch <https://www.wikidata.org/wiki/Q219615> .
 
@@ -447,8 +447,8 @@ jc:LOC_0013 a crm:E53_Place ;
 
 jc:LOC_0014 a crm:E53_Place ;
     rdfs:label "Fundación TyPA / CAIA UBA (Buenos Aires)" ;
-    geo:long -58.3816 ;
-    geo:lat -34.6037 ;
+    geo:long -58.44653347584588 ;
+    geo:lat -34.62815117682938 ;
     schema:areaServed "Buenos Aires" .
 
 jc:LOC_0015 a crm:E53_Place ;
@@ -460,8 +460,8 @@ jc:LOC_0015 a crm:E53_Place ;
 
 jc:LOC_0016 a crm:E53_Place ;
     rdfs:label "Pinacoteca do Estado de São Paulo" ;
-    geo:long -46.6322 ;
-    geo:lat -23.534 ;
+    geo:long -46.63368673405564 ;
+    geo:lat -23.53422346887216 ;
     schema:areaServed "São Paulo" ;
     skos:exactMatch <https://www.wikidata.org/wiki/Q1464673> .
 
@@ -488,8 +488,8 @@ jc:LOC_0019 a crm:E53_Place ;
 
 jc:LOC_0020 a crm:E53_Place ;
     rdfs:label "Centro Cultural de España en Guatemala" ;
-    geo:long -90.5132 ;
-    geo:lat 14.6407 ;
+    geo:long -90.51453891900114 ;
+    geo:lat 14.63829337820492 ;
     schema:areaServed "Ciudad de Guatemala" ;
     skos:exactMatch <https://www.wikidata.org/wiki/Q5761159> .
 
@@ -509,22 +509,22 @@ jc:LOC_0022 a crm:E53_Place ;
 
 jc:LOC_0023 a crm:E53_Place ;
     rdfs:label "Museo de la Memoria y los Derechos Humanos (MMDH)" ;
-    geo:long -70.6823 ;
-    geo:lat -33.4398 ;
+    geo:long -70.67955889415381 ;
+    geo:lat -33.43993915856012 ;
     schema:areaServed "Santiago" ;
     skos:exactMatch <https://www.wikidata.org/wiki/Q2006767> .
 
 jc:LOC_0024 a crm:E53_Place ;
     rdfs:label "Museo de Arte y Artesanía de Linares" ;
-    geo:long -71.5976 ;
-    geo:lat -35.8454 ;
+    geo:long -71.59618571625025 ;
+    geo:lat -35.84964236458835 ;
     schema:areaServed "Linares" ;
     skos:exactMatch <https://www.wikidata.org/wiki/Q6033842> .
 
 jc:LOC_0025 a crm:E53_Place ;
     rdfs:label "Pinacoteca Universidad de Concepción (Casa del Arte)" ;
-    geo:long -73.0396 ;
-    geo:lat -36.8282 ;
+    geo:long -73.0394315045538 ;
+    geo:lat -36.82713507857586 ;
     schema:areaServed "Concepción" ;
     skos:exactMatch <https://www.wikidata.org/wiki/Q5047879> .
 
@@ -703,8 +703,8 @@ jc:LOC_0050 a crm:E53_Place ;
 
 jc:LOC_0051 a crm:E53_Place ;
     rdfs:label "Artistas del Acero (Concepción)" ;
-    geo:long -73.0498 ;
-    geo:lat -36.8282 ;
+    geo:long -73.04222691804569 ;
+    geo:lat -36.82410307907857 ;
     schema:areaServed "Concepción" .
 
 jc:LOC_0052 a crm:E53_Place ;
@@ -743,8 +743,8 @@ jc:LOC_0056 a crm:E53_Place ;
 
 jc:LOC_0057 a crm:E53_Place ;
     rdfs:label "CECAL UdeC (Chillán)" ;
-    geo:long -72.1034 ;
-    geo:lat -36.6066 ;
+    geo:long -72.09909088922245 ;
+    geo:lat -36.60655467138508 ;
     schema:areaServed "Ñuble" ;
     skos:exactMatch <https://www.wikidata.org/wiki/Q113665601> .
 
@@ -758,6 +758,24 @@ jc:LOC_0059 a crm:E53_Place ;
     geo:lat 40.4168 ;
     schema:areaServed "Madrid" ;
     skos:exactMatch <https://www.wikidata.org/wiki/Q9256> .
+
+jc:LOC_0060 a crm:E53_Place ;
+    rdfs:label "UAI Sede Presidente Errázuriz" ;
+    geo:long -70.59154788940485 ;
+    geo:lat -33.42121365946592 ;
+    schema:areaServed "Chile" .
+
+jc:LOC_0061 a crm:E53_Place ;
+    rdfs:label "UAI Campus Peñalolén" ;
+    geo:long -70.5182663382937 ;
+    geo:lat -33.48439393710956 ;
+    schema:areaServed "Chile" .
+
+jc:LOC_0062 a crm:E53_Place ;
+    rdfs:label "UChile Campus Juan Gomez Millas" ;
+    geo:long -70.59598366056628 ;
+    geo:lat -33.46665877200571 ;
+    schema:areaServed "Chile" .
 
 jc:VOC_0001 a skos:Concept ;
     rdfs:label "Humanidades Digitales" ;
