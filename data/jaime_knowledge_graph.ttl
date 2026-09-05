@@ -2023,6 +2023,8 @@ jc:PER_0001 crm:P11_had_participant jc:LOC_0018 .
 
 jc:EDU_0013 crm:P87_is_identified_by jc:LOC_0063 .
 
+jc:PER_0001 crm:P7_took_place_at jc:LOC_0013 .
+
 jc:PER_0001 crm:P14i_performed jc:EDU_0001 .
 
 jc:EDU_0001 crm:P87_is_identified_by jc:ORG_0005 .

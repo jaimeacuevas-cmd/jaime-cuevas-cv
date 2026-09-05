@@ -3,7 +3,7 @@
     "version": "2.0",
     "source": "CV_Dataset_Maestro_Jaime_Cuevas.xlsx",
     "node_count": 278,
-    "link_count": 693,
+    "link_count": 694,
     "sheet_count": 12,
     "validation_status": "PASS",
     "validation_warnings": 148,
@@ -8525,6 +8525,15 @@
       "target": "LOC_0063",
       "predicate": "crm:P87_is_identified_by",
       "year": 2015,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0326",
+      "source": "PER_0001",
+      "target": "LOC_0013",
+      "predicate": "crm:P7_took_place_at",
+      "year": "2018",
       "description": null,
       "_sheet_name": "Relaciones_Grafo_LOD"
     },
