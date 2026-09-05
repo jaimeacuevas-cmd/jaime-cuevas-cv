@@ -2036,6 +2036,10 @@ jc:PER_0001 crm:P14i_performed jc:CAR_0012 .
 
 jc:CAR_0012 crm:P14_carried_out_by jc:ORG_0038 .
 
+jc:PER_0001 crm:P14i_performed jc:EXP_0001 .
+
+jc:[N/A] crm:P14i_performed jc:EXP_0001 .
+
 jc:PER_0015 crm:P14i_performed jc:EXP_0001 .
 
 jc:PER_0016 crm:P14i_performed jc:EXP_0001 .
@@ -2046,35 +2050,155 @@ jc:PER_0018 crm:P14i_performed jc:EXP_0001 .
 
 jc:PER_0019 crm:P14i_performed jc:EXP_0001 .
 
+jc:EXP_0001 crm:P7_took_place_at jc:[N/A] .
+
+jc:EXP_0001 crm:P7_took_place_at jc:LOC_0001 .
+
+jc:PER_0001 crm:P14i_performed jc:EXP_0001_M01 .
+
+jc:[N/A] crm:P14i_performed jc:EXP_0001_M01 .
+
 jc:PER_0015 crm:P14i_performed jc:EXP_0001_M01 .
+
+jc:EXP_0001_M01 crm:P7_took_place_at jc:LOC_0001 .
+
+jc:EXP_0001_M01 crm:P7_took_place_at jc:LOC_0026 .
+
+jc:PER_0001 crm:P14i_performed jc:EXP_0001_M02 .
+
+jc:[N/A] crm:P14i_performed jc:EXP_0001_M02 .
 
 jc:PER_0015 crm:P14i_performed jc:EXP_0001_M02 .
 
+jc:EXP_0001_M02 crm:P7_took_place_at jc:LOC_0001 .
+
+jc:EXP_0001_M02 crm:P7_took_place_at jc:LOC_0027 .
+
+jc:PER_0001 crm:P14i_performed jc:EXP_0001_M03 .
+
+jc:[N/A] crm:P14i_performed jc:EXP_0001_M03 .
+
 jc:PER_0015 crm:P14i_performed jc:EXP_0001_M03 .
+
+jc:EXP_0001_M03 crm:P7_took_place_at jc:LOC_0001 .
+
+jc:EXP_0001_M03 crm:P7_took_place_at jc:LOC_0028 .
+
+jc:PER_0001 crm:P14i_performed jc:EXP_0001_M04 .
+
+jc:[N/A] crm:P14i_performed jc:EXP_0001_M04 .
 
 jc:PER_0015 crm:P14i_performed jc:EXP_0001_M04 .
 
+jc:EXP_0001_M04 crm:P7_took_place_at jc:LOC_0001 .
+
+jc:EXP_0001_M04 crm:P7_took_place_at jc:LOC_0029 .
+
+jc:PER_0001 crm:P14i_performed jc:EXP_0001_M05 .
+
+jc:[N/A] crm:P14i_performed jc:EXP_0001_M05 .
+
 jc:PER_0015 crm:P14i_performed jc:EXP_0001_M05 .
+
+jc:EXP_0001_M05 crm:P7_took_place_at jc:LOC_0001 .
+
+jc:EXP_0001_M05 crm:P7_took_place_at jc:LOC_0030 .
+
+jc:PER_0001 crm:P14i_performed jc:EXP_0001_M06 .
+
+jc:[N/A] crm:P14i_performed jc:EXP_0001_M06 .
 
 jc:PER_0015 crm:P14i_performed jc:EXP_0001_M06 .
 
+jc:EXP_0001_M06 crm:P7_took_place_at jc:LOC_0001 .
+
+jc:EXP_0001_M06 crm:P7_took_place_at jc:LOC_0031 .
+
+jc:PER_0001 crm:P14i_performed jc:EXP_0001_M07 .
+
+jc:[N/A] crm:P14i_performed jc:EXP_0001_M07 .
+
 jc:PER_0015 crm:P14i_performed jc:EXP_0001_M07 .
+
+jc:EXP_0001_M07 crm:P7_took_place_at jc:LOC_0001 .
+
+jc:EXP_0001_M07 crm:P7_took_place_at jc:LOC_0032 .
+
+jc:PER_0001 crm:P14i_performed jc:EXP_0001_M08 .
+
+jc:[N/A] crm:P14i_performed jc:EXP_0001_M08 .
 
 jc:PER_0015 crm:P14i_performed jc:EXP_0001_M08 .
 
+jc:EXP_0001_M08 crm:P7_took_place_at jc:LOC_0001 .
+
+jc:EXP_0001_M08 crm:P7_took_place_at jc:LOC_0033 .
+
+jc:PER_0001 crm:P14i_performed jc:EXP_0001_M09 .
+
+jc:[N/A] crm:P14i_performed jc:EXP_0001_M09 .
+
 jc:PER_0015 crm:P14i_performed jc:EXP_0001_M09 .
+
+jc:EXP_0001_M09 crm:P7_took_place_at jc:LOC_0001 .
+
+jc:EXP_0001_M09 crm:P7_took_place_at jc:LOC_0034 .
+
+jc:PER_0001 crm:P14i_performed jc:EXP_0001_M10 .
+
+jc:[N/A] crm:P14i_performed jc:EXP_0001_M10 .
 
 jc:PER_0015 crm:P14i_performed jc:EXP_0001_M10 .
 
+jc:EXP_0001_M10 crm:P7_took_place_at jc:LOC_0001 .
+
+jc:EXP_0001_M10 crm:P7_took_place_at jc:LOC_0035 .
+
+jc:PER_0001 crm:P14i_performed jc:EXP_0001_M11 .
+
+jc:[N/A] crm:P14i_performed jc:EXP_0001_M11 .
+
 jc:PER_0015 crm:P14i_performed jc:EXP_0001_M11 .
+
+jc:EXP_0001_M11 crm:P7_took_place_at jc:LOC_0001 .
+
+jc:EXP_0001_M11 crm:P7_took_place_at jc:LOC_0036 .
+
+jc:PER_0001 crm:P14i_performed jc:EXP_0001_M12 .
+
+jc:[N/A] crm:P14i_performed jc:EXP_0001_M12 .
 
 jc:PER_0018 crm:P14i_performed jc:EXP_0001_M12 .
 
+jc:EXP_0001_M12 crm:P7_took_place_at jc:LOC_0001 .
+
+jc:EXP_0001_M12 crm:P7_took_place_at jc:LOC_0037 .
+
+jc:PER_0001 crm:P14i_performed jc:EXP_0001_M13 .
+
+jc:[N/A] crm:P14i_performed jc:EXP_0001_M13 .
+
 jc:PER_0015 crm:P14i_performed jc:EXP_0001_M13 .
+
+jc:EXP_0001_M13 crm:P7_took_place_at jc:LOC_0001 .
+
+jc:EXP_0001_M13 crm:P7_took_place_at jc:LOC_0038 .
+
+jc:PER_0001 crm:P14i_performed jc:EXP_0002 .
+
+jc:PER_0008 crm:P14i_performed jc:EXP_0002 .
 
 jc:PER_0031 crm:P14i_performed jc:EXP_0002 .
 
 jc:PER_0032 crm:P14i_performed jc:EXP_0002 .
+
+jc:EXP_0002 crm:P7_took_place_at jc:LOC_0020 .
+
+jc:EXP_0002 crm:P7_took_place_at jc:LOC_0055 .
+
+jc:PER_0001 crm:P14i_performed jc:EXP_0003 .
+
+jc:PER_0004 crm:P14i_performed jc:EXP_0003 .
 
 jc:PER_0026 crm:P14i_performed jc:EXP_0003 .
 
@@ -2086,7 +2210,23 @@ jc:PER_0029 crm:P14i_performed jc:EXP_0003 .
 
 jc:PER_0030 crm:P14i_performed jc:EXP_0003 .
 
+jc:EXP_0003 crm:P7_took_place_at jc:[N/A] .
+
+jc:EXP_0003 crm:P7_took_place_at jc:LOC_0001 .
+
+jc:PER_0001 crm:P14i_performed jc:EXP_0004 .
+
+jc:PER_0004 crm:P14i_performed jc:EXP_0004 .
+
 jc:[Varios] crm:P14i_performed jc:EXP_0004 .
+
+jc:EXP_0004 crm:P7_took_place_at jc:LOC_0001 .
+
+jc:EXP_0004 crm:P7_took_place_at jc:LOC_0039 .
+
+jc:PER_0001 crm:P14i_performed jc:EXP_0005 .
+
+jc:[N/A] crm:P14i_performed jc:EXP_0005 .
 
 jc:PER_0033 crm:P14i_performed jc:EXP_0005 .
 
@@ -2094,13 +2234,53 @@ jc:PER_0034 crm:P14i_performed jc:EXP_0005 .
 
 jc:PER_0035 crm:P14i_performed jc:EXP_0005 .
 
+jc:EXP_0005 crm:P7_took_place_at jc:[N/A] .
+
+jc:EXP_0005 crm:P7_took_place_at jc:LOC_0022 .
+
+jc:PER_0001 crm:P14i_performed jc:EXP_0006 .
+
+jc:[N/A] crm:P14i_performed jc:EXP_0006 .
+
 jc:PER_0022 crm:P14i_performed jc:EXP_0006 .
+
+jc:EXP_0006 crm:P7_took_place_at jc:LOC_0050 .
+
+jc:EXP_0006 crm:P7_took_place_at jc:LOC_0023 .
+
+jc:PER_0001 crm:P14i_performed jc:EXP_0007 .
+
+jc:PER_0011 crm:P14i_performed jc:EXP_0007 .
 
 jc:PER_0022 crm:P14i_performed jc:EXP_0007 .
 
+jc:EXP_0007 crm:P7_took_place_at jc:LOC_0023 .
+
+jc:EXP_0007 crm:P7_took_place_at jc:LOC_0002 .
+
+jc:PER_0001 crm:P14i_performed jc:EXP_0008 .
+
+jc:PER_0008 crm:P14i_performed jc:EXP_0008 .
+
 jc:53 Artistas emergentes UCH crm:P14i_performed jc:EXP_0008 .
 
+jc:EXP_0008 crm:P7_took_place_at jc:LOC_0002 .
+
+jc:EXP_0008 crm:P7_took_place_at jc:LOC_0003 .
+
+jc:PER_0001 crm:P14i_performed jc:EXP_0009 .
+
+jc:PER_0011 crm:P14i_performed jc:EXP_0009 .
+
 jc:PER_0023 crm:P14i_performed jc:EXP_0009 .
+
+jc:EXP_0009 crm:P7_took_place_at jc:[N/A] .
+
+jc:EXP_0009 crm:P7_took_place_at jc:LOC_0002 .
+
+jc:PER_0001 crm:P14i_performed jc:EXP_0010 .
+
+jc:[N/A] crm:P14i_performed jc:EXP_0010 .
 
 jc:PER_0021 crm:P14i_performed jc:EXP_0010 .
 
@@ -2112,6 +2292,14 @@ jc:PER_0038 crm:P14i_performed jc:EXP_0010 .
 
 jc:PER_0039 crm:P14i_performed jc:EXP_0010 .
 
+jc:EXP_0010 crm:P7_took_place_at jc:LOC_0024 .
+
+jc:EXP_0010 crm:P7_took_place_at jc:LOC_0001 .
+
+jc:PER_0001 crm:P14i_performed jc:EXP_0010_1 .
+
+jc:[N/A] crm:P14i_performed jc:EXP_0010_1 .
+
 jc:PER_0021 crm:P14i_performed jc:EXP_0010_1 .
 
 jc:PER_0036 crm:P14i_performed jc:EXP_0010_1 .
@@ -2122,11 +2310,43 @@ jc:PER_0038 crm:P14i_performed jc:EXP_0010_1 .
 
 jc:PER_0039 crm:P14i_performed jc:EXP_0010_1 .
 
+jc:EXP_0010_1 crm:P7_took_place_at jc:LOC_0025 .
+
+jc:EXP_0010_1 crm:P7_took_place_at jc:LOC_0024 .
+
+jc:PER_0001 crm:P14i_performed jc:EXP_0011_01 .
+
+jc:[N/A] crm:P14i_performed jc:EXP_0011_01 .
+
 jc:PER_0020 crm:P14i_performed jc:EXP_0011_01 .
+
+jc:EXP_0011_01 crm:P7_took_place_at jc:LOC_0057 .
+
+jc:EXP_0011_01 crm:P7_took_place_at jc:LOC_0001 .
+
+jc:PER_0001 crm:P14i_performed jc:EXP_0011_02 .
+
+jc:[N/A] crm:P14i_performed jc:EXP_0011_02 .
 
 jc:PER_0020 crm:P14i_performed jc:EXP_0011_02 .
 
+jc:EXP_0011_02 crm:P7_took_place_at jc:LOC_0025 .
+
+jc:EXP_0011_02 crm:P7_took_place_at jc:LOC_0057 .
+
+jc:PER_0001 crm:P14i_performed jc:EXP_0011_03 .
+
+jc:[N/A] crm:P14i_performed jc:EXP_0011_03 .
+
 jc:PER_0020 crm:P14i_performed jc:EXP_0011_03 .
+
+jc:EXP_0011_03 crm:P7_took_place_at jc:LOC_0024 .
+
+jc:EXP_0011_03 crm:P7_took_place_at jc:LOC_0025 .
+
+jc:PER_0001 crm:P14i_performed jc:EXP_0012 .
+
+jc:[N/A] crm:P14i_performed jc:EXP_0012 .
 
 jc:PER_0040 crm:P14i_performed jc:EXP_0012 .
 
@@ -2138,7 +2358,21 @@ jc:PER_0043 crm:P14i_performed jc:EXP_0012 .
 
 jc:Colección MUSAC crm:P14i_performed jc:EXP_0012 .
 
+jc:EXP_0012 crm:P7_took_place_at jc:[N/A] .
+
+jc:EXP_0012 crm:P7_took_place_at jc:LOC_0021 .
+
+jc:PER_0001 crm:P14i_performed jc:EXP_0013 .
+
+jc:[N/A] crm:P14i_performed jc:EXP_0013 .
+
 jc:PER_0031 crm:P14i_performed jc:EXP_0013 .
+
+jc:EXP_0013 crm:P7_took_place_at jc:[N/A] .
+
+jc:EXP_0013 crm:P7_took_place_at jc:LOC_0056 .
+
+jc:PER_0038 crm:P14i_performed jc:EXP_0014 .
 
 jc:PER_0038 crm:P14i_performed jc:EXP_0014 .
 

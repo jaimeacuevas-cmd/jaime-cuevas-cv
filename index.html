@@ -957,8 +957,9 @@
       window.graphZoom = zoom;
 
       simulation = d3.forceSimulation()
-        .force('link', d3.forceLink().id(d => d.id).distance(d => d.source.id === 'PER_0001' ? 140 : 85))
-        .force('charge', d3.forceManyBody().strength(-190))
+        .force('link', d3.forceLink().id(d => d.id).distance(d => d.source.id === 'PER_0001' ? 120 : 80))
+        .force('charge', d3.forceManyBody().strength(-120))
+        .force('collision', d3.forceCollide().radius(d => d.type === 'Location' ? 25 : 35))
         .force('center', d3.forceCenter(width / 2, height / 2))
         .force('collision', d3.forceCollide().radius(d => d.id === 'PER_0001' ? 45 : 24));
 

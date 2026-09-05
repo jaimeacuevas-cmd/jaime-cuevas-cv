@@ -473,12 +473,47 @@ class DataTransformer:
                 links.append(link)
                 link_counter += 1
 
-        # Generate links from Exposiciones_Curadurias (Agent → Exhibition)
+        # Generate links from Exposiciones_Curadurias (Agent → Exhibition, Exhibition → Location)
         exhibitions = raw_entities.get('Exhibition', [])
         for exp_row in exhibitions:
             exp_id = exp_row.get('id_exposicion', '').strip()
+            agent_id = exp_row.get('id_agente', '').strip()
+            co_curators_field = exp_row.get('id_co_curadores', '')
             artists_field = exp_row.get('id_artistas_involucrados', '')
+            loc_destino_id = exp_row.get('id_lugar_destino', '').strip()
+            loc_origen_id = exp_row.get('id_lugar_origen', '').strip()
 
+            # Agent (curator) → Exhibition
+            if exp_id and agent_id:
+                link = {
+                    'id': f"IMPL_{link_counter:05d}",
+                    'source': agent_id,
+                    'target': exp_id,
+                    'predicate': 'crm:P14i_performed',
+                    'predicate_label': 'Curó',
+                    'description': f"Exhibition: {exp_row.get('titulo_exposicion', '')}",
+                    '_sheet_name': 'Exposiciones_Curadurias',
+                }
+                links.append(link)
+                link_counter += 1
+
+            # Co-curators → Exhibition
+            if exp_id and co_curators_field:
+                co_curator_ids = [cid.strip() for cid in str(co_curators_field).split('|') if cid.strip()]
+                for co_curator_id in co_curator_ids:
+                    link = {
+                        'id': f"IMPL_{link_counter:05d}",
+                        'source': co_curator_id,
+                        'target': exp_id,
+                        'predicate': 'crm:P14i_performed',
+                        'predicate_label': 'Co-curó',
+                        'description': f"Exhibition: {exp_row.get('titulo_exposicion', '')}",
+                        '_sheet_name': 'Exposiciones_Curadurias',
+                    }
+                    links.append(link)
+                    link_counter += 1
+
+            # Artists → Exhibition
             if exp_id and artists_field:
                 # Parse pipe-delimited artist IDs (e.g., "PER_0031 | PER_0032")
                 artist_ids = [aid.strip() for aid in str(artists_field).split('|') if aid.strip()]
@@ -495,6 +530,34 @@ class DataTransformer:
                     }
                     links.append(link)
                     link_counter += 1
+
+            # Exhibition → Location (destination)
+            if exp_id and loc_destino_id:
+                link = {
+                    'id': f"IMPL_{link_counter:05d}",
+                    'source': exp_id,
+                    'target': loc_destino_id,
+                    'predicate': 'crm:P7_took_place_at',
+                    'predicate_label': 'Se realizó en',
+                    'description': f"Exhibition at: {exp_row.get('nodo_destino', '')}",
+                    '_sheet_name': 'Exposiciones_Curadurias',
+                }
+                links.append(link)
+                link_counter += 1
+
+            # Exhibition → Location (origin) if different from destination
+            if exp_id and loc_origen_id and loc_origen_id != loc_destino_id:
+                link = {
+                    'id': f"IMPL_{link_counter:05d}",
+                    'source': exp_id,
+                    'target': loc_origen_id,
+                    'predicate': 'crm:P7_took_place_at',
+                    'predicate_label': 'Se realizó en',
+                    'description': f"Exhibition from: {exp_row.get('nodo_origen', '')}",
+                    '_sheet_name': 'Exposiciones_Curadurias',
+                }
+                links.append(link)
+                link_counter += 1
 
         # Generate links from Medios_y_Congresos (Agent → Media and Media → Organization)
         medias = raw_entities.get('Media', [])
