@@ -3,7 +3,7 @@
     "version": "2.0",
     "source": "CV_Dataset_Maestro_Jaime_Cuevas.xlsx",
     "node_count": 211,
-    "link_count": 472,
+    "link_count": 477,
     "sheet_count": 12,
     "validation_status": "PASS",
     "validation_warnings": 117,
@@ -3166,7 +3166,7 @@
     {
       "id": "PRJ_0010",
       "type": "Project",
-      "label": "Salón de Estudiantes 2013 Desde el resto; (FVL-2011)",
+      "label": "Salón de Estudiantes 2013 Desde el resto; (FVL-2011 + FDI-MinEducación)",
       "short_name": null,
       "category": null,
       "description": null,
@@ -6266,6 +6266,51 @@
       "_sheet_name": "Relaciones_Grafo_LOD"
     },
     {
+      "id": "REL_0273",
+      "source": "COM_0012",
+      "target": "PRJ_0009",
+      "predicate": "crm:P108_has_produced",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0274",
+      "source": "COM_0018",
+      "target": "PRJ_0010",
+      "predicate": "crm:P108_has_produced",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0275",
+      "source": "COM_0019",
+      "target": "PRJ_0010",
+      "predicate": "crm:P108_has_produced",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0276",
+      "source": "COM_0012",
+      "target": "EXP_0006",
+      "predicate": "crm:P129_is_subject_of",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0277",
+      "source": "PER_0003",
+      "target": "PRJ_0008",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
       "id": "IMPL_01000",
       "source": "PER_0001",
       "target": "EDU_0001",
@@ -7864,7 +7909,7 @@
       "target": "PRJ_0010",
       "predicate": "crm:P14i_performed",
       "predicate_label": "Realizó/Lidera",
-      "description": "Project: Salón de Estudiantes 2013 Desde el resto; (FVL-2011)",
+      "description": "Project: Salón de Estudiantes 2013 Desde el resto; (FVL-2011 + FDI-MinEducación)",
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
