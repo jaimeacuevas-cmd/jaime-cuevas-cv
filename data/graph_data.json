@@ -3,7 +3,7 @@
     "version": "2.0",
     "source": "CV_Dataset_Maestro_Jaime_Cuevas.xlsx",
     "node_count": 271,
-    "link_count": 91,
+    "link_count": 116,
     "sheet_count": 12,
     "validation_status": "PASS",
     "validation_warnings": 49
@@ -5727,6 +5727,231 @@
       "target": "ORG_0008",
       "predicate": "schema:funder",
       "year": "2014",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0053",
+      "source": "PER_0001",
+      "target": "ORG_0001",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0054",
+      "source": "PER_0001",
+      "target": "ORG_0002",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0055",
+      "source": "PER_0001",
+      "target": "ORG_0004",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0056",
+      "source": "PER_0001",
+      "target": "ORG_0006",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0057",
+      "source": "PER_0001",
+      "target": "ORG_0008",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0058",
+      "source": "PER_0001",
+      "target": "ORG_0011",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0059",
+      "source": "PER_0001",
+      "target": "ORG_0012",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0060",
+      "source": "PER_0001",
+      "target": "ORG_0022",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0061",
+      "source": "PER_0001",
+      "target": "ORG_0034",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0062",
+      "source": "PER_0001",
+      "target": "ORG_0037",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0063",
+      "source": "PER_0001",
+      "target": "ORG_0038",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0064",
+      "source": "PER_0001",
+      "target": "ORG_0003",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0065",
+      "source": "PER_0001",
+      "target": "ORG_0005",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0066",
+      "source": "PER_0001",
+      "target": "ORG_0007",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0067",
+      "source": "PER_0001",
+      "target": "ORG_0009",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0068",
+      "source": "PER_0001",
+      "target": "ORG_0010",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0069",
+      "source": "PER_0001",
+      "target": "ORG_0013",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0070",
+      "source": "PER_0001",
+      "target": "ORG_0014",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0071",
+      "source": "PER_0001",
+      "target": "ORG_0033",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0072",
+      "source": "PER_0001",
+      "target": "ORG_0035",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0073",
+      "source": "PER_0001",
+      "target": "ORG_0036",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0074",
+      "source": "PER_0001",
+      "target": "PER_0008",
+      "predicate": "crm:P11_had_participant",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0075",
+      "source": "PER_0001",
+      "target": "PER_0004",
+      "predicate": "crm:P11_had_participant",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0076",
+      "source": "PER_0001",
+      "target": "PER_0011",
+      "predicate": "crm:P11_had_participant",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0077",
+      "source": "PER_0008",
+      "target": "PER_0011",
+      "predicate": "crm:P11_had_participant",
+      "year": "",
       "description": null,
       "_sheet_name": "Relaciones_Grafo_LOD"
     }

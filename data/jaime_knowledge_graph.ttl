@@ -1336,3 +1336,53 @@ jc:PRJ_0016 crm:P108_has_produced jc:PUB_0017 .
 jc:PUB_0017 crm:P14_carried_out_by jc:ORG_0022 .
 
 jc:PRJ_0016 schema:funder jc:ORG_0008 .
+
+jc:PER_0001 crm:P14i_performed jc:ORG_0001 .
+
+jc:PER_0001 crm:P14i_performed jc:ORG_0002 .
+
+jc:PER_0001 crm:P14i_performed jc:ORG_0004 .
+
+jc:PER_0001 crm:P14i_performed jc:ORG_0006 .
+
+jc:PER_0001 crm:P14i_performed jc:ORG_0008 .
+
+jc:PER_0001 crm:P14i_performed jc:ORG_0011 .
+
+jc:PER_0001 crm:P14i_performed jc:ORG_0012 .
+
+jc:PER_0001 crm:P14i_performed jc:ORG_0022 .
+
+jc:PER_0001 crm:P14i_performed jc:ORG_0034 .
+
+jc:PER_0001 crm:P14i_performed jc:ORG_0037 .
+
+jc:PER_0001 crm:P14i_performed jc:ORG_0038 .
+
+jc:PER_0001 crm:P14i_performed jc:ORG_0003 .
+
+jc:PER_0001 crm:P14i_performed jc:ORG_0005 .
+
+jc:PER_0001 crm:P14i_performed jc:ORG_0007 .
+
+jc:PER_0001 crm:P14i_performed jc:ORG_0009 .
+
+jc:PER_0001 crm:P14i_performed jc:ORG_0010 .
+
+jc:PER_0001 crm:P14i_performed jc:ORG_0013 .
+
+jc:PER_0001 crm:P14i_performed jc:ORG_0014 .
+
+jc:PER_0001 crm:P14i_performed jc:ORG_0033 .
+
+jc:PER_0001 crm:P14i_performed jc:ORG_0035 .
+
+jc:PER_0001 crm:P14i_performed jc:ORG_0036 .
+
+jc:PER_0001 crm:P11_had_participant jc:PER_0008 .
+
+jc:PER_0001 crm:P11_had_participant jc:PER_0004 .
+
+jc:PER_0001 crm:P11_had_participant jc:PER_0011 .
+
+jc:PER_0008 crm:P11_had_participant jc:PER_0011 .
