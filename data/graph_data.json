@@ -3,10 +3,10 @@
     "version": "2.0",
     "source": "CV_Dataset_Maestro_Jaime_Cuevas.xlsx",
     "node_count": 274,
-    "link_count": 244,
+    "link_count": 265,
     "sheet_count": 12,
     "validation_status": "PASS",
-    "validation_warnings": 140
+    "validation_warnings": 142
   },
   "nodes": [
     {
@@ -7162,6 +7162,195 @@
       "target": "PRJ_0006",
       "predicate": "crm:P14i_performed",
       "year": 2023,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0206",
+      "source": "PER_0005",
+      "target": "PUB_0002",
+      "predicate": "crm:P14i_performed",
+      "year": 2019,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0207",
+      "source": "PER_0010",
+      "target": "PUB_0007",
+      "predicate": "crm:P14i_performed",
+      "year": 2013,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0208",
+      "source": "PER_0032",
+      "target": "EXP_0002",
+      "predicate": "crm:P14i_performed",
+      "year": 2015,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0209",
+      "source": "PER_0043",
+      "target": "EXP_0012",
+      "predicate": "crm:P14i_performed",
+      "year": 2018,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0210",
+      "source": "PER_0026",
+      "target": "EXP_0003",
+      "predicate": "crm:P14i_performed",
+      "year": 2023,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0211",
+      "source": "PER_0027",
+      "target": "EXP_0003",
+      "predicate": "crm:P14i_performed",
+      "year": 2023,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0212",
+      "source": "PER_0028",
+      "target": "EXP_0003",
+      "predicate": "crm:P14i_performed",
+      "year": 2023,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0213",
+      "source": "PER_0029",
+      "target": "EXP_0003",
+      "predicate": "crm:P14i_performed",
+      "year": 2023,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0214",
+      "source": "PER_0030",
+      "target": "EXP_0003",
+      "predicate": "crm:P14i_performed",
+      "year": 2023,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0215",
+      "source": "PER_0021",
+      "target": "EXP_0010",
+      "predicate": "crm:P14i_performed",
+      "year": 2023,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0216",
+      "source": "PER_0036",
+      "target": "EXP_0010",
+      "predicate": "crm:P14i_performed",
+      "year": 2023,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0217",
+      "source": "PER_0037",
+      "target": "EXP_0010",
+      "predicate": "crm:P14i_performed",
+      "year": 2023,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0218",
+      "source": "PER_0038",
+      "target": "EXP_0010",
+      "predicate": "crm:P14i_performed",
+      "year": 2023,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0219",
+      "source": "PER_0039",
+      "target": "EXP_0010",
+      "predicate": "crm:P14i_performed",
+      "year": 2023,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0220",
+      "source": "PER_0020",
+      "target": "EXP_0011_01",
+      "predicate": "crm:P14i_performed",
+      "year": 2023,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0221",
+      "source": "PER_0020",
+      "target": "EXP_0011_02",
+      "predicate": "crm:P14i_performed",
+      "year": 2023,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0222",
+      "source": "PER_0020",
+      "target": "EXP_0011_03",
+      "predicate": "crm:P14i_performed",
+      "year": 2023,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0223",
+      "source": "PER_0023",
+      "target": "EXP_0009",
+      "predicate": "crm:P14i_performed",
+      "year": 2020,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0224",
+      "source": "PER_0031",
+      "target": "EXP_0013",
+      "predicate": "crm:P14i_performed",
+      "year": 2022,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0225",
+      "source": "PER_0022",
+      "target": "EXP_0006",
+      "predicate": "crm:P14i_performed",
+      "year": 2013,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0226",
+      "source": "PER_0022",
+      "target": "EXP_0007",
+      "predicate": "crm:P14i_performed",
+      "year": 2014,
       "description": null,
       "_sheet_name": "Relaciones_Grafo_LOD"
     }
