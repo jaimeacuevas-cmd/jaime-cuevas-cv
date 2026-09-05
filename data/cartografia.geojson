@@ -2,8 +2,8 @@
   "type": "FeatureCollection",
   "metadata": {
     "projection": "WGS84",
-    "feature_count": 27,
-    "filtered_count": 37
+    "feature_count": 29,
+    "filtered_count": 35
   },
   "features": [
     {
@@ -361,6 +361,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -46.6333,
+          -23.5505
+        ]
+      },
+      "properties": {
+        "id": "LOC_0040",
+        "name": "Universidade Federal de São Paulo (UNIFESP)",
+        "type": "Location",
+        "city": "São Paulo",
+        "country": null,
+        "wikidata": "Q1142270",
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": "ORG_0030",
+        "is_user_primary": false,
+        "precision_type": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -70.6406,
           -33.4411
         ]
@@ -527,6 +552,31 @@
         "micro_summary": null,
         "is_core": false,
         "parent_org_id": "ORG_0037",
+        "is_user_primary": false,
+        "precision_type": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.63368673405564,
+          -23.53422346887216
+        ]
+      },
+      "properties": {
+        "id": "LOC_0059",
+        "name": "Pinacoteca do Estado (Sao Paulo)",
+        "type": "Location",
+        "city": "São Paulo",
+        "country": null,
+        "wikidata": null,
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": "ORG_0030",
         "is_user_primary": false,
         "precision_type": "exact"
       }

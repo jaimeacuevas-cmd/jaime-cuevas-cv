@@ -1376,7 +1376,7 @@ jc:ORG_0029 crm:P87_is_identified_by jc:LOC_0049 .
 
 jc:ORG_0040 crm:P87_is_identified_by jc:LOC_0056 .
 
-jc:ORG_0040 crm:P87_is_identified_by jc:LOC_0059 .
+jc:ORG_0030 crm:P87_is_identified_by jc:LOC_0059 .
 
 jc:ORG_0034 crm:P87_is_identified_by jc:LOC_0060 .
 
@@ -1979,6 +1979,12 @@ jc:PUB_0002 crm:P108_has_produced jc:EDU_0003 .
 jc:PUB_0008 crm:P108_has_produced jc:EDU_0003 .
 
 jc:PUB_0013 crm:P108_has_produced jc:EDU_0003 .
+
+jc:PUB_0016 crm:P74_has_current_or_former_residence jc:LOC_0059 .
+
+jc:ORG_0030 crm:P87_is_identified_by jc:LOC_0040 .
+
+jc:PER_0001 crm:P108_has_produced jc:ORG_0030 .
 
 jc:PER_0001 crm:P14i_performed jc:EDU_0001 .
 

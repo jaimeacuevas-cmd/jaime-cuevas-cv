@@ -3,7 +3,7 @@
     "version": "2.0",
     "source": "CV_Dataset_Maestro_Jaime_Cuevas.xlsx",
     "node_count": 232,
-    "link_count": 531,
+    "link_count": 534,
     "sheet_count": 12,
     "validation_status": "PASS",
     "validation_warnings": 119,
@@ -2145,7 +2145,7 @@
       "wikidata": null,
       "why_relevant": null,
       "micro_summary": null,
-      "parent_org_id": "ORG_0040",
+      "parent_org_id": "ORG_0030",
       "is_user_primary": false,
       "precision_type": "exact"
     },
@@ -4389,10 +4389,10 @@
     },
     {
       "id": "REL_ORG_LOC_0059",
-      "source": "ORG_0040",
+      "source": "ORG_0030",
       "target": "LOC_0059",
       "predicate": "crm:P87_is_identified_by",
-      "description": "Organization ORG_0040 has location LOC_0059",
+      "description": "Organization ORG_0030 has location LOC_0059",
       "_sheet_name": "Lugares_y_Sedes_GENERATED"
     },
     {
@@ -7050,6 +7050,33 @@
       "target": "EDU_0003",
       "predicate": "crm:P108_has_produced",
       "year": 2019,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0296",
+      "source": "PUB_0016",
+      "target": "LOC_0059",
+      "predicate": "crm:P74_has_current_or_former_residence",
+      "year": "2017",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0297",
+      "source": "ORG_0030",
+      "target": "LOC_0040",
+      "predicate": "crm:P87_is_identified_by",
+      "year": "2017",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0298",
+      "source": "PER_0001",
+      "target": "ORG_0030",
+      "predicate": "crm:P108_has_produced",
+      "year": "2017",
       "description": null,
       "_sheet_name": "Relaciones_Grafo_LOD"
     },
