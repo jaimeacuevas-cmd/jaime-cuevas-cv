@@ -2,8 +2,8 @@
   "type": "FeatureCollection",
   "metadata": {
     "projection": "WGS84",
-    "feature_count": 29,
-    "filtered_count": 35
+    "feature_count": 49,
+    "filtered_count": 9
   },
   "features": [
     {
@@ -11,8 +11,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.64354723358485,
-          -33.43515306708146
+          -70.6439,
+          -33.4352
         ]
       },
       "properties": {
@@ -36,8 +36,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.68037428569774,
-          -33.44198933167025
+          -70.682,
+          -33.4414
         ]
       },
       "properties": {
@@ -311,6 +311,56 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -71.1167,
+          42.377
+        ]
+      },
+      "properties": {
+        "id": "LOC_0013",
+        "name": "Harvard University (Cambridge)",
+        "type": "Location",
+        "city": "Cambridge, MA",
+        "country": null,
+        "wikidata": "Q13371",
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": "ORG_0015",
+        "is_user_primary": false,
+        "precision_type": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0369,
+          -12.0601
+        ]
+      },
+      "properties": {
+        "id": "LOC_0015",
+        "name": "Museo de Arte de Lima (MALI)",
+        "type": "Location",
+        "city": "Lima",
+        "country": null,
+        "wikidata": "Q6940540",
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": "ORG_0018",
+        "is_user_primary": false,
+        "precision_type": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -70.665,
           -33.445
         ]
@@ -329,6 +379,406 @@
         "parent_org_id": "ORG_0022",
         "is_user_primary": false,
         "precision_type": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.5132,
+          14.6407
+        ]
+      },
+      "properties": {
+        "id": "LOC_0020",
+        "name": "Centro Cultural de España en Guatemala",
+        "type": "Location",
+        "city": "Ciudad de Guatemala",
+        "country": null,
+        "wikidata": "Q5761159",
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": "ORG_0023",
+        "is_user_primary": false,
+        "precision_type": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.682,
+          -33.4445
+        ]
+      },
+      "properties": {
+        "id": "LOC_0021",
+        "name": "Centro Cultural Matucana 100 (M100)",
+        "type": "Location",
+        "city": "Santiago",
+        "country": null,
+        "wikidata": "Q5763160",
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": "ORG_0024",
+        "is_user_primary": false,
+        "precision_type": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6,
+          -33.415
+        ]
+      },
+      "properties": {
+        "id": "LOC_0022",
+        "name": "Sala de Arte CCU (Vitacura)",
+        "type": "Location",
+        "city": "Santiago",
+        "country": null,
+        "wikidata": "Q2931448",
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": "ORG_0018",
+        "is_user_primary": false,
+        "precision_type": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6823,
+          -33.4398
+        ]
+      },
+      "properties": {
+        "id": "LOC_0023",
+        "name": "Museo de la Memoria y los Derechos Humanos (MMDH)",
+        "type": "Location",
+        "city": "Santiago",
+        "country": null,
+        "wikidata": "Q2006767",
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": "ORG_0026",
+        "is_user_primary": false,
+        "precision_type": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5976,
+          -35.8454
+        ]
+      },
+      "properties": {
+        "id": "LOC_0024",
+        "name": "Museo de Arte y Artesanía de Linares",
+        "type": "Location",
+        "city": "Linares",
+        "country": null,
+        "wikidata": "Q6033842",
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": "ORG_0027",
+        "is_user_primary": false,
+        "precision_type": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0396,
+          -36.8282
+        ]
+      },
+      "properties": {
+        "id": "LOC_0025",
+        "name": "Pinacoteca Universidad de Concepción (Casa del Arte)",
+        "type": "Location",
+        "city": "Concepción",
+        "country": null,
+        "wikidata": "Q5047879",
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": "ORG_0028",
+        "is_user_primary": false,
+        "precision_type": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0503,
+          -36.8261
+        ]
+      },
+      "properties": {
+        "id": "LOC_0026",
+        "name": "Catedral Metropolitana de la Santísima Concepción",
+        "type": "Location",
+        "city": "Concepción",
+        "country": null,
+        "wikidata": "Q1050516",
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": null,
+        "is_user_primary": false,
+        "precision_type": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.3323,
+          -38.2305
+        ]
+      },
+      "properties": {
+        "id": "LOC_0027",
+        "name": "Colección Privada Victoria (La Araucanía)",
+        "type": "Location",
+        "city": "Victoria",
+        "country": null,
+        "wikidata": "Q201016",
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": null,
+        "is_user_primary": false,
+        "precision_type": "centroid"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6569,
+          -33.4522
+        ]
+      },
+      "properties": {
+        "id": "LOC_0028",
+        "name": "Palacio Cousiño (Santiago Centro)",
+        "type": "Location",
+        "city": "Santiago",
+        "country": null,
+        "wikidata": "Q7126294",
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": null,
+        "is_user_primary": false,
+        "precision_type": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.7575,
+          -33.51
+        ]
+      },
+      "properties": {
+        "id": "LOC_0029",
+        "name": "Museo del Carmen de Maipú",
+        "type": "Location",
+        "city": "Maipú",
+        "country": null,
+        "wikidata": "Q6034388",
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": "ORG_0018",
+        "is_user_primary": false,
+        "precision_type": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6,
+          -33.38
+        ]
+      },
+      "properties": {
+        "id": "LOC_0030",
+        "name": "Colección Privada Vitacura",
+        "type": "Location",
+        "city": "Santiago",
+        "country": null,
+        "wikidata": "Q2931448",
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": null,
+        "is_user_primary": false,
+        "precision_type": "centroid"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.7833,
+          -33.6333
+        ]
+      },
+      "properties": {
+        "id": "LOC_0031",
+        "name": "Colección Privada Calera de Tango",
+        "type": "Location",
+        "city": "Calera de Tango",
+        "country": null,
+        "wikidata": "Q3691",
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": null,
+        "is_user_primary": false,
+        "precision_type": "centroid"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6333,
+          -33.4
+        ]
+      },
+      "properties": {
+        "id": "LOC_0032",
+        "name": "Colección Privada Recoleta",
+        "type": "Location",
+        "city": "Santiago",
+        "country": null,
+        "wikidata": "Q56125",
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": null,
+        "is_user_primary": false,
+        "precision_type": "centroid"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.65,
+          -33.3667
+        ]
+      },
+      "properties": {
+        "id": "LOC_0033",
+        "name": "Colección Privada Huechuraba",
+        "type": "Location",
+        "city": "Santiago",
+        "country": null,
+        "wikidata": "Q14424",
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": null,
+        "is_user_primary": false,
+        "precision_type": "centroid"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6167,
+          -33.4333
+        ]
+      },
+      "properties": {
+        "id": "LOC_0034",
+        "name": "Colección Privada Providencia",
+        "type": "Location",
+        "city": "Santiago",
+        "country": null,
+        "wikidata": "Q51594",
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": null,
+        "is_user_primary": false,
+        "precision_type": "centroid"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5833,
+          -33.4167
+        ]
+      },
+      "properties": {
+        "id": "LOC_0035",
+        "name": "Colección Privada Las Condes",
+        "type": "Location",
+        "city": "Santiago",
+        "country": null,
+        "wikidata": "Q14484",
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": null,
+        "is_user_primary": false,
+        "precision_type": "centroid"
       }
     },
     {
@@ -361,6 +811,81 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -70.7333,
+          -34.0667
+        ]
+      },
+      "properties": {
+        "id": "LOC_0037",
+        "name": "Colección Privada Graneros",
+        "type": "Location",
+        "city": "Graneros",
+        "country": null,
+        "wikidata": "Q13063",
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": null,
+        "is_user_primary": false,
+        "precision_type": "centroid"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.2,
+          -34.6667
+        ]
+      },
+      "properties": {
+        "id": "LOC_0038",
+        "name": "Colección Privada Nancagua",
+        "type": "Location",
+        "city": "Nancagua",
+        "country": null,
+        "wikidata": "Q51048",
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": null,
+        "is_user_primary": false,
+        "precision_type": "centroid"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ]
+      },
+      "properties": {
+        "id": "LOC_0039",
+        "name": "Museo Nacional de San Carlos (Ciudad de México)",
+        "type": "Location",
+        "city": "Ciudad de México",
+        "country": null,
+        "wikidata": "Q6940509",
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": "ORG_0039",
+        "is_user_primary": false,
+        "precision_type": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -46.6333,
           -23.5505
         ]
@@ -377,6 +902,31 @@
         "micro_summary": null,
         "is_core": false,
         "parent_org_id": "ORG_0030",
+        "is_user_primary": false,
+        "precision_type": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.5426,
+          -38.0055
+        ]
+      },
+      "properties": {
+        "id": "LOC_0041",
+        "name": "Universidad Nacional de Mar del Plata (UNMDP)",
+        "type": "Location",
+        "city": "Mar del Plata",
+        "country": null,
+        "wikidata": "Q3551676",
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": "ORG_0032",
         "is_user_primary": false,
         "precision_type": "exact"
       }
@@ -561,172 +1111,122 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -46.63368673405564,
-          -23.53422346887216
+          -70.65409015407023,
+          -33.4410215508963
+        ]
+      },
+      "properties": {
+        "id": "LOC_0050",
+        "name": "Plaza de la Constitución (Santiago)",
+        "type": "Location",
+        "city": "Santiago",
+        "country": null,
+        "wikidata": "Q7203673",
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": null,
+        "is_user_primary": false,
+        "precision_type": "approximate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.7514,
+          15.8286
+        ]
+      },
+      "properties": {
+        "id": "LOC_0055",
+        "name": "Livingston (Guatemala - Red Prácticas de Reiteración)",
+        "type": "Location",
+        "city": "Livingston",
+        "country": null,
+        "wikidata": "Q954318",
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": null,
+        "is_user_primary": false,
+        "precision_type": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.588,
+          -33.398
+        ]
+      },
+      "properties": {
+        "id": "LOC_0056",
+        "name": "Galería Isabel Croxatto (Vitacura)",
+        "type": "Location",
+        "city": "Santiago",
+        "country": null,
+        "wikidata": null,
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": "ORG_0040",
+        "is_user_primary": false,
+        "precision_type": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.1034,
+          -36.6066
+        ]
+      },
+      "properties": {
+        "id": "LOC_0057",
+        "name": "CECAL UdeC (Chillán)",
+        "type": "Location",
+        "city": "Ñuble",
+        "country": null,
+        "wikidata": "Q113665601",
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": null,
+        "is_user_primary": false,
+        "precision_type": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7038,
+          40.4168
         ]
       },
       "properties": {
         "id": "LOC_0059",
-        "name": "Pinacoteca do Estado (Sao Paulo)",
+        "name": "Tabacalera, Calle de Embajadores 51",
         "type": "Location",
-        "city": "São Paulo",
+        "city": "Madrid",
         "country": null,
-        "wikidata": null,
+        "wikidata": "Q9256",
         "description": null,
         "why_relevant": null,
         "micro_summary": null,
         "is_core": false,
-        "parent_org_id": "ORG_0030",
-        "is_user_primary": false,
-        "precision_type": "exact"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -72.09909088922245,
-          -36.60655467138508
-        ]
-      },
-      "properties": {
-        "id": "LOC_0060",
-        "name": "Centro de Extensión de la Universidad de Concepción - CELCAL Chillán",
-        "type": "Location",
-        "city": "Chillán",
-        "country": null,
-        "wikidata": null,
-        "description": null,
-        "why_relevant": null,
-        "micro_summary": null,
-        "is_core": false,
-        "parent_org_id": "ORG_0034",
-        "is_user_primary": false,
-        "precision_type": "exact"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.59154788940485,
-          -33.42121365946592
-        ]
-      },
-      "properties": {
-        "id": "LOC_0061",
-        "name": "Universidad Adolfo Ibáñez - Sede Presidente Errázuriz",
-        "type": "Location",
-        "city": "Santiago",
-        "country": null,
-        "wikidata": null,
-        "description": null,
-        "why_relevant": null,
-        "micro_summary": null,
-        "is_core": false,
-        "parent_org_id": "ORG_0004",
-        "is_user_primary": false,
-        "precision_type": "exact"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.5182663382937,
-          -33.48439393710956
-        ]
-      },
-      "properties": {
-        "id": "LOC_0062",
-        "name": "Universidad Adolfo Ibáñez - Campus Peñalolén",
-        "type": "Location",
-        "city": "Santiago",
-        "country": null,
-        "wikidata": null,
-        "description": null,
-        "why_relevant": null,
-        "micro_summary": null,
-        "is_core": false,
-        "parent_org_id": "ORG_0004",
-        "is_user_primary": false,
-        "precision_type": "exact"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.59598366056628,
-          -33.46665877200571
-        ]
-      },
-      "properties": {
-        "id": "LOC_0063",
-        "name": "Universidad de Chile - Campus Juan Gómez Millas",
-        "type": "Location",
-        "city": "Santiago",
-        "country": null,
-        "wikidata": null,
-        "description": null,
-        "why_relevant": null,
-        "micro_summary": null,
-        "is_core": false,
-        "parent_org_id": "ORG_0034",
-        "is_user_primary": false,
-        "precision_type": "exact"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.65069471823976,
-          -33.44432093080183
-        ]
-      },
-      "properties": {
-        "id": "LOC_0064",
-        "name": "Archivo Central Andrés Bello - Universidad de Chile",
-        "type": "Location",
-        "city": "Santiago",
-        "country": null,
-        "wikidata": null,
-        "description": null,
-        "why_relevant": null,
-        "micro_summary": null,
-        "is_core": false,
-        "parent_org_id": "ORG_0034",
-        "is_user_primary": false,
-        "precision_type": "exact"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.139053349698989,
-          41.38154687801553
-        ]
-      },
-      "properties": {
-        "id": "LOC_0065",
-        "name": "Fundación FIMA - Universidad de Buenos Aires",
-        "type": "Location",
-        "city": "Buenos Aires",
-        "country": null,
-        "wikidata": null,
-        "description": null,
-        "why_relevant": null,
-        "micro_summary": null,
-        "is_core": false,
-        "parent_org_id": "ORG_0031",
+        "parent_org_id": null,
         "is_user_primary": false,
         "precision_type": "exact"
       }

@@ -465,50 +465,25 @@
               </div>
             </div>
 
-            <!-- Barra de Filtros Ontológicos (SISTEMA 1: GLIFOS ONTOLÓGICOS) -->
-            <div class="absolute top-3 left-3 z-10 bg-slate-900/90 backdrop-blur-md border border-slate-700/80 rounded-lg p-2.5 text-[11px] text-stone-200 shadow-xl max-w-xs space-y-1.5">
-              <div class="flex items-center justify-between">
-                <span class="font-bold text-slate-300 uppercase tracking-wider text-[10px]">Filtrar por Tipología:</span>
-                <span id="node-count-indicator" class="text-[10px] font-mono text-cyan-400 font-semibold">47/205 visibles</span>
-              </div>
-              <div class="grid grid-cols-2 gap-x-2 gap-y-1">
-                <label class="inline-flex items-center gap-1 bg-slate-800/90 px-1.5 py-0.5 rounded cursor-pointer hover:bg-slate-700 text-sky-300 text-[10.5px]">
-                  <input type="checkbox" checked onchange="toggleNodeType('Agent')" class="rounded text-sky-600"> <span class="font-mono font-bold">⊙</span> Personas
-                </label>
-                <label class="inline-flex items-center gap-1 bg-slate-800/90 px-1.5 py-0.5 rounded cursor-pointer hover:bg-slate-700 text-cyan-300 text-[10.5px]">
-                  <input type="checkbox" checked onchange="toggleNodeType('Position')" class="rounded text-cyan-600"> <span class="font-mono font-bold">☵</span> Cargos / Roles
-                </label>
-                <label class="inline-flex items-center gap-1 bg-slate-800/90 px-1.5 py-0.5 rounded cursor-pointer hover:bg-slate-700 text-emerald-300 text-[10.5px]">
-                  <input type="checkbox" checked onchange="toggleNodeType('Organization')" class="rounded text-emerald-600"> <span class="font-mono font-bold">▣</span> Instituciones
-                </label>
-                <label class="inline-flex items-center gap-1 bg-slate-800/90 px-1.5 py-0.5 rounded cursor-pointer hover:bg-slate-700 text-amber-300 text-[10.5px]">
-                  <input type="checkbox" checked onchange="toggleNodeType('Project')" class="rounded text-amber-600"> <span class="font-mono font-bold">✦</span> Proyectos
-                </label>
-                <label class="inline-flex items-center gap-1 bg-slate-800/90 px-1.5 py-0.5 rounded cursor-pointer hover:bg-slate-700 text-rose-300 text-[10.5px]">
-                  <input type="checkbox" checked onchange="toggleNodeType('Exhibition')" class="rounded text-rose-600"> <span class="font-mono font-bold">⧉</span> Curatorías
-                </label>
-                <label class="inline-flex items-center gap-1 bg-slate-800/90 px-1.5 py-0.5 rounded cursor-pointer hover:bg-slate-700 text-indigo-300 text-[10.5px]">
-                  <input type="checkbox" checked onchange="toggleNodeType('Publication')" class="rounded text-indigo-600"> <span class="font-mono font-bold">☲</span> Publicaciones
-                </label>
-                <label class="inline-flex items-center gap-1 bg-slate-800/90 px-1.5 py-0.5 rounded cursor-pointer hover:bg-slate-700 text-purple-300 text-[10.5px]">
-                  <input type="checkbox" checked onchange="toggleNodeType('Education')" class="rounded text-purple-600"> <span class="font-mono font-bold">Δ</span> Formación
-                </label>
-                <label class="inline-flex items-center gap-1 bg-slate-800/90 px-1.5 py-0.5 rounded cursor-pointer hover:bg-slate-700 text-teal-300 text-[10.5px]">
-                  <input type="checkbox" checked onchange="toggleNodeType('DigitalHeritage')" class="rounded text-teal-600"> <span class="font-mono font-bold">⚯</span> Portafolio HD
-                </label>
-              </div>
-              <div class="text-[9.5px] text-slate-400 italic pt-0.5 border-t border-slate-800">
-                🔒 Jaime Cuevas (nodo central) permanece siempre anclado.
-              </div>
+            <!-- Contador de nodos visibles (reemplaza recuadro redundante) -->
+            <div class="absolute top-3 left-3 z-10 bg-slate-900/90 backdrop-blur-md border border-slate-700/80 rounded-lg px-3 py-2 text-[10px] text-slate-300 shadow-md font-mono font-semibold">
+              <span id="node-count-indicator" class="text-cyan-400">47/205 visibles</span>
+              <span class="text-slate-500 ml-2">→ usa "Capas" para filtrar</span>
             </div>
 
             <!-- Canvas SVG de D3 -->
             <svg id="svg-graph" class="w-full h-full flex-1"></svg>
 
             <!-- Leyenda de Interacción Dinámica -->
-            <div class="absolute bottom-3 left-3 bg-slate-900/90 backdrop-blur-md px-3.5 py-2 rounded-lg text-[11px] text-slate-300 font-sans border border-slate-800 shadow-md flex items-center gap-2">
-              <span class="text-amber-400 text-sm">💡</span>
-              <span><strong>Clic en un nodo:</strong> Alterna entre <strong>expandir [+]</strong> o <strong>replegar [−]</strong> sus conexiones satélites para mantener limpia la pantalla.</span>
+            <div class="absolute bottom-3 left-3 bg-slate-900/90 backdrop-blur-md px-3.5 py-2 rounded-lg text-[10px] text-slate-300 font-sans border border-slate-800 shadow-md max-w-sm space-y-1">
+              <div class="flex items-start gap-2">
+                <span class="text-amber-400 text-sm">💡</span>
+                <div>
+                  <div><strong>Clic:</strong> Expandir/replegar nodo [+/−]</div>
+                  <div><strong>Arrastra:</strong> Mover nodo libremente</div>
+                  <div><strong>Doble-clic:</strong> Fijar/desfijar nodo en lugar</div>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -957,8 +932,9 @@
       window.graphZoom = zoom;
 
       simulation = d3.forceSimulation()
-        .force('link', d3.forceLink().id(d => d.id).distance(d => d.source.id === 'PER_0001' ? 140 : 85))
-        .force('charge', d3.forceManyBody().strength(-190))
+        .force('link', d3.forceLink().id(d => d.id).distance(d => d.source.id === 'PER_0001' ? 120 : 80))
+        .force('charge', d3.forceManyBody().strength(-120))
+        .force('collision', d3.forceCollide().radius(d => d.type === 'Location' ? 25 : 35))
         .force('center', d3.forceCenter(width / 2, height / 2))
         .force('collision', d3.forceCollide().radius(d => d.id === 'PER_0001' ? 45 : 24));
 
@@ -1481,6 +1457,25 @@
               handleNodeClickToggle(d);
             });
 
+            // Double-click to pin/unpin node
+            nodeG.on('dblclick', (event, d) => {
+              event.stopPropagation();
+              if (d.id !== 'PER_0001') {
+                if (d.fx !== null) {
+                  // Unpin node
+                  d.fx = null;
+                  d.fy = null;
+                  console.log(`Nodo ${d.id} desanclado - vuelve a la simulación`);
+                } else {
+                  // Pin node
+                  d.fx = d.x;
+                  d.fy = d.y;
+                  console.log(`Nodo ${d.id} anclado en posición`);
+                }
+                updateGraphSimulation();
+              }
+            });
+
             return nodeG;
           },
           update => update,
@@ -1534,10 +1529,9 @@
 
     function dragended(event, d) {
       if (!event.active) simulation.alphaTarget(0);
-      if (currentLayout !== 'radial' && d.id !== 'PER_0001') {
-        d.fx = null;
-        d.fy = null;
-      }
+      // Mantener nodo fijo en su posición (no resetear fx/fy)
+      // El nodo permanecerá donde el usuario lo colocó
+      // Para desfijar, hacer double-click en el nodo
     }
 
     function highlightNeighbors(targetNode) {

@@ -152,41 +152,39 @@ class OutputGenerator:
         Generate cartografia.geojson for Leaflet map visualization.
         Only includes Location nodes with coordinates that are connected to Jaime's activities.
 
-        Filtering strategy: A location appears in cartography only if:
+        Filtering strategy: A location appears in cartography if:
         1. It has valid coordinates
-        2. It is connected to an organization that Jaime is involved with
+        2. It is reachable from PER_0001 (directly in the filtered graph)
         """
         logger.info("Generating cartografia.geojson...")
 
-        # Build Jaime's organization network if links provided
-        jaime_orgs = set()
+        # Determine which nodes are reachable from Jaime via BFS
+        reachable = set()
         if links:
-            for link in links:
-                # Jaime is PER_0001
-                if link.get('source') == 'PER_0001':
-                    target = link.get('target', '')
-                    if target.startswith('ORG_'):
-                        jaime_orgs.add(target)
-                elif link.get('target') == 'PER_0001':
-                    source = link.get('source', '')
-                    if source.startswith('ORG_'):
-                        jaime_orgs.add(source)
-            logger.info(f"  Found {len(jaime_orgs)} organizations connected to Jaime")
+            # BFS from PER_0001
+            queue = ['PER_0001']
+            visited = set(['PER_0001'])
 
-        # Build location→org mapping
-        loc_to_orgs = {}
-        for node in nodes:
-            if node.get('type') == 'Location':
-                loc_to_orgs[node['id']] = []
+            while queue:
+                current = queue.pop(0)
+                reachable.add(current)
 
-        if links:
-            for link in links:
-                if link.get('source').startswith('LOC_') and link.get('target').startswith('ORG_'):
-                    loc_to_orgs[link['source']].append(link['target'])
-                elif link.get('target').startswith('LOC_') and link.get('source').startswith('ORG_'):
-                    loc_to_orgs[link['target']].append(link['source'])
+                # Find neighbors
+                for link in links:
+                    if link.get('source') == current:
+                        neighbor = link.get('target')
+                        if neighbor and neighbor not in visited:
+                            visited.add(neighbor)
+                            queue.append(neighbor)
+                    elif link.get('target') == current:
+                        neighbor = link.get('source')
+                        if neighbor and neighbor not in visited:
+                            visited.add(neighbor)
+                            queue.append(neighbor)
 
-        # Generate features, filtering by relevance
+            logger.info(f"  Found {len(reachable)} reachable nodes from Jaime")
+
+        # Generate features, filtering by reachability
         features = []
         excluded_count = 0
         for node in nodes:
@@ -197,10 +195,9 @@ class OutputGenerator:
             if not coords or len(coords) != 2:
                 continue
 
-            # Skip location if it has no connection to Jaime's organizations
+            # Skip location if it's not reachable from Jaime
             loc_id = node.get('id')
-            connected_orgs = loc_to_orgs.get(loc_id, [])
-            if jaime_orgs and not any(org in jaime_orgs for org in connected_orgs):
+            if reachable and loc_id not in reachable:
                 excluded_count += 1
                 continue
 
