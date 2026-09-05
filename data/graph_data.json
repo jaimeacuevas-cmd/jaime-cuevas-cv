@@ -3,10 +3,10 @@
     "version": "2.0",
     "source": "CV_Dataset_Maestro_Jaime_Cuevas.xlsx",
     "node_count": 271,
-    "link_count": 209,
+    "link_count": 212,
     "sheet_count": 12,
     "validation_status": "PASS",
-    "validation_warnings": 129
+    "validation_warnings": 132
   },
   "nodes": [
     {
@@ -6789,6 +6789,33 @@
       "target": "crm:P11_had_participant",
       "predicate": "EXP_0009",
       "year": "Montserrat Rojas Corradi participated/curated EXP_0009",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0171",
+      "source": "PER_0015",
+      "target": "crm:P129_subject_of",
+      "predicate": "PUB_0014",
+      "year": 2024,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0172",
+      "source": "PER_0023",
+      "target": "crm:P14i_performed",
+      "predicate": "EXP_0009",
+      "year": 2024,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0173",
+      "source": "PER_0031",
+      "target": "crm:P14i_performed",
+      "predicate": "EXP_0013",
+      "year": 2024,
       "description": null,
       "_sheet_name": "Relaciones_Grafo_LOD"
     }
