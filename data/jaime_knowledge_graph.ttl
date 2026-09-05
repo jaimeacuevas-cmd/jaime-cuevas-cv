@@ -1398,3 +1398,177 @@ jc:PER_0022 EXP_0007 jc:crm:P129_subject_of .
 jc:PER_0022 LOC_0053 jc:crm:P74_has_current_or_former_residence .
 
 jc:PER_0022 COM_0012 jc:crm:P11_had_participant .
+
+jc:PER_0001 EXP_0001 jc:crm:P11_had_participant .
+
+jc:PER_0001 EXP_0001_M01 jc:crm:P11_had_participant .
+
+jc:PER_0001 EXP_0001_M02 jc:crm:P11_had_participant .
+
+jc:PER_0001 EXP_0001_M03 jc:crm:P11_had_participant .
+
+jc:PER_0001 EXP_0001_M04 jc:crm:P11_had_participant .
+
+jc:PER_0001 EXP_0001_M05 jc:crm:P11_had_participant .
+
+jc:PER_0001 EXP_0001_M06 jc:crm:P11_had_participant .
+
+jc:PER_0001 EXP_0001_M07 jc:crm:P11_had_participant .
+
+jc:PER_0001 EXP_0001_M08 jc:crm:P11_had_participant .
+
+jc:PER_0001 EXP_0001_M09 jc:crm:P11_had_participant .
+
+jc:PER_0001 EXP_0001_M10 jc:crm:P11_had_participant .
+
+jc:PER_0001 EXP_0001_M11 jc:crm:P11_had_participant .
+
+jc:PER_0001 EXP_0001_M12 jc:crm:P11_had_participant .
+
+jc:PER_0001 EXP_0001_M13 jc:crm:P11_had_participant .
+
+jc:PER_0001 EXP_0002 jc:crm:P11_had_participant .
+
+jc:PER_0001 EXP_0005 jc:crm:P11_had_participant .
+
+jc:PER_0001 EXP_0006 jc:crm:P11_had_participant .
+
+jc:PER_0001 EXP_0007 jc:crm:P11_had_participant .
+
+jc:PER_0001 EXP_0008 jc:crm:P11_had_participant .
+
+jc:PER_0001 EXP_0009 jc:crm:P11_had_participant .
+
+jc:PER_0001 EXP_0010 jc:crm:P11_had_participant .
+
+jc:PER_0001 EXP_0010_1 jc:crm:P11_had_participant .
+
+jc:PER_0001 EXP_0011_01 jc:crm:P11_had_participant .
+
+jc:PER_0001 EXP_0011_02 jc:crm:P11_had_participant .
+
+jc:PER_0001 EXP_0011_03 jc:crm:P11_had_participant .
+
+jc:PER_0001 COM_0001 jc:crm:P11_had_participant .
+
+jc:PER_0001 COM_0002 jc:crm:P11_had_participant .
+
+jc:PER_0001 COM_0003 jc:crm:P11_had_participant .
+
+jc:PER_0001 COM_0004 jc:crm:P11_had_participant .
+
+jc:PER_0001 COM_0005 jc:crm:P11_had_participant .
+
+jc:PER_0001 COM_0006 jc:crm:P11_had_participant .
+
+jc:PER_0001 COM_0007 jc:crm:P11_had_participant .
+
+jc:PER_0001 COM_0008 jc:crm:P11_had_participant .
+
+jc:PER_0001 COM_0009 jc:crm:P11_had_participant .
+
+jc:PER_0001 COM_0010 jc:crm:P11_had_participant .
+
+jc:PER_0001 COM_0011 jc:crm:P11_had_participant .
+
+jc:PER_0001 COM_0012 jc:crm:P11_had_participant .
+
+jc:PER_0001 COM_0013 jc:crm:P11_had_participant .
+
+jc:PER_0001 COM_0014 jc:crm:P11_had_participant .
+
+jc:PER_0001 COM_0015 jc:crm:P11_had_participant .
+
+jc:PER_0001 COM_0016 jc:crm:P11_had_participant .
+
+jc:PER_0001 COM_0017 jc:crm:P11_had_participant .
+
+jc:PER_0001 COM_0018 jc:crm:P11_had_participant .
+
+jc:PER_0001 COM_0019 jc:crm:P11_had_participant .
+
+jc:PER_0001 COM_0020 jc:crm:P11_had_participant .
+
+jc:PER_0001 COM_0021 jc:crm:P11_had_participant .
+
+jc:PER_0001 COM_0022 jc:crm:P11_had_participant .
+
+jc:PER_0001 COM_0023 jc:crm:P11_had_participant .
+
+jc:PER_0001 COM_0024 jc:crm:P11_had_participant .
+
+jc:PER_0001 COM_0025 jc:crm:P11_had_participant .
+
+jc:PER_0001 COM_0026 jc:crm:P11_had_participant .
+
+jc:PER_0001 COM_0027 jc:crm:P11_had_participant .
+
+jc:PER_0001 PRJ_0003 jc:crm:P11_had_participant .
+
+jc:PER_0001 PRJ_0004 jc:crm:P11_had_participant .
+
+jc:PER_0001 PRJ_0007 jc:crm:P11_had_participant .
+
+jc:PER_0001 PRJ_0008_N01 jc:crm:P11_had_participant .
+
+jc:PER_0001 PRJ_0008_N02 jc:crm:P11_had_participant .
+
+jc:PER_0001 PRJ_0008_N03 jc:crm:P11_had_participant .
+
+jc:PER_0001 PRJ_0008_N04 jc:crm:P11_had_participant .
+
+jc:PER_0001 PRJ_0011 jc:crm:P11_had_participant .
+
+jc:PER_0001 PRJ_0012 jc:crm:P11_had_participant .
+
+jc:PER_0001 PRJ_0013 jc:crm:P11_had_participant .
+
+jc:PER_0001 PRJ_0014 jc:crm:P11_had_participant .
+
+jc:PER_0001 PRJ_0015 jc:crm:P11_had_participant .
+
+jc:PER_0001 PUB_0001 jc:crm:P11_had_participant .
+
+jc:PER_0001 PUB_0002 jc:crm:P11_had_participant .
+
+jc:PER_0001 PUB_0003 jc:crm:P11_had_participant .
+
+jc:PER_0001 PUB_0004 jc:crm:P11_had_participant .
+
+jc:PER_0001 PUB_0006 jc:crm:P11_had_participant .
+
+jc:PER_0001 PUB_0007 jc:crm:P11_had_participant .
+
+jc:PER_0001 PUB_0008 jc:crm:P11_had_participant .
+
+jc:PER_0001 PUB_0009 jc:crm:P11_had_participant .
+
+jc:PER_0001 PUB_0010 jc:crm:P11_had_participant .
+
+jc:PER_0001 PUB_0011 jc:crm:P11_had_participant .
+
+jc:PER_0001 PUB_0012 jc:crm:P11_had_participant .
+
+jc:PER_0001 PUB_0013 jc:crm:P11_had_participant .
+
+jc:PER_0001 PUB_0014 jc:crm:P11_had_participant .
+
+jc:PER_0001 PUB_0015 jc:crm:P11_had_participant .
+
+jc:PER_0001 PUB_0016 jc:crm:P11_had_participant .
+
+jc:PER_0001 PUB_0017 jc:crm:P11_had_participant .
+
+jc:PER_0001 PUB_0018 jc:crm:P11_had_participant .
+
+jc:PER_0004 EXP_0003 jc:crm:P11_had_participant .
+
+jc:PER_0004 EXP_0004 jc:crm:P11_had_participant .
+
+jc:PER_0008 EXP_0002 jc:crm:P11_had_participant .
+
+jc:PER_0008 EXP_0008 jc:crm:P11_had_participant .
+
+jc:PER_0011 EXP_0007 jc:crm:P11_had_participant .
+
+jc:PER_0011 EXP_0009 jc:crm:P11_had_participant .

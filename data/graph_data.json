@@ -3,10 +3,10 @@
     "version": "2.0",
     "source": "CV_Dataset_Maestro_Jaime_Cuevas.xlsx",
     "node_count": 271,
-    "link_count": 122,
+    "link_count": 209,
     "sheet_count": 12,
     "validation_status": "PASS",
-    "validation_warnings": 42
+    "validation_warnings": 129
   },
   "nodes": [
     {
@@ -6006,6 +6006,789 @@
       "target": "crm:P11_had_participant",
       "predicate": "COM_0012",
       "year": "Tema de charla de mediación curatorial",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0084",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0001",
+      "year": "Jaime Arnaldo Cuevas Pérez participated/curated EXP_0001",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0085",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0001_M01",
+      "year": "Jaime Arnaldo Cuevas Pérez participated/curated EXP_0001_M01",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0086",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0001_M02",
+      "year": "Jaime Arnaldo Cuevas Pérez participated/curated EXP_0001_M02",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0087",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0001_M03",
+      "year": "Jaime Arnaldo Cuevas Pérez participated/curated EXP_0001_M03",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0088",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0001_M04",
+      "year": "Jaime Arnaldo Cuevas Pérez participated/curated EXP_0001_M04",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0089",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0001_M05",
+      "year": "Jaime Arnaldo Cuevas Pérez participated/curated EXP_0001_M05",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0090",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0001_M06",
+      "year": "Jaime Arnaldo Cuevas Pérez participated/curated EXP_0001_M06",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0091",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0001_M07",
+      "year": "Jaime Arnaldo Cuevas Pérez participated/curated EXP_0001_M07",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0092",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0001_M08",
+      "year": "Jaime Arnaldo Cuevas Pérez participated/curated EXP_0001_M08",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0093",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0001_M09",
+      "year": "Jaime Arnaldo Cuevas Pérez participated/curated EXP_0001_M09",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0094",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0001_M10",
+      "year": "Jaime Arnaldo Cuevas Pérez participated/curated EXP_0001_M10",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0095",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0001_M11",
+      "year": "Jaime Arnaldo Cuevas Pérez participated/curated EXP_0001_M11",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0096",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0001_M12",
+      "year": "Jaime Arnaldo Cuevas Pérez participated/curated EXP_0001_M12",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0097",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0001_M13",
+      "year": "Jaime Arnaldo Cuevas Pérez participated/curated EXP_0001_M13",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0098",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0002",
+      "year": "Jaime Arnaldo Cuevas Pérez participated/curated EXP_0002",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0099",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0005",
+      "year": "Jaime Arnaldo Cuevas Pérez participated/curated EXP_0005",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0100",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0006",
+      "year": "Jaime Arnaldo Cuevas Pérez participated/curated EXP_0006",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0101",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0007",
+      "year": "Jaime Arnaldo Cuevas Pérez participated/curated EXP_0007",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0102",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0008",
+      "year": "Jaime Arnaldo Cuevas Pérez participated/curated EXP_0008",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0103",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0009",
+      "year": "Jaime Arnaldo Cuevas Pérez participated/curated EXP_0009",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0104",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0010",
+      "year": "Jaime Arnaldo Cuevas Pérez participated/curated EXP_0010",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0105",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0010_1",
+      "year": "Jaime Arnaldo Cuevas Pérez participated/curated EXP_0010_1",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0106",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0011_01",
+      "year": "Jaime Arnaldo Cuevas Pérez participated/curated EXP_0011_01",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0107",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0011_02",
+      "year": "Jaime Arnaldo Cuevas Pérez participated/curated EXP_0011_02",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0108",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0011_03",
+      "year": "Jaime Arnaldo Cuevas Pérez participated/curated EXP_0011_03",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0109",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0001",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0001",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0110",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0002",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0002",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0111",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0003",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0003",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0112",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0004",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0004",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0113",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0005",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0005",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0114",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0006",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0006",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0115",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0007",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0007",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0116",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0008",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0008",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0117",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0009",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0009",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0118",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0010",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0010",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0119",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0011",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0011",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0120",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0012",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0012",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0121",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0013",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0013",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0122",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0014",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0014",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0123",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0015",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0015",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0124",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0016",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0016",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0125",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0017",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0017",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0126",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0018",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0018",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0127",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0019",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0019",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0128",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0020",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0020",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0129",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0021",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0021",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0130",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0022",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0022",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0131",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0023",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0023",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0132",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0024",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0024",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0133",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0025",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0025",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0134",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0026",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0026",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0135",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0027",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0027",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0136",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PRJ_0003",
+      "year": "Jaime Arnaldo Cuevas Pérez worked on/investigated PRJ_0003",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0137",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PRJ_0004",
+      "year": "Jaime Arnaldo Cuevas Pérez worked on/investigated PRJ_0004",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0138",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PRJ_0007",
+      "year": "Jaime Arnaldo Cuevas Pérez worked on/investigated PRJ_0007",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0139",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PRJ_0008_N01",
+      "year": "Jaime Arnaldo Cuevas Pérez worked on/investigated PRJ_0008_N01",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0140",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PRJ_0008_N02",
+      "year": "Jaime Arnaldo Cuevas Pérez worked on/investigated PRJ_0008_N02",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0141",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PRJ_0008_N03",
+      "year": "Jaime Arnaldo Cuevas Pérez worked on/investigated PRJ_0008_N03",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0142",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PRJ_0008_N04",
+      "year": "Jaime Arnaldo Cuevas Pérez worked on/investigated PRJ_0008_N04",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0143",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PRJ_0011",
+      "year": "Jaime Arnaldo Cuevas Pérez worked on/investigated PRJ_0011",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0144",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PRJ_0012",
+      "year": "Jaime Arnaldo Cuevas Pérez worked on/investigated PRJ_0012",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0145",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PRJ_0013",
+      "year": "Jaime Arnaldo Cuevas Pérez worked on/investigated PRJ_0013",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0146",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PRJ_0014",
+      "year": "Jaime Arnaldo Cuevas Pérez worked on/investigated PRJ_0014",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0147",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PRJ_0015",
+      "year": "Jaime Arnaldo Cuevas Pérez worked on/investigated PRJ_0015",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0148",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PUB_0001",
+      "year": "Jaime Arnaldo Cuevas Pérez authored/co-authored PUB_0001",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0149",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PUB_0002",
+      "year": "Jaime Arnaldo Cuevas Pérez authored/co-authored PUB_0002",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0150",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PUB_0003",
+      "year": "Jaime Arnaldo Cuevas Pérez authored/co-authored PUB_0003",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0151",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PUB_0004",
+      "year": "Jaime Arnaldo Cuevas Pérez authored/co-authored PUB_0004",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0152",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PUB_0006",
+      "year": "Jaime Arnaldo Cuevas Pérez authored/co-authored PUB_0006",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0153",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PUB_0007",
+      "year": "Jaime Arnaldo Cuevas Pérez authored/co-authored PUB_0007",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0154",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PUB_0008",
+      "year": "Jaime Arnaldo Cuevas Pérez authored/co-authored PUB_0008",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0155",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PUB_0009",
+      "year": "Jaime Arnaldo Cuevas Pérez authored/co-authored PUB_0009",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0156",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PUB_0010",
+      "year": "Jaime Arnaldo Cuevas Pérez authored/co-authored PUB_0010",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0157",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PUB_0011",
+      "year": "Jaime Arnaldo Cuevas Pérez authored/co-authored PUB_0011",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0158",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PUB_0012",
+      "year": "Jaime Arnaldo Cuevas Pérez authored/co-authored PUB_0012",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0159",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PUB_0013",
+      "year": "Jaime Arnaldo Cuevas Pérez authored/co-authored PUB_0013",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0160",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PUB_0014",
+      "year": "Jaime Arnaldo Cuevas Pérez authored/co-authored PUB_0014",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0161",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PUB_0015",
+      "year": "Jaime Arnaldo Cuevas Pérez authored/co-authored PUB_0015",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0162",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PUB_0016",
+      "year": "Jaime Arnaldo Cuevas Pérez authored/co-authored PUB_0016",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0163",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PUB_0017",
+      "year": "Jaime Arnaldo Cuevas Pérez authored/co-authored PUB_0017",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0164",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PUB_0018",
+      "year": "Jaime Arnaldo Cuevas Pérez authored/co-authored PUB_0018",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0165",
+      "source": "PER_0004",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0003",
+      "year": "Manuel Alvarado Cornejo participated/curated EXP_0003",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0166",
+      "source": "PER_0004",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0004",
+      "year": "Manuel Alvarado Cornejo participated/curated EXP_0004",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0167",
+      "source": "PER_0008",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0002",
+      "year": "Camila Caris Seguel participated/curated EXP_0002",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0168",
+      "source": "PER_0008",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0008",
+      "year": "Camila Caris Seguel participated/curated EXP_0008",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0169",
+      "source": "PER_0011",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0007",
+      "year": "Montserrat Rojas Corradi participated/curated EXP_0007",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0170",
+      "source": "PER_0011",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0009",
+      "year": "Montserrat Rojas Corradi participated/curated EXP_0009",
       "description": null,
       "_sheet_name": "Relaciones_Grafo_LOD"
     }
