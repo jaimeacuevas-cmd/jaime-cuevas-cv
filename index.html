@@ -475,9 +475,15 @@
             <svg id="svg-graph" class="w-full h-full flex-1"></svg>
 
             <!-- Leyenda de Interacción Dinámica -->
-            <div class="absolute bottom-3 left-3 bg-slate-900/90 backdrop-blur-md px-3.5 py-2 rounded-lg text-[11px] text-slate-300 font-sans border border-slate-800 shadow-md flex items-center gap-2">
-              <span class="text-amber-400 text-sm">💡</span>
-              <span><strong>Clic en un nodo:</strong> Alterna entre <strong>expandir [+]</strong> o <strong>replegar [−]</strong> sus conexiones satélites para mantener limpia la pantalla.</span>
+            <div class="absolute bottom-3 left-3 bg-slate-900/90 backdrop-blur-md px-3.5 py-2 rounded-lg text-[10px] text-slate-300 font-sans border border-slate-800 shadow-md max-w-sm space-y-1">
+              <div class="flex items-start gap-2">
+                <span class="text-amber-400 text-sm">💡</span>
+                <div>
+                  <div><strong>Clic:</strong> Expandir/replegar nodo [+/−]</div>
+                  <div><strong>Arrastra:</strong> Mover nodo libremente</div>
+                  <div><strong>Doble-clic:</strong> Fijar/desfijar nodo en lugar</div>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -1451,6 +1457,25 @@
               handleNodeClickToggle(d);
             });
 
+            // Double-click to pin/unpin node
+            nodeG.on('dblclick', (event, d) => {
+              event.stopPropagation();
+              if (d.id !== 'PER_0001') {
+                if (d.fx !== null) {
+                  // Unpin node
+                  d.fx = null;
+                  d.fy = null;
+                  console.log(`Nodo ${d.id} desanclado - vuelve a la simulación`);
+                } else {
+                  // Pin node
+                  d.fx = d.x;
+                  d.fy = d.y;
+                  console.log(`Nodo ${d.id} anclado en posición`);
+                }
+                updateGraphSimulation();
+              }
+            });
+
             return nodeG;
           },
           update => update,
@@ -1504,10 +1529,9 @@
 
     function dragended(event, d) {
       if (!event.active) simulation.alphaTarget(0);
-      if (currentLayout !== 'radial' && d.id !== 'PER_0001') {
-        d.fx = null;
-        d.fy = null;
-      }
+      // Mantener nodo fijo en su posición (no resetear fx/fy)
+      // El nodo permanecerá donde el usuario lo colocó
+      // Para desfijar, hacer double-click en el nodo
     }
 
     function highlightNeighbors(targetNode) {

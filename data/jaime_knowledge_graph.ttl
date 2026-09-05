@@ -696,8 +696,8 @@ jc:LOC_0049 a crm:E53_Place ;
 
 jc:LOC_0050 a crm:E53_Place ;
     rdfs:label "Plaza de la Constitución (Santiago)" ;
-    geo:long -70.6538 ;
-    geo:lat -33.4428 ;
+    geo:long -70.65409015407023 ;
+    geo:lat -33.4410215508963 ;
     schema:areaServed "Santiago" ;
     skos:exactMatch <https://www.wikidata.org/wiki/Q7203673> .
 
