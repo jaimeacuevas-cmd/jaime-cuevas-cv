@@ -451,4 +451,39 @@ class DataTransformer:
                     links.append(link)
                     link_counter += 1
 
+        # Generate links from Medios_y_Congresos (Agent → Media and Media → Organization)
+        medias = raw_entities.get('Media', [])
+        for media_row in medias:
+            agent_id = media_row.get('id_agente', '').strip()
+            media_id = media_row.get('id_comunicacion', '').strip()
+            org_id = media_row.get('id_organizacion_medio', '').strip()
+
+            # Agent → Media
+            if agent_id and media_id:
+                link = {
+                    'id': f"IMPL_{link_counter:05d}",
+                    'source': agent_id,
+                    'target': media_id,
+                    'predicate': 'crm:P14i_performed',
+                    'predicate_label': 'Participó en',
+                    'description': f"Media/Congress: {media_row.get('tema_titulo', '')}",
+                    '_sheet_name': 'Medios_y_Congresos',
+                }
+                links.append(link)
+                link_counter += 1
+
+            # Media → Organization (if media has associated organization)
+            if media_id and org_id:
+                link = {
+                    'id': f"IMPL_{link_counter:05d}",
+                    'source': media_id,
+                    'target': org_id,
+                    'predicate': 'crm:P61_occurred_at',
+                    'predicate_label': 'Ocurrió en',
+                    'description': f"Congress/Media hosted at organization",
+                    '_sheet_name': 'Medios_y_Congresos',
+                }
+                links.append(link)
+                link_counter += 1
+
         return links

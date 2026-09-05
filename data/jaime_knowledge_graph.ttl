@@ -1864,3 +1864,111 @@ jc:Colección MUSAC crm:P14i_performed jc:EXP_0012 .
 jc:PER_0031 crm:P14i_performed jc:EXP_0013 .
 
 jc:PER_0038 crm:P14i_performed jc:EXP_0014 .
+
+jc:PER_0001 crm:P14i_performed jc:COM_0001 .
+
+jc:COM_0001 crm:P61_occurred_at jc:ORG_0003 .
+
+jc:PER_0001 crm:P14i_performed jc:COM_0002 .
+
+jc:COM_0002 crm:P61_occurred_at jc:ORG_0007 .
+
+jc:PER_0001 crm:P14i_performed jc:COM_0003 .
+
+jc:COM_0003 crm:P61_occurred_at jc:ORG_0004 .
+
+jc:PER_0001 crm:P14i_performed jc:COM_0004 .
+
+jc:COM_0004 crm:P61_occurred_at jc:ORG_0004 .
+
+jc:PER_0001 crm:P14i_performed jc:COM_0005 .
+
+jc:COM_0005 crm:P61_occurred_at jc:ORG_0002 .
+
+jc:PER_0001 crm:P14i_performed jc:COM_0006 .
+
+jc:COM_0006 crm:P61_occurred_at jc:ORG_0032 .
+
+jc:PER_0001 crm:P14i_performed jc:COM_0007 .
+
+jc:COM_0007 crm:P61_occurred_at jc:ORG_0030 .
+
+jc:PER_0001 crm:P14i_performed jc:COM_0008 .
+
+jc:COM_0008 crm:P61_occurred_at jc:ORG_0003 .
+
+jc:PER_0001 crm:P14i_performed jc:COM_0009 .
+
+jc:COM_0009 crm:P61_occurred_at jc:ORG_0004 .
+
+jc:PER_0001 crm:P14i_performed jc:COM_0010 .
+
+jc:COM_0010 crm:P61_occurred_at jc:ORG_0033 .
+
+jc:PER_0001 crm:P14i_performed jc:COM_0011 .
+
+jc:COM_0011 crm:P61_occurred_at jc:ORG_0031 .
+
+jc:PER_0001 crm:P14i_performed jc:COM_0012 .
+
+jc:COM_0012 crm:P61_occurred_at jc:ORG_0026 .
+
+jc:PER_0001 crm:P14i_performed jc:COM_0013 .
+
+jc:COM_0013 crm:P61_occurred_at jc:ORG_0010 .
+
+jc:PER_0001 crm:P14i_performed jc:COM_0014 .
+
+jc:COM_0014 crm:P61_occurred_at jc:ORG_0007 .
+
+jc:PER_0001 crm:P14i_performed jc:COM_0015 .
+
+jc:COM_0015 crm:P61_occurred_at jc:ORG_0002 .
+
+jc:PER_0001 crm:P14i_performed jc:COM_0016 .
+
+jc:COM_0016 crm:P61_occurred_at jc:ORG_0002 .
+
+jc:PER_0001 crm:P14i_performed jc:COM_0017 .
+
+jc:COM_0017 crm:P61_occurred_at jc:ORG_0002 .
+
+jc:PER_0001 crm:P14i_performed jc:COM_0018 .
+
+jc:COM_0018 crm:P61_occurred_at jc:ORG_0003 .
+
+jc:PER_0001 crm:P14i_performed jc:COM_0019 .
+
+jc:COM_0019 crm:P61_occurred_at jc:ORG_0013 .
+
+jc:PER_0001 crm:P14i_performed jc:COM_0020 .
+
+jc:COM_0020 crm:P61_occurred_at jc:ORG_0002 .
+
+jc:PER_0001 crm:P14i_performed jc:COM_0021 .
+
+jc:COM_0021 crm:P61_occurred_at jc:ORG_0002 .
+
+jc:PER_0001 crm:P14i_performed jc:COM_0022 .
+
+jc:COM_0022 crm:P61_occurred_at jc:ORG_0002 .
+
+jc:PER_0001 crm:P14i_performed jc:COM_0023 .
+
+jc:COM_0023 crm:P61_occurred_at jc:ORG_0002 .
+
+jc:PER_0001 crm:P14i_performed jc:COM_0024 .
+
+jc:COM_0024 crm:P61_occurred_at jc:ORG_0002 .
+
+jc:PER_0001 crm:P14i_performed jc:COM_0025 .
+
+jc:COM_0025 crm:P61_occurred_at jc:ORG_0002 .
+
+jc:PER_0001 crm:P14i_performed jc:COM_0026 .
+
+jc:COM_0026 crm:P61_occurred_at jc:ORG_0006 .
+
+jc:PER_0001 crm:P14i_performed jc:COM_0027 .
+
+jc:COM_0027 crm:P61_occurred_at jc:ORG_0002 .

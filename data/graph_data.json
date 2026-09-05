@@ -2,12 +2,12 @@
   "metadata": {
     "version": "2.0",
     "source": "CV_Dataset_Maestro_Jaime_Cuevas.xlsx",
-    "node_count": 151,
-    "link_count": 302,
+    "node_count": 181,
+    "link_count": 359,
     "sheet_count": 12,
     "validation_status": "PASS",
     "validation_warnings": 146,
-    "filtered_nodes": 124
+    "filtered_nodes": 94
   },
   "nodes": [
     {
@@ -1031,6 +1031,34 @@
       "wikidata": "Q5961605"
     },
     {
+      "id": "ORG_0026",
+      "type": "Organization",
+      "label": "Museo de la Memoria y los Derechos Humanos",
+      "short_name": "MMDH",
+      "category": "Museo de Memoria",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 26,
+      "city": "Santiago",
+      "wikidata": "Q2006767"
+    },
+    {
+      "id": "ORG_0030",
+      "type": "Organization",
+      "label": "Universidade Federal de São Paulo",
+      "short_name": "UNIFESP",
+      "category": "Universidad Pública",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 30,
+      "city": "São Paulo",
+      "wikidata": "Q1142270"
+    },
+    {
       "id": "ORG_0031",
       "type": "Organization",
       "label": "CAIA / Universidad de Buenos Aires",
@@ -1043,6 +1071,20 @@
       "row_number": 31,
       "city": "Buenos Aires",
       "wikidata": "Q193798"
+    },
+    {
+      "id": "ORG_0032",
+      "type": "Organization",
+      "label": "Universidad Nacional de Mar del Plata",
+      "short_name": "UNMDP",
+      "category": "Universidad Pública",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 32,
+      "city": "Mar del Plata",
+      "wikidata": "Q3551676"
     },
     {
       "id": "ORG_0033",
@@ -1270,7 +1312,7 @@
         41.3851
       ],
       "wikidata": "Q219615",
-      "why_relevant": "Maestría en Estudios Curatoriales (2024-2025)",
+      "why_relevant": "Máster Universitario en Humanidades Digitales - Estudios de postgrado en humanidades digitales",
       "micro_summary": null,
       "parent_org_id": "ORG_0005",
       "is_user_primary": false,
@@ -1469,6 +1511,30 @@
       "precision_type": "exact"
     },
     {
+      "id": "LOC_0023",
+      "type": "Location",
+      "label": "Museo de la Memoria y los Derechos Humanos (MMDH)",
+      "short_name": null,
+      "category": "Sede Institucional / Museo",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 23,
+      "city": "Santiago",
+      "district": "Yungay / Matucana",
+      "coordinates": [
+        -70.6823,
+        -33.4398
+      ],
+      "wikidata": "Q2006767",
+      "why_relevant": null,
+      "micro_summary": null,
+      "parent_org_id": "ORG_0026",
+      "is_user_primary": false,
+      "precision_type": "exact"
+    },
+    {
       "id": "LOC_0036",
       "type": "Location",
       "label": "Colección Privada Padre Hurtado",
@@ -1491,6 +1557,54 @@
       "parent_org_id": "ORG_0009",
       "is_user_primary": false,
       "precision_type": "centroid"
+    },
+    {
+      "id": "LOC_0040",
+      "type": "Location",
+      "label": "Universidade Federal de São Paulo (UNIFESP)",
+      "short_name": null,
+      "category": "Sede Universitaria",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 40,
+      "city": "São Paulo",
+      "district": "Vila Clementino",
+      "coordinates": [
+        -46.6333,
+        -23.5505
+      ],
+      "wikidata": "Q1142270",
+      "why_relevant": null,
+      "micro_summary": null,
+      "parent_org_id": "ORG_0030",
+      "is_user_primary": false,
+      "precision_type": "exact"
+    },
+    {
+      "id": "LOC_0041",
+      "type": "Location",
+      "label": "Universidad Nacional de Mar del Plata (UNMDP)",
+      "short_name": null,
+      "category": "Sede Universitaria",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 41,
+      "city": "Mar del Plata",
+      "district": "Centro",
+      "coordinates": [
+        -57.5426,
+        -38.0055
+      ],
+      "wikidata": "Q3551676",
+      "why_relevant": null,
+      "micro_summary": null,
+      "parent_org_id": "ORG_0032",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0042",
@@ -2725,6 +2839,227 @@
       "event_or_media": "La Hora del Museo, Museo Histórico Nacional"
     },
     {
+      "id": "COM_0003",
+      "type": "Media",
+      "label": "Modelos de representación: el afromestizo en dos pinturas de batalla en el chile de mediados del siglo XIX",
+      "short_name": null,
+      "category": "Ponencia en Congreso",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 3,
+      "event_or_media": "XIV Jornadas de Historia del Arte. América Latina, siglos XVIII - XIX. UAI"
+    },
+    {
+      "id": "COM_0004",
+      "type": "Media",
+      "label": "Notas de un itinerario: el perfil comercial del Taller Monvoisin en Chile (1843-1857)",
+      "short_name": null,
+      "category": "Ponencia en Seminario",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 4,
+      "event_or_media": "Laboratorio Circulación, mercado de arte y coleccionismo, UAI"
+    },
+    {
+      "id": "COM_0005",
+      "type": "Media",
+      "label": "Notas preliminares sobre Clara Filleul: de historiografía, exposiciones y fortuna crítica",
+      "short_name": null,
+      "category": "Ponencia en Seminario",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 5,
+      "event_or_media": "Laboratorio género y discipulaje. El Taller Monvoisin. MNBA"
+    },
+    {
+      "id": "COM_0006",
+      "type": "Media",
+      "label": "Género y discipulaje. Los casos de Clara Filleul y Procesa Sarmiento en el Taller Monvoisin",
+      "short_name": null,
+      "category": "Ponencia en Congreso Internacional",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 6,
+      "event_or_media": "XIV Jornadas Nacionales de Historia de las Mujeres, Universidad Nacional de Mar del Plata"
+    },
+    {
+      "id": "COM_0007",
+      "type": "Media",
+      "label": "Trazar límites, deslindar fronteras. El caso de la pintura El Fuerte Bulnes (1848) de Alessandro Ciccarelli",
+      "short_name": null,
+      "category": "Ponencia en Congreso Internacional",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 7,
+      "event_or_media": "X Jornadas de história da arte política(s) na história da arte, UNIFESP"
+    },
+    {
+      "id": "COM_0008",
+      "type": "Media",
+      "label": "Espacio devocional y cotidiano, al encuentro del reconocimiento del afromestizo...",
+      "short_name": null,
+      "category": "Ponencia en Congreso Internacional",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 8,
+      "event_or_media": "II Congreso Nacional e Internacional de Historia del Arte, Universidad Autónoma de Chile"
+    },
+    {
+      "id": "COM_0009",
+      "type": "Media",
+      "label": "Modelos de representación. Ausencia y presencia afromestiza en imágenes. Chile siglo XIX",
+      "short_name": null,
+      "category": "Ponencia en Seminario",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 9,
+      "event_or_media": "Seminario: Circulaciones, coleccionismo, apropiaciones en el siglo XIX, UAI"
+    },
+    {
+      "id": "COM_0010",
+      "type": "Media",
+      "label": "Incertidumbres en las visualidades de indígenas y negros en Chile",
+      "short_name": null,
+      "category": "Ponencia en Simposio Internacional",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 10,
+      "event_or_media": "VI Simposio Internacional de Estética: Estéticas del poder y contra-poder, PUC"
+    },
+    {
+      "id": "COM_0011",
+      "type": "Media",
+      "label": "La constitución del Salón de Santiago. Notas sobre la institucionalización del sistema de exhibición...",
+      "short_name": null,
+      "category": "Ponencia en Encuentro Internacional",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 11,
+      "event_or_media": "III Encuentro de Jóvenes Investigadores en Arte, CAIA / UBA"
+    },
+    {
+      "id": "COM_0012",
+      "type": "Media",
+      "label": "Charla sobre curaduría e investigación del archivo fotográfico Rodrigo Rojas De Negri",
+      "short_name": null,
+      "category": "Charla de Mediación",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 12,
+      "event_or_media": "Artistas del Acero, Concepción, Chile"
+    },
+    {
+      "id": "COM_0013",
+      "type": "Media",
+      "label": "De curador y curadores. Encuentro teórico",
+      "short_name": null,
+      "category": "Organizador y Moderador",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 13,
+      "event_or_media": "Instituto de Estudios Avanzados IDEA, USACH"
+    },
+    {
+      "id": "COM_0014",
+      "type": "Media",
+      "label": "Charla en el marco de la exposición temporal Genius Loci",
+      "short_name": null,
+      "category": "Charla Especializada",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 14,
+      "event_or_media": "Museo Benjamín Vicuña Mackenna"
+    },
+    {
+      "id": "COM_0015",
+      "type": "Media",
+      "label": "Valioso retrato de Monvoisin entra a la colección del Museo de Bellas Artes",
+      "short_name": null,
+      "category": "Prensa Escrita (Entrevista)",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 15,
+      "event_or_media": "Diario El Mercurio (Cultura)"
+    },
+    {
+      "id": "COM_0016",
+      "type": "Media",
+      "label": "Abre sus puertas: Exposición Episodio Monvoisin y logística de traslado de obras",
+      "short_name": null,
+      "category": "Prensa Escrita (Reportaje)",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 16,
+      "event_or_media": "Artes y Letras, Diario El Mercurio"
+    },
+    {
+      "id": "COM_0017",
+      "type": "Media",
+      "label": "Pintura de la Catedral de Concepción atrae miradas en el MNBA",
+      "short_name": null,
+      "category": "Prensa Escrita (Noticia)",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 17,
+      "event_or_media": "Diario El Sur (Concepción)"
+    },
+    {
+      "id": "COM_0018",
+      "type": "Media",
+      "label": "Matriz Imaginada. Archivo Salón de Estudiantes 2013",
+      "short_name": null,
+      "category": "Charla de Archivo",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 18,
+      "event_or_media": "Archivo Central Andrés Bello, Universidad de Chile"
+    },
+    {
+      "id": "COM_0019",
+      "type": "Media",
+      "label": "Presentación del modelo de gestión Salón de Estudiantes 2013",
+      "short_name": null,
+      "category": "Presentación Internacional",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 19,
+      "event_or_media": "Promoción del Arte, MECD España"
+    },
+    {
       "id": "COM_0020",
       "type": "Media",
       "label": "Ciclo Instagram Live: Monvoisin en América (5 capítulos)",
@@ -2736,6 +3071,97 @@
       "source_sheet": "",
       "row_number": 20,
       "event_or_media": "Museo Nacional de Bellas Artes (Instagram Live)"
+    },
+    {
+      "id": "COM_0021",
+      "type": "Media",
+      "label": "Desde el Museo. Miradas Alteradas: colonialismo y dominación",
+      "short_name": null,
+      "category": "Conversatorio Virtual (Invitado)",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 21,
+      "event_or_media": "Museo Nacional de Bellas Artes (YouTube)"
+    },
+    {
+      "id": "COM_0022",
+      "type": "Media",
+      "label": "Instagram Live: Representación de la afrodescendencia en la Colección MNBA",
+      "short_name": null,
+      "category": "Conversatorio Virtual (Invitado)",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 22,
+      "event_or_media": "Museo Nacional de Bellas Artes (Instagram Live)"
+    },
+    {
+      "id": "COM_0023",
+      "type": "Media",
+      "label": "Desde el Museo: Adquisiciones en contexto",
+      "short_name": null,
+      "category": "Conversatorio Virtual (Curador)",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 23,
+      "event_or_media": "Museo Nacional de Bellas Artes (Instagram Live)"
+    },
+    {
+      "id": "COM_0024",
+      "type": "Media",
+      "label": "Recorrido mediado por la exposición Adquisiciones en contexto",
+      "short_name": null,
+      "category": "Visita Mediada Presencial",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 24,
+      "event_or_media": "Sala Chile, Museo Nacional de Bellas Artes"
+    },
+    {
+      "id": "COM_0025",
+      "type": "Media",
+      "label": "Lanzamiento plataforma web QUINSAC y libro Monvoisin en América",
+      "short_name": null,
+      "category": "Lanzamiento / Presentación",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 25,
+      "event_or_media": "Salón Blanco, Museo Nacional de Bellas Artes"
+    },
+    {
+      "id": "COM_0026",
+      "type": "Media",
+      "label": "Los canteros de Pedro Lira: Trayectoria histórica y aproximación iconográfica",
+      "short_name": null,
+      "category": "Ponencia Técnica Institucional",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 26,
+      "event_or_media": "Jornadas de Declaración de Significado (CNCR - MNBA)"
+    },
+    {
+      "id": "COM_0027",
+      "type": "Media",
+      "label": "Cápsula audiovisual de mediación: Exposición Episodio Monvoisin en el MNBA",
+      "short_name": null,
+      "category": "Cápsula Audiovisual / Reel Instagram",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 27,
+      "event_or_media": "Instagram Reel Oficial MNBA"
     },
     {
       "id": "DIG_0001",
@@ -2916,11 +3342,35 @@
       "_sheet_name": "Lugares_y_Sedes_GENERATED"
     },
     {
+      "id": "REL_ORG_LOC_0023",
+      "source": "ORG_0026",
+      "target": "LOC_0023",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0026 has location LOC_0023",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
       "id": "REL_ORG_LOC_0036",
       "source": "ORG_0009",
       "target": "LOC_0036",
       "predicate": "crm:P87_is_identified_by",
       "description": "Organization ORG_0009 has location LOC_0036",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0040",
+      "source": "ORG_0030",
+      "target": "LOC_0040",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0030 has location LOC_0040",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0041",
+      "source": "ORG_0032",
+      "target": "LOC_0041",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0032 has location LOC_0041",
       "_sheet_name": "Lugares_y_Sedes_GENERATED"
     },
     {
@@ -5505,6 +5955,492 @@
       "predicate_label": "Participó en",
       "description": "Exhibition: Sonata: Exposición Individual de Wladymir Bernechea",
       "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01080",
+      "source": "PER_0001",
+      "target": "COM_0001",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Media/Congress: Exposición Episodio Monvoisin. Un pintor francés en el Chile del siglo XIX",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01081",
+      "source": "COM_0001",
+      "target": "ORG_0003",
+      "predicate": "crm:P61_occurred_at",
+      "predicate_label": "Ocurrió en",
+      "description": "Congress/Media hosted at organization",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01082",
+      "source": "PER_0001",
+      "target": "COM_0002",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Media/Congress: Raymond Monvoisin: El pintor que retrató la elite chilena (#3676)",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01083",
+      "source": "COM_0002",
+      "target": "ORG_0007",
+      "predicate": "crm:P61_occurred_at",
+      "predicate_label": "Ocurrió en",
+      "description": "Congress/Media hosted at organization",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01084",
+      "source": "PER_0001",
+      "target": "COM_0003",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Media/Congress: Modelos de representación: el afromestizo en dos pinturas de batalla en el chile de mediados del siglo XIX",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01085",
+      "source": "COM_0003",
+      "target": "ORG_0004",
+      "predicate": "crm:P61_occurred_at",
+      "predicate_label": "Ocurrió en",
+      "description": "Congress/Media hosted at organization",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01086",
+      "source": "PER_0001",
+      "target": "COM_0004",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Media/Congress: Notas de un itinerario: el perfil comercial del Taller Monvoisin en Chile (1843-1857)",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01087",
+      "source": "COM_0004",
+      "target": "ORG_0004",
+      "predicate": "crm:P61_occurred_at",
+      "predicate_label": "Ocurrió en",
+      "description": "Congress/Media hosted at organization",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01088",
+      "source": "PER_0001",
+      "target": "COM_0005",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Media/Congress: Notas preliminares sobre Clara Filleul: de historiografía, exposiciones y fortuna crítica",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01089",
+      "source": "COM_0005",
+      "target": "ORG_0002",
+      "predicate": "crm:P61_occurred_at",
+      "predicate_label": "Ocurrió en",
+      "description": "Congress/Media hosted at organization",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01090",
+      "source": "PER_0001",
+      "target": "COM_0006",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Media/Congress: Género y discipulaje. Los casos de Clara Filleul y Procesa Sarmiento en el Taller Monvoisin",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01091",
+      "source": "COM_0006",
+      "target": "ORG_0032",
+      "predicate": "crm:P61_occurred_at",
+      "predicate_label": "Ocurrió en",
+      "description": "Congress/Media hosted at organization",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01092",
+      "source": "PER_0001",
+      "target": "COM_0007",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Media/Congress: Trazar límites, deslindar fronteras. El caso de la pintura El Fuerte Bulnes (1848) de Alessandro Ciccarelli",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01093",
+      "source": "COM_0007",
+      "target": "ORG_0030",
+      "predicate": "crm:P61_occurred_at",
+      "predicate_label": "Ocurrió en",
+      "description": "Congress/Media hosted at organization",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01094",
+      "source": "PER_0001",
+      "target": "COM_0008",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Media/Congress: Espacio devocional y cotidiano, al encuentro del reconocimiento del afromestizo...",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01095",
+      "source": "COM_0008",
+      "target": "ORG_0003",
+      "predicate": "crm:P61_occurred_at",
+      "predicate_label": "Ocurrió en",
+      "description": "Congress/Media hosted at organization",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01096",
+      "source": "PER_0001",
+      "target": "COM_0009",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Media/Congress: Modelos de representación. Ausencia y presencia afromestiza en imágenes. Chile siglo XIX",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01097",
+      "source": "COM_0009",
+      "target": "ORG_0004",
+      "predicate": "crm:P61_occurred_at",
+      "predicate_label": "Ocurrió en",
+      "description": "Congress/Media hosted at organization",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01098",
+      "source": "PER_0001",
+      "target": "COM_0010",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Media/Congress: Incertidumbres en las visualidades de indígenas y negros en Chile",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01099",
+      "source": "COM_0010",
+      "target": "ORG_0033",
+      "predicate": "crm:P61_occurred_at",
+      "predicate_label": "Ocurrió en",
+      "description": "Congress/Media hosted at organization",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01100",
+      "source": "PER_0001",
+      "target": "COM_0011",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Media/Congress: La constitución del Salón de Santiago. Notas sobre la institucionalización del sistema de exhibición...",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01101",
+      "source": "COM_0011",
+      "target": "ORG_0031",
+      "predicate": "crm:P61_occurred_at",
+      "predicate_label": "Ocurrió en",
+      "description": "Congress/Media hosted at organization",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01102",
+      "source": "PER_0001",
+      "target": "COM_0012",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Media/Congress: Charla sobre curaduría e investigación del archivo fotográfico Rodrigo Rojas De Negri",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01103",
+      "source": "COM_0012",
+      "target": "ORG_0026",
+      "predicate": "crm:P61_occurred_at",
+      "predicate_label": "Ocurrió en",
+      "description": "Congress/Media hosted at organization",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01104",
+      "source": "PER_0001",
+      "target": "COM_0013",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Media/Congress: De curador y curadores. Encuentro teórico",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01105",
+      "source": "COM_0013",
+      "target": "ORG_0010",
+      "predicate": "crm:P61_occurred_at",
+      "predicate_label": "Ocurrió en",
+      "description": "Congress/Media hosted at organization",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01106",
+      "source": "PER_0001",
+      "target": "COM_0014",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Media/Congress: Charla en el marco de la exposición temporal Genius Loci",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01107",
+      "source": "COM_0014",
+      "target": "ORG_0007",
+      "predicate": "crm:P61_occurred_at",
+      "predicate_label": "Ocurrió en",
+      "description": "Congress/Media hosted at organization",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01108",
+      "source": "PER_0001",
+      "target": "COM_0015",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Media/Congress: Valioso retrato de Monvoisin entra a la colección del Museo de Bellas Artes",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01109",
+      "source": "COM_0015",
+      "target": "ORG_0002",
+      "predicate": "crm:P61_occurred_at",
+      "predicate_label": "Ocurrió en",
+      "description": "Congress/Media hosted at organization",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01110",
+      "source": "PER_0001",
+      "target": "COM_0016",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Media/Congress: Abre sus puertas: Exposición Episodio Monvoisin y logística de traslado de obras",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01111",
+      "source": "COM_0016",
+      "target": "ORG_0002",
+      "predicate": "crm:P61_occurred_at",
+      "predicate_label": "Ocurrió en",
+      "description": "Congress/Media hosted at organization",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01112",
+      "source": "PER_0001",
+      "target": "COM_0017",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Media/Congress: Pintura de la Catedral de Concepción atrae miradas en el MNBA",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01113",
+      "source": "COM_0017",
+      "target": "ORG_0002",
+      "predicate": "crm:P61_occurred_at",
+      "predicate_label": "Ocurrió en",
+      "description": "Congress/Media hosted at organization",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01114",
+      "source": "PER_0001",
+      "target": "COM_0018",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Media/Congress: Matriz Imaginada. Archivo Salón de Estudiantes 2013",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01115",
+      "source": "COM_0018",
+      "target": "ORG_0003",
+      "predicate": "crm:P61_occurred_at",
+      "predicate_label": "Ocurrió en",
+      "description": "Congress/Media hosted at organization",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01116",
+      "source": "PER_0001",
+      "target": "COM_0019",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Media/Congress: Presentación del modelo de gestión Salón de Estudiantes 2013",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01117",
+      "source": "COM_0019",
+      "target": "ORG_0013",
+      "predicate": "crm:P61_occurred_at",
+      "predicate_label": "Ocurrió en",
+      "description": "Congress/Media hosted at organization",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01118",
+      "source": "PER_0001",
+      "target": "COM_0020",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Media/Congress: Ciclo Instagram Live: Monvoisin en América (5 capítulos)",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01119",
+      "source": "COM_0020",
+      "target": "ORG_0002",
+      "predicate": "crm:P61_occurred_at",
+      "predicate_label": "Ocurrió en",
+      "description": "Congress/Media hosted at organization",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01120",
+      "source": "PER_0001",
+      "target": "COM_0021",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Media/Congress: Desde el Museo. Miradas Alteradas: colonialismo y dominación",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01121",
+      "source": "COM_0021",
+      "target": "ORG_0002",
+      "predicate": "crm:P61_occurred_at",
+      "predicate_label": "Ocurrió en",
+      "description": "Congress/Media hosted at organization",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01122",
+      "source": "PER_0001",
+      "target": "COM_0022",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Media/Congress: Instagram Live: Representación de la afrodescendencia en la Colección MNBA",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01123",
+      "source": "COM_0022",
+      "target": "ORG_0002",
+      "predicate": "crm:P61_occurred_at",
+      "predicate_label": "Ocurrió en",
+      "description": "Congress/Media hosted at organization",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01124",
+      "source": "PER_0001",
+      "target": "COM_0023",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Media/Congress: Desde el Museo: Adquisiciones en contexto",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01125",
+      "source": "COM_0023",
+      "target": "ORG_0002",
+      "predicate": "crm:P61_occurred_at",
+      "predicate_label": "Ocurrió en",
+      "description": "Congress/Media hosted at organization",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01126",
+      "source": "PER_0001",
+      "target": "COM_0024",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Media/Congress: Recorrido mediado por la exposición Adquisiciones en contexto",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01127",
+      "source": "COM_0024",
+      "target": "ORG_0002",
+      "predicate": "crm:P61_occurred_at",
+      "predicate_label": "Ocurrió en",
+      "description": "Congress/Media hosted at organization",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01128",
+      "source": "PER_0001",
+      "target": "COM_0025",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Media/Congress: Lanzamiento plataforma web QUINSAC y libro Monvoisin en América",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01129",
+      "source": "COM_0025",
+      "target": "ORG_0002",
+      "predicate": "crm:P61_occurred_at",
+      "predicate_label": "Ocurrió en",
+      "description": "Congress/Media hosted at organization",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01130",
+      "source": "PER_0001",
+      "target": "COM_0026",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Media/Congress: Los canteros de Pedro Lira: Trayectoria histórica y aproximación iconográfica",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01131",
+      "source": "COM_0026",
+      "target": "ORG_0006",
+      "predicate": "crm:P61_occurred_at",
+      "predicate_label": "Ocurrió en",
+      "description": "Congress/Media hosted at organization",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01132",
+      "source": "PER_0001",
+      "target": "COM_0027",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Media/Congress: Cápsula audiovisual de mediación: Exposición Episodio Monvoisin en el MNBA",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01133",
+      "source": "COM_0027",
+      "target": "ORG_0002",
+      "predicate": "crm:P61_occurred_at",
+      "predicate_label": "Ocurrió en",
+      "description": "Congress/Media hosted at organization",
+      "_sheet_name": "Medios_y_Congresos"
     }
   ]
 }

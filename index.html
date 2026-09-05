@@ -1000,33 +1000,74 @@
       semanticPath = [{ id: 'PER_0001', label: 'Jaime Cuevas', type: 'Agent' }];
       renderBreadcrumbs();
 
-      // Filter: Show Jaime + direct connections only (no overwhelming the user)
-      const directConnectionIds = new Set(['PER_0001']);
-
-      // Add nodes directly connected to Jaime
+      // Option A: Show Jaime + 8 category nodes instead of overwhelming node list
+      const connectionsByType = {};
       fullGraphData.links.forEach(link => {
         const source = link.source.id || link.source;
         const target = link.target.id || link.target;
         if (source === 'PER_0001') {
-          directConnectionIds.add(target);
-        }
-        if (target === 'PER_0001') {
-          directConnectionIds.add(source);
+          const node = fullGraphData.nodes.find(n => n.id === target);
+          if (node) {
+            if (!connectionsByType[node.type]) {
+              connectionsByType[node.type] = [];
+            }
+            connectionsByType[node.type].push(node.id);
+          }
         }
       });
 
-      activeNodes = fullGraphData.nodes.filter(n => directConnectionIds.has(n.id));
-      const activeIds = new Set(activeNodes.map(n => n.id));
-      
-      activeLinks = fullGraphData.links.filter(l => 
-        activeIds.has(l.source.id || l.source) && activeIds.has(l.target.id || l.target)
-      ).map(l => ({
-        id: l.id,
-        source: l.source.id || l.source,
-        target: l.target.id || l.target,
-        predicate: l.predicate,
-        predicate_label: l.predicate_label
+      // Create 8 category meta-nodes
+      const categoryMap = {
+        'Position': { label: 'Posiciones', icon: '💼', order: 1 },
+        'Organization': { label: 'Organizaciones', icon: '🏛️', order: 2 },
+        'Education': { label: 'Formación', icon: '📚', order: 3 },
+        'Project': { label: 'Proyectos', icon: '📊', order: 4 },
+        'Exhibition': { label: 'Exposiciones', icon: '🎨', order: 5 },
+        'Media': { label: 'Medios & Congresos', icon: '🎤', order: 6 },
+        'DigitalHeritage': { label: 'Patrimonio Digital', icon: '💾', order: 7 },
+        'Agent': { label: 'Colaboradores', icon: '👥', order: 8 }
+      };
+
+      const categoryNodes = [];
+      const categoryIds = new Set(['PER_0001']);
+
+      Object.entries(connectionsByType).forEach(([type, nodeIds]) => {
+        if (categoryMap[type]) {
+          const categoryId = `CAT_${type}`;
+          const meta = categoryMap[type];
+          categoryNodes.push({
+            id: categoryId,
+            label: `${meta.label} (${nodeIds.length})`,
+            type: 'Category',
+            category_type: type,
+            count: nodeIds.length,
+            x: Math.cos((meta.order - 1) * 2 * Math.PI / 8) * 200,
+            y: Math.sin((meta.order - 1) * 2 * Math.PI / 8) * 200,
+            fx: Math.cos((meta.order - 1) * 2 * Math.PI / 8) * 200,
+            fy: Math.sin((meta.order - 1) * 2 * Math.PI / 8) * 200
+          });
+          categoryIds.add(categoryId);
+        }
+      });
+
+      // Show Jaime + category nodes
+      activeNodes = [
+        fullGraphData.nodes.find(n => n.id === 'PER_0001'),
+        ...categoryNodes
+      ];
+
+      // Create links from Jaime to each category
+      activeLinks = categoryNodes.map(cat => ({
+        id: `link_to_${cat.id}`,
+        source: 'PER_0001',
+        target: cat.id,
+        predicate: 'crm:P9_consists_of',
+        predicate_label: 'Contiene'
       }));
+
+      // Store for expansion handlers
+      window.categoryNodes = categoryNodes;
+      window.connectionsByType = connectionsByType;
 
       selectedActiveNode = null;
       updateGraphSimulation();
@@ -1058,6 +1099,12 @@
       const targetId = targetNode.id;
       selectedActiveNode = targetNode;
 
+      // Special handling for category nodes
+      if (targetNode.type === 'Category') {
+        expandCategoryBranch(targetNode);
+        return;
+      }
+
       // 1. If node is already expanded (and is not root PER_0001), RETRACT / COLLAPSE its exclusive children
       if (expandedNodeIds.has(targetId) && targetId !== 'PER_0001') {
         collapseNodeBranch(targetNode);
@@ -1070,6 +1117,56 @@
       openInspector(targetNode);
       highlightNeighbors(targetNode);
       if (isIsolatedMode) applyIsolationStyle(targetNode);
+    }
+
+    function expandCategoryBranch(categoryNode) {
+      if (!window.connectionsByType) return;
+
+      const categoryType = categoryNode.category_type;
+      const nodeIdsToAdd = window.connectionsByType[categoryType] || [];
+
+      expandedNodeIds.add(categoryNode.id);
+
+      const currentIds = new Set(activeNodes.map(n => n.id));
+      let addedNodes = [];
+      let addedLinks = [];
+
+      // Add all nodes of this category
+      nodeIdsToAdd.forEach(nodeId => {
+        if (!currentIds.has(nodeId)) {
+          const nodeObj = fullGraphData.nodes.find(n => n.id === nodeId);
+          if (nodeObj) {
+            activeNodes.push(nodeObj);
+            expandedNodeIds.add(nodeId);
+            addedNodes.push(nodeId);
+          }
+        }
+      });
+
+      // Add links from category node to its members and from Jaime through category
+      const newActiveIds = new Set(activeNodes.map(n => n.id));
+      fullGraphData.links.forEach(l => {
+        const s = l.source.id || l.source;
+        const t = l.target.id || l.target;
+        if (newActiveIds.has(s) && newActiveIds.has(t)) {
+          const linkObj = {
+            id: l.id,
+            source: s,
+            target: t,
+            predicate: l.predicate,
+            predicate_label: l.predicate_label
+          };
+          // Check if link already exists
+          if (!activeLinks.find(al => al.id === l.id)) {
+            activeLinks.push(linkObj);
+            addedLinks.push(linkObj);
+          }
+        }
+      });
+
+      console.log(`Expanded ${categoryNode.label}: added ${addedNodes.length} nodes and ${addedLinks.length} links`);
+      updateGraphSimulation();
+      openInspector(categoryNode);
     }
 
     function expandNodeBranch(targetNode) {
