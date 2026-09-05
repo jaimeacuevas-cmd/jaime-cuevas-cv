@@ -569,4 +569,23 @@ class DataTransformer:
                 links.append(link)
                 link_counter += 1
 
+        # Generate links from Portafolio_Digital_Web (Agent → DigitalHeritage)
+        digital_heritages = raw_entities.get('DigitalHeritage', [])
+        for dig_row in digital_heritages:
+            agent_id = dig_row.get('id_agente', '').strip()
+            dig_id = dig_row.get('id_digital', '').strip()
+
+            if agent_id and dig_id:
+                link = {
+                    'id': f"IMPL_{link_counter:05d}",
+                    'source': agent_id,
+                    'target': dig_id,
+                    'predicate': 'crm:P14i_performed',
+                    'predicate_label': 'Produjo/Desarrolló',
+                    'description': f"Digital Heritage: {dig_row.get('nombre_proyecto', '')}",
+                    '_sheet_name': 'Portafolio_Digital_Web',
+                }
+                links.append(link)
+                link_counter += 1
+
         return links
