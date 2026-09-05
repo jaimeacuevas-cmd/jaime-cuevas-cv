@@ -866,6 +866,16 @@
       }
     }
 
+    // INITIALIZE ALL VISUALIZATIONS
+    function initializeVisualization() {
+      if (!fullGraphData || !geoData) {
+        console.error('✗ Cannot initialize: data not loaded');
+        return;
+      }
+      initD3Graph();
+      console.log('✓ Visualizations initialized (D3 + Leaflet ready)');
+    }
+
     // D3 GRAPH INITIALIZATION
     function initD3Graph() {
       const container = document.getElementById('tab-graph');
@@ -909,6 +919,11 @@
 
     // PROGRESSIVE DISCLOSURE & TOGGLE EXPAND / RETRACT LOGIC
     function resetToCoreGraph() {
+      if (!fullGraphData || !fullGraphData.nodes) {
+        console.error('✗ Cannot reset: graph data not loaded');
+        return;
+      }
+
       isExpandedAll = false;
       const expText = document.getElementById('expand-text');
       const expIcon = document.getElementById('expand-icon');
