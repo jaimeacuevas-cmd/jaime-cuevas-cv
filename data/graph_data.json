@@ -3,7 +3,7 @@
     "version": "2.0",
     "source": "CV_Dataset_Maestro_Jaime_Cuevas.xlsx",
     "node_count": 274,
-    "link_count": 265,
+    "link_count": 292,
     "sheet_count": 12,
     "validation_status": "PASS",
     "validation_warnings": 142
@@ -7353,6 +7353,249 @@
       "year": 2014,
       "description": null,
       "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "IMPL_01000",
+      "source": "PER_0001",
+      "target": "EDU_0001",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Realizó/Completó",
+      "description": "Educational formation: Máster Universitario en Humanidades Digitales",
+      "_sheet_name": "Formacion_Academica"
+    },
+    {
+      "id": "IMPL_01001",
+      "source": "PER_0001",
+      "target": "EDU_0002",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Realizó/Completó",
+      "description": "Educational formation: Equivalencia a nivel académico de Grado en España",
+      "_sheet_name": "Formacion_Academica"
+    },
+    {
+      "id": "IMPL_01002",
+      "source": "PER_0001",
+      "target": "EDU_0003",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Realizó/Completó",
+      "description": "Educational formation: Magíster en Historia del Arte",
+      "_sheet_name": "Formacion_Academica"
+    },
+    {
+      "id": "IMPL_01003",
+      "source": "PER_0001",
+      "target": "EDU_0004",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Realizó/Completó",
+      "description": "Educational formation: Licenciatura en Artes c/m en Teoría e Historia del Arte",
+      "_sheet_name": "Formacion_Academica"
+    },
+    {
+      "id": "IMPL_01004",
+      "source": "PER_0001",
+      "target": "EDU_0005",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Realizó/Completó",
+      "description": "Educational formation: Diplomado en Gobierno y Gestión Pública",
+      "_sheet_name": "Formacion_Academica"
+    },
+    {
+      "id": "IMPL_01005",
+      "source": "PER_0001",
+      "target": "EDU_0006",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Realizó/Completó",
+      "description": "Educational formation: Diplomado de Postítulo en Estudios Internacionales",
+      "_sheet_name": "Formacion_Academica"
+    },
+    {
+      "id": "IMPL_01006",
+      "source": "PER_0001",
+      "target": "EDU_0007",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Realizó/Completó",
+      "description": "Educational formation: Diplomado en Museos y Museología",
+      "_sheet_name": "Formacion_Academica"
+    },
+    {
+      "id": "IMPL_01007",
+      "source": "PER_0001",
+      "target": "EDU_0008",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Realizó/Completó",
+      "description": "Educational formation: Diplomado en Curaduría",
+      "_sheet_name": "Formacion_Academica"
+    },
+    {
+      "id": "IMPL_01008",
+      "source": "PER_0001",
+      "target": "EDU_0009",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Realizó/Completó",
+      "description": "Educational formation: Gestión de Exposiciones Temporales: un modelo de gestión",
+      "_sheet_name": "Formacion_Academica"
+    },
+    {
+      "id": "IMPL_01009",
+      "source": "PER_0001",
+      "target": "EDU_0010",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Realizó/Completó",
+      "description": "Educational formation: Cursos Online: Museología y Herencia Africana en el Arte",
+      "_sheet_name": "Formacion_Academica"
+    },
+    {
+      "id": "IMPL_01010",
+      "source": "PER_0001",
+      "target": "EDU_0011",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Realizó/Completó",
+      "description": "Educational formation: Digitalización de soportes fotográficos y documentos patrimoniales",
+      "_sheet_name": "Formacion_Academica"
+    },
+    {
+      "id": "IMPL_01011",
+      "source": "PER_0001",
+      "target": "EDU_0012",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Realizó/Completó",
+      "description": "Educational formation: Diplomado de Extensión en Ciencia de la Religión c/m en Judaísmo",
+      "_sheet_name": "Formacion_Academica"
+    },
+    {
+      "id": "IMPL_01012",
+      "source": "PER_0001",
+      "target": "EDU_0013",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Realizó/Completó",
+      "description": "Educational formation: Seminario de Especialización en Egiptología y Medio Oriente Antiguo",
+      "_sheet_name": "Formacion_Academica"
+    },
+    {
+      "id": "IMPL_01013",
+      "source": "PER_0001",
+      "target": "EDU_0014",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Realizó/Completó",
+      "description": "Educational formation: Curso Estatuto Administrativo",
+      "_sheet_name": "Formacion_Academica"
+    },
+    {
+      "id": "IMPL_01014",
+      "source": "PER_0001",
+      "target": "EDU_0015",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Realizó/Completó",
+      "description": "Educational formation: Patrimonio Cultural | Enfoque de Género | IDE Patrimonio",
+      "_sheet_name": "Formacion_Academica"
+    },
+    {
+      "id": "IMPL_01015",
+      "source": "PER_0001",
+      "target": "EDU_0016",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Realizó/Completó",
+      "description": "Educational formation: Prevención de Riesgos y Árbol de Causas",
+      "_sheet_name": "Formacion_Academica"
+    },
+    {
+      "id": "IMPL_01016",
+      "source": "PER_0001",
+      "target": "CAR_0001",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Desempeñó",
+      "description": "Position: Gestor de Proyectos Patrimoniales | Punto Focal ENPD | Investigador de Colecciones",
+      "_sheet_name": "Trayectoria_Laboral"
+    },
+    {
+      "id": "IMPL_01017",
+      "source": "PER_0001",
+      "target": "CAR_0002",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Desempeñó",
+      "description": "Position: Evaluador de Proyectos Culturales (FONDART)",
+      "_sheet_name": "Trayectoria_Laboral"
+    },
+    {
+      "id": "IMPL_01018",
+      "source": "PER_0001",
+      "target": "CAR_0003",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Desempeñó",
+      "description": "Position: Evaluador Externo (Arbitraje por pares ciego)",
+      "_sheet_name": "Trayectoria_Laboral"
+    },
+    {
+      "id": "IMPL_01019",
+      "source": "PER_0001",
+      "target": "CAR_0004",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Desempeñó",
+      "description": "Position: Profesor Universitario de Cátedra",
+      "_sheet_name": "Trayectoria_Laboral"
+    },
+    {
+      "id": "IMPL_01020",
+      "source": "PER_0001",
+      "target": "CAR_0005",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Desempeñó",
+      "description": "Position: Co-Editor y Gestor Editorial",
+      "_sheet_name": "Trayectoria_Laboral"
+    },
+    {
+      "id": "IMPL_01021",
+      "source": "PER_0001",
+      "target": "CAR_0006",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Desempeñó",
+      "description": "Position: Asistente Curatorial y de Exposiciones Temporales",
+      "_sheet_name": "Trayectoria_Laboral"
+    },
+    {
+      "id": "IMPL_01022",
+      "source": "PER_0001",
+      "target": "CAR_0007",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Desempeñó",
+      "description": "Position: Profesor de Estética y Diseño Múltiple",
+      "_sheet_name": "Trayectoria_Laboral"
+    },
+    {
+      "id": "IMPL_01023",
+      "source": "PER_0001",
+      "target": "CAR_0008",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Desempeñó",
+      "description": "Position: Asistente de Investigación en Archivística y Documentación",
+      "_sheet_name": "Trayectoria_Laboral"
+    },
+    {
+      "id": "IMPL_01024",
+      "source": "PER_0001",
+      "target": "CAR_0009",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Desempeñó",
+      "description": "Position: Asistente de Investigación y Catalogación",
+      "_sheet_name": "Trayectoria_Laboral"
+    },
+    {
+      "id": "IMPL_01025",
+      "source": "PER_0001",
+      "target": "CAR_0010",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Desempeñó",
+      "description": "Position: Investigador Independiente de Patrimonio",
+      "_sheet_name": "Trayectoria_Laboral"
+    },
+    {
+      "id": "IMPL_01026",
+      "source": "PER_0001",
+      "target": "CAR_0011",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Desempeñó",
+      "description": "Position: Ayudante de Cátedra de Pregrado",
+      "_sheet_name": "Trayectoria_Laboral"
     }
   ]
 }

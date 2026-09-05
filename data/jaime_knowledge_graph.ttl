@@ -1692,3 +1692,57 @@ jc:PER_0031 crm:P14i_performed jc:EXP_0013 .
 jc:PER_0022 crm:P14i_performed jc:EXP_0006 .
 
 jc:PER_0022 crm:P14i_performed jc:EXP_0007 .
+
+jc:PER_0001 crm:P14i_performed jc:EDU_0001 .
+
+jc:PER_0001 crm:P14i_performed jc:EDU_0002 .
+
+jc:PER_0001 crm:P14i_performed jc:EDU_0003 .
+
+jc:PER_0001 crm:P14i_performed jc:EDU_0004 .
+
+jc:PER_0001 crm:P14i_performed jc:EDU_0005 .
+
+jc:PER_0001 crm:P14i_performed jc:EDU_0006 .
+
+jc:PER_0001 crm:P14i_performed jc:EDU_0007 .
+
+jc:PER_0001 crm:P14i_performed jc:EDU_0008 .
+
+jc:PER_0001 crm:P14i_performed jc:EDU_0009 .
+
+jc:PER_0001 crm:P14i_performed jc:EDU_0010 .
+
+jc:PER_0001 crm:P14i_performed jc:EDU_0011 .
+
+jc:PER_0001 crm:P14i_performed jc:EDU_0012 .
+
+jc:PER_0001 crm:P14i_performed jc:EDU_0013 .
+
+jc:PER_0001 crm:P14i_performed jc:EDU_0014 .
+
+jc:PER_0001 crm:P14i_performed jc:EDU_0015 .
+
+jc:PER_0001 crm:P14i_performed jc:EDU_0016 .
+
+jc:PER_0001 crm:P14i_performed jc:CAR_0001 .
+
+jc:PER_0001 crm:P14i_performed jc:CAR_0002 .
+
+jc:PER_0001 crm:P14i_performed jc:CAR_0003 .
+
+jc:PER_0001 crm:P14i_performed jc:CAR_0004 .
+
+jc:PER_0001 crm:P14i_performed jc:CAR_0005 .
+
+jc:PER_0001 crm:P14i_performed jc:CAR_0006 .
+
+jc:PER_0001 crm:P14i_performed jc:CAR_0007 .
+
+jc:PER_0001 crm:P14i_performed jc:CAR_0008 .
+
+jc:PER_0001 crm:P14i_performed jc:CAR_0009 .
+
+jc:PER_0001 crm:P14i_performed jc:CAR_0010 .
+
+jc:PER_0001 crm:P14i_performed jc:CAR_0011 .

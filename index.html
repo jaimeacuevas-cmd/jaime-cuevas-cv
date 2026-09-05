@@ -527,8 +527,9 @@
             <div class="p-3 bg-stone-50 rounded-lg border border-stone-200 space-y-1.5 text-stone-700">
               <div class="flex justify-between"><span class="text-stone-400">Nacionalidad:</span> <strong>Española / Chilena</strong></div>
               <div class="flex justify-between"><span class="text-stone-400">ORCID:</span> <a href="https://orcid.org/0000-0002-2563-6676" target="_blank" class="text-green-700 font-mono underline">0000-0002-2563-6676</a></div>
-              <div class="flex justify-between"><span class="text-stone-400">Sede Principal:</span> <strong>Santiago CLP / Barcelona ESP</strong></div>
-              <div class="flex justify-between"><span class="text-stone-400">Polo de Especialización:</span> <strong>Universitat de Barcelona | Universidad Adolfo Ibáñez | Universidad de Chile</strong></div>
+              <div class="flex justify-between"><span class="text-stone-400">Sedes:</span> <strong id="fichaSedesPrincipal">–</strong></div>
+              <div class="flex justify-between"><span class="text-stone-400">Educación:</span> <strong id="fichaEducacion">–</strong></div>
+              <div class="flex justify-between"><span class="text-stone-400">Posición Actual:</span> <strong id="fichaPosicion">–</strong></div>
             </div>
 
             <!-- Contexto y Relevancia Principal -->
@@ -775,6 +776,7 @@
 
       // Initialize visualizations after data is ready
       if (fullGraphData && geoData) {
+        populateProfileFicha();
         initializeVisualization();
       }
     }
@@ -1707,6 +1709,63 @@
       updateGraphSimulation();
       if (selectedActiveNode) openInspector(selectedActiveNode);
     };
+
+    // POPULATE PROFILE FICHA FROM GRAPH DATA
+    function populateProfileFicha() {
+      if (!fullGraphData) return;
+
+      const JAIME_ID = 'PER_0001';
+
+      // Find Jaime node
+      const jaimenNode = fullGraphData.nodes.find(n => n.id === JAIME_ID);
+      if (!jaimenNode) return;
+
+      // Find all links from Jaime
+      const jaimenLinks = fullGraphData.links.filter(l => l.source === JAIME_ID);
+
+      // Extract education institutions (Education nodes)
+      const eduLinks = jaimenLinks.filter(l => {
+        const target = fullGraphData.nodes.find(n => n.id === l.target);
+        return target && target.type === 'Education';
+      });
+
+      const educationInstitutions = new Set();
+      eduLinks.forEach(link => {
+        const eduNode = fullGraphData.nodes.find(n => n.id === link.target);
+        if (eduNode && eduNode.institution) {
+          educationInstitutions.add(eduNode.institution.trim());
+        }
+      });
+
+      // Extract positions (Position nodes)
+      const posLinks = jaimenLinks.filter(l => {
+        const target = fullGraphData.nodes.find(n => n.id === l.target);
+        return target && target.type === 'Position';
+      });
+
+      const positions = [];
+      posLinks.forEach(link => {
+        const posNode = fullGraphData.nodes.find(n => n.id === link.target);
+        if (posNode) {
+          const orgInfo = posNode.organization ? posNode.organization.trim() : '';
+          const label = posNode.label ? posNode.label.trim() : '';
+          positions.push({ label, organization: orgInfo });
+        }
+      });
+
+      // Update ficha HTML
+      document.getElementById('fichaSedesPrincipal').textContent = 'Santiago CLP / Barcelona ESP';
+
+      if (educationInstitutions.size > 0) {
+        document.getElementById('fichaEducacion').textContent = Array.from(educationInstitutions).slice(0, 2).join(' | ');
+      }
+
+      if (positions.length > 0) {
+        // Show most recent positions (sorted by description/label)
+        const topPositions = positions.slice(0, 2);
+        document.getElementById('fichaPosicion').textContent = topPositions.map(p => p.label || p.organization).filter(x => x).join(' · ');
+      }
+    }
 
     // EXPORT LOD DATA
     function exportLODData() {
