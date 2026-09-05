@@ -4372,7 +4372,14 @@
       "row_number": 1,
       "funder": "FONDART Regional",
       "period": null,
-      "role": "Investigador Responsable"
+      "role": "Investigador Responsable",
+      "coordinates": [
+        -70.6506,
+        -33.4372
+      ],
+      "nodo_origen": "Santiago, Chile",
+      "escala_territorial": "Urbano",
+      "concepto_espacial": "Patrimonio arquitectónico | Microhistoria urbana"
     },
     {
       "id": "PRJ_0002",
@@ -4387,7 +4394,14 @@
       "row_number": 2,
       "funder": "ANID / FONDECYT Regular",
       "period": null,
-      "role": "Asistente de Investigación"
+      "role": "Asistente de Investigación",
+      "coordinates": [
+        -70.6439,
+        -33.4352
+      ],
+      "nodo_origen": "Italia",
+      "escala_territorial": "Transnacional",
+      "concepto_espacial": "Redes transatlánticas | Circulación de modelos"
     },
     {
       "id": "PRJ_0003",
@@ -4402,7 +4416,14 @@
       "row_number": 3,
       "funder": "Fundación TyPA / Wikimedia Argentina",
       "period": null,
-      "role": "Autor Galardonado (Ensayo El canon revisitado)"
+      "role": "Autor Galardonado (Ensayo El canon revisitado)",
+      "coordinates": [
+        -58.3816,
+        -34.6037
+      ],
+      "nodo_origen": "Buenos Aires, Argentina",
+      "escala_territorial": "Latinoamericano",
+      "concepto_espacial": "Pensamiento decolonial | Desjerarquización del museo"
     },
     {
       "id": "PRJ_0004",
@@ -4417,7 +4438,14 @@
       "row_number": 4,
       "funder": "ANID / FONDECYT Regular",
       "period": null,
-      "role": "Asistente de Investigación"
+      "role": "Asistente de Investigación",
+      "coordinates": [
+        -70.5516,
+        -33.4975
+      ],
+      "nodo_origen": "Santiago, Chile",
+      "escala_territorial": "Nacional",
+      "concepto_espacial": "Geografía del mercado del arte"
     },
     {
       "id": "PRJ_0005",
@@ -4432,7 +4460,14 @@
       "row_number": 5,
       "funder": "FAIP / SERPAT",
       "period": null,
-      "role": "Investigador Responsable"
+      "role": "Investigador Responsable",
+      "coordinates": [
+        -70.6439,
+        -33.4352
+      ],
+      "nodo_origen": "Santiago, Chile",
+      "escala_territorial": "Nacional",
+      "concepto_espacial": "Geografía del coleccionismo | Trazabilidad"
     },
     {
       "id": "PRJ_0006",
@@ -4447,7 +4482,14 @@
       "row_number": 6,
       "funder": "FAIP / DIBAM",
       "period": null,
-      "role": "Coinvestigador"
+      "role": "Coinvestigador",
+      "coordinates": [
+        -70.6439,
+        -33.4352
+      ],
+      "nodo_origen": "Santiago, Chile",
+      "escala_territorial": "Transnacional",
+      "concepto_espacial": "Agencia femenina | Circulación Sur-Sur"
     },
     {
       "id": "PRJ_0007",
@@ -4462,7 +4504,14 @@
       "row_number": 7,
       "funder": "Harvard University / Universidad Adolfo Ibáñez",
       "period": null,
-      "role": "Investigador Colaborador"
+      "role": "Investigador Colaborador",
+      "coordinates": [
+        -70.5516,
+        -33.4975
+      ],
+      "nodo_origen": "Cambridge (MA)",
+      "escala_territorial": "Internacional",
+      "concepto_espacial": "Redes intelectuales globales"
     },
     {
       "id": "PRJ_0008",
@@ -4477,7 +4526,14 @@
       "row_number": 8,
       "funder": "MNBA | CNCR | MHN | UAI | UPLA",
       "period": null,
-      "role": "Investigador y Equipo Coordinador"
+      "role": "Investigador y Equipo Coordinador",
+      "coordinates": [
+        -70.6439,
+        -33.4352
+      ],
+      "nodo_origen": "Santiago / Valparaíso, Chile",
+      "escala_territorial": "Continental",
+      "concepto_espacial": "Red transnacional | Matriz"
     },
     {
       "id": "PRJ_0008_N01",
@@ -4492,7 +4548,14 @@
       "row_number": 9,
       "funder": "Museo Provincial Franklin Rawson / U. de San Juan",
       "period": null,
-      "role": "Equipo Coordinador Transnacional"
+      "role": "Equipo Coordinador Transnacional",
+      "coordinates": [
+        -68.5364,
+        -31.5375
+      ],
+      "nodo_origen": "San Juan, Argentina",
+      "escala_territorial": "Continental",
+      "concepto_espacial": "Escuela Cuyana | Discipulaje"
     },
     {
       "id": "PRJ_0008_N02",
@@ -4507,7 +4570,14 @@
       "row_number": 10,
       "funder": "IIPC-TAREA, Universidad Nacional de San Martín",
       "period": null,
-      "role": "Equipo Coordinador Transnacional"
+      "role": "Equipo Coordinador Transnacional",
+      "coordinates": [
+        -58.5286,
+        -34.5796
+      ],
+      "nodo_origen": "Buenos Aires, Argentina",
+      "escala_territorial": "Continental",
+      "concepto_espacial": "Estudios materiales | Restauración"
     },
     {
       "id": "PRJ_0008_N03",
@@ -4522,7 +4592,14 @@
       "row_number": 11,
       "funder": "Museo de Arte de Lima (MALI)",
       "period": null,
-      "role": "Equipo Coordinador Transnacional"
+      "role": "Equipo Coordinador Transnacional",
+      "coordinates": [
+        -77.0369,
+        -12.0601
+      ],
+      "nodo_origen": "Lima, Perú",
+      "escala_territorial": "Continental",
+      "concepto_espacial": "Circulación de obras | Mercado"
     },
     {
       "id": "PRJ_0008_N04",
@@ -4537,7 +4614,14 @@
       "row_number": 12,
       "funder": "Pinacoteca do Estado de São Paulo",
       "period": null,
-      "role": "Equipo Coordinador Transnacional"
+      "role": "Equipo Coordinador Transnacional",
+      "coordinates": [
+        -46.6322,
+        -23.534
+      ],
+      "nodo_origen": "São Paulo, Brasil",
+      "escala_territorial": "Continental",
+      "concepto_espacial": "Circulación transatlántica | Coleccionismo imperial"
     },
     {
       "id": "PRJ_0009",
@@ -4552,7 +4636,14 @@
       "row_number": 13,
       "funder": "Consejo Nacional de la Cultura y las Artes (CNCA) / FONDART",
       "period": null,
-      "role": "Investigador Responsable"
+      "role": "Investigador Responsable",
+      "coordinates": [
+        -70.6823,
+        -33.4398
+      ],
+      "nodo_origen": "Santiago, Chile",
+      "escala_territorial": "Urbano",
+      "concepto_espacial": "Memoria social | Micropolítica urbana"
     },
     {
       "id": "PRJ_0010",
@@ -4567,7 +4658,14 @@
       "row_number": 14,
       "funder": "Fondo Valentín Letelier / Universidad de Chile",
       "period": null,
-      "role": "Responsable General"
+      "role": "Responsable General",
+      "coordinates": [
+        -70.682,
+        -33.4414
+      ],
+      "nodo_origen": "Santiago, Chile",
+      "escala_territorial": "Urbano",
+      "concepto_espacial": "Descentralización institucional | Plataforma emergente"
     },
     {
       "id": "PRJ_0011",
@@ -4582,7 +4680,14 @@
       "row_number": 15,
       "funder": "Ministerio de Educación y Formación Profesional (España)",
       "period": null,
-      "role": "Becario de Excelencia"
+      "role": "Becario de Excelencia",
+      "coordinates": [
+        2.1734,
+        41.3851
+      ],
+      "nodo_origen": "Barcelona, España",
+      "escala_territorial": "Transnacional",
+      "concepto_espacial": "Polo de conocimiento | Especialización digital"
     },
     {
       "id": "PRJ_0012",
@@ -4597,7 +4702,14 @@
       "row_number": 16,
       "funder": "Fondo de Desarrollo Institucional / Ministerio de Educación",
       "period": null,
-      "role": "Co-responsable"
+      "role": "Co-responsable",
+      "coordinates": [
+        -70.682,
+        -33.4414
+      ],
+      "nodo_origen": "Santiago, Chile",
+      "escala_territorial": "Nacional",
+      "concepto_espacial": "Democratización del arte | Plataforma educativa"
     },
     {
       "id": "PRJ_0013",
@@ -4612,7 +4724,14 @@
       "row_number": 17,
       "funder": "Ministerio de Educación, Cultura y Deporte (España)",
       "period": null,
-      "role": "Becario de Formación"
+      "role": "Becario de Formación",
+      "coordinates": [
+        -3.7038,
+        40.4168
+      ],
+      "nodo_origen": "Madrid, España",
+      "escala_territorial": "Internacional",
+      "concepto_espacial": "Gestión y movilidad internacional"
     },
     {
       "id": "PRJ_0014",
@@ -4627,7 +4746,14 @@
       "row_number": 18,
       "funder": "CORFO / Duoc UC",
       "period": null,
-      "role": "Becario de Idiomas"
+      "role": "Becario de Idiomas",
+      "coordinates": [
+        -70.65,
+        -33.444
+      ],
+      "nodo_origen": "Santiago, Chile",
+      "escala_territorial": "Nacional",
+      "concepto_espacial": "Perfeccionamiento idiomático"
     },
     {
       "id": "PRJ_0015",
@@ -4642,7 +4768,14 @@
       "row_number": 19,
       "funder": "Ministerio de Educación / Universidad de Chile",
       "period": null,
-      "role": "Becario de Excelencia Pregrado"
+      "role": "Becario de Excelencia Pregrado",
+      "coordinates": [
+        -70.682,
+        -33.4414
+      ],
+      "nodo_origen": "Santiago, Chile",
+      "escala_territorial": "Nacional",
+      "concepto_espacial": "Reconocimiento y mérito académico"
     },
     {
       "id": "PRJ_0016",
@@ -4657,7 +4790,14 @@
       "row_number": 20,
       "funder": "Consejo Nacional de la Cultura y las Artes (CNCA) / FONDART Nacional",
       "period": null,
-      "role": "Co-Editor | Gestor de Proyecto (Editora Principal: Montserrat Rojas Corradi)"
+      "role": "Co-Editor | Gestor de Proyecto (Editora Principal: Montserrat Rojas Corradi)",
+      "coordinates": [
+        -70.665,
+        -33.445
+      ],
+      "nodo_origen": "Santiago, Chile",
+      "escala_territorial": "Nacional | Latinoamericano",
+      "concepto_espacial": "Plataforma editorial | Fomento y circulación de la fotografía contemporánea"
     },
     {
       "id": "PRJ_0017",
@@ -4672,7 +4812,11 @@
       "row_number": 21,
       "funder": "Proyecto Colaborativo",
       "period": null,
-      "role": "Desarrolladora Digital | Investigadora"
+      "role": "Desarrolladora Digital | Investigadora",
+      "coordinates": null,
+      "nodo_origen": null,
+      "escala_territorial": null,
+      "concepto_espacial": null
     },
     {
       "id": "COM_0001",

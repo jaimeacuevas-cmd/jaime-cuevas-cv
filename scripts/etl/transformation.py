@@ -306,12 +306,28 @@ class DataTransformer:
         for idx, row in enumerate(rows):
             node = self._create_base_node('Project', row, idx)
 
+            # Extract geographic data if present
+            coords_str = row.get('coordenadas_origen', '').strip()
+            coordinates = None
+            if coords_str and coords_str not in ['[N/A]', 'N/A', '']:
+                try:
+                    parts = coords_str.split(',')
+                    if len(parts) == 2:
+                        lat, lon = float(parts[0]), float(parts[1])
+                        coordinates = [lon, lat]  # GeoJSON: [lon, lat]
+                except (ValueError, IndexError):
+                    coordinates = None
+
             node.update({
                 'label': row.get('nombre_proyecto_o_premio', '').strip(),
                 'funder': row.get('institucion_agencia_financiamiento', '').strip() or None,
                 'period': normalize_period(row.get('periodo')),
                 'role': row.get('rol_desempenado', '').strip() or None,
                 'description': row.get('descripcion', '').strip() or None,
+                'coordinates': coordinates,
+                'nodo_origen': row.get('nodo_origen', '').strip() or None,
+                'escala_territorial': row.get('escala_territorial', '').strip() or None,
+                'concepto_espacial': row.get('concepto_espacial', '').strip() or None,
                 '_sheet_name': 'Proyectos_y_Fondos',
             })
 

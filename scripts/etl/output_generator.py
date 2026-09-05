@@ -188,43 +188,64 @@ class OutputGenerator:
         features = []
         excluded_count = 0
         for node in nodes:
-            if node.get('type') != 'Location':
-                continue
-
+            node_type = node.get('type')
             coords = node.get('coordinates')
-            if not coords or len(coords) != 2:
-                continue
 
-            # Skip location if it's not reachable from Jaime
-            loc_id = node.get('id')
-            if reachable and loc_id not in reachable:
-                excluded_count += 1
-                continue
+            # Include Location nodes OR Project nodes with coordinates
+            if node_type == 'Location' or (node_type == 'Project' and coords):
+                if not coords or len(coords) != 2:
+                    continue
 
-            feature = {
-                'type': 'Feature',
-                'geometry': {
-                    'type': 'Point',
-                    'coordinates': coords,
-                },
-                'properties': {
-                    'id': node.get('id'),
-                    'name': node.get('label'),
-                    'type': 'Location',
-                    'city': node.get('city'),
-                    'country': node.get('country'),
-                    'wikidata': node.get('wikidata'),
-                    'description': node.get('description'),
-                    'why_relevant': node.get('why_relevant'),
-                    'micro_summary': node.get('micro_summary'),
-                    'is_core': node.get('is_core', False),
-                    'parent_org_id': node.get('parent_org_id'),
-                    'is_user_primary': node.get('is_user_primary', False),
-                    'precision_type': node.get('precision_type', 'exact'),
-                },
-            }
+                # Skip if not reachable from Jaime
+                node_id = node.get('id')
+                if reachable and node_id not in reachable:
+                    excluded_count += 1
+                    continue
 
-            features.append(feature)
+                # Build properties based on node type
+                if node_type == 'Location':
+                    properties = {
+                        'id': node.get('id'),
+                        'name': node.get('label'),
+                        'type': 'Location',
+                        'city': node.get('city'),
+                        'country': node.get('country'),
+                        'wikidata': node.get('wikidata'),
+                        'description': node.get('description'),
+                        'why_relevant': node.get('why_relevant'),
+                        'micro_summary': node.get('micro_summary'),
+                        'is_core': node.get('is_core', False),
+                        'parent_org_id': node.get('parent_org_id'),
+                        'is_user_primary': node.get('is_user_primary', False),
+                        'precision_type': node.get('precision_type', 'exact'),
+                    }
+                elif node_type == 'Project':
+                    # Project node: enrich with project-specific details
+                    period = node.get('period') or {}
+                    properties = {
+                        'id': node.get('id'),
+                        'name': node.get('label'),
+                        'type': 'Project',
+                        'funder': node.get('funder'),
+                        'role': node.get('role'),
+                        'description': node.get('description'),
+                        'nodo_origen': node.get('nodo_origen'),
+                        'escala_territorial': node.get('escala_territorial'),
+                        'concepto_espacial': node.get('concepto_espacial'),
+                        'period_start': period.get('start'),
+                        'period_end': period.get('end'),
+                    }
+
+                feature = {
+                    'type': 'Feature',
+                    'geometry': {
+                        'type': 'Point',
+                        'coordinates': coords,
+                    },
+                    'properties': properties,
+                }
+
+                features.append(feature)
 
         if excluded_count > 0:
             logger.info(f"  Excluded {excluded_count} locations not connected to Jaime's organizations")
