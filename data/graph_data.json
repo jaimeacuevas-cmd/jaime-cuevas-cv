@@ -2,11 +2,11 @@
   "metadata": {
     "version": "2.0",
     "source": "CV_Dataset_Maestro_Jaime_Cuevas.xlsx",
-    "node_count": 271,
-    "link_count": 215,
+    "node_count": 274,
+    "link_count": 265,
     "sheet_count": 12,
     "validation_status": "PASS",
-    "validation_warnings": 135
+    "validation_warnings": 142
   },
   "nodes": [
     {
@@ -38,6 +38,34 @@
       }
     },
     {
+      "id": "PER_0002",
+      "type": "Agent",
+      "label": "Gloria Cortés Aliaga",
+      "short_name": "Gloria Cortés",
+      "category": "Persona",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 2,
+      "nationality": "Chilena",
+      "role": "Investigadora | Editora",
+      "period": {
+        "start": 2010,
+        "end": null,
+        "display": "2010-presente"
+      },
+      "orcid": null,
+      "wikidata": null,
+      "urls": {
+        "main": null,
+        "scholar": null,
+        "github": null,
+        "linkedin": null,
+        "academia": null
+      }
+    },
+    {
       "id": "PER_0003",
       "type": "Agent",
       "label": "Marcela Drien Fábregas",
@@ -47,11 +75,11 @@
       "url": null,
       "is_core": false,
       "source_sheet": "",
-      "row_number": 2,
+      "row_number": 3,
       "nationality": "Chilena",
       "role": "Doctora en Historia del Arte | Directora Núcleo Historia del Arte UAI",
       "period": null,
-      "orcid": "0000-0002-0223-0276",
+      "orcid": "0000-0001-9386-7022",
       "wikidata": null,
       "urls": {
         "main": "https://uai.academia.edu/MarcelaDrien",
@@ -71,11 +99,11 @@
       "url": null,
       "is_core": false,
       "source_sheet": "",
-      "row_number": 3,
+      "row_number": 4,
       "nationality": "Chilena",
       "role": "Historiador del Arte | Co-curador | Co-editor",
       "period": null,
-      "orcid": "0000-0002-0239-0872",
+      "orcid": null,
       "wikidata": null,
       "urls": {
         "main": "https://uc-cl.academia.edu/ManuelAlvaradoCornejo",
@@ -95,7 +123,7 @@
       "url": null,
       "is_core": false,
       "source_sheet": "",
-      "row_number": 4,
+      "row_number": 5,
       "nationality": "Chilena",
       "role": "Historiadora del Arte | Co-autora Libro Catastro Afromestizos",
       "period": null,
@@ -119,11 +147,11 @@
       "url": null,
       "is_core": false,
       "source_sheet": "",
-      "row_number": 5,
+      "row_number": 6,
       "nationality": "Chilena",
       "role": "Doctora en Literatura | Investigadora Responsable Proyecto Harvard-UAI",
       "period": null,
-      "orcid": "0000-0001-0164-8842",
+      "orcid": "0000-0003-0378-6101",
       "wikidata": null,
       "urls": {
         "main": "https://artesliberales.uai.cl",
@@ -143,11 +171,11 @@
       "url": null,
       "is_core": false,
       "source_sheet": "",
-      "row_number": 6,
+      "row_number": 7,
       "nationality": "Italiana | Chilena",
       "role": "Doctora en Historia del Arte | Investigadora Responsable (IP) FONDECYT Regular 1241154 Mármoles y Bronces",
       "period": null,
-      "orcid": "0000-0002-0284-486X",
+      "orcid": null,
       "wikidata": null,
       "urls": {
         "main": "https://anid.cl",
@@ -167,7 +195,7 @@
       "url": null,
       "is_core": false,
       "source_sheet": "",
-      "row_number": 7,
+      "row_number": 8,
       "nationality": "Chilena",
       "role": "Curadora | Fundadora Museo del Mundo | Co-curadora Prácticas de Reiteración",
       "period": null,
@@ -191,7 +219,7 @@
       "url": null,
       "is_core": false,
       "source_sheet": "",
-      "row_number": 8,
+      "row_number": 9,
       "nationality": "Ecuatoriana | Española",
       "role": "Investigadora | Co-autora Proyecto Callejera Madrid",
       "period": null,
@@ -215,7 +243,7 @@
       "url": null,
       "is_core": false,
       "source_sheet": "",
-      "row_number": 9,
+      "row_number": 10,
       "nationality": "Chilena",
       "role": "Co-autora Catálogo Salón de Estudiantes 2013",
       "period": null,
@@ -239,7 +267,7 @@
       "url": null,
       "is_core": false,
       "source_sheet": "",
-      "row_number": 10,
+      "row_number": 11,
       "nationality": "Chilena",
       "role": "Curadora de Fotografía | Directora Proyecto Rodrigo Rojas De Negri | Editora Principal S/T Revista",
       "period": null,
@@ -263,7 +291,7 @@
       "url": null,
       "is_core": false,
       "source_sheet": "",
-      "row_number": 11,
+      "row_number": 12,
       "nationality": "Chilena",
       "role": "Artista Visual | Directora Museo de Arte Popular Americano (MAPA)",
       "period": null,
@@ -287,11 +315,11 @@
       "url": null,
       "is_core": false,
       "source_sheet": "",
-      "row_number": 12,
+      "row_number": 13,
       "nationality": "Chilena",
       "role": "Doctor en Historia del Arte | Académico Senior UAI",
       "period": null,
-      "orcid": "0000-0002-0218-5061",
+      "orcid": null,
       "wikidata": null,
       "urls": {
         "main": "https://uai.cl",
@@ -311,11 +339,11 @@
       "url": null,
       "is_core": false,
       "source_sheet": "",
-      "row_number": 13,
+      "row_number": 14,
       "nationality": "Chilena",
       "role": "Historiadora | Docente e Investigadora UAI",
       "period": null,
-      "orcid": null,
+      "orcid": "0000-0002-3548-9331",
       "wikidata": null,
       "urls": {
         "main": "https://uai.cl",
@@ -335,7 +363,7 @@
       "url": null,
       "is_core": false,
       "source_sheet": "",
-      "row_number": 14,
+      "row_number": 15,
       "nationality": "Francesa",
       "role": "Pintor del Siglo XIX | Eje Central Proyecto Quinsac y Episodio Monvoisin",
       "period": {
@@ -363,7 +391,7 @@
       "url": null,
       "is_core": false,
       "source_sheet": "",
-      "row_number": 15,
+      "row_number": 16,
       "nationality": "Francesa",
       "role": "Pintora del Siglo XIX | Taller Monvoisin",
       "period": {
@@ -391,7 +419,7 @@
       "url": null,
       "is_core": false,
       "source_sheet": "",
-      "row_number": 16,
+      "row_number": 17,
       "nationality": "Argentina",
       "role": "Pintora del Siglo XIX | Discípula Monvoisin (San Juan, Argentina)",
       "period": {
@@ -419,7 +447,7 @@
       "url": null,
       "is_core": false,
       "source_sheet": "",
-      "row_number": 17,
+      "row_number": 18,
       "nationality": "Chilena",
       "role": "Pintor del Siglo XIX | Discípulo Monvoisin (Chile)",
       "period": {
@@ -447,7 +475,7 @@
       "url": null,
       "is_core": false,
       "source_sheet": "",
-      "row_number": 18,
+      "row_number": 19,
       "nationality": "Chilena",
       "role": "Pintor del Siglo XIX | Discípulo Monvoisin (Chile)",
       "period": {
@@ -475,7 +503,7 @@
       "url": null,
       "is_core": false,
       "source_sheet": "",
-      "row_number": 19,
+      "row_number": 20,
       "nationality": "Chilena",
       "role": "Pintor | Grabador | Director MNBA | Monumentos Nacionales Murales",
       "period": {
@@ -503,7 +531,7 @@
       "url": null,
       "is_core": false,
       "source_sheet": "",
-      "row_number": 20,
+      "row_number": 21,
       "nationality": "Chilena",
       "role": "Artista Visual (Arpilleras/Pintura) | Folclorista",
       "period": {
@@ -531,7 +559,7 @@
       "url": null,
       "is_core": false,
       "source_sheet": "",
-      "row_number": 21,
+      "row_number": 22,
       "nationality": "Chilena",
       "role": "Fotógrafo | Sujeto de Investigación y Archivo Fotográfico",
       "period": {
@@ -559,7 +587,7 @@
       "url": null,
       "is_core": false,
       "source_sheet": "",
-      "row_number": 22,
+      "row_number": 23,
       "nationality": "Uruguaya | Estadounidense",
       "role": "Artista Conceptual | Sujeto de Exposición Antología MAC",
       "period": {
@@ -587,7 +615,7 @@
       "url": null,
       "is_core": false,
       "source_sheet": "",
-      "row_number": 23,
+      "row_number": 24,
       "nationality": "Chilena",
       "role": "Pintor del Siglo XIX | Fundador Sociedad Nacional de Bellas Artes",
       "period": {
@@ -615,7 +643,7 @@
       "url": null,
       "is_core": false,
       "source_sheet": "",
-      "row_number": 24,
+      "row_number": 25,
       "nationality": "Italiana | Chilena",
       "role": "Pintor | Primer Director Academia de Pintura de Chile",
       "period": {
@@ -643,7 +671,7 @@
       "url": null,
       "is_core": false,
       "source_sheet": "",
-      "row_number": 25,
+      "row_number": 26,
       "nationality": "Alemana | Chilena",
       "role": "Pintor | Adquisiciones SNBA",
       "period": {
@@ -671,7 +699,7 @@
       "url": null,
       "is_core": false,
       "source_sheet": "",
-      "row_number": 26,
+      "row_number": 27,
       "nationality": "Chilena",
       "role": "Pintor | Presidente SNBA",
       "period": {
@@ -699,7 +727,7 @@
       "url": null,
       "is_core": false,
       "source_sheet": "",
-      "row_number": 27,
+      "row_number": 28,
       "nationality": "Chilena",
       "role": "Escultor | Director Escuela de Bellas Artes",
       "period": {
@@ -727,7 +755,7 @@
       "url": null,
       "is_core": false,
       "source_sheet": "",
-      "row_number": 28,
+      "row_number": 29,
       "nationality": "Chilena",
       "role": "Pintor | Adquisiciones SNBA",
       "period": {
@@ -755,7 +783,7 @@
       "url": null,
       "is_core": false,
       "source_sheet": "",
-      "row_number": 29,
+      "row_number": 30,
       "nationality": "Italiana | Chilena",
       "role": "Pintor | Adquisiciones SNBA",
       "period": {
@@ -783,7 +811,7 @@
       "url": null,
       "is_core": false,
       "source_sheet": "",
-      "row_number": 30,
+      "row_number": 31,
       "nationality": "Chilena",
       "role": "Artista Visual Contemporáneo | Prácticas de Reiteración",
       "period": null,
@@ -807,7 +835,7 @@
       "url": null,
       "is_core": false,
       "source_sheet": "",
-      "row_number": 31,
+      "row_number": 32,
       "nationality": "Española",
       "role": "Artista Visual | Museo del Mundo",
       "period": null,
@@ -831,7 +859,7 @@
       "url": null,
       "is_core": false,
       "source_sheet": "",
-      "row_number": 32,
+      "row_number": 33,
       "nationality": "Chilena",
       "role": "Artista Visual Contemporáneo | Colección CCU",
       "period": {
@@ -859,7 +887,7 @@
       "url": null,
       "is_core": false,
       "source_sheet": "",
-      "row_number": 33,
+      "row_number": 34,
       "nationality": "Chilena",
       "role": "Artista Visual | Premio Nacional de Artes Plásticas 2013",
       "period": {
@@ -887,7 +915,7 @@
       "url": null,
       "is_core": false,
       "source_sheet": "",
-      "row_number": 34,
+      "row_number": 35,
       "nationality": "Chilena",
       "role": "Artista Visual Contemporánea | Pabellón Bienal de Venecia 2019",
       "period": {
@@ -915,7 +943,7 @@
       "url": null,
       "is_core": false,
       "source_sheet": "",
-      "row_number": 35,
+      "row_number": 36,
       "nationality": "Chilena",
       "role": "Pintora | Exposición Violeta y sus contemporáneas",
       "period": {
@@ -943,7 +971,7 @@
       "url": null,
       "is_core": false,
       "source_sheet": "",
-      "row_number": 36,
+      "row_number": 37,
       "nationality": "Chilena",
       "role": "Pintora | Exposición Violeta y sus contemporáneas",
       "period": {
@@ -971,7 +999,7 @@
       "url": null,
       "is_core": false,
       "source_sheet": "",
-      "row_number": 37,
+      "row_number": 38,
       "nationality": "Chilena",
       "role": "Escultora | Pintora | Educadora de Museos",
       "period": {
@@ -999,7 +1027,7 @@
       "url": null,
       "is_core": false,
       "source_sheet": "",
-      "row_number": 38,
+      "row_number": 39,
       "nationality": "Chilena",
       "role": "Pintora | Grupo Montparnasse",
       "period": {
@@ -1027,7 +1055,7 @@
       "url": null,
       "is_core": false,
       "source_sheet": "",
-      "row_number": 39,
+      "row_number": 40,
       "nationality": "Chilena | Mapuche",
       "role": "Artista Visual | Sujeto de Exposición Laboratorio Arte y Crisis M100",
       "period": {
@@ -1055,7 +1083,7 @@
       "url": null,
       "is_core": false,
       "source_sheet": "",
-      "row_number": 40,
+      "row_number": 41,
       "nationality": "Chilena",
       "role": "Artista Visual | Académica UMCE | Sujeto de Exposición Laboratorio Arte y Crisis M100",
       "period": {
@@ -1083,7 +1111,7 @@
       "url": null,
       "is_core": false,
       "source_sheet": "",
-      "row_number": 41,
+      "row_number": 42,
       "nationality": "Chilena",
       "role": "Artista Visual | Sujeto de Exposición Laboratorio Arte y Crisis M100",
       "period": {
@@ -1111,7 +1139,7 @@
       "url": null,
       "is_core": false,
       "source_sheet": "",
-      "row_number": 42,
+      "row_number": 43,
       "nationality": "Chilena",
       "role": "Artista Visual | Académico UCT | Sujeto de Exposición Laboratorio Arte y Crisis M100",
       "period": null,
@@ -4226,6 +4254,21 @@
       "role": "Curador Principal | Investigador"
     },
     {
+      "id": "EXP_0014",
+      "type": "Exhibition",
+      "label": "Desacatos: Serie de obras de Laura Rodig",
+      "short_name": null,
+      "category": null,
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 30,
+      "location": null,
+      "period": null,
+      "role": "Artista Featured"
+    },
+    {
       "id": "PRJ_0001",
       "type": "Project",
       "label": "Arquitectura Art Déco en Santiago centro (Folio 826072)",
@@ -4524,6 +4567,21 @@
       "funder": "Consejo Nacional de la Cultura y las Artes (CNCA) / FONDART Nacional",
       "period": null,
       "role": "Co-Editor | Gestor de Proyecto (Editora Principal: Montserrat Rojas Corradi)"
+    },
+    {
+      "id": "PRJ_0017",
+      "type": "Project",
+      "label": "Callejera Madrid: Desarrollo digital y curación web",
+      "short_name": null,
+      "category": null,
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 21,
+      "funder": "Proyecto Colaborativo",
+      "period": null,
+      "role": "Desarrolladora Digital | Investigadora"
     },
     {
       "id": "COM_0001",
@@ -6794,55 +6852,505 @@
     },
     {
       "id": "REL_0171",
-      "source": "PER_0015",
-      "target": "crm:P129_subject_of",
-      "predicate": "PUB_0014",
-      "year": 2024,
+      "source": "PER_0002",
+      "target": "PUB_0001",
+      "predicate": "crm:P14i_performed",
+      "year": 2023,
       "description": null,
       "_sheet_name": "Relaciones_Grafo_LOD"
     },
     {
       "id": "REL_0172",
-      "source": "PER_0023",
-      "target": "crm:P14i_performed",
-      "predicate": "EXP_0009",
-      "year": 2024,
+      "source": "PER_0002",
+      "target": "PRJ_0008",
+      "predicate": "crm:P14i_performed",
+      "year": "2017-2025",
       "description": null,
       "_sheet_name": "Relaciones_Grafo_LOD"
     },
     {
       "id": "REL_0173",
-      "source": "PER_0031",
-      "target": "crm:P14i_performed",
-      "predicate": "EXP_0013",
-      "year": 2024,
+      "source": "PER_0006",
+      "target": "PRJ_0007",
+      "predicate": "crm:P14i_performed",
+      "year": "2015-2020",
       "description": null,
       "_sheet_name": "Relaciones_Grafo_LOD"
     },
     {
       "id": "REL_0174",
-      "source": "PER_0003",
-      "target": "crm:P14i_performed",
-      "predicate": "PRJ_0005",
-      "year": 2024,
+      "source": "PER_0014",
+      "target": "PRJ_0001",
+      "predicate": "crm:P14i_performed",
+      "year": "2018-2024",
       "description": null,
       "_sheet_name": "Relaciones_Grafo_LOD"
     },
     {
       "id": "REL_0175",
-      "source": "PER_0003",
-      "target": "crm:P14i_performed",
-      "predicate": "PRJ_0008",
-      "year": 2024,
+      "source": "PER_0001",
+      "target": "PER_0013",
+      "predicate": "crm:P14i_performed",
+      "year": "2005-2010",
       "description": null,
       "_sheet_name": "Relaciones_Grafo_LOD"
     },
     {
       "id": "REL_0176",
-      "source": "PER_0003",
-      "target": "crm:P14i_performed",
-      "predicate": "PRJ_0004",
-      "year": 2024,
+      "source": "PER_0001",
+      "target": "PER_0003",
+      "predicate": "crm:P14i_performed",
+      "year": "2005-2010",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0177",
+      "source": "PER_0001",
+      "target": "PER_0014",
+      "predicate": "crm:P14i_performed",
+      "year": "2005-2010",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0178",
+      "source": "PER_0001",
+      "target": "ORG_0031",
+      "predicate": "crm:P14i_performed",
+      "year": 2016,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0179",
+      "source": "PER_0001",
+      "target": "ORG_0017",
+      "predicate": "crm:P14i_performed",
+      "year": 2022,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0180",
+      "source": "PER_0001",
+      "target": "EXP_0005",
+      "predicate": "crm:P14i_performed",
+      "year": 2020,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0181",
+      "source": "PER_0006",
+      "target": "ORG_0015",
+      "predicate": "crm:P14i_performed",
+      "year": "2015-2017",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0182",
+      "source": "PER_0038",
+      "target": "EXP_0014",
+      "predicate": "crm:P14i_performed",
+      "year": 2018,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0183",
+      "source": "PER_0009",
+      "target": "PRJ_0017",
+      "predicate": "crm:P14i_performed",
+      "year": "2019-2020",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0184",
+      "source": "PER_0001",
+      "target": "PRJ_0017",
+      "predicate": "crm:P14i_performed",
+      "year": "2019-2020",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0185",
+      "source": "PER_0015",
+      "target": "PUB_0001",
+      "predicate": "crm:P129_subject_of",
+      "year": 2023,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0186",
+      "source": "PER_0015",
+      "target": "PUB_0010",
+      "predicate": "crm:P129_subject_of",
+      "year": 2023,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0187",
+      "source": "PER_0015",
+      "target": "PUB_0014",
+      "predicate": "crm:P129_subject_of",
+      "year": 2023,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0188",
+      "source": "PER_0016",
+      "target": "PUB_0011",
+      "predicate": "crm:P129_subject_of",
+      "year": 2023,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0189",
+      "source": "PER_0016",
+      "target": "PUB_0015",
+      "predicate": "crm:P129_subject_of",
+      "year": 2023,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0190",
+      "source": "PER_0017",
+      "target": "PUB_0015",
+      "predicate": "crm:P129_subject_of",
+      "year": 2023,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0191",
+      "source": "PER_0025",
+      "target": "PUB_0016",
+      "predicate": "crm:P129_subject_of",
+      "year": 2023,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0192",
+      "source": "PER_0033",
+      "target": "EXP_0005",
+      "predicate": "crm:P14i_performed",
+      "year": 2020,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0193",
+      "source": "PER_0034",
+      "target": "EXP_0005",
+      "predicate": "crm:P14i_performed",
+      "year": 2020,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0194",
+      "source": "PER_0035",
+      "target": "EXP_0005",
+      "predicate": "crm:P14i_performed",
+      "year": 2020,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0195",
+      "source": "PER_0033",
+      "target": "PUB_0006",
+      "predicate": "crm:P129_subject_of",
+      "year": 2023,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0196",
+      "source": "PER_0034",
+      "target": "PUB_0006",
+      "predicate": "crm:P129_subject_of",
+      "year": 2023,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0197",
+      "source": "PER_0035",
+      "target": "PUB_0006",
+      "predicate": "crm:P129_subject_of",
+      "year": 2023,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0198",
+      "source": "PER_0015",
+      "target": "EXP_0001",
+      "predicate": "crm:P14i_performed",
+      "year": 2025,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0199",
+      "source": "PER_0016",
+      "target": "EXP_0001",
+      "predicate": "crm:P14i_performed",
+      "year": 2025,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0200",
+      "source": "PER_0017",
+      "target": "EXP_0001",
+      "predicate": "crm:P14i_performed",
+      "year": 2025,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0201",
+      "source": "PER_0018",
+      "target": "EXP_0001",
+      "predicate": "crm:P14i_performed",
+      "year": 2025,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0202",
+      "source": "PER_0019",
+      "target": "EXP_0001",
+      "predicate": "crm:P14i_performed",
+      "year": 2025,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0203",
+      "source": "PER_0015",
+      "target": "PRJ_0008",
+      "predicate": "crm:P14i_performed",
+      "year": "2017-2025",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0204",
+      "source": "PER_0016",
+      "target": "PRJ_0006",
+      "predicate": "crm:P14i_performed",
+      "year": 2023,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0205",
+      "source": "PER_0017",
+      "target": "PRJ_0006",
+      "predicate": "crm:P14i_performed",
+      "year": 2023,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0206",
+      "source": "PER_0005",
+      "target": "PUB_0002",
+      "predicate": "crm:P14i_performed",
+      "year": 2019,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0207",
+      "source": "PER_0010",
+      "target": "PUB_0007",
+      "predicate": "crm:P14i_performed",
+      "year": 2013,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0208",
+      "source": "PER_0032",
+      "target": "EXP_0002",
+      "predicate": "crm:P14i_performed",
+      "year": 2015,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0209",
+      "source": "PER_0043",
+      "target": "EXP_0012",
+      "predicate": "crm:P14i_performed",
+      "year": 2018,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0210",
+      "source": "PER_0026",
+      "target": "EXP_0003",
+      "predicate": "crm:P14i_performed",
+      "year": 2023,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0211",
+      "source": "PER_0027",
+      "target": "EXP_0003",
+      "predicate": "crm:P14i_performed",
+      "year": 2023,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0212",
+      "source": "PER_0028",
+      "target": "EXP_0003",
+      "predicate": "crm:P14i_performed",
+      "year": 2023,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0213",
+      "source": "PER_0029",
+      "target": "EXP_0003",
+      "predicate": "crm:P14i_performed",
+      "year": 2023,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0214",
+      "source": "PER_0030",
+      "target": "EXP_0003",
+      "predicate": "crm:P14i_performed",
+      "year": 2023,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0215",
+      "source": "PER_0021",
+      "target": "EXP_0010",
+      "predicate": "crm:P14i_performed",
+      "year": 2023,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0216",
+      "source": "PER_0036",
+      "target": "EXP_0010",
+      "predicate": "crm:P14i_performed",
+      "year": 2023,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0217",
+      "source": "PER_0037",
+      "target": "EXP_0010",
+      "predicate": "crm:P14i_performed",
+      "year": 2023,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0218",
+      "source": "PER_0038",
+      "target": "EXP_0010",
+      "predicate": "crm:P14i_performed",
+      "year": 2023,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0219",
+      "source": "PER_0039",
+      "target": "EXP_0010",
+      "predicate": "crm:P14i_performed",
+      "year": 2023,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0220",
+      "source": "PER_0020",
+      "target": "EXP_0011_01",
+      "predicate": "crm:P14i_performed",
+      "year": 2023,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0221",
+      "source": "PER_0020",
+      "target": "EXP_0011_02",
+      "predicate": "crm:P14i_performed",
+      "year": 2023,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0222",
+      "source": "PER_0020",
+      "target": "EXP_0011_03",
+      "predicate": "crm:P14i_performed",
+      "year": 2023,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0223",
+      "source": "PER_0023",
+      "target": "EXP_0009",
+      "predicate": "crm:P14i_performed",
+      "year": 2020,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0224",
+      "source": "PER_0031",
+      "target": "EXP_0013",
+      "predicate": "crm:P14i_performed",
+      "year": 2022,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0225",
+      "source": "PER_0022",
+      "target": "EXP_0006",
+      "predicate": "crm:P14i_performed",
+      "year": 2013,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0226",
+      "source": "PER_0022",
+      "target": "EXP_0007",
+      "predicate": "crm:P14i_performed",
+      "year": 2014,
       "description": null,
       "_sheet_name": "Relaciones_Grafo_LOD"
     }

@@ -813,6 +813,37 @@
       'Location': 290
     };
 
+    // Global state variables - INITIALIZATION
+    let geoData = null;
+    let svg, g, simulation;
+    let nodeSelection, linkSelection;
+    let currentMode = 'interactive';
+    let currentSubtab = 'graph';
+    let currentLayout = 'force';
+    let isIsolatedMode = false;
+    let isExpandedAll = false;
+    let selectedActiveNode = null;
+    let expandedNodeIds = new Set();
+    let activeNodes = [];
+    let activeLinks = [];
+    let semanticPath = [];
+    let leafletMap = null;
+
+    const categoryColors = {
+      'Agent': '#f59e0b',
+      'Position': '#8b5cf6',
+      'Organization': '#10b981',
+      'Project': '#06b6d4',
+      'Exhibition': '#ec4899',
+      'Publication': '#3b82f6',
+      'Education': '#f97316',
+      'DigitalHeritage': '#06b6d4',
+      'Concept': '#6366f1',
+      'Location': '#6b7280'
+    };
+
+    const hiddenNodeTypes = new Set();
+
     // MAIN MODE SWITCHER
     function switchMainMode(mode) {
       currentMode = mode;

@@ -17,14 +17,17 @@ jc:PER_0001 a crm:E21_Person ;
     schema:url <https://scholar.google.com/citations?user=M_10CSUAAAAJ&hl=es> ;
     schema:nationality "Española | Chilena" .
 
+jc:PER_0002 a crm:E21_Person ;
+    rdfs:label "Gloria Cortés Aliaga" ;
+    schema:nationality "Chilena" .
+
 jc:PER_0003 a crm:E21_Person ;
     rdfs:label "Marcela Drien Fábregas" ;
-    skos:exactMatch <https://orcid.org/0000-0002-0223-0276> ;
+    skos:exactMatch <https://orcid.org/0000-0001-9386-7022> ;
     schema:nationality "Chilena" .
 
 jc:PER_0004 a crm:E21_Person ;
     rdfs:label "Manuel Alvarado Cornejo" ;
-    skos:exactMatch <https://orcid.org/0000-0002-0239-0872> ;
     schema:nationality "Chilena" .
 
 jc:PER_0005 a crm:E21_Person ;
@@ -33,12 +36,11 @@ jc:PER_0005 a crm:E21_Person ;
 
 jc:PER_0006 a crm:E21_Person ;
     rdfs:label "Antonia Viu" ;
-    skos:exactMatch <https://orcid.org/0000-0001-0164-8842> ;
+    skos:exactMatch <https://orcid.org/0000-0003-0378-6101> ;
     schema:nationality "Chilena" .
 
 jc:PER_0007 a crm:E21_Person ;
     rdfs:label "Noemí Cinelli" ;
-    skos:exactMatch <https://orcid.org/0000-0002-0284-486X> ;
     schema:nationality "Italiana | Chilena" .
 
 jc:PER_0008 a crm:E21_Person ;
@@ -63,11 +65,11 @@ jc:PER_0012 a crm:E21_Person ;
 
 jc:PER_0013 a crm:E21_Person ;
     rdfs:label "Fernando Guzmán Schiappacasse" ;
-    skos:exactMatch <https://orcid.org/0000-0002-0218-5061> ;
     schema:nationality "Chilena" .
 
 jc:PER_0014 a crm:E21_Person ;
     rdfs:label "Katherine Vyhmeister" ;
+    skos:exactMatch <https://orcid.org/0000-0002-3548-9331> ;
     schema:nationality "Chilena" .
 
 jc:PER_0015 a crm:E21_Person ;
@@ -996,6 +998,9 @@ jc:EXP_0012 a crm:E7_Activity ;
 jc:EXP_0013 a crm:E7_Activity ;
     rdfs:label "Sonata: Exposición Individual de Wladymir Bernechea" .
 
+jc:EXP_0014 a crm:E7_Activity ;
+    rdfs:label "Desacatos: Serie de obras de Laura Rodig" .
+
 jc:PRJ_0001 a crm:E7_Activity ;
     rdfs:label "Arquitectura Art Déco en Santiago centro (Folio 826072)" .
 
@@ -1055,6 +1060,9 @@ jc:PRJ_0015 a crm:E7_Activity ;
 
 jc:PRJ_0016 a crm:E7_Activity ;
     rdfs:label "S/T Revista de Fotografía Contemporánea (FONDART Nacional Folio 89451)" .
+
+jc:PRJ_0017 a crm:E7_Activity ;
+    rdfs:label "Callejera Madrid: Desarrollo digital y curación web" .
 
 jc:COM_0001 a crm:E7_Activity ;
     rdfs:label "Exposición Episodio Monvoisin. Un pintor francés en el Chile del siglo XIX" .
@@ -1573,14 +1581,114 @@ jc:PER_0011 EXP_0007 jc:crm:P11_had_participant .
 
 jc:PER_0011 EXP_0009 jc:crm:P11_had_participant .
 
-jc:PER_0015 PUB_0014 jc:crm:P129_subject_of .
+jc:PER_0002 crm:P14i_performed jc:PUB_0001 .
 
-jc:PER_0023 EXP_0009 jc:crm:P14i_performed .
+jc:PER_0002 crm:P14i_performed jc:PRJ_0008 .
 
-jc:PER_0031 EXP_0013 jc:crm:P14i_performed .
+jc:PER_0006 crm:P14i_performed jc:PRJ_0007 .
 
-jc:PER_0003 PRJ_0005 jc:crm:P14i_performed .
+jc:PER_0014 crm:P14i_performed jc:PRJ_0001 .
 
-jc:PER_0003 PRJ_0008 jc:crm:P14i_performed .
+jc:PER_0001 crm:P14i_performed jc:PER_0013 .
 
-jc:PER_0003 PRJ_0004 jc:crm:P14i_performed .
+jc:PER_0001 crm:P14i_performed jc:PER_0003 .
+
+jc:PER_0001 crm:P14i_performed jc:PER_0014 .
+
+jc:PER_0001 crm:P14i_performed jc:ORG_0031 .
+
+jc:PER_0001 crm:P14i_performed jc:ORG_0017 .
+
+jc:PER_0001 crm:P14i_performed jc:EXP_0005 .
+
+jc:PER_0006 crm:P14i_performed jc:ORG_0015 .
+
+jc:PER_0038 crm:P14i_performed jc:EXP_0014 .
+
+jc:PER_0009 crm:P14i_performed jc:PRJ_0017 .
+
+jc:PER_0001 crm:P14i_performed jc:PRJ_0017 .
+
+jc:PER_0015 crm:P129_subject_of jc:PUB_0001 .
+
+jc:PER_0015 crm:P129_subject_of jc:PUB_0010 .
+
+jc:PER_0015 crm:P129_subject_of jc:PUB_0014 .
+
+jc:PER_0016 crm:P129_subject_of jc:PUB_0011 .
+
+jc:PER_0016 crm:P129_subject_of jc:PUB_0015 .
+
+jc:PER_0017 crm:P129_subject_of jc:PUB_0015 .
+
+jc:PER_0025 crm:P129_subject_of jc:PUB_0016 .
+
+jc:PER_0033 crm:P14i_performed jc:EXP_0005 .
+
+jc:PER_0034 crm:P14i_performed jc:EXP_0005 .
+
+jc:PER_0035 crm:P14i_performed jc:EXP_0005 .
+
+jc:PER_0033 crm:P129_subject_of jc:PUB_0006 .
+
+jc:PER_0034 crm:P129_subject_of jc:PUB_0006 .
+
+jc:PER_0035 crm:P129_subject_of jc:PUB_0006 .
+
+jc:PER_0015 crm:P14i_performed jc:EXP_0001 .
+
+jc:PER_0016 crm:P14i_performed jc:EXP_0001 .
+
+jc:PER_0017 crm:P14i_performed jc:EXP_0001 .
+
+jc:PER_0018 crm:P14i_performed jc:EXP_0001 .
+
+jc:PER_0019 crm:P14i_performed jc:EXP_0001 .
+
+jc:PER_0015 crm:P14i_performed jc:PRJ_0008 .
+
+jc:PER_0016 crm:P14i_performed jc:PRJ_0006 .
+
+jc:PER_0017 crm:P14i_performed jc:PRJ_0006 .
+
+jc:PER_0005 crm:P14i_performed jc:PUB_0002 .
+
+jc:PER_0010 crm:P14i_performed jc:PUB_0007 .
+
+jc:PER_0032 crm:P14i_performed jc:EXP_0002 .
+
+jc:PER_0043 crm:P14i_performed jc:EXP_0012 .
+
+jc:PER_0026 crm:P14i_performed jc:EXP_0003 .
+
+jc:PER_0027 crm:P14i_performed jc:EXP_0003 .
+
+jc:PER_0028 crm:P14i_performed jc:EXP_0003 .
+
+jc:PER_0029 crm:P14i_performed jc:EXP_0003 .
+
+jc:PER_0030 crm:P14i_performed jc:EXP_0003 .
+
+jc:PER_0021 crm:P14i_performed jc:EXP_0010 .
+
+jc:PER_0036 crm:P14i_performed jc:EXP_0010 .
+
+jc:PER_0037 crm:P14i_performed jc:EXP_0010 .
+
+jc:PER_0038 crm:P14i_performed jc:EXP_0010 .
+
+jc:PER_0039 crm:P14i_performed jc:EXP_0010 .
+
+jc:PER_0020 crm:P14i_performed jc:EXP_0011_01 .
+
+jc:PER_0020 crm:P14i_performed jc:EXP_0011_02 .
+
+jc:PER_0020 crm:P14i_performed jc:EXP_0011_03 .
+
+jc:PER_0023 crm:P14i_performed jc:EXP_0009 .
+
+jc:PER_0031 crm:P14i_performed jc:EXP_0013 .
+
+jc:PER_0022 crm:P14i_performed jc:EXP_0006 .
+
+jc:PER_0022 crm:P14i_performed jc:EXP_0007 .
