@@ -803,6 +803,12 @@
 
       // Initialize visualizations after data is ready
       if (fullGraphData && geoData) {
+        // Ensure all nodes have pinned flag initialized
+        fullGraphData.nodes.forEach(node => {
+          if (!('pinned' in node)) {
+            node.pinned = false;
+          }
+        });
         populateProfileFicha();
         initializeVisualization();
       }
@@ -934,9 +940,12 @@
       simulation = d3.forceSimulation()
         .force('link', d3.forceLink().id(d => d.id).distance(d => d.source.id === 'PER_0001' ? 120 : 80))
         .force('charge', d3.forceManyBody().strength(-120))
-        .force('collision', d3.forceCollide().radius(d => d.type === 'Location' ? 25 : 35))
-        .force('center', d3.forceCenter(width / 2, height / 2))
-        .force('collision', d3.forceCollide().radius(d => d.id === 'PER_0001' ? 45 : 24));
+        .force('collision', d3.forceCollide().radius(d => {
+          if (d.id === 'PER_0001') return 45;
+          if (d.type === 'Location') return 25;
+          return 35;
+        }))
+        .force('center', d3.forceCenter(width / 2, height / 2));
 
       // Append layers
       g.append('g').attr('class', 'links-layer');
