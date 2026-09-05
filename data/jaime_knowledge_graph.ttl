@@ -1775,6 +1775,90 @@ jc:EXP_0001_M13 crm:P7_took_place_at jc:LOC_0058 .
 
 jc:LOC_0058 rdfs:seeAlso jc:ORG_0002 .
 
+jc:COM_0001 crm:P14i_performed jc:PER_0001 .
+
+jc:COM_0001 crm:P129_is_subject_of jc:EXP_0001 .
+
+jc:COM_0002 crm:P14i_performed jc:PER_0001 .
+
+jc:COM_0002 crm:P129_is_subject_of jc:PRJ_0008 .
+
+jc:COM_0004 crm:P14i_performed jc:PER_0001 .
+
+jc:COM_0004 crm:P108_has_produced jc:PRJ_0008 .
+
+jc:COM_0006 crm:P14i_performed jc:PER_0001 .
+
+jc:COM_0006 crm:P108_has_produced jc:PRJ_0006 .
+
+jc:COM_0016 crm:P129_subject_of jc:PER_0001 .
+
+jc:COM_0016 crm:P129_is_subject_of jc:EXP_0001 .
+
+jc:COM_0020 crm:P14i_performed jc:PER_0001 .
+
+jc:COM_0020 crm:P108_has_produced jc:PRJ_0008 .
+
+jc:COM_0025 crm:P14i_performed jc:PER_0001 .
+
+jc:COM_0025 crm:P108_has_produced jc:PRJ_0008 .
+
+jc:COM_0027 crm:P14i_performed jc:PER_0001 .
+
+jc:COM_0027 crm:P129_is_subject_of jc:EXP_0001 .
+
+jc:COM_0003 crm:P14i_performed jc:PER_0001 .
+
+jc:COM_0005 crm:P14i_performed jc:PER_0001 .
+
+jc:COM_0005 crm:P108_has_produced jc:PRJ_0006 .
+
+jc:COM_0005 crm:P129_is_subject_of jc:PRJ_0008 .
+
+jc:COM_0007 crm:P14i_performed jc:PER_0001 .
+
+jc:COM_0008 crm:P14i_performed jc:PER_0001 .
+
+jc:COM_0009 crm:P14i_performed jc:PER_0001 .
+
+jc:COM_0010 crm:P14i_performed jc:PER_0001 .
+
+jc:COM_0011 crm:P14i_performed jc:PER_0001 .
+
+jc:COM_0012 crm:P14i_performed jc:PER_0001 .
+
+jc:COM_0013 crm:P14i_performed jc:PER_0001 .
+
+jc:COM_0014 crm:P14i_performed jc:PER_0001 .
+
+jc:COM_0018 crm:P14i_performed jc:PER_0001 .
+
+jc:COM_0018 crm:P129_is_subject_of jc:EXP_0008 .
+
+jc:COM_0019 crm:P14i_performed jc:PER_0001 .
+
+jc:COM_0019 crm:P129_is_subject_of jc:EXP_0008 .
+
+jc:COM_0021 crm:P14i_performed jc:PER_0001 .
+
+jc:COM_0022 crm:P14i_performed jc:PER_0001 .
+
+jc:COM_0023 crm:P14i_performed jc:PER_0001 .
+
+jc:COM_0023 crm:P129_is_subject_of jc:EXP_0003 .
+
+jc:COM_0024 crm:P14i_performed jc:PER_0001 .
+
+jc:COM_0024 crm:P129_is_subject_of jc:EXP_0003 .
+
+jc:COM_0015 crm:P129_subject_of jc:PER_0001 .
+
+jc:COM_0015 crm:P129_is_subject_of jc:PRJ_0008 .
+
+jc:COM_0017 crm:P129_subject_of jc:PER_0001 .
+
+jc:COM_0026 crm:P14i_performed jc:PER_0001 .
+
 jc:PER_0001 crm:P14i_performed jc:EDU_0001 .
 
 jc:EDU_0001 crm:P87_is_identified_by jc:ORG_0005 .

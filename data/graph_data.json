@@ -3,7 +3,7 @@
     "version": "2.0",
     "source": "CV_Dataset_Maestro_Jaime_Cuevas.xlsx",
     "node_count": 211,
-    "link_count": 429,
+    "link_count": 471,
     "sheet_count": 12,
     "validation_status": "PASS",
     "validation_warnings": 117,
@@ -5874,6 +5874,384 @@
       "source": "LOC_0058",
       "target": "ORG_0002",
       "predicate": "rdfs:seeAlso",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0230",
+      "source": "COM_0001",
+      "target": "PER_0001",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0231",
+      "source": "COM_0001",
+      "target": "EXP_0001",
+      "predicate": "crm:P129_is_subject_of",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0232",
+      "source": "COM_0002",
+      "target": "PER_0001",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0233",
+      "source": "COM_0002",
+      "target": "PRJ_0008",
+      "predicate": "crm:P129_is_subject_of",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0234",
+      "source": "COM_0004",
+      "target": "PER_0001",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0235",
+      "source": "COM_0004",
+      "target": "PRJ_0008",
+      "predicate": "crm:P108_has_produced",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0236",
+      "source": "COM_0006",
+      "target": "PER_0001",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0237",
+      "source": "COM_0006",
+      "target": "PRJ_0006",
+      "predicate": "crm:P108_has_produced",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0238",
+      "source": "COM_0016",
+      "target": "PER_0001",
+      "predicate": "crm:P129_subject_of",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0239",
+      "source": "COM_0016",
+      "target": "EXP_0001",
+      "predicate": "crm:P129_is_subject_of",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0240",
+      "source": "COM_0020",
+      "target": "PER_0001",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0241",
+      "source": "COM_0020",
+      "target": "PRJ_0008",
+      "predicate": "crm:P108_has_produced",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0242",
+      "source": "COM_0025",
+      "target": "PER_0001",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0243",
+      "source": "COM_0025",
+      "target": "PRJ_0008",
+      "predicate": "crm:P108_has_produced",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0244",
+      "source": "COM_0027",
+      "target": "PER_0001",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0245",
+      "source": "COM_0027",
+      "target": "EXP_0001",
+      "predicate": "crm:P129_is_subject_of",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0246",
+      "source": "COM_0003",
+      "target": "PER_0001",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0247",
+      "source": "COM_0005",
+      "target": "PER_0001",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0248",
+      "source": "COM_0005",
+      "target": "PRJ_0006",
+      "predicate": "crm:P108_has_produced",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0249",
+      "source": "COM_0005",
+      "target": "PRJ_0008",
+      "predicate": "crm:P129_is_subject_of",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0250",
+      "source": "COM_0007",
+      "target": "PER_0001",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0251",
+      "source": "COM_0008",
+      "target": "PER_0001",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0252",
+      "source": "COM_0009",
+      "target": "PER_0001",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0253",
+      "source": "COM_0010",
+      "target": "PER_0001",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0254",
+      "source": "COM_0011",
+      "target": "PER_0001",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0255",
+      "source": "COM_0012",
+      "target": "PER_0001",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0256",
+      "source": "COM_0013",
+      "target": "PER_0001",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0257",
+      "source": "COM_0014",
+      "target": "PER_0001",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0258",
+      "source": "COM_0018",
+      "target": "PER_0001",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0259",
+      "source": "COM_0018",
+      "target": "EXP_0008",
+      "predicate": "crm:P129_is_subject_of",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0260",
+      "source": "COM_0019",
+      "target": "PER_0001",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0261",
+      "source": "COM_0019",
+      "target": "EXP_0008",
+      "predicate": "crm:P129_is_subject_of",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0262",
+      "source": "COM_0021",
+      "target": "PER_0001",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0263",
+      "source": "COM_0022",
+      "target": "PER_0001",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0264",
+      "source": "COM_0023",
+      "target": "PER_0001",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0265",
+      "source": "COM_0023",
+      "target": "EXP_0003",
+      "predicate": "crm:P129_is_subject_of",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0266",
+      "source": "COM_0024",
+      "target": "PER_0001",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0267",
+      "source": "COM_0024",
+      "target": "EXP_0003",
+      "predicate": "crm:P129_is_subject_of",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0268",
+      "source": "COM_0015",
+      "target": "PER_0001",
+      "predicate": "crm:P129_subject_of",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0269",
+      "source": "COM_0015",
+      "target": "PRJ_0008",
+      "predicate": "crm:P129_is_subject_of",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0270",
+      "source": "COM_0017",
+      "target": "PER_0001",
+      "predicate": "crm:P129_subject_of",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0271",
+      "source": "COM_0026",
+      "target": "PER_0001",
+      "predicate": "crm:P14i_performed",
       "year": "",
       "description": null,
       "_sheet_name": "Relaciones_Grafo_LOD"
