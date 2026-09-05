@@ -1140,6 +1140,9 @@ jc:PRJ_0016 a crm:E7_Activity ;
 jc:PRJ_0017 a crm:E7_Activity ;
     rdfs:label "Callejera Madrid: Desarrollo digital y curación web" .
 
+jc:PRJ_0018 a crm:E7_Activity ;
+    rdfs:label "Magister en Historia del Arte" .
+
 jc:COM_0001 a crm:E7_Activity ;
     rdfs:label "Exposición Episodio Monvoisin. Un pintor francés en el Chile del siglo XIX" .
 
@@ -1871,6 +1874,42 @@ jc:COM_0012 crm:P129_is_subject_of jc:EXP_0006 .
 
 jc:PER_0003 crm:P14i_performed jc:PRJ_0008 .
 
+jc:PUB_0001 crm:P108_has_produced jc:PRJ_0008 .
+
+jc:PUB_0003 crm:P108_has_produced jc:PRJ_0009 .
+
+jc:PUB_0004 crm:P108_has_produced jc:EXP_0003 .
+
+jc:PUB_0005 crm:P108_has_produced jc:EXP_0004 .
+
+jc:PUB_0006 crm:P108_has_produced jc:EXP_0005 .
+
+jc:PUB_0007 crm:P108_has_produced jc:PRJ_0010 .
+
+jc:PUB_0010 crm:P108_has_produced jc:PRJ_0008 .
+
+jc:PUB_0011 crm:P108_has_produced jc:PRJ_0008 .
+
+jc:PUB_0012 crm:P108_has_produced jc:PRJ_0005 .
+
+jc:PUB_0014 crm:P108_has_produced jc:PRJ_0008 .
+
+jc:PUB_0015 crm:P108_has_produced jc:PRJ_0006 .
+
+jc:PUB_0017 crm:P108_has_produced jc:PRJ_0016 .
+
+jc:PUB_0018 crm:P108_has_produced jc:EXP_0014 .
+
+jc:COM_0012 crm:P129_is_subject_of jc:EXP_0007 .
+
+jc:EXP_0001_M01 crm:P129_is_subject_of jc:COM_0017 .
+
+jc:PUB_0002 crm:P108_has_produced jc:PRJ_0018 .
+
+jc:PUB_0008 crm:P108_has_produced jc:PRJ_0018 .
+
+jc:PUB_0013 crm:P108_has_produced jc:PRJ_0018 .
+
 jc:PER_0001 crm:P14i_performed jc:EDU_0001 .
 
 jc:EDU_0001 crm:P87_is_identified_by jc:ORG_0005 .
@@ -2270,3 +2309,5 @@ jc:PER_0001 crm:P14i_performed jc:PRJ_0015 .
 jc:PER_0001 crm:P14i_performed jc:PRJ_0016 .
 
 jc:PER_0009 crm:P14i_performed jc:PRJ_0017 .
+
+jc:PER_0001 crm:P14i_performed jc:PRJ_0018 .

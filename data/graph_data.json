@@ -2,12 +2,12 @@
   "metadata": {
     "version": "2.0",
     "source": "CV_Dataset_Maestro_Jaime_Cuevas.xlsx",
-    "node_count": 211,
-    "link_count": 477,
+    "node_count": 220,
+    "link_count": 513,
     "sheet_count": 12,
     "validation_status": "PASS",
     "validation_warnings": 117,
-    "filtered_nodes": 82
+    "filtered_nodes": 74
   },
   "nodes": [
     {
@@ -447,6 +447,34 @@
       }
     },
     {
+      "id": "PER_0021",
+      "type": "Agent",
+      "label": "Violeta Parra Sandoval",
+      "short_name": "Violeta Parra",
+      "category": "Artista Histórica",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 21,
+      "nationality": "Chilena",
+      "role": "Artista Visual (Arpilleras/Pintura) | Folclorista",
+      "period": {
+        "start": 1917,
+        "end": 1967,
+        "display": "1917-1967"
+      },
+      "orcid": null,
+      "wikidata": null,
+      "urls": {
+        "main": null,
+        "scholar": null,
+        "github": null,
+        "linkedin": null,
+        "academia": null
+      }
+    },
+    {
       "id": "PER_0022",
       "type": "Agent",
       "label": "Rodrigo Rojas De Negri",
@@ -768,6 +796,118 @@
       "wikidata": null,
       "urls": {
         "main": null,
+        "scholar": null,
+        "github": null,
+        "linkedin": null,
+        "academia": null
+      }
+    },
+    {
+      "id": "PER_0036",
+      "type": "Agent",
+      "label": "Inés Puyó",
+      "short_name": "Inés Puyó",
+      "category": "Artista Histórica",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 36,
+      "nationality": "Chilena",
+      "role": "Pintora | Exposición Violeta y sus contemporáneas",
+      "period": {
+        "start": 1906,
+        "end": 1996,
+        "display": "1906-1996"
+      },
+      "orcid": null,
+      "wikidata": null,
+      "urls": {
+        "main": "https://www.mnba.gob.cl",
+        "scholar": null,
+        "github": null,
+        "linkedin": null,
+        "academia": null
+      }
+    },
+    {
+      "id": "PER_0037",
+      "type": "Agent",
+      "label": "Ximena Cristi",
+      "short_name": "Ximena Cristi",
+      "category": "Artista Histórica",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 37,
+      "nationality": "Chilena",
+      "role": "Pintora | Exposición Violeta y sus contemporáneas",
+      "period": {
+        "start": 1920,
+        "end": 2022,
+        "display": "1920-2022"
+      },
+      "orcid": null,
+      "wikidata": null,
+      "urls": {
+        "main": "https://www.mnba.gob.cl",
+        "scholar": null,
+        "github": null,
+        "linkedin": null,
+        "academia": null
+      }
+    },
+    {
+      "id": "PER_0038",
+      "type": "Agent",
+      "label": "Laura Rodig Pizarro",
+      "short_name": "Laura Rodig",
+      "category": "Artista Histórica",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 38,
+      "nationality": "Chilena",
+      "role": "Escultora | Pintora | Educadora de Museos",
+      "period": {
+        "start": 1901,
+        "end": 1972,
+        "display": "1901-1972"
+      },
+      "orcid": null,
+      "wikidata": null,
+      "urls": {
+        "main": "https://www.mnba.gob.cl",
+        "scholar": null,
+        "github": null,
+        "linkedin": null,
+        "academia": null
+      }
+    },
+    {
+      "id": "PER_0039",
+      "type": "Agent",
+      "label": "Henriette Petit",
+      "short_name": "Henriette Petit",
+      "category": "Artista Histórica",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 39,
+      "nationality": "Chilena",
+      "role": "Pintora | Grupo Montparnasse",
+      "period": {
+        "start": 1894,
+        "end": 1983,
+        "display": "1894-1983"
+      },
+      "orcid": null,
+      "wikidata": null,
+      "urls": {
+        "main": "https://www.mnba.gob.cl",
         "scholar": null,
         "github": null,
         "linkedin": null,
@@ -2939,6 +3079,36 @@
       "role": "Coordinador | Productor | Gestor General"
     },
     {
+      "id": "EXP_0010",
+      "type": "Exhibition",
+      "label": "Violeta y sus contemporáneas. Influencias y transferencias",
+      "short_name": null,
+      "category": null,
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 23,
+      "location": null,
+      "period": null,
+      "role": "Coordinador de Itinerancia Territorial"
+    },
+    {
+      "id": "EXP_0010_1",
+      "type": "Exhibition",
+      "label": "Violeta y sus contemporáneas. Influencias y transferencias",
+      "short_name": null,
+      "category": null,
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 24,
+      "location": null,
+      "period": null,
+      "role": "Coordinador de Itinerancia Territorial"
+    },
+    {
       "id": "EXP_0012",
       "type": "Exhibition",
       "label": "Crisis, crisis, crisis: La normalidad de la emergencia",
@@ -2967,6 +3137,21 @@
       "location": null,
       "period": null,
       "role": "Curador Principal | Investigador"
+    },
+    {
+      "id": "EXP_0014",
+      "type": "Exhibition",
+      "label": "Desacatos: Serie de obras de Laura Rodig",
+      "short_name": null,
+      "category": null,
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 30,
+      "location": null,
+      "period": null,
+      "role": "Artista Featured"
     },
     {
       "id": "PRJ_0001",
@@ -3282,6 +3467,21 @@
       "funder": "Proyecto Colaborativo",
       "period": null,
       "role": "Desarrolladora Digital | Investigadora"
+    },
+    {
+      "id": "PRJ_0018",
+      "type": "Project",
+      "label": "Magister en Historia del Arte",
+      "short_name": null,
+      "category": null,
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 22,
+      "funder": "Universidad Adolfo Ibáñez (UAI)",
+      "period": null,
+      "role": "Estudiante de Postgrado"
     },
     {
       "id": "COM_0001",
@@ -5537,6 +5737,15 @@
       "_sheet_name": "Relaciones_Grafo_LOD"
     },
     {
+      "id": "REL_0182",
+      "source": "PER_0038",
+      "target": "EXP_0014",
+      "predicate": "crm:P14i_performed",
+      "year": 2018,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
       "id": "REL_0183",
       "source": "PER_0009",
       "target": "PRJ_0017",
@@ -5819,6 +6028,51 @@
       "id": "REL_0214",
       "source": "PER_0030",
       "target": "EXP_0003",
+      "predicate": "crm:P14i_performed",
+      "year": 2023,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0215",
+      "source": "PER_0021",
+      "target": "EXP_0010",
+      "predicate": "crm:P14i_performed",
+      "year": 2023,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0216",
+      "source": "PER_0036",
+      "target": "EXP_0010",
+      "predicate": "crm:P14i_performed",
+      "year": 2023,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0217",
+      "source": "PER_0037",
+      "target": "EXP_0010",
+      "predicate": "crm:P14i_performed",
+      "year": 2023,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0218",
+      "source": "PER_0038",
+      "target": "EXP_0010",
+      "predicate": "crm:P14i_performed",
+      "year": 2023,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0219",
+      "source": "PER_0039",
+      "target": "EXP_0010",
       "predicate": "crm:P14i_performed",
       "year": 2023,
       "description": null,
@@ -6307,6 +6561,168 @@
       "target": "PRJ_0008",
       "predicate": "crm:P14i_performed",
       "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0278",
+      "source": "PUB_0001",
+      "target": "PRJ_0008",
+      "predicate": "crm:P108_has_produced",
+      "year": 2023,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0279",
+      "source": "PUB_0003",
+      "target": "PRJ_0009",
+      "predicate": "crm:P108_has_produced",
+      "year": 2014,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0280",
+      "source": "PUB_0004",
+      "target": "EXP_0003",
+      "predicate": "crm:P108_has_produced",
+      "year": 2023,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0281",
+      "source": "PUB_0005",
+      "target": "EXP_0004",
+      "predicate": "crm:P108_has_produced",
+      "year": 2022,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0282",
+      "source": "PUB_0006",
+      "target": "EXP_0005",
+      "predicate": "crm:P108_has_produced",
+      "year": 2017,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0283",
+      "source": "PUB_0007",
+      "target": "PRJ_0010",
+      "predicate": "crm:P108_has_produced",
+      "year": 2013,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0284",
+      "source": "PUB_0010",
+      "target": "PRJ_0008",
+      "predicate": "crm:P108_has_produced",
+      "year": 2023,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0285",
+      "source": "PUB_0011",
+      "target": "PRJ_0008",
+      "predicate": "crm:P108_has_produced",
+      "year": 2023,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0286",
+      "source": "PUB_0012",
+      "target": "PRJ_0005",
+      "predicate": "crm:P108_has_produced",
+      "year": 2021,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0287",
+      "source": "PUB_0014",
+      "target": "PRJ_0008",
+      "predicate": "crm:P108_has_produced",
+      "year": 2019,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0288",
+      "source": "PUB_0015",
+      "target": "PRJ_0006",
+      "predicate": "crm:P108_has_produced",
+      "year": 2018,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0289",
+      "source": "PUB_0017",
+      "target": "PRJ_0016",
+      "predicate": "crm:P108_has_produced",
+      "year": 2014,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0290",
+      "source": "PUB_0018",
+      "target": "EXP_0014",
+      "predicate": "crm:P108_has_produced",
+      "year": 2017,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0291",
+      "source": "COM_0012",
+      "target": "EXP_0007",
+      "predicate": "crm:P129_is_subject_of",
+      "year": 2015,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0292",
+      "source": "EXP_0001_M01",
+      "target": "COM_0017",
+      "predicate": "crm:P129_is_subject_of",
+      "year": 2025,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0293",
+      "source": "PUB_0002",
+      "target": "PRJ_0018",
+      "predicate": "crm:P108_has_produced",
+      "year": 2019,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0294",
+      "source": "PUB_0008",
+      "target": "PRJ_0018",
+      "predicate": "crm:P108_has_produced",
+      "year": 2023,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0295",
+      "source": "PUB_0013",
+      "target": "PRJ_0018",
+      "predicate": "crm:P108_has_produced",
+      "year": 2019,
       "description": null,
       "_sheet_name": "Relaciones_Grafo_LOD"
     },
@@ -7085,6 +7501,96 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
+      "id": "IMPL_01087",
+      "source": "PER_0021",
+      "target": "EXP_0010",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Violeta y sus contemporáneas. Influencias y transferencias",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01088",
+      "source": "PER_0036",
+      "target": "EXP_0010",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Violeta y sus contemporáneas. Influencias y transferencias",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01089",
+      "source": "PER_0037",
+      "target": "EXP_0010",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Violeta y sus contemporáneas. Influencias y transferencias",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01090",
+      "source": "PER_0038",
+      "target": "EXP_0010",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Violeta y sus contemporáneas. Influencias y transferencias",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01091",
+      "source": "PER_0039",
+      "target": "EXP_0010",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Violeta y sus contemporáneas. Influencias y transferencias",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01092",
+      "source": "PER_0021",
+      "target": "EXP_0010_1",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Violeta y sus contemporáneas. Influencias y transferencias",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01093",
+      "source": "PER_0036",
+      "target": "EXP_0010_1",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Violeta y sus contemporáneas. Influencias y transferencias",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01094",
+      "source": "PER_0037",
+      "target": "EXP_0010_1",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Violeta y sus contemporáneas. Influencias y transferencias",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01095",
+      "source": "PER_0038",
+      "target": "EXP_0010_1",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Violeta y sus contemporáneas. Influencias y transferencias",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01096",
+      "source": "PER_0039",
+      "target": "EXP_0010_1",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Violeta y sus contemporáneas. Influencias y transferencias",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
       "id": "IMPL_01100",
       "source": "PER_0040",
       "target": "EXP_0012",
@@ -7136,6 +7642,15 @@
       "predicate": "crm:P14i_performed",
       "predicate_label": "Participó en",
       "description": "Exhibition: Sonata: Exposición Individual de Wladymir Bernechea",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01106",
+      "source": "PER_0038",
+      "target": "EXP_0014",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Desacatos: Serie de obras de Laura Rodig",
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
@@ -7973,6 +8488,15 @@
       "predicate": "crm:P14i_performed",
       "predicate_label": "Realizó/Lidera",
       "description": "Project: Callejera Madrid: Desarrollo digital y curación web",
+      "_sheet_name": "Proyectos_y_Fondos"
+    },
+    {
+      "id": "IMPL_01200",
+      "source": "PER_0001",
+      "target": "PRJ_0018",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Realizó/Lidera",
+      "description": "Project: Magister en Historia del Arte",
       "_sheet_name": "Proyectos_y_Fondos"
     }
   ]
