@@ -15,6 +15,21 @@ logger = logging.getLogger(__name__)
 class DataTransformer:
     """Transforms raw Excel rows into unified CIDOC-CRM node/link structure."""
 
+    # Mapping: Entity type → ID column name in Excel
+    ID_COLUMN_MAP = {
+        'Agent': 'id_agente',
+        'Organization': 'id_organizacion',
+        'Location': 'id_lugar',
+        'Concept': 'id_concepto',
+        'Education': 'id_formacion',
+        'Position': 'id_cargo',
+        'Publication': 'id_publicacion',
+        'Exhibition': 'id_exposicion',
+        'Project': 'id_proyecto',
+        'Media': 'id_comunicacion',
+        'DigitalHeritage': 'id_digital',
+    }
+
     def __init__(self):
         """Initialize transformer with empty state."""
         self.nodes = []
@@ -47,16 +62,24 @@ class DataTransformer:
 
         # Transform links from relations sheet
         if relations_raw:
-            self.links = self._transform_links(relations_raw)
-            logger.info(f"Transformed relations: {len(self.links)} links")
+            relation_links = self._transform_links(relations_raw)
+            self.links.extend(relation_links)
+            logger.info(f"Transformed relations: {len(relation_links)} links from relations sheet, total: {len(self.links)} links")
 
         logger.info(f"Total nodes after transformation: {len(self.nodes)}")
 
         return self.nodes, self.links
 
     def _create_base_node(self, entity_type: str, row: Dict, row_idx: int) -> Dict[str, Any]:
-        """Create base node with common fields."""
-        node_id = validate_id_format(entity_type, row_idx + 1)
+        """Create base node with common fields. Uses real ID from Excel."""
+        # Get ID column name for this entity type
+        id_col = self.ID_COLUMN_MAP.get(entity_type)
+        node_id = row.get(id_col, '')
+
+        # Fallback to generating ID if not found (shouldn't happen)
+        if not node_id:
+            node_id = validate_id_format(entity_type, row_idx + 1)
+            logger.warning(f"No ID found in column '{id_col}' for {entity_type} row {row_idx + 1}, generated: {node_id}")
 
         return {
             'id': node_id,
@@ -148,8 +171,23 @@ class DataTransformer:
                 'description': row.get('descripcion', '').strip() or None,
                 'why_relevant': row.get('por_que_relevante', '').strip() or None,
                 'micro_summary': row.get('resumen_micro', '').strip() or None,
+                'parent_org_id': row.get('parent_org_id') or None,
+                'is_user_primary': bool(row.get('is_user_primary', False)),
+                'precision_type': row.get('precision_type', 'exact'),
                 '_sheet_name': 'Lugares_y_Sedes',
             })
+
+            # Generate ORG→LOC link if parent_org_id is present
+            if node['parent_org_id']:
+                org_loc_link = {
+                    'id': f"REL_ORG_LOC_{idx+1:04d}",
+                    'source': node['parent_org_id'],
+                    'target': node['id'],
+                    'predicate': 'crm:P87_is_identified_by',
+                    'description': f"Organization {node['parent_org_id']} has location {node['id']}",
+                    '_sheet_name': 'Lugares_y_Sedes_GENERATED',
+                }
+                self.links.append(org_loc_link)
 
             nodes.append(node)
 

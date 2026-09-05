@@ -114,6 +114,9 @@ class OutputGenerator:
                     'why_relevant': node.get('why_relevant'),
                     'micro_summary': node.get('micro_summary'),
                     'is_core': node.get('is_core', False),
+                    'parent_org_id': node.get('parent_org_id'),
+                    'is_user_primary': node.get('is_user_primary', False),
+                    'precision_type': node.get('precision_type', 'exact'),
                 },
             }
 

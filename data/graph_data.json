@@ -3,10 +3,10 @@
     "version": "2.0",
     "source": "CV_Dataset_Maestro_Jaime_Cuevas.xlsx",
     "node_count": 271,
-    "link_count": 52,
+    "link_count": 209,
     "sheet_count": 12,
     "validation_status": "PASS",
-    "validation_warnings": 49
+    "validation_warnings": 129
   },
   "nodes": [
     {
@@ -27,7 +27,7 @@
         "end": null,
         "display": "1989-presente"
       },
-      "orcid": null,
+      "orcid": "0000-0002-2563-6676",
       "wikidata": null,
       "urls": {
         "main": "https://orcid.org/0000-0002-2563-6676",
@@ -38,7 +38,7 @@
       }
     },
     {
-      "id": "PER_0002",
+      "id": "PER_0003",
       "type": "Agent",
       "label": "Marcela Drien Fábregas",
       "short_name": "Marcela Drien",
@@ -51,7 +51,7 @@
       "nationality": "Chilena",
       "role": "Doctora en Historia del Arte | Directora Núcleo Historia del Arte UAI",
       "period": null,
-      "orcid": null,
+      "orcid": "0000-0002-0223-0276",
       "wikidata": null,
       "urls": {
         "main": "https://uai.academia.edu/MarcelaDrien",
@@ -62,7 +62,7 @@
       }
     },
     {
-      "id": "PER_0003",
+      "id": "PER_0004",
       "type": "Agent",
       "label": "Manuel Alvarado Cornejo",
       "short_name": "Manuel Alvarado",
@@ -75,7 +75,7 @@
       "nationality": "Chilena",
       "role": "Historiador del Arte | Co-curador | Co-editor",
       "period": null,
-      "orcid": null,
+      "orcid": "0000-0002-0239-0872",
       "wikidata": null,
       "urls": {
         "main": "https://uc-cl.academia.edu/ManuelAlvaradoCornejo",
@@ -86,7 +86,7 @@
       }
     },
     {
-      "id": "PER_0004",
+      "id": "PER_0005",
       "type": "Agent",
       "label": "Milencka Vidal Consiglieri",
       "short_name": "Milencka Vidal",
@@ -110,7 +110,7 @@
       }
     },
     {
-      "id": "PER_0005",
+      "id": "PER_0006",
       "type": "Agent",
       "label": "Antonia Viu",
       "short_name": "Antonia Viu",
@@ -123,7 +123,7 @@
       "nationality": "Chilena",
       "role": "Doctora en Literatura | Investigadora Responsable Proyecto Harvard-UAI",
       "period": null,
-      "orcid": null,
+      "orcid": "0000-0001-0164-8842",
       "wikidata": null,
       "urls": {
         "main": "https://artesliberales.uai.cl",
@@ -134,7 +134,7 @@
       }
     },
     {
-      "id": "PER_0006",
+      "id": "PER_0007",
       "type": "Agent",
       "label": "Noemí Cinelli",
       "short_name": "Noemí Cinelli",
@@ -147,7 +147,7 @@
       "nationality": "Italiana | Chilena",
       "role": "Doctora en Historia del Arte | Investigadora Responsable (IP) FONDECYT Regular 1241154 Mármoles y Bronces",
       "period": null,
-      "orcid": null,
+      "orcid": "0000-0002-0284-486X",
       "wikidata": null,
       "urls": {
         "main": "https://anid.cl",
@@ -158,7 +158,7 @@
       }
     },
     {
-      "id": "PER_0007",
+      "id": "PER_0008",
       "type": "Agent",
       "label": "Camila Caris Seguel",
       "short_name": "Camila Caris",
@@ -182,7 +182,7 @@
       }
     },
     {
-      "id": "PER_0008",
+      "id": "PER_0009",
       "type": "Agent",
       "label": "Estefanía Granja",
       "short_name": "Estefanía Granja",
@@ -206,7 +206,7 @@
       }
     },
     {
-      "id": "PER_0009",
+      "id": "PER_0010",
       "type": "Agent",
       "label": "Daniela Colleoni",
       "short_name": "Daniela Colleoni",
@@ -230,7 +230,7 @@
       }
     },
     {
-      "id": "PER_0010",
+      "id": "PER_0011",
       "type": "Agent",
       "label": "Montserrat Rojas Corradi",
       "short_name": "Montserrat Rojas",
@@ -254,7 +254,7 @@
       }
     },
     {
-      "id": "PER_0011",
+      "id": "PER_0012",
       "type": "Agent",
       "label": "Nury González",
       "short_name": "Nury González",
@@ -278,7 +278,7 @@
       }
     },
     {
-      "id": "PER_0012",
+      "id": "PER_0013",
       "type": "Agent",
       "label": "Fernando Guzmán Schiappacasse",
       "short_name": "Fernando Guzmán",
@@ -291,7 +291,7 @@
       "nationality": "Chilena",
       "role": "Doctor en Historia del Arte | Académico Senior UAI",
       "period": null,
-      "orcid": null,
+      "orcid": "0000-0002-0218-5061",
       "wikidata": null,
       "urls": {
         "main": "https://uai.cl",
@@ -302,7 +302,7 @@
       }
     },
     {
-      "id": "PER_0013",
+      "id": "PER_0014",
       "type": "Agent",
       "label": "Katherine Vyhmeister",
       "short_name": "Katherine Vyhmeister",
@@ -326,7 +326,7 @@
       }
     },
     {
-      "id": "PER_0014",
+      "id": "PER_0015",
       "type": "Agent",
       "label": "Raymond Quinsac Monvoisin",
       "short_name": "Raymond Monvoisin",
@@ -354,7 +354,7 @@
       }
     },
     {
-      "id": "PER_0015",
+      "id": "PER_0016",
       "type": "Agent",
       "label": "Clara Filleul",
       "short_name": "Clara Filleul",
@@ -382,7 +382,7 @@
       }
     },
     {
-      "id": "PER_0016",
+      "id": "PER_0017",
       "type": "Agent",
       "label": "Procesa Sarmiento de Lenoir",
       "short_name": "Procesa Sarmiento",
@@ -410,7 +410,7 @@
       }
     },
     {
-      "id": "PER_0017",
+      "id": "PER_0018",
       "type": "Agent",
       "label": "Gregorio Torres",
       "short_name": "Gregorio Torres",
@@ -438,7 +438,7 @@
       }
     },
     {
-      "id": "PER_0018",
+      "id": "PER_0019",
       "type": "Agent",
       "label": "Francisco Javier Mandiola",
       "short_name": "Francisco J. Mandiola",
@@ -466,7 +466,7 @@
       }
     },
     {
-      "id": "PER_0019",
+      "id": "PER_0020",
       "type": "Agent",
       "label": "Nemesio Antúnez Zañartu",
       "short_name": "Nemesio Antúnez",
@@ -494,7 +494,7 @@
       }
     },
     {
-      "id": "PER_0020",
+      "id": "PER_0021",
       "type": "Agent",
       "label": "Violeta Parra Sandoval",
       "short_name": "Violeta Parra",
@@ -522,7 +522,7 @@
       }
     },
     {
-      "id": "PER_0021",
+      "id": "PER_0022",
       "type": "Agent",
       "label": "Rodrigo Rojas De Negri",
       "short_name": "Rodrigo Rojas De Negri",
@@ -550,7 +550,7 @@
       }
     },
     {
-      "id": "PER_0022",
+      "id": "PER_0023",
       "type": "Agent",
       "label": "Luis Camnitzer",
       "short_name": "Luis Camnitzer",
@@ -578,7 +578,7 @@
       }
     },
     {
-      "id": "PER_0023",
+      "id": "PER_0024",
       "type": "Agent",
       "label": "Pedro Lira Rencoret",
       "short_name": "Pedro Lira",
@@ -606,7 +606,7 @@
       }
     },
     {
-      "id": "PER_0024",
+      "id": "PER_0025",
       "type": "Agent",
       "label": "Alessandro Ciccarelli Manzoni",
       "short_name": "Alessandro Ciccarelli",
@@ -634,7 +634,7 @@
       }
     },
     {
-      "id": "PER_0025",
+      "id": "PER_0026",
       "type": "Agent",
       "label": "Oskar Trepte",
       "short_name": "Oskar Trepte",
@@ -662,7 +662,7 @@
       }
     },
     {
-      "id": "PER_0026",
+      "id": "PER_0027",
       "type": "Agent",
       "label": "Pedro Reszka Moreau",
       "short_name": "Pedro Reszka",
@@ -690,7 +690,7 @@
       }
     },
     {
-      "id": "PER_0027",
+      "id": "PER_0028",
       "type": "Agent",
       "label": "Virginio Arias Cruz",
       "short_name": "Virginio Arias",
@@ -718,7 +718,7 @@
       }
     },
     {
-      "id": "PER_0028",
+      "id": "PER_0029",
       "type": "Agent",
       "label": "Benito Rebolledo Correa",
       "short_name": "Benito Rebolledo",
@@ -746,7 +746,7 @@
       }
     },
     {
-      "id": "PER_0029",
+      "id": "PER_0030",
       "type": "Agent",
       "label": "Aristodemo Lattanzi Borghini",
       "short_name": "Aristodemo Lattanzi",
@@ -774,7 +774,7 @@
       }
     },
     {
-      "id": "PER_0030",
+      "id": "PER_0031",
       "type": "Agent",
       "label": "Wladymir Bernechea",
       "short_name": "Wladymir Bernechea",
@@ -798,7 +798,7 @@
       }
     },
     {
-      "id": "PER_0031",
+      "id": "PER_0032",
       "type": "Agent",
       "label": "Jesús Arana",
       "short_name": "Jesús Arana",
@@ -822,7 +822,7 @@
       }
     },
     {
-      "id": "PER_0032",
+      "id": "PER_0033",
       "type": "Agent",
       "label": "Iván Navarro",
       "short_name": "Iván Navarro",
@@ -850,7 +850,7 @@
       }
     },
     {
-      "id": "PER_0033",
+      "id": "PER_0034",
       "type": "Agent",
       "label": "Alfredo Jaar",
       "short_name": "Alfredo Jaar",
@@ -878,7 +878,7 @@
       }
     },
     {
-      "id": "PER_0034",
+      "id": "PER_0035",
       "type": "Agent",
       "label": "Voluspa Jarpa",
       "short_name": "Voluspa Jarpa",
@@ -906,7 +906,7 @@
       }
     },
     {
-      "id": "PER_0035",
+      "id": "PER_0036",
       "type": "Agent",
       "label": "Inés Puyó",
       "short_name": "Inés Puyó",
@@ -934,7 +934,7 @@
       }
     },
     {
-      "id": "PER_0036",
+      "id": "PER_0037",
       "type": "Agent",
       "label": "Ximena Cristi",
       "short_name": "Ximena Cristi",
@@ -962,7 +962,7 @@
       }
     },
     {
-      "id": "PER_0037",
+      "id": "PER_0038",
       "type": "Agent",
       "label": "Laura Rodig Pizarro",
       "short_name": "Laura Rodig",
@@ -990,7 +990,7 @@
       }
     },
     {
-      "id": "PER_0038",
+      "id": "PER_0039",
       "type": "Agent",
       "label": "Henriette Petit",
       "short_name": "Henriette Petit",
@@ -1018,7 +1018,7 @@
       }
     },
     {
-      "id": "PER_0039",
+      "id": "PER_0040",
       "type": "Agent",
       "label": "Sebastián Calfuqueo Aliste",
       "short_name": "Sebastián Calfuqueo",
@@ -1046,7 +1046,7 @@
       }
     },
     {
-      "id": "PER_0040",
+      "id": "PER_0041",
       "type": "Agent",
       "label": "Soledad Pinto",
       "short_name": "Soledad Pinto",
@@ -1074,7 +1074,7 @@
       }
     },
     {
-      "id": "PER_0041",
+      "id": "PER_0042",
       "type": "Agent",
       "label": "Nicolás Grum",
       "short_name": "Nicolás Grum",
@@ -1102,7 +1102,7 @@
       }
     },
     {
-      "id": "PER_0042",
+      "id": "PER_0043",
       "type": "Agent",
       "label": "Gonzalo Cueto",
       "short_name": "Gonzalo Cueto",
@@ -1697,7 +1697,7 @@
       "source_sheet": "",
       "row_number": 41,
       "city": "Chillán (Región de Ñuble)",
-      "wikidata": null
+      "wikidata": "Q113665601"
     },
     {
       "id": "ORG_0042",
@@ -1732,7 +1732,10 @@
       ],
       "wikidata": "Q1138865",
       "why_relevant": "Investigador de Colecciones (2017-2025)",
-      "micro_summary": "Sede principal como Investigador de Colecciones"
+      "micro_summary": "Sede principal como Investigador de Colecciones",
+      "parent_org_id": "ORG_0002",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0002",
@@ -1753,7 +1756,10 @@
       ],
       "wikidata": "Q3329153",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0001",
+      "is_user_primary": true,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0003",
@@ -1774,7 +1780,10 @@
       ],
       "wikidata": "Q232438",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0034",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0004",
@@ -1795,7 +1804,10 @@
       ],
       "wikidata": "Q1465225",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0004",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0005",
@@ -1816,7 +1828,10 @@
       ],
       "wikidata": "Q219615",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0005",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0006",
@@ -1837,7 +1852,10 @@
       ],
       "wikidata": "Q5761404",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0006",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0007",
@@ -1858,7 +1876,10 @@
       ],
       "wikidata": "Q50682283",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0008",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0008",
@@ -1879,7 +1900,10 @@
       ],
       "wikidata": "Q7894229",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0009",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0009",
@@ -1900,7 +1924,10 @@
       ],
       "wikidata": "Q1138767",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0010",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0010",
@@ -1921,7 +1948,10 @@
       ],
       "wikidata": "Q6034177",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0011",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0011",
@@ -1942,7 +1972,10 @@
       ],
       "wikidata": "Q6034346",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0012",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0012",
@@ -1963,7 +1996,10 @@
       ],
       "wikidata": "Q54865181",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0013",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0013",
@@ -1984,7 +2020,10 @@
       ],
       "wikidata": "Q13371",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0015",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0014",
@@ -2005,7 +2044,10 @@
       ],
       "wikidata": null,
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0016",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0015",
@@ -2026,7 +2068,10 @@
       ],
       "wikidata": "Q6940540",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0018",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0016",
@@ -2047,7 +2092,10 @@
       ],
       "wikidata": "Q1464673",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0019",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0017",
@@ -2068,7 +2116,10 @@
       ],
       "wikidata": "Q16609935",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0020",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0018",
@@ -2089,7 +2140,10 @@
       ],
       "wikidata": "Q7894297",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0021",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0019",
@@ -2110,7 +2164,10 @@
       ],
       "wikidata": "Q5961605",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0022",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0020",
@@ -2131,7 +2188,10 @@
       ],
       "wikidata": "Q5761159",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0023",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0021",
@@ -2152,7 +2212,10 @@
       ],
       "wikidata": "Q5763160",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0024",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0022",
@@ -2173,7 +2236,10 @@
       ],
       "wikidata": "Q2931448",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0018",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0023",
@@ -2194,7 +2260,10 @@
       ],
       "wikidata": "Q2006767",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0026",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0024",
@@ -2215,7 +2284,10 @@
       ],
       "wikidata": "Q6033842",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0027",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0025",
@@ -2236,7 +2308,10 @@
       ],
       "wikidata": "Q5047879",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0028",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0026",
@@ -2257,7 +2332,10 @@
       ],
       "wikidata": "Q1050516",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": null,
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0027",
@@ -2278,7 +2356,10 @@
       ],
       "wikidata": "Q201016",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": null,
+      "is_user_primary": false,
+      "precision_type": "centroid"
     },
     {
       "id": "LOC_0028",
@@ -2299,7 +2380,10 @@
       ],
       "wikidata": "Q7126294",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": null,
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0029",
@@ -2320,7 +2404,10 @@
       ],
       "wikidata": "Q6034388",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0018",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0030",
@@ -2341,7 +2428,10 @@
       ],
       "wikidata": "Q2931448",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": null,
+      "is_user_primary": false,
+      "precision_type": "centroid"
     },
     {
       "id": "LOC_0031",
@@ -2362,7 +2452,10 @@
       ],
       "wikidata": "Q3691",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": null,
+      "is_user_primary": false,
+      "precision_type": "centroid"
     },
     {
       "id": "LOC_0032",
@@ -2383,7 +2476,10 @@
       ],
       "wikidata": "Q56125",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": null,
+      "is_user_primary": false,
+      "precision_type": "centroid"
     },
     {
       "id": "LOC_0033",
@@ -2404,7 +2500,10 @@
       ],
       "wikidata": "Q14424",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": null,
+      "is_user_primary": false,
+      "precision_type": "centroid"
     },
     {
       "id": "LOC_0034",
@@ -2425,7 +2524,10 @@
       ],
       "wikidata": "Q51594",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": null,
+      "is_user_primary": false,
+      "precision_type": "centroid"
     },
     {
       "id": "LOC_0035",
@@ -2446,7 +2548,10 @@
       ],
       "wikidata": "Q14484",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": null,
+      "is_user_primary": false,
+      "precision_type": "centroid"
     },
     {
       "id": "LOC_0036",
@@ -2467,7 +2572,10 @@
       ],
       "wikidata": "Q51079",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0009",
+      "is_user_primary": false,
+      "precision_type": "centroid"
     },
     {
       "id": "LOC_0037",
@@ -2488,7 +2596,10 @@
       ],
       "wikidata": "Q13063",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": null,
+      "is_user_primary": false,
+      "precision_type": "centroid"
     },
     {
       "id": "LOC_0038",
@@ -2509,7 +2620,10 @@
       ],
       "wikidata": "Q51048",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": null,
+      "is_user_primary": false,
+      "precision_type": "centroid"
     },
     {
       "id": "LOC_0039",
@@ -2530,7 +2644,10 @@
       ],
       "wikidata": "Q6940509",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0039",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0040",
@@ -2551,7 +2668,10 @@
       ],
       "wikidata": "Q1142270",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0030",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0041",
@@ -2572,7 +2692,10 @@
       ],
       "wikidata": "Q3551676",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0032",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0042",
@@ -2593,7 +2716,10 @@
       ],
       "wikidata": "Q287900",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0033",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0043",
@@ -2614,7 +2740,10 @@
       ],
       "wikidata": "Q7894220",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0034",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0044",
@@ -2635,7 +2764,10 @@
       ],
       "wikidata": "Q50682284",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0035",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0045",
@@ -2656,7 +2788,10 @@
       ],
       "wikidata": null,
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0036",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0046",
@@ -2677,7 +2812,10 @@
       ],
       "wikidata": null,
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0003",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0047",
@@ -2698,7 +2836,10 @@
       ],
       "wikidata": "Q5918342",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0038",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0048",
@@ -2719,7 +2860,10 @@
       ],
       "wikidata": "Q232438",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0037",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0049",
@@ -2740,7 +2884,10 @@
       ],
       "wikidata": "Q2478544",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0029",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0050",
@@ -2761,7 +2908,10 @@
       ],
       "wikidata": "Q7203673",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": null,
+      "is_user_primary": false,
+      "precision_type": "approximate"
     },
     {
       "id": "LOC_0051",
@@ -2782,7 +2932,10 @@
       ],
       "wikidata": null,
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": null,
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0052",
@@ -2803,7 +2956,10 @@
       ],
       "wikidata": "Q6033182",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": null,
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0053",
@@ -2824,7 +2980,10 @@
       ],
       "wikidata": "Q61",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": null,
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0054",
@@ -2845,7 +3004,10 @@
       ],
       "wikidata": "Q38",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": null,
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0055",
@@ -2866,7 +3028,10 @@
       ],
       "wikidata": "Q954318",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": null,
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0056",
@@ -2887,7 +3052,10 @@
       ],
       "wikidata": null,
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": "ORG_0040",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0057",
@@ -2906,12 +3074,15 @@
         -72.1034,
         -36.6066
       ],
-      "wikidata": null,
+      "wikidata": "Q113665601",
       "why_relevant": null,
-      "micro_summary": null
+      "micro_summary": null,
+      "parent_org_id": null,
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
-      "id": "CON_0001",
+      "id": "VOC_0001",
       "type": "Concept",
       "label": "Humanidades Digitales",
       "short_name": null,
@@ -2926,7 +3097,7 @@
       "aat_getty_uri": "http://vocab.getty.edu/aat/300054594"
     },
     {
-      "id": "CON_0002",
+      "id": "VOC_0002",
       "type": "Concept",
       "label": "Web Semántica y Linked Open Data (LOD)",
       "short_name": null,
@@ -2941,7 +3112,7 @@
       "aat_getty_uri": "http://vocab.getty.edu/aat/300386283"
     },
     {
-      "id": "CON_0003",
+      "id": "VOC_0003",
       "type": "Concept",
       "label": "CIDOC-CRM (ISO 21127)",
       "short_name": null,
@@ -2956,7 +3127,7 @@
       "aat_getty_uri": "http://vocab.getty.edu/aat/300386283"
     },
     {
-      "id": "CON_0004",
+      "id": "VOC_0004",
       "type": "Concept",
       "label": "Microhistoria Urbana",
       "short_name": null,
@@ -2971,7 +3142,7 @@
       "aat_getty_uri": "http://vocab.getty.edu/aat/300054595"
     },
     {
-      "id": "CON_0005",
+      "id": "VOC_0005",
       "type": "Concept",
       "label": "Pensamiento Decolonial",
       "short_name": null,
@@ -2986,7 +3157,7 @@
       "aat_getty_uri": "http://vocab.getty.edu/aat/300055768"
     },
     {
-      "id": "CON_0006",
+      "id": "VOC_0006",
       "type": "Concept",
       "label": "Subalternidad y Representación Afromestiza",
       "short_name": null,
@@ -3001,7 +3172,7 @@
       "aat_getty_uri": "http://vocab.getty.edu/aat/300055768"
     },
     {
-      "id": "CON_0007",
+      "id": "VOC_0007",
       "type": "Concept",
       "label": "Perspectiva de Género y Discipulaje Femenino",
       "short_name": null,
@@ -3016,7 +3187,7 @@
       "aat_getty_uri": "http://vocab.getty.edu/aat/300055768"
     },
     {
-      "id": "CON_0008",
+      "id": "VOC_0008",
       "type": "Concept",
       "label": "Geografía del Mercado del Arte",
       "short_name": null,
@@ -3031,7 +3202,7 @@
       "aat_getty_uri": "http://vocab.getty.edu/aat/300055673"
     },
     {
-      "id": "CON_0009",
+      "id": "VOC_0009",
       "type": "Concept",
       "label": "Logística Clavo a Clavo y Conservación Preventiva",
       "short_name": null,
@@ -3046,7 +3217,7 @@
       "aat_getty_uri": "http://vocab.getty.edu/aat/300054593"
     },
     {
-      "id": "CON_0010",
+      "id": "VOC_0010",
       "type": "Concept",
       "label": "Descentralización e Itinerancia Territorial",
       "short_name": null,
@@ -3061,7 +3232,7 @@
       "aat_getty_uri": "http://vocab.getty.edu/aat/300054595"
     },
     {
-      "id": "CON_0011",
+      "id": "VOC_0011",
       "type": "Concept",
       "label": "Accesibilidad Universal Web (WCAG)",
       "short_name": null,
@@ -3076,7 +3247,7 @@
       "aat_getty_uri": "http://vocab.getty.edu/aat/300386283"
     },
     {
-      "id": "CON_0012",
+      "id": "VOC_0012",
       "type": "Concept",
       "label": "Retrato y Modos de Representación",
       "short_name": null,
@@ -3091,7 +3262,7 @@
       "aat_getty_uri": "http://vocab.getty.edu/aat/300015637"
     },
     {
-      "id": "CON_0013",
+      "id": "VOC_0013",
       "type": "Concept",
       "label": "Catalogación Razonada y Catastro Curatorial",
       "short_name": null,
@@ -3106,7 +3277,7 @@
       "aat_getty_uri": "http://vocab.getty.edu/aat/300054593"
     },
     {
-      "id": "CON_0014",
+      "id": "VOC_0014",
       "type": "Concept",
       "label": "Salones Oficiales y Construcción de Identidad Nacional",
       "short_name": null,
@@ -3121,7 +3292,7 @@
       "aat_getty_uri": "http://vocab.getty.edu/aat/300054595"
     },
     {
-      "id": "CON_0015",
+      "id": "VOC_0015",
       "type": "Concept",
       "label": "Memoria Política, Archivo y Derechos Humanos",
       "short_name": null,
@@ -3136,7 +3307,7 @@
       "aat_getty_uri": "http://vocab.getty.edu/aat/300055768"
     },
     {
-      "id": "CON_0016",
+      "id": "VOC_0016",
       "type": "Concept",
       "label": "Geografía Crítica y Redefinición del Paisaje",
       "short_name": null,
@@ -3151,7 +3322,7 @@
       "aat_getty_uri": "http://vocab.getty.edu/aat/300054595"
     },
     {
-      "id": "CON_0017",
+      "id": "VOC_0017",
       "type": "Concept",
       "label": "Museografía Crítica y Pigmentocracia",
       "short_name": null,
@@ -3166,7 +3337,7 @@
       "aat_getty_uri": "http://vocab.getty.edu/aat/300055768"
     },
     {
-      "id": "CON_0018",
+      "id": "VOC_0018",
       "type": "Concept",
       "label": "Fuentes Primarias y Archivo Histórico",
       "short_name": null,
@@ -3181,7 +3352,7 @@
       "aat_getty_uri": "http://vocab.getty.edu/aat/300028569"
     },
     {
-      "id": "CON_0019",
+      "id": "VOC_0019",
       "type": "Concept",
       "label": "Imagenología y Peritaje Técnico Material",
       "short_name": null,
@@ -3196,7 +3367,7 @@
       "aat_getty_uri": "http://vocab.getty.edu/aat/300054593"
     },
     {
-      "id": "CON_0020",
+      "id": "VOC_0020",
       "type": "Concept",
       "label": "Descripción Archivística y Norma ISAD(G)",
       "short_name": null,
@@ -3211,7 +3382,7 @@
       "aat_getty_uri": "http://vocab.getty.edu/aat/300028569"
     },
     {
-      "id": "CON_0021",
+      "id": "VOC_0021",
       "type": "Concept",
       "label": "Arte, Ciencia y Riesgo Socioambiental",
       "short_name": null,
@@ -3466,7 +3637,7 @@
       "field": null
     },
     {
-      "id": "POS_0001",
+      "id": "CAR_0001",
       "type": "Position",
       "label": "Gestor de Proyectos Patrimoniales | Punto Focal ENPD | Investigador de Colecciones",
       "short_name": null,
@@ -3480,7 +3651,7 @@
       "period": null
     },
     {
-      "id": "POS_0002",
+      "id": "CAR_0002",
       "type": "Position",
       "label": "Evaluador de Proyectos Culturales (FONDART)",
       "short_name": null,
@@ -3494,7 +3665,7 @@
       "period": null
     },
     {
-      "id": "POS_0003",
+      "id": "CAR_0003",
       "type": "Position",
       "label": "Evaluador Externo (Arbitraje por pares ciego)",
       "short_name": null,
@@ -3508,7 +3679,7 @@
       "period": null
     },
     {
-      "id": "POS_0004",
+      "id": "CAR_0004",
       "type": "Position",
       "label": "Profesor Universitario de Cátedra",
       "short_name": null,
@@ -3522,7 +3693,7 @@
       "period": null
     },
     {
-      "id": "POS_0005",
+      "id": "CAR_0005",
       "type": "Position",
       "label": "Co-Editor y Gestor Editorial",
       "short_name": null,
@@ -3536,7 +3707,7 @@
       "period": null
     },
     {
-      "id": "POS_0006",
+      "id": "CAR_0006",
       "type": "Position",
       "label": "Asistente Curatorial y de Exposiciones Temporales",
       "short_name": null,
@@ -3550,7 +3721,7 @@
       "period": null
     },
     {
-      "id": "POS_0007",
+      "id": "CAR_0007",
       "type": "Position",
       "label": "Profesor de Estética y Diseño Múltiple",
       "short_name": null,
@@ -3564,7 +3735,7 @@
       "period": null
     },
     {
-      "id": "POS_0008",
+      "id": "CAR_0008",
       "type": "Position",
       "label": "Asistente de Investigación en Archivística y Documentación",
       "short_name": null,
@@ -3578,7 +3749,7 @@
       "period": null
     },
     {
-      "id": "POS_0009",
+      "id": "CAR_0009",
       "type": "Position",
       "label": "Asistente de Investigación y Catalogación",
       "short_name": null,
@@ -3592,7 +3763,7 @@
       "period": null
     },
     {
-      "id": "POS_0010",
+      "id": "CAR_0010",
       "type": "Position",
       "label": "Investigador Independiente de Patrimonio",
       "short_name": null,
@@ -3606,7 +3777,7 @@
       "period": null
     },
     {
-      "id": "POS_0011",
+      "id": "CAR_0011",
       "type": "Position",
       "label": "Ayudante de Cátedra de Pregrado",
       "short_name": null,
@@ -3620,7 +3791,7 @@
       "period": null
     },
     {
-      "id": "EXH_0001",
+      "id": "EXP_0001",
       "type": "Exhibition",
       "label": "Episodio Monvoisin. Un pintor francés en el Chile del siglo XIX",
       "short_name": null,
@@ -3635,7 +3806,7 @@
       "role": "Coordinador General | Productor"
     },
     {
-      "id": "EXH_0002",
+      "id": "EXP_0001_M01",
       "type": "Exhibition",
       "label": "Traslado obra monumental Cristo y Magdalena",
       "short_name": null,
@@ -3650,7 +3821,7 @@
       "role": "Coordinador Logístico Clavo a Clavo"
     },
     {
-      "id": "EXH_0003",
+      "id": "EXP_0001_M02",
       "type": "Exhibition",
       "label": "Traslado y rescate obra José Tomás de Urmeneta",
       "short_name": null,
@@ -3665,7 +3836,7 @@
       "role": "Coordinador Logístico Clavo a Clavo"
     },
     {
-      "id": "EXH_0004",
+      "id": "EXP_0001_M03",
       "type": "Exhibition",
       "label": "Traslado alta complejidad obras Palacio Cousiño",
       "short_name": null,
@@ -3680,7 +3851,7 @@
       "role": "Coordinador Logístico Clavo a Clavo"
     },
     {
-      "id": "EXH_0005",
+      "id": "EXP_0001_M04",
       "type": "Exhibition",
       "label": "Traslado Institucional Intercomunal (Abdicación de O'Higgins)",
       "short_name": null,
@@ -3695,7 +3866,7 @@
       "role": "Coordinador Logístico Clavo a Clavo"
     },
     {
-      "id": "EXH_0006",
+      "id": "EXP_0001_M05",
       "type": "Exhibition",
       "label": "Traslado Colección Privada Vitacura (5 obras)",
       "short_name": null,
@@ -3710,7 +3881,7 @@
       "role": "Coordinador Logístico Clavo a Clavo"
     },
     {
-      "id": "EXH_0007",
+      "id": "EXP_0001_M06",
       "type": "Exhibition",
       "label": "Traslado Colección Privada Calera de Tango (5 obras)",
       "short_name": null,
@@ -3725,7 +3896,7 @@
       "role": "Coordinador Logístico Clavo a Clavo"
     },
     {
-      "id": "EXH_0008",
+      "id": "EXP_0001_M07",
       "type": "Exhibition",
       "label": "Traslado Colección Privada Recoleta (1 obra)",
       "short_name": null,
@@ -3740,7 +3911,7 @@
       "role": "Coordinador Logístico Clavo a Clavo"
     },
     {
-      "id": "EXH_0009",
+      "id": "EXP_0001_M08",
       "type": "Exhibition",
       "label": "Traslado Colección Privada Huechuraba (1 obra)",
       "short_name": null,
@@ -3755,7 +3926,7 @@
       "role": "Coordinador Logístico Clavo a Clavo"
     },
     {
-      "id": "EXH_0010",
+      "id": "EXP_0001_M09",
       "type": "Exhibition",
       "label": "Traslado Colección Privada Providencia (1 obra)",
       "short_name": null,
@@ -3770,7 +3941,7 @@
       "role": "Coordinador Logístico Clavo a Clavo"
     },
     {
-      "id": "EXH_0011",
+      "id": "EXP_0001_M10",
       "type": "Exhibition",
       "label": "Traslado Colección Privada Las Condes (2 obras)",
       "short_name": null,
@@ -3785,7 +3956,7 @@
       "role": "Coordinador Logístico Clavo a Clavo"
     },
     {
-      "id": "EXH_0012",
+      "id": "EXP_0001_M11",
       "type": "Exhibition",
       "label": "Traslado Colección Privada Padre Hurtado (1 obra)",
       "short_name": null,
@@ -3800,7 +3971,7 @@
       "role": "Coordinador Logístico Clavo a Clavo"
     },
     {
-      "id": "EXH_0013",
+      "id": "EXP_0001_M12",
       "type": "Exhibition",
       "label": "Traslado Colección Privada Graneros (2 obras)",
       "short_name": null,
@@ -3815,7 +3986,7 @@
       "role": "Coordinador Logístico Clavo a Clavo"
     },
     {
-      "id": "EXH_0014",
+      "id": "EXP_0001_M13",
       "type": "Exhibition",
       "label": "Traslado Colección Privada Nancagua (1 obra)",
       "short_name": null,
@@ -3830,7 +4001,7 @@
       "role": "Coordinador Logístico Clavo a Clavo"
     },
     {
-      "id": "EXH_0015",
+      "id": "EXP_0002",
       "type": "Exhibition",
       "label": "Prácticas de reiteración: Colección Museo del Mundo",
       "short_name": null,
@@ -3845,7 +4016,7 @@
       "role": "Co-Curador | Investigador"
     },
     {
-      "id": "EXH_0016",
+      "id": "EXP_0003",
       "type": "Exhibition",
       "label": "Adquisiciones en contexto: La Sociedad Nacional de Bellas Artes 1918-1950",
       "short_name": null,
@@ -3860,7 +4031,7 @@
       "role": "Co-Curador | Investigador"
     },
     {
-      "id": "EXH_0017",
+      "id": "EXP_0004",
       "type": "Exhibition",
       "label": "El canon revisitado. Una mirada al arte europeo desde América Latina",
       "short_name": null,
@@ -3875,7 +4046,7 @@
       "role": "Co-Curador | Coordinador Editorial"
     },
     {
-      "id": "EXH_0018",
+      "id": "EXP_0005",
       "type": "Exhibition",
       "label": "La segunda naturaleza. Colección CCU",
       "short_name": null,
@@ -3890,7 +4061,7 @@
       "role": "Co-Curador"
     },
     {
-      "id": "EXH_0019",
+      "id": "EXP_0006",
       "type": "Exhibition",
       "label": "A 30 años de Rodrigo Rojas de Negri",
       "short_name": null,
@@ -3905,7 +4076,7 @@
       "role": "Curador Principal | Investigador"
     },
     {
-      "id": "EXH_0020",
+      "id": "EXP_0007",
       "type": "Exhibition",
       "label": "Un exilio sin retorno. Rodrigo Rojas De Negri",
       "short_name": null,
@@ -3920,7 +4091,7 @@
       "role": "Asistente de Investigación Curatorial"
     },
     {
-      "id": "EXH_0021",
+      "id": "EXP_0008",
       "type": "Exhibition",
       "label": "Salón de Estudiantes 2013: Desde el resto; Farmacología estética",
       "short_name": null,
@@ -3935,7 +4106,7 @@
       "role": "Coordinador | Productor | Gestor General"
     },
     {
-      "id": "EXH_0022",
+      "id": "EXP_0009",
       "type": "Exhibition",
       "label": "Sala de Fotografía Emergente y Antología de Luis Camnitzer",
       "short_name": null,
@@ -3950,7 +4121,7 @@
       "role": "Asistente Curatorial y Operativo"
     },
     {
-      "id": "EXH_0023",
+      "id": "EXP_0010",
       "type": "Exhibition",
       "label": "Violeta y sus contemporáneas. Influencias y transferencias",
       "short_name": null,
@@ -3965,7 +4136,7 @@
       "role": "Coordinador de Itinerancia Territorial"
     },
     {
-      "id": "EXH_0024",
+      "id": "EXP_0010_1",
       "type": "Exhibition",
       "label": "Violeta y sus contemporáneas. Influencias y transferencias",
       "short_name": null,
@@ -3980,7 +4151,7 @@
       "role": "Coordinador de Itinerancia Territorial"
     },
     {
-      "id": "EXH_0025",
+      "id": "EXP_0011_01",
       "type": "Exhibition",
       "label": "Antúnez: Paisaje y Poesía (Centenario Nemesio Antúnez - Estación Ñuble)",
       "short_name": null,
@@ -3995,7 +4166,7 @@
       "role": "Coordinador de Itinerancia Territorial"
     },
     {
-      "id": "EXH_0026",
+      "id": "EXP_0011_02",
       "type": "Exhibition",
       "label": "Antúnez: Paisaje y Poesía (Centenario Nemesio Antúnez - Estación Biobío)",
       "short_name": null,
@@ -4010,7 +4181,7 @@
       "role": "Coordinador de Itinerancia Territorial"
     },
     {
-      "id": "EXH_0027",
+      "id": "EXP_0011_03",
       "type": "Exhibition",
       "label": "Antúnez: Paisaje y Poesía (Centenario Nemesio Antúnez - Estación Maule)",
       "short_name": null,
@@ -4025,7 +4196,7 @@
       "role": "Coordinador de Itinerancia Territorial"
     },
     {
-      "id": "EXH_0028",
+      "id": "EXP_0012",
       "type": "Exhibition",
       "label": "Crisis, crisis, crisis: La normalidad de la emergencia",
       "short_name": null,
@@ -4040,7 +4211,7 @@
       "role": "Curador Asistente"
     },
     {
-      "id": "EXH_0029",
+      "id": "EXP_0013",
       "type": "Exhibition",
       "label": "Sonata: Exposición Individual de Wladymir Bernechea",
       "short_name": null,
@@ -4175,7 +4346,7 @@
       "role": "Investigador y Equipo Coordinador"
     },
     {
-      "id": "PRJ_0009",
+      "id": "PRJ_0008_N01",
       "type": "Project",
       "label": "Monvoisin en América (Nodo Argentina - San Juan)",
       "short_name": null,
@@ -4190,7 +4361,7 @@
       "role": "Equipo Coordinador Transnacional"
     },
     {
-      "id": "PRJ_0010",
+      "id": "PRJ_0008_N02",
       "type": "Project",
       "label": "Monvoisin en América (Nodo Argentina - Buenos Aires)",
       "short_name": null,
@@ -4205,7 +4376,7 @@
       "role": "Equipo Coordinador Transnacional"
     },
     {
-      "id": "PRJ_0011",
+      "id": "PRJ_0008_N03",
       "type": "Project",
       "label": "Monvoisin en América (Nodo Perú)",
       "short_name": null,
@@ -4220,7 +4391,7 @@
       "role": "Equipo Coordinador Transnacional"
     },
     {
-      "id": "PRJ_0012",
+      "id": "PRJ_0008_N04",
       "type": "Project",
       "label": "Monvoisin en América (Nodo Brasil)",
       "short_name": null,
@@ -4235,7 +4406,7 @@
       "role": "Equipo Coordinador Transnacional"
     },
     {
-      "id": "PRJ_0013",
+      "id": "PRJ_0009",
       "type": "Project",
       "label": "Creación Archivo Fotográfico Rodrigo Rojas De Negri (FONDART Folio 84311)",
       "short_name": null,
@@ -4250,7 +4421,7 @@
       "role": "Investigador Responsable"
     },
     {
-      "id": "PRJ_0014",
+      "id": "PRJ_0010",
       "type": "Project",
       "label": "Salón de Estudiantes 2013 Desde el resto; (FVL-2011)",
       "short_name": null,
@@ -4265,7 +4436,7 @@
       "role": "Responsable General"
     },
     {
-      "id": "PRJ_0015",
+      "id": "PRJ_0011",
       "type": "Project",
       "label": "Beca General MEC (Máster Universitario en Humanidades Digitales)",
       "short_name": null,
@@ -4280,7 +4451,7 @@
       "role": "Becario de Excelencia"
     },
     {
-      "id": "PRJ_0016",
+      "id": "PRJ_0012",
       "type": "Project",
       "label": "Programa de educación Salón de Estudiantes 2013 (FDI-MINEDUC)",
       "short_name": null,
@@ -4295,7 +4466,7 @@
       "role": "Co-responsable"
     },
     {
-      "id": "PRJ_0017",
+      "id": "PRJ_0013",
       "type": "Project",
       "label": "Beca de Formación de Profesionales Iberoamericanos en el Sector Cultural",
       "short_name": null,
@@ -4310,7 +4481,7 @@
       "role": "Becario de Formación"
     },
     {
-      "id": "PRJ_0018",
+      "id": "PRJ_0014",
       "type": "Project",
       "label": "Beca de Inglés CORFO para Profesionales",
       "short_name": null,
@@ -4325,7 +4496,7 @@
       "role": "Becario de Idiomas"
     },
     {
-      "id": "PRJ_0019",
+      "id": "PRJ_0015",
       "type": "Project",
       "label": "Becas de Excelencia Académica (Beca Bicentenario | Equidad | PAE)",
       "short_name": null,
@@ -4340,7 +4511,7 @@
       "role": "Becario de Excelencia Pregrado"
     },
     {
-      "id": "PRJ_0020",
+      "id": "PRJ_0016",
       "type": "Project",
       "label": "S/T Revista de Fotografía Contemporánea (FONDART Nacional Folio 89451)",
       "short_name": null,
@@ -4355,7 +4526,7 @@
       "role": "Co-Editor | Gestor de Proyecto (Editora Principal: Montserrat Rojas Corradi)"
     },
     {
-      "id": "MED_0001",
+      "id": "COM_0001",
       "type": "Media",
       "label": "Exposición Episodio Monvoisin. Un pintor francés en el Chile del siglo XIX",
       "short_name": null,
@@ -4368,7 +4539,7 @@
       "event_or_media": "Programa El Semáforo, Radio Universidad de Chile"
     },
     {
-      "id": "MED_0002",
+      "id": "COM_0002",
       "type": "Media",
       "label": "Raymond Monvoisin: El pintor que retrató la elite chilena (#3676)",
       "short_name": null,
@@ -4381,7 +4552,7 @@
       "event_or_media": "La Hora del Museo, Museo Histórico Nacional"
     },
     {
-      "id": "MED_0003",
+      "id": "COM_0003",
       "type": "Media",
       "label": "Modelos de representación: el afromestizo en dos pinturas de batalla en el chile de mediados del siglo XIX",
       "short_name": null,
@@ -4394,7 +4565,7 @@
       "event_or_media": "XIV Jornadas de Historia del Arte. América Latina, siglos XVIII - XIX. UAI"
     },
     {
-      "id": "MED_0004",
+      "id": "COM_0004",
       "type": "Media",
       "label": "Notas de un itinerario: el perfil comercial del Taller Monvoisin en Chile (1843-1857)",
       "short_name": null,
@@ -4407,7 +4578,7 @@
       "event_or_media": "Laboratorio Circulación, mercado de arte y coleccionismo, UAI"
     },
     {
-      "id": "MED_0005",
+      "id": "COM_0005",
       "type": "Media",
       "label": "Notas preliminares sobre Clara Filleul: de historiografía, exposiciones y fortuna crítica",
       "short_name": null,
@@ -4420,7 +4591,7 @@
       "event_or_media": "Laboratorio género y discipulaje. El Taller Monvoisin. MNBA"
     },
     {
-      "id": "MED_0006",
+      "id": "COM_0006",
       "type": "Media",
       "label": "Género y discipulaje. Los casos de Clara Filleul y Procesa Sarmiento en el Taller Monvoisin",
       "short_name": null,
@@ -4433,7 +4604,7 @@
       "event_or_media": "XIV Jornadas Nacionales de Historia de las Mujeres, Universidad Nacional de Mar del Plata"
     },
     {
-      "id": "MED_0007",
+      "id": "COM_0007",
       "type": "Media",
       "label": "Trazar límites, deslindar fronteras. El caso de la pintura El Fuerte Bulnes (1848) de Alessandro Ciccarelli",
       "short_name": null,
@@ -4446,7 +4617,7 @@
       "event_or_media": "X Jornadas de história da arte política(s) na história da arte, UNIFESP"
     },
     {
-      "id": "MED_0008",
+      "id": "COM_0008",
       "type": "Media",
       "label": "Espacio devocional y cotidiano, al encuentro del reconocimiento del afromestizo...",
       "short_name": null,
@@ -4459,7 +4630,7 @@
       "event_or_media": "II Congreso Nacional e Internacional de Historia del Arte, Universidad Autónoma de Chile"
     },
     {
-      "id": "MED_0009",
+      "id": "COM_0009",
       "type": "Media",
       "label": "Modelos de representación. Ausencia y presencia afromestiza en imágenes. Chile siglo XIX",
       "short_name": null,
@@ -4472,7 +4643,7 @@
       "event_or_media": "Seminario: Circulaciones, coleccionismo, apropiaciones en el siglo XIX, UAI"
     },
     {
-      "id": "MED_0010",
+      "id": "COM_0010",
       "type": "Media",
       "label": "Incertidumbres en las visualidades de indígenas y negros en Chile",
       "short_name": null,
@@ -4485,7 +4656,7 @@
       "event_or_media": "VI Simposio Internacional de Estética: Estéticas del poder y contra-poder, PUC"
     },
     {
-      "id": "MED_0011",
+      "id": "COM_0011",
       "type": "Media",
       "label": "La constitución del Salón de Santiago. Notas sobre la institucionalización del sistema de exhibición...",
       "short_name": null,
@@ -4498,7 +4669,7 @@
       "event_or_media": "III Encuentro de Jóvenes Investigadores en Arte, CAIA / UBA"
     },
     {
-      "id": "MED_0012",
+      "id": "COM_0012",
       "type": "Media",
       "label": "Charla sobre curaduría e investigación del archivo fotográfico Rodrigo Rojas De Negri",
       "short_name": null,
@@ -4511,7 +4682,7 @@
       "event_or_media": "Artistas del Acero, Concepción, Chile"
     },
     {
-      "id": "MED_0013",
+      "id": "COM_0013",
       "type": "Media",
       "label": "De curador y curadores. Encuentro teórico",
       "short_name": null,
@@ -4524,7 +4695,7 @@
       "event_or_media": "Instituto de Estudios Avanzados IDEA, USACH"
     },
     {
-      "id": "MED_0014",
+      "id": "COM_0014",
       "type": "Media",
       "label": "Charla en el marco de la exposición temporal Genius Loci",
       "short_name": null,
@@ -4537,7 +4708,7 @@
       "event_or_media": "Museo Benjamín Vicuña Mackenna"
     },
     {
-      "id": "MED_0015",
+      "id": "COM_0015",
       "type": "Media",
       "label": "Valioso retrato de Monvoisin entra a la colección del Museo de Bellas Artes",
       "short_name": null,
@@ -4550,7 +4721,7 @@
       "event_or_media": "Diario El Mercurio (Cultura)"
     },
     {
-      "id": "MED_0016",
+      "id": "COM_0016",
       "type": "Media",
       "label": "Abre sus puertas: Exposición Episodio Monvoisin y logística de traslado de obras",
       "short_name": null,
@@ -4563,7 +4734,7 @@
       "event_or_media": "Artes y Letras, Diario El Mercurio"
     },
     {
-      "id": "MED_0017",
+      "id": "COM_0017",
       "type": "Media",
       "label": "Pintura de la Catedral de Concepción atrae miradas en el MNBA",
       "short_name": null,
@@ -4576,7 +4747,7 @@
       "event_or_media": "Diario El Sur (Concepción)"
     },
     {
-      "id": "MED_0018",
+      "id": "COM_0018",
       "type": "Media",
       "label": "Matriz Imaginada. Archivo Salón de Estudiantes 2013",
       "short_name": null,
@@ -4589,7 +4760,7 @@
       "event_or_media": "Archivo Central Andrés Bello, Universidad de Chile"
     },
     {
-      "id": "MED_0019",
+      "id": "COM_0019",
       "type": "Media",
       "label": "Presentación del modelo de gestión Salón de Estudiantes 2013",
       "short_name": null,
@@ -4602,7 +4773,7 @@
       "event_or_media": "Promoción del Arte, MECD España"
     },
     {
-      "id": "MED_0020",
+      "id": "COM_0020",
       "type": "Media",
       "label": "Ciclo Instagram Live: Monvoisin en América (5 capítulos)",
       "short_name": null,
@@ -4615,7 +4786,7 @@
       "event_or_media": "Museo Nacional de Bellas Artes (Instagram Live)"
     },
     {
-      "id": "MED_0021",
+      "id": "COM_0021",
       "type": "Media",
       "label": "Desde el Museo. Miradas Alteradas: colonialismo y dominación",
       "short_name": null,
@@ -4628,7 +4799,7 @@
       "event_or_media": "Museo Nacional de Bellas Artes (YouTube)"
     },
     {
-      "id": "MED_0022",
+      "id": "COM_0022",
       "type": "Media",
       "label": "Instagram Live: Representación de la afrodescendencia en la Colección MNBA",
       "short_name": null,
@@ -4641,7 +4812,7 @@
       "event_or_media": "Museo Nacional de Bellas Artes (Instagram Live)"
     },
     {
-      "id": "MED_0023",
+      "id": "COM_0023",
       "type": "Media",
       "label": "Desde el Museo: Adquisiciones en contexto",
       "short_name": null,
@@ -4654,7 +4825,7 @@
       "event_or_media": "Museo Nacional de Bellas Artes (Instagram Live)"
     },
     {
-      "id": "MED_0024",
+      "id": "COM_0024",
       "type": "Media",
       "label": "Recorrido mediado por la exposición Adquisiciones en contexto",
       "short_name": null,
@@ -4667,7 +4838,7 @@
       "event_or_media": "Sala Chile, Museo Nacional de Bellas Artes"
     },
     {
-      "id": "MED_0025",
+      "id": "COM_0025",
       "type": "Media",
       "label": "Lanzamiento plataforma web QUINSAC y libro Monvoisin en América",
       "short_name": null,
@@ -4680,7 +4851,7 @@
       "event_or_media": "Salón Blanco, Museo Nacional de Bellas Artes"
     },
     {
-      "id": "MED_0026",
+      "id": "COM_0026",
       "type": "Media",
       "label": "Los canteros de Pedro Lira: Trayectoria histórica y aproximación iconográfica",
       "short_name": null,
@@ -4693,7 +4864,7 @@
       "event_or_media": "Jornadas de Declaración de Significado (CNCR - MNBA)"
     },
     {
-      "id": "MED_0027",
+      "id": "COM_0027",
       "type": "Media",
       "label": "Cápsula audiovisual de mediación: Exposición Episodio Monvoisin en el MNBA",
       "short_name": null,
@@ -4706,7 +4877,7 @@
       "event_or_media": "Instagram Reel Oficial MNBA"
     },
     {
-      "id": "DGH_0001",
+      "id": "DIG_0001",
       "type": "DigitalHeritage",
       "label": "QUINSAC. Estudios razonados de arte y coleccionismo",
       "short_name": null,
@@ -4718,7 +4889,7 @@
       "row_number": 1
     },
     {
-      "id": "DGH_0002",
+      "id": "DIG_0006",
       "type": "DigitalHeritage",
       "label": "Monvoisin: huellas territoriales de un artista",
       "short_name": null,
@@ -4730,7 +4901,7 @@
       "row_number": 2
     },
     {
-      "id": "DGH_0003",
+      "id": "DIG_0008",
       "type": "DigitalHeritage",
       "label": "Plataforma virtual Salón de Estudiantes",
       "short_name": null,
@@ -4742,7 +4913,7 @@
       "row_number": 3
     },
     {
-      "id": "DGH_0004",
+      "id": "DIG_0009",
       "type": "DigitalHeritage",
       "label": "Callejera Madrid",
       "short_name": null,
@@ -4754,7 +4925,7 @@
       "row_number": 4
     },
     {
-      "id": "DGH_0005",
+      "id": "DIG_0010",
       "type": "DigitalHeritage",
       "label": "Arquitectura Art Déco en Santiago centro",
       "short_name": null,
@@ -4766,7 +4937,7 @@
       "row_number": 5
     },
     {
-      "id": "DGH_0006",
+      "id": "DIG_0011",
       "type": "DigitalHeritage",
       "label": "Mármoles y Bronces entre el Mediterráneo y los Andes",
       "short_name": null,
@@ -4779,6 +4950,318 @@
     }
   ],
   "links": [
+    {
+      "id": "REL_ORG_LOC_0001",
+      "source": "ORG_0002",
+      "target": "LOC_0001",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0002 has location LOC_0001",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0002",
+      "source": "ORG_0001",
+      "target": "LOC_0002",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0001 has location LOC_0002",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0003",
+      "source": "ORG_0034",
+      "target": "LOC_0003",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0034 has location LOC_0003",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0004",
+      "source": "ORG_0004",
+      "target": "LOC_0004",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0004 has location LOC_0004",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0005",
+      "source": "ORG_0005",
+      "target": "LOC_0005",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0005 has location LOC_0005",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0006",
+      "source": "ORG_0006",
+      "target": "LOC_0006",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0006 has location LOC_0006",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0007",
+      "source": "ORG_0008",
+      "target": "LOC_0007",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0008 has location LOC_0007",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0008",
+      "source": "ORG_0009",
+      "target": "LOC_0008",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0009 has location LOC_0008",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0009",
+      "source": "ORG_0010",
+      "target": "LOC_0009",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0010 has location LOC_0009",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0010",
+      "source": "ORG_0011",
+      "target": "LOC_0010",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0011 has location LOC_0010",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0011",
+      "source": "ORG_0012",
+      "target": "LOC_0011",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0012 has location LOC_0011",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0012",
+      "source": "ORG_0013",
+      "target": "LOC_0012",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0013 has location LOC_0012",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0013",
+      "source": "ORG_0015",
+      "target": "LOC_0013",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0015 has location LOC_0013",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0014",
+      "source": "ORG_0016",
+      "target": "LOC_0014",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0016 has location LOC_0014",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0015",
+      "source": "ORG_0018",
+      "target": "LOC_0015",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0018 has location LOC_0015",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0016",
+      "source": "ORG_0019",
+      "target": "LOC_0016",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0019 has location LOC_0016",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0017",
+      "source": "ORG_0020",
+      "target": "LOC_0017",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0020 has location LOC_0017",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0018",
+      "source": "ORG_0021",
+      "target": "LOC_0018",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0021 has location LOC_0018",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0019",
+      "source": "ORG_0022",
+      "target": "LOC_0019",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0022 has location LOC_0019",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0020",
+      "source": "ORG_0023",
+      "target": "LOC_0020",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0023 has location LOC_0020",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0021",
+      "source": "ORG_0024",
+      "target": "LOC_0021",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0024 has location LOC_0021",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0022",
+      "source": "ORG_0018",
+      "target": "LOC_0022",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0018 has location LOC_0022",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0023",
+      "source": "ORG_0026",
+      "target": "LOC_0023",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0026 has location LOC_0023",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0024",
+      "source": "ORG_0027",
+      "target": "LOC_0024",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0027 has location LOC_0024",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0025",
+      "source": "ORG_0028",
+      "target": "LOC_0025",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0028 has location LOC_0025",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0029",
+      "source": "ORG_0018",
+      "target": "LOC_0029",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0018 has location LOC_0029",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0036",
+      "source": "ORG_0009",
+      "target": "LOC_0036",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0009 has location LOC_0036",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0039",
+      "source": "ORG_0039",
+      "target": "LOC_0039",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0039 has location LOC_0039",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0040",
+      "source": "ORG_0030",
+      "target": "LOC_0040",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0030 has location LOC_0040",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0041",
+      "source": "ORG_0032",
+      "target": "LOC_0041",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0032 has location LOC_0041",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0042",
+      "source": "ORG_0033",
+      "target": "LOC_0042",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0033 has location LOC_0042",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0043",
+      "source": "ORG_0034",
+      "target": "LOC_0043",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0034 has location LOC_0043",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0044",
+      "source": "ORG_0035",
+      "target": "LOC_0044",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0035 has location LOC_0044",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0045",
+      "source": "ORG_0036",
+      "target": "LOC_0045",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0036 has location LOC_0045",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0046",
+      "source": "ORG_0003",
+      "target": "LOC_0046",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0003 has location LOC_0046",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0047",
+      "source": "ORG_0038",
+      "target": "LOC_0047",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0038 has location LOC_0047",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0048",
+      "source": "ORG_0037",
+      "target": "LOC_0048",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0037 has location LOC_0048",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0049",
+      "source": "ORG_0029",
+      "target": "LOC_0049",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0029 has location LOC_0049",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0056",
+      "source": "ORG_0040",
+      "target": "LOC_0056",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0040 has location LOC_0056",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
     {
       "id": "REL_0001",
       "source": "PER_0001",
@@ -5244,6 +5727,1068 @@
       "target": "ORG_0008",
       "predicate": "schema:funder",
       "year": "2014",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0053",
+      "source": "PER_0001",
+      "target": "ORG_0001",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0054",
+      "source": "PER_0001",
+      "target": "ORG_0002",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0055",
+      "source": "PER_0001",
+      "target": "ORG_0004",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0056",
+      "source": "PER_0001",
+      "target": "ORG_0006",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0057",
+      "source": "PER_0001",
+      "target": "ORG_0008",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0058",
+      "source": "PER_0001",
+      "target": "ORG_0011",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0059",
+      "source": "PER_0001",
+      "target": "ORG_0012",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0060",
+      "source": "PER_0001",
+      "target": "ORG_0022",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0061",
+      "source": "PER_0001",
+      "target": "ORG_0034",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0062",
+      "source": "PER_0001",
+      "target": "ORG_0037",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0063",
+      "source": "PER_0001",
+      "target": "ORG_0038",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0064",
+      "source": "PER_0001",
+      "target": "ORG_0003",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0065",
+      "source": "PER_0001",
+      "target": "ORG_0005",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0066",
+      "source": "PER_0001",
+      "target": "ORG_0007",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0067",
+      "source": "PER_0001",
+      "target": "ORG_0009",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0068",
+      "source": "PER_0001",
+      "target": "ORG_0010",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0069",
+      "source": "PER_0001",
+      "target": "ORG_0013",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0070",
+      "source": "PER_0001",
+      "target": "ORG_0014",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0071",
+      "source": "PER_0001",
+      "target": "ORG_0033",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0072",
+      "source": "PER_0001",
+      "target": "ORG_0035",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0073",
+      "source": "PER_0001",
+      "target": "ORG_0036",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0074",
+      "source": "PER_0001",
+      "target": "PER_0008",
+      "predicate": "crm:P11_had_participant",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0075",
+      "source": "PER_0001",
+      "target": "PER_0004",
+      "predicate": "crm:P11_had_participant",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0076",
+      "source": "PER_0001",
+      "target": "PER_0011",
+      "predicate": "crm:P11_had_participant",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0077",
+      "source": "PER_0008",
+      "target": "PER_0011",
+      "predicate": "crm:P11_had_participant",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0078",
+      "source": "PER_0022",
+      "target": "crm:P11_had_participant",
+      "predicate": "PRJ_0009",
+      "year": "Rodrigo Rojas De Negri es sujeto del FONDART Archivo Fotográfico",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0079",
+      "source": "PER_0022",
+      "target": "crm:P129_subject_of",
+      "predicate": "PUB_0003",
+      "year": "Rodrigo Rojas De Negri es sujeto del libro de investigación",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0080",
+      "source": "PER_0022",
+      "target": "crm:P129_subject_of",
+      "predicate": "EXP_0006",
+      "year": "Exposición \"A 30 años de Rodrigo Rojas de Negri\" (2016)",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0081",
+      "source": "PER_0022",
+      "target": "crm:P129_subject_of",
+      "predicate": "EXP_0007",
+      "year": "Exposición \"Un exilio sin retorno. Rodrigo Rojas De Negri\"",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0082",
+      "source": "PER_0022",
+      "target": "crm:P74_has_current_or_former_residence",
+      "predicate": "LOC_0053",
+      "year": "Rodrigo Rojas De Negri residió en exilio en Washington D.C.",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0083",
+      "source": "PER_0022",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0012",
+      "year": "Tema de charla de mediación curatorial",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0084",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0001",
+      "year": "Jaime Arnaldo Cuevas Pérez participated/curated EXP_0001",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0085",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0001_M01",
+      "year": "Jaime Arnaldo Cuevas Pérez participated/curated EXP_0001_M01",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0086",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0001_M02",
+      "year": "Jaime Arnaldo Cuevas Pérez participated/curated EXP_0001_M02",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0087",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0001_M03",
+      "year": "Jaime Arnaldo Cuevas Pérez participated/curated EXP_0001_M03",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0088",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0001_M04",
+      "year": "Jaime Arnaldo Cuevas Pérez participated/curated EXP_0001_M04",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0089",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0001_M05",
+      "year": "Jaime Arnaldo Cuevas Pérez participated/curated EXP_0001_M05",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0090",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0001_M06",
+      "year": "Jaime Arnaldo Cuevas Pérez participated/curated EXP_0001_M06",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0091",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0001_M07",
+      "year": "Jaime Arnaldo Cuevas Pérez participated/curated EXP_0001_M07",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0092",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0001_M08",
+      "year": "Jaime Arnaldo Cuevas Pérez participated/curated EXP_0001_M08",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0093",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0001_M09",
+      "year": "Jaime Arnaldo Cuevas Pérez participated/curated EXP_0001_M09",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0094",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0001_M10",
+      "year": "Jaime Arnaldo Cuevas Pérez participated/curated EXP_0001_M10",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0095",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0001_M11",
+      "year": "Jaime Arnaldo Cuevas Pérez participated/curated EXP_0001_M11",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0096",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0001_M12",
+      "year": "Jaime Arnaldo Cuevas Pérez participated/curated EXP_0001_M12",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0097",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0001_M13",
+      "year": "Jaime Arnaldo Cuevas Pérez participated/curated EXP_0001_M13",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0098",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0002",
+      "year": "Jaime Arnaldo Cuevas Pérez participated/curated EXP_0002",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0099",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0005",
+      "year": "Jaime Arnaldo Cuevas Pérez participated/curated EXP_0005",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0100",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0006",
+      "year": "Jaime Arnaldo Cuevas Pérez participated/curated EXP_0006",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0101",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0007",
+      "year": "Jaime Arnaldo Cuevas Pérez participated/curated EXP_0007",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0102",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0008",
+      "year": "Jaime Arnaldo Cuevas Pérez participated/curated EXP_0008",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0103",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0009",
+      "year": "Jaime Arnaldo Cuevas Pérez participated/curated EXP_0009",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0104",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0010",
+      "year": "Jaime Arnaldo Cuevas Pérez participated/curated EXP_0010",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0105",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0010_1",
+      "year": "Jaime Arnaldo Cuevas Pérez participated/curated EXP_0010_1",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0106",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0011_01",
+      "year": "Jaime Arnaldo Cuevas Pérez participated/curated EXP_0011_01",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0107",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0011_02",
+      "year": "Jaime Arnaldo Cuevas Pérez participated/curated EXP_0011_02",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0108",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0011_03",
+      "year": "Jaime Arnaldo Cuevas Pérez participated/curated EXP_0011_03",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0109",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0001",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0001",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0110",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0002",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0002",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0111",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0003",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0003",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0112",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0004",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0004",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0113",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0005",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0005",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0114",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0006",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0006",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0115",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0007",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0007",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0116",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0008",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0008",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0117",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0009",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0009",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0118",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0010",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0010",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0119",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0011",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0011",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0120",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0012",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0012",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0121",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0013",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0013",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0122",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0014",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0014",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0123",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0015",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0015",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0124",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0016",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0016",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0125",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0017",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0017",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0126",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0018",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0018",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0127",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0019",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0019",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0128",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0020",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0020",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0129",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0021",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0021",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0130",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0022",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0022",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0131",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0023",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0023",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0132",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0024",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0024",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0133",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0025",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0025",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0134",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0026",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0026",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0135",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0027",
+      "year": "Jaime Arnaldo Cuevas Pérez participated in media event COM_0027",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0136",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PRJ_0003",
+      "year": "Jaime Arnaldo Cuevas Pérez worked on/investigated PRJ_0003",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0137",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PRJ_0004",
+      "year": "Jaime Arnaldo Cuevas Pérez worked on/investigated PRJ_0004",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0138",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PRJ_0007",
+      "year": "Jaime Arnaldo Cuevas Pérez worked on/investigated PRJ_0007",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0139",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PRJ_0008_N01",
+      "year": "Jaime Arnaldo Cuevas Pérez worked on/investigated PRJ_0008_N01",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0140",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PRJ_0008_N02",
+      "year": "Jaime Arnaldo Cuevas Pérez worked on/investigated PRJ_0008_N02",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0141",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PRJ_0008_N03",
+      "year": "Jaime Arnaldo Cuevas Pérez worked on/investigated PRJ_0008_N03",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0142",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PRJ_0008_N04",
+      "year": "Jaime Arnaldo Cuevas Pérez worked on/investigated PRJ_0008_N04",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0143",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PRJ_0011",
+      "year": "Jaime Arnaldo Cuevas Pérez worked on/investigated PRJ_0011",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0144",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PRJ_0012",
+      "year": "Jaime Arnaldo Cuevas Pérez worked on/investigated PRJ_0012",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0145",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PRJ_0013",
+      "year": "Jaime Arnaldo Cuevas Pérez worked on/investigated PRJ_0013",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0146",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PRJ_0014",
+      "year": "Jaime Arnaldo Cuevas Pérez worked on/investigated PRJ_0014",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0147",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PRJ_0015",
+      "year": "Jaime Arnaldo Cuevas Pérez worked on/investigated PRJ_0015",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0148",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PUB_0001",
+      "year": "Jaime Arnaldo Cuevas Pérez authored/co-authored PUB_0001",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0149",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PUB_0002",
+      "year": "Jaime Arnaldo Cuevas Pérez authored/co-authored PUB_0002",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0150",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PUB_0003",
+      "year": "Jaime Arnaldo Cuevas Pérez authored/co-authored PUB_0003",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0151",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PUB_0004",
+      "year": "Jaime Arnaldo Cuevas Pérez authored/co-authored PUB_0004",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0152",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PUB_0006",
+      "year": "Jaime Arnaldo Cuevas Pérez authored/co-authored PUB_0006",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0153",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PUB_0007",
+      "year": "Jaime Arnaldo Cuevas Pérez authored/co-authored PUB_0007",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0154",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PUB_0008",
+      "year": "Jaime Arnaldo Cuevas Pérez authored/co-authored PUB_0008",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0155",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PUB_0009",
+      "year": "Jaime Arnaldo Cuevas Pérez authored/co-authored PUB_0009",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0156",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PUB_0010",
+      "year": "Jaime Arnaldo Cuevas Pérez authored/co-authored PUB_0010",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0157",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PUB_0011",
+      "year": "Jaime Arnaldo Cuevas Pérez authored/co-authored PUB_0011",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0158",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PUB_0012",
+      "year": "Jaime Arnaldo Cuevas Pérez authored/co-authored PUB_0012",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0159",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PUB_0013",
+      "year": "Jaime Arnaldo Cuevas Pérez authored/co-authored PUB_0013",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0160",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PUB_0014",
+      "year": "Jaime Arnaldo Cuevas Pérez authored/co-authored PUB_0014",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0161",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PUB_0015",
+      "year": "Jaime Arnaldo Cuevas Pérez authored/co-authored PUB_0015",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0162",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PUB_0016",
+      "year": "Jaime Arnaldo Cuevas Pérez authored/co-authored PUB_0016",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0163",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PUB_0017",
+      "year": "Jaime Arnaldo Cuevas Pérez authored/co-authored PUB_0017",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0164",
+      "source": "PER_0001",
+      "target": "crm:P11_had_participant",
+      "predicate": "PUB_0018",
+      "year": "Jaime Arnaldo Cuevas Pérez authored/co-authored PUB_0018",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0165",
+      "source": "PER_0004",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0003",
+      "year": "Manuel Alvarado Cornejo participated/curated EXP_0003",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0166",
+      "source": "PER_0004",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0004",
+      "year": "Manuel Alvarado Cornejo participated/curated EXP_0004",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0167",
+      "source": "PER_0008",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0002",
+      "year": "Camila Caris Seguel participated/curated EXP_0002",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0168",
+      "source": "PER_0008",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0008",
+      "year": "Camila Caris Seguel participated/curated EXP_0008",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0169",
+      "source": "PER_0011",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0007",
+      "year": "Montserrat Rojas Corradi participated/curated EXP_0007",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0170",
+      "source": "PER_0011",
+      "target": "crm:P11_had_participant",
+      "predicate": "EXP_0009",
+      "year": "Montserrat Rojas Corradi participated/curated EXP_0009",
       "description": null,
       "_sheet_name": "Relaciones_Grafo_LOD"
     }
