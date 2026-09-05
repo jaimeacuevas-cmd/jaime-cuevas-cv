@@ -3676,7 +3676,11 @@
       "source_sheet": "",
       "row_number": 1,
       "organization": "Museo Nacional de Bellas Artes (MNBA)",
-      "period": null
+      "period": null,
+      "start_year": 2017,
+      "end_year": 2025,
+      "skills": "Humanidades Digitales | CIDOC-CRM | Bases de Datos Relacionales | Conservación Preventiva | Logística Clavo a Clavo | Descolonización de Metadatos",
+      "achievements": "Desarrollo plataforma web Quinsac | Implementación Plan Nacional de Patrimonios Digitales | Coordinación logística expo Episodio Monvoisin ($1.273M en seguros)"
     },
     {
       "id": "CAR_0002",
@@ -3690,7 +3694,11 @@
       "source_sheet": "",
       "row_number": 2,
       "organization": "Subsecretaría de las Culturas y las Artes, Chile",
-      "period": null
+      "period": null,
+      "start_year": 2018,
+      "end_year": 2025,
+      "skills": "Análisis de Viabilidad Técnica | Presupuestos | Planificación | Evaluación de Políticas Públicas",
+      "achievements": "Presidente de Comisión Técnica de Evaluación en convocatorias nacionales FONDART"
     },
     {
       "id": "CAR_0003",
@@ -3704,7 +3712,11 @@
       "source_sheet": "",
       "row_number": 3,
       "organization": "Revista de Humanidades, UNAB",
-      "period": null
+      "period": null,
+      "start_year": 2023,
+      "end_year": 2023,
+      "skills": "Revisión Crítica | Análisis Bibliográfico | Arbitraje Doble Ciego",
+      "achievements": "Evaluación científica de artículos de investigación para indexación académica"
     },
     {
       "id": "CAR_0004",
@@ -3718,7 +3730,11 @@
       "source_sheet": "",
       "row_number": 4,
       "organization": "Universidad Adolfo Ibáñez",
-      "period": null
+      "period": null,
+      "start_year": 2018,
+      "end_year": 2019,
+      "skills": "Docencia Universitaria | Diseño Curricular | Pedagogía Crítica",
+      "achievements": "Cátedras disciplinares: Historia de Chile en imágenes | La imagen del otro | La revolución permanente en el arte del siglo XX"
     },
     {
       "id": "CAR_0005",
@@ -3732,7 +3748,11 @@
       "source_sheet": "",
       "row_number": 5,
       "organization": "S/T Revista de Fotografía Contemporánea / LOM Ediciones",
-      "period": null
+      "period": null,
+      "start_year": 2014,
+      "end_year": 2017,
+      "skills": "Gestión Editorial | Curaduría de Contenidos | Formulación de Fondos Competitivos",
+      "achievements": "Edición y circulación nacional de publicación bianual (FONDART Difusión)"
     },
     {
       "id": "CAR_0006",
@@ -3746,7 +3766,11 @@
       "source_sheet": "",
       "row_number": 6,
       "organization": "Museo de Arte Contemporáneo (MAC Quinta Normal)",
-      "period": null
+      "period": null,
+      "start_year": 2013,
+      "end_year": 2014,
+      "skills": "Enlace Curaduría-Museografía | Organización de Montaje | Circulación Interna de Obras",
+      "achievements": "Coordinación operativa Sala Fotografía Emergente y retrospectiva Antología de Luis Camnitzer"
     },
     {
       "id": "CAR_0007",
@@ -3760,7 +3784,11 @@
       "source_sheet": "",
       "row_number": 7,
       "organization": "ISUCH, Universidad de Chile",
-      "period": null
+      "period": null,
+      "start_year": 2013,
+      "end_year": 2013,
+      "skills": "Docencia Secundaria Especializada en Artes | Evaluación Pedagógica",
+      "achievements": "Clases lectivas de historia del arte universal para III y IV medio"
     },
     {
       "id": "CAR_0008",
@@ -3774,7 +3802,11 @@
       "source_sheet": "",
       "row_number": 8,
       "organization": "Museo de la Solidaridad Salvador Allende (MSSA)",
-      "period": null
+      "period": null,
+      "start_year": 2011,
+      "end_year": 2012,
+      "skills": "Investigación Documental | Fichaje de Archivos de Arte y Política",
+      "achievements": "Catalogación de archivos fundacionales e institucionales del museo"
     },
     {
       "id": "CAR_0009",
@@ -3788,7 +3820,11 @@
       "source_sheet": "",
       "row_number": 9,
       "organization": "Museo de Arte Popular Americano Tomás Lago (MAPA)",
-      "period": null
+      "period": null,
+      "start_year": 2011,
+      "end_year": 2011,
+      "skills": "Investigación | Catalogación de Arte Popular Latinoamericano | Museografía",
+      "achievements": "Catalogación y montaje de exposiciones fundacionales Tesoros Chilenos y Latinoamericanos en GAM"
     },
     {
       "id": "CAR_0010",
@@ -3802,7 +3838,11 @@
       "source_sheet": "",
       "row_number": 10,
       "organization": "Centro Nacional de Conservación y Restauración (CNCR)",
-      "period": null
+      "period": null,
+      "start_year": 2019,
+      "end_year": 2019,
+      "skills": "Investigación Histórica Aplicada | Informes Técnicos de Conservación",
+      "achievements": "Estudio histórico y contextual de los murales de Nemesio Antúnez (Monumentos Nacionales)"
     },
     {
       "id": "CAR_0011",
@@ -3816,7 +3856,11 @@
       "source_sheet": "",
       "row_number": 11,
       "organization": "Universidad Adolfo Ibáñez",
-      "period": null
+      "period": null,
+      "start_year": 2016,
+      "end_year": 2018,
+      "skills": "Apoyo Docente | Corrección de Evaluaciones | Preparación Bibliográfica",
+      "achievements": "Ayudantías en Historia de Chile (s. XIX) | Historia Universal (1815-1940) | Arte Occidental"
     },
     {
       "id": "EXP_0001",

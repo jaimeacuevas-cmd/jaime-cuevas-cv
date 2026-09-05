@@ -225,10 +225,18 @@ class DataTransformer:
         for idx, row in enumerate(rows):
             node = self._create_base_node('Position', row, idx)
 
+            # Extract start and end years
+            start_year = row.get('periodo_inicio')
+            end_year = row.get('periodo_fin')
+
             node.update({
                 'label': row.get('cargo_o_rol', '').strip(),
                 'organization': row.get('institucion', '').strip() or None,
                 'period': normalize_period(row.get('periodo')),
+                'start_year': int(start_year) if start_year else None,
+                'end_year': int(end_year) if end_year else None,
+                'skills': row.get('competencias_y_herramientas', '').strip() or None,
+                'achievements': row.get('logros_destacados', '').strip() or None,
                 'description': row.get('descripcion', '').strip() or None,
                 '_sheet_name': 'Trayectoria_Laboral',
             })

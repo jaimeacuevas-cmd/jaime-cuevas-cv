@@ -1737,19 +1737,21 @@
         }
       });
 
-      // Extract positions (Position nodes)
+      // Extract positions (Position nodes) - filter only current (2025)
       const posLinks = jaimenLinks.filter(l => {
         const target = fullGraphData.nodes.find(n => n.id === l.target);
         return target && target.type === 'Position';
       });
 
-      const positions = [];
+      const currentPositions = [];
       posLinks.forEach(link => {
         const posNode = fullGraphData.nodes.find(n => n.id === link.target);
-        if (posNode) {
-          const orgInfo = posNode.organization ? posNode.organization.trim() : '';
+        if (posNode && posNode.end_year === 2025) {  // Only current positions
           const label = posNode.label ? posNode.label.trim() : '';
-          positions.push({ label, organization: orgInfo });
+          const startYear = posNode.start_year || '';
+          const endYear = posNode.end_year || '';
+          const period = startYear && endYear ? `${startYear}-${endYear}` : '';
+          currentPositions.push({ label, period });
         }
       });
 
@@ -1760,10 +1762,11 @@
         document.getElementById('fichaEducacion').textContent = Array.from(educationInstitutions).slice(0, 2).join(' | ');
       }
 
-      if (positions.length > 0) {
-        // Show most recent positions (sorted by description/label)
-        const topPositions = positions.slice(0, 2);
-        document.getElementById('fichaPosicion').textContent = topPositions.map(p => p.label || p.organization).filter(x => x).join(' · ');
+      if (currentPositions.length > 0) {
+        // Show current positions with period
+        const topPositions = currentPositions.slice(0, 2);
+        const positionText = topPositions.map(p => `${p.label} (${p.period})`).join(' · ');
+        document.getElementById('fichaPosicion').textContent = positionText;
       }
     }
 
