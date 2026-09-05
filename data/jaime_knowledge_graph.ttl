@@ -17,172 +17,172 @@ jc:PER_0001 a crm:E21_Person ;
     schema:url <https://scholar.google.com/citations?user=M_10CSUAAAAJ&hl=es> ;
     schema:nationality "Española | Chilena" .
 
-jc:PER_0002 a crm:E21_Person ;
+jc:PER_0003 a crm:E21_Person ;
     rdfs:label "Marcela Drien Fábregas" ;
     skos:exactMatch <https://orcid.org/0000-0002-0223-0276> ;
     schema:nationality "Chilena" .
 
-jc:PER_0003 a crm:E21_Person ;
+jc:PER_0004 a crm:E21_Person ;
     rdfs:label "Manuel Alvarado Cornejo" ;
     skos:exactMatch <https://orcid.org/0000-0002-0239-0872> ;
     schema:nationality "Chilena" .
 
-jc:PER_0004 a crm:E21_Person ;
+jc:PER_0005 a crm:E21_Person ;
     rdfs:label "Milencka Vidal Consiglieri" ;
     schema:nationality "Chilena" .
 
-jc:PER_0005 a crm:E21_Person ;
+jc:PER_0006 a crm:E21_Person ;
     rdfs:label "Antonia Viu" ;
     skos:exactMatch <https://orcid.org/0000-0001-0164-8842> ;
     schema:nationality "Chilena" .
 
-jc:PER_0006 a crm:E21_Person ;
+jc:PER_0007 a crm:E21_Person ;
     rdfs:label "Noemí Cinelli" ;
     skos:exactMatch <https://orcid.org/0000-0002-0284-486X> ;
     schema:nationality "Italiana | Chilena" .
 
-jc:PER_0007 a crm:E21_Person ;
+jc:PER_0008 a crm:E21_Person ;
     rdfs:label "Camila Caris Seguel" ;
     schema:nationality "Chilena" .
 
-jc:PER_0008 a crm:E21_Person ;
+jc:PER_0009 a crm:E21_Person ;
     rdfs:label "Estefanía Granja" ;
     schema:nationality "Ecuatoriana | Española" .
 
-jc:PER_0009 a crm:E21_Person ;
+jc:PER_0010 a crm:E21_Person ;
     rdfs:label "Daniela Colleoni" ;
     schema:nationality "Chilena" .
 
-jc:PER_0010 a crm:E21_Person ;
+jc:PER_0011 a crm:E21_Person ;
     rdfs:label "Montserrat Rojas Corradi" ;
     schema:nationality "Chilena" .
 
-jc:PER_0011 a crm:E21_Person ;
+jc:PER_0012 a crm:E21_Person ;
     rdfs:label "Nury González" ;
     schema:nationality "Chilena" .
 
-jc:PER_0012 a crm:E21_Person ;
+jc:PER_0013 a crm:E21_Person ;
     rdfs:label "Fernando Guzmán Schiappacasse" ;
     skos:exactMatch <https://orcid.org/0000-0002-0218-5061> ;
     schema:nationality "Chilena" .
 
-jc:PER_0013 a crm:E21_Person ;
+jc:PER_0014 a crm:E21_Person ;
     rdfs:label "Katherine Vyhmeister" ;
     schema:nationality "Chilena" .
 
-jc:PER_0014 a crm:E21_Person ;
+jc:PER_0015 a crm:E21_Person ;
     rdfs:label "Raymond Quinsac Monvoisin" ;
     schema:nationality "Francesa" .
 
-jc:PER_0015 a crm:E21_Person ;
+jc:PER_0016 a crm:E21_Person ;
     rdfs:label "Clara Filleul" ;
     schema:nationality "Francesa" .
 
-jc:PER_0016 a crm:E21_Person ;
+jc:PER_0017 a crm:E21_Person ;
     rdfs:label "Procesa Sarmiento de Lenoir" ;
     schema:nationality "Argentina" .
 
-jc:PER_0017 a crm:E21_Person ;
+jc:PER_0018 a crm:E21_Person ;
     rdfs:label "Gregorio Torres" ;
     schema:nationality "Chilena" .
 
-jc:PER_0018 a crm:E21_Person ;
+jc:PER_0019 a crm:E21_Person ;
     rdfs:label "Francisco Javier Mandiola" ;
     schema:nationality "Chilena" .
 
-jc:PER_0019 a crm:E21_Person ;
+jc:PER_0020 a crm:E21_Person ;
     rdfs:label "Nemesio Antúnez Zañartu" ;
     schema:nationality "Chilena" .
 
-jc:PER_0020 a crm:E21_Person ;
+jc:PER_0021 a crm:E21_Person ;
     rdfs:label "Violeta Parra Sandoval" ;
     schema:nationality "Chilena" .
 
-jc:PER_0021 a crm:E21_Person ;
+jc:PER_0022 a crm:E21_Person ;
     rdfs:label "Rodrigo Rojas De Negri" ;
     schema:nationality "Chilena" .
 
-jc:PER_0022 a crm:E21_Person ;
+jc:PER_0023 a crm:E21_Person ;
     rdfs:label "Luis Camnitzer" ;
     schema:nationality "Uruguaya | Estadounidense" .
 
-jc:PER_0023 a crm:E21_Person ;
+jc:PER_0024 a crm:E21_Person ;
     rdfs:label "Pedro Lira Rencoret" ;
     schema:nationality "Chilena" .
 
-jc:PER_0024 a crm:E21_Person ;
+jc:PER_0025 a crm:E21_Person ;
     rdfs:label "Alessandro Ciccarelli Manzoni" ;
     schema:nationality "Italiana | Chilena" .
 
-jc:PER_0025 a crm:E21_Person ;
+jc:PER_0026 a crm:E21_Person ;
     rdfs:label "Oskar Trepte" ;
     schema:nationality "Alemana | Chilena" .
 
-jc:PER_0026 a crm:E21_Person ;
+jc:PER_0027 a crm:E21_Person ;
     rdfs:label "Pedro Reszka Moreau" ;
     schema:nationality "Chilena" .
 
-jc:PER_0027 a crm:E21_Person ;
+jc:PER_0028 a crm:E21_Person ;
     rdfs:label "Virginio Arias Cruz" ;
     schema:nationality "Chilena" .
 
-jc:PER_0028 a crm:E21_Person ;
+jc:PER_0029 a crm:E21_Person ;
     rdfs:label "Benito Rebolledo Correa" ;
     schema:nationality "Chilena" .
 
-jc:PER_0029 a crm:E21_Person ;
+jc:PER_0030 a crm:E21_Person ;
     rdfs:label "Aristodemo Lattanzi Borghini" ;
     schema:nationality "Italiana | Chilena" .
 
-jc:PER_0030 a crm:E21_Person ;
+jc:PER_0031 a crm:E21_Person ;
     rdfs:label "Wladymir Bernechea" ;
     schema:nationality "Chilena" .
 
-jc:PER_0031 a crm:E21_Person ;
+jc:PER_0032 a crm:E21_Person ;
     rdfs:label "Jesús Arana" ;
     schema:nationality "Española" .
 
-jc:PER_0032 a crm:E21_Person ;
+jc:PER_0033 a crm:E21_Person ;
     rdfs:label "Iván Navarro" ;
     schema:nationality "Chilena" .
 
-jc:PER_0033 a crm:E21_Person ;
+jc:PER_0034 a crm:E21_Person ;
     rdfs:label "Alfredo Jaar" ;
     schema:nationality "Chilena" .
 
-jc:PER_0034 a crm:E21_Person ;
+jc:PER_0035 a crm:E21_Person ;
     rdfs:label "Voluspa Jarpa" ;
     schema:nationality "Chilena" .
 
-jc:PER_0035 a crm:E21_Person ;
+jc:PER_0036 a crm:E21_Person ;
     rdfs:label "Inés Puyó" ;
     schema:nationality "Chilena" .
 
-jc:PER_0036 a crm:E21_Person ;
+jc:PER_0037 a crm:E21_Person ;
     rdfs:label "Ximena Cristi" ;
     schema:nationality "Chilena" .
 
-jc:PER_0037 a crm:E21_Person ;
+jc:PER_0038 a crm:E21_Person ;
     rdfs:label "Laura Rodig Pizarro" ;
     schema:nationality "Chilena" .
 
-jc:PER_0038 a crm:E21_Person ;
+jc:PER_0039 a crm:E21_Person ;
     rdfs:label "Henriette Petit" ;
     schema:nationality "Chilena" .
 
-jc:PER_0039 a crm:E21_Person ;
+jc:PER_0040 a crm:E21_Person ;
     rdfs:label "Sebastián Calfuqueo Aliste" ;
     schema:nationality "Chilena | Mapuche" .
 
-jc:PER_0040 a crm:E21_Person ;
+jc:PER_0041 a crm:E21_Person ;
     rdfs:label "Soledad Pinto" ;
     schema:nationality "Chilena" .
 
-jc:PER_0041 a crm:E21_Person ;
+jc:PER_0042 a crm:E21_Person ;
     rdfs:label "Nicolás Grum" ;
     schema:nationality "Chilena" .
 
-jc:PER_0042 a crm:E21_Person ;
+jc:PER_0043 a crm:E21_Person ;
     rdfs:label "Gonzalo Cueto" ;
     schema:nationality "Chilena" .
 
@@ -744,87 +744,87 @@ jc:LOC_0057 a crm:E53_Place ;
     schema:areaServed "Ñuble" ;
     skos:exactMatch <https://www.wikidata.org/wiki/Q113665601> .
 
-jc:CON_0001 a skos:Concept ;
+jc:VOC_0001 a skos:Concept ;
     rdfs:label "Humanidades Digitales" ;
     skos:definition "Campo metodológico que aplica herramientas computacionales, modelado de datos y visualizaciones al patrimonio y la cultura." .
 
-jc:CON_0002 a skos:Concept ;
+jc:VOC_0002 a skos:Concept ;
     rdfs:label "Web Semántica y Linked Open Data (LOD)" ;
     skos:definition "Publicación de datos interconectados bajo estándares W3C (RDF, SPARQL, Ontologías) para interoperabilidad abierta." .
 
-jc:CON_0003 a skos:Concept ;
+jc:VOC_0003 a skos:Concept ;
     rdfs:label "CIDOC-CRM (ISO 21127)" ;
     skos:definition "Estándar ontológico formal para la integración y mediación de información sobre patrimonio cultural." .
 
-jc:CON_0004 a skos:Concept ;
+jc:VOC_0004 a skos:Concept ;
     rdfs:label "Microhistoria Urbana" ;
     skos:definition "Análisis cualitativo y cuantitativo a escala micro de la arquitectura, nomenclatura y memoria en el espacio de la ciudad." .
 
-jc:CON_0005 a skos:Concept ;
+jc:VOC_0005 a skos:Concept ;
     rdfs:label "Pensamiento Decolonial" ;
     skos:definition "Perspectiva crítica que deconstruye las narrativas eurocéntricas y la colonialidad del saber en colecciones y museos." .
 
-jc:CON_0006 a skos:Concept ;
+jc:VOC_0006 a skos:Concept ;
     rdfs:label "Subalternidad y Representación Afromestiza" ;
     skos:definition "Estudio de las representaciones visuales y ausencias de sujetos racializados e indígenas en la construcción visual de la nación." .
 
-jc:CON_0007 a skos:Concept ;
+jc:VOC_0007 a skos:Concept ;
     rdfs:label "Perspectiva de Género y Discipulaje Femenino" ;
     skos:definition "Revalorización de la agencia de mujeres artistas históricamente subordinadas bajo categorías androcéntricas." .
 
-jc:CON_0008 a skos:Concept ;
+jc:VOC_0008 a skos:Concept ;
     rdfs:label "Geografía del Mercado del Arte" ;
     skos:definition "Mapeo espacial de la oferta, tasación, especulación, coleccionismo y circulación de bienes artísticos." .
 
-jc:CON_0009 a skos:Concept ;
+jc:VOC_0009 a skos:Concept ;
     rdfs:label "Logística Clavo a Clavo y Conservación Preventiva" ;
     skos:definition "Gestión integral del riesgo, embalaje, pólizas de seguro y traslado de alta complejidad de obras patrimoniales." .
 
-jc:CON_0010 a skos:Concept ;
+jc:VOC_0010 a skos:Concept ;
     rdfs:label "Descentralización e Itinerancia Territorial" ;
     skos:definition "Circulación de acervos artísticos estatales hacia regiones fuera de la capital para democratizar el acceso." .
 
-jc:CON_0011 a skos:Concept ;
+jc:VOC_0011 a skos:Concept ;
     rdfs:label "Accesibilidad Universal Web (WCAG)" ;
     skos:definition "Diseño de experiencias y plataformas digitales accesibles para personas con discapacidad bajo pautas W3C WCAG 2.1/2.2 AA." .
 
-jc:CON_0012 a skos:Concept ;
+jc:VOC_0012 a skos:Concept ;
     rdfs:label "Retrato y Modos de Representación" ;
     skos:definition "Género artístico centrado en la representación de la individualidad o el colectivo y sus implicancias ideológicas de poder y género." .
 
-jc:CON_0013 a skos:Concept ;
+jc:VOC_0013 a skos:Concept ;
     rdfs:label "Catalogación Razonada y Catastro Curatorial" ;
     skos:definition "Investigación sistemática y documental exhaustiva de la totalidad del corpus de un artista o acervo." .
 
-jc:CON_0014 a skos:Concept ;
+jc:VOC_0014 a skos:Concept ;
     rdfs:label "Salones Oficiales y Construcción de Identidad Nacional" ;
     skos:definition "Espacios seculares de consagración artística y legitimación ideológica del Estado-nación decimonónico." .
 
-jc:CON_0015 a skos:Concept ;
+jc:VOC_0015 a skos:Concept ;
     rdfs:label "Memoria Política, Archivo y Derechos Humanos" ;
     skos:definition "Uso testimonial y estético de la imagen para la denuncia, memoria histórica y resguardo de los derechos humanos." .
 
-jc:CON_0016 a skos:Concept ;
+jc:VOC_0016 a skos:Concept ;
     rdfs:label "Geografía Crítica y Redefinición del Paisaje" ;
     skos:definition "Análisis espacial de las transformaciones territoriales, ecológicas y políticas a través del arte contemporáneo." .
 
-jc:CON_0017 a skos:Concept ;
+jc:VOC_0017 a skos:Concept ;
     rdfs:label "Museografía Crítica y Pigmentocracia" ;
     skos:definition "Prácticas expográficas que interpelan la jerarquización eurocéntrica y racializada en la exhibición del patrimonio." .
 
-jc:CON_0018 a skos:Concept ;
+jc:VOC_0018 a skos:Concept ;
     rdfs:label "Fuentes Primarias y Archivo Histórico" ;
     skos:definition "Metodología historiográfica basada en la consulta directa, transcripción y análisis crítico de documentos originales." .
 
-jc:CON_0019 a skos:Concept ;
+jc:VOC_0019 a skos:Concept ;
     rdfs:label "Imagenología y Peritaje Técnico Material" ;
     skos:definition "Análisis físico-químico y óptico no destructivo de capas pictóricas y soportes para autenticación y conservación." .
 
-jc:CON_0020 a skos:Concept ;
+jc:VOC_0020 a skos:Concept ;
     rdfs:label "Descripción Archivística y Norma ISAD(G)" ;
     skos:definition "Estándar internacional de descripción de fondos y colecciones de archivos históricos para acceso abierto." .
 
-jc:CON_0021 a skos:Concept ;
+jc:VOC_0021 a skos:Concept ;
     rdfs:label "Arte, Ciencia y Riesgo Socioambiental" ;
     skos:definition "Prácticas transdisciplinares entre artes visuales y ciencias de la tierra para la denuncia y modelación de crisis." .
 
@@ -876,124 +876,124 @@ jc:EDU_0015 a crm:E7_Activity ;
 jc:EDU_0016 a crm:E7_Activity ;
     rdfs:label "Prevención de Riesgos y Árbol de Causas" .
 
-jc:POS_0001 a crm:E7_Activity ;
+jc:CAR_0001 a crm:E7_Activity ;
     rdfs:label "Gestor de Proyectos Patrimoniales | Punto Focal ENPD | Investigador de Colecciones" .
 
-jc:POS_0002 a crm:E7_Activity ;
+jc:CAR_0002 a crm:E7_Activity ;
     rdfs:label "Evaluador de Proyectos Culturales (FONDART)" .
 
-jc:POS_0003 a crm:E7_Activity ;
+jc:CAR_0003 a crm:E7_Activity ;
     rdfs:label "Evaluador Externo (Arbitraje por pares ciego)" .
 
-jc:POS_0004 a crm:E7_Activity ;
+jc:CAR_0004 a crm:E7_Activity ;
     rdfs:label "Profesor Universitario de Cátedra" .
 
-jc:POS_0005 a crm:E7_Activity ;
+jc:CAR_0005 a crm:E7_Activity ;
     rdfs:label "Co-Editor y Gestor Editorial" .
 
-jc:POS_0006 a crm:E7_Activity ;
+jc:CAR_0006 a crm:E7_Activity ;
     rdfs:label "Asistente Curatorial y de Exposiciones Temporales" .
 
-jc:POS_0007 a crm:E7_Activity ;
+jc:CAR_0007 a crm:E7_Activity ;
     rdfs:label "Profesor de Estética y Diseño Múltiple" .
 
-jc:POS_0008 a crm:E7_Activity ;
+jc:CAR_0008 a crm:E7_Activity ;
     rdfs:label "Asistente de Investigación en Archivística y Documentación" .
 
-jc:POS_0009 a crm:E7_Activity ;
+jc:CAR_0009 a crm:E7_Activity ;
     rdfs:label "Asistente de Investigación y Catalogación" .
 
-jc:POS_0010 a crm:E7_Activity ;
+jc:CAR_0010 a crm:E7_Activity ;
     rdfs:label "Investigador Independiente de Patrimonio" .
 
-jc:POS_0011 a crm:E7_Activity ;
+jc:CAR_0011 a crm:E7_Activity ;
     rdfs:label "Ayudante de Cátedra de Pregrado" .
 
-jc:EXH_0001 a crm:E7_Activity ;
+jc:EXP_0001 a crm:E7_Activity ;
     rdfs:label "Episodio Monvoisin. Un pintor francés en el Chile del siglo XIX" .
 
-jc:EXH_0002 a crm:E7_Activity ;
+jc:EXP_0001_M01 a crm:E7_Activity ;
     rdfs:label "Traslado obra monumental Cristo y Magdalena" .
 
-jc:EXH_0003 a crm:E7_Activity ;
+jc:EXP_0001_M02 a crm:E7_Activity ;
     rdfs:label "Traslado y rescate obra José Tomás de Urmeneta" .
 
-jc:EXH_0004 a crm:E7_Activity ;
+jc:EXP_0001_M03 a crm:E7_Activity ;
     rdfs:label "Traslado alta complejidad obras Palacio Cousiño" .
 
-jc:EXH_0005 a crm:E7_Activity ;
+jc:EXP_0001_M04 a crm:E7_Activity ;
     rdfs:label "Traslado Institucional Intercomunal (Abdicación de O'Higgins)" .
 
-jc:EXH_0006 a crm:E7_Activity ;
+jc:EXP_0001_M05 a crm:E7_Activity ;
     rdfs:label "Traslado Colección Privada Vitacura (5 obras)" .
 
-jc:EXH_0007 a crm:E7_Activity ;
+jc:EXP_0001_M06 a crm:E7_Activity ;
     rdfs:label "Traslado Colección Privada Calera de Tango (5 obras)" .
 
-jc:EXH_0008 a crm:E7_Activity ;
+jc:EXP_0001_M07 a crm:E7_Activity ;
     rdfs:label "Traslado Colección Privada Recoleta (1 obra)" .
 
-jc:EXH_0009 a crm:E7_Activity ;
+jc:EXP_0001_M08 a crm:E7_Activity ;
     rdfs:label "Traslado Colección Privada Huechuraba (1 obra)" .
 
-jc:EXH_0010 a crm:E7_Activity ;
+jc:EXP_0001_M09 a crm:E7_Activity ;
     rdfs:label "Traslado Colección Privada Providencia (1 obra)" .
 
-jc:EXH_0011 a crm:E7_Activity ;
+jc:EXP_0001_M10 a crm:E7_Activity ;
     rdfs:label "Traslado Colección Privada Las Condes (2 obras)" .
 
-jc:EXH_0012 a crm:E7_Activity ;
+jc:EXP_0001_M11 a crm:E7_Activity ;
     rdfs:label "Traslado Colección Privada Padre Hurtado (1 obra)" .
 
-jc:EXH_0013 a crm:E7_Activity ;
+jc:EXP_0001_M12 a crm:E7_Activity ;
     rdfs:label "Traslado Colección Privada Graneros (2 obras)" .
 
-jc:EXH_0014 a crm:E7_Activity ;
+jc:EXP_0001_M13 a crm:E7_Activity ;
     rdfs:label "Traslado Colección Privada Nancagua (1 obra)" .
 
-jc:EXH_0015 a crm:E7_Activity ;
+jc:EXP_0002 a crm:E7_Activity ;
     rdfs:label "Prácticas de reiteración: Colección Museo del Mundo" .
 
-jc:EXH_0016 a crm:E7_Activity ;
+jc:EXP_0003 a crm:E7_Activity ;
     rdfs:label "Adquisiciones en contexto: La Sociedad Nacional de Bellas Artes 1918-1950" .
 
-jc:EXH_0017 a crm:E7_Activity ;
+jc:EXP_0004 a crm:E7_Activity ;
     rdfs:label "El canon revisitado. Una mirada al arte europeo desde América Latina" .
 
-jc:EXH_0018 a crm:E7_Activity ;
+jc:EXP_0005 a crm:E7_Activity ;
     rdfs:label "La segunda naturaleza. Colección CCU" .
 
-jc:EXH_0019 a crm:E7_Activity ;
+jc:EXP_0006 a crm:E7_Activity ;
     rdfs:label "A 30 años de Rodrigo Rojas de Negri" .
 
-jc:EXH_0020 a crm:E7_Activity ;
+jc:EXP_0007 a crm:E7_Activity ;
     rdfs:label "Un exilio sin retorno. Rodrigo Rojas De Negri" .
 
-jc:EXH_0021 a crm:E7_Activity ;
+jc:EXP_0008 a crm:E7_Activity ;
     rdfs:label "Salón de Estudiantes 2013: Desde el resto; Farmacología estética" .
 
-jc:EXH_0022 a crm:E7_Activity ;
+jc:EXP_0009 a crm:E7_Activity ;
     rdfs:label "Sala de Fotografía Emergente y Antología de Luis Camnitzer" .
 
-jc:EXH_0023 a crm:E7_Activity ;
+jc:EXP_0010 a crm:E7_Activity ;
     rdfs:label "Violeta y sus contemporáneas. Influencias y transferencias" .
 
-jc:EXH_0024 a crm:E7_Activity ;
+jc:EXP_0010_1 a crm:E7_Activity ;
     rdfs:label "Violeta y sus contemporáneas. Influencias y transferencias" .
 
-jc:EXH_0025 a crm:E7_Activity ;
+jc:EXP_0011_01 a crm:E7_Activity ;
     rdfs:label "Antúnez: Paisaje y Poesía (Centenario Nemesio Antúnez - Estación Ñuble)" .
 
-jc:EXH_0026 a crm:E7_Activity ;
+jc:EXP_0011_02 a crm:E7_Activity ;
     rdfs:label "Antúnez: Paisaje y Poesía (Centenario Nemesio Antúnez - Estación Biobío)" .
 
-jc:EXH_0027 a crm:E7_Activity ;
+jc:EXP_0011_03 a crm:E7_Activity ;
     rdfs:label "Antúnez: Paisaje y Poesía (Centenario Nemesio Antúnez - Estación Maule)" .
 
-jc:EXH_0028 a crm:E7_Activity ;
+jc:EXP_0012 a crm:E7_Activity ;
     rdfs:label "Crisis, crisis, crisis: La normalidad de la emergencia" .
 
-jc:EXH_0029 a crm:E7_Activity ;
+jc:EXP_0013 a crm:E7_Activity ;
     rdfs:label "Sonata: Exposición Individual de Wladymir Bernechea" .
 
 jc:PRJ_0001 a crm:E7_Activity ;
@@ -1020,139 +1020,139 @@ jc:PRJ_0007 a crm:E7_Activity ;
 jc:PRJ_0008 a crm:E7_Activity ;
     rdfs:label "Monvoisin en América (Nodo Central Chile)" .
 
-jc:PRJ_0009 a crm:E7_Activity ;
+jc:PRJ_0008_N01 a crm:E7_Activity ;
     rdfs:label "Monvoisin en América (Nodo Argentina - San Juan)" .
 
-jc:PRJ_0010 a crm:E7_Activity ;
+jc:PRJ_0008_N02 a crm:E7_Activity ;
     rdfs:label "Monvoisin en América (Nodo Argentina - Buenos Aires)" .
 
-jc:PRJ_0011 a crm:E7_Activity ;
+jc:PRJ_0008_N03 a crm:E7_Activity ;
     rdfs:label "Monvoisin en América (Nodo Perú)" .
 
-jc:PRJ_0012 a crm:E7_Activity ;
+jc:PRJ_0008_N04 a crm:E7_Activity ;
     rdfs:label "Monvoisin en América (Nodo Brasil)" .
 
-jc:PRJ_0013 a crm:E7_Activity ;
+jc:PRJ_0009 a crm:E7_Activity ;
     rdfs:label "Creación Archivo Fotográfico Rodrigo Rojas De Negri (FONDART Folio 84311)" .
 
-jc:PRJ_0014 a crm:E7_Activity ;
+jc:PRJ_0010 a crm:E7_Activity ;
     rdfs:label "Salón de Estudiantes 2013 Desde el resto; (FVL-2011)" .
 
-jc:PRJ_0015 a crm:E7_Activity ;
+jc:PRJ_0011 a crm:E7_Activity ;
     rdfs:label "Beca General MEC (Máster Universitario en Humanidades Digitales)" .
 
-jc:PRJ_0016 a crm:E7_Activity ;
+jc:PRJ_0012 a crm:E7_Activity ;
     rdfs:label "Programa de educación Salón de Estudiantes 2013 (FDI-MINEDUC)" .
 
-jc:PRJ_0017 a crm:E7_Activity ;
+jc:PRJ_0013 a crm:E7_Activity ;
     rdfs:label "Beca de Formación de Profesionales Iberoamericanos en el Sector Cultural" .
 
-jc:PRJ_0018 a crm:E7_Activity ;
+jc:PRJ_0014 a crm:E7_Activity ;
     rdfs:label "Beca de Inglés CORFO para Profesionales" .
 
-jc:PRJ_0019 a crm:E7_Activity ;
+jc:PRJ_0015 a crm:E7_Activity ;
     rdfs:label "Becas de Excelencia Académica (Beca Bicentenario | Equidad | PAE)" .
 
-jc:PRJ_0020 a crm:E7_Activity ;
+jc:PRJ_0016 a crm:E7_Activity ;
     rdfs:label "S/T Revista de Fotografía Contemporánea (FONDART Nacional Folio 89451)" .
 
-jc:MED_0001 a crm:E7_Activity ;
+jc:COM_0001 a crm:E7_Activity ;
     rdfs:label "Exposición Episodio Monvoisin. Un pintor francés en el Chile del siglo XIX" .
 
-jc:MED_0002 a crm:E7_Activity ;
+jc:COM_0002 a crm:E7_Activity ;
     rdfs:label "Raymond Monvoisin: El pintor que retrató la elite chilena (#3676)" .
 
-jc:MED_0003 a crm:E7_Activity ;
+jc:COM_0003 a crm:E7_Activity ;
     rdfs:label "Modelos de representación: el afromestizo en dos pinturas de batalla en el chile de mediados del siglo XIX" .
 
-jc:MED_0004 a crm:E7_Activity ;
+jc:COM_0004 a crm:E7_Activity ;
     rdfs:label "Notas de un itinerario: el perfil comercial del Taller Monvoisin en Chile (1843-1857)" .
 
-jc:MED_0005 a crm:E7_Activity ;
+jc:COM_0005 a crm:E7_Activity ;
     rdfs:label "Notas preliminares sobre Clara Filleul: de historiografía, exposiciones y fortuna crítica" .
 
-jc:MED_0006 a crm:E7_Activity ;
+jc:COM_0006 a crm:E7_Activity ;
     rdfs:label "Género y discipulaje. Los casos de Clara Filleul y Procesa Sarmiento en el Taller Monvoisin" .
 
-jc:MED_0007 a crm:E7_Activity ;
+jc:COM_0007 a crm:E7_Activity ;
     rdfs:label "Trazar límites, deslindar fronteras. El caso de la pintura El Fuerte Bulnes (1848) de Alessandro Ciccarelli" .
 
-jc:MED_0008 a crm:E7_Activity ;
+jc:COM_0008 a crm:E7_Activity ;
     rdfs:label "Espacio devocional y cotidiano, al encuentro del reconocimiento del afromestizo..." .
 
-jc:MED_0009 a crm:E7_Activity ;
+jc:COM_0009 a crm:E7_Activity ;
     rdfs:label "Modelos de representación. Ausencia y presencia afromestiza en imágenes. Chile siglo XIX" .
 
-jc:MED_0010 a crm:E7_Activity ;
+jc:COM_0010 a crm:E7_Activity ;
     rdfs:label "Incertidumbres en las visualidades de indígenas y negros en Chile" .
 
-jc:MED_0011 a crm:E7_Activity ;
+jc:COM_0011 a crm:E7_Activity ;
     rdfs:label "La constitución del Salón de Santiago. Notas sobre la institucionalización del sistema de exhibición..." .
 
-jc:MED_0012 a crm:E7_Activity ;
+jc:COM_0012 a crm:E7_Activity ;
     rdfs:label "Charla sobre curaduría e investigación del archivo fotográfico Rodrigo Rojas De Negri" .
 
-jc:MED_0013 a crm:E7_Activity ;
+jc:COM_0013 a crm:E7_Activity ;
     rdfs:label "De curador y curadores. Encuentro teórico" .
 
-jc:MED_0014 a crm:E7_Activity ;
+jc:COM_0014 a crm:E7_Activity ;
     rdfs:label "Charla en el marco de la exposición temporal Genius Loci" .
 
-jc:MED_0015 a crm:E7_Activity ;
+jc:COM_0015 a crm:E7_Activity ;
     rdfs:label "Valioso retrato de Monvoisin entra a la colección del Museo de Bellas Artes" .
 
-jc:MED_0016 a crm:E7_Activity ;
+jc:COM_0016 a crm:E7_Activity ;
     rdfs:label "Abre sus puertas: Exposición Episodio Monvoisin y logística de traslado de obras" .
 
-jc:MED_0017 a crm:E7_Activity ;
+jc:COM_0017 a crm:E7_Activity ;
     rdfs:label "Pintura de la Catedral de Concepción atrae miradas en el MNBA" .
 
-jc:MED_0018 a crm:E7_Activity ;
+jc:COM_0018 a crm:E7_Activity ;
     rdfs:label "Matriz Imaginada. Archivo Salón de Estudiantes 2013" .
 
-jc:MED_0019 a crm:E7_Activity ;
+jc:COM_0019 a crm:E7_Activity ;
     rdfs:label "Presentación del modelo de gestión Salón de Estudiantes 2013" .
 
-jc:MED_0020 a crm:E7_Activity ;
+jc:COM_0020 a crm:E7_Activity ;
     rdfs:label "Ciclo Instagram Live: Monvoisin en América (5 capítulos)" .
 
-jc:MED_0021 a crm:E7_Activity ;
+jc:COM_0021 a crm:E7_Activity ;
     rdfs:label "Desde el Museo. Miradas Alteradas: colonialismo y dominación" .
 
-jc:MED_0022 a crm:E7_Activity ;
+jc:COM_0022 a crm:E7_Activity ;
     rdfs:label "Instagram Live: Representación de la afrodescendencia en la Colección MNBA" .
 
-jc:MED_0023 a crm:E7_Activity ;
+jc:COM_0023 a crm:E7_Activity ;
     rdfs:label "Desde el Museo: Adquisiciones en contexto" .
 
-jc:MED_0024 a crm:E7_Activity ;
+jc:COM_0024 a crm:E7_Activity ;
     rdfs:label "Recorrido mediado por la exposición Adquisiciones en contexto" .
 
-jc:MED_0025 a crm:E7_Activity ;
+jc:COM_0025 a crm:E7_Activity ;
     rdfs:label "Lanzamiento plataforma web QUINSAC y libro Monvoisin en América" .
 
-jc:MED_0026 a crm:E7_Activity ;
+jc:COM_0026 a crm:E7_Activity ;
     rdfs:label "Los canteros de Pedro Lira: Trayectoria histórica y aproximación iconográfica" .
 
-jc:MED_0027 a crm:E7_Activity ;
+jc:COM_0027 a crm:E7_Activity ;
     rdfs:label "Cápsula audiovisual de mediación: Exposición Episodio Monvoisin en el MNBA" .
 
-jc:DGH_0001 a crm:E73_Information_Object ;
+jc:DIG_0001 a crm:E73_Information_Object ;
     rdfs:label "QUINSAC. Estudios razonados de arte y coleccionismo" .
 
-jc:DGH_0002 a crm:E73_Information_Object ;
+jc:DIG_0006 a crm:E73_Information_Object ;
     rdfs:label "Monvoisin: huellas territoriales de un artista" .
 
-jc:DGH_0003 a crm:E73_Information_Object ;
+jc:DIG_0008 a crm:E73_Information_Object ;
     rdfs:label "Plataforma virtual Salón de Estudiantes" .
 
-jc:DGH_0004 a crm:E73_Information_Object ;
+jc:DIG_0009 a crm:E73_Information_Object ;
     rdfs:label "Callejera Madrid" .
 
-jc:DGH_0005 a crm:E73_Information_Object ;
+jc:DIG_0010 a crm:E73_Information_Object ;
     rdfs:label "Arquitectura Art Déco en Santiago centro" .
 
-jc:DGH_0006 a crm:E73_Information_Object ;
+jc:DIG_0011 a crm:E73_Information_Object ;
     rdfs:label "Mármoles y Bronces entre el Mediterráneo y los Andes" .
 
 jc:ORG_0002 crm:P87_is_identified_by jc:LOC_0001 .

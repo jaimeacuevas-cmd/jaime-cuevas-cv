@@ -15,6 +15,21 @@ logger = logging.getLogger(__name__)
 class DataTransformer:
     """Transforms raw Excel rows into unified CIDOC-CRM node/link structure."""
 
+    # Mapping: Entity type → ID column name in Excel
+    ID_COLUMN_MAP = {
+        'Agent': 'id_agente',
+        'Organization': 'id_organizacion',
+        'Location': 'id_lugar',
+        'Concept': 'id_concepto',
+        'Education': 'id_formacion',
+        'Position': 'id_cargo',
+        'Publication': 'id_publicacion',
+        'Exhibition': 'id_exposicion',
+        'Project': 'id_proyecto',
+        'Media': 'id_comunicacion',
+        'DigitalHeritage': 'id_digital',
+    }
+
     def __init__(self):
         """Initialize transformer with empty state."""
         self.nodes = []
@@ -56,8 +71,15 @@ class DataTransformer:
         return self.nodes, self.links
 
     def _create_base_node(self, entity_type: str, row: Dict, row_idx: int) -> Dict[str, Any]:
-        """Create base node with common fields."""
-        node_id = validate_id_format(entity_type, row_idx + 1)
+        """Create base node with common fields. Uses real ID from Excel."""
+        # Get ID column name for this entity type
+        id_col = self.ID_COLUMN_MAP.get(entity_type)
+        node_id = row.get(id_col, '')
+
+        # Fallback to generating ID if not found (shouldn't happen)
+        if not node_id:
+            node_id = validate_id_format(entity_type, row_idx + 1)
+            logger.warning(f"No ID found in column '{id_col}' for {entity_type} row {row_idx + 1}, generated: {node_id}")
 
         return {
             'id': node_id,

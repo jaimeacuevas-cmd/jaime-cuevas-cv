@@ -6,7 +6,7 @@
     "link_count": 116,
     "sheet_count": 12,
     "validation_status": "PASS",
-    "validation_warnings": 49
+    "validation_warnings": 36
   },
   "nodes": [
     {
@@ -38,7 +38,7 @@
       }
     },
     {
-      "id": "PER_0002",
+      "id": "PER_0003",
       "type": "Agent",
       "label": "Marcela Drien Fábregas",
       "short_name": "Marcela Drien",
@@ -62,7 +62,7 @@
       }
     },
     {
-      "id": "PER_0003",
+      "id": "PER_0004",
       "type": "Agent",
       "label": "Manuel Alvarado Cornejo",
       "short_name": "Manuel Alvarado",
@@ -86,7 +86,7 @@
       }
     },
     {
-      "id": "PER_0004",
+      "id": "PER_0005",
       "type": "Agent",
       "label": "Milencka Vidal Consiglieri",
       "short_name": "Milencka Vidal",
@@ -110,7 +110,7 @@
       }
     },
     {
-      "id": "PER_0005",
+      "id": "PER_0006",
       "type": "Agent",
       "label": "Antonia Viu",
       "short_name": "Antonia Viu",
@@ -134,7 +134,7 @@
       }
     },
     {
-      "id": "PER_0006",
+      "id": "PER_0007",
       "type": "Agent",
       "label": "Noemí Cinelli",
       "short_name": "Noemí Cinelli",
@@ -158,7 +158,7 @@
       }
     },
     {
-      "id": "PER_0007",
+      "id": "PER_0008",
       "type": "Agent",
       "label": "Camila Caris Seguel",
       "short_name": "Camila Caris",
@@ -182,7 +182,7 @@
       }
     },
     {
-      "id": "PER_0008",
+      "id": "PER_0009",
       "type": "Agent",
       "label": "Estefanía Granja",
       "short_name": "Estefanía Granja",
@@ -206,7 +206,7 @@
       }
     },
     {
-      "id": "PER_0009",
+      "id": "PER_0010",
       "type": "Agent",
       "label": "Daniela Colleoni",
       "short_name": "Daniela Colleoni",
@@ -230,7 +230,7 @@
       }
     },
     {
-      "id": "PER_0010",
+      "id": "PER_0011",
       "type": "Agent",
       "label": "Montserrat Rojas Corradi",
       "short_name": "Montserrat Rojas",
@@ -254,7 +254,7 @@
       }
     },
     {
-      "id": "PER_0011",
+      "id": "PER_0012",
       "type": "Agent",
       "label": "Nury González",
       "short_name": "Nury González",
@@ -278,7 +278,7 @@
       }
     },
     {
-      "id": "PER_0012",
+      "id": "PER_0013",
       "type": "Agent",
       "label": "Fernando Guzmán Schiappacasse",
       "short_name": "Fernando Guzmán",
@@ -302,7 +302,7 @@
       }
     },
     {
-      "id": "PER_0013",
+      "id": "PER_0014",
       "type": "Agent",
       "label": "Katherine Vyhmeister",
       "short_name": "Katherine Vyhmeister",
@@ -326,7 +326,7 @@
       }
     },
     {
-      "id": "PER_0014",
+      "id": "PER_0015",
       "type": "Agent",
       "label": "Raymond Quinsac Monvoisin",
       "short_name": "Raymond Monvoisin",
@@ -354,7 +354,7 @@
       }
     },
     {
-      "id": "PER_0015",
+      "id": "PER_0016",
       "type": "Agent",
       "label": "Clara Filleul",
       "short_name": "Clara Filleul",
@@ -382,7 +382,7 @@
       }
     },
     {
-      "id": "PER_0016",
+      "id": "PER_0017",
       "type": "Agent",
       "label": "Procesa Sarmiento de Lenoir",
       "short_name": "Procesa Sarmiento",
@@ -410,7 +410,7 @@
       }
     },
     {
-      "id": "PER_0017",
+      "id": "PER_0018",
       "type": "Agent",
       "label": "Gregorio Torres",
       "short_name": "Gregorio Torres",
@@ -438,7 +438,7 @@
       }
     },
     {
-      "id": "PER_0018",
+      "id": "PER_0019",
       "type": "Agent",
       "label": "Francisco Javier Mandiola",
       "short_name": "Francisco J. Mandiola",
@@ -466,7 +466,7 @@
       }
     },
     {
-      "id": "PER_0019",
+      "id": "PER_0020",
       "type": "Agent",
       "label": "Nemesio Antúnez Zañartu",
       "short_name": "Nemesio Antúnez",
@@ -494,7 +494,7 @@
       }
     },
     {
-      "id": "PER_0020",
+      "id": "PER_0021",
       "type": "Agent",
       "label": "Violeta Parra Sandoval",
       "short_name": "Violeta Parra",
@@ -522,7 +522,7 @@
       }
     },
     {
-      "id": "PER_0021",
+      "id": "PER_0022",
       "type": "Agent",
       "label": "Rodrigo Rojas De Negri",
       "short_name": "Rodrigo Rojas De Negri",
@@ -550,7 +550,7 @@
       }
     },
     {
-      "id": "PER_0022",
+      "id": "PER_0023",
       "type": "Agent",
       "label": "Luis Camnitzer",
       "short_name": "Luis Camnitzer",
@@ -578,7 +578,7 @@
       }
     },
     {
-      "id": "PER_0023",
+      "id": "PER_0024",
       "type": "Agent",
       "label": "Pedro Lira Rencoret",
       "short_name": "Pedro Lira",
@@ -606,7 +606,7 @@
       }
     },
     {
-      "id": "PER_0024",
+      "id": "PER_0025",
       "type": "Agent",
       "label": "Alessandro Ciccarelli Manzoni",
       "short_name": "Alessandro Ciccarelli",
@@ -634,7 +634,7 @@
       }
     },
     {
-      "id": "PER_0025",
+      "id": "PER_0026",
       "type": "Agent",
       "label": "Oskar Trepte",
       "short_name": "Oskar Trepte",
@@ -662,7 +662,7 @@
       }
     },
     {
-      "id": "PER_0026",
+      "id": "PER_0027",
       "type": "Agent",
       "label": "Pedro Reszka Moreau",
       "short_name": "Pedro Reszka",
@@ -690,7 +690,7 @@
       }
     },
     {
-      "id": "PER_0027",
+      "id": "PER_0028",
       "type": "Agent",
       "label": "Virginio Arias Cruz",
       "short_name": "Virginio Arias",
@@ -718,7 +718,7 @@
       }
     },
     {
-      "id": "PER_0028",
+      "id": "PER_0029",
       "type": "Agent",
       "label": "Benito Rebolledo Correa",
       "short_name": "Benito Rebolledo",
@@ -746,7 +746,7 @@
       }
     },
     {
-      "id": "PER_0029",
+      "id": "PER_0030",
       "type": "Agent",
       "label": "Aristodemo Lattanzi Borghini",
       "short_name": "Aristodemo Lattanzi",
@@ -774,7 +774,7 @@
       }
     },
     {
-      "id": "PER_0030",
+      "id": "PER_0031",
       "type": "Agent",
       "label": "Wladymir Bernechea",
       "short_name": "Wladymir Bernechea",
@@ -798,7 +798,7 @@
       }
     },
     {
-      "id": "PER_0031",
+      "id": "PER_0032",
       "type": "Agent",
       "label": "Jesús Arana",
       "short_name": "Jesús Arana",
@@ -822,7 +822,7 @@
       }
     },
     {
-      "id": "PER_0032",
+      "id": "PER_0033",
       "type": "Agent",
       "label": "Iván Navarro",
       "short_name": "Iván Navarro",
@@ -850,7 +850,7 @@
       }
     },
     {
-      "id": "PER_0033",
+      "id": "PER_0034",
       "type": "Agent",
       "label": "Alfredo Jaar",
       "short_name": "Alfredo Jaar",
@@ -878,7 +878,7 @@
       }
     },
     {
-      "id": "PER_0034",
+      "id": "PER_0035",
       "type": "Agent",
       "label": "Voluspa Jarpa",
       "short_name": "Voluspa Jarpa",
@@ -906,7 +906,7 @@
       }
     },
     {
-      "id": "PER_0035",
+      "id": "PER_0036",
       "type": "Agent",
       "label": "Inés Puyó",
       "short_name": "Inés Puyó",
@@ -934,7 +934,7 @@
       }
     },
     {
-      "id": "PER_0036",
+      "id": "PER_0037",
       "type": "Agent",
       "label": "Ximena Cristi",
       "short_name": "Ximena Cristi",
@@ -962,7 +962,7 @@
       }
     },
     {
-      "id": "PER_0037",
+      "id": "PER_0038",
       "type": "Agent",
       "label": "Laura Rodig Pizarro",
       "short_name": "Laura Rodig",
@@ -990,7 +990,7 @@
       }
     },
     {
-      "id": "PER_0038",
+      "id": "PER_0039",
       "type": "Agent",
       "label": "Henriette Petit",
       "short_name": "Henriette Petit",
@@ -1018,7 +1018,7 @@
       }
     },
     {
-      "id": "PER_0039",
+      "id": "PER_0040",
       "type": "Agent",
       "label": "Sebastián Calfuqueo Aliste",
       "short_name": "Sebastián Calfuqueo",
@@ -1046,7 +1046,7 @@
       }
     },
     {
-      "id": "PER_0040",
+      "id": "PER_0041",
       "type": "Agent",
       "label": "Soledad Pinto",
       "short_name": "Soledad Pinto",
@@ -1074,7 +1074,7 @@
       }
     },
     {
-      "id": "PER_0041",
+      "id": "PER_0042",
       "type": "Agent",
       "label": "Nicolás Grum",
       "short_name": "Nicolás Grum",
@@ -1102,7 +1102,7 @@
       }
     },
     {
-      "id": "PER_0042",
+      "id": "PER_0043",
       "type": "Agent",
       "label": "Gonzalo Cueto",
       "short_name": "Gonzalo Cueto",
@@ -3082,7 +3082,7 @@
       "precision_type": "exact"
     },
     {
-      "id": "CON_0001",
+      "id": "VOC_0001",
       "type": "Concept",
       "label": "Humanidades Digitales",
       "short_name": null,
@@ -3097,7 +3097,7 @@
       "aat_getty_uri": "http://vocab.getty.edu/aat/300054594"
     },
     {
-      "id": "CON_0002",
+      "id": "VOC_0002",
       "type": "Concept",
       "label": "Web Semántica y Linked Open Data (LOD)",
       "short_name": null,
@@ -3112,7 +3112,7 @@
       "aat_getty_uri": "http://vocab.getty.edu/aat/300386283"
     },
     {
-      "id": "CON_0003",
+      "id": "VOC_0003",
       "type": "Concept",
       "label": "CIDOC-CRM (ISO 21127)",
       "short_name": null,
@@ -3127,7 +3127,7 @@
       "aat_getty_uri": "http://vocab.getty.edu/aat/300386283"
     },
     {
-      "id": "CON_0004",
+      "id": "VOC_0004",
       "type": "Concept",
       "label": "Microhistoria Urbana",
       "short_name": null,
@@ -3142,7 +3142,7 @@
       "aat_getty_uri": "http://vocab.getty.edu/aat/300054595"
     },
     {
-      "id": "CON_0005",
+      "id": "VOC_0005",
       "type": "Concept",
       "label": "Pensamiento Decolonial",
       "short_name": null,
@@ -3157,7 +3157,7 @@
       "aat_getty_uri": "http://vocab.getty.edu/aat/300055768"
     },
     {
-      "id": "CON_0006",
+      "id": "VOC_0006",
       "type": "Concept",
       "label": "Subalternidad y Representación Afromestiza",
       "short_name": null,
@@ -3172,7 +3172,7 @@
       "aat_getty_uri": "http://vocab.getty.edu/aat/300055768"
     },
     {
-      "id": "CON_0007",
+      "id": "VOC_0007",
       "type": "Concept",
       "label": "Perspectiva de Género y Discipulaje Femenino",
       "short_name": null,
@@ -3187,7 +3187,7 @@
       "aat_getty_uri": "http://vocab.getty.edu/aat/300055768"
     },
     {
-      "id": "CON_0008",
+      "id": "VOC_0008",
       "type": "Concept",
       "label": "Geografía del Mercado del Arte",
       "short_name": null,
@@ -3202,7 +3202,7 @@
       "aat_getty_uri": "http://vocab.getty.edu/aat/300055673"
     },
     {
-      "id": "CON_0009",
+      "id": "VOC_0009",
       "type": "Concept",
       "label": "Logística Clavo a Clavo y Conservación Preventiva",
       "short_name": null,
@@ -3217,7 +3217,7 @@
       "aat_getty_uri": "http://vocab.getty.edu/aat/300054593"
     },
     {
-      "id": "CON_0010",
+      "id": "VOC_0010",
       "type": "Concept",
       "label": "Descentralización e Itinerancia Territorial",
       "short_name": null,
@@ -3232,7 +3232,7 @@
       "aat_getty_uri": "http://vocab.getty.edu/aat/300054595"
     },
     {
-      "id": "CON_0011",
+      "id": "VOC_0011",
       "type": "Concept",
       "label": "Accesibilidad Universal Web (WCAG)",
       "short_name": null,
@@ -3247,7 +3247,7 @@
       "aat_getty_uri": "http://vocab.getty.edu/aat/300386283"
     },
     {
-      "id": "CON_0012",
+      "id": "VOC_0012",
       "type": "Concept",
       "label": "Retrato y Modos de Representación",
       "short_name": null,
@@ -3262,7 +3262,7 @@
       "aat_getty_uri": "http://vocab.getty.edu/aat/300015637"
     },
     {
-      "id": "CON_0013",
+      "id": "VOC_0013",
       "type": "Concept",
       "label": "Catalogación Razonada y Catastro Curatorial",
       "short_name": null,
@@ -3277,7 +3277,7 @@
       "aat_getty_uri": "http://vocab.getty.edu/aat/300054593"
     },
     {
-      "id": "CON_0014",
+      "id": "VOC_0014",
       "type": "Concept",
       "label": "Salones Oficiales y Construcción de Identidad Nacional",
       "short_name": null,
@@ -3292,7 +3292,7 @@
       "aat_getty_uri": "http://vocab.getty.edu/aat/300054595"
     },
     {
-      "id": "CON_0015",
+      "id": "VOC_0015",
       "type": "Concept",
       "label": "Memoria Política, Archivo y Derechos Humanos",
       "short_name": null,
@@ -3307,7 +3307,7 @@
       "aat_getty_uri": "http://vocab.getty.edu/aat/300055768"
     },
     {
-      "id": "CON_0016",
+      "id": "VOC_0016",
       "type": "Concept",
       "label": "Geografía Crítica y Redefinición del Paisaje",
       "short_name": null,
@@ -3322,7 +3322,7 @@
       "aat_getty_uri": "http://vocab.getty.edu/aat/300054595"
     },
     {
-      "id": "CON_0017",
+      "id": "VOC_0017",
       "type": "Concept",
       "label": "Museografía Crítica y Pigmentocracia",
       "short_name": null,
@@ -3337,7 +3337,7 @@
       "aat_getty_uri": "http://vocab.getty.edu/aat/300055768"
     },
     {
-      "id": "CON_0018",
+      "id": "VOC_0018",
       "type": "Concept",
       "label": "Fuentes Primarias y Archivo Histórico",
       "short_name": null,
@@ -3352,7 +3352,7 @@
       "aat_getty_uri": "http://vocab.getty.edu/aat/300028569"
     },
     {
-      "id": "CON_0019",
+      "id": "VOC_0019",
       "type": "Concept",
       "label": "Imagenología y Peritaje Técnico Material",
       "short_name": null,
@@ -3367,7 +3367,7 @@
       "aat_getty_uri": "http://vocab.getty.edu/aat/300054593"
     },
     {
-      "id": "CON_0020",
+      "id": "VOC_0020",
       "type": "Concept",
       "label": "Descripción Archivística y Norma ISAD(G)",
       "short_name": null,
@@ -3382,7 +3382,7 @@
       "aat_getty_uri": "http://vocab.getty.edu/aat/300028569"
     },
     {
-      "id": "CON_0021",
+      "id": "VOC_0021",
       "type": "Concept",
       "label": "Arte, Ciencia y Riesgo Socioambiental",
       "short_name": null,
@@ -3637,7 +3637,7 @@
       "field": null
     },
     {
-      "id": "POS_0001",
+      "id": "CAR_0001",
       "type": "Position",
       "label": "Gestor de Proyectos Patrimoniales | Punto Focal ENPD | Investigador de Colecciones",
       "short_name": null,
@@ -3651,7 +3651,7 @@
       "period": null
     },
     {
-      "id": "POS_0002",
+      "id": "CAR_0002",
       "type": "Position",
       "label": "Evaluador de Proyectos Culturales (FONDART)",
       "short_name": null,
@@ -3665,7 +3665,7 @@
       "period": null
     },
     {
-      "id": "POS_0003",
+      "id": "CAR_0003",
       "type": "Position",
       "label": "Evaluador Externo (Arbitraje por pares ciego)",
       "short_name": null,
@@ -3679,7 +3679,7 @@
       "period": null
     },
     {
-      "id": "POS_0004",
+      "id": "CAR_0004",
       "type": "Position",
       "label": "Profesor Universitario de Cátedra",
       "short_name": null,
@@ -3693,7 +3693,7 @@
       "period": null
     },
     {
-      "id": "POS_0005",
+      "id": "CAR_0005",
       "type": "Position",
       "label": "Co-Editor y Gestor Editorial",
       "short_name": null,
@@ -3707,7 +3707,7 @@
       "period": null
     },
     {
-      "id": "POS_0006",
+      "id": "CAR_0006",
       "type": "Position",
       "label": "Asistente Curatorial y de Exposiciones Temporales",
       "short_name": null,
@@ -3721,7 +3721,7 @@
       "period": null
     },
     {
-      "id": "POS_0007",
+      "id": "CAR_0007",
       "type": "Position",
       "label": "Profesor de Estética y Diseño Múltiple",
       "short_name": null,
@@ -3735,7 +3735,7 @@
       "period": null
     },
     {
-      "id": "POS_0008",
+      "id": "CAR_0008",
       "type": "Position",
       "label": "Asistente de Investigación en Archivística y Documentación",
       "short_name": null,
@@ -3749,7 +3749,7 @@
       "period": null
     },
     {
-      "id": "POS_0009",
+      "id": "CAR_0009",
       "type": "Position",
       "label": "Asistente de Investigación y Catalogación",
       "short_name": null,
@@ -3763,7 +3763,7 @@
       "period": null
     },
     {
-      "id": "POS_0010",
+      "id": "CAR_0010",
       "type": "Position",
       "label": "Investigador Independiente de Patrimonio",
       "short_name": null,
@@ -3777,7 +3777,7 @@
       "period": null
     },
     {
-      "id": "POS_0011",
+      "id": "CAR_0011",
       "type": "Position",
       "label": "Ayudante de Cátedra de Pregrado",
       "short_name": null,
@@ -3791,7 +3791,7 @@
       "period": null
     },
     {
-      "id": "EXH_0001",
+      "id": "EXP_0001",
       "type": "Exhibition",
       "label": "Episodio Monvoisin. Un pintor francés en el Chile del siglo XIX",
       "short_name": null,
@@ -3806,7 +3806,7 @@
       "role": "Coordinador General | Productor"
     },
     {
-      "id": "EXH_0002",
+      "id": "EXP_0001_M01",
       "type": "Exhibition",
       "label": "Traslado obra monumental Cristo y Magdalena",
       "short_name": null,
@@ -3821,7 +3821,7 @@
       "role": "Coordinador Logístico Clavo a Clavo"
     },
     {
-      "id": "EXH_0003",
+      "id": "EXP_0001_M02",
       "type": "Exhibition",
       "label": "Traslado y rescate obra José Tomás de Urmeneta",
       "short_name": null,
@@ -3836,7 +3836,7 @@
       "role": "Coordinador Logístico Clavo a Clavo"
     },
     {
-      "id": "EXH_0004",
+      "id": "EXP_0001_M03",
       "type": "Exhibition",
       "label": "Traslado alta complejidad obras Palacio Cousiño",
       "short_name": null,
@@ -3851,7 +3851,7 @@
       "role": "Coordinador Logístico Clavo a Clavo"
     },
     {
-      "id": "EXH_0005",
+      "id": "EXP_0001_M04",
       "type": "Exhibition",
       "label": "Traslado Institucional Intercomunal (Abdicación de O'Higgins)",
       "short_name": null,
@@ -3866,7 +3866,7 @@
       "role": "Coordinador Logístico Clavo a Clavo"
     },
     {
-      "id": "EXH_0006",
+      "id": "EXP_0001_M05",
       "type": "Exhibition",
       "label": "Traslado Colección Privada Vitacura (5 obras)",
       "short_name": null,
@@ -3881,7 +3881,7 @@
       "role": "Coordinador Logístico Clavo a Clavo"
     },
     {
-      "id": "EXH_0007",
+      "id": "EXP_0001_M06",
       "type": "Exhibition",
       "label": "Traslado Colección Privada Calera de Tango (5 obras)",
       "short_name": null,
@@ -3896,7 +3896,7 @@
       "role": "Coordinador Logístico Clavo a Clavo"
     },
     {
-      "id": "EXH_0008",
+      "id": "EXP_0001_M07",
       "type": "Exhibition",
       "label": "Traslado Colección Privada Recoleta (1 obra)",
       "short_name": null,
@@ -3911,7 +3911,7 @@
       "role": "Coordinador Logístico Clavo a Clavo"
     },
     {
-      "id": "EXH_0009",
+      "id": "EXP_0001_M08",
       "type": "Exhibition",
       "label": "Traslado Colección Privada Huechuraba (1 obra)",
       "short_name": null,
@@ -3926,7 +3926,7 @@
       "role": "Coordinador Logístico Clavo a Clavo"
     },
     {
-      "id": "EXH_0010",
+      "id": "EXP_0001_M09",
       "type": "Exhibition",
       "label": "Traslado Colección Privada Providencia (1 obra)",
       "short_name": null,
@@ -3941,7 +3941,7 @@
       "role": "Coordinador Logístico Clavo a Clavo"
     },
     {
-      "id": "EXH_0011",
+      "id": "EXP_0001_M10",
       "type": "Exhibition",
       "label": "Traslado Colección Privada Las Condes (2 obras)",
       "short_name": null,
@@ -3956,7 +3956,7 @@
       "role": "Coordinador Logístico Clavo a Clavo"
     },
     {
-      "id": "EXH_0012",
+      "id": "EXP_0001_M11",
       "type": "Exhibition",
       "label": "Traslado Colección Privada Padre Hurtado (1 obra)",
       "short_name": null,
@@ -3971,7 +3971,7 @@
       "role": "Coordinador Logístico Clavo a Clavo"
     },
     {
-      "id": "EXH_0013",
+      "id": "EXP_0001_M12",
       "type": "Exhibition",
       "label": "Traslado Colección Privada Graneros (2 obras)",
       "short_name": null,
@@ -3986,7 +3986,7 @@
       "role": "Coordinador Logístico Clavo a Clavo"
     },
     {
-      "id": "EXH_0014",
+      "id": "EXP_0001_M13",
       "type": "Exhibition",
       "label": "Traslado Colección Privada Nancagua (1 obra)",
       "short_name": null,
@@ -4001,7 +4001,7 @@
       "role": "Coordinador Logístico Clavo a Clavo"
     },
     {
-      "id": "EXH_0015",
+      "id": "EXP_0002",
       "type": "Exhibition",
       "label": "Prácticas de reiteración: Colección Museo del Mundo",
       "short_name": null,
@@ -4016,7 +4016,7 @@
       "role": "Co-Curador | Investigador"
     },
     {
-      "id": "EXH_0016",
+      "id": "EXP_0003",
       "type": "Exhibition",
       "label": "Adquisiciones en contexto: La Sociedad Nacional de Bellas Artes 1918-1950",
       "short_name": null,
@@ -4031,7 +4031,7 @@
       "role": "Co-Curador | Investigador"
     },
     {
-      "id": "EXH_0017",
+      "id": "EXP_0004",
       "type": "Exhibition",
       "label": "El canon revisitado. Una mirada al arte europeo desde América Latina",
       "short_name": null,
@@ -4046,7 +4046,7 @@
       "role": "Co-Curador | Coordinador Editorial"
     },
     {
-      "id": "EXH_0018",
+      "id": "EXP_0005",
       "type": "Exhibition",
       "label": "La segunda naturaleza. Colección CCU",
       "short_name": null,
@@ -4061,7 +4061,7 @@
       "role": "Co-Curador"
     },
     {
-      "id": "EXH_0019",
+      "id": "EXP_0006",
       "type": "Exhibition",
       "label": "A 30 años de Rodrigo Rojas de Negri",
       "short_name": null,
@@ -4076,7 +4076,7 @@
       "role": "Curador Principal | Investigador"
     },
     {
-      "id": "EXH_0020",
+      "id": "EXP_0007",
       "type": "Exhibition",
       "label": "Un exilio sin retorno. Rodrigo Rojas De Negri",
       "short_name": null,
@@ -4091,7 +4091,7 @@
       "role": "Asistente de Investigación Curatorial"
     },
     {
-      "id": "EXH_0021",
+      "id": "EXP_0008",
       "type": "Exhibition",
       "label": "Salón de Estudiantes 2013: Desde el resto; Farmacología estética",
       "short_name": null,
@@ -4106,7 +4106,7 @@
       "role": "Coordinador | Productor | Gestor General"
     },
     {
-      "id": "EXH_0022",
+      "id": "EXP_0009",
       "type": "Exhibition",
       "label": "Sala de Fotografía Emergente y Antología de Luis Camnitzer",
       "short_name": null,
@@ -4121,7 +4121,7 @@
       "role": "Asistente Curatorial y Operativo"
     },
     {
-      "id": "EXH_0023",
+      "id": "EXP_0010",
       "type": "Exhibition",
       "label": "Violeta y sus contemporáneas. Influencias y transferencias",
       "short_name": null,
@@ -4136,7 +4136,7 @@
       "role": "Coordinador de Itinerancia Territorial"
     },
     {
-      "id": "EXH_0024",
+      "id": "EXP_0010_1",
       "type": "Exhibition",
       "label": "Violeta y sus contemporáneas. Influencias y transferencias",
       "short_name": null,
@@ -4151,7 +4151,7 @@
       "role": "Coordinador de Itinerancia Territorial"
     },
     {
-      "id": "EXH_0025",
+      "id": "EXP_0011_01",
       "type": "Exhibition",
       "label": "Antúnez: Paisaje y Poesía (Centenario Nemesio Antúnez - Estación Ñuble)",
       "short_name": null,
@@ -4166,7 +4166,7 @@
       "role": "Coordinador de Itinerancia Territorial"
     },
     {
-      "id": "EXH_0026",
+      "id": "EXP_0011_02",
       "type": "Exhibition",
       "label": "Antúnez: Paisaje y Poesía (Centenario Nemesio Antúnez - Estación Biobío)",
       "short_name": null,
@@ -4181,7 +4181,7 @@
       "role": "Coordinador de Itinerancia Territorial"
     },
     {
-      "id": "EXH_0027",
+      "id": "EXP_0011_03",
       "type": "Exhibition",
       "label": "Antúnez: Paisaje y Poesía (Centenario Nemesio Antúnez - Estación Maule)",
       "short_name": null,
@@ -4196,7 +4196,7 @@
       "role": "Coordinador de Itinerancia Territorial"
     },
     {
-      "id": "EXH_0028",
+      "id": "EXP_0012",
       "type": "Exhibition",
       "label": "Crisis, crisis, crisis: La normalidad de la emergencia",
       "short_name": null,
@@ -4211,7 +4211,7 @@
       "role": "Curador Asistente"
     },
     {
-      "id": "EXH_0029",
+      "id": "EXP_0013",
       "type": "Exhibition",
       "label": "Sonata: Exposición Individual de Wladymir Bernechea",
       "short_name": null,
@@ -4346,7 +4346,7 @@
       "role": "Investigador y Equipo Coordinador"
     },
     {
-      "id": "PRJ_0009",
+      "id": "PRJ_0008_N01",
       "type": "Project",
       "label": "Monvoisin en América (Nodo Argentina - San Juan)",
       "short_name": null,
@@ -4361,7 +4361,7 @@
       "role": "Equipo Coordinador Transnacional"
     },
     {
-      "id": "PRJ_0010",
+      "id": "PRJ_0008_N02",
       "type": "Project",
       "label": "Monvoisin en América (Nodo Argentina - Buenos Aires)",
       "short_name": null,
@@ -4376,7 +4376,7 @@
       "role": "Equipo Coordinador Transnacional"
     },
     {
-      "id": "PRJ_0011",
+      "id": "PRJ_0008_N03",
       "type": "Project",
       "label": "Monvoisin en América (Nodo Perú)",
       "short_name": null,
@@ -4391,7 +4391,7 @@
       "role": "Equipo Coordinador Transnacional"
     },
     {
-      "id": "PRJ_0012",
+      "id": "PRJ_0008_N04",
       "type": "Project",
       "label": "Monvoisin en América (Nodo Brasil)",
       "short_name": null,
@@ -4406,7 +4406,7 @@
       "role": "Equipo Coordinador Transnacional"
     },
     {
-      "id": "PRJ_0013",
+      "id": "PRJ_0009",
       "type": "Project",
       "label": "Creación Archivo Fotográfico Rodrigo Rojas De Negri (FONDART Folio 84311)",
       "short_name": null,
@@ -4421,7 +4421,7 @@
       "role": "Investigador Responsable"
     },
     {
-      "id": "PRJ_0014",
+      "id": "PRJ_0010",
       "type": "Project",
       "label": "Salón de Estudiantes 2013 Desde el resto; (FVL-2011)",
       "short_name": null,
@@ -4436,7 +4436,7 @@
       "role": "Responsable General"
     },
     {
-      "id": "PRJ_0015",
+      "id": "PRJ_0011",
       "type": "Project",
       "label": "Beca General MEC (Máster Universitario en Humanidades Digitales)",
       "short_name": null,
@@ -4451,7 +4451,7 @@
       "role": "Becario de Excelencia"
     },
     {
-      "id": "PRJ_0016",
+      "id": "PRJ_0012",
       "type": "Project",
       "label": "Programa de educación Salón de Estudiantes 2013 (FDI-MINEDUC)",
       "short_name": null,
@@ -4466,7 +4466,7 @@
       "role": "Co-responsable"
     },
     {
-      "id": "PRJ_0017",
+      "id": "PRJ_0013",
       "type": "Project",
       "label": "Beca de Formación de Profesionales Iberoamericanos en el Sector Cultural",
       "short_name": null,
@@ -4481,7 +4481,7 @@
       "role": "Becario de Formación"
     },
     {
-      "id": "PRJ_0018",
+      "id": "PRJ_0014",
       "type": "Project",
       "label": "Beca de Inglés CORFO para Profesionales",
       "short_name": null,
@@ -4496,7 +4496,7 @@
       "role": "Becario de Idiomas"
     },
     {
-      "id": "PRJ_0019",
+      "id": "PRJ_0015",
       "type": "Project",
       "label": "Becas de Excelencia Académica (Beca Bicentenario | Equidad | PAE)",
       "short_name": null,
@@ -4511,7 +4511,7 @@
       "role": "Becario de Excelencia Pregrado"
     },
     {
-      "id": "PRJ_0020",
+      "id": "PRJ_0016",
       "type": "Project",
       "label": "S/T Revista de Fotografía Contemporánea (FONDART Nacional Folio 89451)",
       "short_name": null,
@@ -4526,7 +4526,7 @@
       "role": "Co-Editor | Gestor de Proyecto (Editora Principal: Montserrat Rojas Corradi)"
     },
     {
-      "id": "MED_0001",
+      "id": "COM_0001",
       "type": "Media",
       "label": "Exposición Episodio Monvoisin. Un pintor francés en el Chile del siglo XIX",
       "short_name": null,
@@ -4539,7 +4539,7 @@
       "event_or_media": "Programa El Semáforo, Radio Universidad de Chile"
     },
     {
-      "id": "MED_0002",
+      "id": "COM_0002",
       "type": "Media",
       "label": "Raymond Monvoisin: El pintor que retrató la elite chilena (#3676)",
       "short_name": null,
@@ -4552,7 +4552,7 @@
       "event_or_media": "La Hora del Museo, Museo Histórico Nacional"
     },
     {
-      "id": "MED_0003",
+      "id": "COM_0003",
       "type": "Media",
       "label": "Modelos de representación: el afromestizo en dos pinturas de batalla en el chile de mediados del siglo XIX",
       "short_name": null,
@@ -4565,7 +4565,7 @@
       "event_or_media": "XIV Jornadas de Historia del Arte. América Latina, siglos XVIII - XIX. UAI"
     },
     {
-      "id": "MED_0004",
+      "id": "COM_0004",
       "type": "Media",
       "label": "Notas de un itinerario: el perfil comercial del Taller Monvoisin en Chile (1843-1857)",
       "short_name": null,
@@ -4578,7 +4578,7 @@
       "event_or_media": "Laboratorio Circulación, mercado de arte y coleccionismo, UAI"
     },
     {
-      "id": "MED_0005",
+      "id": "COM_0005",
       "type": "Media",
       "label": "Notas preliminares sobre Clara Filleul: de historiografía, exposiciones y fortuna crítica",
       "short_name": null,
@@ -4591,7 +4591,7 @@
       "event_or_media": "Laboratorio género y discipulaje. El Taller Monvoisin. MNBA"
     },
     {
-      "id": "MED_0006",
+      "id": "COM_0006",
       "type": "Media",
       "label": "Género y discipulaje. Los casos de Clara Filleul y Procesa Sarmiento en el Taller Monvoisin",
       "short_name": null,
@@ -4604,7 +4604,7 @@
       "event_or_media": "XIV Jornadas Nacionales de Historia de las Mujeres, Universidad Nacional de Mar del Plata"
     },
     {
-      "id": "MED_0007",
+      "id": "COM_0007",
       "type": "Media",
       "label": "Trazar límites, deslindar fronteras. El caso de la pintura El Fuerte Bulnes (1848) de Alessandro Ciccarelli",
       "short_name": null,
@@ -4617,7 +4617,7 @@
       "event_or_media": "X Jornadas de história da arte política(s) na história da arte, UNIFESP"
     },
     {
-      "id": "MED_0008",
+      "id": "COM_0008",
       "type": "Media",
       "label": "Espacio devocional y cotidiano, al encuentro del reconocimiento del afromestizo...",
       "short_name": null,
@@ -4630,7 +4630,7 @@
       "event_or_media": "II Congreso Nacional e Internacional de Historia del Arte, Universidad Autónoma de Chile"
     },
     {
-      "id": "MED_0009",
+      "id": "COM_0009",
       "type": "Media",
       "label": "Modelos de representación. Ausencia y presencia afromestiza en imágenes. Chile siglo XIX",
       "short_name": null,
@@ -4643,7 +4643,7 @@
       "event_or_media": "Seminario: Circulaciones, coleccionismo, apropiaciones en el siglo XIX, UAI"
     },
     {
-      "id": "MED_0010",
+      "id": "COM_0010",
       "type": "Media",
       "label": "Incertidumbres en las visualidades de indígenas y negros en Chile",
       "short_name": null,
@@ -4656,7 +4656,7 @@
       "event_or_media": "VI Simposio Internacional de Estética: Estéticas del poder y contra-poder, PUC"
     },
     {
-      "id": "MED_0011",
+      "id": "COM_0011",
       "type": "Media",
       "label": "La constitución del Salón de Santiago. Notas sobre la institucionalización del sistema de exhibición...",
       "short_name": null,
@@ -4669,7 +4669,7 @@
       "event_or_media": "III Encuentro de Jóvenes Investigadores en Arte, CAIA / UBA"
     },
     {
-      "id": "MED_0012",
+      "id": "COM_0012",
       "type": "Media",
       "label": "Charla sobre curaduría e investigación del archivo fotográfico Rodrigo Rojas De Negri",
       "short_name": null,
@@ -4682,7 +4682,7 @@
       "event_or_media": "Artistas del Acero, Concepción, Chile"
     },
     {
-      "id": "MED_0013",
+      "id": "COM_0013",
       "type": "Media",
       "label": "De curador y curadores. Encuentro teórico",
       "short_name": null,
@@ -4695,7 +4695,7 @@
       "event_or_media": "Instituto de Estudios Avanzados IDEA, USACH"
     },
     {
-      "id": "MED_0014",
+      "id": "COM_0014",
       "type": "Media",
       "label": "Charla en el marco de la exposición temporal Genius Loci",
       "short_name": null,
@@ -4708,7 +4708,7 @@
       "event_or_media": "Museo Benjamín Vicuña Mackenna"
     },
     {
-      "id": "MED_0015",
+      "id": "COM_0015",
       "type": "Media",
       "label": "Valioso retrato de Monvoisin entra a la colección del Museo de Bellas Artes",
       "short_name": null,
@@ -4721,7 +4721,7 @@
       "event_or_media": "Diario El Mercurio (Cultura)"
     },
     {
-      "id": "MED_0016",
+      "id": "COM_0016",
       "type": "Media",
       "label": "Abre sus puertas: Exposición Episodio Monvoisin y logística de traslado de obras",
       "short_name": null,
@@ -4734,7 +4734,7 @@
       "event_or_media": "Artes y Letras, Diario El Mercurio"
     },
     {
-      "id": "MED_0017",
+      "id": "COM_0017",
       "type": "Media",
       "label": "Pintura de la Catedral de Concepción atrae miradas en el MNBA",
       "short_name": null,
@@ -4747,7 +4747,7 @@
       "event_or_media": "Diario El Sur (Concepción)"
     },
     {
-      "id": "MED_0018",
+      "id": "COM_0018",
       "type": "Media",
       "label": "Matriz Imaginada. Archivo Salón de Estudiantes 2013",
       "short_name": null,
@@ -4760,7 +4760,7 @@
       "event_or_media": "Archivo Central Andrés Bello, Universidad de Chile"
     },
     {
-      "id": "MED_0019",
+      "id": "COM_0019",
       "type": "Media",
       "label": "Presentación del modelo de gestión Salón de Estudiantes 2013",
       "short_name": null,
@@ -4773,7 +4773,7 @@
       "event_or_media": "Promoción del Arte, MECD España"
     },
     {
-      "id": "MED_0020",
+      "id": "COM_0020",
       "type": "Media",
       "label": "Ciclo Instagram Live: Monvoisin en América (5 capítulos)",
       "short_name": null,
@@ -4786,7 +4786,7 @@
       "event_or_media": "Museo Nacional de Bellas Artes (Instagram Live)"
     },
     {
-      "id": "MED_0021",
+      "id": "COM_0021",
       "type": "Media",
       "label": "Desde el Museo. Miradas Alteradas: colonialismo y dominación",
       "short_name": null,
@@ -4799,7 +4799,7 @@
       "event_or_media": "Museo Nacional de Bellas Artes (YouTube)"
     },
     {
-      "id": "MED_0022",
+      "id": "COM_0022",
       "type": "Media",
       "label": "Instagram Live: Representación de la afrodescendencia en la Colección MNBA",
       "short_name": null,
@@ -4812,7 +4812,7 @@
       "event_or_media": "Museo Nacional de Bellas Artes (Instagram Live)"
     },
     {
-      "id": "MED_0023",
+      "id": "COM_0023",
       "type": "Media",
       "label": "Desde el Museo: Adquisiciones en contexto",
       "short_name": null,
@@ -4825,7 +4825,7 @@
       "event_or_media": "Museo Nacional de Bellas Artes (Instagram Live)"
     },
     {
-      "id": "MED_0024",
+      "id": "COM_0024",
       "type": "Media",
       "label": "Recorrido mediado por la exposición Adquisiciones en contexto",
       "short_name": null,
@@ -4838,7 +4838,7 @@
       "event_or_media": "Sala Chile, Museo Nacional de Bellas Artes"
     },
     {
-      "id": "MED_0025",
+      "id": "COM_0025",
       "type": "Media",
       "label": "Lanzamiento plataforma web QUINSAC y libro Monvoisin en América",
       "short_name": null,
@@ -4851,7 +4851,7 @@
       "event_or_media": "Salón Blanco, Museo Nacional de Bellas Artes"
     },
     {
-      "id": "MED_0026",
+      "id": "COM_0026",
       "type": "Media",
       "label": "Los canteros de Pedro Lira: Trayectoria histórica y aproximación iconográfica",
       "short_name": null,
@@ -4864,7 +4864,7 @@
       "event_or_media": "Jornadas de Declaración de Significado (CNCR - MNBA)"
     },
     {
-      "id": "MED_0027",
+      "id": "COM_0027",
       "type": "Media",
       "label": "Cápsula audiovisual de mediación: Exposición Episodio Monvoisin en el MNBA",
       "short_name": null,
@@ -4877,7 +4877,7 @@
       "event_or_media": "Instagram Reel Oficial MNBA"
     },
     {
-      "id": "DGH_0001",
+      "id": "DIG_0001",
       "type": "DigitalHeritage",
       "label": "QUINSAC. Estudios razonados de arte y coleccionismo",
       "short_name": null,
@@ -4889,7 +4889,7 @@
       "row_number": 1
     },
     {
-      "id": "DGH_0002",
+      "id": "DIG_0006",
       "type": "DigitalHeritage",
       "label": "Monvoisin: huellas territoriales de un artista",
       "short_name": null,
@@ -4901,7 +4901,7 @@
       "row_number": 2
     },
     {
-      "id": "DGH_0003",
+      "id": "DIG_0008",
       "type": "DigitalHeritage",
       "label": "Plataforma virtual Salón de Estudiantes",
       "short_name": null,
@@ -4913,7 +4913,7 @@
       "row_number": 3
     },
     {
-      "id": "DGH_0004",
+      "id": "DIG_0009",
       "type": "DigitalHeritage",
       "label": "Callejera Madrid",
       "short_name": null,
@@ -4925,7 +4925,7 @@
       "row_number": 4
     },
     {
-      "id": "DGH_0005",
+      "id": "DIG_0010",
       "type": "DigitalHeritage",
       "label": "Arquitectura Art Déco en Santiago centro",
       "short_name": null,
@@ -4937,7 +4937,7 @@
       "row_number": 5
     },
     {
-      "id": "DGH_0006",
+      "id": "DIG_0011",
       "type": "DigitalHeritage",
       "label": "Mármoles y Bronces entre el Mediterráneo y los Andes",
       "short_name": null,
