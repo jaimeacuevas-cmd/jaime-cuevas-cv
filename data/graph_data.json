@@ -2,12 +2,12 @@
   "metadata": {
     "version": "2.0",
     "source": "CV_Dataset_Maestro_Jaime_Cuevas.xlsx",
-    "node_count": 261,
-    "link_count": 660,
+    "node_count": 265,
+    "link_count": 674,
     "sheet_count": 12,
     "validation_status": "PASS",
     "validation_warnings": 148,
-    "filtered_nodes": 43
+    "filtered_nodes": 39
   },
   "nodes": [
     {
@@ -1329,6 +1329,20 @@
       "wikidata": "Q13371"
     },
     {
+      "id": "ORG_0016",
+      "type": "Organization",
+      "label": "Fundación TyPA (Teoría y Práctica de las Artes)",
+      "short_name": "TYPA",
+      "category": "Fundación Cultural",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 16,
+      "city": "Buenos Aires",
+      "wikidata": null
+    },
+    {
       "id": "ORG_0017",
       "type": "Organization",
       "label": "Wikimedia Argentina",
@@ -1355,6 +1369,20 @@
       "row_number": 18,
       "city": "Lima",
       "wikidata": "Q6940540"
+    },
+    {
+      "id": "ORG_0019",
+      "type": "Organization",
+      "label": "Pinacoteca do Estado de São Paulo",
+      "short_name": "PINACOTECA_SP",
+      "category": "Museo de Arte",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 19,
+      "city": "São Paulo",
+      "wikidata": "Q1464673"
     },
     {
       "id": "ORG_0022",
@@ -1949,6 +1977,30 @@
       "precision_type": "exact"
     },
     {
+      "id": "LOC_0014",
+      "type": "Location",
+      "label": "Fundación TyPA / CAIA UBA (Buenos Aires)",
+      "short_name": null,
+      "category": "Sede Institucional",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 14,
+      "city": "Buenos Aires",
+      "district": "Comuna 1",
+      "coordinates": [
+        -58.44653347584588,
+        -34.62815117682938
+      ],
+      "wikidata": null,
+      "why_relevant": null,
+      "micro_summary": null,
+      "parent_org_id": "ORG_0016",
+      "is_user_primary": false,
+      "precision_type": "exact"
+    },
+    {
       "id": "LOC_0015",
       "type": "Location",
       "label": "Museo de Arte de Lima (MALI)",
@@ -1969,6 +2021,30 @@
       "why_relevant": null,
       "micro_summary": null,
       "parent_org_id": "ORG_0018",
+      "is_user_primary": false,
+      "precision_type": "exact"
+    },
+    {
+      "id": "LOC_0016",
+      "type": "Location",
+      "label": "Pinacoteca do Estado de São Paulo",
+      "short_name": null,
+      "category": "Sede Institucional / Museo",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 16,
+      "city": "São Paulo",
+      "district": "Luz / Bom Retiro",
+      "coordinates": [
+        -46.63368673405564,
+        -23.53422346887216
+      ],
+      "wikidata": "Q1464673",
+      "why_relevant": null,
+      "micro_summary": null,
+      "parent_org_id": "ORG_0019",
       "is_user_primary": false,
       "precision_type": "exact"
     },
@@ -4884,11 +4960,27 @@
       "_sheet_name": "Lugares_y_Sedes_GENERATED"
     },
     {
+      "id": "REL_ORG_LOC_0014",
+      "source": "ORG_0016",
+      "target": "LOC_0014",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0016 has location LOC_0014",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
       "id": "REL_ORG_LOC_0015",
       "source": "ORG_0018",
       "target": "LOC_0015",
       "predicate": "crm:P87_is_identified_by",
       "description": "Organization ORG_0018 has location LOC_0015",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0016",
+      "source": "ORG_0019",
+      "target": "LOC_0016",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0019 has location LOC_0016",
       "_sheet_name": "Lugares_y_Sedes_GENERATED"
     },
     {
@@ -7719,6 +7811,114 @@
       "id": "REL_0297",
       "source": "COM_0006",
       "target": "LOC_0041",
+      "predicate": "crm:P7_took_place_at",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0298",
+      "source": "ORG_0003",
+      "target": "LOC_0003",
+      "predicate": "crm:P87_is_identified_by",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0299",
+      "source": "ORG_0004",
+      "target": "LOC_0001",
+      "predicate": "crm:P87_is_identified_by",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0300",
+      "source": "ORG_0006",
+      "target": "LOC_0001",
+      "predicate": "crm:P87_is_identified_by",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0301",
+      "source": "ORG_0007",
+      "target": "LOC_0001",
+      "predicate": "crm:P87_is_identified_by",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0302",
+      "source": "ORG_0010",
+      "target": "LOC_0001",
+      "predicate": "crm:P87_is_identified_by",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0303",
+      "source": "ORG_0013",
+      "target": "LOC_0012",
+      "predicate": "crm:P87_is_identified_by",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0304",
+      "source": "ORG_0026",
+      "target": "LOC_0023",
+      "predicate": "crm:P87_is_identified_by",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0305",
+      "source": "ORG_0030",
+      "target": "LOC_0016",
+      "predicate": "crm:P87_is_identified_by",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0306",
+      "source": "ORG_0031",
+      "target": "LOC_0014",
+      "predicate": "crm:P87_is_identified_by",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0307",
+      "source": "ORG_0032",
+      "target": "LOC_0041",
+      "predicate": "crm:P87_is_identified_by",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0308",
+      "source": "ORG_0033",
+      "target": "LOC_0042",
+      "predicate": "crm:P87_is_identified_by",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0309",
+      "source": "COM_0007",
+      "target": "LOC_0016",
       "predicate": "crm:P7_took_place_at",
       "year": "",
       "description": null,
