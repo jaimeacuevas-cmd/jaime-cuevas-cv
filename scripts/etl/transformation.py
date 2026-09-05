@@ -415,11 +415,31 @@ class DataTransformer:
         return links
 
     def _generate_implicit_links(self, raw_entities: Dict[str, List[Dict]]) -> List[Dict]:
-        """Generate implicit links: Agent → Education, Agent → Position, and Agent → Exhibition."""
+        """
+        Generate implicit links:
+        - Agent → Education, Education → Organization, Education → Location
+        - Agent → Position, Position → Organization, Position → Location
+        - Agent → Exhibition, Exhibition → Location
+        - Agent → Media, Media → Organization, Media → Location
+        - Agent → Project, Project → Location
+        - Agent → Publication
+        """
         links = []
         link_counter = 1000  # Start high to avoid collision with explicit REL_ IDs
 
-        # Generate links from Formacion_Academica (Agent → Education, Education → Organization)
+        # Build organization → location mappings from Locations table
+        # This allows us to link events/activities to their physical locations via organization
+        org_to_locations = {}
+        locations = raw_entities.get('Location', [])
+        for loc_row in locations:
+            parent_org = loc_row.get('parent_org_id', '').strip()
+            loc_id = loc_row.get('id_lugar', '').strip()
+            if parent_org and loc_id and parent_org.startswith('ORG_'):
+                if parent_org not in org_to_locations:
+                    org_to_locations[parent_org] = []
+                org_to_locations[parent_org].append(loc_id)
+
+        # Generate links from Formacion_Academica (Agent → Education, Education → Organization, Education → Location)
         educations = raw_entities.get('Education', [])
         for edu_row in educations:
             agent_id = edu_row.get('id_agente', '').strip()
@@ -453,6 +473,21 @@ class DataTransformer:
                 }
                 links.append(link)
                 link_counter += 1
+
+                # Education → Location (if organization has associated locations)
+                if org_id in org_to_locations:
+                    for loc_id in org_to_locations[org_id]:
+                        link = {
+                            'id': f"IMPL_{link_counter:05d}",
+                            'source': edu_id,
+                            'target': loc_id,
+                            'predicate': 'crm:P7_took_place_at',
+                            'predicate_label': 'Ocurrió en',
+                            'description': f"Education location: {edu_row.get('institucion', '')}",
+                            '_sheet_name': 'Formacion_Academica',
+                        }
+                        links.append(link)
+                        link_counter += 1
 
         # Generate links from Trayectoria_Laboral (Agent → Position, Position → Organization)
         positions = raw_entities.get('Position', [])
@@ -488,6 +523,21 @@ class DataTransformer:
                 }
                 links.append(link)
                 link_counter += 1
+
+                # Position → Location (if organization has associated locations)
+                if org_id in org_to_locations:
+                    for loc_id in org_to_locations[org_id]:
+                        link = {
+                            'id': f"IMPL_{link_counter:05d}",
+                            'source': pos_id,
+                            'target': loc_id,
+                            'predicate': 'crm:P7_took_place_at',
+                            'predicate_label': 'Ubicación física',
+                            'description': f"Position location: {pos_row.get('institucion', '')}",
+                            '_sheet_name': 'Trayectoria_Laboral',
+                        }
+                        links.append(link)
+                        link_counter += 1
 
         # Generate links from Exposiciones_Curadurias (Agent → Exhibition, Exhibition → Location)
         exhibitions = raw_entities.get('Exhibition', [])
@@ -610,6 +660,21 @@ class DataTransformer:
                 links.append(link)
                 link_counter += 1
 
+                # Media → Location (if organization has associated locations)
+                if org_id in org_to_locations:
+                    for loc_id in org_to_locations[org_id]:
+                        link = {
+                            'id': f"IMPL_{link_counter:05d}",
+                            'source': media_id,
+                            'target': loc_id,
+                            'predicate': 'crm:P7_took_place_at',
+                            'predicate_label': 'Ocurrió en lugar',
+                            'description': f"Congress/Media at location: {media_row.get('evento_o_medio', '')}",
+                            '_sheet_name': 'Medios_y_Congresos',
+                        }
+                        links.append(link)
+                        link_counter += 1
+
         # Generate links from Publicaciones (Agent → Publication)
         publications = raw_entities.get('Publication', [])
         for pub_row in publications:
@@ -629,12 +694,14 @@ class DataTransformer:
                 links.append(link)
                 link_counter += 1
 
-        # Generate links from Proyectos_y_Fondos (Agent → Project)
+        # Generate links from Proyectos_y_Fondos (Agent → Project, Project → Organization, Project → Location)
         projects = raw_entities.get('Project', [])
         for prj_row in projects:
             agent_id = prj_row.get('id_agente', '').strip()
             prj_id = prj_row.get('id_proyecto', '').strip()
+            org_id = prj_row.get('id_organizacion_financiera', '').strip()
 
+            # Agent → Project
             if agent_id and prj_id:
                 link = {
                     'id': f"IMPL_{link_counter:05d}",
@@ -647,6 +714,35 @@ class DataTransformer:
                 }
                 links.append(link)
                 link_counter += 1
+
+            # Project → Organization (if organization exists and has valid format)
+            if prj_id and org_id and org_id.startswith('ORG_'):
+                link = {
+                    'id': f"IMPL_{link_counter:05d}",
+                    'source': prj_id,
+                    'target': org_id,
+                    'predicate': 'crm:P14_carried_out_by',
+                    'predicate_label': 'Ejecutado por',
+                    'description': f"Project executed by: {prj_row.get('institucion_agencia_financiamiento', '')}",
+                    '_sheet_name': 'Proyectos_y_Fondos',
+                }
+                links.append(link)
+                link_counter += 1
+
+                # Project → Location (if organization has associated locations)
+                if org_id in org_to_locations:
+                    for loc_id in org_to_locations[org_id]:
+                        link = {
+                            'id': f"IMPL_{link_counter:05d}",
+                            'source': prj_id,
+                            'target': loc_id,
+                            'predicate': 'crm:P7_took_place_at',
+                            'predicate_label': 'Se realizó en',
+                            'description': f"Project location: {prj_row.get('nodo_origen', '')}",
+                            '_sheet_name': 'Proyectos_y_Fondos',
+                        }
+                        links.append(link)
+                        link_counter += 1
 
         # Generate links from Portafolio_Digital_Web (Agent → DigitalHeritage)
         digital_heritages = raw_entities.get('DigitalHeritage', [])
