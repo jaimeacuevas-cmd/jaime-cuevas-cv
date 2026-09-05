@@ -2,8 +2,8 @@
   "metadata": {
     "version": "2.0",
     "source": "CV_Dataset_Maestro_Jaime_Cuevas.xlsx",
-    "node_count": 220,
-    "link_count": 513,
+    "node_count": 219,
+    "link_count": 512,
     "sheet_count": 12,
     "validation_status": "PASS",
     "validation_warnings": 117,
@@ -3469,21 +3469,6 @@
       "role": "Desarrolladora Digital | Investigadora"
     },
     {
-      "id": "PRJ_0018",
-      "type": "Project",
-      "label": "Magister en Historia del Arte",
-      "short_name": null,
-      "category": null,
-      "description": null,
-      "url": null,
-      "is_core": false,
-      "source_sheet": "",
-      "row_number": 22,
-      "funder": "Universidad Adolfo Ibáñez (UAI)",
-      "period": null,
-      "role": "Estudiante de Postgrado"
-    },
-    {
       "id": "COM_0001",
       "type": "Media",
       "label": "Exposición Episodio Monvoisin. Un pintor francés en el Chile del siglo XIX",
@@ -6702,7 +6687,7 @@
     {
       "id": "REL_0293",
       "source": "PUB_0002",
-      "target": "PRJ_0018",
+      "target": "EDU_0003",
       "predicate": "crm:P108_has_produced",
       "year": 2019,
       "description": null,
@@ -6711,7 +6696,7 @@
     {
       "id": "REL_0294",
       "source": "PUB_0008",
-      "target": "PRJ_0018",
+      "target": "EDU_0003",
       "predicate": "crm:P108_has_produced",
       "year": 2023,
       "description": null,
@@ -6720,7 +6705,7 @@
     {
       "id": "REL_0295",
       "source": "PUB_0013",
-      "target": "PRJ_0018",
+      "target": "EDU_0003",
       "predicate": "crm:P108_has_produced",
       "year": 2019,
       "description": null,
@@ -8488,15 +8473,6 @@
       "predicate": "crm:P14i_performed",
       "predicate_label": "Realizó/Lidera",
       "description": "Project: Callejera Madrid: Desarrollo digital y curación web",
-      "_sheet_name": "Proyectos_y_Fondos"
-    },
-    {
-      "id": "IMPL_01200",
-      "source": "PER_0001",
-      "target": "PRJ_0018",
-      "predicate": "crm:P14i_performed",
-      "predicate_label": "Realizó/Lidera",
-      "description": "Project: Magister en Historia del Arte",
       "_sheet_name": "Proyectos_y_Fondos"
     }
   ]
