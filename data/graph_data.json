@@ -202,7 +202,7 @@
       "orcid": null,
       "wikidata": null,
       "urls": {
-        "main": "https://museodelmundo.org",
+        "main": null,
         "scholar": null,
         "github": null,
         "linkedin": null,
@@ -458,7 +458,7 @@
       "orcid": null,
       "wikidata": null,
       "urls": {
-        "main": "https://www.artistasvisualeschilenos.cl/658/w3-article-39977.html",
+        "main": null,
         "scholar": null,
         "github": null,
         "linkedin": null,
@@ -486,7 +486,7 @@
       "orcid": null,
       "wikidata": null,
       "urls": {
-        "main": "https://www.artistasvisualeschilenos.cl/658/w3-article-39978.html",
+        "main": null,
         "scholar": null,
         "github": null,
         "linkedin": null,
@@ -514,7 +514,7 @@
       "orcid": null,
       "wikidata": null,
       "urls": {
-        "main": "https://fundacionnemesioantunez.cl",
+        "main": null,
         "scholar": null,
         "github": null,
         "linkedin": null,
@@ -542,7 +542,7 @@
       "orcid": null,
       "wikidata": null,
       "urls": {
-        "main": "https://www.museovioletaparra.cl",
+        "main": null,
         "scholar": null,
         "github": null,
         "linkedin": null,
@@ -570,7 +570,7 @@
       "orcid": null,
       "wikidata": null,
       "urls": {
-        "main": "https://museodelamemoria.cl",
+        "main": null,
         "scholar": null,
         "github": null,
         "linkedin": null,
@@ -818,7 +818,7 @@
       "orcid": null,
       "wikidata": null,
       "urls": {
-        "main": "https://cceguatemala.org",
+        "main": null,
         "scholar": null,
         "github": null,
         "linkedin": null,
@@ -842,7 +842,7 @@
       "orcid": null,
       "wikidata": null,
       "urls": {
-        "main": "https://cceguatemala.org",
+        "main": null,
         "scholar": null,
         "github": null,
         "linkedin": null,
@@ -870,7 +870,7 @@
       "orcid": null,
       "wikidata": null,
       "urls": {
-        "main": "https://ccuenelarte.cl",
+        "main": null,
         "scholar": null,
         "github": null,
         "linkedin": null,
@@ -898,7 +898,7 @@
       "orcid": null,
       "wikidata": null,
       "urls": {
-        "main": "https://alfredojaar.net",
+        "main": null,
         "scholar": null,
         "github": null,
         "linkedin": null,
@@ -926,7 +926,7 @@
       "orcid": null,
       "wikidata": null,
       "urls": {
-        "main": "https://ccuenelarte.cl",
+        "main": null,
         "scholar": null,
         "github": null,
         "linkedin": null,
@@ -1066,7 +1066,7 @@
       "orcid": null,
       "wikidata": null,
       "urls": {
-        "main": "https://calfuqueo.com",
+        "main": null,
         "scholar": null,
         "github": null,
         "linkedin": null,
@@ -1094,7 +1094,7 @@
       "orcid": null,
       "wikidata": null,
       "urls": {
-        "main": "https://soledadpinto.com",
+        "main": null,
         "scholar": null,
         "github": null,
         "linkedin": null,
@@ -1122,7 +1122,7 @@
       "orcid": null,
       "wikidata": null,
       "urls": {
-        "main": "https://nicolasgrum.cl",
+        "main": null,
         "scholar": null,
         "github": null,
         "linkedin": null,
@@ -1146,7 +1146,7 @@
       "orcid": null,
       "wikidata": null,
       "urls": {
-        "main": "https://gonzalocueto.cl",
+        "main": null,
         "scholar": null,
         "github": null,
         "linkedin": null,
@@ -4985,7 +4985,7 @@
       "short_name": null,
       "category": "Plataforma Web / Catálogo Razonado Semántico",
       "description": null,
-      "url": "https://Museo Nacional de Bellas Artes",
+      "url": null,
       "is_core": false,
       "source_sheet": "",
       "row_number": 1
@@ -4997,7 +4997,7 @@
       "short_name": null,
       "category": "Plataforma Web / Cartografía Interactiva",
       "description": null,
-      "url": "https://Biblioteca Nacional Digital / CNCR",
+      "url": null,
       "is_core": false,
       "source_sheet": "",
       "row_number": 2
@@ -5009,7 +5009,7 @@
       "short_name": null,
       "category": "Plataforma Web / Archivo Digital",
       "description": null,
-      "url": "https://Universidad de Chile / MAC",
+      "url": null,
       "is_core": false,
       "source_sheet": "",
       "row_number": 3
@@ -5021,7 +5021,7 @@
       "short_name": null,
       "category": "Infraestructura Crítica de Datos / Grafo Semántico LOD",
       "description": null,
-      "url": "https://Infraestructura Crítica de Datos",
+      "url": null,
       "is_core": false,
       "source_sheet": "",
       "row_number": 4
@@ -5033,7 +5033,7 @@
       "short_name": null,
       "category": "Ecosistema Digital Semántico y Catálogo Web",
       "description": null,
-      "url": "https://FONDART Regional / Plataforma Abierta",
+      "url": null,
       "is_core": false,
       "source_sheet": "",
       "row_number": 5
@@ -5045,7 +5045,7 @@
       "short_name": null,
       "category": "Base de Datos Semántica e Interfaz Analítica",
       "description": null,
-      "url": "https://FONDECYT Regular 1241154",
+      "url": null,
       "is_core": false,
       "source_sheet": "",
       "row_number": 6
