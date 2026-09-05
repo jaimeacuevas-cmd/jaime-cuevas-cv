@@ -1570,11 +1570,47 @@
             popupHtml += `<div class="text-stone-500 text-[10px]">📍 ${props.city || ''} ${props.country ? '(' + props.country + ')' : ''}</div>`;
           }
 
+          // Find parent organization and Jaime's activities
+          const parentOrgId = props.parent_org_id;
+          const parentOrg = parentOrgId ? fullGraphData.nodes.find(n => n.id === parentOrgId) : null;
+
+          if (parentOrg) {
+            popupHtml += `<div class="text-stone-700 text-[10px] font-medium mt-1">🏢 ${parentOrg.label}</div>`;
+
+            // Find Jaime's activities at this organization
+            const activityTypes = {};
+            fullGraphData.links.forEach(link => {
+              if (link.source === 'PER_0001') {
+                const node = fullGraphData.nodes.find(n => n.id === link.target);
+                if (node && ['Position', 'Education', 'Exhibition', 'Publication', 'Project'].includes(node.type)) {
+                  const hasOrgLink = fullGraphData.links.some(l =>
+                    (l.source === link.target && l.target === parentOrgId) ||
+                    (l.target === link.target && l.source === parentOrgId)
+                  );
+                  if (hasOrgLink) {
+                    if (!activityTypes[node.type]) activityTypes[node.type] = 0;
+                    activityTypes[node.type]++;
+                  }
+                }
+              }
+            });
+
+            if (Object.keys(activityTypes).length > 0) {
+              popupHtml += `<div class="bg-blue-50 border-l-2 border-blue-400 pl-2 py-1 mt-1 rounded-r">
+                <p class="text-stone-600 text-[9px] font-semibold mb-0.5">🎯 Actividades de Jaime:</p>`;
+              Object.entries(activityTypes).forEach(([type, count]) => {
+                const glyph = categoryGlyphs[type] || '◈';
+                popupHtml += `<div class="text-[9px] text-stone-700"><span class="font-semibold">${glyph}</span> ${type}${count > 1 ? ` (${count})` : ''}</div>`;
+              });
+              popupHtml += `</div>`;
+            }
+          }
+
           // Context: why this location is relevant
           if (props.why_relevant) {
-            popupHtml += `<div class="bg-blue-50 border-l-2 border-blue-400 pl-2 py-1 mt-1.5 rounded-r">
-              <p class="text-stone-600 text-[10px] leading-tight font-medium">🎯 Relevancia:</p>
-              <p class="text-stone-700 text-[10px] leading-tight">${props.why_relevant}</p>
+            popupHtml += `<div class="bg-emerald-50 border-l-2 border-emerald-400 pl-2 py-1 mt-1 rounded-r">
+              <p class="text-stone-600 text-[9px] font-medium">📌 Contexto:</p>
+              <p class="text-stone-700 text-[9px] leading-tight">${props.why_relevant}</p>
             </div>`;
           }
 

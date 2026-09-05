@@ -106,7 +106,7 @@ class ETLPipeline:
             generator = OutputGenerator()
 
             graph_data = generator.generate_graph_json(nodes, links, validation_report)
-            geo_data = generator.generate_geojson(nodes)
+            geo_data = generator.generate_geojson(nodes, links)
             turtle_data = generator.generate_turtle(nodes, links)
 
             # Create dist directories

@@ -81,20 +81,61 @@ class OutputGenerator:
         logger.info(f"  ✓ Generated graph with {len(clean_nodes)} nodes and {len(output['links'])} links")
         return output
 
-    def generate_geojson(self, nodes: List[Dict]) -> Dict:
+    def generate_geojson(self, nodes: List[Dict], links: Optional[List[Dict]] = None) -> Dict:
         """
         Generate cartografia.geojson for Leaflet map visualization.
-        Only includes Location nodes with coordinates.
+        Only includes Location nodes with coordinates that are connected to Jaime's activities.
+
+        Filtering strategy: A location appears in cartography only if:
+        1. It has valid coordinates
+        2. It is connected to an organization that Jaime is involved with
         """
         logger.info("Generating cartografia.geojson...")
 
+        # Build Jaime's organization network if links provided
+        jaime_orgs = set()
+        if links:
+            for link in links:
+                # Jaime is PER_0001
+                if link.get('source') == 'PER_0001':
+                    target = link.get('target', '')
+                    if target.startswith('ORG_'):
+                        jaime_orgs.add(target)
+                elif link.get('target') == 'PER_0001':
+                    source = link.get('source', '')
+                    if source.startswith('ORG_'):
+                        jaime_orgs.add(source)
+            logger.info(f"  Found {len(jaime_orgs)} organizations connected to Jaime")
+
+        # Build location→org mapping
+        loc_to_orgs = {}
+        for node in nodes:
+            if node.get('type') == 'Location':
+                loc_to_orgs[node['id']] = []
+
+        if links:
+            for link in links:
+                if link.get('source').startswith('LOC_') and link.get('target').startswith('ORG_'):
+                    loc_to_orgs[link['source']].append(link['target'])
+                elif link.get('target').startswith('LOC_') and link.get('source').startswith('ORG_'):
+                    loc_to_orgs[link['target']].append(link['source'])
+
+        # Generate features, filtering by relevance
         features = []
+        excluded_count = 0
         for node in nodes:
             if node.get('type') != 'Location':
                 continue
 
             coords = node.get('coordinates')
             if not coords or len(coords) != 2:
+                continue
+
+            # Skip location if it has no connection to Jaime's organizations
+            loc_id = node.get('id')
+            connected_orgs = loc_to_orgs.get(loc_id, [])
+            if jaime_orgs and not any(org in jaime_orgs for org in connected_orgs):
+                excluded_count += 1
                 continue
 
             feature = {
@@ -122,11 +163,15 @@ class OutputGenerator:
 
             features.append(feature)
 
+        if excluded_count > 0:
+            logger.info(f"  Excluded {excluded_count} locations not connected to Jaime's organizations")
+
         output = {
             'type': 'FeatureCollection',
             'metadata': {
                 'projection': 'WGS84',
                 'feature_count': len(features),
+                'filtered_count': excluded_count,
             },
             'features': features,
         }
