@@ -779,13 +779,6 @@
       }
     }
 
-    // Call on DOM ready
-    if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', initializeApplicationData);
-    } else {
-      initializeApplicationData();
-    }
-
     const categoryGlyphs = {
       'Agent': '⊙',
       'Position': '☵',
@@ -814,7 +807,6 @@
     };
 
     // Global state variables - INITIALIZATION
-    let geoData = null;
     let svg, g, simulation;
     let nodeSelection, linkSelection;
     let currentMode = 'interactive';
@@ -1730,10 +1722,12 @@
       URL.revokeObjectURL(url);
     }
 
-    // INITIALIZE ON LOAD
-    document.addEventListener('DOMContentLoaded', () => {
-      initD3Graph();
-    });
+    // INITIALIZE ON LOAD (call data loading first, then visualization)
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initializeApplicationData);
+    } else {
+      initializeApplicationData();
+    }
   </script>
 </body>
 </html>
