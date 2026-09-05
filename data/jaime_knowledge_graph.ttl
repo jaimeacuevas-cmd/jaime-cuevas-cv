@@ -356,15 +356,15 @@ jc:ORG_0038 a crm:E74_Group .
 
 jc:LOC_0001 a crm:E53_Place ;
     rdfs:label "Museo Nacional de Bellas Artes (MNBA)" ;
-    geo:long -70.6439 ;
-    geo:lat -33.4352 ;
+    geo:long -70.64354723358485 ;
+    geo:lat -33.43515306708146 ;
     schema:areaServed "Santiago" ;
     skos:exactMatch <https://www.wikidata.org/wiki/Q1138865> .
 
 jc:LOC_0002 a crm:E53_Place ;
     rdfs:label "Museo de Arte Contemporáneo (MAC Quinta Normal)" ;
-    geo:long -70.682 ;
-    geo:lat -33.4414 ;
+    geo:long -70.68037428569774 ;
+    geo:lat -33.44198933167025 ;
     schema:areaServed "Santiago" ;
     skos:exactMatch <https://www.wikidata.org/wiki/Q3329153> .
 
@@ -447,8 +447,8 @@ jc:LOC_0013 a crm:E53_Place ;
 
 jc:LOC_0014 a crm:E53_Place ;
     rdfs:label "Fundación TyPA / CAIA UBA (Buenos Aires)" ;
-    geo:long -58.3816 ;
-    geo:lat -34.6037 ;
+    geo:long -58.44653347584588 ;
+    geo:lat -34.62815117682938 ;
     schema:areaServed "Buenos Aires" .
 
 jc:LOC_0015 a crm:E53_Place ;
@@ -509,15 +509,15 @@ jc:LOC_0022 a crm:E53_Place ;
 
 jc:LOC_0023 a crm:E53_Place ;
     rdfs:label "Museo de la Memoria y los Derechos Humanos (MMDH)" ;
-    geo:long -70.6823 ;
-    geo:lat -33.4398 ;
+    geo:long -70.67955889415381 ;
+    geo:lat -33.43993915856012 ;
     schema:areaServed "Santiago" ;
     skos:exactMatch <https://www.wikidata.org/wiki/Q2006767> .
 
 jc:LOC_0024 a crm:E53_Place ;
     rdfs:label "Museo de Arte y Artesanía de Linares" ;
-    geo:long -71.5976 ;
-    geo:lat -35.8454 ;
+    geo:long -71.59618571625025 ;
+    geo:lat -35.84964236458835 ;
     schema:areaServed "Linares" ;
     skos:exactMatch <https://www.wikidata.org/wiki/Q6033842> .
 
@@ -635,8 +635,8 @@ jc:LOC_0040 a crm:E53_Place ;
 
 jc:LOC_0041 a crm:E53_Place ;
     rdfs:label "Universidad Nacional de Mar del Plata (UNMDP)" ;
-    geo:long -57.5426 ;
-    geo:lat -38.0055 ;
+    geo:long -57.56565559316239 ;
+    geo:lat -38.02110909200199 ;
     schema:areaServed "Mar del Plata" ;
     skos:exactMatch <https://www.wikidata.org/wiki/Q3551676> .
 
@@ -703,8 +703,8 @@ jc:LOC_0050 a crm:E53_Place ;
 
 jc:LOC_0051 a crm:E53_Place ;
     rdfs:label "Artistas del Acero (Concepción)" ;
-    geo:long -73.0498 ;
-    geo:lat -36.8282 ;
+    geo:long -73.04222691804569 ;
+    geo:lat -36.82410307907857 ;
     schema:areaServed "Concepción" .
 
 jc:LOC_0052 a crm:E53_Place ;
@@ -751,6 +751,48 @@ jc:LOC_0057 a crm:E53_Place ;
 jc:LOC_0058 a crm:E53_Place ;
     rdfs:label "Colección Privada Nancagua" ;
     schema:areaServed "Nancagua" .
+
+jc:LOC_0059 a crm:E53_Place ;
+    rdfs:label "Pinacoteca do Estado (Sao Paulo)" ;
+    geo:long -46.63368673405564 ;
+    geo:lat -23.53422346887216 ;
+    schema:areaServed "São Paulo" .
+
+jc:LOC_0060 a crm:E53_Place ;
+    rdfs:label "Centro de Extensión de la Universidad de Concepción - CELCAL Chillán" ;
+    geo:long -72.09909088922245 ;
+    geo:lat -36.60655467138508 ;
+    schema:areaServed "Chillán" .
+
+jc:LOC_0061 a crm:E53_Place ;
+    rdfs:label "Universidad Adolfo Ibáñez - Sede Presidente Errázuriz" ;
+    geo:long -70.59154788940485 ;
+    geo:lat -33.42121365946592 ;
+    schema:areaServed "Santiago" .
+
+jc:LOC_0062 a crm:E53_Place ;
+    rdfs:label "Universidad Adolfo Ibáñez - Campus Peñalolén" ;
+    geo:long -70.5182663382937 ;
+    geo:lat -33.48439393710956 ;
+    schema:areaServed "Santiago" .
+
+jc:LOC_0063 a crm:E53_Place ;
+    rdfs:label "Universidad de Chile - Campus Juan Gómez Millas" ;
+    geo:long -70.59598366056628 ;
+    geo:lat -33.46665877200571 ;
+    schema:areaServed "Santiago" .
+
+jc:LOC_0064 a crm:E53_Place ;
+    rdfs:label "Archivo Central Andrés Bello - Universidad de Chile" ;
+    geo:long -70.65069471823976 ;
+    geo:lat -33.44432093080183 ;
+    schema:areaServed "Santiago" .
+
+jc:LOC_0065 a crm:E53_Place ;
+    rdfs:label "Fundación FIMA - Universidad de Buenos Aires" ;
+    geo:long 2.139053349698989 ;
+    geo:lat 41.38154687801553 ;
+    schema:areaServed "Buenos Aires" .
 
 jc:VOC_0001 a skos:Concept ;
     rdfs:label "Humanidades Digitales" ;
@@ -1333,6 +1375,20 @@ jc:ORG_0037 crm:P87_is_identified_by jc:LOC_0048 .
 jc:ORG_0029 crm:P87_is_identified_by jc:LOC_0049 .
 
 jc:ORG_0040 crm:P87_is_identified_by jc:LOC_0056 .
+
+jc:ORG_0040 crm:P87_is_identified_by jc:LOC_0059 .
+
+jc:ORG_0034 crm:P87_is_identified_by jc:LOC_0060 .
+
+jc:ORG_0004 crm:P87_is_identified_by jc:LOC_0061 .
+
+jc:ORG_0004 crm:P87_is_identified_by jc:LOC_0062 .
+
+jc:ORG_0034 crm:P87_is_identified_by jc:LOC_0063 .
+
+jc:ORG_0034 crm:P87_is_identified_by jc:LOC_0064 .
+
+jc:ORG_0031 crm:P87_is_identified_by jc:LOC_0065 .
 
 jc:PER_0001 crm:P14i_performed jc:PRJ_0008 .
 

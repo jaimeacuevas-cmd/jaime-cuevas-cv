@@ -2,8 +2,8 @@
   "type": "FeatureCollection",
   "metadata": {
     "projection": "WGS84",
-    "feature_count": 21,
-    "filtered_count": 36
+    "feature_count": 27,
+    "filtered_count": 37
   },
   "features": [
     {
@@ -11,8 +11,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.6439,
-          -33.4352
+          -70.64354723358485,
+          -33.43515306708146
         ]
       },
       "properties": {
@@ -36,8 +36,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.682,
-          -33.4414
+          -70.68037428569774,
+          -33.44198933167025
         ]
       },
       "properties": {
@@ -527,6 +527,156 @@
         "micro_summary": null,
         "is_core": false,
         "parent_org_id": "ORG_0037",
+        "is_user_primary": false,
+        "precision_type": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.09909088922245,
+          -36.60655467138508
+        ]
+      },
+      "properties": {
+        "id": "LOC_0060",
+        "name": "Centro de Extensión de la Universidad de Concepción - CELCAL Chillán",
+        "type": "Location",
+        "city": "Chillán",
+        "country": null,
+        "wikidata": null,
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": "ORG_0034",
+        "is_user_primary": false,
+        "precision_type": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.59154788940485,
+          -33.42121365946592
+        ]
+      },
+      "properties": {
+        "id": "LOC_0061",
+        "name": "Universidad Adolfo Ibáñez - Sede Presidente Errázuriz",
+        "type": "Location",
+        "city": "Santiago",
+        "country": null,
+        "wikidata": null,
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": "ORG_0004",
+        "is_user_primary": false,
+        "precision_type": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5182663382937,
+          -33.48439393710956
+        ]
+      },
+      "properties": {
+        "id": "LOC_0062",
+        "name": "Universidad Adolfo Ibáñez - Campus Peñalolén",
+        "type": "Location",
+        "city": "Santiago",
+        "country": null,
+        "wikidata": null,
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": "ORG_0004",
+        "is_user_primary": false,
+        "precision_type": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.59598366056628,
+          -33.46665877200571
+        ]
+      },
+      "properties": {
+        "id": "LOC_0063",
+        "name": "Universidad de Chile - Campus Juan Gómez Millas",
+        "type": "Location",
+        "city": "Santiago",
+        "country": null,
+        "wikidata": null,
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": "ORG_0034",
+        "is_user_primary": false,
+        "precision_type": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.65069471823976,
+          -33.44432093080183
+        ]
+      },
+      "properties": {
+        "id": "LOC_0064",
+        "name": "Archivo Central Andrés Bello - Universidad de Chile",
+        "type": "Location",
+        "city": "Santiago",
+        "country": null,
+        "wikidata": null,
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": "ORG_0034",
+        "is_user_primary": false,
+        "precision_type": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.139053349698989,
+          41.38154687801553
+        ]
+      },
+      "properties": {
+        "id": "LOC_0065",
+        "name": "Fundación FIMA - Universidad de Buenos Aires",
+        "type": "Location",
+        "city": "Buenos Aires",
+        "country": null,
+        "wikidata": null,
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": "ORG_0031",
         "is_user_primary": false,
         "precision_type": "exact"
       }

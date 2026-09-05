@@ -2,8 +2,8 @@
   "metadata": {
     "version": "2.0",
     "source": "CV_Dataset_Maestro_Jaime_Cuevas.xlsx",
-    "node_count": 225,
-    "link_count": 524,
+    "node_count": 232,
+    "link_count": 531,
     "sheet_count": 12,
     "validation_status": "PASS",
     "validation_warnings": 119,
@@ -1494,8 +1494,8 @@
       "city": "Santiago",
       "district": "Santiago Centro",
       "coordinates": [
-        -70.6439,
-        -33.4352
+        -70.64354723358485,
+        -33.43515306708146
       ],
       "wikidata": "Q1138865",
       "why_relevant": null,
@@ -1518,8 +1518,8 @@
       "city": "Santiago",
       "district": "Quinta Normal",
       "coordinates": [
-        -70.682,
-        -33.4414
+        -70.68037428569774,
+        -33.44198933167025
       ],
       "wikidata": "Q3329153",
       "why_relevant": null,
@@ -1830,8 +1830,8 @@
       "city": "Santiago",
       "district": "Yungay / Matucana",
       "coordinates": [
-        -70.6823,
-        -33.4398
+        -70.67955889415381,
+        -33.43993915856012
       ],
       "wikidata": "Q2006767",
       "why_relevant": null,
@@ -1902,8 +1902,8 @@
       "city": "Mar del Plata",
       "district": "Centro",
       "coordinates": [
-        -57.5426,
-        -38.0055
+        -57.56565559316239,
+        -38.02110909200199
       ],
       "wikidata": "Q3551676",
       "why_relevant": null,
@@ -2124,6 +2124,174 @@
       "parent_org_id": null,
       "is_user_primary": false,
       "precision_type": ""
+    },
+    {
+      "id": "LOC_0059",
+      "type": "Location",
+      "label": "Pinacoteca do Estado (Sao Paulo)",
+      "short_name": null,
+      "category": "Sede Institucional / Museo",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 59,
+      "city": "São Paulo",
+      "district": "Centro",
+      "coordinates": [
+        -46.63368673405564,
+        -23.53422346887216
+      ],
+      "wikidata": null,
+      "why_relevant": null,
+      "micro_summary": null,
+      "parent_org_id": "ORG_0040",
+      "is_user_primary": false,
+      "precision_type": "exact"
+    },
+    {
+      "id": "LOC_0060",
+      "type": "Location",
+      "label": "Centro de Extensión de la Universidad de Concepción - CELCAL Chillán",
+      "short_name": null,
+      "category": "Centro Educativo",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 60,
+      "city": "Chillán",
+      "district": "Chillán",
+      "coordinates": [
+        -72.09909088922245,
+        -36.60655467138508
+      ],
+      "wikidata": null,
+      "why_relevant": null,
+      "micro_summary": null,
+      "parent_org_id": "ORG_0034",
+      "is_user_primary": false,
+      "precision_type": "exact"
+    },
+    {
+      "id": "LOC_0061",
+      "type": "Location",
+      "label": "Universidad Adolfo Ibáñez - Sede Presidente Errázuriz",
+      "short_name": null,
+      "category": "Sede Universitaria",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 61,
+      "city": "Santiago",
+      "district": "Providencia",
+      "coordinates": [
+        -70.59154788940485,
+        -33.42121365946592
+      ],
+      "wikidata": null,
+      "why_relevant": null,
+      "micro_summary": null,
+      "parent_org_id": "ORG_0004",
+      "is_user_primary": false,
+      "precision_type": "exact"
+    },
+    {
+      "id": "LOC_0062",
+      "type": "Location",
+      "label": "Universidad Adolfo Ibáñez - Campus Peñalolén",
+      "short_name": null,
+      "category": "Sede Universitaria",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 62,
+      "city": "Santiago",
+      "district": "Peñalolén",
+      "coordinates": [
+        -70.5182663382937,
+        -33.48439393710956
+      ],
+      "wikidata": null,
+      "why_relevant": null,
+      "micro_summary": null,
+      "parent_org_id": "ORG_0004",
+      "is_user_primary": false,
+      "precision_type": "exact"
+    },
+    {
+      "id": "LOC_0063",
+      "type": "Location",
+      "label": "Universidad de Chile - Campus Juan Gómez Millas",
+      "short_name": null,
+      "category": "Sede Universitaria",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 63,
+      "city": "Santiago",
+      "district": "Ñuñoa",
+      "coordinates": [
+        -70.59598366056628,
+        -33.46665877200571
+      ],
+      "wikidata": null,
+      "why_relevant": null,
+      "micro_summary": null,
+      "parent_org_id": "ORG_0034",
+      "is_user_primary": false,
+      "precision_type": "exact"
+    },
+    {
+      "id": "LOC_0064",
+      "type": "Location",
+      "label": "Archivo Central Andrés Bello - Universidad de Chile",
+      "short_name": null,
+      "category": "Biblioteca / Archivo",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 64,
+      "city": "Santiago",
+      "district": "Santiago Centro",
+      "coordinates": [
+        -70.65069471823976,
+        -33.44432093080183
+      ],
+      "wikidata": null,
+      "why_relevant": null,
+      "micro_summary": null,
+      "parent_org_id": "ORG_0034",
+      "is_user_primary": false,
+      "precision_type": "exact"
+    },
+    {
+      "id": "LOC_0065",
+      "type": "Location",
+      "label": "Fundación FIMA - Universidad de Buenos Aires",
+      "short_name": null,
+      "category": "Centro de Investigación",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 65,
+      "city": "Buenos Aires",
+      "district": "Comuna 12",
+      "coordinates": [
+        2.139053349698989,
+        41.38154687801553
+      ],
+      "wikidata": null,
+      "why_relevant": null,
+      "micro_summary": null,
+      "parent_org_id": "ORG_0031",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "EDU_0001",
@@ -4217,6 +4385,62 @@
       "target": "LOC_0056",
       "predicate": "crm:P87_is_identified_by",
       "description": "Organization ORG_0040 has location LOC_0056",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0059",
+      "source": "ORG_0040",
+      "target": "LOC_0059",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0040 has location LOC_0059",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0060",
+      "source": "ORG_0034",
+      "target": "LOC_0060",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0034 has location LOC_0060",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0061",
+      "source": "ORG_0004",
+      "target": "LOC_0061",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0004 has location LOC_0061",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0062",
+      "source": "ORG_0004",
+      "target": "LOC_0062",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0004 has location LOC_0062",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0063",
+      "source": "ORG_0034",
+      "target": "LOC_0063",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0034 has location LOC_0063",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0064",
+      "source": "ORG_0034",
+      "target": "LOC_0064",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0034 has location LOC_0064",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0065",
+      "source": "ORG_0031",
+      "target": "LOC_0065",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0031 has location LOC_0065",
       "_sheet_name": "Lugares_y_Sedes_GENERATED"
     },
     {
