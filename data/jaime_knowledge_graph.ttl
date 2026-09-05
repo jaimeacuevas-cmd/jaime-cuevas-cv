@@ -1859,6 +1859,8 @@ jc:COM_0017 crm:P129_subject_of jc:PER_0001 .
 
 jc:COM_0026 crm:P14i_performed jc:PER_0001 .
 
+jc:COM_0025 crm:P108_has_produced jc:DIG_0001 .
+
 jc:PER_0001 crm:P14i_performed jc:EDU_0001 .
 
 jc:EDU_0001 crm:P87_is_identified_by jc:ORG_0005 .

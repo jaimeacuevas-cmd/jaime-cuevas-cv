@@ -3,7 +3,7 @@
     "version": "2.0",
     "source": "CV_Dataset_Maestro_Jaime_Cuevas.xlsx",
     "node_count": 211,
-    "link_count": 471,
+    "link_count": 472,
     "sheet_count": 12,
     "validation_status": "PASS",
     "validation_warnings": 117,
@@ -6253,6 +6253,15 @@
       "target": "PER_0001",
       "predicate": "crm:P14i_performed",
       "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0272",
+      "source": "COM_0025",
+      "target": "DIG_0001",
+      "predicate": "crm:P108_has_produced",
+      "year": "Communication produces digital resource (QUINSAC platform launch)",
       "description": null,
       "_sheet_name": "Relaciones_Grafo_LOD"
     },
