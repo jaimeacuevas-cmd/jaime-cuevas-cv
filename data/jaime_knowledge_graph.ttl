@@ -641,9 +641,9 @@ jc:LOC_0041 a crm:E53_Place ;
     skos:exactMatch <https://www.wikidata.org/wiki/Q3551676> .
 
 jc:LOC_0042 a crm:E53_Place ;
-    rdfs:label "Pontificia Universidad Católica de Chile (Casa Central / Campus Oriente)" ;
-    geo:long -70.6406 ;
-    geo:lat -33.4411 ;
+    rdfs:label "Campus Oriente UC" ;
+    geo:long -70.5935286335842 ;
+    geo:lat -33.44584429023698 ;
     schema:areaServed "Santiago" ;
     skos:exactMatch <https://www.wikidata.org/wiki/Q287900> .
 
@@ -681,9 +681,9 @@ jc:LOC_0047 a crm:E53_Place ;
     skos:exactMatch <https://www.wikidata.org/wiki/Q5918342> .
 
 jc:LOC_0048 a crm:E53_Place ;
-    rdfs:label "Centro de Estudios Árabes y Judaicos UCH" ;
-    geo:long -70.65 ;
-    geo:lat -33.444 ;
+    rdfs:label "Centro de Estudios Judaicos, Universidad de Chile" ;
+    geo:long -70.64569885871492 ;
+    geo:lat -33.43553605588056 ;
     schema:areaServed "Santiago" ;
     skos:exactMatch <https://www.wikidata.org/wiki/Q232438> .
 
@@ -776,6 +776,12 @@ jc:LOC_0062 a crm:E53_Place ;
     geo:long -70.59598366056628 ;
     geo:lat -33.46665877200571 ;
     schema:areaServed "Chile" .
+
+jc:LOC_0063 a crm:E53_Place ;
+    rdfs:label "Centro de Estudios Árabes \"Eugenio Chahuán\", Universidad de Chile" ;
+    geo:long -70.59510712009342 ;
+    geo:lat -33.46513656821872 ;
+    schema:areaServed "Santiago" .
 
 jc:VOC_0001 a skos:Concept ;
     rdfs:label "Humanidades Digitales" ;

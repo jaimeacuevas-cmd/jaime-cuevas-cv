@@ -7,7 +7,7 @@
     "sheet_count": 12,
     "validation_status": "PASS",
     "validation_warnings": 148,
-    "filtered_nodes": 42
+    "filtered_nodes": 43
   },
   "nodes": [
     {
@@ -2527,7 +2527,7 @@
     {
       "id": "LOC_0042",
       "type": "Location",
-      "label": "Pontificia Universidad Católica de Chile (Casa Central / Campus Oriente)",
+      "label": "Campus Oriente UC",
       "short_name": null,
       "category": "Sede Universitaria",
       "description": null,
@@ -2536,10 +2536,10 @@
       "source_sheet": "",
       "row_number": 42,
       "city": "Santiago",
-      "district": "Santiago / Providencia",
+      "district": "Providencia",
       "coordinates": [
-        -70.6406,
-        -33.4411
+        -70.5935286335842,
+        -33.44584429023698
       ],
       "wikidata": "Q287900",
       "why_relevant": null,
@@ -2671,7 +2671,7 @@
     {
       "id": "LOC_0048",
       "type": "Location",
-      "label": "Centro de Estudios Árabes y Judaicos UCH",
+      "label": "Centro de Estudios Judaicos, Universidad de Chile",
       "short_name": null,
       "category": "Sede Universitaria",
       "description": null,
@@ -2680,10 +2680,10 @@
       "source_sheet": "",
       "row_number": 48,
       "city": "Santiago",
-      "district": "Ñuñoa / Santiago",
+      "district": "Santiago",
       "coordinates": [
-        -70.65,
-        -33.444
+        -70.64569885871492,
+        -33.43553605588056
       ],
       "wikidata": "Q232438",
       "why_relevant": null,

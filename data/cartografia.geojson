@@ -3,7 +3,7 @@
   "metadata": {
     "projection": "WGS84",
     "feature_count": 49,
-    "filtered_count": 12
+    "filtered_count": 13
   },
   "features": [
     {
@@ -936,13 +936,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.6406,
-          -33.4411
+          -70.5935286335842,
+          -33.44584429023698
         ]
       },
       "properties": {
         "id": "LOC_0042",
-        "name": "Pontificia Universidad Católica de Chile (Casa Central / Campus Oriente)",
+        "name": "Campus Oriente UC",
         "type": "Location",
         "city": "Santiago",
         "country": null,
@@ -1086,13 +1086,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.65,
-          -33.444
+          -70.64569885871492,
+          -33.43553605588056
         ]
       },
       "properties": {
         "id": "LOC_0048",
-        "name": "Centro de Estudios Árabes y Judaicos UCH",
+        "name": "Centro de Estudios Judaicos, Universidad de Chile",
         "type": "Location",
         "city": "Santiago",
         "country": null,
