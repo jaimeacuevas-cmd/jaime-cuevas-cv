@@ -66,6 +66,11 @@ class DataTransformer:
             self.links.extend(relation_links)
             logger.info(f"Transformed relations: {len(relation_links)} links from relations sheet, total: {len(self.links)} links")
 
+        # Generate implicit links: Agent → Education and Agent → Position
+        implicit_links = self._generate_implicit_links(raw_entities)
+        self.links.extend(implicit_links)
+        logger.info(f"Generated implicit links: {len(implicit_links)} (Agent→Education/Position)")
+
         logger.info(f"Total nodes after transformation: {len(self.nodes)}")
 
         return self.nodes, self.links
@@ -369,5 +374,50 @@ class DataTransformer:
             # Only add if source and target are present
             if link['source'] and link['target']:
                 links.append(link)
+
+        return links
+
+    def _generate_implicit_links(self, raw_entities: Dict[str, List[Dict]]) -> List[Dict]:
+        """Generate implicit links: Agent → Education and Agent → Position."""
+        links = []
+        link_counter = 1000  # Start high to avoid collision with explicit REL_ IDs
+
+        # Generate links from Formacion_Academica (Agent → Education)
+        educations = raw_entities.get('Education', [])
+        for edu_row in educations:
+            agent_id = edu_row.get('id_agente', '').strip()
+            edu_id = edu_row.get('id_formacion', '').strip()
+
+            if agent_id and edu_id:
+                link = {
+                    'id': f"IMPL_{link_counter:05d}",
+                    'source': agent_id,
+                    'target': edu_id,
+                    'predicate': 'crm:P14i_performed',
+                    'predicate_label': 'Realizó/Completó',
+                    'description': f"Educational formation: {edu_row.get('nombre_programa', '')}",
+                    '_sheet_name': 'Formacion_Academica',
+                }
+                links.append(link)
+                link_counter += 1
+
+        # Generate links from Trayectoria_Laboral (Agent → Position)
+        positions = raw_entities.get('Position', [])
+        for pos_row in positions:
+            agent_id = pos_row.get('id_agente', '').strip()
+            pos_id = pos_row.get('id_cargo', '').strip()
+
+            if agent_id and pos_id:
+                link = {
+                    'id': f"IMPL_{link_counter:05d}",
+                    'source': agent_id,
+                    'target': pos_id,
+                    'predicate': 'crm:P14i_performed',
+                    'predicate_label': 'Desempeñó',
+                    'description': f"Position: {pos_row.get('cargo_o_rol', '')}",
+                    '_sheet_name': 'Trayectoria_Laboral',
+                }
+                links.append(link)
+                link_counter += 1
 
         return links
