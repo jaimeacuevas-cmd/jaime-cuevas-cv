@@ -465,41 +465,10 @@
               </div>
             </div>
 
-            <!-- Barra de Filtros Ontológicos (SISTEMA 1: GLIFOS ONTOLÓGICOS) -->
-            <div class="absolute top-3 left-3 z-10 bg-slate-900/90 backdrop-blur-md border border-slate-700/80 rounded-lg p-2.5 text-[11px] text-stone-200 shadow-xl max-w-xs space-y-1.5">
-              <div class="flex items-center justify-between">
-                <span class="font-bold text-slate-300 uppercase tracking-wider text-[10px]">Filtrar por Tipología:</span>
-                <span id="node-count-indicator" class="text-[10px] font-mono text-cyan-400 font-semibold">47/205 visibles</span>
-              </div>
-              <div class="grid grid-cols-2 gap-x-2 gap-y-1">
-                <label class="inline-flex items-center gap-1 bg-slate-800/90 px-1.5 py-0.5 rounded cursor-pointer hover:bg-slate-700 text-sky-300 text-[10.5px]">
-                  <input type="checkbox" checked onchange="toggleNodeType('Agent')" class="rounded text-sky-600"> <span class="font-mono font-bold">⊙</span> Personas
-                </label>
-                <label class="inline-flex items-center gap-1 bg-slate-800/90 px-1.5 py-0.5 rounded cursor-pointer hover:bg-slate-700 text-cyan-300 text-[10.5px]">
-                  <input type="checkbox" checked onchange="toggleNodeType('Position')" class="rounded text-cyan-600"> <span class="font-mono font-bold">☵</span> Cargos / Roles
-                </label>
-                <label class="inline-flex items-center gap-1 bg-slate-800/90 px-1.5 py-0.5 rounded cursor-pointer hover:bg-slate-700 text-emerald-300 text-[10.5px]">
-                  <input type="checkbox" checked onchange="toggleNodeType('Organization')" class="rounded text-emerald-600"> <span class="font-mono font-bold">▣</span> Instituciones
-                </label>
-                <label class="inline-flex items-center gap-1 bg-slate-800/90 px-1.5 py-0.5 rounded cursor-pointer hover:bg-slate-700 text-amber-300 text-[10.5px]">
-                  <input type="checkbox" checked onchange="toggleNodeType('Project')" class="rounded text-amber-600"> <span class="font-mono font-bold">✦</span> Proyectos
-                </label>
-                <label class="inline-flex items-center gap-1 bg-slate-800/90 px-1.5 py-0.5 rounded cursor-pointer hover:bg-slate-700 text-rose-300 text-[10.5px]">
-                  <input type="checkbox" checked onchange="toggleNodeType('Exhibition')" class="rounded text-rose-600"> <span class="font-mono font-bold">⧉</span> Curatorías
-                </label>
-                <label class="inline-flex items-center gap-1 bg-slate-800/90 px-1.5 py-0.5 rounded cursor-pointer hover:bg-slate-700 text-indigo-300 text-[10.5px]">
-                  <input type="checkbox" checked onchange="toggleNodeType('Publication')" class="rounded text-indigo-600"> <span class="font-mono font-bold">☲</span> Publicaciones
-                </label>
-                <label class="inline-flex items-center gap-1 bg-slate-800/90 px-1.5 py-0.5 rounded cursor-pointer hover:bg-slate-700 text-purple-300 text-[10.5px]">
-                  <input type="checkbox" checked onchange="toggleNodeType('Education')" class="rounded text-purple-600"> <span class="font-mono font-bold">Δ</span> Formación
-                </label>
-                <label class="inline-flex items-center gap-1 bg-slate-800/90 px-1.5 py-0.5 rounded cursor-pointer hover:bg-slate-700 text-teal-300 text-[10.5px]">
-                  <input type="checkbox" checked onchange="toggleNodeType('DigitalHeritage')" class="rounded text-teal-600"> <span class="font-mono font-bold">⚯</span> Portafolio HD
-                </label>
-              </div>
-              <div class="text-[9.5px] text-slate-400 italic pt-0.5 border-t border-slate-800">
-                🔒 Jaime Cuevas (nodo central) permanece siempre anclado.
-              </div>
+            <!-- Contador de nodos visibles (reemplaza recuadro redundante) -->
+            <div class="absolute top-3 left-3 z-10 bg-slate-900/90 backdrop-blur-md border border-slate-700/80 rounded-lg px-3 py-2 text-[10px] text-slate-300 shadow-md font-mono font-semibold">
+              <span id="node-count-indicator" class="text-cyan-400">47/205 visibles</span>
+              <span class="text-slate-500 ml-2">→ usa "Capas" para filtrar</span>
             </div>
 
             <!-- Canvas SVG de D3 -->

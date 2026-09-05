@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "projection": "WGS84",
-    "feature_count": 48,
+    "feature_count": 49,
     "filtered_count": 9
   },
   "features": [
@@ -1197,6 +1197,31 @@
         "city": "Ñuble",
         "country": null,
         "wikidata": "Q113665601",
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": null,
+        "is_user_primary": false,
+        "precision_type": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7038,
+          40.4168
+        ]
+      },
+      "properties": {
+        "id": "LOC_0059",
+        "name": "Tabacalera, Calle de Embajadores 51",
+        "type": "Location",
+        "city": "Madrid",
+        "country": null,
+        "wikidata": "Q9256",
         "description": null,
         "why_relevant": null,
         "micro_summary": null,

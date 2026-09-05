@@ -2,8 +2,8 @@
   "metadata": {
     "version": "2.0",
     "source": "CV_Dataset_Maestro_Jaime_Cuevas.xlsx",
-    "node_count": 256,
-    "link_count": 648,
+    "node_count": 257,
+    "link_count": 649,
     "sheet_count": 12,
     "validation_status": "PASS",
     "validation_warnings": 148,
@@ -2808,6 +2808,30 @@
       "parent_org_id": null,
       "is_user_primary": false,
       "precision_type": ""
+    },
+    {
+      "id": "LOC_0059",
+      "type": "Location",
+      "label": "Tabacalera, Calle de Embajadores 51",
+      "short_name": null,
+      "category": "Centro Cultural / Espacio Experimental",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 59,
+      "city": "Madrid",
+      "district": "Lavapiés",
+      "coordinates": [
+        -3.7038,
+        40.4168
+      ],
+      "wikidata": "Q9256",
+      "why_relevant": null,
+      "micro_summary": null,
+      "parent_org_id": null,
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "EDU_0001",
@@ -7631,6 +7655,15 @@
       "target": "EDU_0003",
       "predicate": "crm:P108_has_produced",
       "year": 2019,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0296",
+      "source": "COM_0019",
+      "target": "LOC_0059",
+      "predicate": "crm:P7_took_place_at",
+      "year": "Presentación realizada en Tabacalera",
       "description": null,
       "_sheet_name": "Relaciones_Grafo_LOD"
     },
