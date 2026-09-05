@@ -1515,30 +1515,80 @@
         },
         onEachFeature: function (feature, layer) {
           const props = feature.properties;
-          
-          // Compact, glanceable popup
-          let popupHtml = `<div class="p-1.5 space-y-1 font-sans text-xs max-w-[240px]">`;
-          popupHtml += `<strong class="text-xs font-bold text-stone-900 leading-snug block">${props.title || props.name}</strong>`;
-          
+
+          // Find related entities (nodes and links connected to this location)
+          const locationId = props.id;
+          const relatedLinks = fullGraphData.links.filter(l =>
+            l.source === locationId || l.target === locationId
+          );
+
+          const relatedNodeIds = new Set();
+          relatedLinks.forEach(link => {
+            if (link.source === locationId) relatedNodeIds.add(link.target);
+            if (link.target === locationId) relatedNodeIds.add(link.source);
+          });
+
+          const relatedNodes = Array.from(relatedNodeIds)
+            .map(id => fullGraphData.nodes.find(n => n.id === id))
+            .filter(n => n && n.type !== 'Location'); // Exclude other locations
+
+          // Compact, glanceable popup with context
+          let popupHtml = `<div class="p-2 space-y-1.5 font-sans text-xs max-w-[280px]">`;
+          popupHtml += `<strong class="text-sm font-bold text-stone-900 leading-snug block">${props.name}</strong>`;
+
           if (props.type) {
             popupHtml += `<span class="inline-block px-1.5 py-0.2 rounded text-[9px] font-semibold bg-brand-50 text-brand-900 border border-brand-200">${props.type}</span>`;
           }
-          
+
           if (props.city || props.country) {
-            popupHtml += `<div class="text-stone-500 text-[10px]">📍 ${props.city || ''} (${props.country || ''})</div>`;
+            popupHtml += `<div class="text-stone-500 text-[10px]">📍 ${props.city || ''} ${props.country ? '(' + props.country + ')' : ''}</div>`;
           }
-          
-          if (props.micro_summary) {
+
+          // Context: why this location is relevant
+          if (props.why_relevant) {
+            popupHtml += `<div class="bg-blue-50 border-l-2 border-blue-400 pl-2 py-1 mt-1.5 rounded-r">
+              <p class="text-stone-600 text-[10px] leading-tight font-medium">🎯 Relevancia:</p>
+              <p class="text-stone-700 text-[10px] leading-tight">${props.why_relevant}</p>
+            </div>`;
+          }
+
+          if (props.micro_summary && props.micro_summary !== props.why_relevant) {
             popupHtml += `<p class="text-stone-700 text-[11px] leading-tight border-l-2 border-brand-600 pl-1.5 mt-1 bg-stone-50 py-0.5 rounded-r">${props.micro_summary}</p>`;
           }
-          
-          popupHtml += `<button onclick="window.openInspectorFromMap('${props.id}')" class="mt-1.5 w-full py-1 px-2 text-[10px] font-semibold bg-stone-900 hover:bg-brand-900 text-white rounded transition-colors text-center block">
-            🔍 Inspeccionar Entidad en Panel &rarr;
+
+          // Show connected activities/entities
+          if (relatedNodes.length > 0) {
+            popupHtml += `<div class="mt-1.5 bg-amber-50 border border-amber-200 rounded p-1.5">
+              <p class="text-stone-600 text-[9px] font-semibold mb-1 block">🔗 Conexiones (${relatedNodes.length}):</p>
+              <div class="space-y-0.5">`;
+
+            relatedNodes.slice(0, 5).forEach(node => {
+              if (node) {
+                const glyph = categoryGlyphs[node.type] || '◈';
+                popupHtml += `<div class="text-[9px] text-stone-700">
+                  <span class="font-semibold">${glyph}</span> ${node.label || node.id}
+                </div>`;
+              }
+            });
+
+            if (relatedNodes.length > 5) {
+              popupHtml += `<div class="text-[9px] text-stone-500 italic mt-1">+${relatedNodes.length - 5} más</div>`;
+            }
+
+            popupHtml += `</div></div>`;
+          } else {
+            popupHtml += `<div class="mt-1.5 bg-gray-50 border border-gray-200 rounded p-1.5">
+              <p class="text-stone-500 text-[9px] italic">📌 Ubicación sin conexiones explícitas en el grafo</p>
+            </div>`;
+          }
+
+          popupHtml += `<button onclick="window.openInspectorFromMap('${props.id}')" class="mt-2 w-full py-1.5 px-2 text-[9px] font-semibold bg-stone-900 hover:bg-brand-900 text-white rounded transition-colors text-center block">
+            🔍 Detalles Completos →
           </button>`;
-          
+
           popupHtml += `</div>`;
-          layer.bindPopup(popupHtml, { maxWidth: 260 });
-          
+          layer.bindPopup(popupHtml, { maxWidth: 300 });
+
           layer.on('click', () => {
             window.openInspectorFromMap(props.id);
           });
@@ -1576,7 +1626,7 @@
         const coords = foundFeature.geometry.coordinates;
         const mockNode = {
           id: p.id,
-          label: p.title || p.name,
+          label: p.name,
           type: 'Location',
           category: p.type || 'Hito Geográfico / Territorial',
           city: p.city,
@@ -1584,10 +1634,14 @@
           country: p.country,
           scale: p.scale,
           spatial_concept: p.concept,
+          why_relevant: p.why_relevant,
+          micro_summary: p.micro_summary,
           description: p.description || p.why_relevant || p.micro_summary,
           url: p.url,
           wikidata: p.wikidata,
-          coordinates: coords ? `${coords[1]}, ${coords[0]}` : null
+          coordinates: coords ? `${coords[1]}, ${coords[0]}` : null,
+          is_core: p.is_core,
+          parent_org_id: p.parent_org_id
         };
         openInspector(mockNode);
       }
@@ -1645,6 +1699,18 @@
             <p>${data.description || data.why_relevant || data.abstract || data.summary || data.impact}</p>
           </div>
         </div>`;
+      }
+
+      // Organización Anfitriona (for locations)
+      if (data.type === 'Location' && data.parent_org_id) {
+        const parentOrg = fullGraphData.nodes.find(n => n.id === data.parent_org_id);
+        if (parentOrg) {
+          html += `<div class="p-3 bg-blue-50 rounded-lg border border-blue-200">
+            <h4 class="text-[10px] font-bold uppercase tracking-wider text-blue-900 mb-1.5">🏢 Organización Anfitriona</h4>
+            <p class="text-sm font-semibold text-blue-900">${parentOrg.label}</p>
+            <p class="text-[10px] text-blue-700 mt-0.5">${parentOrg.category || 'Institución'}</p>
+          </div>`;
+        }
       }
 
       // Relaciones y Conexiones Semánticas (Linked Triples with interactive toggle)
