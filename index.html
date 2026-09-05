@@ -1145,6 +1145,8 @@
 
       // Add links from category node to its members and from Jaime through category
       const newActiveIds = new Set(activeNodes.map(n => n.id));
+
+      // First, add all links from fullGraphData between active nodes
       fullGraphData.links.forEach(l => {
         const s = l.source.id || l.source;
         const t = l.target.id || l.target;
@@ -1161,6 +1163,25 @@
             activeLinks.push(linkObj);
             addedLinks.push(linkObj);
           }
+        }
+      });
+
+      // Second, add explicit links from category to its members
+      addedNodes.forEach(memberId => {
+        const memberNode = fullGraphData.nodes.find(n => n.id === memberId);
+        if (memberNode && !activeLinks.find(al =>
+          (al.source === categoryNode.id && al.target === memberId) ||
+          (al.target === categoryNode.id && al.source === memberId)
+        )) {
+          const implicitLink = {
+            id: `cat_link_${categoryNode.id}_${memberId}`,
+            source: categoryNode.id,
+            target: memberId,
+            predicate: 'crm:P9_consists_of',
+            predicate_label: 'Contiene'
+          };
+          activeLinks.push(implicitLink);
+          addedLinks.push(implicitLink);
         }
       });
 
