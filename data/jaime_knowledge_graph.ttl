@@ -1843,7 +1843,11 @@ jc:EDU_0016 crm:P87_is_identified_by jc:ORG_0038 .
 
 jc:PER_0001 crm:P14i_performed jc:CAR_0001 .
 
+jc:CAR_0001 crm:P14_carried_out_by jc:ORG_0002 .
+
 jc:PER_0001 crm:P14i_performed jc:CAR_0002 .
+
+jc:CAR_0002 crm:P14_carried_out_by jc:ORG_0007 .
 
 jc:PER_0001 crm:P14i_performed jc:CAR_0003 .
 
