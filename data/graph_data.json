@@ -2,12 +2,12 @@
   "metadata": {
     "version": "2.0",
     "source": "CV_Dataset_Maestro_Jaime_Cuevas.xlsx",
-    "node_count": 265,
-    "link_count": 674,
+    "node_count": 279,
+    "link_count": 693,
     "sheet_count": 12,
     "validation_status": "PASS",
     "validation_warnings": 148,
-    "filtered_nodes": 39
+    "filtered_nodes": 25
   },
   "nodes": [
     {
@@ -1385,6 +1385,34 @@
       "wikidata": "Q1464673"
     },
     {
+      "id": "ORG_0020",
+      "type": "Organization",
+      "label": "Museo Provincial de Bellas Artes Franklin Rawson",
+      "short_name": "MPBA_FR",
+      "category": "Museo Provincial",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 20,
+      "city": "San Juan",
+      "wikidata": "Q16609935"
+    },
+    {
+      "id": "ORG_0021",
+      "type": "Organization",
+      "label": "IIPC-TAREA, Universidad Nacional de San Martín",
+      "short_name": "UNSAM_TAREA",
+      "category": "Instituto de Investigación en Patrimonio",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 21,
+      "city": "Buenos Aires",
+      "wikidata": "Q7894297"
+    },
+    {
       "id": "ORG_0022",
       "type": "Organization",
       "label": "LOM Ediciones",
@@ -1467,6 +1495,20 @@
       "row_number": 28,
       "city": "Concepción",
       "wikidata": "Q5047879"
+    },
+    {
+      "id": "ORG_0029",
+      "type": "Organization",
+      "label": "Biblioteca Nacional Digital / Biblioteca Nacional de Chile",
+      "short_name": "BND_BN",
+      "category": "Biblioteca Nacional SERPAT",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 29,
+      "city": "Santiago",
+      "wikidata": "Q2478544"
     },
     {
       "id": "ORG_0030",
@@ -2045,6 +2087,54 @@
       "why_relevant": null,
       "micro_summary": null,
       "parent_org_id": "ORG_0019",
+      "is_user_primary": false,
+      "precision_type": "exact"
+    },
+    {
+      "id": "LOC_0017",
+      "type": "Location",
+      "label": "Museo Provincial de Bellas Artes Franklin Rawson",
+      "short_name": null,
+      "category": "Sede Institucional / Museo",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 17,
+      "city": "San Juan",
+      "district": "Capital",
+      "coordinates": [
+        -68.5364,
+        -31.5375
+      ],
+      "wikidata": "Q16609935",
+      "why_relevant": null,
+      "micro_summary": null,
+      "parent_org_id": "ORG_0020",
+      "is_user_primary": false,
+      "precision_type": "exact"
+    },
+    {
+      "id": "LOC_0018",
+      "type": "Location",
+      "label": "IIPC-TAREA, Universidad Nacional de San Martín (UNSAM)",
+      "short_name": null,
+      "category": "Sede de Investigación",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 18,
+      "city": "Buenos Aires",
+      "district": "San Martín",
+      "coordinates": [
+        -58.5286,
+        -34.5796
+      ],
+      "wikidata": "Q1486",
+      "why_relevant": null,
+      "micro_summary": null,
+      "parent_org_id": "ORG_0021",
       "is_user_primary": false,
       "precision_type": "exact"
     },
@@ -2769,6 +2859,30 @@
       "precision_type": "exact"
     },
     {
+      "id": "LOC_0049",
+      "type": "Location",
+      "label": "Biblioteca Nacional Digital / Biblioteca Nacional de Chile",
+      "short_name": null,
+      "category": "Sede Patrimonial",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 49,
+      "city": "Santiago",
+      "district": "Santiago Centro",
+      "coordinates": [
+        -70.6439,
+        -33.4352
+      ],
+      "wikidata": "Q2478544",
+      "why_relevant": null,
+      "micro_summary": null,
+      "parent_org_id": "ORG_0029",
+      "is_user_primary": false,
+      "precision_type": "exact"
+    },
+    {
       "id": "LOC_0050",
       "type": "Location",
       "label": "Plaza de la Constitución (Santiago)",
@@ -2791,6 +2905,102 @@
       "parent_org_id": null,
       "is_user_primary": false,
       "precision_type": "approximate"
+    },
+    {
+      "id": "LOC_0051",
+      "type": "Location",
+      "label": "Artistas del Acero (Concepción)",
+      "short_name": null,
+      "category": "Centro Cultural",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 51,
+      "city": "Concepción",
+      "district": "Centro",
+      "coordinates": [
+        -73.04222691804569,
+        -36.82410307907857
+      ],
+      "wikidata": null,
+      "why_relevant": null,
+      "micro_summary": null,
+      "parent_org_id": null,
+      "is_user_primary": false,
+      "precision_type": "exact"
+    },
+    {
+      "id": "LOC_0052",
+      "type": "Location",
+      "label": "Museo Benjamín Vicuña Mackenna",
+      "short_name": null,
+      "category": "Sede Institucional / Museo",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 52,
+      "city": "Santiago",
+      "district": "Providencia",
+      "coordinates": [
+        -70.6329,
+        -33.4385
+      ],
+      "wikidata": "Q6033182",
+      "why_relevant": null,
+      "micro_summary": null,
+      "parent_org_id": null,
+      "is_user_primary": false,
+      "precision_type": "exact"
+    },
+    {
+      "id": "LOC_0053",
+      "type": "Location",
+      "label": "Washington D.C. (Exilio Rodrigo Rojas De Negri)",
+      "short_name": null,
+      "category": "Espacio Urbano Internacional",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 53,
+      "city": "Washington D.C.",
+      "district": "District of Columbia",
+      "coordinates": [
+        -77.0369,
+        38.9072
+      ],
+      "wikidata": "Q61",
+      "why_relevant": null,
+      "micro_summary": null,
+      "parent_org_id": null,
+      "is_user_primary": false,
+      "precision_type": "exact"
+    },
+    {
+      "id": "LOC_0054",
+      "type": "Location",
+      "label": "Roma / Florencia / Carrara (Italia - Redes Escultóricas)",
+      "short_name": null,
+      "category": "Espacio Urbano Internacional",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 54,
+      "city": "Roma / Florencia",
+      "district": "Lazio / Toscana",
+      "coordinates": [
+        12.5673,
+        41.8719
+      ],
+      "wikidata": "Q38",
+      "why_relevant": null,
+      "micro_summary": null,
+      "parent_org_id": null,
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "LOC_0055",
@@ -2908,6 +3118,102 @@
       "parent_org_id": null,
       "is_user_primary": false,
       "precision_type": "exact"
+    },
+    {
+      "id": "LOC_0060",
+      "type": "Location",
+      "label": "UAI Sede Presidente Errázuriz",
+      "short_name": null,
+      "category": "Sede Universitaria",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 60,
+      "city": "Chile",
+      "district": "Santiago",
+      "coordinates": [
+        -70.59154788940485,
+        -33.42121365946592
+      ],
+      "wikidata": null,
+      "why_relevant": null,
+      "micro_summary": null,
+      "parent_org_id": null,
+      "is_user_primary": true,
+      "precision_type": ""
+    },
+    {
+      "id": "LOC_0061",
+      "type": "Location",
+      "label": "UAI Campus Peñalolén",
+      "short_name": null,
+      "category": "Sede Universitaria",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 61,
+      "city": "Chile",
+      "district": "Santiago",
+      "coordinates": [
+        -70.5182663382937,
+        -33.48439393710956
+      ],
+      "wikidata": null,
+      "why_relevant": null,
+      "micro_summary": null,
+      "parent_org_id": null,
+      "is_user_primary": true,
+      "precision_type": ""
+    },
+    {
+      "id": "LOC_0062",
+      "type": "Location",
+      "label": "UChile Campus Juan Gomez Millas",
+      "short_name": null,
+      "category": "Sede Universitaria",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 62,
+      "city": "Chile",
+      "district": "Santiago",
+      "coordinates": [
+        -70.59598366056628,
+        -33.46665877200571
+      ],
+      "wikidata": null,
+      "why_relevant": null,
+      "micro_summary": null,
+      "parent_org_id": null,
+      "is_user_primary": true,
+      "precision_type": ""
+    },
+    {
+      "id": "LOC_0063",
+      "type": "Location",
+      "label": "Centro de Estudios Árabes \"Eugenio Chahuán\", Universidad de Chile",
+      "short_name": null,
+      "category": "Centro de Investigación",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 63,
+      "city": "Santiago",
+      "district": "Ñuñoa",
+      "coordinates": [
+        -70.59510712009342,
+        -33.46513656821872
+      ],
+      "wikidata": null,
+      "why_relevant": null,
+      "micro_summary": null,
+      "parent_org_id": null,
+      "is_user_primary": true,
+      "precision_type": ""
     },
     {
       "id": "EDU_0001",
@@ -4984,6 +5290,22 @@
       "_sheet_name": "Lugares_y_Sedes_GENERATED"
     },
     {
+      "id": "REL_ORG_LOC_0017",
+      "source": "ORG_0020",
+      "target": "LOC_0017",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0020 has location LOC_0017",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0018",
+      "source": "ORG_0021",
+      "target": "LOC_0018",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0021 has location LOC_0018",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
       "id": "REL_ORG_LOC_0019",
       "source": "ORG_0022",
       "target": "LOC_0019",
@@ -5133,6 +5455,14 @@
       "target": "LOC_0048",
       "predicate": "crm:P87_is_identified_by",
       "description": "Organization ORG_0037 has location LOC_0048",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0049",
+      "source": "ORG_0029",
+      "target": "LOC_0049",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0029 has location LOC_0049",
       "_sheet_name": "Lugares_y_Sedes_GENERATED"
     },
     {
@@ -7921,6 +8251,150 @@
       "target": "LOC_0016",
       "predicate": "crm:P7_took_place_at",
       "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0310",
+      "source": "EDU_0003",
+      "target": "LOC_0060",
+      "predicate": "crm:P87_is_identified_by",
+      "year": 2010,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0311",
+      "source": "EDU_0003",
+      "target": "LOC_0061",
+      "predicate": "crm:P87_is_identified_by",
+      "year": 2010,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0312",
+      "source": "EDU_0008",
+      "target": "LOC_0061",
+      "predicate": "crm:P87_is_identified_by",
+      "year": 2011,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0313",
+      "source": "EDU_0004",
+      "target": "LOC_0062",
+      "predicate": "crm:P87_is_identified_by",
+      "year": 2008,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0314",
+      "source": "EDU_0006",
+      "target": "LOC_0062",
+      "predicate": "crm:P87_is_identified_by",
+      "year": 2023,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0315",
+      "source": "EDU_0012",
+      "target": "LOC_0062",
+      "predicate": "crm:P87_is_identified_by",
+      "year": 2010,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0316",
+      "source": "EDU_0013",
+      "target": "LOC_0062",
+      "predicate": "crm:P87_is_identified_by",
+      "year": 2008,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0317",
+      "source": "EXP_0010_1",
+      "target": "LOC_0051",
+      "predicate": "crm:P7_took_place_at",
+      "year": 2017,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0318",
+      "source": "EXP_0011_02",
+      "target": "LOC_0051",
+      "predicate": "crm:P7_took_place_at",
+      "year": 2018,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0319",
+      "source": "PER_0001",
+      "target": "LOC_0017",
+      "predicate": "crm:P11_had_participant",
+      "year": 2015,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0320",
+      "source": "PER_0001",
+      "target": "LOC_0052",
+      "predicate": "crm:P11_had_participant",
+      "year": 2015,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0321",
+      "source": "PER_0001",
+      "target": "LOC_0049",
+      "predicate": "crm:P11_had_participant",
+      "year": 2015,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0322",
+      "source": "PER_0001",
+      "target": "LOC_0053",
+      "predicate": "crm:P12_occurred_in_the_presence_of",
+      "year": 2020,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0323",
+      "source": "PER_0001",
+      "target": "LOC_0054",
+      "predicate": "crm:P12_occurred_in_the_presence_of",
+      "year": 2018,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0324",
+      "source": "PER_0001",
+      "target": "LOC_0018",
+      "predicate": "crm:P11_had_participant",
+      "year": 2018,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0325",
+      "source": "EDU_0013",
+      "target": "LOC_0063",
+      "predicate": "crm:P87_is_identified_by",
+      "year": 2015,
       "description": null,
       "_sheet_name": "Relaciones_Grafo_LOD"
     },

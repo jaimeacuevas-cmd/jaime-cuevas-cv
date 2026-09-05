@@ -2,8 +2,8 @@
   "type": "FeatureCollection",
   "metadata": {
     "projection": "WGS84",
-    "feature_count": 51,
-    "filtered_count": 11
+    "feature_count": 62,
+    "filtered_count": 0
   },
   "features": [
     {
@@ -402,6 +402,56 @@
         "micro_summary": null,
         "is_core": false,
         "parent_org_id": "ORG_0019",
+        "is_user_primary": false,
+        "precision_type": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.5364,
+          -31.5375
+        ]
+      },
+      "properties": {
+        "id": "LOC_0017",
+        "name": "Museo Provincial de Bellas Artes Franklin Rawson",
+        "type": "Location",
+        "city": "San Juan",
+        "country": null,
+        "wikidata": "Q16609935",
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": "ORG_0020",
+        "is_user_primary": false,
+        "precision_type": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.5286,
+          -34.5796
+        ]
+      },
+      "properties": {
+        "id": "LOC_0018",
+        "name": "IIPC-TAREA, Universidad Nacional de San Martín (UNSAM)",
+        "type": "Location",
+        "city": "Buenos Aires",
+        "country": null,
+        "wikidata": "Q1486",
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": "ORG_0021",
         "is_user_primary": false,
         "precision_type": "exact"
       }
@@ -1161,6 +1211,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -70.6439,
+          -33.4352
+        ]
+      },
+      "properties": {
+        "id": "LOC_0049",
+        "name": "Biblioteca Nacional Digital / Biblioteca Nacional de Chile",
+        "type": "Location",
+        "city": "Santiago",
+        "country": null,
+        "wikidata": "Q2478544",
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": "ORG_0029",
+        "is_user_primary": false,
+        "precision_type": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -70.65409015407023,
           -33.4410215508963
         ]
@@ -1179,6 +1254,106 @@
         "parent_org_id": null,
         "is_user_primary": false,
         "precision_type": "approximate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.04222691804569,
+          -36.82410307907857
+        ]
+      },
+      "properties": {
+        "id": "LOC_0051",
+        "name": "Artistas del Acero (Concepción)",
+        "type": "Location",
+        "city": "Concepción",
+        "country": null,
+        "wikidata": null,
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": null,
+        "is_user_primary": false,
+        "precision_type": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6329,
+          -33.4385
+        ]
+      },
+      "properties": {
+        "id": "LOC_0052",
+        "name": "Museo Benjamín Vicuña Mackenna",
+        "type": "Location",
+        "city": "Santiago",
+        "country": null,
+        "wikidata": "Q6033182",
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": null,
+        "is_user_primary": false,
+        "precision_type": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ]
+      },
+      "properties": {
+        "id": "LOC_0053",
+        "name": "Washington D.C. (Exilio Rodrigo Rojas De Negri)",
+        "type": "Location",
+        "city": "Washington D.C.",
+        "country": null,
+        "wikidata": "Q61",
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": null,
+        "is_user_primary": false,
+        "precision_type": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5673,
+          41.8719
+        ]
+      },
+      "properties": {
+        "id": "LOC_0054",
+        "name": "Roma / Florencia / Carrara (Italia - Redes Escultóricas)",
+        "type": "Location",
+        "city": "Roma / Florencia",
+        "country": null,
+        "wikidata": "Q38",
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": null,
+        "is_user_primary": false,
+        "precision_type": "exact"
       }
     },
     {
@@ -1279,6 +1454,106 @@
         "parent_org_id": null,
         "is_user_primary": false,
         "precision_type": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.59154788940485,
+          -33.42121365946592
+        ]
+      },
+      "properties": {
+        "id": "LOC_0060",
+        "name": "UAI Sede Presidente Errázuriz",
+        "type": "Location",
+        "city": "Chile",
+        "country": null,
+        "wikidata": null,
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": null,
+        "is_user_primary": true,
+        "precision_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5182663382937,
+          -33.48439393710956
+        ]
+      },
+      "properties": {
+        "id": "LOC_0061",
+        "name": "UAI Campus Peñalolén",
+        "type": "Location",
+        "city": "Chile",
+        "country": null,
+        "wikidata": null,
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": null,
+        "is_user_primary": true,
+        "precision_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.59598366056628,
+          -33.46665877200571
+        ]
+      },
+      "properties": {
+        "id": "LOC_0062",
+        "name": "UChile Campus Juan Gomez Millas",
+        "type": "Location",
+        "city": "Chile",
+        "country": null,
+        "wikidata": null,
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": null,
+        "is_user_primary": true,
+        "precision_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.59510712009342,
+          -33.46513656821872
+        ]
+      },
+      "properties": {
+        "id": "LOC_0063",
+        "name": "Centro de Estudios Árabes \"Eugenio Chahuán\", Universidad de Chile",
+        "type": "Location",
+        "city": "Santiago",
+        "country": null,
+        "wikidata": null,
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": null,
+        "is_user_primary": true,
+        "precision_type": ""
       }
     }
   ]
