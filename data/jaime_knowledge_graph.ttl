@@ -1578,3 +1578,9 @@ jc:PER_0015 PUB_0014 jc:crm:P129_subject_of .
 jc:PER_0023 EXP_0009 jc:crm:P14i_performed .
 
 jc:PER_0031 EXP_0013 jc:crm:P14i_performed .
+
+jc:PER_0003 PRJ_0005 jc:crm:P14i_performed .
+
+jc:PER_0003 PRJ_0008 jc:crm:P14i_performed .
+
+jc:PER_0003 PRJ_0004 jc:crm:P14i_performed .
