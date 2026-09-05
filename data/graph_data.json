@@ -3,7 +3,7 @@
     "version": "2.0",
     "source": "CV_Dataset_Maestro_Jaime_Cuevas.xlsx",
     "node_count": 211,
-    "link_count": 403,
+    "link_count": 428,
     "sheet_count": 12,
     "validation_status": "PASS",
     "validation_warnings": 118,
@@ -1306,7 +1306,7 @@
         -33.4352
       ],
       "wikidata": "Q1138865",
-      "why_relevant": "Museo Nacional de Bellas Artes - Investigación, curaduría y publicaciones sobre colecciones",
+      "why_relevant": null,
       "micro_summary": null,
       "parent_org_id": "ORG_0002",
       "is_user_primary": false,
@@ -1330,7 +1330,7 @@
         -33.4414
       ],
       "wikidata": "Q3329153",
-      "why_relevant": "Museo de Arte Contemporáneo - Exposiciones curadas y estudios de colecciones",
+      "why_relevant": null,
       "micro_summary": null,
       "parent_org_id": "ORG_0001",
       "is_user_primary": true,
@@ -1354,7 +1354,7 @@
         -33.444
       ],
       "wikidata": "Q232438",
-      "why_relevant": "Universidad de Chile - Investigación, docencia e acceso a archivos históricos",
+      "why_relevant": null,
       "micro_summary": null,
       "parent_org_id": "ORG_0034",
       "is_user_primary": false,
@@ -1378,7 +1378,7 @@
         -33.4975
       ],
       "wikidata": "Q1465225",
-      "why_relevant": "Universidad Adolfo Ibáñez - Docencia en curatoría y gestión de proyectos",
+      "why_relevant": null,
       "micro_summary": null,
       "parent_org_id": "ORG_0004",
       "is_user_primary": false,
@@ -1402,7 +1402,7 @@
         41.3851
       ],
       "wikidata": "Q219615",
-      "why_relevant": "Máster Universitario en Humanidades Digitales - Estudios de postgrado en humanidades digitales",
+      "why_relevant": null,
       "micro_summary": null,
       "parent_org_id": "ORG_0005",
       "is_user_primary": false,
@@ -1426,7 +1426,7 @@
         -33.4216
       ],
       "wikidata": "Q5761404",
-      "why_relevant": "CNCR - Investigación en conservación y restauración de patrimonio cultural",
+      "why_relevant": null,
       "micro_summary": null,
       "parent_org_id": "ORG_0006",
       "is_user_primary": false,
@@ -1450,7 +1450,7 @@
         -33.4428
       ],
       "wikidata": "Q50682283",
-      "why_relevant": "Ministerio de las Culturas - Financiamiento y gestión de proyectos artísticos",
+      "why_relevant": null,
       "micro_summary": null,
       "parent_org_id": "ORG_0008",
       "is_user_primary": false,
@@ -1474,7 +1474,7 @@
         -33.4445
       ],
       "wikidata": "Q7894229",
-      "why_relevant": "Universidad Alberto Hurtado - Docencia e investigación en humanidades",
+      "why_relevant": null,
       "micro_summary": null,
       "parent_org_id": "ORG_0009",
       "is_user_primary": false,
@@ -1498,7 +1498,7 @@
         -33.4468
       ],
       "wikidata": "Q1138767",
-      "why_relevant": "Universidad de Santiago de Chile (IDEA) - Docencia en arte y diseño",
+      "why_relevant": null,
       "micro_summary": null,
       "parent_org_id": "ORG_0010",
       "is_user_primary": false,
@@ -1522,7 +1522,7 @@
         -33.4392
       ],
       "wikidata": "Q6034177",
-      "why_relevant": "MAPA / GAM - Exposiciones e investigación de arte popular",
+      "why_relevant": null,
       "micro_summary": null,
       "parent_org_id": "ORG_0011",
       "is_user_primary": false,
@@ -1546,7 +1546,7 @@
         -33.4503
       ],
       "wikidata": "Q6034346",
-      "why_relevant": "MSSA - Investigación sobre patrimonio y memoria cultural",
+      "why_relevant": null,
       "micro_summary": null,
       "parent_org_id": "ORG_0012",
       "is_user_primary": false,
@@ -1570,7 +1570,7 @@
         40.4168
       ],
       "wikidata": "Q54865181",
-      "why_relevant": "Ministerio de Cultura (España) - Colaboración internacional en investigación",
+      "why_relevant": null,
       "micro_summary": null,
       "parent_org_id": "ORG_0013",
       "is_user_primary": false,
@@ -1618,7 +1618,7 @@
         -33.445
       ],
       "wikidata": "Q5961605",
-      "why_relevant": "LOM Ediciones - Publicaciones sobre arte e historia cultural",
+      "why_relevant": null,
       "micro_summary": null,
       "parent_org_id": "ORG_0022",
       "is_user_primary": false,
@@ -1666,7 +1666,7 @@
         -33.5667
       ],
       "wikidata": "Q51079",
-      "why_relevant": "Colección Privada Padre Hurtado - Estudios de arte y conservación",
+      "why_relevant": null,
       "micro_summary": null,
       "parent_org_id": "ORG_0009",
       "is_user_primary": false,
@@ -1738,7 +1738,7 @@
         -33.4411
       ],
       "wikidata": "Q287900",
-      "why_relevant": "Pontificia Universidad Católica - Docencia en curatoría y patrimonio",
+      "why_relevant": null,
       "micro_summary": null,
       "parent_org_id": "ORG_0033",
       "is_user_primary": false,
@@ -1762,7 +1762,7 @@
         -33.4372
       ],
       "wikidata": "Q7894220",
-      "why_relevant": "Universidad Andrés Bello - Docencia en historia del arte y curatoría",
+      "why_relevant": null,
       "micro_summary": null,
       "parent_org_id": "ORG_0034",
       "is_user_primary": false,
@@ -1786,7 +1786,7 @@
         -33.45
       ],
       "wikidata": "Q50682284",
-      "why_relevant": "CENFOTO UDP - Docencia en patrimonio digital y archivos fotográficos",
+      "why_relevant": null,
       "micro_summary": null,
       "parent_org_id": "ORG_0035",
       "is_user_primary": false,
@@ -1810,7 +1810,7 @@
         19.4326
       ],
       "wikidata": null,
-      "why_relevant": "Instituto Mexicano de Curaduría y Restauración - Colaboración internacional",
+      "why_relevant": null,
       "micro_summary": null,
       "parent_org_id": "ORG_0036",
       "is_user_primary": false,
@@ -1834,7 +1834,7 @@
         -33.439
       ],
       "wikidata": null,
-      "why_relevant": "ISUCH - Universidad de Chile - Docencia en curaduría y gestión cultural",
+      "why_relevant": null,
       "micro_summary": null,
       "parent_org_id": "ORG_0003",
       "is_user_primary": false,
@@ -1858,7 +1858,7 @@
         -33.444
       ],
       "wikidata": "Q5918342",
-      "why_relevant": "Instituto de Seguridad Laboral - Colaboración en proyectos de investigación",
+      "why_relevant": null,
       "micro_summary": null,
       "parent_org_id": "ORG_0038",
       "is_user_primary": false,
@@ -1882,7 +1882,7 @@
         -33.444
       ],
       "wikidata": "Q232438",
-      "why_relevant": "Centro de Estudios Árabes y Judaicos UCH - Investigación y docencia interdisciplinaria",
+      "why_relevant": null,
       "micro_summary": null,
       "parent_org_id": "ORG_0037",
       "is_user_primary": false,
@@ -1927,7 +1927,7 @@
       "district": null,
       "coordinates": null,
       "wikidata": null,
-      "why_relevant": "Colección Privada Nancagua - Proyecto Monvoisin",
+      "why_relevant": null,
       "micro_summary": null,
       "parent_org_id": "Colección privada documentada en Proyecto Monvoisin (traslado obra)",
       "is_user_primary": false,
@@ -5897,6 +5897,15 @@
     },
     {
       "id": "IMPL_01001",
+      "source": "EDU_0001",
+      "target": "ORG_0005",
+      "predicate": "crm:P87_is_identified_by",
+      "predicate_label": "Ofrecida por",
+      "description": "Education at: Universitat de Barcelona",
+      "_sheet_name": "Formacion_Academica"
+    },
+    {
+      "id": "IMPL_01002",
       "source": "PER_0001",
       "target": "EDU_0002",
       "predicate": "crm:P14i_performed",
@@ -5905,7 +5914,16 @@
       "_sheet_name": "Formacion_Academica"
     },
     {
-      "id": "IMPL_01002",
+      "id": "IMPL_01003",
+      "source": "EDU_0002",
+      "target": "ORG_0014",
+      "predicate": "crm:P87_is_identified_by",
+      "predicate_label": "Ofrecida por",
+      "description": "Education at: Ministerio de Ciencia, Innovación y Universidades",
+      "_sheet_name": "Formacion_Academica"
+    },
+    {
+      "id": "IMPL_01004",
       "source": "PER_0001",
       "target": "EDU_0003",
       "predicate": "crm:P14i_performed",
@@ -5914,7 +5932,16 @@
       "_sheet_name": "Formacion_Academica"
     },
     {
-      "id": "IMPL_01003",
+      "id": "IMPL_01005",
+      "source": "EDU_0003",
+      "target": "ORG_0004",
+      "predicate": "crm:P87_is_identified_by",
+      "predicate_label": "Ofrecida por",
+      "description": "Education at: Universidad Adolfo Ibáñez",
+      "_sheet_name": "Formacion_Academica"
+    },
+    {
+      "id": "IMPL_01006",
       "source": "PER_0001",
       "target": "EDU_0004",
       "predicate": "crm:P14i_performed",
@@ -5923,7 +5950,16 @@
       "_sheet_name": "Formacion_Academica"
     },
     {
-      "id": "IMPL_01004",
+      "id": "IMPL_01007",
+      "source": "EDU_0004",
+      "target": "ORG_0003",
+      "predicate": "crm:P87_is_identified_by",
+      "predicate_label": "Ofrecida por",
+      "description": "Education at: Universidad de Chile",
+      "_sheet_name": "Formacion_Academica"
+    },
+    {
+      "id": "IMPL_01008",
       "source": "PER_0001",
       "target": "EDU_0005",
       "predicate": "crm:P14i_performed",
@@ -5932,7 +5968,16 @@
       "_sheet_name": "Formacion_Academica"
     },
     {
-      "id": "IMPL_01005",
+      "id": "IMPL_01009",
+      "source": "EDU_0005",
+      "target": "ORG_0009",
+      "predicate": "crm:P87_is_identified_by",
+      "predicate_label": "Ofrecida por",
+      "description": "Education at: Universidad Alberto Hurtado",
+      "_sheet_name": "Formacion_Academica"
+    },
+    {
+      "id": "IMPL_01010",
       "source": "PER_0001",
       "target": "EDU_0006",
       "predicate": "crm:P14i_performed",
@@ -5941,7 +5986,16 @@
       "_sheet_name": "Formacion_Academica"
     },
     {
-      "id": "IMPL_01006",
+      "id": "IMPL_01011",
+      "source": "EDU_0006",
+      "target": "ORG_0003",
+      "predicate": "crm:P87_is_identified_by",
+      "predicate_label": "Ofrecida por",
+      "description": "Education at: Universidad de Chile (IEI)",
+      "_sheet_name": "Formacion_Academica"
+    },
+    {
+      "id": "IMPL_01012",
       "source": "PER_0001",
       "target": "EDU_0007",
       "predicate": "crm:P14i_performed",
@@ -5950,7 +6004,16 @@
       "_sheet_name": "Formacion_Academica"
     },
     {
-      "id": "IMPL_01007",
+      "id": "IMPL_01013",
+      "source": "EDU_0007",
+      "target": "ORG_0010",
+      "predicate": "crm:P87_is_identified_by",
+      "predicate_label": "Ofrecida por",
+      "description": "Education at: IDEA - Universidad de Santiago de Chile",
+      "_sheet_name": "Formacion_Academica"
+    },
+    {
+      "id": "IMPL_01014",
       "source": "PER_0001",
       "target": "EDU_0008",
       "predicate": "crm:P14i_performed",
@@ -5959,7 +6022,16 @@
       "_sheet_name": "Formacion_Academica"
     },
     {
-      "id": "IMPL_01008",
+      "id": "IMPL_01015",
+      "source": "EDU_0008",
+      "target": "ORG_0004",
+      "predicate": "crm:P87_is_identified_by",
+      "predicate_label": "Ofrecida por",
+      "description": "Education at: Universidad Adolfo Ibáñez",
+      "_sheet_name": "Formacion_Academica"
+    },
+    {
+      "id": "IMPL_01016",
       "source": "PER_0001",
       "target": "EDU_0009",
       "predicate": "crm:P14i_performed",
@@ -5968,7 +6040,16 @@
       "_sheet_name": "Formacion_Academica"
     },
     {
-      "id": "IMPL_01009",
+      "id": "IMPL_01017",
+      "source": "EDU_0009",
+      "target": "ORG_0013",
+      "predicate": "crm:P87_is_identified_by",
+      "predicate_label": "Ofrecida por",
+      "description": "Education at: Ministerio de Educación, Cultura y Deporte (España)",
+      "_sheet_name": "Formacion_Academica"
+    },
+    {
+      "id": "IMPL_01018",
       "source": "PER_0001",
       "target": "EDU_0010",
       "predicate": "crm:P14i_performed",
@@ -5977,7 +6058,16 @@
       "_sheet_name": "Formacion_Academica"
     },
     {
-      "id": "IMPL_01010",
+      "id": "IMPL_01019",
+      "source": "EDU_0010",
+      "target": "ORG_0036",
+      "predicate": "crm:P87_is_identified_by",
+      "predicate_label": "Ofrecida por",
+      "description": "Education at: Instituto Mexicano de Curaduría y Restauración",
+      "_sheet_name": "Formacion_Academica"
+    },
+    {
+      "id": "IMPL_01020",
       "source": "PER_0001",
       "target": "EDU_0011",
       "predicate": "crm:P14i_performed",
@@ -5986,7 +6076,16 @@
       "_sheet_name": "Formacion_Academica"
     },
     {
-      "id": "IMPL_01011",
+      "id": "IMPL_01021",
+      "source": "EDU_0011",
+      "target": "ORG_0035",
+      "predicate": "crm:P87_is_identified_by",
+      "predicate_label": "Ofrecida por",
+      "description": "Education at: CENFOTO UDP",
+      "_sheet_name": "Formacion_Academica"
+    },
+    {
+      "id": "IMPL_01022",
       "source": "PER_0001",
       "target": "EDU_0012",
       "predicate": "crm:P14i_performed",
@@ -5995,7 +6094,16 @@
       "_sheet_name": "Formacion_Academica"
     },
     {
-      "id": "IMPL_01012",
+      "id": "IMPL_01023",
+      "source": "EDU_0012",
+      "target": "ORG_0003",
+      "predicate": "crm:P87_is_identified_by",
+      "predicate_label": "Ofrecida por",
+      "description": "Education at: Centro de Estudios Judaicos, Universidad de Chile",
+      "_sheet_name": "Formacion_Academica"
+    },
+    {
+      "id": "IMPL_01024",
       "source": "PER_0001",
       "target": "EDU_0013",
       "predicate": "crm:P14i_performed",
@@ -6004,7 +6112,16 @@
       "_sheet_name": "Formacion_Academica"
     },
     {
-      "id": "IMPL_01013",
+      "id": "IMPL_01025",
+      "source": "EDU_0013",
+      "target": "ORG_0003",
+      "predicate": "crm:P87_is_identified_by",
+      "predicate_label": "Ofrecida por",
+      "description": "Education at: Centro de Estudios Árabes, Universidad de Chile",
+      "_sheet_name": "Formacion_Academica"
+    },
+    {
+      "id": "IMPL_01026",
       "source": "PER_0001",
       "target": "EDU_0014",
       "predicate": "crm:P14i_performed",
@@ -6013,7 +6130,16 @@
       "_sheet_name": "Formacion_Academica"
     },
     {
-      "id": "IMPL_01014",
+      "id": "IMPL_01027",
+      "source": "EDU_0014",
+      "target": "ORG_0033",
+      "predicate": "crm:P87_is_identified_by",
+      "predicate_label": "Ofrecida por",
+      "description": "Education at: Pontificia Universidad Católica de Chile (PUC)",
+      "_sheet_name": "Formacion_Academica"
+    },
+    {
+      "id": "IMPL_01028",
       "source": "PER_0001",
       "target": "EDU_0015",
       "predicate": "crm:P14i_performed",
@@ -6022,7 +6148,16 @@
       "_sheet_name": "Formacion_Academica"
     },
     {
-      "id": "IMPL_01015",
+      "id": "IMPL_01029",
+      "source": "EDU_0015",
+      "target": "ORG_0007",
+      "predicate": "crm:P87_is_identified_by",
+      "predicate_label": "Ofrecida por",
+      "description": "Education at: SERPAT / Programa BiblioRedes",
+      "_sheet_name": "Formacion_Academica"
+    },
+    {
+      "id": "IMPL_01030",
       "source": "PER_0001",
       "target": "EDU_0016",
       "predicate": "crm:P14i_performed",
@@ -6031,7 +6166,16 @@
       "_sheet_name": "Formacion_Academica"
     },
     {
-      "id": "IMPL_01016",
+      "id": "IMPL_01031",
+      "source": "EDU_0016",
+      "target": "ORG_0038",
+      "predicate": "crm:P87_is_identified_by",
+      "predicate_label": "Ofrecida por",
+      "description": "Education at: Instituto de Seguridad Laboral (ISL)",
+      "_sheet_name": "Formacion_Academica"
+    },
+    {
+      "id": "IMPL_01032",
       "source": "PER_0001",
       "target": "CAR_0001",
       "predicate": "crm:P14i_performed",
@@ -6040,7 +6184,7 @@
       "_sheet_name": "Trayectoria_Laboral"
     },
     {
-      "id": "IMPL_01017",
+      "id": "IMPL_01033",
       "source": "PER_0001",
       "target": "CAR_0002",
       "predicate": "crm:P14i_performed",
@@ -6049,7 +6193,7 @@
       "_sheet_name": "Trayectoria_Laboral"
     },
     {
-      "id": "IMPL_01018",
+      "id": "IMPL_01034",
       "source": "PER_0001",
       "target": "CAR_0003",
       "predicate": "crm:P14i_performed",
@@ -6058,7 +6202,16 @@
       "_sheet_name": "Trayectoria_Laboral"
     },
     {
-      "id": "IMPL_01019",
+      "id": "IMPL_01035",
+      "source": "CAR_0003",
+      "target": "ORG_0034",
+      "predicate": "crm:P14_carried_out_by",
+      "predicate_label": "En organización",
+      "description": "Position at: Revista de Humanidades, UNAB",
+      "_sheet_name": "Trayectoria_Laboral"
+    },
+    {
+      "id": "IMPL_01036",
       "source": "PER_0001",
       "target": "CAR_0004",
       "predicate": "crm:P14i_performed",
@@ -6067,7 +6220,16 @@
       "_sheet_name": "Trayectoria_Laboral"
     },
     {
-      "id": "IMPL_01020",
+      "id": "IMPL_01037",
+      "source": "CAR_0004",
+      "target": "ORG_0004",
+      "predicate": "crm:P14_carried_out_by",
+      "predicate_label": "En organización",
+      "description": "Position at: Universidad Adolfo Ibáñez",
+      "_sheet_name": "Trayectoria_Laboral"
+    },
+    {
+      "id": "IMPL_01038",
       "source": "PER_0001",
       "target": "CAR_0005",
       "predicate": "crm:P14i_performed",
@@ -6076,7 +6238,16 @@
       "_sheet_name": "Trayectoria_Laboral"
     },
     {
-      "id": "IMPL_01021",
+      "id": "IMPL_01039",
+      "source": "CAR_0005",
+      "target": "ORG_0022",
+      "predicate": "crm:P14_carried_out_by",
+      "predicate_label": "En organización",
+      "description": "Position at: S/T Revista de Fotografía Contemporánea / LOM Ediciones",
+      "_sheet_name": "Trayectoria_Laboral"
+    },
+    {
+      "id": "IMPL_01040",
       "source": "PER_0001",
       "target": "CAR_0006",
       "predicate": "crm:P14i_performed",
@@ -6085,7 +6256,16 @@
       "_sheet_name": "Trayectoria_Laboral"
     },
     {
-      "id": "IMPL_01022",
+      "id": "IMPL_01041",
+      "source": "CAR_0006",
+      "target": "ORG_0001",
+      "predicate": "crm:P14_carried_out_by",
+      "predicate_label": "En organización",
+      "description": "Position at: Museo de Arte Contemporáneo (MAC Quinta Normal)",
+      "_sheet_name": "Trayectoria_Laboral"
+    },
+    {
+      "id": "IMPL_01042",
       "source": "PER_0001",
       "target": "CAR_0007",
       "predicate": "crm:P14i_performed",
@@ -6094,7 +6274,16 @@
       "_sheet_name": "Trayectoria_Laboral"
     },
     {
-      "id": "IMPL_01023",
+      "id": "IMPL_01043",
+      "source": "CAR_0007",
+      "target": "ORG_0037",
+      "predicate": "crm:P14_carried_out_by",
+      "predicate_label": "En organización",
+      "description": "Position at: ISUCH, Universidad de Chile",
+      "_sheet_name": "Trayectoria_Laboral"
+    },
+    {
+      "id": "IMPL_01044",
       "source": "PER_0001",
       "target": "CAR_0008",
       "predicate": "crm:P14i_performed",
@@ -6103,7 +6292,16 @@
       "_sheet_name": "Trayectoria_Laboral"
     },
     {
-      "id": "IMPL_01024",
+      "id": "IMPL_01045",
+      "source": "CAR_0008",
+      "target": "ORG_0012",
+      "predicate": "crm:P14_carried_out_by",
+      "predicate_label": "En organización",
+      "description": "Position at: Museo de la Solidaridad Salvador Allende (MSSA)",
+      "_sheet_name": "Trayectoria_Laboral"
+    },
+    {
+      "id": "IMPL_01046",
       "source": "PER_0001",
       "target": "CAR_0009",
       "predicate": "crm:P14i_performed",
@@ -6112,7 +6310,16 @@
       "_sheet_name": "Trayectoria_Laboral"
     },
     {
-      "id": "IMPL_01025",
+      "id": "IMPL_01047",
+      "source": "CAR_0009",
+      "target": "ORG_0011",
+      "predicate": "crm:P14_carried_out_by",
+      "predicate_label": "En organización",
+      "description": "Position at: Museo de Arte Popular Americano Tomás Lago (MAPA)",
+      "_sheet_name": "Trayectoria_Laboral"
+    },
+    {
+      "id": "IMPL_01048",
       "source": "PER_0001",
       "target": "CAR_0010",
       "predicate": "crm:P14i_performed",
@@ -6121,7 +6328,16 @@
       "_sheet_name": "Trayectoria_Laboral"
     },
     {
-      "id": "IMPL_01026",
+      "id": "IMPL_01049",
+      "source": "CAR_0010",
+      "target": "ORG_0006",
+      "predicate": "crm:P14_carried_out_by",
+      "predicate_label": "En organización",
+      "description": "Position at: Centro Nacional de Conservación y Restauración (CNCR)",
+      "_sheet_name": "Trayectoria_Laboral"
+    },
+    {
+      "id": "IMPL_01050",
       "source": "PER_0001",
       "target": "CAR_0011",
       "predicate": "crm:P14i_performed",
@@ -6130,7 +6346,16 @@
       "_sheet_name": "Trayectoria_Laboral"
     },
     {
-      "id": "IMPL_01027",
+      "id": "IMPL_01051",
+      "source": "CAR_0011",
+      "target": "ORG_0004",
+      "predicate": "crm:P14_carried_out_by",
+      "predicate_label": "En organización",
+      "description": "Position at: Universidad Adolfo Ibáñez",
+      "_sheet_name": "Trayectoria_Laboral"
+    },
+    {
+      "id": "IMPL_01052",
       "source": "PER_0015",
       "target": "EXP_0001",
       "predicate": "crm:P14i_performed",
@@ -6139,7 +6364,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01028",
+      "id": "IMPL_01053",
       "source": "PER_0016",
       "target": "EXP_0001",
       "predicate": "crm:P14i_performed",
@@ -6148,7 +6373,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01029",
+      "id": "IMPL_01054",
       "source": "PER_0017",
       "target": "EXP_0001",
       "predicate": "crm:P14i_performed",
@@ -6157,7 +6382,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01030",
+      "id": "IMPL_01055",
       "source": "PER_0018",
       "target": "EXP_0001",
       "predicate": "crm:P14i_performed",
@@ -6166,7 +6391,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01031",
+      "id": "IMPL_01056",
       "source": "PER_0019",
       "target": "EXP_0001",
       "predicate": "crm:P14i_performed",
@@ -6175,7 +6400,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01032",
+      "id": "IMPL_01057",
       "source": "PER_0015",
       "target": "EXP_0001_M01",
       "predicate": "crm:P14i_performed",
@@ -6184,7 +6409,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01033",
+      "id": "IMPL_01058",
       "source": "PER_0015",
       "target": "EXP_0001_M02",
       "predicate": "crm:P14i_performed",
@@ -6193,7 +6418,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01034",
+      "id": "IMPL_01059",
       "source": "PER_0015",
       "target": "EXP_0001_M03",
       "predicate": "crm:P14i_performed",
@@ -6202,7 +6427,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01035",
+      "id": "IMPL_01060",
       "source": "PER_0015",
       "target": "EXP_0001_M04",
       "predicate": "crm:P14i_performed",
@@ -6211,7 +6436,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01036",
+      "id": "IMPL_01061",
       "source": "PER_0015",
       "target": "EXP_0001_M05",
       "predicate": "crm:P14i_performed",
@@ -6220,7 +6445,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01037",
+      "id": "IMPL_01062",
       "source": "PER_0015",
       "target": "EXP_0001_M06",
       "predicate": "crm:P14i_performed",
@@ -6229,7 +6454,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01038",
+      "id": "IMPL_01063",
       "source": "PER_0015",
       "target": "EXP_0001_M07",
       "predicate": "crm:P14i_performed",
@@ -6238,7 +6463,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01039",
+      "id": "IMPL_01064",
       "source": "PER_0015",
       "target": "EXP_0001_M08",
       "predicate": "crm:P14i_performed",
@@ -6247,7 +6472,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01040",
+      "id": "IMPL_01065",
       "source": "PER_0015",
       "target": "EXP_0001_M09",
       "predicate": "crm:P14i_performed",
@@ -6256,7 +6481,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01041",
+      "id": "IMPL_01066",
       "source": "PER_0015",
       "target": "EXP_0001_M10",
       "predicate": "crm:P14i_performed",
@@ -6265,7 +6490,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01042",
+      "id": "IMPL_01067",
       "source": "PER_0015",
       "target": "EXP_0001_M11",
       "predicate": "crm:P14i_performed",
@@ -6274,7 +6499,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01043",
+      "id": "IMPL_01068",
       "source": "PER_0018",
       "target": "EXP_0001_M12",
       "predicate": "crm:P14i_performed",
@@ -6283,7 +6508,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01044",
+      "id": "IMPL_01069",
       "source": "PER_0015",
       "target": "EXP_0001_M13",
       "predicate": "crm:P14i_performed",
@@ -6292,7 +6517,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01045",
+      "id": "IMPL_01070",
       "source": "PER_0031",
       "target": "EXP_0002",
       "predicate": "crm:P14i_performed",
@@ -6301,7 +6526,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01046",
+      "id": "IMPL_01071",
       "source": "PER_0032",
       "target": "EXP_0002",
       "predicate": "crm:P14i_performed",
@@ -6310,7 +6535,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01047",
+      "id": "IMPL_01072",
       "source": "PER_0026",
       "target": "EXP_0003",
       "predicate": "crm:P14i_performed",
@@ -6319,7 +6544,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01048",
+      "id": "IMPL_01073",
       "source": "PER_0027",
       "target": "EXP_0003",
       "predicate": "crm:P14i_performed",
@@ -6328,7 +6553,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01049",
+      "id": "IMPL_01074",
       "source": "PER_0028",
       "target": "EXP_0003",
       "predicate": "crm:P14i_performed",
@@ -6337,7 +6562,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01050",
+      "id": "IMPL_01075",
       "source": "PER_0029",
       "target": "EXP_0003",
       "predicate": "crm:P14i_performed",
@@ -6346,7 +6571,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01051",
+      "id": "IMPL_01076",
       "source": "PER_0030",
       "target": "EXP_0003",
       "predicate": "crm:P14i_performed",
@@ -6355,7 +6580,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01052",
+      "id": "IMPL_01077",
       "source": "[Varios]",
       "target": "EXP_0004",
       "predicate": "crm:P14i_performed",
@@ -6364,7 +6589,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01053",
+      "id": "IMPL_01078",
       "source": "PER_0033",
       "target": "EXP_0005",
       "predicate": "crm:P14i_performed",
@@ -6373,7 +6598,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01054",
+      "id": "IMPL_01079",
       "source": "PER_0034",
       "target": "EXP_0005",
       "predicate": "crm:P14i_performed",
@@ -6382,7 +6607,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01055",
+      "id": "IMPL_01080",
       "source": "PER_0035",
       "target": "EXP_0005",
       "predicate": "crm:P14i_performed",
@@ -6391,7 +6616,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01056",
+      "id": "IMPL_01081",
       "source": "PER_0022",
       "target": "EXP_0006",
       "predicate": "crm:P14i_performed",
@@ -6400,7 +6625,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01057",
+      "id": "IMPL_01082",
       "source": "PER_0022",
       "target": "EXP_0007",
       "predicate": "crm:P14i_performed",
@@ -6409,7 +6634,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01058",
+      "id": "IMPL_01083",
       "source": "53 Artistas emergentes UCH",
       "target": "EXP_0008",
       "predicate": "crm:P14i_performed",
@@ -6418,7 +6643,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01073",
+      "id": "IMPL_01098",
       "source": "PER_0040",
       "target": "EXP_0012",
       "predicate": "crm:P14i_performed",
@@ -6427,7 +6652,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01074",
+      "id": "IMPL_01099",
       "source": "PER_0041",
       "target": "EXP_0012",
       "predicate": "crm:P14i_performed",
@@ -6436,7 +6661,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01075",
+      "id": "IMPL_01100",
       "source": "PER_0042",
       "target": "EXP_0012",
       "predicate": "crm:P14i_performed",
@@ -6445,7 +6670,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01076",
+      "id": "IMPL_01101",
       "source": "PER_0043",
       "target": "EXP_0012",
       "predicate": "crm:P14i_performed",
@@ -6454,7 +6679,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01077",
+      "id": "IMPL_01102",
       "source": "Colección MUSAC",
       "target": "EXP_0012",
       "predicate": "crm:P14i_performed",
@@ -6463,7 +6688,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01078",
+      "id": "IMPL_01103",
       "source": "PER_0031",
       "target": "EXP_0013",
       "predicate": "crm:P14i_performed",
@@ -6472,7 +6697,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01080",
+      "id": "IMPL_01105",
       "source": "PER_0001",
       "target": "COM_0001",
       "predicate": "crm:P14i_performed",
@@ -6481,7 +6706,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01081",
+      "id": "IMPL_01106",
       "source": "COM_0001",
       "target": "ORG_0003",
       "predicate": "crm:P61_occurred_at",
@@ -6490,7 +6715,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01082",
+      "id": "IMPL_01107",
       "source": "PER_0001",
       "target": "COM_0002",
       "predicate": "crm:P14i_performed",
@@ -6499,7 +6724,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01083",
+      "id": "IMPL_01108",
       "source": "COM_0002",
       "target": "ORG_0007",
       "predicate": "crm:P61_occurred_at",
@@ -6508,7 +6733,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01084",
+      "id": "IMPL_01109",
       "source": "PER_0001",
       "target": "COM_0003",
       "predicate": "crm:P14i_performed",
@@ -6517,7 +6742,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01085",
+      "id": "IMPL_01110",
       "source": "COM_0003",
       "target": "ORG_0004",
       "predicate": "crm:P61_occurred_at",
@@ -6526,7 +6751,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01086",
+      "id": "IMPL_01111",
       "source": "PER_0001",
       "target": "COM_0004",
       "predicate": "crm:P14i_performed",
@@ -6535,7 +6760,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01087",
+      "id": "IMPL_01112",
       "source": "COM_0004",
       "target": "ORG_0004",
       "predicate": "crm:P61_occurred_at",
@@ -6544,7 +6769,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01088",
+      "id": "IMPL_01113",
       "source": "PER_0001",
       "target": "COM_0005",
       "predicate": "crm:P14i_performed",
@@ -6553,7 +6778,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01089",
+      "id": "IMPL_01114",
       "source": "COM_0005",
       "target": "ORG_0002",
       "predicate": "crm:P61_occurred_at",
@@ -6562,7 +6787,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01090",
+      "id": "IMPL_01115",
       "source": "PER_0001",
       "target": "COM_0006",
       "predicate": "crm:P14i_performed",
@@ -6571,7 +6796,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01091",
+      "id": "IMPL_01116",
       "source": "COM_0006",
       "target": "ORG_0032",
       "predicate": "crm:P61_occurred_at",
@@ -6580,7 +6805,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01092",
+      "id": "IMPL_01117",
       "source": "PER_0001",
       "target": "COM_0007",
       "predicate": "crm:P14i_performed",
@@ -6589,7 +6814,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01093",
+      "id": "IMPL_01118",
       "source": "COM_0007",
       "target": "ORG_0030",
       "predicate": "crm:P61_occurred_at",
@@ -6598,7 +6823,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01094",
+      "id": "IMPL_01119",
       "source": "PER_0001",
       "target": "COM_0008",
       "predicate": "crm:P14i_performed",
@@ -6607,7 +6832,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01095",
+      "id": "IMPL_01120",
       "source": "COM_0008",
       "target": "ORG_0003",
       "predicate": "crm:P61_occurred_at",
@@ -6616,7 +6841,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01096",
+      "id": "IMPL_01121",
       "source": "PER_0001",
       "target": "COM_0009",
       "predicate": "crm:P14i_performed",
@@ -6625,7 +6850,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01097",
+      "id": "IMPL_01122",
       "source": "COM_0009",
       "target": "ORG_0004",
       "predicate": "crm:P61_occurred_at",
@@ -6634,7 +6859,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01098",
+      "id": "IMPL_01123",
       "source": "PER_0001",
       "target": "COM_0010",
       "predicate": "crm:P14i_performed",
@@ -6643,7 +6868,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01099",
+      "id": "IMPL_01124",
       "source": "COM_0010",
       "target": "ORG_0033",
       "predicate": "crm:P61_occurred_at",
@@ -6652,7 +6877,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01100",
+      "id": "IMPL_01125",
       "source": "PER_0001",
       "target": "COM_0011",
       "predicate": "crm:P14i_performed",
@@ -6661,7 +6886,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01101",
+      "id": "IMPL_01126",
       "source": "COM_0011",
       "target": "ORG_0031",
       "predicate": "crm:P61_occurred_at",
@@ -6670,7 +6895,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01102",
+      "id": "IMPL_01127",
       "source": "PER_0001",
       "target": "COM_0012",
       "predicate": "crm:P14i_performed",
@@ -6679,7 +6904,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01103",
+      "id": "IMPL_01128",
       "source": "COM_0012",
       "target": "ORG_0026",
       "predicate": "crm:P61_occurred_at",
@@ -6688,7 +6913,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01104",
+      "id": "IMPL_01129",
       "source": "PER_0001",
       "target": "COM_0013",
       "predicate": "crm:P14i_performed",
@@ -6697,7 +6922,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01105",
+      "id": "IMPL_01130",
       "source": "COM_0013",
       "target": "ORG_0010",
       "predicate": "crm:P61_occurred_at",
@@ -6706,7 +6931,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01106",
+      "id": "IMPL_01131",
       "source": "PER_0001",
       "target": "COM_0014",
       "predicate": "crm:P14i_performed",
@@ -6715,7 +6940,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01107",
+      "id": "IMPL_01132",
       "source": "COM_0014",
       "target": "ORG_0007",
       "predicate": "crm:P61_occurred_at",
@@ -6724,7 +6949,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01108",
+      "id": "IMPL_01133",
       "source": "PER_0001",
       "target": "COM_0015",
       "predicate": "crm:P14i_performed",
@@ -6733,7 +6958,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01109",
+      "id": "IMPL_01134",
       "source": "COM_0015",
       "target": "ORG_0002",
       "predicate": "crm:P61_occurred_at",
@@ -6742,7 +6967,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01110",
+      "id": "IMPL_01135",
       "source": "PER_0001",
       "target": "COM_0016",
       "predicate": "crm:P14i_performed",
@@ -6751,7 +6976,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01111",
+      "id": "IMPL_01136",
       "source": "COM_0016",
       "target": "ORG_0002",
       "predicate": "crm:P61_occurred_at",
@@ -6760,7 +6985,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01112",
+      "id": "IMPL_01137",
       "source": "PER_0001",
       "target": "COM_0017",
       "predicate": "crm:P14i_performed",
@@ -6769,7 +6994,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01113",
+      "id": "IMPL_01138",
       "source": "COM_0017",
       "target": "ORG_0002",
       "predicate": "crm:P61_occurred_at",
@@ -6778,7 +7003,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01114",
+      "id": "IMPL_01139",
       "source": "PER_0001",
       "target": "COM_0018",
       "predicate": "crm:P14i_performed",
@@ -6787,7 +7012,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01115",
+      "id": "IMPL_01140",
       "source": "COM_0018",
       "target": "ORG_0003",
       "predicate": "crm:P61_occurred_at",
@@ -6796,7 +7021,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01116",
+      "id": "IMPL_01141",
       "source": "PER_0001",
       "target": "COM_0019",
       "predicate": "crm:P14i_performed",
@@ -6805,7 +7030,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01117",
+      "id": "IMPL_01142",
       "source": "COM_0019",
       "target": "ORG_0013",
       "predicate": "crm:P61_occurred_at",
@@ -6814,7 +7039,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01118",
+      "id": "IMPL_01143",
       "source": "PER_0001",
       "target": "COM_0020",
       "predicate": "crm:P14i_performed",
@@ -6823,7 +7048,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01119",
+      "id": "IMPL_01144",
       "source": "COM_0020",
       "target": "ORG_0002",
       "predicate": "crm:P61_occurred_at",
@@ -6832,7 +7057,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01120",
+      "id": "IMPL_01145",
       "source": "PER_0001",
       "target": "COM_0021",
       "predicate": "crm:P14i_performed",
@@ -6841,7 +7066,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01121",
+      "id": "IMPL_01146",
       "source": "COM_0021",
       "target": "ORG_0002",
       "predicate": "crm:P61_occurred_at",
@@ -6850,7 +7075,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01122",
+      "id": "IMPL_01147",
       "source": "PER_0001",
       "target": "COM_0022",
       "predicate": "crm:P14i_performed",
@@ -6859,7 +7084,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01123",
+      "id": "IMPL_01148",
       "source": "COM_0022",
       "target": "ORG_0002",
       "predicate": "crm:P61_occurred_at",
@@ -6868,7 +7093,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01124",
+      "id": "IMPL_01149",
       "source": "PER_0001",
       "target": "COM_0023",
       "predicate": "crm:P14i_performed",
@@ -6877,7 +7102,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01125",
+      "id": "IMPL_01150",
       "source": "COM_0023",
       "target": "ORG_0002",
       "predicate": "crm:P61_occurred_at",
@@ -6886,7 +7111,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01126",
+      "id": "IMPL_01151",
       "source": "PER_0001",
       "target": "COM_0024",
       "predicate": "crm:P14i_performed",
@@ -6895,7 +7120,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01127",
+      "id": "IMPL_01152",
       "source": "COM_0024",
       "target": "ORG_0002",
       "predicate": "crm:P61_occurred_at",
@@ -6904,7 +7129,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01128",
+      "id": "IMPL_01153",
       "source": "PER_0001",
       "target": "COM_0025",
       "predicate": "crm:P14i_performed",
@@ -6913,7 +7138,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01129",
+      "id": "IMPL_01154",
       "source": "COM_0025",
       "target": "ORG_0002",
       "predicate": "crm:P61_occurred_at",
@@ -6922,7 +7147,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01130",
+      "id": "IMPL_01155",
       "source": "PER_0001",
       "target": "COM_0026",
       "predicate": "crm:P14i_performed",
@@ -6931,7 +7156,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01131",
+      "id": "IMPL_01156",
       "source": "COM_0026",
       "target": "ORG_0006",
       "predicate": "crm:P61_occurred_at",
@@ -6940,7 +7165,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01132",
+      "id": "IMPL_01157",
       "source": "PER_0001",
       "target": "COM_0027",
       "predicate": "crm:P14i_performed",
@@ -6949,7 +7174,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01133",
+      "id": "IMPL_01158",
       "source": "COM_0027",
       "target": "ORG_0002",
       "predicate": "crm:P61_occurred_at",
@@ -6958,7 +7183,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01134",
+      "id": "IMPL_01159",
       "source": "PER_0001",
       "target": "PUB_0001",
       "predicate": "crm:P108_has_produced",
@@ -6967,7 +7192,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01135",
+      "id": "IMPL_01160",
       "source": "PER_0001",
       "target": "PUB_0002",
       "predicate": "crm:P108_has_produced",
@@ -6976,7 +7201,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01136",
+      "id": "IMPL_01161",
       "source": "PER_0001",
       "target": "PUB_0003",
       "predicate": "crm:P108_has_produced",
@@ -6985,7 +7210,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01137",
+      "id": "IMPL_01162",
       "source": "PER_0001",
       "target": "PUB_0004",
       "predicate": "crm:P108_has_produced",
@@ -6994,7 +7219,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01138",
+      "id": "IMPL_01163",
       "source": "PER_0001",
       "target": "PUB_0005",
       "predicate": "crm:P108_has_produced",
@@ -7003,7 +7228,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01139",
+      "id": "IMPL_01164",
       "source": "PER_0001",
       "target": "PUB_0006",
       "predicate": "crm:P108_has_produced",
@@ -7012,7 +7237,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01140",
+      "id": "IMPL_01165",
       "source": "PER_0001",
       "target": "PUB_0007",
       "predicate": "crm:P108_has_produced",
@@ -7021,7 +7246,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01141",
+      "id": "IMPL_01166",
       "source": "PER_0001",
       "target": "PUB_0008",
       "predicate": "crm:P108_has_produced",
@@ -7030,7 +7255,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01142",
+      "id": "IMPL_01167",
       "source": "PER_0001",
       "target": "PUB_0009",
       "predicate": "crm:P108_has_produced",
@@ -7039,7 +7264,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01143",
+      "id": "IMPL_01168",
       "source": "PER_0001",
       "target": "PUB_0010",
       "predicate": "crm:P108_has_produced",
@@ -7048,7 +7273,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01144",
+      "id": "IMPL_01169",
       "source": "PER_0001",
       "target": "PUB_0011",
       "predicate": "crm:P108_has_produced",
@@ -7057,7 +7282,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01145",
+      "id": "IMPL_01170",
       "source": "PER_0001",
       "target": "PUB_0012",
       "predicate": "crm:P108_has_produced",
@@ -7066,7 +7291,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01146",
+      "id": "IMPL_01171",
       "source": "PER_0001",
       "target": "PUB_0013",
       "predicate": "crm:P108_has_produced",
@@ -7075,7 +7300,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01147",
+      "id": "IMPL_01172",
       "source": "PER_0001",
       "target": "PUB_0014",
       "predicate": "crm:P108_has_produced",
@@ -7084,7 +7309,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01148",
+      "id": "IMPL_01173",
       "source": "PER_0001",
       "target": "PUB_0015",
       "predicate": "crm:P108_has_produced",
@@ -7093,7 +7318,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01149",
+      "id": "IMPL_01174",
       "source": "PER_0001",
       "target": "PUB_0016",
       "predicate": "crm:P108_has_produced",
@@ -7102,7 +7327,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01150",
+      "id": "IMPL_01175",
       "source": "PER_0001",
       "target": "PUB_0017",
       "predicate": "crm:P108_has_produced",
@@ -7111,7 +7336,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01151",
+      "id": "IMPL_01176",
       "source": "PER_0001",
       "target": "PUB_0018",
       "predicate": "crm:P108_has_produced",
@@ -7120,7 +7345,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01152",
+      "id": "IMPL_01177",
       "source": "PER_0001",
       "target": "PRJ_0001",
       "predicate": "crm:P14i_performed",
@@ -7129,7 +7354,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01153",
+      "id": "IMPL_01178",
       "source": "PER_0001",
       "target": "PRJ_0002",
       "predicate": "crm:P14i_performed",
@@ -7138,7 +7363,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01154",
+      "id": "IMPL_01179",
       "source": "PER_0001",
       "target": "PRJ_0003",
       "predicate": "crm:P14i_performed",
@@ -7147,7 +7372,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01155",
+      "id": "IMPL_01180",
       "source": "PER_0001",
       "target": "PRJ_0004",
       "predicate": "crm:P14i_performed",
@@ -7156,7 +7381,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01156",
+      "id": "IMPL_01181",
       "source": "PER_0001",
       "target": "PRJ_0005",
       "predicate": "crm:P14i_performed",
@@ -7165,7 +7390,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01157",
+      "id": "IMPL_01182",
       "source": "PER_0001",
       "target": "PRJ_0006",
       "predicate": "crm:P14i_performed",
@@ -7174,7 +7399,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01158",
+      "id": "IMPL_01183",
       "source": "PER_0001",
       "target": "PRJ_0007",
       "predicate": "crm:P14i_performed",
@@ -7183,7 +7408,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01159",
+      "id": "IMPL_01184",
       "source": "PER_0001",
       "target": "PRJ_0008",
       "predicate": "crm:P14i_performed",
@@ -7192,7 +7417,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01160",
+      "id": "IMPL_01185",
       "source": "PER_0001",
       "target": "PRJ_0008_N01",
       "predicate": "crm:P14i_performed",
@@ -7201,7 +7426,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01161",
+      "id": "IMPL_01186",
       "source": "PER_0001",
       "target": "PRJ_0008_N02",
       "predicate": "crm:P14i_performed",
@@ -7210,7 +7435,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01162",
+      "id": "IMPL_01187",
       "source": "PER_0001",
       "target": "PRJ_0008_N03",
       "predicate": "crm:P14i_performed",
@@ -7219,7 +7444,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01163",
+      "id": "IMPL_01188",
       "source": "PER_0001",
       "target": "PRJ_0008_N04",
       "predicate": "crm:P14i_performed",
@@ -7228,7 +7453,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01164",
+      "id": "IMPL_01189",
       "source": "PER_0001",
       "target": "PRJ_0009",
       "predicate": "crm:P14i_performed",
@@ -7237,7 +7462,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01165",
+      "id": "IMPL_01190",
       "source": "PER_0001",
       "target": "PRJ_0010",
       "predicate": "crm:P14i_performed",
@@ -7246,7 +7471,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01166",
+      "id": "IMPL_01191",
       "source": "PER_0001",
       "target": "PRJ_0011",
       "predicate": "crm:P14i_performed",
@@ -7255,7 +7480,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01167",
+      "id": "IMPL_01192",
       "source": "PER_0001",
       "target": "PRJ_0012",
       "predicate": "crm:P14i_performed",
@@ -7264,7 +7489,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01168",
+      "id": "IMPL_01193",
       "source": "PER_0001",
       "target": "PRJ_0013",
       "predicate": "crm:P14i_performed",
@@ -7273,7 +7498,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01169",
+      "id": "IMPL_01194",
       "source": "PER_0001",
       "target": "PRJ_0014",
       "predicate": "crm:P14i_performed",
@@ -7282,7 +7507,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01170",
+      "id": "IMPL_01195",
       "source": "PER_0001",
       "target": "PRJ_0015",
       "predicate": "crm:P14i_performed",
@@ -7291,7 +7516,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01171",
+      "id": "IMPL_01196",
       "source": "PER_0001",
       "target": "PRJ_0016",
       "predicate": "crm:P14i_performed",
@@ -7300,7 +7525,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01172",
+      "id": "IMPL_01197",
       "source": "PER_0009",
       "target": "PRJ_0017",
       "predicate": "crm:P14i_performed",

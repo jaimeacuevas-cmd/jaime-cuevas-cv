@@ -402,12 +402,14 @@ class DataTransformer:
         links = []
         link_counter = 1000  # Start high to avoid collision with explicit REL_ IDs
 
-        # Generate links from Formacion_Academica (Agent → Education)
+        # Generate links from Formacion_Academica (Agent → Education, Education → Organization)
         educations = raw_entities.get('Education', [])
         for edu_row in educations:
             agent_id = edu_row.get('id_agente', '').strip()
             edu_id = edu_row.get('id_formacion', '').strip()
+            org_id = edu_row.get('id_organizacion', '').strip()
 
+            # Agent → Education
             if agent_id and edu_id:
                 link = {
                     'id': f"IMPL_{link_counter:05d}",
@@ -421,12 +423,28 @@ class DataTransformer:
                 links.append(link)
                 link_counter += 1
 
-        # Generate links from Trayectoria_Laboral (Agent → Position)
+            # Education → Organization (if organization exists and has valid format)
+            if edu_id and org_id and org_id.startswith('ORG_'):
+                link = {
+                    'id': f"IMPL_{link_counter:05d}",
+                    'source': edu_id,
+                    'target': org_id,
+                    'predicate': 'crm:P87_is_identified_by',
+                    'predicate_label': 'Ofrecida por',
+                    'description': f"Education at: {edu_row.get('institucion', '')}",
+                    '_sheet_name': 'Formacion_Academica',
+                }
+                links.append(link)
+                link_counter += 1
+
+        # Generate links from Trayectoria_Laboral (Agent → Position, Position → Organization)
         positions = raw_entities.get('Position', [])
         for pos_row in positions:
             agent_id = pos_row.get('id_agente', '').strip()
             pos_id = pos_row.get('id_cargo', '').strip()
+            org_id = str(pos_row.get('id_organizacion', '')).strip()
 
+            # Agent → Position
             if agent_id and pos_id:
                 link = {
                     'id': f"IMPL_{link_counter:05d}",
@@ -435,6 +453,20 @@ class DataTransformer:
                     'predicate': 'crm:P14i_performed',
                     'predicate_label': 'Desempeñó',
                     'description': f"Position: {pos_row.get('cargo_o_rol', '')}",
+                    '_sheet_name': 'Trayectoria_Laboral',
+                }
+                links.append(link)
+                link_counter += 1
+
+            # Position → Organization (if organization ID has valid format)
+            if pos_id and org_id and org_id.startswith('ORG_'):
+                link = {
+                    'id': f"IMPL_{link_counter:05d}",
+                    'source': pos_id,
+                    'target': org_id,
+                    'predicate': 'crm:P14_carried_out_by',
+                    'predicate_label': 'En organización',
+                    'description': f"Position at: {pos_row.get('institucion', '')}",
                     '_sheet_name': 'Trayectoria_Laboral',
                 }
                 links.append(link)
