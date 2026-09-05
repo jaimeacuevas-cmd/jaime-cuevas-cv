@@ -279,3 +279,4 @@ if __name__ == '__main__':
     pipeline = ETLPipeline(BASE_DIR)
     success = pipeline.run()
     sys.exit(0 if success else 1)
+# Rebuild trigger: 2026-09-05T22:47:18Z
