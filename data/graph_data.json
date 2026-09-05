@@ -2,12 +2,12 @@
   "metadata": {
     "version": "2.0",
     "source": "CV_Dataset_Maestro_Jaime_Cuevas.xlsx",
-    "node_count": 181,
-    "link_count": 359,
+    "node_count": 211,
+    "link_count": 403,
     "sheet_count": 12,
     "validation_status": "PASS",
-    "validation_warnings": 146,
-    "filtered_nodes": 94
+    "validation_warnings": 118,
+    "filtered_nodes": 82
   },
   "nodes": [
     {
@@ -112,6 +112,54 @@
         "github": null,
         "linkedin": null,
         "academia": "https://uc-cl.academia.edu/ManuelAlvaradoCornejo"
+      }
+    },
+    {
+      "id": "PER_0005",
+      "type": "Agent",
+      "label": "Milencka Vidal Consiglieri",
+      "short_name": "Milencka Vidal",
+      "category": "Persona (Colaborador)",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 5,
+      "nationality": "Chilena",
+      "role": "Historiadora del Arte | Co-autora Libro Catastro Afromestizos",
+      "period": null,
+      "orcid": null,
+      "wikidata": null,
+      "urls": {
+        "main": "https://rileditores.com",
+        "scholar": null,
+        "github": null,
+        "linkedin": null,
+        "academia": null
+      }
+    },
+    {
+      "id": "PER_0006",
+      "type": "Agent",
+      "label": "Antonia Viu",
+      "short_name": "Antonia Viu",
+      "category": "Persona (Colaborador)",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 6,
+      "nationality": "Chilena",
+      "role": "Doctora en Literatura | Investigadora Responsable Proyecto Harvard-UAI",
+      "period": null,
+      "orcid": "0000-0003-0378-6101",
+      "wikidata": null,
+      "urls": {
+        "main": "https://artesliberales.uai.cl",
+        "scholar": null,
+        "github": null,
+        "linkedin": null,
+        "academia": null
       }
     },
     {
@@ -420,6 +468,34 @@
       "wikidata": null,
       "urls": {
         "main": null,
+        "scholar": null,
+        "github": null,
+        "linkedin": null,
+        "academia": null
+      }
+    },
+    {
+      "id": "PER_0025",
+      "type": "Agent",
+      "label": "Alessandro Ciccarelli Manzoni",
+      "short_name": "Alessandro Ciccarelli",
+      "category": "Artista Histórico",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 25,
+      "nationality": "Italiana | Chilena",
+      "role": "Pintor | Primer Director Academia de Pintura de Chile",
+      "period": {
+        "start": 1811,
+        "end": 1879,
+        "display": "1811-1879"
+      },
+      "orcid": null,
+      "wikidata": null,
+      "urls": {
+        "main": "https://www.mnba.gob.cl",
         "scholar": null,
         "github": null,
         "linkedin": null,
@@ -1003,6 +1079,20 @@
       "wikidata": "Q54865181"
     },
     {
+      "id": "ORG_0015",
+      "type": "Organization",
+      "label": "Harvard University",
+      "short_name": "HARVARD",
+      "category": "Universidad Privada",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 15,
+      "city": "Cambridge, MA",
+      "wikidata": "Q13371"
+    },
+    {
       "id": "ORG_0017",
       "type": "Organization",
       "label": "Wikimedia Argentina",
@@ -1483,6 +1573,30 @@
       "why_relevant": "Ministerio de Cultura (España) - Colaboración internacional en investigación",
       "micro_summary": null,
       "parent_org_id": "ORG_0013",
+      "is_user_primary": false,
+      "precision_type": "exact"
+    },
+    {
+      "id": "LOC_0013",
+      "type": "Location",
+      "label": "Harvard University (Cambridge)",
+      "short_name": null,
+      "category": "Sede Universitaria",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 13,
+      "city": "Cambridge, MA",
+      "district": "Middlesex County",
+      "coordinates": [
+        -71.1167,
+        42.377
+      ],
+      "wikidata": "Q13371",
+      "why_relevant": null,
+      "micro_summary": null,
+      "parent_org_id": "ORG_0015",
       "is_user_primary": false,
       "precision_type": "exact"
     },
@@ -2258,6 +2372,258 @@
       "achievements": "Ayudantías en Historia de Chile (s. XIX) | Historia Universal (1815-1940) | Arte Occidental"
     },
     {
+      "id": "PUB_0001",
+      "type": "Publication",
+      "label": "Monvoisin en América: Identidades, atribuciones y mercado del arte",
+      "short_name": null,
+      "category": "Libro de investigación colectiva (Edición y co-autoría)",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 1,
+      "authors": "Gloria Cortés Aliaga | Jaime Cuevas Pérez",
+      "year": 2023
+    },
+    {
+      "id": "PUB_0002",
+      "type": "Publication",
+      "label": "Catastro y visualidad de afromestizos en Chile. Colección del Museo Nacional de Bellas Artes",
+      "short_name": null,
+      "category": "Libro de investigación y catastro científico (Co-autoría)",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 2,
+      "authors": "Milencka Vidal Consiglieri | Jaime Cuevas Pérez",
+      "year": 2019
+    },
+    {
+      "id": "PUB_0003",
+      "type": "Publication",
+      "label": "Rodrigo Rojas De Negri. Un exilio sin retorno",
+      "short_name": null,
+      "category": "Libro de investigación histórico-fotográfica y memoria política (Co-investigación)",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 3,
+      "authors": "Varios autores | Jaime Cuevas (Co-investigador)",
+      "year": 2014
+    },
+    {
+      "id": "PUB_0004",
+      "type": "Publication",
+      "label": "Adquisiciones en contexto: La Sociedad Nacional de Bellas Artes 1918-1950",
+      "short_name": null,
+      "category": "Catálogo de exposición, investigación curatorial y mediación (Edición y co-autoría)",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 4,
+      "authors": "Manuel Alvarado Cornejo | Jaime Cuevas Pérez",
+      "year": 2023
+    },
+    {
+      "id": "PUB_0005",
+      "type": "Publication",
+      "label": "El canon revisitado. Una mirada al arte europeo desde América Latina",
+      "short_name": null,
+      "category": "Catálogo de exposición e investigación curatorial transnacional (Edición, co-autoría y ensayo premiado TyPA)",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 5,
+      "authors": "Manuel Alvarado Cornejo | Jaime Cuevas Pérez",
+      "year": 2022
+    },
+    {
+      "id": "PUB_0006",
+      "type": "Publication",
+      "label": "La segunda naturaleza. Colección CCU",
+      "short_name": null,
+      "category": "Catálogo de exposición y estudio curatorial (Co-autoría)",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 6,
+      "authors": "Gloria Cortés Aliaga | Jaime Cuevas Pérez",
+      "year": 2017
+    },
+    {
+      "id": "PUB_0007",
+      "type": "Publication",
+      "label": "Matriz imaginada. Notas sobre archivo, arte e historia. En Salón de Estudiantes 2013",
+      "short_name": null,
+      "category": "Ensayo crítico en catálogo de exposición (Co-autoría)",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 7,
+      "authors": "Daniela Colleoni | Jaime Cuevas Pérez",
+      "year": 2013
+    },
+    {
+      "id": "PUB_0008",
+      "type": "Publication",
+      "label": "Dos modelos de representación: el afromestizo en pinturas de batalla en Chile a mediados del siglo XIX",
+      "short_name": null,
+      "category": "Artículo de investigación científica (Peer-reviewed, Autoría única)",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 8,
+      "authors": "[Vacío]",
+      "year": 2023
+    },
+    {
+      "id": "PUB_0009",
+      "type": "Publication",
+      "label": "El Salón de Santiago de 1885. Notas sobre la constitución de un \"arte nacional\"",
+      "short_name": null,
+      "category": "Artículo de investigación en revista especializada (Autoría única)",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 9,
+      "authors": "[Vacío]",
+      "year": 2013
+    },
+    {
+      "id": "PUB_0010",
+      "type": "Publication",
+      "label": "Introducción. En Monvoisin en América: Identidades, atribuciones y mercado del arte",
+      "short_name": null,
+      "category": "Prólogo / Introducción de libro de investigación (Co-autoría)",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 10,
+      "authors": "Gloria Cortés Aliaga | Jaime Cuevas Pérez",
+      "year": 2023
+    },
+    {
+      "id": "PUB_0011",
+      "type": "Publication",
+      "label": "Autenticidad, mercado y comercialización de obras de arte en el siglo XIX en el \"contexto Monvoisin\"",
+      "short_name": null,
+      "category": "Capítulo de libro de investigación (Co-autoría)",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 11,
+      "authors": "Gloria Cortés Aliaga | Jaime Cuevas Pérez",
+      "year": 2023
+    },
+    {
+      "id": "PUB_0012",
+      "type": "Publication",
+      "label": "Coleccionismo en Chile durante la segunda mitad del siglo XIX: historia y reconstrucción de la colección de Marcos Segundo Maturana (1830–1892)",
+      "short_name": null,
+      "category": "Informe / Capítulo de libro de investigación patrimonial (Co-autoría)",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 12,
+      "authors": "Marcela Drien Fábregas | Jaime Cuevas Pérez",
+      "year": 2021
+    },
+    {
+      "id": "PUB_0013",
+      "type": "Publication",
+      "label": "Incertidumbres en visualidades de indígenas y negros en Chile, siglo XIX",
+      "short_name": null,
+      "category": "Capítulo de libro de investigación (Co-autoría)",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 13,
+      "authors": "Manuel Alvarado Cornejo | Jaime Cuevas Pérez",
+      "year": 2019
+    },
+    {
+      "id": "PUB_0014",
+      "type": "Publication",
+      "label": "Notas sobre el catastro y documentación de la obra de Raymond Quinsac Monvoisin en América...",
+      "short_name": null,
+      "category": "Capítulo de libro de investigación (Co-autoría)",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 14,
+      "authors": "Juan Manuel Martínez Silva | Jaime Cuevas Pérez",
+      "year": 2019
+    },
+    {
+      "id": "PUB_0015",
+      "type": "Publication",
+      "label": "Género y discipulaje. Los casos de Clara Filleul y Procesa Sarmiento en el “Taller Monvoisin”",
+      "short_name": null,
+      "category": "Informe / Capítulo de libro de investigación con enfoque de género (Co-autoría)",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 15,
+      "authors": "Gloria Cortés Aliaga | Jaime Cuevas Pérez",
+      "year": 2018
+    },
+    {
+      "id": "PUB_0016",
+      "type": "Publication",
+      "label": "Trazar límites, deslindar fronteras. El caso de la pintura El Fuerte Bulnes (1848) de Alessandro Ciccarelli",
+      "short_name": null,
+      "category": "Artículo / Ponencia en volumen colectivo internacional (Autoría única)",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 16,
+      "authors": "[Vacío]",
+      "year": 2017
+    },
+    {
+      "id": "PUB_0017",
+      "type": "Publication",
+      "label": "S/T Revista de fotografía contemporánea (Varios números)",
+      "short_name": null,
+      "category": "Revista Periódica (Co-Editor)",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 17,
+      "authors": "Montserrat Rojas Corradi (Editora Principal) | Jaime Cuevas (Co-editor) | Varios autores",
+      "year": 2014
+    },
+    {
+      "id": "PUB_0018",
+      "type": "Publication",
+      "label": "La negra",
+      "short_name": null,
+      "category": "Comentario de obra en catálogo de exposición",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 18,
+      "authors": "Gloria Cortés Aliaga | Jaime Cuevas Pérez",
+      "year": 2017
+    },
+    {
       "id": "EXP_0001",
       "type": "Exhibition",
       "label": "Episodio Monvoisin. Un pintor francés en el Chile del siglo XIX",
@@ -2648,6 +3014,21 @@
       "role": "Autor Galardonado (Ensayo El canon revisitado)"
     },
     {
+      "id": "PRJ_0004",
+      "type": "Project",
+      "label": "Comercio de arte en Chile 1811-1920 (FONDECYT 1230245)",
+      "short_name": null,
+      "category": null,
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 4,
+      "funder": "ANID / FONDECYT Regular",
+      "period": null,
+      "role": "Asistente de Investigación"
+    },
+    {
       "id": "PRJ_0005",
       "type": "Project",
       "label": "Coleccionismo en Chile durante la segunda mitad del siglo XIX: Marcos Segundo Maturana",
@@ -2676,6 +3057,21 @@
       "funder": "FAIP / DIBAM",
       "period": null,
       "role": "Coinvestigador"
+    },
+    {
+      "id": "PRJ_0007",
+      "type": "Project",
+      "label": "Cultures of reading and global intellectual communities in Latin American periodicals",
+      "short_name": null,
+      "category": null,
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 7,
+      "funder": "Harvard University / Universidad Adolfo Ibáñez",
+      "period": null,
+      "role": "Investigador Colaborador"
     },
     {
       "id": "PRJ_0008",
@@ -2781,6 +3177,81 @@
       "funder": "Fondo Valentín Letelier / Universidad de Chile",
       "period": null,
       "role": "Responsable General"
+    },
+    {
+      "id": "PRJ_0011",
+      "type": "Project",
+      "label": "Beca General MEC (Máster Universitario en Humanidades Digitales)",
+      "short_name": null,
+      "category": null,
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 15,
+      "funder": "Ministerio de Educación y Formación Profesional (España)",
+      "period": null,
+      "role": "Becario de Excelencia"
+    },
+    {
+      "id": "PRJ_0012",
+      "type": "Project",
+      "label": "Programa de educación Salón de Estudiantes 2013 (FDI-MINEDUC)",
+      "short_name": null,
+      "category": null,
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 16,
+      "funder": "Fondo de Desarrollo Institucional / Ministerio de Educación",
+      "period": null,
+      "role": "Co-responsable"
+    },
+    {
+      "id": "PRJ_0013",
+      "type": "Project",
+      "label": "Beca de Formación de Profesionales Iberoamericanos en el Sector Cultural",
+      "short_name": null,
+      "category": null,
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 17,
+      "funder": "Ministerio de Educación, Cultura y Deporte (España)",
+      "period": null,
+      "role": "Becario de Formación"
+    },
+    {
+      "id": "PRJ_0014",
+      "type": "Project",
+      "label": "Beca de Inglés CORFO para Profesionales",
+      "short_name": null,
+      "category": null,
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 18,
+      "funder": "CORFO / Duoc UC",
+      "period": null,
+      "role": "Becario de Idiomas"
+    },
+    {
+      "id": "PRJ_0015",
+      "type": "Project",
+      "label": "Becas de Excelencia Académica (Beca Bicentenario | Equidad | PAE)",
+      "short_name": null,
+      "category": null,
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 19,
+      "funder": "Ministerio de Educación / Universidad de Chile",
+      "period": null,
+      "role": "Becario de Excelencia Pregrado"
     },
     {
       "id": "PRJ_0016",
@@ -3331,6 +3802,14 @@
       "target": "LOC_0012",
       "predicate": "crm:P87_is_identified_by",
       "description": "Organization ORG_0013 has location LOC_0012",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0013",
+      "source": "ORG_0015",
+      "target": "LOC_0013",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0015 has location LOC_0013",
       "_sheet_name": "Lugares_y_Sedes_GENERATED"
     },
     {
@@ -4985,6 +5464,15 @@
       "_sheet_name": "Relaciones_Grafo_LOD"
     },
     {
+      "id": "REL_0173",
+      "source": "PER_0006",
+      "target": "PRJ_0007",
+      "predicate": "crm:P14i_performed",
+      "year": "2015-2020",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
       "id": "REL_0174",
       "source": "PER_0014",
       "target": "PRJ_0001",
@@ -5044,6 +5532,15 @@
       "target": "EXP_0005",
       "predicate": "crm:P14i_performed",
       "year": 2020,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0181",
+      "source": "PER_0006",
+      "target": "ORG_0015",
+      "predicate": "crm:P14i_performed",
+      "year": "2015-2017",
       "description": null,
       "_sheet_name": "Relaciones_Grafo_LOD"
     },
@@ -5114,6 +5611,15 @@
       "id": "REL_0190",
       "source": "PER_0017",
       "target": "PUB_0015",
+      "predicate": "crm:P129_subject_of",
+      "year": 2023,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0191",
+      "source": "PER_0025",
+      "target": "PUB_0016",
       "predicate": "crm:P129_subject_of",
       "year": 2023,
       "description": null,
@@ -5242,6 +5748,15 @@
       "target": "PRJ_0006",
       "predicate": "crm:P14i_performed",
       "year": 2023,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0206",
+      "source": "PER_0005",
+      "target": "PUB_0002",
+      "predicate": "crm:P14i_performed",
+      "year": 2019,
       "description": null,
       "_sheet_name": "Relaciones_Grafo_LOD"
     },
@@ -6441,6 +6956,357 @@
       "predicate_label": "Ocurrió en",
       "description": "Congress/Media hosted at organization",
       "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01134",
+      "source": "PER_0001",
+      "target": "PUB_0001",
+      "predicate": "crm:P108_has_produced",
+      "predicate_label": "Produjo/Publicó",
+      "description": "Publication: Monvoisin en América: Identidades, atribuciones y mercado del arte",
+      "_sheet_name": "Publicaciones"
+    },
+    {
+      "id": "IMPL_01135",
+      "source": "PER_0001",
+      "target": "PUB_0002",
+      "predicate": "crm:P108_has_produced",
+      "predicate_label": "Produjo/Publicó",
+      "description": "Publication: Catastro y visualidad de afromestizos en Chile. Colección del Museo Nacional de Bellas Artes",
+      "_sheet_name": "Publicaciones"
+    },
+    {
+      "id": "IMPL_01136",
+      "source": "PER_0001",
+      "target": "PUB_0003",
+      "predicate": "crm:P108_has_produced",
+      "predicate_label": "Produjo/Publicó",
+      "description": "Publication: Rodrigo Rojas De Negri. Un exilio sin retorno",
+      "_sheet_name": "Publicaciones"
+    },
+    {
+      "id": "IMPL_01137",
+      "source": "PER_0001",
+      "target": "PUB_0004",
+      "predicate": "crm:P108_has_produced",
+      "predicate_label": "Produjo/Publicó",
+      "description": "Publication: Adquisiciones en contexto: La Sociedad Nacional de Bellas Artes 1918-1950",
+      "_sheet_name": "Publicaciones"
+    },
+    {
+      "id": "IMPL_01138",
+      "source": "PER_0001",
+      "target": "PUB_0005",
+      "predicate": "crm:P108_has_produced",
+      "predicate_label": "Produjo/Publicó",
+      "description": "Publication: El canon revisitado. Una mirada al arte europeo desde América Latina",
+      "_sheet_name": "Publicaciones"
+    },
+    {
+      "id": "IMPL_01139",
+      "source": "PER_0001",
+      "target": "PUB_0006",
+      "predicate": "crm:P108_has_produced",
+      "predicate_label": "Produjo/Publicó",
+      "description": "Publication: La segunda naturaleza. Colección CCU",
+      "_sheet_name": "Publicaciones"
+    },
+    {
+      "id": "IMPL_01140",
+      "source": "PER_0001",
+      "target": "PUB_0007",
+      "predicate": "crm:P108_has_produced",
+      "predicate_label": "Produjo/Publicó",
+      "description": "Publication: Matriz imaginada. Notas sobre archivo, arte e historia. En Salón de Estudiantes 2013",
+      "_sheet_name": "Publicaciones"
+    },
+    {
+      "id": "IMPL_01141",
+      "source": "PER_0001",
+      "target": "PUB_0008",
+      "predicate": "crm:P108_has_produced",
+      "predicate_label": "Produjo/Publicó",
+      "description": "Publication: Dos modelos de representación: el afromestizo en pinturas de batalla en Chile a mediados del siglo XIX",
+      "_sheet_name": "Publicaciones"
+    },
+    {
+      "id": "IMPL_01142",
+      "source": "PER_0001",
+      "target": "PUB_0009",
+      "predicate": "crm:P108_has_produced",
+      "predicate_label": "Produjo/Publicó",
+      "description": "Publication: El Salón de Santiago de 1885. Notas sobre la constitución de un \"arte nacional\"",
+      "_sheet_name": "Publicaciones"
+    },
+    {
+      "id": "IMPL_01143",
+      "source": "PER_0001",
+      "target": "PUB_0010",
+      "predicate": "crm:P108_has_produced",
+      "predicate_label": "Produjo/Publicó",
+      "description": "Publication: Introducción. En Monvoisin en América: Identidades, atribuciones y mercado del arte",
+      "_sheet_name": "Publicaciones"
+    },
+    {
+      "id": "IMPL_01144",
+      "source": "PER_0001",
+      "target": "PUB_0011",
+      "predicate": "crm:P108_has_produced",
+      "predicate_label": "Produjo/Publicó",
+      "description": "Publication: Autenticidad, mercado y comercialización de obras de arte en el siglo XIX en el \"contexto Monvoisin\"",
+      "_sheet_name": "Publicaciones"
+    },
+    {
+      "id": "IMPL_01145",
+      "source": "PER_0001",
+      "target": "PUB_0012",
+      "predicate": "crm:P108_has_produced",
+      "predicate_label": "Produjo/Publicó",
+      "description": "Publication: Coleccionismo en Chile durante la segunda mitad del siglo XIX: historia y reconstrucción de la colección de Marcos Segundo Maturana (1830–1892)",
+      "_sheet_name": "Publicaciones"
+    },
+    {
+      "id": "IMPL_01146",
+      "source": "PER_0001",
+      "target": "PUB_0013",
+      "predicate": "crm:P108_has_produced",
+      "predicate_label": "Produjo/Publicó",
+      "description": "Publication: Incertidumbres en visualidades de indígenas y negros en Chile, siglo XIX",
+      "_sheet_name": "Publicaciones"
+    },
+    {
+      "id": "IMPL_01147",
+      "source": "PER_0001",
+      "target": "PUB_0014",
+      "predicate": "crm:P108_has_produced",
+      "predicate_label": "Produjo/Publicó",
+      "description": "Publication: Notas sobre el catastro y documentación de la obra de Raymond Quinsac Monvoisin en América...",
+      "_sheet_name": "Publicaciones"
+    },
+    {
+      "id": "IMPL_01148",
+      "source": "PER_0001",
+      "target": "PUB_0015",
+      "predicate": "crm:P108_has_produced",
+      "predicate_label": "Produjo/Publicó",
+      "description": "Publication: Género y discipulaje. Los casos de Clara Filleul y Procesa Sarmiento en el “Taller Monvoisin”",
+      "_sheet_name": "Publicaciones"
+    },
+    {
+      "id": "IMPL_01149",
+      "source": "PER_0001",
+      "target": "PUB_0016",
+      "predicate": "crm:P108_has_produced",
+      "predicate_label": "Produjo/Publicó",
+      "description": "Publication: Trazar límites, deslindar fronteras. El caso de la pintura El Fuerte Bulnes (1848) de Alessandro Ciccarelli",
+      "_sheet_name": "Publicaciones"
+    },
+    {
+      "id": "IMPL_01150",
+      "source": "PER_0001",
+      "target": "PUB_0017",
+      "predicate": "crm:P108_has_produced",
+      "predicate_label": "Produjo/Publicó",
+      "description": "Publication: S/T Revista de fotografía contemporánea (Varios números)",
+      "_sheet_name": "Publicaciones"
+    },
+    {
+      "id": "IMPL_01151",
+      "source": "PER_0001",
+      "target": "PUB_0018",
+      "predicate": "crm:P108_has_produced",
+      "predicate_label": "Produjo/Publicó",
+      "description": "Publication: La negra",
+      "_sheet_name": "Publicaciones"
+    },
+    {
+      "id": "IMPL_01152",
+      "source": "PER_0001",
+      "target": "PRJ_0001",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Realizó/Lidera",
+      "description": "Project: Arquitectura Art Déco en Santiago centro (Folio 826072)",
+      "_sheet_name": "Proyectos_y_Fondos"
+    },
+    {
+      "id": "IMPL_01153",
+      "source": "PER_0001",
+      "target": "PRJ_0002",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Realizó/Lidera",
+      "description": "Project: De mármoles y bronces entre el Mediterráneo y los Andes (FONDECYT 1241154)",
+      "_sheet_name": "Proyectos_y_Fondos"
+    },
+    {
+      "id": "IMPL_01154",
+      "source": "PER_0001",
+      "target": "PRJ_0003",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Realizó/Lidera",
+      "description": "Project: Premio Iberoamericano: Acciones y exhibiciones para descolonizar las narrativas",
+      "_sheet_name": "Proyectos_y_Fondos"
+    },
+    {
+      "id": "IMPL_01155",
+      "source": "PER_0001",
+      "target": "PRJ_0004",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Realizó/Lidera",
+      "description": "Project: Comercio de arte en Chile 1811-1920 (FONDECYT 1230245)",
+      "_sheet_name": "Proyectos_y_Fondos"
+    },
+    {
+      "id": "IMPL_01156",
+      "source": "PER_0001",
+      "target": "PRJ_0005",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Realizó/Lidera",
+      "description": "Project: Coleccionismo en Chile durante la segunda mitad del siglo XIX: Marcos Segundo Maturana",
+      "_sheet_name": "Proyectos_y_Fondos"
+    },
+    {
+      "id": "IMPL_01157",
+      "source": "PER_0001",
+      "target": "PRJ_0006",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Realizó/Lidera",
+      "description": "Project: Ausencias y omisiones femeninas: Clara Filleul y Procesa Sarmiento en el taller Monvoisin",
+      "_sheet_name": "Proyectos_y_Fondos"
+    },
+    {
+      "id": "IMPL_01158",
+      "source": "PER_0001",
+      "target": "PRJ_0007",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Realizó/Lidera",
+      "description": "Project: Cultures of reading and global intellectual communities in Latin American periodicals",
+      "_sheet_name": "Proyectos_y_Fondos"
+    },
+    {
+      "id": "IMPL_01159",
+      "source": "PER_0001",
+      "target": "PRJ_0008",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Realizó/Lidera",
+      "description": "Project: Monvoisin en América (Nodo Central Chile)",
+      "_sheet_name": "Proyectos_y_Fondos"
+    },
+    {
+      "id": "IMPL_01160",
+      "source": "PER_0001",
+      "target": "PRJ_0008_N01",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Realizó/Lidera",
+      "description": "Project: Monvoisin en América (Nodo Argentina - San Juan)",
+      "_sheet_name": "Proyectos_y_Fondos"
+    },
+    {
+      "id": "IMPL_01161",
+      "source": "PER_0001",
+      "target": "PRJ_0008_N02",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Realizó/Lidera",
+      "description": "Project: Monvoisin en América (Nodo Argentina - Buenos Aires)",
+      "_sheet_name": "Proyectos_y_Fondos"
+    },
+    {
+      "id": "IMPL_01162",
+      "source": "PER_0001",
+      "target": "PRJ_0008_N03",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Realizó/Lidera",
+      "description": "Project: Monvoisin en América (Nodo Perú)",
+      "_sheet_name": "Proyectos_y_Fondos"
+    },
+    {
+      "id": "IMPL_01163",
+      "source": "PER_0001",
+      "target": "PRJ_0008_N04",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Realizó/Lidera",
+      "description": "Project: Monvoisin en América (Nodo Brasil)",
+      "_sheet_name": "Proyectos_y_Fondos"
+    },
+    {
+      "id": "IMPL_01164",
+      "source": "PER_0001",
+      "target": "PRJ_0009",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Realizó/Lidera",
+      "description": "Project: Creación Archivo Fotográfico Rodrigo Rojas De Negri (FONDART Folio 84311)",
+      "_sheet_name": "Proyectos_y_Fondos"
+    },
+    {
+      "id": "IMPL_01165",
+      "source": "PER_0001",
+      "target": "PRJ_0010",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Realizó/Lidera",
+      "description": "Project: Salón de Estudiantes 2013 Desde el resto; (FVL-2011)",
+      "_sheet_name": "Proyectos_y_Fondos"
+    },
+    {
+      "id": "IMPL_01166",
+      "source": "PER_0001",
+      "target": "PRJ_0011",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Realizó/Lidera",
+      "description": "Project: Beca General MEC (Máster Universitario en Humanidades Digitales)",
+      "_sheet_name": "Proyectos_y_Fondos"
+    },
+    {
+      "id": "IMPL_01167",
+      "source": "PER_0001",
+      "target": "PRJ_0012",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Realizó/Lidera",
+      "description": "Project: Programa de educación Salón de Estudiantes 2013 (FDI-MINEDUC)",
+      "_sheet_name": "Proyectos_y_Fondos"
+    },
+    {
+      "id": "IMPL_01168",
+      "source": "PER_0001",
+      "target": "PRJ_0013",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Realizó/Lidera",
+      "description": "Project: Beca de Formación de Profesionales Iberoamericanos en el Sector Cultural",
+      "_sheet_name": "Proyectos_y_Fondos"
+    },
+    {
+      "id": "IMPL_01169",
+      "source": "PER_0001",
+      "target": "PRJ_0014",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Realizó/Lidera",
+      "description": "Project: Beca de Inglés CORFO para Profesionales",
+      "_sheet_name": "Proyectos_y_Fondos"
+    },
+    {
+      "id": "IMPL_01170",
+      "source": "PER_0001",
+      "target": "PRJ_0015",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Realizó/Lidera",
+      "description": "Project: Becas de Excelencia Académica (Beca Bicentenario | Equidad | PAE)",
+      "_sheet_name": "Proyectos_y_Fondos"
+    },
+    {
+      "id": "IMPL_01171",
+      "source": "PER_0001",
+      "target": "PRJ_0016",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Realizó/Lidera",
+      "description": "Project: S/T Revista de Fotografía Contemporánea (FONDART Nacional Folio 89451)",
+      "_sheet_name": "Proyectos_y_Fondos"
+    },
+    {
+      "id": "IMPL_01172",
+      "source": "PER_0009",
+      "target": "PRJ_0017",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Realizó/Lidera",
+      "description": "Project: Callejera Madrid: Desarrollo digital y curación web",
+      "_sheet_name": "Proyectos_y_Fondos"
     }
   ]
 }

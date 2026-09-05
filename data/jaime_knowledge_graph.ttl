@@ -915,6 +915,78 @@ jc:CAR_0010 a crm:E7_Activity ;
 jc:CAR_0011 a crm:E7_Activity ;
     rdfs:label "Ayudante de Cátedra de Pregrado" .
 
+jc:PUB_0001 a crm:E31_Document ;
+    rdfs:label "Monvoisin en América: Identidades, atribuciones y mercado del arte" ;
+    dc:issued "2023"^^xsd:gYear .
+
+jc:PUB_0002 a crm:E31_Document ;
+    rdfs:label "Catastro y visualidad de afromestizos en Chile. Colección del Museo Nacional de Bellas Artes" ;
+    dc:issued "2019"^^xsd:gYear .
+
+jc:PUB_0003 a crm:E31_Document ;
+    rdfs:label "Rodrigo Rojas De Negri. Un exilio sin retorno" ;
+    dc:issued "2014"^^xsd:gYear .
+
+jc:PUB_0004 a crm:E31_Document ;
+    rdfs:label "Adquisiciones en contexto: La Sociedad Nacional de Bellas Artes 1918-1950" ;
+    dc:issued "2023"^^xsd:gYear .
+
+jc:PUB_0005 a crm:E31_Document ;
+    rdfs:label "El canon revisitado. Una mirada al arte europeo desde América Latina" ;
+    dc:issued "2022"^^xsd:gYear .
+
+jc:PUB_0006 a crm:E31_Document ;
+    rdfs:label "La segunda naturaleza. Colección CCU" ;
+    dc:issued "2017"^^xsd:gYear .
+
+jc:PUB_0007 a crm:E31_Document ;
+    rdfs:label "Matriz imaginada. Notas sobre archivo, arte e historia. En Salón de Estudiantes 2013" ;
+    dc:issued "2013"^^xsd:gYear .
+
+jc:PUB_0008 a crm:E31_Document ;
+    rdfs:label "Dos modelos de representación: el afromestizo en pinturas de batalla en Chile a mediados del siglo XIX" ;
+    dc:issued "2023"^^xsd:gYear .
+
+jc:PUB_0009 a crm:E31_Document ;
+    rdfs:label "El Salón de Santiago de 1885. Notas sobre la constitución de un \"arte nacional\"" ;
+    dc:issued "2013"^^xsd:gYear .
+
+jc:PUB_0010 a crm:E31_Document ;
+    rdfs:label "Introducción. En Monvoisin en América: Identidades, atribuciones y mercado del arte" ;
+    dc:issued "2023"^^xsd:gYear .
+
+jc:PUB_0011 a crm:E31_Document ;
+    rdfs:label "Autenticidad, mercado y comercialización de obras de arte en el siglo XIX en el \"contexto Monvoisin\"" ;
+    dc:issued "2023"^^xsd:gYear .
+
+jc:PUB_0012 a crm:E31_Document ;
+    rdfs:label "Coleccionismo en Chile durante la segunda mitad del siglo XIX: historia y reconstrucción de la colección de Marcos Segundo Maturana (1830–1892)" ;
+    dc:issued "2021"^^xsd:gYear .
+
+jc:PUB_0013 a crm:E31_Document ;
+    rdfs:label "Incertidumbres en visualidades de indígenas y negros en Chile, siglo XIX" ;
+    dc:issued "2019"^^xsd:gYear .
+
+jc:PUB_0014 a crm:E31_Document ;
+    rdfs:label "Notas sobre el catastro y documentación de la obra de Raymond Quinsac Monvoisin en América..." ;
+    dc:issued "2019"^^xsd:gYear .
+
+jc:PUB_0015 a crm:E31_Document ;
+    rdfs:label "Género y discipulaje. Los casos de Clara Filleul y Procesa Sarmiento en el “Taller Monvoisin”" ;
+    dc:issued "2018"^^xsd:gYear .
+
+jc:PUB_0016 a crm:E31_Document ;
+    rdfs:label "Trazar límites, deslindar fronteras. El caso de la pintura El Fuerte Bulnes (1848) de Alessandro Ciccarelli" ;
+    dc:issued "2017"^^xsd:gYear .
+
+jc:PUB_0017 a crm:E31_Document ;
+    rdfs:label "S/T Revista de fotografía contemporánea (Varios números)" ;
+    dc:issued "2014"^^xsd:gYear .
+
+jc:PUB_0018 a crm:E31_Document ;
+    rdfs:label "La negra" ;
+    dc:issued "2017"^^xsd:gYear .
+
 jc:EXP_0001 a crm:E7_Activity ;
     rdfs:label "Episodio Monvoisin. Un pintor francés en el Chile del siglo XIX" .
 
@@ -1972,3 +2044,81 @@ jc:COM_0026 crm:P61_occurred_at jc:ORG_0006 .
 jc:PER_0001 crm:P14i_performed jc:COM_0027 .
 
 jc:COM_0027 crm:P61_occurred_at jc:ORG_0002 .
+
+jc:PER_0001 crm:P108_has_produced jc:PUB_0001 .
+
+jc:PER_0001 crm:P108_has_produced jc:PUB_0002 .
+
+jc:PER_0001 crm:P108_has_produced jc:PUB_0003 .
+
+jc:PER_0001 crm:P108_has_produced jc:PUB_0004 .
+
+jc:PER_0001 crm:P108_has_produced jc:PUB_0005 .
+
+jc:PER_0001 crm:P108_has_produced jc:PUB_0006 .
+
+jc:PER_0001 crm:P108_has_produced jc:PUB_0007 .
+
+jc:PER_0001 crm:P108_has_produced jc:PUB_0008 .
+
+jc:PER_0001 crm:P108_has_produced jc:PUB_0009 .
+
+jc:PER_0001 crm:P108_has_produced jc:PUB_0010 .
+
+jc:PER_0001 crm:P108_has_produced jc:PUB_0011 .
+
+jc:PER_0001 crm:P108_has_produced jc:PUB_0012 .
+
+jc:PER_0001 crm:P108_has_produced jc:PUB_0013 .
+
+jc:PER_0001 crm:P108_has_produced jc:PUB_0014 .
+
+jc:PER_0001 crm:P108_has_produced jc:PUB_0015 .
+
+jc:PER_0001 crm:P108_has_produced jc:PUB_0016 .
+
+jc:PER_0001 crm:P108_has_produced jc:PUB_0017 .
+
+jc:PER_0001 crm:P108_has_produced jc:PUB_0018 .
+
+jc:PER_0001 crm:P14i_performed jc:PRJ_0001 .
+
+jc:PER_0001 crm:P14i_performed jc:PRJ_0002 .
+
+jc:PER_0001 crm:P14i_performed jc:PRJ_0003 .
+
+jc:PER_0001 crm:P14i_performed jc:PRJ_0004 .
+
+jc:PER_0001 crm:P14i_performed jc:PRJ_0005 .
+
+jc:PER_0001 crm:P14i_performed jc:PRJ_0006 .
+
+jc:PER_0001 crm:P14i_performed jc:PRJ_0007 .
+
+jc:PER_0001 crm:P14i_performed jc:PRJ_0008 .
+
+jc:PER_0001 crm:P14i_performed jc:PRJ_0008_N01 .
+
+jc:PER_0001 crm:P14i_performed jc:PRJ_0008_N02 .
+
+jc:PER_0001 crm:P14i_performed jc:PRJ_0008_N03 .
+
+jc:PER_0001 crm:P14i_performed jc:PRJ_0008_N04 .
+
+jc:PER_0001 crm:P14i_performed jc:PRJ_0009 .
+
+jc:PER_0001 crm:P14i_performed jc:PRJ_0010 .
+
+jc:PER_0001 crm:P14i_performed jc:PRJ_0011 .
+
+jc:PER_0001 crm:P14i_performed jc:PRJ_0012 .
+
+jc:PER_0001 crm:P14i_performed jc:PRJ_0013 .
+
+jc:PER_0001 crm:P14i_performed jc:PRJ_0014 .
+
+jc:PER_0001 crm:P14i_performed jc:PRJ_0015 .
+
+jc:PER_0001 crm:P14i_performed jc:PRJ_0016 .
+
+jc:PER_0009 crm:P14i_performed jc:PRJ_0017 .

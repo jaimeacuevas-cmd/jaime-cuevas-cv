@@ -252,11 +252,23 @@ class DataTransformer:
         for idx, row in enumerate(rows):
             node = self._create_base_node('Publication', row, idx)
 
+            # Handle year range (e.g., "2014-2017") by taking start year
+            ano_str = str(row.get('ano', '')).strip() if row.get('ano') else ''
+            try:
+                if '-' in ano_str:
+                    # Range format: take first year
+                    year_val = int(ano_str.split('-')[0])
+                else:
+                    year_val = int(ano_str) if ano_str else None
+            except (ValueError, IndexError):
+                logger.warning(f"Invalid year format in Publication {row.get('id_publicacion', 'UNKNOWN')}: '{ano_str}'")
+                year_val = None
+
             node.update({
                 'label': row.get('titulo_publicacion', '').strip(),
                 'category': row.get('tipo_publicacion', '').strip() or None,
                 'authors': row.get('coautores_editores', '').strip() or None,
-                'year': int(row.get('ano', 0)) if row.get('ano') else None,
+                'year': year_val,
                 'url': normalize_url(row.get('doi_o_url')),
                 'description': row.get('resumen', '').strip() or None,
                 '_sheet_name': 'Publicaciones',
@@ -482,6 +494,44 @@ class DataTransformer:
                     'predicate_label': 'Ocurrió en',
                     'description': f"Congress/Media hosted at organization",
                     '_sheet_name': 'Medios_y_Congresos',
+                }
+                links.append(link)
+                link_counter += 1
+
+        # Generate links from Publicaciones (Agent → Publication)
+        publications = raw_entities.get('Publication', [])
+        for pub_row in publications:
+            agent_id = pub_row.get('id_agente', '').strip()
+            pub_id = pub_row.get('id_publicacion', '').strip()
+
+            if agent_id and pub_id:
+                link = {
+                    'id': f"IMPL_{link_counter:05d}",
+                    'source': agent_id,
+                    'target': pub_id,
+                    'predicate': 'crm:P108_has_produced',
+                    'predicate_label': 'Produjo/Publicó',
+                    'description': f"Publication: {pub_row.get('titulo_publicacion', '')}",
+                    '_sheet_name': 'Publicaciones',
+                }
+                links.append(link)
+                link_counter += 1
+
+        # Generate links from Proyectos_y_Fondos (Agent → Project)
+        projects = raw_entities.get('Project', [])
+        for prj_row in projects:
+            agent_id = prj_row.get('id_agente', '').strip()
+            prj_id = prj_row.get('id_proyecto', '').strip()
+
+            if agent_id and prj_id:
+                link = {
+                    'id': f"IMPL_{link_counter:05d}",
+                    'source': agent_id,
+                    'target': prj_id,
+                    'predicate': 'crm:P14i_performed',
+                    'predicate_label': 'Realizó/Lidera',
+                    'description': f"Project: {prj_row.get('nombre_proyecto_o_premio', '')}",
+                    '_sheet_name': 'Proyectos_y_Fondos',
                 }
                 links.append(link)
                 link_counter += 1

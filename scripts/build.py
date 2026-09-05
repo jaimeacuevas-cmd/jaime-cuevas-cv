@@ -31,6 +31,7 @@ from etl.ingestion import ExcelReader
 from etl.transformation import DataTransformer
 from etl.validation import DataValidator
 from etl.output_generator import OutputGenerator
+from etl.audit_checklist import AuditChecklist
 
 # Setup logging
 logging.basicConfig(
@@ -81,6 +82,10 @@ class ETLPipeline:
             if not nodes:
                 logger.error("Transformation produced no nodes!")
                 return False
+
+            # Save full graph for audit
+            nodes_full = list(nodes)
+            links_full = list(links)
 
             logger.info(f"✓ Transformation complete: {len(nodes)} nodes, {len(links)} links")
 
@@ -147,13 +152,33 @@ class ETLPipeline:
             self._inject_data_into_html(graph_data, geo_data, turtle_data)
             logger.info(f"  ✓ Injected data into dist/index.html")
 
+            # Stage 9: Audit Checklist
+            logger.info("\n[STAGE 9] AUDIT - Validating data integrity...")
+            nodes_filtered = graph_data.get('nodes', [])
+            links_filtered = graph_data.get('links', [])
+
+            audit = AuditChecklist(nodes_full, links_full, nodes_filtered, links_filtered)
+            audit_passed, issues, warnings = audit.run_all_checks()
+
+            if not audit_passed:
+                logger.error(f"\n✗ AUDIT FAILED with {len(issues)} critical issues:")
+                for issue in issues:
+                    logger.error(f"  ✗ {issue}")
+                return False
+
+            if warnings:
+                logger.warning(f"\n⚠  AUDIT WARNINGS ({len(warnings)}):")
+                for warning in warnings[:5]:
+                    logger.warning(f"  - {warning}")
+
             # Final summary
             logger.info("\n" + "=" * 70)
             logger.info("✓ ETL PIPELINE COMPLETED SUCCESSFULLY")
             logger.info("=" * 70)
-            logger.info(f"Nodes: {len(nodes)}")
-            logger.info(f"Links: {len(links)}")
-            logger.info(f"Warnings: {validation_report['warning_count']}")
+            logger.info(f"Full Graph: {len(nodes_full)} nodes, {len(links_full)} links")
+            logger.info(f"Filtered Graph: {len(nodes_filtered)} nodes, {len(links_filtered)} links")
+            logger.info(f"Validation Warnings: {validation_report['warning_count']}")
+            logger.info(f"Audit Issues: {len(issues)}, Warnings: {len(warnings)}")
             logger.info(f"Output: {self.dist_dir}/")
             logger.info("=" * 70)
 
