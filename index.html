@@ -734,6 +734,14 @@
 
   <!-- SCRIPT DE INTERACTIVIDAD -->
   <script>
+    // VARIABLE DECLARATIONS (must be before functions)
+    let fullGraphData = null;
+    let geoData = null;
+    let currentMode = 'interactive';
+    let expandedNodeIds = new Set();
+    let activeNodes = [];
+    let activeLinks = [];
+
     // DATA INJECTION
     // Runtime data loading (hybrid: fetch + bundled fallback)
     async function initializeApplicationData() {
@@ -777,8 +785,6 @@
     } else {
       initializeApplicationData();
     }
-
-    let fullGraphData = null;
 
     const categoryGlyphs = {
       'Agent': '⊙',
