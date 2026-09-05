@@ -113,6 +113,7 @@ class DataTransformer:
                 'category': row.get('tipo_agente', '').strip() or None,
                 'nationality': normalize_na_values(row.get('nacionalidad')),
                 'role': row.get('rol_principal', '').strip() or None,
+                'profile': row.get('perfil_profesional', '').strip() or None,
                 'period': normalize_period(row.get('periodo_actividad')),
                 'orcid': validate_orcid(row.get('orcid')),
                 'wikidata': None,  # Persons never have Wikidata QID

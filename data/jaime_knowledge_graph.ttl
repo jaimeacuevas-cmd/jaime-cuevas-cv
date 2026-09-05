@@ -334,7 +334,7 @@ jc:ORG_0037 a crm:E74_Group ;
     rdfs:label "Instituto de Estudios Secundarios, Facultad de Artes UCH" .
 
 jc:ORG_0038 a crm:E74_Group ;
-    rdfs:label "Instituto de Seguridad Laboral" ;
+    rdfs:label "PUDU. Cultural Data Lab" ;
     skos:exactMatch <https://www.wikidata.org/wiki/Q5918342> .
 
 jc:ORG_0039 a crm:E74_Group ;
@@ -351,6 +351,8 @@ jc:ORG_0041 a crm:E74_Group ;
 jc:ORG_0042 a crm:E74_Group ;
     rdfs:label "MUSAC - Museo de Arte Contemporáneo de Castilla y León" ;
     skos:exactMatch <https://www.wikidata.org/wiki/Q1398246> .
+
+jc:ORG_0038 a crm:E74_Group .
 
 jc:LOC_0001 a crm:E53_Place ;
     rdfs:label "Museo Nacional de Bellas Artes (MNBA)" ;
@@ -915,6 +917,9 @@ jc:CAR_0010 a crm:E7_Activity ;
 jc:CAR_0011 a crm:E7_Activity ;
     rdfs:label "Ayudante de Cátedra de Pregrado" .
 
+jc:CAR_0012 a crm:E7_Activity ;
+    rdfs:label "Director de Infraestructuras Culturales | Arquitecto de Datos & Curador de Colecciones" .
+
 jc:PUB_0001 a crm:E31_Document ;
     rdfs:label "Monvoisin en América: Identidades, atribuciones y mercado del arte" ;
     dc:issued "2023"^^xsd:gYear .
@@ -1238,6 +1243,18 @@ jc:DIG_0010 a crm:E73_Information_Object ;
 
 jc:DIG_0011 a crm:E73_Information_Object ;
     rdfs:label "Mármoles y Bronces entre el Mediterráneo y los Andes" .
+
+jc:DIG_0012 a crm:E73_Information_Object ;
+    rdfs:label "Archivo de Podcast: Humanidades Digitales & Patrimonio" .
+
+jc:DIG_0013 a crm:E73_Information_Object ;
+    rdfs:label "Participaciones en Programas de Radio" .
+
+jc:DIG_0014 a crm:E73_Information_Object ;
+    rdfs:label "Transmisiones en Vivo: Conversaciones sobre Curaduría Digital" .
+
+jc:DIG_0015 a crm:E73_Information_Object ;
+    rdfs:label "Archivo de Conferencias y Webinars" .
 
 jc:ORG_0002 crm:P87_is_identified_by jc:LOC_0001 .
 
@@ -2014,6 +2031,10 @@ jc:CAR_0010 crm:P14_carried_out_by jc:ORG_0006 .
 jc:PER_0001 crm:P14i_performed jc:CAR_0011 .
 
 jc:CAR_0011 crm:P14_carried_out_by jc:ORG_0004 .
+
+jc:PER_0001 crm:P14i_performed jc:CAR_0012 .
+
+jc:CAR_0012 crm:P14_carried_out_by jc:ORG_0038 .
 
 jc:PER_0015 crm:P14i_performed jc:EXP_0001 .
 

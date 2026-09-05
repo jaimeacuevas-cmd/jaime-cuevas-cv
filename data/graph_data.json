@@ -2,12 +2,12 @@
   "metadata": {
     "version": "2.0",
     "source": "CV_Dataset_Maestro_Jaime_Cuevas.xlsx",
-    "node_count": 219,
-    "link_count": 512,
+    "node_count": 221,
+    "link_count": 514,
     "sheet_count": 12,
     "validation_status": "PASS",
-    "validation_warnings": 117,
-    "filtered_nodes": 74
+    "validation_warnings": 119,
+    "filtered_nodes": 78
   },
   "nodes": [
     {
@@ -22,7 +22,8 @@
       "source_sheet": "",
       "row_number": 1,
       "nationality": "Española | Chilena",
-      "role": "Investigador Principal | Historiador del Arte | Arquitecto de Datos",
+      "role": "INNOVACIÓN PATRIMONIAL & ARQUITECTURA DE DATOS | Historiador del Arte | Curador de Colecciones",
+      "profile": "Especialista en catalogación científica, conservación preventiva y diseño de guiones curatoriales con más de una década de trayectoria en museos nacionales de Chile. En Humanidades Digitales, se especializa en el modelado de datos bajo CIDOC-CRM (ISO 21127) y esquemas LOD para auditar sesgos coloniales y de género en el patrimonio.",
       "period": {
         "start": 1989,
         "end": null,
@@ -51,6 +52,7 @@
       "row_number": 2,
       "nationality": "Chilena",
       "role": "Investigadora | Editora",
+      "profile": null,
       "period": {
         "start": 2010,
         "end": null,
@@ -79,6 +81,7 @@
       "row_number": 3,
       "nationality": "Chilena",
       "role": "Doctora en Historia del Arte | Directora Núcleo Historia del Arte UAI",
+      "profile": null,
       "period": null,
       "orcid": "0000-0001-9386-7022",
       "wikidata": null,
@@ -103,6 +106,7 @@
       "row_number": 4,
       "nationality": "Chilena",
       "role": "Historiador del Arte | Co-curador | Co-editor",
+      "profile": null,
       "period": null,
       "orcid": null,
       "wikidata": null,
@@ -127,6 +131,7 @@
       "row_number": 5,
       "nationality": "Chilena",
       "role": "Historiadora del Arte | Co-autora Libro Catastro Afromestizos",
+      "profile": null,
       "period": null,
       "orcid": null,
       "wikidata": null,
@@ -151,6 +156,7 @@
       "row_number": 6,
       "nationality": "Chilena",
       "role": "Doctora en Literatura | Investigadora Responsable Proyecto Harvard-UAI",
+      "profile": null,
       "period": null,
       "orcid": "0000-0003-0378-6101",
       "wikidata": null,
@@ -175,6 +181,7 @@
       "row_number": 8,
       "nationality": "Chilena",
       "role": "Curadora | Fundadora Museo del Mundo | Co-curadora Prácticas de Reiteración",
+      "profile": null,
       "period": null,
       "orcid": null,
       "wikidata": null,
@@ -199,6 +206,7 @@
       "row_number": 9,
       "nationality": "Ecuatoriana | Española",
       "role": "Investigadora | Co-autora Proyecto Callejera Madrid",
+      "profile": null,
       "period": null,
       "orcid": null,
       "wikidata": null,
@@ -223,6 +231,7 @@
       "row_number": 10,
       "nationality": "Chilena",
       "role": "Co-autora Catálogo Salón de Estudiantes 2013",
+      "profile": null,
       "period": null,
       "orcid": null,
       "wikidata": null,
@@ -247,6 +256,7 @@
       "row_number": 11,
       "nationality": "Chilena",
       "role": "Curadora de Fotografía | Directora Proyecto Rodrigo Rojas De Negri | Editora Principal S/T Revista",
+      "profile": null,
       "period": null,
       "orcid": null,
       "wikidata": null,
@@ -271,6 +281,7 @@
       "row_number": 13,
       "nationality": "Chilena",
       "role": "Doctor en Historia del Arte | Académico Senior UAI",
+      "profile": null,
       "period": null,
       "orcid": null,
       "wikidata": null,
@@ -295,6 +306,7 @@
       "row_number": 14,
       "nationality": "Chilena",
       "role": "Historiadora | Docente e Investigadora UAI",
+      "profile": null,
       "period": null,
       "orcid": "0000-0002-3548-9331",
       "wikidata": null,
@@ -319,6 +331,7 @@
       "row_number": 15,
       "nationality": "Francesa",
       "role": "Pintor del Siglo XIX | Eje Central Proyecto Quinsac y Episodio Monvoisin",
+      "profile": null,
       "period": {
         "start": 1794,
         "end": 1870,
@@ -347,6 +360,7 @@
       "row_number": 16,
       "nationality": "Francesa",
       "role": "Pintora del Siglo XIX | Taller Monvoisin",
+      "profile": null,
       "period": {
         "start": 1822,
         "end": 1878,
@@ -375,6 +389,7 @@
       "row_number": 17,
       "nationality": "Argentina",
       "role": "Pintora del Siglo XIX | Discípula Monvoisin (San Juan, Argentina)",
+      "profile": null,
       "period": {
         "start": 1818,
         "end": 1899,
@@ -403,6 +418,7 @@
       "row_number": 18,
       "nationality": "Chilena",
       "role": "Pintor del Siglo XIX | Discípulo Monvoisin (Chile)",
+      "profile": null,
       "period": {
         "start": 1814,
         "end": 1879,
@@ -431,6 +447,7 @@
       "row_number": 19,
       "nationality": "Chilena",
       "role": "Pintor del Siglo XIX | Discípulo Monvoisin (Chile)",
+      "profile": null,
       "period": {
         "start": 1820,
         "end": 1900,
@@ -459,6 +476,7 @@
       "row_number": 21,
       "nationality": "Chilena",
       "role": "Artista Visual (Arpilleras/Pintura) | Folclorista",
+      "profile": null,
       "period": {
         "start": 1917,
         "end": 1967,
@@ -487,6 +505,7 @@
       "row_number": 22,
       "nationality": "Chilena",
       "role": "Fotógrafo | Sujeto de Investigación y Archivo Fotográfico",
+      "profile": null,
       "period": {
         "start": 1967,
         "end": 1986,
@@ -515,6 +534,7 @@
       "row_number": 25,
       "nationality": "Italiana | Chilena",
       "role": "Pintor | Primer Director Academia de Pintura de Chile",
+      "profile": null,
       "period": {
         "start": 1811,
         "end": 1879,
@@ -543,6 +563,7 @@
       "row_number": 26,
       "nationality": "Alemana | Chilena",
       "role": "Pintor | Adquisiciones SNBA",
+      "profile": null,
       "period": {
         "start": 1890,
         "end": 1969,
@@ -571,6 +592,7 @@
       "row_number": 27,
       "nationality": "Chilena",
       "role": "Pintor | Presidente SNBA",
+      "profile": null,
       "period": {
         "start": 1872,
         "end": 1960,
@@ -599,6 +621,7 @@
       "row_number": 28,
       "nationality": "Chilena",
       "role": "Escultor | Director Escuela de Bellas Artes",
+      "profile": null,
       "period": {
         "start": 1855,
         "end": 1941,
@@ -627,6 +650,7 @@
       "row_number": 29,
       "nationality": "Chilena",
       "role": "Pintor | Adquisiciones SNBA",
+      "profile": null,
       "period": {
         "start": 1880,
         "end": 1964,
@@ -655,6 +679,7 @@
       "row_number": 30,
       "nationality": "Italiana | Chilena",
       "role": "Pintor | Adquisiciones SNBA",
+      "profile": null,
       "period": {
         "start": 1886,
         "end": 1964,
@@ -683,6 +708,7 @@
       "row_number": 31,
       "nationality": "Chilena",
       "role": "Artista Visual Contemporáneo | Prácticas de Reiteración",
+      "profile": null,
       "period": null,
       "orcid": null,
       "wikidata": null,
@@ -707,6 +733,7 @@
       "row_number": 32,
       "nationality": "Española",
       "role": "Artista Visual | Museo del Mundo",
+      "profile": null,
       "period": null,
       "orcid": null,
       "wikidata": null,
@@ -731,6 +758,7 @@
       "row_number": 33,
       "nationality": "Chilena",
       "role": "Artista Visual Contemporáneo | Colección CCU",
+      "profile": null,
       "period": {
         "start": 1972,
         "end": null,
@@ -759,6 +787,7 @@
       "row_number": 34,
       "nationality": "Chilena",
       "role": "Artista Visual | Premio Nacional de Artes Plásticas 2013",
+      "profile": null,
       "period": {
         "start": 1956,
         "end": null,
@@ -787,6 +816,7 @@
       "row_number": 35,
       "nationality": "Chilena",
       "role": "Artista Visual Contemporánea | Pabellón Bienal de Venecia 2019",
+      "profile": null,
       "period": {
         "start": 1971,
         "end": null,
@@ -815,6 +845,7 @@
       "row_number": 36,
       "nationality": "Chilena",
       "role": "Pintora | Exposición Violeta y sus contemporáneas",
+      "profile": null,
       "period": {
         "start": 1906,
         "end": 1996,
@@ -843,6 +874,7 @@
       "row_number": 37,
       "nationality": "Chilena",
       "role": "Pintora | Exposición Violeta y sus contemporáneas",
+      "profile": null,
       "period": {
         "start": 1920,
         "end": 2022,
@@ -871,6 +903,7 @@
       "row_number": 38,
       "nationality": "Chilena",
       "role": "Escultora | Pintora | Educadora de Museos",
+      "profile": null,
       "period": {
         "start": 1901,
         "end": 1972,
@@ -899,6 +932,7 @@
       "row_number": 39,
       "nationality": "Chilena",
       "role": "Pintora | Grupo Montparnasse",
+      "profile": null,
       "period": {
         "start": 1894,
         "end": 1983,
@@ -927,6 +961,7 @@
       "row_number": 40,
       "nationality": "Chilena | Mapuche",
       "role": "Artista Visual | Sujeto de Exposición Laboratorio Arte y Crisis M100",
+      "profile": null,
       "period": {
         "start": 1991,
         "end": null,
@@ -955,6 +990,7 @@
       "row_number": 41,
       "nationality": "Chilena",
       "role": "Artista Visual | Académica UMCE | Sujeto de Exposición Laboratorio Arte y Crisis M100",
+      "profile": null,
       "period": {
         "start": 1978,
         "end": null,
@@ -983,6 +1019,7 @@
       "row_number": 42,
       "nationality": "Chilena",
       "role": "Artista Visual | Sujeto de Exposición Laboratorio Arte y Crisis M100",
+      "profile": null,
       "period": {
         "start": 1977,
         "end": null,
@@ -1011,6 +1048,7 @@
       "row_number": 43,
       "nationality": "Chilena",
       "role": "Artista Visual | Académico UCT | Sujeto de Exposición Laboratorio Arte y Crisis M100",
+      "profile": null,
       "period": null,
       "orcid": null,
       "wikidata": null,
@@ -1389,9 +1427,9 @@
     {
       "id": "ORG_0038",
       "type": "Organization",
-      "label": "Instituto de Seguridad Laboral",
+      "label": "PUDU. Cultural Data Lab",
       "short_name": "ISL",
-      "category": "Organismo Público Laboral",
+      "category": "Centro de Investigación | Laboratorio",
       "description": null,
       "url": null,
       "is_core": false,
@@ -1427,6 +1465,20 @@
       "row_number": 42,
       "city": "León",
       "wikidata": "Q1398246"
+    },
+    {
+      "id": "ORG_0038",
+      "type": "Organization",
+      "label": "",
+      "short_name": null,
+      "category": null,
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 43,
+      "city": "Santiago",
+      "wikidata": null
     },
     {
       "id": "LOC_0001",
@@ -2510,6 +2562,24 @@
       "end_year": 2018,
       "skills": "Apoyo Docente | Corrección de Evaluaciones | Preparación Bibliográfica",
       "achievements": "Ayudantías en Historia de Chile (s. XIX) | Historia Universal (1815-1940) | Arte Occidental"
+    },
+    {
+      "id": "CAR_0012",
+      "type": "Position",
+      "label": "Director de Infraestructuras Culturales | Arquitecto de Datos & Curador de Colecciones",
+      "short_name": null,
+      "category": null,
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 12,
+      "organization": "PUDU. Cultural Data Lab",
+      "period": null,
+      "start_year": 2026,
+      "end_year": null,
+      "skills": "Humanidades Digitales | Infraestructura Patrimonial | Gobernanza de Datos Culturales | Curaduría Algorítmica | CIDOC-CRM | LOD | Descolonización Digital",
+      "achievements": "Dirección de laboratorio de investigación en datos culturales | Arquitectura de sistemas de información patrimonial | Innovación en metodologías de catalogación digital"
     },
     {
       "id": "PUB_0001",
@@ -7199,25 +7269,25 @@
     },
     {
       "id": "IMPL_01054",
-      "source": "PER_0015",
-      "target": "EXP_0001",
+      "source": "PER_0001",
+      "target": "CAR_0012",
       "predicate": "crm:P14i_performed",
-      "predicate_label": "Participó en",
-      "description": "Exhibition: Episodio Monvoisin. Un pintor francés en el Chile del siglo XIX",
-      "_sheet_name": "Exposiciones_Curadurias"
+      "predicate_label": "Desempeñó",
+      "description": "Position: Director de Infraestructuras Culturales | Arquitecto de Datos & Curador de Colecciones",
+      "_sheet_name": "Trayectoria_Laboral"
     },
     {
       "id": "IMPL_01055",
-      "source": "PER_0016",
-      "target": "EXP_0001",
-      "predicate": "crm:P14i_performed",
-      "predicate_label": "Participó en",
-      "description": "Exhibition: Episodio Monvoisin. Un pintor francés en el Chile del siglo XIX",
-      "_sheet_name": "Exposiciones_Curadurias"
+      "source": "CAR_0012",
+      "target": "ORG_0038",
+      "predicate": "crm:P14_carried_out_by",
+      "predicate_label": "En organización",
+      "description": "Position at: PUDU. Cultural Data Lab",
+      "_sheet_name": "Trayectoria_Laboral"
     },
     {
       "id": "IMPL_01056",
-      "source": "PER_0017",
+      "source": "PER_0015",
       "target": "EXP_0001",
       "predicate": "crm:P14i_performed",
       "predicate_label": "Participó en",
@@ -7226,7 +7296,7 @@
     },
     {
       "id": "IMPL_01057",
-      "source": "PER_0018",
+      "source": "PER_0016",
       "target": "EXP_0001",
       "predicate": "crm:P14i_performed",
       "predicate_label": "Participó en",
@@ -7235,7 +7305,7 @@
     },
     {
       "id": "IMPL_01058",
-      "source": "PER_0019",
+      "source": "PER_0017",
       "target": "EXP_0001",
       "predicate": "crm:P14i_performed",
       "predicate_label": "Participó en",
@@ -7244,6 +7314,24 @@
     },
     {
       "id": "IMPL_01059",
+      "source": "PER_0018",
+      "target": "EXP_0001",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Episodio Monvoisin. Un pintor francés en el Chile del siglo XIX",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01060",
+      "source": "PER_0019",
+      "target": "EXP_0001",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Episodio Monvoisin. Un pintor francés en el Chile del siglo XIX",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01061",
       "source": "PER_0015",
       "target": "EXP_0001_M01",
       "predicate": "crm:P14i_performed",
@@ -7252,7 +7340,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01060",
+      "id": "IMPL_01062",
       "source": "PER_0015",
       "target": "EXP_0001_M02",
       "predicate": "crm:P14i_performed",
@@ -7261,7 +7349,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01061",
+      "id": "IMPL_01063",
       "source": "PER_0015",
       "target": "EXP_0001_M03",
       "predicate": "crm:P14i_performed",
@@ -7270,7 +7358,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01062",
+      "id": "IMPL_01064",
       "source": "PER_0015",
       "target": "EXP_0001_M04",
       "predicate": "crm:P14i_performed",
@@ -7279,7 +7367,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01063",
+      "id": "IMPL_01065",
       "source": "PER_0015",
       "target": "EXP_0001_M05",
       "predicate": "crm:P14i_performed",
@@ -7288,7 +7376,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01064",
+      "id": "IMPL_01066",
       "source": "PER_0015",
       "target": "EXP_0001_M06",
       "predicate": "crm:P14i_performed",
@@ -7297,7 +7385,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01065",
+      "id": "IMPL_01067",
       "source": "PER_0015",
       "target": "EXP_0001_M07",
       "predicate": "crm:P14i_performed",
@@ -7306,7 +7394,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01066",
+      "id": "IMPL_01068",
       "source": "PER_0015",
       "target": "EXP_0001_M08",
       "predicate": "crm:P14i_performed",
@@ -7315,7 +7403,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01067",
+      "id": "IMPL_01069",
       "source": "PER_0015",
       "target": "EXP_0001_M09",
       "predicate": "crm:P14i_performed",
@@ -7324,7 +7412,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01068",
+      "id": "IMPL_01070",
       "source": "PER_0015",
       "target": "EXP_0001_M10",
       "predicate": "crm:P14i_performed",
@@ -7333,7 +7421,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01069",
+      "id": "IMPL_01071",
       "source": "PER_0015",
       "target": "EXP_0001_M11",
       "predicate": "crm:P14i_performed",
@@ -7342,7 +7430,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01070",
+      "id": "IMPL_01072",
       "source": "PER_0018",
       "target": "EXP_0001_M12",
       "predicate": "crm:P14i_performed",
@@ -7351,7 +7439,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01071",
+      "id": "IMPL_01073",
       "source": "PER_0015",
       "target": "EXP_0001_M13",
       "predicate": "crm:P14i_performed",
@@ -7360,7 +7448,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01072",
+      "id": "IMPL_01074",
       "source": "PER_0031",
       "target": "EXP_0002",
       "predicate": "crm:P14i_performed",
@@ -7369,7 +7457,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01073",
+      "id": "IMPL_01075",
       "source": "PER_0032",
       "target": "EXP_0002",
       "predicate": "crm:P14i_performed",
@@ -7378,7 +7466,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01074",
+      "id": "IMPL_01076",
       "source": "PER_0026",
       "target": "EXP_0003",
       "predicate": "crm:P14i_performed",
@@ -7387,7 +7475,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01075",
+      "id": "IMPL_01077",
       "source": "PER_0027",
       "target": "EXP_0003",
       "predicate": "crm:P14i_performed",
@@ -7396,7 +7484,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01076",
+      "id": "IMPL_01078",
       "source": "PER_0028",
       "target": "EXP_0003",
       "predicate": "crm:P14i_performed",
@@ -7405,7 +7493,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01077",
+      "id": "IMPL_01079",
       "source": "PER_0029",
       "target": "EXP_0003",
       "predicate": "crm:P14i_performed",
@@ -7414,7 +7502,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01078",
+      "id": "IMPL_01080",
       "source": "PER_0030",
       "target": "EXP_0003",
       "predicate": "crm:P14i_performed",
@@ -7423,7 +7511,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01079",
+      "id": "IMPL_01081",
       "source": "[Varios]",
       "target": "EXP_0004",
       "predicate": "crm:P14i_performed",
@@ -7432,7 +7520,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01080",
+      "id": "IMPL_01082",
       "source": "PER_0033",
       "target": "EXP_0005",
       "predicate": "crm:P14i_performed",
@@ -7441,7 +7529,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01081",
+      "id": "IMPL_01083",
       "source": "PER_0034",
       "target": "EXP_0005",
       "predicate": "crm:P14i_performed",
@@ -7450,7 +7538,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01082",
+      "id": "IMPL_01084",
       "source": "PER_0035",
       "target": "EXP_0005",
       "predicate": "crm:P14i_performed",
@@ -7459,7 +7547,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01083",
+      "id": "IMPL_01085",
       "source": "PER_0022",
       "target": "EXP_0006",
       "predicate": "crm:P14i_performed",
@@ -7468,7 +7556,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01084",
+      "id": "IMPL_01086",
       "source": "PER_0022",
       "target": "EXP_0007",
       "predicate": "crm:P14i_performed",
@@ -7477,7 +7565,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01085",
+      "id": "IMPL_01087",
       "source": "53 Artistas emergentes UCH",
       "target": "EXP_0008",
       "predicate": "crm:P14i_performed",
@@ -7486,26 +7574,8 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01087",
-      "source": "PER_0021",
-      "target": "EXP_0010",
-      "predicate": "crm:P14i_performed",
-      "predicate_label": "Participó en",
-      "description": "Exhibition: Violeta y sus contemporáneas. Influencias y transferencias",
-      "_sheet_name": "Exposiciones_Curadurias"
-    },
-    {
-      "id": "IMPL_01088",
-      "source": "PER_0036",
-      "target": "EXP_0010",
-      "predicate": "crm:P14i_performed",
-      "predicate_label": "Participó en",
-      "description": "Exhibition: Violeta y sus contemporáneas. Influencias y transferencias",
-      "_sheet_name": "Exposiciones_Curadurias"
-    },
-    {
       "id": "IMPL_01089",
-      "source": "PER_0037",
+      "source": "PER_0021",
       "target": "EXP_0010",
       "predicate": "crm:P14i_performed",
       "predicate_label": "Participó en",
@@ -7514,7 +7584,7 @@
     },
     {
       "id": "IMPL_01090",
-      "source": "PER_0038",
+      "source": "PER_0036",
       "target": "EXP_0010",
       "predicate": "crm:P14i_performed",
       "predicate_label": "Participó en",
@@ -7523,7 +7593,7 @@
     },
     {
       "id": "IMPL_01091",
-      "source": "PER_0039",
+      "source": "PER_0037",
       "target": "EXP_0010",
       "predicate": "crm:P14i_performed",
       "predicate_label": "Participó en",
@@ -7532,6 +7602,24 @@
     },
     {
       "id": "IMPL_01092",
+      "source": "PER_0038",
+      "target": "EXP_0010",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Violeta y sus contemporáneas. Influencias y transferencias",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01093",
+      "source": "PER_0039",
+      "target": "EXP_0010",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Violeta y sus contemporáneas. Influencias y transferencias",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01094",
       "source": "PER_0021",
       "target": "EXP_0010_1",
       "predicate": "crm:P14i_performed",
@@ -7540,7 +7628,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01093",
+      "id": "IMPL_01095",
       "source": "PER_0036",
       "target": "EXP_0010_1",
       "predicate": "crm:P14i_performed",
@@ -7549,7 +7637,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01094",
+      "id": "IMPL_01096",
       "source": "PER_0037",
       "target": "EXP_0010_1",
       "predicate": "crm:P14i_performed",
@@ -7558,7 +7646,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01095",
+      "id": "IMPL_01097",
       "source": "PER_0038",
       "target": "EXP_0010_1",
       "predicate": "crm:P14i_performed",
@@ -7567,7 +7655,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01096",
+      "id": "IMPL_01098",
       "source": "PER_0039",
       "target": "EXP_0010_1",
       "predicate": "crm:P14i_performed",
@@ -7576,7 +7664,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01100",
+      "id": "IMPL_01102",
       "source": "PER_0040",
       "target": "EXP_0012",
       "predicate": "crm:P14i_performed",
@@ -7585,7 +7673,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01101",
+      "id": "IMPL_01103",
       "source": "PER_0041",
       "target": "EXP_0012",
       "predicate": "crm:P14i_performed",
@@ -7594,7 +7682,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01102",
+      "id": "IMPL_01104",
       "source": "PER_0042",
       "target": "EXP_0012",
       "predicate": "crm:P14i_performed",
@@ -7603,7 +7691,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01103",
+      "id": "IMPL_01105",
       "source": "PER_0043",
       "target": "EXP_0012",
       "predicate": "crm:P14i_performed",
@@ -7612,7 +7700,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01104",
+      "id": "IMPL_01106",
       "source": "Colección MUSAC",
       "target": "EXP_0012",
       "predicate": "crm:P14i_performed",
@@ -7621,7 +7709,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01105",
+      "id": "IMPL_01107",
       "source": "PER_0031",
       "target": "EXP_0013",
       "predicate": "crm:P14i_performed",
@@ -7630,7 +7718,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01106",
+      "id": "IMPL_01108",
       "source": "PER_0038",
       "target": "EXP_0014",
       "predicate": "crm:P14i_performed",
@@ -7639,7 +7727,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01107",
+      "id": "IMPL_01109",
       "source": "PER_0001",
       "target": "COM_0001",
       "predicate": "crm:P14i_performed",
@@ -7648,7 +7736,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01108",
+      "id": "IMPL_01110",
       "source": "COM_0001",
       "target": "ORG_0003",
       "predicate": "crm:P61_occurred_at",
@@ -7657,7 +7745,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01109",
+      "id": "IMPL_01111",
       "source": "PER_0001",
       "target": "COM_0002",
       "predicate": "crm:P14i_performed",
@@ -7666,7 +7754,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01110",
+      "id": "IMPL_01112",
       "source": "COM_0002",
       "target": "ORG_0007",
       "predicate": "crm:P61_occurred_at",
@@ -7675,7 +7763,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01111",
+      "id": "IMPL_01113",
       "source": "PER_0001",
       "target": "COM_0003",
       "predicate": "crm:P14i_performed",
@@ -7684,26 +7772,8 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01112",
-      "source": "COM_0003",
-      "target": "ORG_0004",
-      "predicate": "crm:P61_occurred_at",
-      "predicate_label": "Ocurrió en",
-      "description": "Congress/Media hosted at organization",
-      "_sheet_name": "Medios_y_Congresos"
-    },
-    {
-      "id": "IMPL_01113",
-      "source": "PER_0001",
-      "target": "COM_0004",
-      "predicate": "crm:P14i_performed",
-      "predicate_label": "Participó en",
-      "description": "Media/Congress: Notas de un itinerario: el perfil comercial del Taller Monvoisin en Chile (1843-1857)",
-      "_sheet_name": "Medios_y_Congresos"
-    },
-    {
       "id": "IMPL_01114",
-      "source": "COM_0004",
+      "source": "COM_0003",
       "target": "ORG_0004",
       "predicate": "crm:P61_occurred_at",
       "predicate_label": "Ocurrió en",
@@ -7713,16 +7783,16 @@
     {
       "id": "IMPL_01115",
       "source": "PER_0001",
-      "target": "COM_0005",
+      "target": "COM_0004",
       "predicate": "crm:P14i_performed",
       "predicate_label": "Participó en",
-      "description": "Media/Congress: Notas preliminares sobre Clara Filleul: de historiografía, exposiciones y fortuna crítica",
+      "description": "Media/Congress: Notas de un itinerario: el perfil comercial del Taller Monvoisin en Chile (1843-1857)",
       "_sheet_name": "Medios_y_Congresos"
     },
     {
       "id": "IMPL_01116",
-      "source": "COM_0005",
-      "target": "ORG_0002",
+      "source": "COM_0004",
+      "target": "ORG_0004",
       "predicate": "crm:P61_occurred_at",
       "predicate_label": "Ocurrió en",
       "description": "Congress/Media hosted at organization",
@@ -7731,16 +7801,16 @@
     {
       "id": "IMPL_01117",
       "source": "PER_0001",
-      "target": "COM_0006",
+      "target": "COM_0005",
       "predicate": "crm:P14i_performed",
       "predicate_label": "Participó en",
-      "description": "Media/Congress: Género y discipulaje. Los casos de Clara Filleul y Procesa Sarmiento en el Taller Monvoisin",
+      "description": "Media/Congress: Notas preliminares sobre Clara Filleul: de historiografía, exposiciones y fortuna crítica",
       "_sheet_name": "Medios_y_Congresos"
     },
     {
       "id": "IMPL_01118",
-      "source": "COM_0006",
-      "target": "ORG_0032",
+      "source": "COM_0005",
+      "target": "ORG_0002",
       "predicate": "crm:P61_occurred_at",
       "predicate_label": "Ocurrió en",
       "description": "Congress/Media hosted at organization",
@@ -7749,16 +7819,16 @@
     {
       "id": "IMPL_01119",
       "source": "PER_0001",
-      "target": "COM_0007",
+      "target": "COM_0006",
       "predicate": "crm:P14i_performed",
       "predicate_label": "Participó en",
-      "description": "Media/Congress: Trazar límites, deslindar fronteras. El caso de la pintura El Fuerte Bulnes (1848) de Alessandro Ciccarelli",
+      "description": "Media/Congress: Género y discipulaje. Los casos de Clara Filleul y Procesa Sarmiento en el Taller Monvoisin",
       "_sheet_name": "Medios_y_Congresos"
     },
     {
       "id": "IMPL_01120",
-      "source": "COM_0007",
-      "target": "ORG_0030",
+      "source": "COM_0006",
+      "target": "ORG_0032",
       "predicate": "crm:P61_occurred_at",
       "predicate_label": "Ocurrió en",
       "description": "Congress/Media hosted at organization",
@@ -7767,16 +7837,16 @@
     {
       "id": "IMPL_01121",
       "source": "PER_0001",
-      "target": "COM_0008",
+      "target": "COM_0007",
       "predicate": "crm:P14i_performed",
       "predicate_label": "Participó en",
-      "description": "Media/Congress: Espacio devocional y cotidiano, al encuentro del reconocimiento del afromestizo...",
+      "description": "Media/Congress: Trazar límites, deslindar fronteras. El caso de la pintura El Fuerte Bulnes (1848) de Alessandro Ciccarelli",
       "_sheet_name": "Medios_y_Congresos"
     },
     {
       "id": "IMPL_01122",
-      "source": "COM_0008",
-      "target": "ORG_0003",
+      "source": "COM_0007",
+      "target": "ORG_0030",
       "predicate": "crm:P61_occurred_at",
       "predicate_label": "Ocurrió en",
       "description": "Congress/Media hosted at organization",
@@ -7785,16 +7855,16 @@
     {
       "id": "IMPL_01123",
       "source": "PER_0001",
-      "target": "COM_0009",
+      "target": "COM_0008",
       "predicate": "crm:P14i_performed",
       "predicate_label": "Participó en",
-      "description": "Media/Congress: Modelos de representación. Ausencia y presencia afromestiza en imágenes. Chile siglo XIX",
+      "description": "Media/Congress: Espacio devocional y cotidiano, al encuentro del reconocimiento del afromestizo...",
       "_sheet_name": "Medios_y_Congresos"
     },
     {
       "id": "IMPL_01124",
-      "source": "COM_0009",
-      "target": "ORG_0004",
+      "source": "COM_0008",
+      "target": "ORG_0003",
       "predicate": "crm:P61_occurred_at",
       "predicate_label": "Ocurrió en",
       "description": "Congress/Media hosted at organization",
@@ -7803,16 +7873,16 @@
     {
       "id": "IMPL_01125",
       "source": "PER_0001",
-      "target": "COM_0010",
+      "target": "COM_0009",
       "predicate": "crm:P14i_performed",
       "predicate_label": "Participó en",
-      "description": "Media/Congress: Incertidumbres en las visualidades de indígenas y negros en Chile",
+      "description": "Media/Congress: Modelos de representación. Ausencia y presencia afromestiza en imágenes. Chile siglo XIX",
       "_sheet_name": "Medios_y_Congresos"
     },
     {
       "id": "IMPL_01126",
-      "source": "COM_0010",
-      "target": "ORG_0033",
+      "source": "COM_0009",
+      "target": "ORG_0004",
       "predicate": "crm:P61_occurred_at",
       "predicate_label": "Ocurrió en",
       "description": "Congress/Media hosted at organization",
@@ -7821,16 +7891,16 @@
     {
       "id": "IMPL_01127",
       "source": "PER_0001",
-      "target": "COM_0011",
+      "target": "COM_0010",
       "predicate": "crm:P14i_performed",
       "predicate_label": "Participó en",
-      "description": "Media/Congress: La constitución del Salón de Santiago. Notas sobre la institucionalización del sistema de exhibición...",
+      "description": "Media/Congress: Incertidumbres en las visualidades de indígenas y negros en Chile",
       "_sheet_name": "Medios_y_Congresos"
     },
     {
       "id": "IMPL_01128",
-      "source": "COM_0011",
-      "target": "ORG_0031",
+      "source": "COM_0010",
+      "target": "ORG_0033",
       "predicate": "crm:P61_occurred_at",
       "predicate_label": "Ocurrió en",
       "description": "Congress/Media hosted at organization",
@@ -7839,16 +7909,16 @@
     {
       "id": "IMPL_01129",
       "source": "PER_0001",
-      "target": "COM_0012",
+      "target": "COM_0011",
       "predicate": "crm:P14i_performed",
       "predicate_label": "Participó en",
-      "description": "Media/Congress: Charla sobre curaduría e investigación del archivo fotográfico Rodrigo Rojas De Negri",
+      "description": "Media/Congress: La constitución del Salón de Santiago. Notas sobre la institucionalización del sistema de exhibición...",
       "_sheet_name": "Medios_y_Congresos"
     },
     {
       "id": "IMPL_01130",
-      "source": "COM_0012",
-      "target": "ORG_0026",
+      "source": "COM_0011",
+      "target": "ORG_0031",
       "predicate": "crm:P61_occurred_at",
       "predicate_label": "Ocurrió en",
       "description": "Congress/Media hosted at organization",
@@ -7857,16 +7927,16 @@
     {
       "id": "IMPL_01131",
       "source": "PER_0001",
-      "target": "COM_0013",
+      "target": "COM_0012",
       "predicate": "crm:P14i_performed",
       "predicate_label": "Participó en",
-      "description": "Media/Congress: De curador y curadores. Encuentro teórico",
+      "description": "Media/Congress: Charla sobre curaduría e investigación del archivo fotográfico Rodrigo Rojas De Negri",
       "_sheet_name": "Medios_y_Congresos"
     },
     {
       "id": "IMPL_01132",
-      "source": "COM_0013",
-      "target": "ORG_0010",
+      "source": "COM_0012",
+      "target": "ORG_0026",
       "predicate": "crm:P61_occurred_at",
       "predicate_label": "Ocurrió en",
       "description": "Congress/Media hosted at organization",
@@ -7875,16 +7945,16 @@
     {
       "id": "IMPL_01133",
       "source": "PER_0001",
-      "target": "COM_0014",
+      "target": "COM_0013",
       "predicate": "crm:P14i_performed",
       "predicate_label": "Participó en",
-      "description": "Media/Congress: Charla en el marco de la exposición temporal Genius Loci",
+      "description": "Media/Congress: De curador y curadores. Encuentro teórico",
       "_sheet_name": "Medios_y_Congresos"
     },
     {
       "id": "IMPL_01134",
-      "source": "COM_0014",
-      "target": "ORG_0007",
+      "source": "COM_0013",
+      "target": "ORG_0010",
       "predicate": "crm:P61_occurred_at",
       "predicate_label": "Ocurrió en",
       "description": "Congress/Media hosted at organization",
@@ -7893,16 +7963,16 @@
     {
       "id": "IMPL_01135",
       "source": "PER_0001",
-      "target": "COM_0015",
+      "target": "COM_0014",
       "predicate": "crm:P14i_performed",
       "predicate_label": "Participó en",
-      "description": "Media/Congress: Valioso retrato de Monvoisin entra a la colección del Museo de Bellas Artes",
+      "description": "Media/Congress: Charla en el marco de la exposición temporal Genius Loci",
       "_sheet_name": "Medios_y_Congresos"
     },
     {
       "id": "IMPL_01136",
-      "source": "COM_0015",
-      "target": "ORG_0002",
+      "source": "COM_0014",
+      "target": "ORG_0007",
       "predicate": "crm:P61_occurred_at",
       "predicate_label": "Ocurrió en",
       "description": "Congress/Media hosted at organization",
@@ -7911,15 +7981,15 @@
     {
       "id": "IMPL_01137",
       "source": "PER_0001",
-      "target": "COM_0016",
+      "target": "COM_0015",
       "predicate": "crm:P14i_performed",
       "predicate_label": "Participó en",
-      "description": "Media/Congress: Abre sus puertas: Exposición Episodio Monvoisin y logística de traslado de obras",
+      "description": "Media/Congress: Valioso retrato de Monvoisin entra a la colección del Museo de Bellas Artes",
       "_sheet_name": "Medios_y_Congresos"
     },
     {
       "id": "IMPL_01138",
-      "source": "COM_0016",
+      "source": "COM_0015",
       "target": "ORG_0002",
       "predicate": "crm:P61_occurred_at",
       "predicate_label": "Ocurrió en",
@@ -7929,15 +7999,15 @@
     {
       "id": "IMPL_01139",
       "source": "PER_0001",
-      "target": "COM_0017",
+      "target": "COM_0016",
       "predicate": "crm:P14i_performed",
       "predicate_label": "Participó en",
-      "description": "Media/Congress: Pintura de la Catedral de Concepción atrae miradas en el MNBA",
+      "description": "Media/Congress: Abre sus puertas: Exposición Episodio Monvoisin y logística de traslado de obras",
       "_sheet_name": "Medios_y_Congresos"
     },
     {
       "id": "IMPL_01140",
-      "source": "COM_0017",
+      "source": "COM_0016",
       "target": "ORG_0002",
       "predicate": "crm:P61_occurred_at",
       "predicate_label": "Ocurrió en",
@@ -7947,16 +8017,16 @@
     {
       "id": "IMPL_01141",
       "source": "PER_0001",
-      "target": "COM_0018",
+      "target": "COM_0017",
       "predicate": "crm:P14i_performed",
       "predicate_label": "Participó en",
-      "description": "Media/Congress: Matriz Imaginada. Archivo Salón de Estudiantes 2013",
+      "description": "Media/Congress: Pintura de la Catedral de Concepción atrae miradas en el MNBA",
       "_sheet_name": "Medios_y_Congresos"
     },
     {
       "id": "IMPL_01142",
-      "source": "COM_0018",
-      "target": "ORG_0003",
+      "source": "COM_0017",
+      "target": "ORG_0002",
       "predicate": "crm:P61_occurred_at",
       "predicate_label": "Ocurrió en",
       "description": "Congress/Media hosted at organization",
@@ -7965,16 +8035,16 @@
     {
       "id": "IMPL_01143",
       "source": "PER_0001",
-      "target": "COM_0019",
+      "target": "COM_0018",
       "predicate": "crm:P14i_performed",
       "predicate_label": "Participó en",
-      "description": "Media/Congress: Presentación del modelo de gestión Salón de Estudiantes 2013",
+      "description": "Media/Congress: Matriz Imaginada. Archivo Salón de Estudiantes 2013",
       "_sheet_name": "Medios_y_Congresos"
     },
     {
       "id": "IMPL_01144",
-      "source": "COM_0019",
-      "target": "ORG_0013",
+      "source": "COM_0018",
+      "target": "ORG_0003",
       "predicate": "crm:P61_occurred_at",
       "predicate_label": "Ocurrió en",
       "description": "Congress/Media hosted at organization",
@@ -7983,16 +8053,16 @@
     {
       "id": "IMPL_01145",
       "source": "PER_0001",
-      "target": "COM_0020",
+      "target": "COM_0019",
       "predicate": "crm:P14i_performed",
       "predicate_label": "Participó en",
-      "description": "Media/Congress: Ciclo Instagram Live: Monvoisin en América (5 capítulos)",
+      "description": "Media/Congress: Presentación del modelo de gestión Salón de Estudiantes 2013",
       "_sheet_name": "Medios_y_Congresos"
     },
     {
       "id": "IMPL_01146",
-      "source": "COM_0020",
-      "target": "ORG_0002",
+      "source": "COM_0019",
+      "target": "ORG_0013",
       "predicate": "crm:P61_occurred_at",
       "predicate_label": "Ocurrió en",
       "description": "Congress/Media hosted at organization",
@@ -8001,15 +8071,15 @@
     {
       "id": "IMPL_01147",
       "source": "PER_0001",
-      "target": "COM_0021",
+      "target": "COM_0020",
       "predicate": "crm:P14i_performed",
       "predicate_label": "Participó en",
-      "description": "Media/Congress: Desde el Museo. Miradas Alteradas: colonialismo y dominación",
+      "description": "Media/Congress: Ciclo Instagram Live: Monvoisin en América (5 capítulos)",
       "_sheet_name": "Medios_y_Congresos"
     },
     {
       "id": "IMPL_01148",
-      "source": "COM_0021",
+      "source": "COM_0020",
       "target": "ORG_0002",
       "predicate": "crm:P61_occurred_at",
       "predicate_label": "Ocurrió en",
@@ -8019,15 +8089,15 @@
     {
       "id": "IMPL_01149",
       "source": "PER_0001",
-      "target": "COM_0022",
+      "target": "COM_0021",
       "predicate": "crm:P14i_performed",
       "predicate_label": "Participó en",
-      "description": "Media/Congress: Instagram Live: Representación de la afrodescendencia en la Colección MNBA",
+      "description": "Media/Congress: Desde el Museo. Miradas Alteradas: colonialismo y dominación",
       "_sheet_name": "Medios_y_Congresos"
     },
     {
       "id": "IMPL_01150",
-      "source": "COM_0022",
+      "source": "COM_0021",
       "target": "ORG_0002",
       "predicate": "crm:P61_occurred_at",
       "predicate_label": "Ocurrió en",
@@ -8037,15 +8107,15 @@
     {
       "id": "IMPL_01151",
       "source": "PER_0001",
-      "target": "COM_0023",
+      "target": "COM_0022",
       "predicate": "crm:P14i_performed",
       "predicate_label": "Participó en",
-      "description": "Media/Congress: Desde el Museo: Adquisiciones en contexto",
+      "description": "Media/Congress: Instagram Live: Representación de la afrodescendencia en la Colección MNBA",
       "_sheet_name": "Medios_y_Congresos"
     },
     {
       "id": "IMPL_01152",
-      "source": "COM_0023",
+      "source": "COM_0022",
       "target": "ORG_0002",
       "predicate": "crm:P61_occurred_at",
       "predicate_label": "Ocurrió en",
@@ -8055,15 +8125,15 @@
     {
       "id": "IMPL_01153",
       "source": "PER_0001",
-      "target": "COM_0024",
+      "target": "COM_0023",
       "predicate": "crm:P14i_performed",
       "predicate_label": "Participó en",
-      "description": "Media/Congress: Recorrido mediado por la exposición Adquisiciones en contexto",
+      "description": "Media/Congress: Desde el Museo: Adquisiciones en contexto",
       "_sheet_name": "Medios_y_Congresos"
     },
     {
       "id": "IMPL_01154",
-      "source": "COM_0024",
+      "source": "COM_0023",
       "target": "ORG_0002",
       "predicate": "crm:P61_occurred_at",
       "predicate_label": "Ocurrió en",
@@ -8073,15 +8143,15 @@
     {
       "id": "IMPL_01155",
       "source": "PER_0001",
-      "target": "COM_0025",
+      "target": "COM_0024",
       "predicate": "crm:P14i_performed",
       "predicate_label": "Participó en",
-      "description": "Media/Congress: Lanzamiento plataforma web QUINSAC y libro Monvoisin en América",
+      "description": "Media/Congress: Recorrido mediado por la exposición Adquisiciones en contexto",
       "_sheet_name": "Medios_y_Congresos"
     },
     {
       "id": "IMPL_01156",
-      "source": "COM_0025",
+      "source": "COM_0024",
       "target": "ORG_0002",
       "predicate": "crm:P61_occurred_at",
       "predicate_label": "Ocurrió en",
@@ -8091,16 +8161,16 @@
     {
       "id": "IMPL_01157",
       "source": "PER_0001",
-      "target": "COM_0026",
+      "target": "COM_0025",
       "predicate": "crm:P14i_performed",
       "predicate_label": "Participó en",
-      "description": "Media/Congress: Los canteros de Pedro Lira: Trayectoria histórica y aproximación iconográfica",
+      "description": "Media/Congress: Lanzamiento plataforma web QUINSAC y libro Monvoisin en América",
       "_sheet_name": "Medios_y_Congresos"
     },
     {
       "id": "IMPL_01158",
-      "source": "COM_0026",
-      "target": "ORG_0006",
+      "source": "COM_0025",
+      "target": "ORG_0002",
       "predicate": "crm:P61_occurred_at",
       "predicate_label": "Ocurrió en",
       "description": "Congress/Media hosted at organization",
@@ -8109,16 +8179,16 @@
     {
       "id": "IMPL_01159",
       "source": "PER_0001",
-      "target": "COM_0027",
+      "target": "COM_0026",
       "predicate": "crm:P14i_performed",
       "predicate_label": "Participó en",
-      "description": "Media/Congress: Cápsula audiovisual de mediación: Exposición Episodio Monvoisin en el MNBA",
+      "description": "Media/Congress: Los canteros de Pedro Lira: Trayectoria histórica y aproximación iconográfica",
       "_sheet_name": "Medios_y_Congresos"
     },
     {
       "id": "IMPL_01160",
-      "source": "COM_0027",
-      "target": "ORG_0002",
+      "source": "COM_0026",
+      "target": "ORG_0006",
       "predicate": "crm:P61_occurred_at",
       "predicate_label": "Ocurrió en",
       "description": "Congress/Media hosted at organization",
@@ -8127,6 +8197,24 @@
     {
       "id": "IMPL_01161",
       "source": "PER_0001",
+      "target": "COM_0027",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Media/Congress: Cápsula audiovisual de mediación: Exposición Episodio Monvoisin en el MNBA",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01162",
+      "source": "COM_0027",
+      "target": "ORG_0002",
+      "predicate": "crm:P61_occurred_at",
+      "predicate_label": "Ocurrió en",
+      "description": "Congress/Media hosted at organization",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01163",
+      "source": "PER_0001",
       "target": "PUB_0001",
       "predicate": "crm:P108_has_produced",
       "predicate_label": "Produjo/Publicó",
@@ -8134,7 +8222,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01162",
+      "id": "IMPL_01164",
       "source": "PER_0001",
       "target": "PUB_0002",
       "predicate": "crm:P108_has_produced",
@@ -8143,7 +8231,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01163",
+      "id": "IMPL_01165",
       "source": "PER_0001",
       "target": "PUB_0003",
       "predicate": "crm:P108_has_produced",
@@ -8152,7 +8240,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01164",
+      "id": "IMPL_01166",
       "source": "PER_0001",
       "target": "PUB_0004",
       "predicate": "crm:P108_has_produced",
@@ -8161,7 +8249,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01165",
+      "id": "IMPL_01167",
       "source": "PER_0001",
       "target": "PUB_0005",
       "predicate": "crm:P108_has_produced",
@@ -8170,7 +8258,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01166",
+      "id": "IMPL_01168",
       "source": "PER_0001",
       "target": "PUB_0006",
       "predicate": "crm:P108_has_produced",
@@ -8179,7 +8267,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01167",
+      "id": "IMPL_01169",
       "source": "PER_0001",
       "target": "PUB_0007",
       "predicate": "crm:P108_has_produced",
@@ -8188,7 +8276,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01168",
+      "id": "IMPL_01170",
       "source": "PER_0001",
       "target": "PUB_0008",
       "predicate": "crm:P108_has_produced",
@@ -8197,7 +8285,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01169",
+      "id": "IMPL_01171",
       "source": "PER_0001",
       "target": "PUB_0009",
       "predicate": "crm:P108_has_produced",
@@ -8206,7 +8294,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01170",
+      "id": "IMPL_01172",
       "source": "PER_0001",
       "target": "PUB_0010",
       "predicate": "crm:P108_has_produced",
@@ -8215,7 +8303,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01171",
+      "id": "IMPL_01173",
       "source": "PER_0001",
       "target": "PUB_0011",
       "predicate": "crm:P108_has_produced",
@@ -8224,7 +8312,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01172",
+      "id": "IMPL_01174",
       "source": "PER_0001",
       "target": "PUB_0012",
       "predicate": "crm:P108_has_produced",
@@ -8233,7 +8321,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01173",
+      "id": "IMPL_01175",
       "source": "PER_0001",
       "target": "PUB_0013",
       "predicate": "crm:P108_has_produced",
@@ -8242,7 +8330,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01174",
+      "id": "IMPL_01176",
       "source": "PER_0001",
       "target": "PUB_0014",
       "predicate": "crm:P108_has_produced",
@@ -8251,7 +8339,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01175",
+      "id": "IMPL_01177",
       "source": "PER_0001",
       "target": "PUB_0015",
       "predicate": "crm:P108_has_produced",
@@ -8260,7 +8348,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01176",
+      "id": "IMPL_01178",
       "source": "PER_0001",
       "target": "PUB_0016",
       "predicate": "crm:P108_has_produced",
@@ -8269,7 +8357,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01177",
+      "id": "IMPL_01179",
       "source": "PER_0001",
       "target": "PUB_0017",
       "predicate": "crm:P108_has_produced",
@@ -8278,7 +8366,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01178",
+      "id": "IMPL_01180",
       "source": "PER_0001",
       "target": "PUB_0018",
       "predicate": "crm:P108_has_produced",
@@ -8287,7 +8375,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01179",
+      "id": "IMPL_01181",
       "source": "PER_0001",
       "target": "PRJ_0001",
       "predicate": "crm:P14i_performed",
@@ -8296,7 +8384,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01180",
+      "id": "IMPL_01182",
       "source": "PER_0001",
       "target": "PRJ_0002",
       "predicate": "crm:P14i_performed",
@@ -8305,7 +8393,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01181",
+      "id": "IMPL_01183",
       "source": "PER_0001",
       "target": "PRJ_0003",
       "predicate": "crm:P14i_performed",
@@ -8314,7 +8402,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01182",
+      "id": "IMPL_01184",
       "source": "PER_0001",
       "target": "PRJ_0004",
       "predicate": "crm:P14i_performed",
@@ -8323,7 +8411,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01183",
+      "id": "IMPL_01185",
       "source": "PER_0001",
       "target": "PRJ_0005",
       "predicate": "crm:P14i_performed",
@@ -8332,7 +8420,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01184",
+      "id": "IMPL_01186",
       "source": "PER_0001",
       "target": "PRJ_0006",
       "predicate": "crm:P14i_performed",
@@ -8341,7 +8429,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01185",
+      "id": "IMPL_01187",
       "source": "PER_0001",
       "target": "PRJ_0007",
       "predicate": "crm:P14i_performed",
@@ -8350,7 +8438,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01186",
+      "id": "IMPL_01188",
       "source": "PER_0001",
       "target": "PRJ_0008",
       "predicate": "crm:P14i_performed",
@@ -8359,7 +8447,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01187",
+      "id": "IMPL_01189",
       "source": "PER_0001",
       "target": "PRJ_0008_N01",
       "predicate": "crm:P14i_performed",
@@ -8368,7 +8456,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01188",
+      "id": "IMPL_01190",
       "source": "PER_0001",
       "target": "PRJ_0008_N02",
       "predicate": "crm:P14i_performed",
@@ -8377,7 +8465,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01189",
+      "id": "IMPL_01191",
       "source": "PER_0001",
       "target": "PRJ_0008_N03",
       "predicate": "crm:P14i_performed",
@@ -8386,7 +8474,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01190",
+      "id": "IMPL_01192",
       "source": "PER_0001",
       "target": "PRJ_0008_N04",
       "predicate": "crm:P14i_performed",
@@ -8395,7 +8483,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01191",
+      "id": "IMPL_01193",
       "source": "PER_0001",
       "target": "PRJ_0009",
       "predicate": "crm:P14i_performed",
@@ -8404,7 +8492,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01192",
+      "id": "IMPL_01194",
       "source": "PER_0001",
       "target": "PRJ_0010",
       "predicate": "crm:P14i_performed",
@@ -8413,7 +8501,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01193",
+      "id": "IMPL_01195",
       "source": "PER_0001",
       "target": "PRJ_0011",
       "predicate": "crm:P14i_performed",
@@ -8422,7 +8510,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01194",
+      "id": "IMPL_01196",
       "source": "PER_0001",
       "target": "PRJ_0012",
       "predicate": "crm:P14i_performed",
@@ -8431,7 +8519,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01195",
+      "id": "IMPL_01197",
       "source": "PER_0001",
       "target": "PRJ_0013",
       "predicate": "crm:P14i_performed",
@@ -8440,7 +8528,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01196",
+      "id": "IMPL_01198",
       "source": "PER_0001",
       "target": "PRJ_0014",
       "predicate": "crm:P14i_performed",
@@ -8449,7 +8537,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01197",
+      "id": "IMPL_01199",
       "source": "PER_0001",
       "target": "PRJ_0015",
       "predicate": "crm:P14i_performed",
@@ -8458,7 +8546,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01198",
+      "id": "IMPL_01200",
       "source": "PER_0001",
       "target": "PRJ_0016",
       "predicate": "crm:P14i_performed",
@@ -8467,7 +8555,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01199",
+      "id": "IMPL_01201",
       "source": "PER_0009",
       "target": "PRJ_0017",
       "predicate": "crm:P14i_performed",
