@@ -1,25 +1,8 @@
 {
-  "_metadata": {
-    "purpose": "Preserve curated metadata that shouldn't be regenerated from Excel",
-    "editable_fields": ["is_core", "short_name", "description", "category", "role", "period", "url", "why_relevant", "micro_summary"],
-    "protected_fields": ["id", "label", "source_data", "relationships", "identifiers"],
-    "last_updated": "2026-09-04T00:00:00Z"
+  "LOC_0005": {
+    "why_relevant": "Maestría en Estudios Curatoriales (2024-2025)"
   },
-  "PER_0001": {
-    "is_core": true,
-    "short_name": "Jaime Cuevas (Investigador Principal)",
-    "_description_override": false,
-    "timestamp": "2026-09-04T00:00:00Z"
-  },
-  "ORG_0001": {
-    "is_core": true,
-    "short_name": "MNBA",
-    "timestamp": "2026-09-04T00:00:00Z"
-  },
-  "LOC_0001": {
-    "is_core": true,
-    "micro_summary": "Sede principal como Investigador de Colecciones",
-    "why_relevant": "Investigador de Colecciones (2017-2025)",
-    "timestamp": "2026-09-04T00:00:00Z"
+  "LOC_0058": {
+    "why_relevant": "Colección Privada - Proyecto Monvoisin"
   }
 }

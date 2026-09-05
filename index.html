@@ -541,13 +541,39 @@
               <p class="text-xs text-stone-500 font-medium">Investigador Principal | Historiador del Arte | Arquitecto de Datos</p>
             </div>
 
-            <!-- Ficha Rápida -->
-            <div class="p-3 bg-stone-50 rounded-lg border border-stone-200 space-y-1.5 text-stone-700">
-              <div class="flex justify-between"><span class="text-stone-400">Nacionalidad:</span> <strong>Española / Chilena</strong></div>
-              <div class="flex justify-between"><span class="text-stone-400">ORCID:</span> <a href="https://orcid.org/0000-0002-2563-6676" target="_blank" class="text-green-700 font-mono underline">0000-0002-2563-6676</a></div>
-              <div class="flex justify-between"><span class="text-stone-400">Sedes:</span> <strong id="fichaSedesPrincipal">–</strong></div>
-              <div class="flex justify-between"><span class="text-stone-400">Educación:</span> <strong id="fichaEducacion">–</strong></div>
-              <div class="flex justify-between"><span class="text-stone-400">Posición Actual:</span> <strong id="fichaPosicion">–</strong></div>
+            <!-- Ficha Rápida - Mejorada -->
+            <div class="space-y-2.5">
+              <!-- Identidad -->
+              <div class="grid grid-cols-2 gap-2">
+                <div class="p-2.5 bg-blue-50 border border-blue-200 rounded-lg">
+                  <p class="text-[9px] text-blue-600 font-semibold uppercase tracking-wider">Nacionalidad</p>
+                  <p class="text-sm font-bold text-blue-900">🇪🇸 / 🇨🇱</p>
+                  <p class="text-[10px] text-blue-700">Española / Chilena</p>
+                </div>
+                <div class="p-2.5 bg-green-50 border border-green-200 rounded-lg">
+                  <p class="text-[9px] text-green-600 font-semibold uppercase tracking-wider">ORCID</p>
+                  <a href="https://orcid.org/0000-0002-2563-6676" target="_blank" class="text-[10px] font-mono text-green-700 hover:text-green-900 underline block truncate">0000-0002-2563</a>
+                  <p class="text-[9px] text-green-600">Verificado</p>
+                </div>
+              </div>
+
+              <!-- Institucional -->
+              <div class="grid grid-cols-2 gap-2">
+                <div class="p-2.5 bg-purple-50 border border-purple-200 rounded-lg">
+                  <p class="text-[9px] text-purple-600 font-semibold uppercase tracking-wider">Institución Principal</p>
+                  <p class="text-[11px] font-bold text-purple-900" id="fichaSedesPrincipal">–</p>
+                </div>
+                <div class="p-2.5 bg-orange-50 border border-orange-200 rounded-lg">
+                  <p class="text-[9px] text-orange-600 font-semibold uppercase tracking-wider">Rol Actual</p>
+                  <p class="text-[11px] font-bold text-orange-900" id="fichaPosicion">–</p>
+                </div>
+              </div>
+
+              <!-- Educación -->
+              <div class="p-3 bg-gradient-to-br from-indigo-50 to-indigo-100 border border-indigo-200 rounded-lg">
+                <p class="text-[9px] text-indigo-600 font-semibold uppercase tracking-wider mb-1.5">Formación Académica</p>
+                <div id="fichaEducacion" class="text-[11px] text-indigo-900 font-medium space-y-0.5">–</div>
+              </div>
             </div>
 
             <!-- Contexto y Relevancia Principal -->
@@ -1807,11 +1833,16 @@
         return target && target.type === 'Education';
       });
 
-      const educationInstitutions = new Set();
+      const educationPrograms = [];
       eduLinks.forEach(link => {
         const eduNode = fullGraphData.nodes.find(n => n.id === link.target);
-        if (eduNode && eduNode.institution) {
-          educationInstitutions.add(eduNode.institution.trim());
+        if (eduNode) {
+          const category = eduNode.category || '';  // nivel_formativo (e.g., "Postgrado")
+          const institution = eduNode.institution || '';
+          const program = eduNode.label || '';
+          if (category && institution) {
+            educationPrograms.push({ category, institution, program });
+          }
         }
       });
 
@@ -1821,10 +1852,12 @@
         return target && target.type === 'Position';
       });
 
+      const currentYear = new Date().getFullYear();
       const currentPositions = [];
       posLinks.forEach(link => {
         const posNode = fullGraphData.nodes.find(n => n.id === link.target);
-        if (posNode && posNode.end_year === 2025) {  // Only current positions
+        // Only show positions that haven't ended yet (end_year >= current year or end_year undefined)
+        if (posNode && (!posNode.end_year || posNode.end_year >= currentYear)) {
           const label = posNode.label ? posNode.label.trim() : '';
           const startYear = posNode.start_year || '';
           const endYear = posNode.end_year || '';
@@ -1834,17 +1867,33 @@
       });
 
       // Update ficha HTML
-      document.getElementById('fichaSedesPrincipal').textContent = 'Santiago CLP / Barcelona ESP';
+      document.getElementById('fichaSedesPrincipal').textContent = 'MNBA (Santiago)';
 
-      if (educationInstitutions.size > 0) {
-        document.getElementById('fichaEducacion').textContent = Array.from(educationInstitutions).slice(0, 2).join(' | ');
+      if (educationPrograms.length > 0) {
+        // Show top 2 education programs with institution
+        const educacionDiv = document.getElementById('fichaEducacion');
+        educacionDiv.innerHTML = '';
+        educationPrograms.slice(0, 2).forEach(edu => {
+          const progDiv = document.createElement('div');
+          progDiv.className = 'leading-tight';
+          progDiv.innerHTML = `<span class="font-bold">${edu.program}</span><br><span class="text-indigo-700 text-[10px]">${edu.institution}</span>`;
+          educacionDiv.appendChild(progDiv);
+        });
+        if (educationPrograms.length > 2) {
+          const moreDiv = document.createElement('div');
+          moreDiv.className = 'text-indigo-600 text-[10px] italic mt-1';
+          moreDiv.textContent = `+${educationPrograms.length - 2} más`;
+          educacionDiv.appendChild(moreDiv);
+        }
       }
 
       if (currentPositions.length > 0) {
-        // Show current positions with period
-        const topPositions = currentPositions.slice(0, 2);
-        const positionText = topPositions.map(p => `${p.label} (${p.period})`).join(' · ');
-        document.getElementById('fichaPosicion').textContent = positionText;
+        // Show first/main current position
+        const mainPos = currentPositions[0];
+        document.getElementById('fichaPosicion').textContent = `${mainPos.label.substring(0, 35)}${mainPos.label.length > 35 ? '...' : ''}`;
+      } else {
+        document.getElementById('fichaPosicion').textContent = 'Sin roles vigentes';
+        document.getElementById('fichaPosicion').parentElement.classList.add('opacity-50');
       }
     }
 

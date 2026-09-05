@@ -475,7 +475,7 @@ jc:LOC_0018 a crm:E53_Place ;
     geo:long -58.5286 ;
     geo:lat -34.5796 ;
     schema:areaServed "Buenos Aires" ;
-    skos:exactMatch <https://www.wikidata.org/wiki/Q7894297> .
+    skos:exactMatch <https://www.wikidata.org/wiki/Q1486> .
 
 jc:LOC_0019 a crm:E53_Place ;
     rdfs:label "LOM Ediciones (Barrio Concha y Toro)" ;
@@ -745,6 +745,10 @@ jc:LOC_0057 a crm:E53_Place ;
     geo:lat -36.6066 ;
     schema:areaServed "Ñuble" ;
     skos:exactMatch <https://www.wikidata.org/wiki/Q113665601> .
+
+jc:LOC_0058 a crm:E53_Place ;
+    rdfs:label "Colección Privada Nancagua" ;
+    schema:areaServed "Nancagua" .
 
 jc:VOC_0001 a skos:Concept ;
     rdfs:label "Humanidades Digitales" ;
@@ -1171,7 +1175,7 @@ jc:ORG_0034 crm:P87_is_identified_by jc:LOC_0003 .
 
 jc:ORG_0004 crm:P87_is_identified_by jc:LOC_0004 .
 
-jc:ORG_0005 crm:P87_is_identified_by jc:LOC_0005 .
+jc:Maestría en Estudios Curatoriales (2024-2025) crm:P87_is_identified_by jc:LOC_0005 .
 
 jc:ORG_0006 crm:P87_is_identified_by jc:LOC_0006 .
 
@@ -1240,6 +1244,8 @@ jc:ORG_0037 crm:P87_is_identified_by jc:LOC_0048 .
 jc:ORG_0029 crm:P87_is_identified_by jc:LOC_0049 .
 
 jc:ORG_0040 crm:P87_is_identified_by jc:LOC_0056 .
+
+jc:Colección privada documentada en Proyecto Monvoisin (traslado obra) crm:P87_is_identified_by jc:LOC_0058 .
 
 jc:PER_0001 crm:P14i_performed jc:PRJ_0008 .
 
@@ -1692,6 +1698,12 @@ jc:PER_0031 crm:P14i_performed jc:EXP_0013 .
 jc:PER_0022 crm:P14i_performed jc:EXP_0006 .
 
 jc:PER_0022 crm:P14i_performed jc:EXP_0007 .
+
+jc:PRJ_0008 crm:P7_took_place_at jc:LOC_0058 .
+
+jc:EXP_0001_M13 crm:P7_took_place_at jc:LOC_0058 .
+
+jc:LOC_0058 rdfs:seeAlso jc:ORG_0002 .
 
 jc:PER_0001 crm:P14i_performed jc:EDU_0001 .
 

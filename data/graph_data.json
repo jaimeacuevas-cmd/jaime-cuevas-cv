@@ -2,22 +2,22 @@
   "metadata": {
     "version": "2.0",
     "source": "CV_Dataset_Maestro_Jaime_Cuevas.xlsx",
-    "node_count": 274,
-    "link_count": 345,
+    "node_count": 275,
+    "link_count": 349,
     "sheet_count": 12,
     "validation_status": "PASS",
-    "validation_warnings": 145
+    "validation_warnings": 147
   },
   "nodes": [
     {
       "id": "PER_0001",
       "type": "Agent",
       "label": "Jaime Arnaldo Cuevas Pérez",
-      "short_name": "Jaime Cuevas (Investigador Principal)",
+      "short_name": "Jaime Cuevas",
       "category": "Persona (Investigador)",
       "description": null,
       "url": null,
-      "is_core": true,
+      "is_core": false,
       "source_sheet": "",
       "row_number": 1,
       "nationality": "Española | Chilena",
@@ -1157,11 +1157,11 @@
       "id": "ORG_0001",
       "type": "Organization",
       "label": "Museo de Arte Contemporáneo",
-      "short_name": "MNBA",
+      "short_name": "MAC",
       "category": "Museo Universitario",
       "description": null,
       "url": null,
-      "is_core": true,
+      "is_core": false,
       "source_sheet": "",
       "row_number": 1,
       "city": "Santiago",
@@ -1749,7 +1749,7 @@
       "category": "Sede Institucional / Museo",
       "description": null,
       "url": null,
-      "is_core": true,
+      "is_core": false,
       "source_sheet": "",
       "row_number": 1,
       "city": "Santiago",
@@ -1759,8 +1759,8 @@
         -33.4352
       ],
       "wikidata": "Q1138865",
-      "why_relevant": "Investigador de Colecciones (2017-2025)",
-      "micro_summary": "Sede principal como Investigador de Colecciones",
+      "why_relevant": null,
+      "micro_summary": null,
       "parent_org_id": "ORG_0002",
       "is_user_primary": false,
       "precision_type": "exact"
@@ -1855,9 +1855,9 @@
         41.3851
       ],
       "wikidata": "Q219615",
-      "why_relevant": null,
+      "why_relevant": "Maestría en Estudios Curatoriales (2024-2025)",
       "micro_summary": null,
-      "parent_org_id": "ORG_0005",
+      "parent_org_id": "Maestría en Estudios Curatoriales (2024-2025)",
       "is_user_primary": false,
       "precision_type": "exact"
     },
@@ -2166,7 +2166,7 @@
         -58.5286,
         -34.5796
       ],
-      "wikidata": "Q7894297",
+      "wikidata": "Q1486",
       "why_relevant": null,
       "micro_summary": null,
       "parent_org_id": "ORG_0021",
@@ -3110,6 +3110,27 @@
       "precision_type": "exact"
     },
     {
+      "id": "LOC_0058",
+      "type": "Location",
+      "label": "Colección Privada Nancagua",
+      "short_name": null,
+      "category": "Colección / Patrimonio",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 58,
+      "city": "Nancagua",
+      "district": null,
+      "coordinates": null,
+      "wikidata": null,
+      "why_relevant": "Colección Privada - Proyecto Monvoisin",
+      "micro_summary": null,
+      "parent_org_id": "Colección privada documentada en Proyecto Monvoisin (traslado obra)",
+      "is_user_primary": false,
+      "precision_type": ""
+    },
+    {
       "id": "VOC_0001",
       "type": "Concept",
       "label": "Humanidades Digitales",
@@ -3678,7 +3699,7 @@
       "organization": "Museo Nacional de Bellas Artes (MNBA)",
       "period": null,
       "start_year": 2017,
-      "end_year": 2025,
+      "end_year": 2026,
       "skills": "Humanidades Digitales | CIDOC-CRM | Bases de Datos Relacionales | Conservación Preventiva | Logística Clavo a Clavo | Descolonización de Metadatos",
       "achievements": "Desarrollo plataforma web Quinsac | Implementación Plan Nacional de Patrimonios Digitales | Coordinación logística expo Episodio Monvoisin ($1.273M en seguros)"
     },
@@ -3696,7 +3717,7 @@
       "organization": "Subsecretaría de las Culturas y las Artes, Chile",
       "period": null,
       "start_year": 2018,
-      "end_year": 2025,
+      "end_year": 2026,
       "skills": "Análisis de Viabilidad Técnica | Presupuestos | Planificación | Evaluación de Políticas Públicas",
       "achievements": "Presidente de Comisión Técnica de Evaluación en convocatorias nacionales FONDART"
     },
@@ -5086,10 +5107,10 @@
     },
     {
       "id": "REL_ORG_LOC_0005",
-      "source": "ORG_0005",
+      "source": "Maestría en Estudios Curatoriales (2024-2025)",
       "target": "LOC_0005",
       "predicate": "crm:P87_is_identified_by",
-      "description": "Organization ORG_0005 has location LOC_0005",
+      "description": "Organization Maestría en Estudios Curatoriales (2024-2025) has location LOC_0005",
       "_sheet_name": "Lugares_y_Sedes_GENERATED"
     },
     {
@@ -5362,6 +5383,14 @@
       "target": "LOC_0056",
       "predicate": "crm:P87_is_identified_by",
       "description": "Organization ORG_0040 has location LOC_0056",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0058",
+      "source": "Colección privada documentada en Proyecto Monvoisin (traslado obra)",
+      "target": "LOC_0058",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization Colección privada documentada en Proyecto Monvoisin (traslado obra) has location LOC_0058",
       "_sheet_name": "Lugares_y_Sedes_GENERATED"
     },
     {
@@ -7395,6 +7424,33 @@
       "target": "EXP_0007",
       "predicate": "crm:P14i_performed",
       "year": 2014,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0227",
+      "source": "PRJ_0008",
+      "target": "LOC_0058",
+      "predicate": "crm:P7_took_place_at",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0228",
+      "source": "EXP_0001_M13",
+      "target": "LOC_0058",
+      "predicate": "crm:P7_took_place_at",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0229",
+      "source": "LOC_0058",
+      "target": "ORG_0002",
+      "predicate": "rdfs:seeAlso",
+      "year": "",
       "description": null,
       "_sheet_name": "Relaciones_Grafo_LOD"
     },
