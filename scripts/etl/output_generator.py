@@ -55,30 +55,96 @@ class OutputGenerator:
     def generate_graph_json(self, nodes: List[Dict], links: Optional[List[Dict]], validation_report: Dict) -> Dict:
         """
         Generate graph_data.json for D3.js visualization.
+        Filters to only include nodes connected to Jaime + direct connections + locations relevant to Jaime.
         """
         logger.info("Generating graph_data.json...")
 
-        # Filter out internal fields
-        clean_nodes = []
+        if not links:
+            logger.warning("  No links provided, returning all nodes")
+            clean_nodes = [
+                {k: v for k, v in n.items() if not k.startswith('_')}
+                for n in nodes
+            ]
+            return {
+                'metadata': {
+                    'version': '2.0',
+                    'source': 'CV_Dataset_Maestro_Jaime_Cuevas.xlsx',
+                    'node_count': len(clean_nodes),
+                    'link_count': 0,
+                    'sheet_count': 12,
+                },
+                'nodes': clean_nodes,
+                'links': [],
+            }
+
+        # Build reachability graph from Jaime (BFS)
+        # Include: Jaime + direct connections + locations connected to Jaime's orgs
+        reachable_ids = {'PER_0001'}  # Start with Jaime
+        visited = set()
+        queue = ['PER_0001']
+
+        # 2-hop BFS: Jaime → Orgs/Activities → Details
+        while queue:
+            current = queue.pop(0)
+            if current in visited:
+                continue
+            visited.add(current)
+
+            for link in links:
+                if link.get('source') == current and link.get('target') not in visited:
+                    target = link.get('target')
+                    reachable_ids.add(target)
+                    queue.append(target)
+                elif link.get('target') == current and link.get('source') not in visited:
+                    source = link.get('source')
+                    reachable_ids.add(source)
+                    queue.append(source)
+
+        # Additionally, include locations connected to Jaime's organizations
+        jaime_orgs = {n for n in reachable_ids if isinstance(n, str) and n.startswith('ORG_')}
+        for link in links:
+            if (link.get('source', '').startswith('LOC_') and
+                link.get('target') in jaime_orgs):
+                reachable_ids.add(link['source'])
+            elif (link.get('target', '').startswith('LOC_') and
+                  link.get('source') in jaime_orgs):
+                reachable_ids.add(link['target'])
+
+        # Filter nodes to only reachable ones
+        filtered_nodes = []
+        excluded_count = 0
         for node in nodes:
+            if node.get('id') not in reachable_ids:
+                excluded_count += 1
+                continue
             clean_node = {k: v for k, v in node.items() if not k.startswith('_')}
-            clean_nodes.append(clean_node)
+            filtered_nodes.append(clean_node)
+
+        # Filter links to only those between reachable nodes
+        filtered_links = []
+        for link in links:
+            if (link.get('source') in reachable_ids and
+                link.get('target') in reachable_ids):
+                filtered_links.append(link)
+
+        logger.info(f"  Excluded {excluded_count} unreachable nodes")
 
         output = {
             'metadata': {
                 'version': '2.0',
                 'source': 'CV_Dataset_Maestro_Jaime_Cuevas.xlsx',
-                'node_count': len(clean_nodes),
-                'link_count': len(links) if links else 0,
+                'node_count': len(filtered_nodes),
+                'link_count': len(filtered_links),
                 'sheet_count': 12,
                 'validation_status': validation_report.get('status', 'UNKNOWN'),
                 'validation_warnings': validation_report.get('warning_count', 0),
+                'filtered_nodes': excluded_count,
             },
-            'nodes': clean_nodes,
-            'links': links or [],
+            'nodes': filtered_nodes,
+            'links': filtered_links,
         }
 
-        logger.info(f"  ✓ Generated graph with {len(clean_nodes)} nodes and {len(output['links'])} links")
+        logger.info(f"  ✓ Generated graph with {len(filtered_nodes)} nodes and {len(filtered_links)} links")
         return output
 
     def generate_geojson(self, nodes: List[Dict], links: Optional[List[Dict]] = None) -> Dict:

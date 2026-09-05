@@ -1000,11 +1000,22 @@
       semanticPath = [{ id: 'PER_0001', label: 'Jaime Cuevas', type: 'Agent' }];
       renderBreadcrumbs();
 
-      // Filter core nodes or fallback safely
-      activeNodes = fullGraphData.nodes.filter(n => n.is_core || n.id === 'PER_0001');
-      if (activeNodes.length <= 1) {
-        activeNodes = fullGraphData.nodes.slice(0, 48);
-      }
+      // Filter: Show Jaime + direct connections only (no overwhelming the user)
+      const directConnectionIds = new Set(['PER_0001']);
+
+      // Add nodes directly connected to Jaime
+      fullGraphData.links.forEach(link => {
+        const source = link.source.id || link.source;
+        const target = link.target.id || link.target;
+        if (source === 'PER_0001') {
+          directConnectionIds.add(target);
+        }
+        if (target === 'PER_0001') {
+          directConnectionIds.add(source);
+        }
+      });
+
+      activeNodes = fullGraphData.nodes.filter(n => directConnectionIds.has(n.id));
       const activeIds = new Set(activeNodes.map(n => n.id));
       
       activeLinks = fullGraphData.links.filter(l => 
