@@ -954,7 +954,7 @@ jc:EXP_0001_M13 a crm:E7_Activity ;
     rdfs:label "Traslado Colección Privada Nancagua (1 obra)" .
 
 jc:EXP_0002 a crm:E7_Activity ;
-    rdfs:label "Prácticas de reiteración: Colección Museo del Mundo" .
+    rdfs:label "Prácticas de reiteración: Colección Museo del Mundo + Wladimir Bernechea" .
 
 jc:EXP_0003 a crm:E7_Activity ;
     rdfs:label "Adquisiciones en contexto: La Sociedad Nacional de Bellas Artes 1918-1950" .
@@ -1746,3 +1746,109 @@ jc:PER_0001 crm:P14i_performed jc:CAR_0009 .
 jc:PER_0001 crm:P14i_performed jc:CAR_0010 .
 
 jc:PER_0001 crm:P14i_performed jc:CAR_0011 .
+
+jc:PER_0015 crm:P14i_performed jc:EXP_0001 .
+
+jc:PER_0016 crm:P14i_performed jc:EXP_0001 .
+
+jc:PER_0017 crm:P14i_performed jc:EXP_0001 .
+
+jc:PER_0018 crm:P14i_performed jc:EXP_0001 .
+
+jc:PER_0019 crm:P14i_performed jc:EXP_0001 .
+
+jc:PER_0015 crm:P14i_performed jc:EXP_0001_M01 .
+
+jc:PER_0015 crm:P14i_performed jc:EXP_0001_M02 .
+
+jc:PER_0015 crm:P14i_performed jc:EXP_0001_M03 .
+
+jc:PER_0015 crm:P14i_performed jc:EXP_0001_M04 .
+
+jc:PER_0015 crm:P14i_performed jc:EXP_0001_M05 .
+
+jc:PER_0015 crm:P14i_performed jc:EXP_0001_M06 .
+
+jc:PER_0015 crm:P14i_performed jc:EXP_0001_M07 .
+
+jc:PER_0015 crm:P14i_performed jc:EXP_0001_M08 .
+
+jc:PER_0015 crm:P14i_performed jc:EXP_0001_M09 .
+
+jc:PER_0015 crm:P14i_performed jc:EXP_0001_M10 .
+
+jc:PER_0015 crm:P14i_performed jc:EXP_0001_M11 .
+
+jc:PER_0018 crm:P14i_performed jc:EXP_0001_M12 .
+
+jc:PER_0015 crm:P14i_performed jc:EXP_0001_M13 .
+
+jc:PER_0031 crm:P14i_performed jc:EXP_0002 .
+
+jc:PER_0032 crm:P14i_performed jc:EXP_0002 .
+
+jc:PER_0026 crm:P14i_performed jc:EXP_0003 .
+
+jc:PER_0027 crm:P14i_performed jc:EXP_0003 .
+
+jc:PER_0028 crm:P14i_performed jc:EXP_0003 .
+
+jc:PER_0029 crm:P14i_performed jc:EXP_0003 .
+
+jc:PER_0030 crm:P14i_performed jc:EXP_0003 .
+
+jc:[Varios] crm:P14i_performed jc:EXP_0004 .
+
+jc:PER_0033 crm:P14i_performed jc:EXP_0005 .
+
+jc:PER_0034 crm:P14i_performed jc:EXP_0005 .
+
+jc:PER_0035 crm:P14i_performed jc:EXP_0005 .
+
+jc:PER_0022 crm:P14i_performed jc:EXP_0006 .
+
+jc:PER_0022 crm:P14i_performed jc:EXP_0007 .
+
+jc:53 Artistas emergentes UCH crm:P14i_performed jc:EXP_0008 .
+
+jc:PER_0023 crm:P14i_performed jc:EXP_0009 .
+
+jc:PER_0021 crm:P14i_performed jc:EXP_0010 .
+
+jc:PER_0036 crm:P14i_performed jc:EXP_0010 .
+
+jc:PER_0037 crm:P14i_performed jc:EXP_0010 .
+
+jc:PER_0038 crm:P14i_performed jc:EXP_0010 .
+
+jc:PER_0039 crm:P14i_performed jc:EXP_0010 .
+
+jc:PER_0021 crm:P14i_performed jc:EXP_0010_1 .
+
+jc:PER_0036 crm:P14i_performed jc:EXP_0010_1 .
+
+jc:PER_0037 crm:P14i_performed jc:EXP_0010_1 .
+
+jc:PER_0038 crm:P14i_performed jc:EXP_0010_1 .
+
+jc:PER_0039 crm:P14i_performed jc:EXP_0010_1 .
+
+jc:PER_0020 crm:P14i_performed jc:EXP_0011_01 .
+
+jc:PER_0020 crm:P14i_performed jc:EXP_0011_02 .
+
+jc:PER_0020 crm:P14i_performed jc:EXP_0011_03 .
+
+jc:PER_0040 crm:P14i_performed jc:EXP_0012 .
+
+jc:PER_0041 crm:P14i_performed jc:EXP_0012 .
+
+jc:PER_0042 crm:P14i_performed jc:EXP_0012 .
+
+jc:PER_0043 crm:P14i_performed jc:EXP_0012 .
+
+jc:Colección MUSAC crm:P14i_performed jc:EXP_0012 .
+
+jc:PER_0031 crm:P14i_performed jc:EXP_0013 .
+
+jc:PER_0038 crm:P14i_performed jc:EXP_0014 .

@@ -3,10 +3,10 @@
     "version": "2.0",
     "source": "CV_Dataset_Maestro_Jaime_Cuevas.xlsx",
     "node_count": 274,
-    "link_count": 292,
+    "link_count": 345,
     "sheet_count": 12,
     "validation_status": "PASS",
-    "validation_warnings": 142
+    "validation_warnings": 145
   },
   "nodes": [
     {
@@ -4075,7 +4075,7 @@
     {
       "id": "EXP_0002",
       "type": "Exhibition",
-      "label": "Prácticas de reiteración: Colección Museo del Mundo",
+      "label": "Prácticas de reiteración: Colección Museo del Mundo + Wladimir Bernechea",
       "short_name": null,
       "category": null,
       "description": null,
@@ -7640,6 +7640,483 @@
       "predicate_label": "Desempeñó",
       "description": "Position: Ayudante de Cátedra de Pregrado",
       "_sheet_name": "Trayectoria_Laboral"
+    },
+    {
+      "id": "IMPL_01027",
+      "source": "PER_0015",
+      "target": "EXP_0001",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Episodio Monvoisin. Un pintor francés en el Chile del siglo XIX",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01028",
+      "source": "PER_0016",
+      "target": "EXP_0001",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Episodio Monvoisin. Un pintor francés en el Chile del siglo XIX",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01029",
+      "source": "PER_0017",
+      "target": "EXP_0001",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Episodio Monvoisin. Un pintor francés en el Chile del siglo XIX",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01030",
+      "source": "PER_0018",
+      "target": "EXP_0001",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Episodio Monvoisin. Un pintor francés en el Chile del siglo XIX",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01031",
+      "source": "PER_0019",
+      "target": "EXP_0001",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Episodio Monvoisin. Un pintor francés en el Chile del siglo XIX",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01032",
+      "source": "PER_0015",
+      "target": "EXP_0001_M01",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Traslado obra monumental Cristo y Magdalena",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01033",
+      "source": "PER_0015",
+      "target": "EXP_0001_M02",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Traslado y rescate obra José Tomás de Urmeneta",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01034",
+      "source": "PER_0015",
+      "target": "EXP_0001_M03",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Traslado alta complejidad obras Palacio Cousiño",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01035",
+      "source": "PER_0015",
+      "target": "EXP_0001_M04",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Traslado Institucional Intercomunal (Abdicación de O'Higgins)",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01036",
+      "source": "PER_0015",
+      "target": "EXP_0001_M05",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Traslado Colección Privada Vitacura (5 obras)",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01037",
+      "source": "PER_0015",
+      "target": "EXP_0001_M06",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Traslado Colección Privada Calera de Tango (5 obras)",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01038",
+      "source": "PER_0015",
+      "target": "EXP_0001_M07",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Traslado Colección Privada Recoleta (1 obra)",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01039",
+      "source": "PER_0015",
+      "target": "EXP_0001_M08",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Traslado Colección Privada Huechuraba (1 obra)",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01040",
+      "source": "PER_0015",
+      "target": "EXP_0001_M09",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Traslado Colección Privada Providencia (1 obra)",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01041",
+      "source": "PER_0015",
+      "target": "EXP_0001_M10",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Traslado Colección Privada Las Condes (2 obras)",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01042",
+      "source": "PER_0015",
+      "target": "EXP_0001_M11",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Traslado Colección Privada Padre Hurtado (1 obra)",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01043",
+      "source": "PER_0018",
+      "target": "EXP_0001_M12",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Traslado Colección Privada Graneros (2 obras)",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01044",
+      "source": "PER_0015",
+      "target": "EXP_0001_M13",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Traslado Colección Privada Nancagua (1 obra)",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01045",
+      "source": "PER_0031",
+      "target": "EXP_0002",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Prácticas de reiteración: Colección Museo del Mundo + Wladimir Bernechea",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01046",
+      "source": "PER_0032",
+      "target": "EXP_0002",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Prácticas de reiteración: Colección Museo del Mundo + Wladimir Bernechea",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01047",
+      "source": "PER_0026",
+      "target": "EXP_0003",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Adquisiciones en contexto: La Sociedad Nacional de Bellas Artes 1918-1950",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01048",
+      "source": "PER_0027",
+      "target": "EXP_0003",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Adquisiciones en contexto: La Sociedad Nacional de Bellas Artes 1918-1950",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01049",
+      "source": "PER_0028",
+      "target": "EXP_0003",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Adquisiciones en contexto: La Sociedad Nacional de Bellas Artes 1918-1950",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01050",
+      "source": "PER_0029",
+      "target": "EXP_0003",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Adquisiciones en contexto: La Sociedad Nacional de Bellas Artes 1918-1950",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01051",
+      "source": "PER_0030",
+      "target": "EXP_0003",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Adquisiciones en contexto: La Sociedad Nacional de Bellas Artes 1918-1950",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01052",
+      "source": "[Varios]",
+      "target": "EXP_0004",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: El canon revisitado. Una mirada al arte europeo desde América Latina",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01053",
+      "source": "PER_0033",
+      "target": "EXP_0005",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: La segunda naturaleza. Colección CCU",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01054",
+      "source": "PER_0034",
+      "target": "EXP_0005",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: La segunda naturaleza. Colección CCU",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01055",
+      "source": "PER_0035",
+      "target": "EXP_0005",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: La segunda naturaleza. Colección CCU",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01056",
+      "source": "PER_0022",
+      "target": "EXP_0006",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: A 30 años de Rodrigo Rojas de Negri",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01057",
+      "source": "PER_0022",
+      "target": "EXP_0007",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Un exilio sin retorno. Rodrigo Rojas De Negri",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01058",
+      "source": "53 Artistas emergentes UCH",
+      "target": "EXP_0008",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Salón de Estudiantes 2013: Desde el resto; Farmacología estética",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01059",
+      "source": "PER_0023",
+      "target": "EXP_0009",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Sala de Fotografía Emergente y Antología de Luis Camnitzer",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01060",
+      "source": "PER_0021",
+      "target": "EXP_0010",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Violeta y sus contemporáneas. Influencias y transferencias",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01061",
+      "source": "PER_0036",
+      "target": "EXP_0010",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Violeta y sus contemporáneas. Influencias y transferencias",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01062",
+      "source": "PER_0037",
+      "target": "EXP_0010",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Violeta y sus contemporáneas. Influencias y transferencias",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01063",
+      "source": "PER_0038",
+      "target": "EXP_0010",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Violeta y sus contemporáneas. Influencias y transferencias",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01064",
+      "source": "PER_0039",
+      "target": "EXP_0010",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Violeta y sus contemporáneas. Influencias y transferencias",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01065",
+      "source": "PER_0021",
+      "target": "EXP_0010_1",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Violeta y sus contemporáneas. Influencias y transferencias",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01066",
+      "source": "PER_0036",
+      "target": "EXP_0010_1",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Violeta y sus contemporáneas. Influencias y transferencias",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01067",
+      "source": "PER_0037",
+      "target": "EXP_0010_1",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Violeta y sus contemporáneas. Influencias y transferencias",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01068",
+      "source": "PER_0038",
+      "target": "EXP_0010_1",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Violeta y sus contemporáneas. Influencias y transferencias",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01069",
+      "source": "PER_0039",
+      "target": "EXP_0010_1",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Violeta y sus contemporáneas. Influencias y transferencias",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01070",
+      "source": "PER_0020",
+      "target": "EXP_0011_01",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Antúnez: Paisaje y Poesía (Centenario Nemesio Antúnez - Estación Ñuble)",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01071",
+      "source": "PER_0020",
+      "target": "EXP_0011_02",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Antúnez: Paisaje y Poesía (Centenario Nemesio Antúnez - Estación Biobío)",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01072",
+      "source": "PER_0020",
+      "target": "EXP_0011_03",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Antúnez: Paisaje y Poesía (Centenario Nemesio Antúnez - Estación Maule)",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01073",
+      "source": "PER_0040",
+      "target": "EXP_0012",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Crisis, crisis, crisis: La normalidad de la emergencia",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01074",
+      "source": "PER_0041",
+      "target": "EXP_0012",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Crisis, crisis, crisis: La normalidad de la emergencia",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01075",
+      "source": "PER_0042",
+      "target": "EXP_0012",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Crisis, crisis, crisis: La normalidad de la emergencia",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01076",
+      "source": "PER_0043",
+      "target": "EXP_0012",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Crisis, crisis, crisis: La normalidad de la emergencia",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01077",
+      "source": "Colección MUSAC",
+      "target": "EXP_0012",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Crisis, crisis, crisis: La normalidad de la emergencia",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01078",
+      "source": "PER_0031",
+      "target": "EXP_0013",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Sonata: Exposición Individual de Wladymir Bernechea",
+      "_sheet_name": "Exposiciones_Curadurias"
+    },
+    {
+      "id": "IMPL_01079",
+      "source": "PER_0038",
+      "target": "EXP_0014",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Exhibition: Desacatos: Serie de obras de Laura Rodig",
+      "_sheet_name": "Exposiciones_Curadurias"
     }
   ]
 }

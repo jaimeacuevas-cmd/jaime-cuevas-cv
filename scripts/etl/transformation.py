@@ -386,7 +386,7 @@ class DataTransformer:
         return links
 
     def _generate_implicit_links(self, raw_entities: Dict[str, List[Dict]]) -> List[Dict]:
-        """Generate implicit links: Agent → Education and Agent → Position."""
+        """Generate implicit links: Agent → Education, Agent → Position, and Agent → Exhibition."""
         links = []
         link_counter = 1000  # Start high to avoid collision with explicit REL_ IDs
 
@@ -427,5 +427,28 @@ class DataTransformer:
                 }
                 links.append(link)
                 link_counter += 1
+
+        # Generate links from Exposiciones_Curadurias (Agent → Exhibition)
+        exhibitions = raw_entities.get('Exhibition', [])
+        for exp_row in exhibitions:
+            exp_id = exp_row.get('id_exposicion', '').strip()
+            artists_field = exp_row.get('id_artistas_involucrados', '')
+
+            if exp_id and artists_field:
+                # Parse pipe-delimited artist IDs (e.g., "PER_0031 | PER_0032")
+                artist_ids = [aid.strip() for aid in str(artists_field).split('|') if aid.strip()]
+
+                for artist_id in artist_ids:
+                    link = {
+                        'id': f"IMPL_{link_counter:05d}",
+                        'source': artist_id,
+                        'target': exp_id,
+                        'predicate': 'crm:P14i_performed',
+                        'predicate_label': 'Participó en',
+                        'description': f"Exhibition: {exp_row.get('titulo_exposicion', '')}",
+                        '_sheet_name': 'Exposiciones_Curadurias',
+                    }
+                    links.append(link)
+                    link_counter += 1
 
         return links
