@@ -1461,13 +1461,15 @@
             nodeG.on('dblclick', (event, d) => {
               event.stopPropagation();
               if (d.id !== 'PER_0001') {
-                if (d.fx !== null) {
+                if (d.pinned) {
                   // Unpin node
+                  d.pinned = false;
                   d.fx = null;
                   d.fy = null;
                   console.log(`Nodo ${d.id} desanclado - vuelve a la simulación`);
                 } else {
                   // Pin node
+                  d.pinned = true;
                   d.fx = d.x;
                   d.fy = d.y;
                   console.log(`Nodo ${d.id} anclado en posición`);
@@ -1529,9 +1531,10 @@
 
     function dragended(event, d) {
       if (!event.active) simulation.alphaTarget(0);
-      // Mantener nodo fijo en su posición (no resetear fx/fy)
-      // El nodo permanecerá donde el usuario lo colocó
-      // Para desfijar, hacer double-click en el nodo
+      if (!d.pinned) {
+        d.fx = null;
+        d.fy = null;
+      }
     }
 
     function highlightNeighbors(targetNode) {

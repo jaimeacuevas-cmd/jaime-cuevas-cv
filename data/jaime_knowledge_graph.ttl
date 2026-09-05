@@ -2570,3 +2570,23 @@ jc:PER_0001 crm:P14i_performed jc:PRJ_0015 .
 jc:PER_0001 crm:P14i_performed jc:PRJ_0016 .
 
 jc:PER_0009 crm:P14i_performed jc:PRJ_0017 .
+
+jc:PER_0001 crm:P14i_performed jc:DIG_0001 .
+
+jc:PER_0001 crm:P14i_performed jc:DIG_0006 .
+
+jc:PER_0001 crm:P14i_performed jc:DIG_0008 .
+
+jc:PER_0001 crm:P14i_performed jc:DIG_0009 .
+
+jc:PER_0001 crm:P14i_performed jc:DIG_0010 .
+
+jc:PER_0001 crm:P14i_performed jc:DIG_0011 .
+
+jc:PER_0001 crm:P14i_performed jc:DIG_0012 .
+
+jc:PER_0001 crm:P14i_performed jc:DIG_0013 .
+
+jc:PER_0001 crm:P14i_performed jc:DIG_0014 .
+
+jc:PER_0001 crm:P14i_performed jc:DIG_0015 .
