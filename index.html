@@ -738,10 +738,19 @@
     // VARIABLE DECLARATIONS (must be before functions)
     let fullGraphData = null;
     let geoData = null;
+    let svg, g, simulation;
+    let nodeSelection, linkSelection;
     let currentMode = 'interactive';
+    let currentSubtab = 'graph';
+    let currentLayout = 'force';
+    let isIsolatedMode = false;
+    let isExpandedAll = false;
+    let selectedActiveNode = null;
     let expandedNodeIds = new Set();
     let activeNodes = [];
     let activeLinks = [];
+    let semanticPath = [];
+    let leafletMap = null;
 
     // DATA INJECTION
     // Runtime data loading (hybrid: fetch + bundled fallback)
@@ -807,21 +816,6 @@
       'Concept': 300,
       'Location': 290
     };
-
-    // Global state variables - INITIALIZATION
-    let svg, g, simulation;
-    let nodeSelection, linkSelection;
-    let currentMode = 'interactive';
-    let currentSubtab = 'graph';
-    let currentLayout = 'force';
-    let isIsolatedMode = false;
-    let isExpandedAll = false;
-    let selectedActiveNode = null;
-    let expandedNodeIds = new Set();
-    let activeNodes = [];
-    let activeLinks = [];
-    let semanticPath = [];
-    let leafletMap = null;
 
     const categoryColors = {
       'Agent': '#f59e0b',
