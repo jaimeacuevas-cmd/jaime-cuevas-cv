@@ -343,7 +343,8 @@ jc:ORG_0040 a crm:E74_Group ;
     rdfs:label "Isabel Croxatto Galería" .
 
 jc:ORG_0041 a crm:E74_Group ;
-    rdfs:label "CECAL UdeC - Centro de Extensión Cultural Alfonso Lagos (Universidad de Concepción)" .
+    rdfs:label "CECAL UdeC - Centro de Extensión Cultural Alfonso Lagos (Universidad de Concepción)" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q113665601> .
 
 jc:ORG_0042 a crm:E74_Group ;
     rdfs:label "MUSAC - Museo de Arte Contemporáneo de Castilla y León" ;
@@ -740,7 +741,8 @@ jc:LOC_0057 a crm:E53_Place ;
     rdfs:label "CECAL UdeC (Chillán)" ;
     geo:long -72.1034 ;
     geo:lat -36.6066 ;
-    schema:areaServed "Ñuble" .
+    schema:areaServed "Ñuble" ;
+    skos:exactMatch <https://www.wikidata.org/wiki/Q113665601> .
 
 jc:CON_0001 a skos:Concept ;
     rdfs:label "Humanidades Digitales" ;

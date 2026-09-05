@@ -1697,7 +1697,7 @@
       "source_sheet": "",
       "row_number": 41,
       "city": "Chillán (Región de Ñuble)",
-      "wikidata": null
+      "wikidata": "Q113665601"
     },
     {
       "id": "ORG_0042",
@@ -3074,7 +3074,7 @@
         -72.1034,
         -36.6066
       ],
-      "wikidata": null,
+      "wikidata": "Q113665601",
       "why_relevant": null,
       "micro_summary": null,
       "parent_org_id": null,
