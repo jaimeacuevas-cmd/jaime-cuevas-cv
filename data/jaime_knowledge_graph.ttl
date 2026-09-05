@@ -1317,8 +1317,6 @@ jc:ORG_0029 crm:P87_is_identified_by jc:LOC_0049 .
 
 jc:ORG_0040 crm:P87_is_identified_by jc:LOC_0056 .
 
-jc:Colección privada documentada en Proyecto Monvoisin (traslado obra) crm:P87_is_identified_by jc:LOC_0058 .
-
 jc:PER_0001 crm:P14i_performed jc:PRJ_0008 .
 
 jc:PRJ_0008 crm:P108_has_produced jc:DIG_0001 .

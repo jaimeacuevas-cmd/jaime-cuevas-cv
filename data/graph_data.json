@@ -3,10 +3,10 @@
     "version": "2.0",
     "source": "CV_Dataset_Maestro_Jaime_Cuevas.xlsx",
     "node_count": 211,
-    "link_count": 430,
+    "link_count": 429,
     "sheet_count": 12,
     "validation_status": "PASS",
-    "validation_warnings": 118,
+    "validation_warnings": 117,
     "filtered_nodes": 82
   },
   "nodes": [
@@ -1929,7 +1929,7 @@
       "wikidata": null,
       "why_relevant": null,
       "micro_summary": null,
-      "parent_org_id": "Colección privada documentada en Proyecto Monvoisin (traslado obra)",
+      "parent_org_id": null,
       "is_user_primary": false,
       "precision_type": ""
     },
@@ -3914,14 +3914,6 @@
       "target": "LOC_0056",
       "predicate": "crm:P87_is_identified_by",
       "description": "Organization ORG_0040 has location LOC_0056",
-      "_sheet_name": "Lugares_y_Sedes_GENERATED"
-    },
-    {
-      "id": "REL_ORG_LOC_0058",
-      "source": "Colección privada documentada en Proyecto Monvoisin (traslado obra)",
-      "target": "LOC_0058",
-      "predicate": "crm:P87_is_identified_by",
-      "description": "Organization Colección privada documentada en Proyecto Monvoisin (traslado obra) has location LOC_0058",
       "_sheet_name": "Lugares_y_Sedes_GENERATED"
     },
     {
