@@ -1610,3 +1610,45 @@ jc:PER_0038 crm:P14i_performed jc:EXP_0014 .
 jc:PER_0009 crm:P14i_performed jc:PRJ_0017 .
 
 jc:PER_0001 crm:P14i_performed jc:PRJ_0017 .
+
+jc:PER_0015 crm:P129_subject_of jc:PUB_0001 .
+
+jc:PER_0015 crm:P129_subject_of jc:PUB_0010 .
+
+jc:PER_0015 crm:P129_subject_of jc:PUB_0014 .
+
+jc:PER_0016 crm:P129_subject_of jc:PUB_0011 .
+
+jc:PER_0016 crm:P129_subject_of jc:PUB_0015 .
+
+jc:PER_0017 crm:P129_subject_of jc:PUB_0015 .
+
+jc:PER_0025 crm:P129_subject_of jc:PUB_0016 .
+
+jc:PER_0033 crm:P14i_performed jc:EXP_0005 .
+
+jc:PER_0034 crm:P14i_performed jc:EXP_0005 .
+
+jc:PER_0035 crm:P14i_performed jc:EXP_0005 .
+
+jc:PER_0033 crm:P129_subject_of jc:PUB_0006 .
+
+jc:PER_0034 crm:P129_subject_of jc:PUB_0006 .
+
+jc:PER_0035 crm:P129_subject_of jc:PUB_0006 .
+
+jc:PER_0015 crm:P14i_performed jc:EXP_0001 .
+
+jc:PER_0016 crm:P14i_performed jc:EXP_0001 .
+
+jc:PER_0017 crm:P14i_performed jc:EXP_0001 .
+
+jc:PER_0018 crm:P14i_performed jc:EXP_0001 .
+
+jc:PER_0019 crm:P14i_performed jc:EXP_0001 .
+
+jc:PER_0015 crm:P14i_performed jc:PRJ_0008 .
+
+jc:PER_0016 crm:P14i_performed jc:PRJ_0006 .
+
+jc:PER_0017 crm:P14i_performed jc:PRJ_0006 .
