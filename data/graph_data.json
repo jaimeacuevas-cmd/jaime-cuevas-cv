@@ -2,12 +2,12 @@
   "metadata": {
     "version": "2.0",
     "source": "CV_Dataset_Maestro_Jaime_Cuevas.xlsx",
-    "node_count": 221,
-    "link_count": 514,
+    "node_count": 225,
+    "link_count": 524,
     "sheet_count": 12,
     "validation_status": "PASS",
     "validation_warnings": 119,
-    "filtered_nodes": 78
+    "filtered_nodes": 74
   },
   "nodes": [
     {
@@ -3960,6 +3960,54 @@
       "is_core": false,
       "source_sheet": "",
       "row_number": 6
+    },
+    {
+      "id": "DIG_0012",
+      "type": "DigitalHeritage",
+      "label": "Archivo de Podcast: Humanidades Digitales & Patrimonio",
+      "short_name": null,
+      "category": "Podcast | Entrevistas",
+      "description": null,
+      "url": "https://Plataformas de Audio Digital",
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 7
+    },
+    {
+      "id": "DIG_0013",
+      "type": "DigitalHeritage",
+      "label": "Participaciones en Programas de Radio",
+      "short_name": null,
+      "category": "Radio | Participaciones",
+      "description": null,
+      "url": "https://Estaciones de Radio Chile",
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 8
+    },
+    {
+      "id": "DIG_0014",
+      "type": "DigitalHeritage",
+      "label": "Transmisiones en Vivo: Conversaciones sobre Curaduría Digital",
+      "short_name": null,
+      "category": "Instagram Live | Transmisiones",
+      "description": null,
+      "url": "https://@jaime_cuevas (Instagram)",
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 9
+    },
+    {
+      "id": "DIG_0015",
+      "type": "DigitalHeritage",
+      "label": "Archivo de Conferencias y Webinars",
+      "short_name": null,
+      "category": "Video | Conferencias",
+      "description": null,
+      "url": "https://Plataformas de Video (YouTube, Vimeo)",
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 10
     }
   ],
   "links": [
@@ -8562,6 +8610,96 @@
       "predicate_label": "Realizó/Lidera",
       "description": "Project: Callejera Madrid: Desarrollo digital y curación web",
       "_sheet_name": "Proyectos_y_Fondos"
+    },
+    {
+      "id": "IMPL_01202",
+      "source": "PER_0001",
+      "target": "DIG_0001",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Produjo/Desarrolló",
+      "description": "Digital Heritage: QUINSAC. Estudios razonados de arte y coleccionismo",
+      "_sheet_name": "Portafolio_Digital_Web"
+    },
+    {
+      "id": "IMPL_01203",
+      "source": "PER_0001",
+      "target": "DIG_0006",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Produjo/Desarrolló",
+      "description": "Digital Heritage: Monvoisin: huellas territoriales de un artista",
+      "_sheet_name": "Portafolio_Digital_Web"
+    },
+    {
+      "id": "IMPL_01204",
+      "source": "PER_0001",
+      "target": "DIG_0008",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Produjo/Desarrolló",
+      "description": "Digital Heritage: Plataforma virtual Salón de Estudiantes",
+      "_sheet_name": "Portafolio_Digital_Web"
+    },
+    {
+      "id": "IMPL_01205",
+      "source": "PER_0001",
+      "target": "DIG_0009",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Produjo/Desarrolló",
+      "description": "Digital Heritage: Callejera Madrid",
+      "_sheet_name": "Portafolio_Digital_Web"
+    },
+    {
+      "id": "IMPL_01206",
+      "source": "PER_0001",
+      "target": "DIG_0010",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Produjo/Desarrolló",
+      "description": "Digital Heritage: Arquitectura Art Déco en Santiago centro",
+      "_sheet_name": "Portafolio_Digital_Web"
+    },
+    {
+      "id": "IMPL_01207",
+      "source": "PER_0001",
+      "target": "DIG_0011",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Produjo/Desarrolló",
+      "description": "Digital Heritage: Mármoles y Bronces entre el Mediterráneo y los Andes",
+      "_sheet_name": "Portafolio_Digital_Web"
+    },
+    {
+      "id": "IMPL_01208",
+      "source": "PER_0001",
+      "target": "DIG_0012",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Produjo/Desarrolló",
+      "description": "Digital Heritage: Archivo de Podcast: Humanidades Digitales & Patrimonio",
+      "_sheet_name": "Portafolio_Digital_Web"
+    },
+    {
+      "id": "IMPL_01209",
+      "source": "PER_0001",
+      "target": "DIG_0013",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Produjo/Desarrolló",
+      "description": "Digital Heritage: Participaciones en Programas de Radio",
+      "_sheet_name": "Portafolio_Digital_Web"
+    },
+    {
+      "id": "IMPL_01210",
+      "source": "PER_0001",
+      "target": "DIG_0014",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Produjo/Desarrolló",
+      "description": "Digital Heritage: Transmisiones en Vivo: Conversaciones sobre Curaduría Digital",
+      "_sheet_name": "Portafolio_Digital_Web"
+    },
+    {
+      "id": "IMPL_01211",
+      "source": "PER_0001",
+      "target": "DIG_0015",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Produjo/Desarrolló",
+      "description": "Digital Heritage: Archivo de Conferencias y Webinars",
+      "_sheet_name": "Portafolio_Digital_Web"
     }
   ]
 }
