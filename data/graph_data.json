@@ -3,10 +3,10 @@
     "version": "2.0",
     "source": "CV_Dataset_Maestro_Jaime_Cuevas.xlsx",
     "node_count": 271,
-    "link_count": 116,
+    "link_count": 122,
     "sheet_count": 12,
     "validation_status": "PASS",
-    "validation_warnings": 36
+    "validation_warnings": 42
   },
   "nodes": [
     {
@@ -5952,6 +5952,60 @@
       "target": "PER_0011",
       "predicate": "crm:P11_had_participant",
       "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0078",
+      "source": "PER_0022",
+      "target": "crm:P11_had_participant",
+      "predicate": "PRJ_0009",
+      "year": "Rodrigo Rojas De Negri es sujeto del FONDART Archivo Fotográfico",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0079",
+      "source": "PER_0022",
+      "target": "crm:P129_subject_of",
+      "predicate": "PUB_0003",
+      "year": "Rodrigo Rojas De Negri es sujeto del libro de investigación",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0080",
+      "source": "PER_0022",
+      "target": "crm:P129_subject_of",
+      "predicate": "EXP_0006",
+      "year": "Exposición \"A 30 años de Rodrigo Rojas de Negri\" (2016)",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0081",
+      "source": "PER_0022",
+      "target": "crm:P129_subject_of",
+      "predicate": "EXP_0007",
+      "year": "Exposición \"Un exilio sin retorno. Rodrigo Rojas De Negri\"",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0082",
+      "source": "PER_0022",
+      "target": "crm:P74_has_current_or_former_residence",
+      "predicate": "LOC_0053",
+      "year": "Rodrigo Rojas De Negri residió en exilio en Washington D.C.",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0083",
+      "source": "PER_0022",
+      "target": "crm:P11_had_participant",
+      "predicate": "COM_0012",
+      "year": "Tema de charla de mediación curatorial",
       "description": null,
       "_sheet_name": "Relaciones_Grafo_LOD"
     }

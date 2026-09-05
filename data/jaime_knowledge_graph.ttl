@@ -1386,3 +1386,15 @@ jc:PER_0001 crm:P11_had_participant jc:PER_0004 .
 jc:PER_0001 crm:P11_had_participant jc:PER_0011 .
 
 jc:PER_0008 crm:P11_had_participant jc:PER_0011 .
+
+jc:PER_0022 PRJ_0009 jc:crm:P11_had_participant .
+
+jc:PER_0022 PUB_0003 jc:crm:P129_subject_of .
+
+jc:PER_0022 EXP_0006 jc:crm:P129_subject_of .
+
+jc:PER_0022 EXP_0007 jc:crm:P129_subject_of .
+
+jc:PER_0022 LOC_0053 jc:crm:P74_has_current_or_former_residence .
+
+jc:PER_0022 COM_0012 jc:crm:P11_had_participant .
