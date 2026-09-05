@@ -3,7 +3,7 @@
     "version": "2.0",
     "source": "CV_Dataset_Maestro_Jaime_Cuevas.xlsx",
     "node_count": 261,
-    "link_count": 659,
+    "link_count": 660,
     "sheet_count": 12,
     "validation_status": "PASS",
     "validation_warnings": 148,
@@ -7712,6 +7712,15 @@
       "target": "LOC_0059",
       "predicate": "crm:P7_took_place_at",
       "year": "Presentación realizada en Tabacalera",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0297",
+      "source": "COM_0006",
+      "target": "LOC_0041",
+      "predicate": "crm:P7_took_place_at",
+      "year": "",
       "description": null,
       "_sheet_name": "Relaciones_Grafo_LOD"
     },
