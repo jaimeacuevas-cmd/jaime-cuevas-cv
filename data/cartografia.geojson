@@ -3,7 +3,7 @@
   "metadata": {
     "projection": "WGS84",
     "feature_count": 62,
-    "filtered_count": 0
+    "filtered_count": 1
   },
   "features": [
     {
@@ -327,31 +327,6 @@
         "micro_summary": null,
         "is_core": false,
         "parent_org_id": "ORG_0015",
-        "is_user_primary": false,
-        "precision_type": "exact"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.44653347584588,
-          -34.62815117682938
-        ]
-      },
-      "properties": {
-        "id": "LOC_0014",
-        "name": "Fundación TyPA / CAIA UBA (Buenos Aires)",
-        "type": "Location",
-        "city": "Buenos Aires",
-        "country": null,
-        "wikidata": null,
-        "description": null,
-        "why_relevant": null,
-        "micro_summary": null,
-        "is_core": false,
-        "parent_org_id": "ORG_0016",
         "is_user_primary": false,
         "precision_type": "exact"
       }
@@ -1554,6 +1529,31 @@
         "parent_org_id": null,
         "is_user_primary": true,
         "precision_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.44653,
+          -34.62815
+        ]
+      },
+      "properties": {
+        "id": "LOC_0064",
+        "name": "CAIA / Universidad de Buenos Aires",
+        "type": "Location",
+        "city": "Buenos Aires",
+        "country": null,
+        "wikidata": null,
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": "ORG_0031",
+        "is_user_primary": false,
+        "precision_type": "exact"
       }
     }
   ]

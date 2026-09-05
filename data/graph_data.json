@@ -2,12 +2,12 @@
   "metadata": {
     "version": "2.0",
     "source": "CV_Dataset_Maestro_Jaime_Cuevas.xlsx",
-    "node_count": 279,
+    "node_count": 278,
     "link_count": 693,
     "sheet_count": 12,
     "validation_status": "PASS",
     "validation_warnings": 148,
-    "filtered_nodes": 25
+    "filtered_nodes": 27
   },
   "nodes": [
     {
@@ -1329,20 +1329,6 @@
       "wikidata": "Q13371"
     },
     {
-      "id": "ORG_0016",
-      "type": "Organization",
-      "label": "Fundación TyPA (Teoría y Práctica de las Artes)",
-      "short_name": "TYPA",
-      "category": "Fundación Cultural",
-      "description": null,
-      "url": null,
-      "is_core": false,
-      "source_sheet": "",
-      "row_number": 16,
-      "city": "Buenos Aires",
-      "wikidata": null
-    },
-    {
       "id": "ORG_0017",
       "type": "Organization",
       "label": "Wikimedia Argentina",
@@ -2015,30 +2001,6 @@
       "why_relevant": null,
       "micro_summary": null,
       "parent_org_id": "ORG_0015",
-      "is_user_primary": false,
-      "precision_type": "exact"
-    },
-    {
-      "id": "LOC_0014",
-      "type": "Location",
-      "label": "Fundación TyPA / CAIA UBA (Buenos Aires)",
-      "short_name": null,
-      "category": "Sede Institucional",
-      "description": null,
-      "url": null,
-      "is_core": false,
-      "source_sheet": "",
-      "row_number": 14,
-      "city": "Buenos Aires",
-      "district": "Comuna 1",
-      "coordinates": [
-        -58.44653347584588,
-        -34.62815117682938
-      ],
-      "wikidata": null,
-      "why_relevant": null,
-      "micro_summary": null,
-      "parent_org_id": "ORG_0016",
       "is_user_primary": false,
       "precision_type": "exact"
     },
@@ -3214,6 +3176,30 @@
       "parent_org_id": null,
       "is_user_primary": true,
       "precision_type": ""
+    },
+    {
+      "id": "LOC_0064",
+      "type": "Location",
+      "label": "CAIA / Universidad de Buenos Aires",
+      "short_name": null,
+      "category": "Centro de Investigación",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 64,
+      "city": "Buenos Aires",
+      "district": "Comuna 1",
+      "coordinates": [
+        -58.44653,
+        -34.62815
+      ],
+      "wikidata": null,
+      "why_relevant": null,
+      "micro_summary": null,
+      "parent_org_id": "ORG_0031",
+      "is_user_primary": false,
+      "precision_type": "exact"
     },
     {
       "id": "EDU_0001",
@@ -5266,14 +5252,6 @@
       "_sheet_name": "Lugares_y_Sedes_GENERATED"
     },
     {
-      "id": "REL_ORG_LOC_0014",
-      "source": "ORG_0016",
-      "target": "LOC_0014",
-      "predicate": "crm:P87_is_identified_by",
-      "description": "Organization ORG_0016 has location LOC_0014",
-      "_sheet_name": "Lugares_y_Sedes_GENERATED"
-    },
-    {
       "id": "REL_ORG_LOC_0015",
       "source": "ORG_0018",
       "target": "LOC_0015",
@@ -5471,6 +5449,14 @@
       "target": "LOC_0056",
       "predicate": "crm:P87_is_identified_by",
       "description": "Organization ORG_0040 has location LOC_0056",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0064",
+      "source": "ORG_0031",
+      "target": "LOC_0064",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0031 has location LOC_0064",
       "_sheet_name": "Lugares_y_Sedes_GENERATED"
     },
     {
@@ -8221,7 +8207,7 @@
     {
       "id": "REL_0306",
       "source": "ORG_0031",
-      "target": "LOC_0014",
+      "target": "LOC_0064",
       "predicate": "crm:P87_is_identified_by",
       "year": "",
       "description": null,

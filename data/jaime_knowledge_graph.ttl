@@ -446,7 +446,7 @@ jc:LOC_0013 a crm:E53_Place ;
     skos:exactMatch <https://www.wikidata.org/wiki/Q13371> .
 
 jc:LOC_0014 a crm:E53_Place ;
-    rdfs:label "Fundación TyPA / CAIA UBA (Buenos Aires)" ;
+    rdfs:label "Fundación TyPA (Buenos Aires)" ;
     geo:long -58.44653347584588 ;
     geo:lat -34.62815117682938 ;
     schema:areaServed "Buenos Aires" .
@@ -782,6 +782,12 @@ jc:LOC_0063 a crm:E53_Place ;
     geo:long -70.59510712009342 ;
     geo:lat -33.46513656821872 ;
     schema:areaServed "Santiago" .
+
+jc:LOC_0064 a crm:E53_Place ;
+    rdfs:label "CAIA / Universidad de Buenos Aires" ;
+    geo:long -58.44653 ;
+    geo:lat -34.62815 ;
+    schema:areaServed "Buenos Aires" .
 
 jc:VOC_0001 a skos:Concept ;
     rdfs:label "Humanidades Digitales" ;
@@ -1364,6 +1370,8 @@ jc:ORG_0037 crm:P87_is_identified_by jc:LOC_0048 .
 jc:ORG_0029 crm:P87_is_identified_by jc:LOC_0049 .
 
 jc:ORG_0040 crm:P87_is_identified_by jc:LOC_0056 .
+
+jc:ORG_0031 crm:P87_is_identified_by jc:LOC_0064 .
 
 jc:PER_0001 crm:P14i_performed jc:PRJ_0008 .
 
@@ -1975,7 +1983,7 @@ jc:ORG_0026 crm:P87_is_identified_by jc:LOC_0023 .
 
 jc:ORG_0030 crm:P87_is_identified_by jc:LOC_0016 .
 
-jc:ORG_0031 crm:P87_is_identified_by jc:LOC_0014 .
+jc:ORG_0031 crm:P87_is_identified_by jc:LOC_0064 .
 
 jc:ORG_0032 crm:P87_is_identified_by jc:LOC_0041 .
 
