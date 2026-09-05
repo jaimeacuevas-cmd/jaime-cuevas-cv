@@ -1175,7 +1175,7 @@ jc:ORG_0034 crm:P87_is_identified_by jc:LOC_0003 .
 
 jc:ORG_0004 crm:P87_is_identified_by jc:LOC_0004 .
 
-jc:Maestría en Estudios Curatoriales (2024-2025) crm:P87_is_identified_by jc:LOC_0005 .
+jc:ORG_0005 crm:P87_is_identified_by jc:LOC_0005 .
 
 jc:ORG_0006 crm:P87_is_identified_by jc:LOC_0006 .
 

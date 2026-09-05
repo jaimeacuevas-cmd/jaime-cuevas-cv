@@ -6,7 +6,7 @@
     "link_count": 349,
     "sheet_count": 12,
     "validation_status": "PASS",
-    "validation_warnings": 147
+    "validation_warnings": 146
   },
   "nodes": [
     {
@@ -1759,7 +1759,7 @@
         -33.4352
       ],
       "wikidata": "Q1138865",
-      "why_relevant": null,
+      "why_relevant": "Museo Nacional de Bellas Artes - Investigación, curaduría y publicaciones sobre colecciones",
       "micro_summary": null,
       "parent_org_id": "ORG_0002",
       "is_user_primary": false,
@@ -1783,7 +1783,7 @@
         -33.4414
       ],
       "wikidata": "Q3329153",
-      "why_relevant": null,
+      "why_relevant": "Museo de Arte Contemporáneo - Exposiciones curadas y estudios de colecciones",
       "micro_summary": null,
       "parent_org_id": "ORG_0001",
       "is_user_primary": true,
@@ -1807,7 +1807,7 @@
         -33.444
       ],
       "wikidata": "Q232438",
-      "why_relevant": null,
+      "why_relevant": "Universidad de Chile - Investigación, docencia e acceso a archivos históricos",
       "micro_summary": null,
       "parent_org_id": "ORG_0034",
       "is_user_primary": false,
@@ -1831,7 +1831,7 @@
         -33.4975
       ],
       "wikidata": "Q1465225",
-      "why_relevant": null,
+      "why_relevant": "Universidad Adolfo Ibáñez - Docencia en curatoría y gestión de proyectos",
       "micro_summary": null,
       "parent_org_id": "ORG_0004",
       "is_user_primary": false,
@@ -1857,7 +1857,7 @@
       "wikidata": "Q219615",
       "why_relevant": "Maestría en Estudios Curatoriales (2024-2025)",
       "micro_summary": null,
-      "parent_org_id": "Maestría en Estudios Curatoriales (2024-2025)",
+      "parent_org_id": "ORG_0005",
       "is_user_primary": false,
       "precision_type": "exact"
     },
@@ -1879,7 +1879,7 @@
         -33.4216
       ],
       "wikidata": "Q5761404",
-      "why_relevant": null,
+      "why_relevant": "CNCR - Investigación en conservación y restauración de patrimonio cultural",
       "micro_summary": null,
       "parent_org_id": "ORG_0006",
       "is_user_primary": false,
@@ -1903,7 +1903,7 @@
         -33.4428
       ],
       "wikidata": "Q50682283",
-      "why_relevant": null,
+      "why_relevant": "Ministerio de las Culturas - Financiamiento y gestión de proyectos artísticos",
       "micro_summary": null,
       "parent_org_id": "ORG_0008",
       "is_user_primary": false,
@@ -1927,7 +1927,7 @@
         -33.4445
       ],
       "wikidata": "Q7894229",
-      "why_relevant": null,
+      "why_relevant": "Universidad Alberto Hurtado - Docencia e investigación en humanidades",
       "micro_summary": null,
       "parent_org_id": "ORG_0009",
       "is_user_primary": false,
@@ -1951,7 +1951,7 @@
         -33.4468
       ],
       "wikidata": "Q1138767",
-      "why_relevant": null,
+      "why_relevant": "Universidad de Santiago de Chile (IDEA) - Docencia en arte y diseño",
       "micro_summary": null,
       "parent_org_id": "ORG_0010",
       "is_user_primary": false,
@@ -1975,7 +1975,7 @@
         -33.4392
       ],
       "wikidata": "Q6034177",
-      "why_relevant": null,
+      "why_relevant": "MAPA / GAM - Exposiciones e investigación de arte popular",
       "micro_summary": null,
       "parent_org_id": "ORG_0011",
       "is_user_primary": false,
@@ -1999,7 +1999,7 @@
         -33.4503
       ],
       "wikidata": "Q6034346",
-      "why_relevant": null,
+      "why_relevant": "MSSA - Investigación sobre patrimonio y memoria cultural",
       "micro_summary": null,
       "parent_org_id": "ORG_0012",
       "is_user_primary": false,
@@ -2023,7 +2023,7 @@
         40.4168
       ],
       "wikidata": "Q54865181",
-      "why_relevant": null,
+      "why_relevant": "Ministerio de Cultura (España) - Colaboración internacional en investigación",
       "micro_summary": null,
       "parent_org_id": "ORG_0013",
       "is_user_primary": false,
@@ -2191,7 +2191,7 @@
         -33.445
       ],
       "wikidata": "Q5961605",
-      "why_relevant": null,
+      "why_relevant": "LOM Ediciones - Publicaciones sobre arte e historia cultural",
       "micro_summary": null,
       "parent_org_id": "ORG_0022",
       "is_user_primary": false,
@@ -2599,7 +2599,7 @@
         -33.5667
       ],
       "wikidata": "Q51079",
-      "why_relevant": null,
+      "why_relevant": "Colección Privada Padre Hurtado - Estudios de arte y conservación",
       "micro_summary": null,
       "parent_org_id": "ORG_0009",
       "is_user_primary": false,
@@ -2743,7 +2743,7 @@
         -33.4411
       ],
       "wikidata": "Q287900",
-      "why_relevant": null,
+      "why_relevant": "Pontificia Universidad Católica - Docencia en curatoría y patrimonio",
       "micro_summary": null,
       "parent_org_id": "ORG_0033",
       "is_user_primary": false,
@@ -2767,7 +2767,7 @@
         -33.4372
       ],
       "wikidata": "Q7894220",
-      "why_relevant": null,
+      "why_relevant": "Universidad Andrés Bello - Docencia en historia del arte y curatoría",
       "micro_summary": null,
       "parent_org_id": "ORG_0034",
       "is_user_primary": false,
@@ -2791,7 +2791,7 @@
         -33.45
       ],
       "wikidata": "Q50682284",
-      "why_relevant": null,
+      "why_relevant": "CENFOTO UDP - Docencia en patrimonio digital y archivos fotográficos",
       "micro_summary": null,
       "parent_org_id": "ORG_0035",
       "is_user_primary": false,
@@ -2815,7 +2815,7 @@
         19.4326
       ],
       "wikidata": null,
-      "why_relevant": null,
+      "why_relevant": "Instituto Mexicano de Curaduría y Restauración - Colaboración internacional",
       "micro_summary": null,
       "parent_org_id": "ORG_0036",
       "is_user_primary": false,
@@ -2839,7 +2839,7 @@
         -33.439
       ],
       "wikidata": null,
-      "why_relevant": null,
+      "why_relevant": "ISUCH - Universidad de Chile - Docencia en curaduría y gestión cultural",
       "micro_summary": null,
       "parent_org_id": "ORG_0003",
       "is_user_primary": false,
@@ -2863,7 +2863,7 @@
         -33.444
       ],
       "wikidata": "Q5918342",
-      "why_relevant": null,
+      "why_relevant": "Instituto de Seguridad Laboral - Colaboración en proyectos de investigación",
       "micro_summary": null,
       "parent_org_id": "ORG_0038",
       "is_user_primary": false,
@@ -2887,7 +2887,7 @@
         -33.444
       ],
       "wikidata": "Q232438",
-      "why_relevant": null,
+      "why_relevant": "Centro de Estudios Árabes y Judaicos UCH - Investigación y docencia interdisciplinaria",
       "micro_summary": null,
       "parent_org_id": "ORG_0037",
       "is_user_primary": false,
@@ -3124,7 +3124,7 @@
       "district": null,
       "coordinates": null,
       "wikidata": null,
-      "why_relevant": "Colección Privada - Proyecto Monvoisin",
+      "why_relevant": "Colección Privada Nancagua - Proyecto Monvoisin",
       "micro_summary": null,
       "parent_org_id": "Colección privada documentada en Proyecto Monvoisin (traslado obra)",
       "is_user_primary": false,
@@ -5107,10 +5107,10 @@
     },
     {
       "id": "REL_ORG_LOC_0005",
-      "source": "Maestría en Estudios Curatoriales (2024-2025)",
+      "source": "ORG_0005",
       "target": "LOC_0005",
       "predicate": "crm:P87_is_identified_by",
-      "description": "Organization Maestría en Estudios Curatoriales (2024-2025) has location LOC_0005",
+      "description": "Organization ORG_0005 has location LOC_0005",
       "_sheet_name": "Lugares_y_Sedes_GENERATED"
     },
     {
