@@ -354,6 +354,9 @@ jc:ORG_0042 a crm:E74_Group ;
 
 jc:ORG_0038 a crm:E74_Group .
 
+jc:ORG_0043 a crm:E74_Group ;
+    rdfs:label "Promoción del Arte" .
+
 jc:LOC_0001 a crm:E53_Place ;
     rdfs:label "Museo Nacional de Bellas Artes (MNBA)" ;
     geo:long -70.64354723358485 ;
@@ -1855,6 +1858,8 @@ jc:PER_0001 crm:P14_carried_out_by jc:COM_0011 .
 jc:PER_0001 crm:P14_carried_out_by jc:COM_0006 .
 
 jc:PER_0001 crm:P14_carried_out_by jc:COM_0007 .
+
+jc:ORG_0043 crm:P355_is_area_of jc:ORG_0013 .
 
 jc:PER_0001 crm:P14i_performed jc:EDU_0001 .
 

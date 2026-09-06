@@ -2,8 +2,8 @@
   "metadata": {
     "version": "2.0",
     "source": "CV_Dataset_Maestro_Jaime_Cuevas.xlsx",
-    "node_count": 279,
-    "link_count": 622,
+    "node_count": 280,
+    "link_count": 623,
     "sheet_count": 12,
     "validation_status": "PASS",
     "validation_warnings": 57,
@@ -1690,6 +1690,20 @@
       "source_sheet": "",
       "row_number": 43,
       "city": "Santiago",
+      "wikidata": null
+    },
+    {
+      "id": "ORG_0043",
+      "type": "Organization",
+      "label": "Promoción del Arte",
+      "short_name": "PDA",
+      "category": "Departamento / Área Ministerial",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 44,
+      "city": "Madrid",
       "wikidata": null
     },
     {
@@ -7564,6 +7578,15 @@
       "target": "COM_0007",
       "predicate": "crm:P14_carried_out_by",
       "year": "2017",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0324",
+      "source": "ORG_0043",
+      "target": "ORG_0013",
+      "predicate": "crm:P355_is_area_of",
+      "year": "2025",
       "description": null,
       "_sheet_name": "Relaciones_Grafo_LOD"
     },
