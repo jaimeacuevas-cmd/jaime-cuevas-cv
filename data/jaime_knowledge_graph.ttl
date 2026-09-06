@@ -668,7 +668,7 @@ jc:LOC_0045 a crm:E53_Place ;
     schema:areaServed "Ciudad de México" .
 
 jc:LOC_0046 a crm:E53_Place ;
-    rdfs:label "ISUCH - Universidad de Chile" ;
+    rdfs:label "ISUCH (Instituto de Estudios Secundarios)" ;
     geo:long -70.653 ;
     geo:lat -33.439 ;
     schema:areaServed "Santiago" .
@@ -1360,8 +1360,6 @@ jc:ORG_0034 crm:P87_is_identified_by jc:LOC_0043 .
 jc:ORG_0035 crm:P87_is_identified_by jc:LOC_0044 .
 
 jc:ORG_0036 crm:P87_is_identified_by jc:LOC_0045 .
-
-jc:ORG_0003 crm:P87_is_identified_by jc:LOC_0046 .
 
 jc:ORG_0038 crm:P87_is_identified_by jc:LOC_0047 .
 
@@ -2639,13 +2637,9 @@ jc:PRJ_0016 crm:P7_took_place_at jc:LOC_0007 .
 
 jc:EDU_0003 crm:P7_took_place_at jc:LOC_0004 .
 
-jc:EDU_0004 crm:P7_took_place_at jc:LOC_0046 .
-
 jc:EDU_0005 crm:P7_took_place_at jc:LOC_0008 .
 
 jc:EDU_0005 crm:P7_took_place_at jc:LOC_0036 .
-
-jc:EDU_0006 crm:P7_took_place_at jc:LOC_0046 .
 
 jc:EDU_0007 crm:P7_took_place_at jc:LOC_0009 .
 
@@ -2656,10 +2650,6 @@ jc:EDU_0009 crm:P7_took_place_at jc:LOC_0012 .
 jc:EDU_0010 crm:P7_took_place_at jc:LOC_0045 .
 
 jc:EDU_0011 crm:P7_took_place_at jc:LOC_0044 .
-
-jc:EDU_0012 crm:P7_took_place_at jc:LOC_0046 .
-
-jc:EDU_0013 crm:P7_took_place_at jc:LOC_0046 .
 
 jc:EDU_0014 crm:P7_took_place_at jc:LOC_0042 .
 

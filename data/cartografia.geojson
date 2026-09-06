@@ -2,8 +2,8 @@
   "type": "FeatureCollection",
   "metadata": {
     "projection": "WGS84",
-    "feature_count": 52,
-    "filtered_count": 11
+    "feature_count": 51,
+    "filtered_count": 12
   },
   "features": [
     {
@@ -1027,31 +1027,6 @@
         "micro_summary": null,
         "is_core": false,
         "parent_org_id": "ORG_0036",
-        "is_user_primary": false,
-        "precision_type": "exact"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -70.653,
-          -33.439
-        ]
-      },
-      "properties": {
-        "id": "LOC_0046",
-        "name": "ISUCH - Universidad de Chile",
-        "type": "Location",
-        "city": "Santiago",
-        "country": null,
-        "wikidata": null,
-        "description": null,
-        "why_relevant": null,
-        "micro_summary": null,
-        "is_core": false,
-        "parent_org_id": "ORG_0003",
         "is_user_primary": false,
         "precision_type": "exact"
       }
