@@ -383,7 +383,7 @@ jc:LOC_0004 a crm:E53_Place ;
     skos:exactMatch <https://www.wikidata.org/wiki/Q1465225> .
 
 jc:LOC_0005 a crm:E53_Place ;
-    rdfs:label "Universitat de Barcelona (FIMA / Plaça Universitat)" ;
+    rdfs:label "FIMA - Facultat d'Informàtica, Multimèdia i Telecomunicació (Universitat de Barcelona)" ;
     geo:long 2.139053349698989 ;
     geo:lat 41.38154687801553 ;
     schema:areaServed "Barcelona" ;
@@ -1393,6 +1393,8 @@ jc:ORG_0037 crm:P87_is_identified_by jc:LOC_0048 .
 jc:ORG_0029 crm:P87_is_identified_by jc:LOC_0049 .
 
 jc:ORG_0040 crm:P87_is_identified_by jc:LOC_0056 .
+
+jc:ORG_0013 crm:P87_is_identified_by jc:LOC_0059 .
 
 jc:ORG_0035 crm:P87_is_identified_by jc:LOC_0065 .
 
@@ -2553,6 +2555,8 @@ jc:EDU_0007 crm:P7_took_place_at jc:LOC_0009 .
 jc:EDU_0008 crm:P7_took_place_at jc:LOC_0004 .
 
 jc:EDU_0009 crm:P7_took_place_at jc:LOC_0012 .
+
+jc:EDU_0009 crm:P7_took_place_at jc:LOC_0059 .
 
 jc:EDU_0010 crm:P7_took_place_at jc:LOC_0045 .
 

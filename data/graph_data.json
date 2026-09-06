@@ -3,7 +3,7 @@
     "version": "2.0",
     "source": "CV_Dataset_Maestro_Jaime_Cuevas.xlsx",
     "node_count": 279,
-    "link_count": 622,
+    "link_count": 624,
     "sheet_count": 12,
     "validation_status": "PASS",
     "validation_warnings": 57,
@@ -1791,7 +1791,7 @@
     {
       "id": "LOC_0005",
       "type": "Location",
-      "label": "Universitat de Barcelona (FIMA / Plaça Universitat)",
+      "label": "FIMA - Facultat d'Informàtica, Multimèdia i Telecomunicació (Universitat de Barcelona)",
       "short_name": null,
       "category": "Sede Universitaria",
       "description": null,
@@ -2981,7 +2981,7 @@
       "wikidata": "Q9256",
       "why_relevant": null,
       "micro_summary": null,
-      "parent_org_id": null,
+      "parent_org_id": "ORG_0013",
       "is_user_primary": false,
       "precision_type": "exact"
     },
@@ -5423,6 +5423,14 @@
       "target": "LOC_0056",
       "predicate": "crm:P87_is_identified_by",
       "description": "Organization ORG_0040 has location LOC_0056",
+      "_sheet_name": "Lugares_y_Sedes_GENERATED"
+    },
+    {
+      "id": "REL_ORG_LOC_0059",
+      "source": "ORG_0013",
+      "target": "LOC_0059",
+      "predicate": "crm:P87_is_identified_by",
+      "description": "Organization ORG_0013 has location LOC_0059",
       "_sheet_name": "Lugares_y_Sedes_GENERATED"
     },
     {
@@ -10654,6 +10662,16 @@
     },
     {
       "id": "IMPL_02008",
+      "source": "EDU_0009",
+      "target": "LOC_0059",
+      "predicate": "crm:P7_took_place_at",
+      "predicate_label": "Asociado a",
+      "description": "Derived from ORG_0013 → LOC_0059",
+      "_sheet_name": "DERIVED",
+      "_derived": true
+    },
+    {
+      "id": "IMPL_02009",
       "source": "EDU_0010",
       "target": "LOC_0045",
       "predicate": "crm:P7_took_place_at",
@@ -10663,7 +10681,7 @@
       "_derived": true
     },
     {
-      "id": "IMPL_02009",
+      "id": "IMPL_02010",
       "source": "EDU_0011",
       "target": "LOC_0044",
       "predicate": "crm:P7_took_place_at",
@@ -10673,7 +10691,7 @@
       "_derived": true
     },
     {
-      "id": "IMPL_02010",
+      "id": "IMPL_02011",
       "source": "EDU_0011",
       "target": "LOC_0065",
       "predicate": "crm:P7_took_place_at",
@@ -10683,7 +10701,7 @@
       "_derived": true
     },
     {
-      "id": "IMPL_02011",
+      "id": "IMPL_02012",
       "source": "EDU_0014",
       "target": "LOC_0042",
       "predicate": "crm:P7_took_place_at",
@@ -10693,7 +10711,7 @@
       "_derived": true
     },
     {
-      "id": "IMPL_02012",
+      "id": "IMPL_02013",
       "source": "EDU_0016",
       "target": "LOC_0047",
       "predicate": "crm:P7_took_place_at",

@@ -117,7 +117,7 @@
       },
       "properties": {
         "id": "LOC_0005",
-        "name": "Universitat de Barcelona (FIMA / Plaça Universitat)",
+        "name": "FIMA - Facultat d'Informàtica, Multimèdia i Telecomunicació (Universitat de Barcelona)",
         "type": "Location",
         "city": "Barcelona",
         "country": null,
@@ -1326,7 +1326,7 @@
         "why_relevant": null,
         "micro_summary": null,
         "is_core": false,
-        "parent_org_id": null,
+        "parent_org_id": "ORG_0013",
         "is_user_primary": false,
         "precision_type": "exact"
       }
