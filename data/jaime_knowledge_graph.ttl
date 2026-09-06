@@ -446,7 +446,7 @@ jc:LOC_0013 a crm:E53_Place ;
     skos:exactMatch <https://www.wikidata.org/wiki/Q13371> .
 
 jc:LOC_0014 a crm:E53_Place ;
-    rdfs:label "Fundación TyPA (Buenos Aires)" ;
+    rdfs:label "Fundación TyPA / CAIA UBA (Buenos Aires)" ;
     geo:long -58.44653347584588 ;
     geo:lat -34.62815117682938 ;
     schema:areaServed "Buenos Aires" .
@@ -668,7 +668,7 @@ jc:LOC_0045 a crm:E53_Place ;
     schema:areaServed "Ciudad de México" .
 
 jc:LOC_0046 a crm:E53_Place ;
-    rdfs:label "ISUCH - Universidad de Chile" ;
+    rdfs:label "ISUCH (Instituto de Estudios Secundarios)" ;
     geo:long -70.653 ;
     geo:lat -33.439 ;
     schema:areaServed "Santiago" .
@@ -784,10 +784,10 @@ jc:LOC_0063 a crm:E53_Place ;
     schema:areaServed "Santiago" .
 
 jc:LOC_0064 a crm:E53_Place ;
-    rdfs:label "CAIA / Universidad de Buenos Aires" ;
-    geo:long -58.44653 ;
-    geo:lat -34.62815 ;
-    schema:areaServed "Buenos Aires" .
+    rdfs:label "Instituto de Estudios Internacionales de la Universidad de Chile" ;
+    geo:long -70.62813240660158 ;
+    geo:lat -33.43714059270721 ;
+    schema:areaServed "Chile" .
 
 jc:VOC_0001 a skos:Concept ;
     rdfs:label "Humanidades Digitales" ;
@@ -922,7 +922,7 @@ jc:EDU_0016 a crm:E7_Activity ;
     rdfs:label "Prevención de Riesgos y Árbol de Causas" .
 
 jc:CAR_0001 a crm:E7_Activity ;
-    rdfs:label "Gestor de Proyectos Patrimoniales | Punto Focal ENPD | Investigador de Colecciones" .
+    rdfs:label "Investigador de Colecciones" .
 
 jc:CAR_0002 a crm:E7_Activity ;
     rdfs:label "Evaluador de Proyectos Culturales (FONDART)" .
@@ -956,6 +956,21 @@ jc:CAR_0011 a crm:E7_Activity ;
 
 jc:CAR_0012 a crm:E7_Activity ;
     rdfs:label "Director de Infraestructuras Culturales | Arquitecto de Datos & Curador de Colecciones" .
+
+jc:CAR_0013 a crm:E7_Activity ;
+    rdfs:label "Coordinador de Itinerancias Expositivas" .
+
+jc:CAR_0014 a crm:E7_Activity ;
+    rdfs:label "Investigador - Proyecto Monvoisin en América" .
+
+jc:CAR_0015 a crm:E7_Activity ;
+    rdfs:label "Gestor de Proyectos Patrimoniales" .
+
+jc:CAR_0016 a crm:E7_Activity ;
+    rdfs:label "Punto Focal - Estrategia Nacional de Patrimonios Digitales (ENPD)" .
+
+jc:CAR_0017 a crm:E7_Activity ;
+    rdfs:label "Asistente de Investigación en Curatoría" .
 
 jc:PUB_0001 a crm:E31_Document ;
     rdfs:label "Monvoisin en América: Identidades, atribuciones y mercado del arte" ;
@@ -1293,6 +1308,9 @@ jc:DIG_0014 a crm:E73_Information_Object ;
 jc:DIG_0015 a crm:E73_Information_Object ;
     rdfs:label "Archivo de Conferencias y Webinars" .
 
+jc:DIG_0006 a crm:E73_Information_Object ;
+    rdfs:label "https://quinsac.mnba.gob.cl/" .
+
 jc:ORG_0002 crm:P87_is_identified_by jc:LOC_0001 .
 
 jc:ORG_0001 crm:P87_is_identified_by jc:LOC_0002 .
@@ -1361,8 +1379,6 @@ jc:ORG_0035 crm:P87_is_identified_by jc:LOC_0044 .
 
 jc:ORG_0036 crm:P87_is_identified_by jc:LOC_0045 .
 
-jc:ORG_0003 crm:P87_is_identified_by jc:LOC_0046 .
-
 jc:ORG_0038 crm:P87_is_identified_by jc:LOC_0047 .
 
 jc:ORG_0037 crm:P87_is_identified_by jc:LOC_0048 .
@@ -1370,8 +1386,6 @@ jc:ORG_0037 crm:P87_is_identified_by jc:LOC_0048 .
 jc:ORG_0029 crm:P87_is_identified_by jc:LOC_0049 .
 
 jc:ORG_0040 crm:P87_is_identified_by jc:LOC_0056 .
-
-jc:ORG_0031 crm:P87_is_identified_by jc:LOC_0064 .
 
 jc:PER_0001 crm:P14i_performed jc:PRJ_0008 .
 
@@ -1967,69 +1981,41 @@ jc:COM_0019 crm:P7_took_place_at jc:LOC_0059 .
 
 jc:COM_0006 crm:P7_took_place_at jc:LOC_0041 .
 
-jc:ORG_0003 crm:P87_is_identified_by jc:LOC_0003 .
+jc:EDU_0001 crm:P7_took_place_at jc:LOC_0005 .
 
-jc:ORG_0004 crm:P87_is_identified_by jc:LOC_0001 .
+jc:EDU_0004 crm:P7_took_place_at jc:LOC_0062 .
 
-jc:ORG_0006 crm:P87_is_identified_by jc:LOC_0001 .
+jc:EDU_0006 crm:P7_took_place_at jc:LOC_0064 .
 
-jc:ORG_0007 crm:P87_is_identified_by jc:LOC_0001 .
+jc:EDU_0012 crm:P7_took_place_at jc:LOC_0048 .
 
-jc:ORG_0010 crm:P87_is_identified_by jc:LOC_0001 .
+jc:EDU_0013 crm:P7_took_place_at jc:LOC_0063 .
 
-jc:ORG_0013 crm:P87_is_identified_by jc:LOC_0012 .
+jc:EXP_0010 crm:P14i_performed jc:CAR_0013 .
 
-jc:ORG_0026 crm:P87_is_identified_by jc:LOC_0023 .
+jc:EXP_0010_1 crm:P14i_performed jc:CAR_0013 .
 
-jc:ORG_0030 crm:P87_is_identified_by jc:LOC_0016 .
+jc:EXP_0011_01 crm:P14i_performed jc:CAR_0013 .
 
-jc:ORG_0031 crm:P87_is_identified_by jc:LOC_0064 .
+jc:EXP_0011_02 crm:P14i_performed jc:CAR_0013 .
 
-jc:ORG_0032 crm:P87_is_identified_by jc:LOC_0041 .
+jc:EXP_0011_03 crm:P14i_performed jc:CAR_0013 .
 
-jc:ORG_0033 crm:P87_is_identified_by jc:LOC_0042 .
+jc:PRJ_0007 crm:P7_took_place_at jc:LOC_0013 .
 
-jc:COM_0007 crm:P7_took_place_at jc:LOC_0016 .
+jc:PRJ_0008 dcat:produces jc:DIG_0006 .
 
-jc:EDU_0003 crm:P87_is_identified_by jc:LOC_0060 .
+jc:EXP_0001 crm:P14i_performed jc:PRJ_0008 .
 
-jc:EDU_0003 crm:P87_is_identified_by jc:LOC_0061 .
+jc:CAR_0014 crm:P14i_performed jc:PRJ_0008 .
 
-jc:EDU_0008 crm:P87_is_identified_by jc:LOC_0061 .
+jc:CAR_0015 crm:P14i_performed jc:EXP_0001 .
 
-jc:EDU_0004 crm:P87_is_identified_by jc:LOC_0062 .
-
-jc:EDU_0006 crm:P87_is_identified_by jc:LOC_0062 .
-
-jc:EDU_0012 crm:P87_is_identified_by jc:LOC_0062 .
-
-jc:EDU_0013 crm:P87_is_identified_by jc:LOC_0062 .
-
-jc:EXP_0010_1 crm:P7_took_place_at jc:LOC_0051 .
-
-jc:EXP_0011_02 crm:P7_took_place_at jc:LOC_0051 .
-
-jc:PER_0001 crm:P11_had_participant jc:LOC_0017 .
-
-jc:PER_0001 crm:P11_had_participant jc:LOC_0052 .
-
-jc:PER_0001 crm:P11_had_participant jc:LOC_0049 .
-
-jc:PER_0001 crm:P12_occurred_in_the_presence_of jc:LOC_0053 .
-
-jc:PER_0001 crm:P12_occurred_in_the_presence_of jc:LOC_0054 .
-
-jc:PER_0001 crm:P11_had_participant jc:LOC_0018 .
-
-jc:EDU_0013 crm:P87_is_identified_by jc:LOC_0063 .
-
-jc:PER_0001 crm:P7_took_place_at jc:LOC_0013 .
+jc:CAR_0017 crm:P14i_performed jc:EXP_DESACATOS .
 
 jc:PER_0001 crm:P14i_performed jc:EDU_0001 .
 
 jc:EDU_0001 crm:P87_is_identified_by jc:ORG_0005 .
-
-jc:EDU_0001 crm:P7_took_place_at jc:LOC_0005 .
 
 jc:PER_0001 crm:P14i_performed jc:EDU_0002 .
 
@@ -2039,75 +2025,49 @@ jc:PER_0001 crm:P14i_performed jc:EDU_0003 .
 
 jc:EDU_0003 crm:P87_is_identified_by jc:ORG_0004 .
 
-jc:EDU_0003 crm:P7_took_place_at jc:LOC_0004 .
-
 jc:PER_0001 crm:P14i_performed jc:EDU_0004 .
 
 jc:EDU_0004 crm:P87_is_identified_by jc:ORG_0003 .
-
-jc:EDU_0004 crm:P7_took_place_at jc:LOC_0046 .
 
 jc:PER_0001 crm:P14i_performed jc:EDU_0005 .
 
 jc:EDU_0005 crm:P87_is_identified_by jc:ORG_0009 .
 
-jc:EDU_0005 crm:P7_took_place_at jc:LOC_0008 .
-
-jc:EDU_0005 crm:P7_took_place_at jc:LOC_0036 .
-
 jc:PER_0001 crm:P14i_performed jc:EDU_0006 .
 
 jc:EDU_0006 crm:P87_is_identified_by jc:ORG_0003 .
-
-jc:EDU_0006 crm:P7_took_place_at jc:LOC_0046 .
 
 jc:PER_0001 crm:P14i_performed jc:EDU_0007 .
 
 jc:EDU_0007 crm:P87_is_identified_by jc:ORG_0010 .
 
-jc:EDU_0007 crm:P7_took_place_at jc:LOC_0009 .
-
 jc:PER_0001 crm:P14i_performed jc:EDU_0008 .
 
 jc:EDU_0008 crm:P87_is_identified_by jc:ORG_0004 .
-
-jc:EDU_0008 crm:P7_took_place_at jc:LOC_0004 .
 
 jc:PER_0001 crm:P14i_performed jc:EDU_0009 .
 
 jc:EDU_0009 crm:P87_is_identified_by jc:ORG_0013 .
 
-jc:EDU_0009 crm:P7_took_place_at jc:LOC_0012 .
-
 jc:PER_0001 crm:P14i_performed jc:EDU_0010 .
 
 jc:EDU_0010 crm:P87_is_identified_by jc:ORG_0036 .
-
-jc:EDU_0010 crm:P7_took_place_at jc:LOC_0045 .
 
 jc:PER_0001 crm:P14i_performed jc:EDU_0011 .
 
 jc:EDU_0011 crm:P87_is_identified_by jc:ORG_0035 .
 
-jc:EDU_0011 crm:P7_took_place_at jc:LOC_0044 .
-
 jc:PER_0001 crm:P14i_performed jc:EDU_0012 .
 
 jc:EDU_0012 crm:P87_is_identified_by jc:ORG_0003 .
-
-jc:EDU_0012 crm:P7_took_place_at jc:LOC_0046 .
 
 jc:PER_0001 crm:P14i_performed jc:EDU_0013 .
 
 jc:EDU_0013 crm:P87_is_identified_by jc:ORG_0003 .
 
-jc:EDU_0013 crm:P7_took_place_at jc:LOC_0046 .
-
 jc:PER_0001 crm:P14i_performed jc:EDU_0014 .
 
 jc:EDU_0014 crm:P87_is_identified_by jc:ORG_0033 .
-
-jc:EDU_0014 crm:P7_took_place_at jc:LOC_0042 .
 
 jc:PER_0001 crm:P14i_performed jc:EDU_0015 .
 
@@ -2117,13 +2077,9 @@ jc:PER_0001 crm:P14i_performed jc:EDU_0016 .
 
 jc:EDU_0016 crm:P87_is_identified_by jc:ORG_0038 .
 
-jc:EDU_0016 crm:P7_took_place_at jc:LOC_0047 .
-
 jc:PER_0001 crm:P14i_performed jc:CAR_0001 .
 
 jc:CAR_0001 crm:P14_carried_out_by jc:ORG_0002 .
-
-jc:CAR_0001 crm:P7_took_place_at jc:LOC_0001 .
 
 jc:PER_0001 crm:P14i_performed jc:CAR_0002 .
 
@@ -2133,63 +2089,63 @@ jc:PER_0001 crm:P14i_performed jc:CAR_0003 .
 
 jc:CAR_0003 crm:P14_carried_out_by jc:ORG_0034 .
 
-jc:CAR_0003 crm:P7_took_place_at jc:LOC_0003 .
-
-jc:CAR_0003 crm:P7_took_place_at jc:LOC_0043 .
-
 jc:PER_0001 crm:P14i_performed jc:CAR_0004 .
 
 jc:CAR_0004 crm:P14_carried_out_by jc:ORG_0004 .
-
-jc:CAR_0004 crm:P7_took_place_at jc:LOC_0004 .
 
 jc:PER_0001 crm:P14i_performed jc:CAR_0005 .
 
 jc:CAR_0005 crm:P14_carried_out_by jc:ORG_0022 .
 
-jc:CAR_0005 crm:P7_took_place_at jc:LOC_0019 .
-
 jc:PER_0001 crm:P14i_performed jc:CAR_0006 .
 
 jc:CAR_0006 crm:P14_carried_out_by jc:ORG_0001 .
-
-jc:CAR_0006 crm:P7_took_place_at jc:LOC_0002 .
 
 jc:PER_0001 crm:P14i_performed jc:CAR_0007 .
 
 jc:CAR_0007 crm:P14_carried_out_by jc:ORG_0037 .
 
-jc:CAR_0007 crm:P7_took_place_at jc:LOC_0048 .
+jc:CAR_0007 crm:P7_took_place_at jc:LOC_0046 .
 
 jc:PER_0001 crm:P14i_performed jc:CAR_0008 .
 
 jc:CAR_0008 crm:P14_carried_out_by jc:ORG_0012 .
 
-jc:CAR_0008 crm:P7_took_place_at jc:LOC_0011 .
-
 jc:PER_0001 crm:P14i_performed jc:CAR_0009 .
 
 jc:CAR_0009 crm:P14_carried_out_by jc:ORG_0011 .
-
-jc:CAR_0009 crm:P7_took_place_at jc:LOC_0010 .
 
 jc:PER_0001 crm:P14i_performed jc:CAR_0010 .
 
 jc:CAR_0010 crm:P14_carried_out_by jc:ORG_0006 .
 
-jc:CAR_0010 crm:P7_took_place_at jc:LOC_0006 .
-
 jc:PER_0001 crm:P14i_performed jc:CAR_0011 .
 
 jc:CAR_0011 crm:P14_carried_out_by jc:ORG_0004 .
-
-jc:CAR_0011 crm:P7_took_place_at jc:LOC_0004 .
 
 jc:PER_0001 crm:P14i_performed jc:CAR_0012 .
 
 jc:CAR_0012 crm:P14_carried_out_by jc:ORG_0038 .
 
-jc:CAR_0012 crm:P7_took_place_at jc:LOC_0047 .
+jc:PER_0001 crm:P14i_performed jc:CAR_0013 .
+
+jc:CAR_0013 crm:P14_carried_out_by jc:ORG_0008 .
+
+jc:PER_0001 crm:P14i_performed jc:CAR_0014 .
+
+jc:CAR_0014 crm:P14_carried_out_by jc:ORG_0002 .
+
+jc:PER_0001 crm:P14i_performed jc:CAR_0015 .
+
+jc:CAR_0015 crm:P14_carried_out_by jc:ORG_0002 .
+
+jc:PER_0001 crm:P14i_performed jc:CAR_0016 .
+
+jc:CAR_0016 crm:P14_carried_out_by jc:ORG_0002 .
+
+jc:PER_0001 crm:P14i_performed jc:CAR_0017 .
+
+jc:CAR_0017 crm:P14_carried_out_by jc:ORG_0002 .
 
 jc:PER_0001 crm:P14i_performed jc:EXP_0001 .
 
@@ -2535,8 +2491,6 @@ jc:PER_0001 crm:P14i_performed jc:COM_0001 .
 
 jc:COM_0001 crm:P61_occurred_at jc:ORG_0003 .
 
-jc:COM_0001 crm:P7_took_place_at jc:LOC_0046 .
-
 jc:PER_0001 crm:P14i_performed jc:COM_0002 .
 
 jc:COM_0002 crm:P61_occurred_at jc:ORG_0007 .
@@ -2545,67 +2499,45 @@ jc:PER_0001 crm:P14i_performed jc:COM_0003 .
 
 jc:COM_0003 crm:P61_occurred_at jc:ORG_0004 .
 
-jc:COM_0003 crm:P7_took_place_at jc:LOC_0004 .
-
 jc:PER_0001 crm:P14i_performed jc:COM_0004 .
 
 jc:COM_0004 crm:P61_occurred_at jc:ORG_0004 .
-
-jc:COM_0004 crm:P7_took_place_at jc:LOC_0004 .
 
 jc:PER_0001 crm:P14i_performed jc:COM_0005 .
 
 jc:COM_0005 crm:P61_occurred_at jc:ORG_0002 .
 
-jc:COM_0005 crm:P7_took_place_at jc:LOC_0001 .
-
 jc:PER_0001 crm:P14i_performed jc:COM_0006 .
 
 jc:COM_0006 crm:P61_occurred_at jc:ORG_0032 .
-
-jc:COM_0006 crm:P7_took_place_at jc:LOC_0041 .
 
 jc:PER_0001 crm:P14i_performed jc:COM_0007 .
 
 jc:COM_0007 crm:P61_occurred_at jc:ORG_0030 .
 
-jc:COM_0007 crm:P7_took_place_at jc:LOC_0040 .
-
 jc:PER_0001 crm:P14i_performed jc:COM_0008 .
 
 jc:COM_0008 crm:P61_occurred_at jc:ORG_0003 .
-
-jc:COM_0008 crm:P7_took_place_at jc:LOC_0046 .
 
 jc:PER_0001 crm:P14i_performed jc:COM_0009 .
 
 jc:COM_0009 crm:P61_occurred_at jc:ORG_0004 .
 
-jc:COM_0009 crm:P7_took_place_at jc:LOC_0004 .
-
 jc:PER_0001 crm:P14i_performed jc:COM_0010 .
 
 jc:COM_0010 crm:P61_occurred_at jc:ORG_0033 .
-
-jc:COM_0010 crm:P7_took_place_at jc:LOC_0042 .
 
 jc:PER_0001 crm:P14i_performed jc:COM_0011 .
 
 jc:COM_0011 crm:P61_occurred_at jc:ORG_0031 .
 
-jc:COM_0011 crm:P7_took_place_at jc:LOC_0064 .
-
 jc:PER_0001 crm:P14i_performed jc:COM_0012 .
 
 jc:COM_0012 crm:P61_occurred_at jc:ORG_0026 .
 
-jc:COM_0012 crm:P7_took_place_at jc:LOC_0023 .
-
 jc:PER_0001 crm:P14i_performed jc:COM_0013 .
 
 jc:COM_0013 crm:P61_occurred_at jc:ORG_0010 .
-
-jc:COM_0013 crm:P7_took_place_at jc:LOC_0009 .
 
 jc:PER_0001 crm:P14i_performed jc:COM_0014 .
 
@@ -2615,79 +2547,53 @@ jc:PER_0001 crm:P14i_performed jc:COM_0015 .
 
 jc:COM_0015 crm:P61_occurred_at jc:ORG_0002 .
 
-jc:COM_0015 crm:P7_took_place_at jc:LOC_0001 .
-
 jc:PER_0001 crm:P14i_performed jc:COM_0016 .
 
 jc:COM_0016 crm:P61_occurred_at jc:ORG_0002 .
-
-jc:COM_0016 crm:P7_took_place_at jc:LOC_0001 .
 
 jc:PER_0001 crm:P14i_performed jc:COM_0017 .
 
 jc:COM_0017 crm:P61_occurred_at jc:ORG_0002 .
 
-jc:COM_0017 crm:P7_took_place_at jc:LOC_0001 .
-
 jc:PER_0001 crm:P14i_performed jc:COM_0018 .
 
 jc:COM_0018 crm:P61_occurred_at jc:ORG_0003 .
-
-jc:COM_0018 crm:P7_took_place_at jc:LOC_0046 .
 
 jc:PER_0001 crm:P14i_performed jc:COM_0019 .
 
 jc:COM_0019 crm:P61_occurred_at jc:ORG_0013 .
 
-jc:COM_0019 crm:P7_took_place_at jc:LOC_0012 .
-
 jc:PER_0001 crm:P14i_performed jc:COM_0020 .
 
 jc:COM_0020 crm:P61_occurred_at jc:ORG_0002 .
-
-jc:COM_0020 crm:P7_took_place_at jc:LOC_0001 .
 
 jc:PER_0001 crm:P14i_performed jc:COM_0021 .
 
 jc:COM_0021 crm:P61_occurred_at jc:ORG_0002 .
 
-jc:COM_0021 crm:P7_took_place_at jc:LOC_0001 .
-
 jc:PER_0001 crm:P14i_performed jc:COM_0022 .
 
 jc:COM_0022 crm:P61_occurred_at jc:ORG_0002 .
-
-jc:COM_0022 crm:P7_took_place_at jc:LOC_0001 .
 
 jc:PER_0001 crm:P14i_performed jc:COM_0023 .
 
 jc:COM_0023 crm:P61_occurred_at jc:ORG_0002 .
 
-jc:COM_0023 crm:P7_took_place_at jc:LOC_0001 .
-
 jc:PER_0001 crm:P14i_performed jc:COM_0024 .
 
 jc:COM_0024 crm:P61_occurred_at jc:ORG_0002 .
-
-jc:COM_0024 crm:P7_took_place_at jc:LOC_0001 .
 
 jc:PER_0001 crm:P14i_performed jc:COM_0025 .
 
 jc:COM_0025 crm:P61_occurred_at jc:ORG_0002 .
 
-jc:COM_0025 crm:P7_took_place_at jc:LOC_0001 .
-
 jc:PER_0001 crm:P14i_performed jc:COM_0026 .
 
 jc:COM_0026 crm:P61_occurred_at jc:ORG_0006 .
 
-jc:COM_0026 crm:P7_took_place_at jc:LOC_0006 .
-
 jc:PER_0001 crm:P14i_performed jc:COM_0027 .
 
 jc:COM_0027 crm:P61_occurred_at jc:ORG_0002 .
-
-jc:COM_0027 crm:P7_took_place_at jc:LOC_0001 .
 
 jc:PER_0001 crm:P108_has_produced jc:PUB_0001 .
 
@@ -2727,127 +2633,43 @@ jc:PER_0001 crm:P108_has_produced jc:PUB_0018 .
 
 jc:PER_0001 crm:P14i_performed jc:PRJ_0001 .
 
-jc:PRJ_0001 crm:P14_carried_out_by jc:ORG_0008 .
-
-jc:PRJ_0001 crm:P7_took_place_at jc:LOC_0007 .
-
 jc:PER_0001 crm:P14i_performed jc:PRJ_0002 .
-
-jc:PRJ_0002 crm:P14_carried_out_by jc:ORG_0008 .
-
-jc:PRJ_0002 crm:P7_took_place_at jc:LOC_0007 .
 
 jc:PER_0001 crm:P14i_performed jc:PRJ_0003 .
 
-jc:PRJ_0003 crm:P14_carried_out_by jc:ORG_0016 .
-
-jc:PRJ_0003 crm:P7_took_place_at jc:LOC_0014 .
-
 jc:PER_0001 crm:P14i_performed jc:PRJ_0004 .
-
-jc:PRJ_0004 crm:P14_carried_out_by jc:ORG_0008 .
-
-jc:PRJ_0004 crm:P7_took_place_at jc:LOC_0007 .
 
 jc:PER_0001 crm:P14i_performed jc:PRJ_0005 .
 
-jc:PRJ_0005 crm:P14_carried_out_by jc:ORG_0002 .
-
-jc:PRJ_0005 crm:P7_took_place_at jc:LOC_0001 .
-
 jc:PER_0001 crm:P14i_performed jc:PRJ_0006 .
-
-jc:PRJ_0006 crm:P14_carried_out_by jc:ORG_0002 .
-
-jc:PRJ_0006 crm:P7_took_place_at jc:LOC_0001 .
 
 jc:PER_0001 crm:P14i_performed jc:PRJ_0007 .
 
-jc:PRJ_0007 crm:P14_carried_out_by jc:ORG_0008 .
-
-jc:PRJ_0007 crm:P7_took_place_at jc:LOC_0007 .
-
 jc:PER_0001 crm:P14i_performed jc:PRJ_0008 .
-
-jc:PRJ_0008 crm:P14_carried_out_by jc:ORG_0002 .
-
-jc:PRJ_0008 crm:P7_took_place_at jc:LOC_0001 .
 
 jc:PER_0001 crm:P14i_performed jc:PRJ_0008_N01 .
 
-jc:PRJ_0008_N01 crm:P14_carried_out_by jc:ORG_0020 .
-
-jc:PRJ_0008_N01 crm:P7_took_place_at jc:LOC_0017 .
-
 jc:PER_0001 crm:P14i_performed jc:PRJ_0008_N02 .
-
-jc:PRJ_0008_N02 crm:P14_carried_out_by jc:ORG_0021 .
-
-jc:PRJ_0008_N02 crm:P7_took_place_at jc:LOC_0018 .
 
 jc:PER_0001 crm:P14i_performed jc:PRJ_0008_N03 .
 
-jc:PRJ_0008_N03 crm:P14_carried_out_by jc:ORG_0018 .
-
-jc:PRJ_0008_N03 crm:P7_took_place_at jc:LOC_0015 .
-
-jc:PRJ_0008_N03 crm:P7_took_place_at jc:LOC_0022 .
-
-jc:PRJ_0008_N03 crm:P7_took_place_at jc:LOC_0029 .
-
 jc:PER_0001 crm:P14i_performed jc:PRJ_0008_N04 .
-
-jc:PRJ_0008_N04 crm:P14_carried_out_by jc:ORG_0019 .
-
-jc:PRJ_0008_N04 crm:P7_took_place_at jc:LOC_0016 .
 
 jc:PER_0001 crm:P14i_performed jc:PRJ_0009 .
 
-jc:PRJ_0009 crm:P14_carried_out_by jc:ORG_0008 .
-
-jc:PRJ_0009 crm:P7_took_place_at jc:LOC_0007 .
-
 jc:PER_0001 crm:P14i_performed jc:PRJ_0010 .
-
-jc:PRJ_0010 crm:P14_carried_out_by jc:ORG_0003 .
-
-jc:PRJ_0010 crm:P7_took_place_at jc:LOC_0046 .
 
 jc:PER_0001 crm:P14i_performed jc:PRJ_0011 .
 
-jc:PRJ_0011 crm:P14_carried_out_by jc:ORG_0013 .
-
-jc:PRJ_0011 crm:P7_took_place_at jc:LOC_0012 .
-
 jc:PER_0001 crm:P14i_performed jc:PRJ_0012 .
-
-jc:PRJ_0012 crm:P14_carried_out_by jc:ORG_0003 .
-
-jc:PRJ_0012 crm:P7_took_place_at jc:LOC_0046 .
 
 jc:PER_0001 crm:P14i_performed jc:PRJ_0013 .
 
-jc:PRJ_0013 crm:P14_carried_out_by jc:ORG_0013 .
-
-jc:PRJ_0013 crm:P7_took_place_at jc:LOC_0012 .
-
 jc:PER_0001 crm:P14i_performed jc:PRJ_0014 .
-
-jc:PRJ_0014 crm:P14_carried_out_by jc:ORG_0003 .
-
-jc:PRJ_0014 crm:P7_took_place_at jc:LOC_0046 .
 
 jc:PER_0001 crm:P14i_performed jc:PRJ_0015 .
 
-jc:PRJ_0015 crm:P14_carried_out_by jc:ORG_0003 .
-
-jc:PRJ_0015 crm:P7_took_place_at jc:LOC_0046 .
-
 jc:PER_0001 crm:P14i_performed jc:PRJ_0016 .
-
-jc:PRJ_0016 crm:P14_carried_out_by jc:ORG_0008 .
-
-jc:PRJ_0016 crm:P7_took_place_at jc:LOC_0007 .
 
 jc:PER_0009 crm:P14i_performed jc:PRJ_0017 .
 
@@ -2870,3 +2692,29 @@ jc:PER_0001 crm:P14i_performed jc:DIG_0013 .
 jc:PER_0001 crm:P14i_performed jc:DIG_0014 .
 
 jc:PER_0001 crm:P14i_performed jc:DIG_0015 .
+
+jc:PER_0001 crm:P14i_performed jc:DIG_0006 .
+
+jc:PUB_0017 crm:P7_took_place_at jc:LOC_0019 .
+
+jc:PRJ_0016 crm:P7_took_place_at jc:LOC_0007 .
+
+jc:EDU_0003 crm:P7_took_place_at jc:LOC_0004 .
+
+jc:EDU_0005 crm:P7_took_place_at jc:LOC_0008 .
+
+jc:EDU_0005 crm:P7_took_place_at jc:LOC_0036 .
+
+jc:EDU_0007 crm:P7_took_place_at jc:LOC_0009 .
+
+jc:EDU_0008 crm:P7_took_place_at jc:LOC_0004 .
+
+jc:EDU_0009 crm:P7_took_place_at jc:LOC_0012 .
+
+jc:EDU_0010 crm:P7_took_place_at jc:LOC_0045 .
+
+jc:EDU_0011 crm:P7_took_place_at jc:LOC_0044 .
+
+jc:EDU_0014 crm:P7_took_place_at jc:LOC_0042 .
+
+jc:EDU_0016 crm:P7_took_place_at jc:LOC_0047 .

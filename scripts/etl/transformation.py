@@ -71,6 +71,11 @@ class DataTransformer:
         self.links.extend(implicit_links)
         logger.info(f"Generated implicit links: {len(implicit_links)} (Agent→Education/Position)")
 
+        # Generate derived location links: Activity→Location via Organization→Location
+        derived_links = self._generate_derived_location_links()
+        self.links.extend(derived_links)
+        logger.info(f"Generated derived location links: {len(derived_links)} (Activity→Location via Org)")
+
         logger.info(f"Total nodes after transformation: {len(self.nodes)}")
 
         return self.nodes, self.links
@@ -306,28 +311,12 @@ class DataTransformer:
         for idx, row in enumerate(rows):
             node = self._create_base_node('Project', row, idx)
 
-            # Extract geographic data if present
-            coords_str = row.get('coordenadas_origen', '').strip()
-            coordinates = None
-            if coords_str and coords_str not in ['[N/A]', 'N/A', '']:
-                try:
-                    parts = coords_str.split(',')
-                    if len(parts) == 2:
-                        lat, lon = float(parts[0]), float(parts[1])
-                        coordinates = [lon, lat]  # GeoJSON: [lon, lat]
-                except (ValueError, IndexError):
-                    coordinates = None
-
             node.update({
                 'label': row.get('nombre_proyecto_o_premio', '').strip(),
                 'funder': row.get('institucion_agencia_financiamiento', '').strip() or None,
                 'period': normalize_period(row.get('periodo')),
                 'role': row.get('rol_desempenado', '').strip() or None,
                 'description': row.get('descripcion', '').strip() or None,
-                'coordinates': coordinates,
-                'nodo_origen': row.get('nodo_origen', '').strip() or None,
-                'escala_territorial': row.get('escala_territorial', '').strip() or None,
-                'concepto_espacial': row.get('concepto_espacial', '').strip() or None,
                 '_sheet_name': 'Proyectos_y_Fondos',
             })
 
@@ -396,48 +385,144 @@ class DataTransformer:
     def _transform_links(self, relations_raw: List[Dict]) -> List[Dict]:
         """Transform Relaciones_Grafo_LOD → link records."""
         links = []
+        discarded = []
 
         for idx, row in enumerate(relations_raw):
+            source = row.get('id_origen', '').strip() or None
+            target = row.get('id_destino', '').strip() or None
+            predicate = row.get('predicado_cidoc', 'rdfs:seeAlso').strip()
+
+            # VALIDATION: Check for corrupted links where source/target contains CRM predicates
+            # This happens when fields get swapped during data entry
+            if source and source.startswith(('crm:', 'schema:', 'rdfs:', 'skos:')):
+                reason = f"Source is a predicate: {source}"
+                discarded.append({'row': idx + 2, 'reason': reason})
+                continue
+
+            if target and target.startswith(('crm:', 'schema:', 'rdfs:', 'skos:')):
+                reason = f"Target is a predicate: {target}"
+                discarded.append({'row': idx + 2, 'reason': reason})
+                continue
+
+            # Validate that source/target are legitimate node IDs (start with known prefixes)
+            valid_prefixes = ('PER_', 'ORG_', 'LOC_', 'EXP_', 'CAR_', 'PRJ_', 'EDU_', 'PUB_', 'MED_', 'DIG_', '[')
+
+            if source and not any(source.startswith(p) for p in valid_prefixes):
+                reason = f"Source has invalid ID format: {source}"
+                discarded.append({'row': idx + 2, 'reason': reason})
+                continue
+
+            if target and not any(target.startswith(p) for p in valid_prefixes):
+                reason = f"Target has invalid ID format: {target}"
+                discarded.append({'row': idx + 2, 'reason': reason})
+                continue
+
             link = {
                 'id': f"REL_{idx+1:04d}",
-                'source': row.get('id_origen', '').strip() or None,
-                'target': row.get('id_destino', '').strip() or None,
-                'predicate': row.get('predicado_cidoc', 'rdfs:seeAlso').strip(),
+                'source': source,
+                'target': target,
+                'predicate': predicate,
                 'year': row.get('ano'),
                 'description': row.get('descripcion', '').strip() or None,
                 '_sheet_name': 'Relaciones_Grafo_LOD',
             }
 
-            # Only add if source and target are present
+            # Only add if source and target are present and valid
             if link['source'] and link['target']:
                 links.append(link)
 
+        # Log discarded links
+        if discarded:
+            logger.warning(f"Discarded {len(discarded)} malformed links during transformation:")
+            for item in discarded[:5]:  # Show first 5
+                logger.warning(f"  Row {item['row']}: {item['reason']}")
+            if len(discarded) > 5:
+                logger.warning(f"  ... and {len(discarded) - 5} more")
+
+        return links
+
+    def _generate_derived_location_links(self) -> List[Dict]:
+        """Generate Activity→Location links derived from Organization→Location associations."""
+        links = []
+        link_counter = 2000  # Start at different range to avoid collisions
+
+        # Build org → location mapping from existing links
+        org_locations = {}
+        for link in self.links:
+            if link.get('source', '').startswith('ORG_') and link.get('target', '').startswith('LOC_'):
+                org_id = link['source']
+                loc_id = link['target']
+                if org_id not in org_locations:
+                    org_locations[org_id] = []
+                if loc_id not in org_locations[org_id]:
+                    org_locations[org_id].append(loc_id)
+            elif link.get('target', '').startswith('ORG_') and link.get('source', '').startswith('LOC_'):
+                org_id = link['target']
+                loc_id = link['source']
+                if org_id not in org_locations:
+                    org_locations[org_id] = []
+                if loc_id not in org_locations[org_id]:
+                    org_locations[org_id].append(loc_id)
+
+        # For each Activity→Organization link, generate Activity→Location links
+        for link in self.links:
+            activity_id = None
+            org_id = None
+
+            # Check if this is an activity linked to an organization
+            if (link.get('source', '').startswith(('EDU_', 'POS_', 'EXP_', 'PUB_', 'PRJ_', 'MED_', 'DIG_'))
+                and link.get('target', '').startswith('ORG_')):
+                activity_id = link['source']
+                org_id = link['target']
+            elif (link.get('target', '').startswith(('EDU_', 'POS_', 'EXP_', 'PUB_', 'PRJ_', 'MED_', 'DIG_'))
+                  and link.get('source', '').startswith('ORG_')):
+                activity_id = link['target']
+                org_id = link['source']
+
+            # If we found an activity-org link, generate activity-location links
+            if activity_id and org_id and org_id in org_locations:
+                for loc_id in org_locations[org_id]:
+                    # Check if this link already exists to avoid duplicates
+                    link_exists = any(
+                        (l.get('source') == activity_id and l.get('target') == loc_id) or
+                        (l.get('target') == activity_id and l.get('source') == loc_id)
+                        for l in self.links
+                    )
+
+                    if not link_exists:
+                        # Determine the type of activity for better predicate label
+                        activity_prefix = activity_id[:3]
+                        if activity_prefix == 'EDU_':
+                            predicate_label = 'Se cursó en'
+                        elif activity_prefix == 'POS_':
+                            predicate_label = 'Se desarrolló en'
+                        elif activity_prefix == 'EXP_':
+                            predicate_label = 'Se realizó en'
+                        elif activity_prefix == 'MED_':
+                            predicate_label = 'Se realizó en'
+                        else:
+                            predicate_label = 'Asociado a'
+
+                        derived_link = {
+                            'id': f"IMPL_{link_counter:05d}",
+                            'source': activity_id,
+                            'target': loc_id,
+                            'predicate': 'crm:P7_took_place_at',
+                            'predicate_label': predicate_label,
+                            'description': f"Derived from {org_id} → {loc_id}",
+                            '_sheet_name': 'DERIVED',
+                            '_derived': True,
+                        }
+                        links.append(derived_link)
+                        link_counter += 1
+
+        logger.info(f"Generated {len(links)} derived location links from org associations")
         return links
 
     def _generate_implicit_links(self, raw_entities: Dict[str, List[Dict]]) -> List[Dict]:
-        """
-        Generate implicit links:
-        - Agent → Education, Education → Organization, Education → Location
-        - Agent → Position, Position → Organization, Position → Location
-        - Agent → Exhibition, Exhibition → Location
-        - Agent → Media, Media → Organization, Media → Location
-        - Agent → Project, Project → Location
-        - Agent → Publication
-        """
+        """Generate implicit links: Agent → Education, Agent → Position, and Agent → Exhibition."""
         links = []
         link_counter = 1000  # Start high to avoid collision with explicit REL_ IDs
-
-        # Build organization → location mappings from Locations table
-        # This allows us to link events/activities to their physical locations via organization
-        org_to_locations = {}
-        locations = raw_entities.get('Location', [])
-        for loc_row in locations:
-            parent_org = loc_row.get('parent_org_id', '').strip()
-            loc_id = loc_row.get('id_lugar', '').strip()
-            if parent_org and loc_id and parent_org.startswith('ORG_'):
-                if parent_org not in org_to_locations:
-                    org_to_locations[parent_org] = []
-                org_to_locations[parent_org].append(loc_id)
 
         # Generate links from Formacion_Academica (Agent → Education, Education → Organization, Education → Location)
         educations = raw_entities.get('Education', [])
@@ -445,6 +530,8 @@ class DataTransformer:
             agent_id = edu_row.get('id_agente', '').strip()
             edu_id = edu_row.get('id_formacion', '').strip()
             org_id = edu_row.get('id_organizacion', '').strip()
+            loc_destino_id = edu_row.get('nodo_destino', '').strip()
+            loc_origen_id = edu_row.get('nodo_origen', '').strip()
 
             # Agent → Education
             if agent_id and edu_id:
@@ -474,27 +561,42 @@ class DataTransformer:
                 links.append(link)
                 link_counter += 1
 
-                # Education → Location (if organization has associated locations)
-                if org_id in org_to_locations:
-                    for loc_id in org_to_locations[org_id]:
-                        link = {
-                            'id': f"IMPL_{link_counter:05d}",
-                            'source': edu_id,
-                            'target': loc_id,
-                            'predicate': 'crm:P7_took_place_at',
-                            'predicate_label': 'Ocurrió en',
-                            'description': f"Education location: {edu_row.get('institucion', '')}",
-                            '_sheet_name': 'Formacion_Academica',
-                        }
-                        links.append(link)
-                        link_counter += 1
+            # Education → Location (destination) - AUTO-GENERATED from nodo_destino
+            if edu_id and loc_destino_id and loc_destino_id.startswith('LOC_'):
+                link = {
+                    'id': f"IMPL_{link_counter:05d}",
+                    'source': edu_id,
+                    'target': loc_destino_id,
+                    'predicate': 'crm:P7_took_place_at',
+                    'predicate_label': 'Se cursó en',
+                    'description': f"Education at location: {loc_destino_id}",
+                    '_sheet_name': 'Formacion_Academica',
+                }
+                links.append(link)
+                link_counter += 1
 
-        # Generate links from Trayectoria_Laboral (Agent → Position, Position → Organization)
+            # Education → Location (origin) if different from destination
+            if edu_id and loc_origen_id and loc_origen_id != loc_destino_id and loc_origen_id.startswith('LOC_'):
+                link = {
+                    'id': f"IMPL_{link_counter:05d}",
+                    'source': edu_id,
+                    'target': loc_origen_id,
+                    'predicate': 'crm:P7_took_place_at',
+                    'predicate_label': 'Se cursó en',
+                    'description': f"Education at location: {loc_origen_id}",
+                    '_sheet_name': 'Formacion_Academica',
+                }
+                links.append(link)
+                link_counter += 1
+
+        # Generate links from Trayectoria_Laboral (Agent → Position, Position → Organization, Position → Location)
         positions = raw_entities.get('Position', [])
         for pos_row in positions:
             agent_id = pos_row.get('id_agente', '').strip()
             pos_id = pos_row.get('id_cargo', '').strip()
             org_id = str(pos_row.get('id_organizacion', '')).strip()
+            loc_destino_id = pos_row.get('nodo_destino', '').strip()
+            loc_origen_id = pos_row.get('nodo_origen', '').strip()
 
             # Agent → Position
             if agent_id and pos_id:
@@ -524,20 +626,33 @@ class DataTransformer:
                 links.append(link)
                 link_counter += 1
 
-                # Position → Location (if organization has associated locations)
-                if org_id in org_to_locations:
-                    for loc_id in org_to_locations[org_id]:
-                        link = {
-                            'id': f"IMPL_{link_counter:05d}",
-                            'source': pos_id,
-                            'target': loc_id,
-                            'predicate': 'crm:P7_took_place_at',
-                            'predicate_label': 'Ubicación física',
-                            'description': f"Position location: {pos_row.get('institucion', '')}",
-                            '_sheet_name': 'Trayectoria_Laboral',
-                        }
-                        links.append(link)
-                        link_counter += 1
+            # Position → Location (destination) - AUTO-GENERATED from nodo_destino
+            if pos_id and loc_destino_id and loc_destino_id.startswith('LOC_'):
+                link = {
+                    'id': f"IMPL_{link_counter:05d}",
+                    'source': pos_id,
+                    'target': loc_destino_id,
+                    'predicate': 'crm:P7_took_place_at',
+                    'predicate_label': 'Se desarrolló en',
+                    'description': f"Position at location: {loc_destino_id}",
+                    '_sheet_name': 'Trayectoria_Laboral',
+                }
+                links.append(link)
+                link_counter += 1
+
+            # Position → Location (origin) if different from destination
+            if pos_id and loc_origen_id and loc_origen_id != loc_destino_id and loc_origen_id.startswith('LOC_'):
+                link = {
+                    'id': f"IMPL_{link_counter:05d}",
+                    'source': pos_id,
+                    'target': loc_origen_id,
+                    'predicate': 'crm:P7_took_place_at',
+                    'predicate_label': 'Se desarrolló en',
+                    'description': f"Position at location: {loc_origen_id}",
+                    '_sheet_name': 'Trayectoria_Laboral',
+                }
+                links.append(link)
+                link_counter += 1
 
         # Generate links from Exposiciones_Curadurias (Agent → Exhibition, Exhibition → Location)
         exhibitions = raw_entities.get('Exhibition', [])
@@ -625,12 +740,14 @@ class DataTransformer:
                 links.append(link)
                 link_counter += 1
 
-        # Generate links from Medios_y_Congresos (Agent → Media and Media → Organization)
+        # Generate links from Medios_y_Congresos (Agent → Media, Media → Organization, Media → Location)
         medias = raw_entities.get('Media', [])
         for media_row in medias:
             agent_id = media_row.get('id_agente', '').strip()
             media_id = media_row.get('id_comunicacion', '').strip()
             org_id = media_row.get('id_organizacion_medio', '').strip()
+            loc_destino_id = media_row.get('nodo_destino', '').strip()
+            loc_origen_id = media_row.get('nodo_origen', '').strip()
 
             # Agent → Media
             if agent_id and media_id:
@@ -660,20 +777,33 @@ class DataTransformer:
                 links.append(link)
                 link_counter += 1
 
-                # Media → Location (if organization has associated locations)
-                if org_id in org_to_locations:
-                    for loc_id in org_to_locations[org_id]:
-                        link = {
-                            'id': f"IMPL_{link_counter:05d}",
-                            'source': media_id,
-                            'target': loc_id,
-                            'predicate': 'crm:P7_took_place_at',
-                            'predicate_label': 'Ocurrió en lugar',
-                            'description': f"Congress/Media at location: {media_row.get('evento_o_medio', '')}",
-                            '_sheet_name': 'Medios_y_Congresos',
-                        }
-                        links.append(link)
-                        link_counter += 1
+            # Media → Location (destination) - AUTO-GENERATED from nodo_destino
+            if media_id and loc_destino_id and loc_destino_id.startswith('LOC_'):
+                link = {
+                    'id': f"IMPL_{link_counter:05d}",
+                    'source': media_id,
+                    'target': loc_destino_id,
+                    'predicate': 'crm:P7_took_place_at',
+                    'predicate_label': 'Se realizó en',
+                    'description': f"Media/Congress at location: {loc_destino_id}",
+                    '_sheet_name': 'Medios_y_Congresos',
+                }
+                links.append(link)
+                link_counter += 1
+
+            # Media → Location (origin) if different from destination
+            if media_id and loc_origen_id and loc_origen_id != loc_destino_id and loc_origen_id.startswith('LOC_'):
+                link = {
+                    'id': f"IMPL_{link_counter:05d}",
+                    'source': media_id,
+                    'target': loc_origen_id,
+                    'predicate': 'crm:P7_took_place_at',
+                    'predicate_label': 'Se realizó en',
+                    'description': f"Media/Congress at location: {loc_origen_id}",
+                    '_sheet_name': 'Medios_y_Congresos',
+                }
+                links.append(link)
+                link_counter += 1
 
         # Generate links from Publicaciones (Agent → Publication)
         publications = raw_entities.get('Publication', [])
@@ -694,14 +824,12 @@ class DataTransformer:
                 links.append(link)
                 link_counter += 1
 
-        # Generate links from Proyectos_y_Fondos (Agent → Project, Project → Organization, Project → Location)
+        # Generate links from Proyectos_y_Fondos (Agent → Project)
         projects = raw_entities.get('Project', [])
         for prj_row in projects:
             agent_id = prj_row.get('id_agente', '').strip()
             prj_id = prj_row.get('id_proyecto', '').strip()
-            org_id = prj_row.get('id_organizacion_financiera', '').strip()
 
-            # Agent → Project
             if agent_id and prj_id:
                 link = {
                     'id': f"IMPL_{link_counter:05d}",
@@ -714,35 +842,6 @@ class DataTransformer:
                 }
                 links.append(link)
                 link_counter += 1
-
-            # Project → Organization (if organization exists and has valid format)
-            if prj_id and org_id and org_id.startswith('ORG_'):
-                link = {
-                    'id': f"IMPL_{link_counter:05d}",
-                    'source': prj_id,
-                    'target': org_id,
-                    'predicate': 'crm:P14_carried_out_by',
-                    'predicate_label': 'Ejecutado por',
-                    'description': f"Project executed by: {prj_row.get('institucion_agencia_financiamiento', '')}",
-                    '_sheet_name': 'Proyectos_y_Fondos',
-                }
-                links.append(link)
-                link_counter += 1
-
-                # Project → Location (if organization has associated locations)
-                if org_id in org_to_locations:
-                    for loc_id in org_to_locations[org_id]:
-                        link = {
-                            'id': f"IMPL_{link_counter:05d}",
-                            'source': prj_id,
-                            'target': loc_id,
-                            'predicate': 'crm:P7_took_place_at',
-                            'predicate_label': 'Se realizó en',
-                            'description': f"Project location: {prj_row.get('nodo_origen', '')}",
-                            '_sheet_name': 'Proyectos_y_Fondos',
-                        }
-                        links.append(link)
-                        link_counter += 1
 
         # Generate links from Portafolio_Digital_Web (Agent → DigitalHeritage)
         digital_heritages = raw_entities.get('DigitalHeritage', [])

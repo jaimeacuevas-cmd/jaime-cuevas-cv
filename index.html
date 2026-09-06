@@ -256,6 +256,18 @@
       filter: drop-shadow(0 0 12px rgba(244, 63, 94, 0.9));
     }
 
+    /* Pinned node styling - visual feedback */
+    .node.pinned circle {
+      filter: drop-shadow(0 0 6px rgba(34, 197, 94, 0.7));
+      stroke: #22c55e;
+      stroke-width: 3px;
+    }
+    .node.pinned.root-node circle {
+      stroke: #22c55e;
+      stroke-width: 3px;
+      filter: drop-shadow(0 0 10px rgba(34, 197, 94, 0.8));
+    }
+
     /* Custom Leaflet styling */
     .leaflet-popup-content-wrapper {
       border-radius: 8px;
@@ -1496,6 +1508,7 @@
       // Refresh dynamic state classes
       nodeSelection.classed('is-expandable', d => d.has_unexpanded && !d.is_expanded);
       nodeSelection.classed('is-expanded', d => d.is_expanded);
+      nodeSelection.classed('pinned', d => d.pinned);
 
       // Apply type filters with ROOT NODE IMMUNITY
       nodeSelection.style('display', d => (d.id === 'PER_0001' || !hiddenNodeTypes.has(d.type)) ? 'block' : 'none');
@@ -1540,10 +1553,11 @@
 
     function dragended(event, d) {
       if (!event.active) simulation.alphaTarget(0);
-      if (!d.pinned) {
-        d.fx = null;
-        d.fy = null;
-      }
+      // Auto-pin: keep node where it was dropped
+      d.pinned = true;
+      d.fx = d.x;
+      d.fy = d.y;
+      console.log(`✓ Node ${d.id} pinned at position [${d.x.toFixed(0)}, ${d.y.toFixed(0)}]. Double-click to unpin.`);
     }
 
     function highlightNeighbors(targetNode) {
@@ -1709,42 +1723,96 @@
           const parentOrg = parentOrgId ? fullGraphData.nodes.find(n => n.id === parentOrgId) : null;
 
           if (parentOrg) {
-            popupHtml += `<div class="text-stone-700 text-[10px] font-medium mt-1">🏢 ${parentOrg.label}</div>`;
+            popupHtml += `<div class="text-stone-700 text-[10px] font-medium mt-1">🏢 Institución: ${parentOrg.label}</div>`;
 
-            // Find Jaime's activities at this organization
+            // Find Jaime's activities at this organization AND directly at this location
             const activityTypes = {};
+            const activityDetails = {};
+
             fullGraphData.links.forEach(link => {
               if (link.source === 'PER_0001') {
                 const node = fullGraphData.nodes.find(n => n.id === link.target);
                 if (node && ['Position', 'Education', 'Exhibition', 'Publication', 'Project'].includes(node.type)) {
+                  // Check if activity is linked to parent org OR directly to this location
                   const hasOrgLink = fullGraphData.links.some(l =>
                     (l.source === link.target && l.target === parentOrgId) ||
                     (l.target === link.target && l.source === parentOrgId)
                   );
-                  if (hasOrgLink) {
-                    if (!activityTypes[node.type]) activityTypes[node.type] = 0;
+                  const hasLocationLink = fullGraphData.links.some(l =>
+                    (l.source === link.target && l.target === props.id) ||
+                    (l.target === link.target && l.source === props.id)
+                  );
+
+                  if (hasOrgLink || hasLocationLink) {
+                    if (!activityTypes[node.type]) {
+                      activityTypes[node.type] = 0;
+                      activityDetails[node.type] = [];
+                    }
                     activityTypes[node.type]++;
+                    if (!activityDetails[node.type].includes(node.label)) {
+                      activityDetails[node.type].push(node.label);
+                    }
                   }
                 }
               }
             });
 
             if (Object.keys(activityTypes).length > 0) {
-              popupHtml += `<div class="bg-blue-50 border-l-2 border-blue-400 pl-2 py-1 mt-1 rounded-r">
-                <p class="text-stone-600 text-[9px] font-semibold mb-0.5">🎯 Actividades de Jaime:</p>`;
-              Object.entries(activityTypes).forEach(([type, count]) => {
-                const glyph = categoryGlyphs[type] || '◈';
-                popupHtml += `<div class="text-[9px] text-stone-700"><span class="font-semibold">${glyph}</span> ${type}${count > 1 ? ` (${count})` : ''}</div>`;
-              });
+              // Create a human-readable summary
+              const connectionTexts = [];
+              if (activityTypes['Position']) connectionTexts.push(`trabajó aquí (${activityTypes['Position']})`);
+              if (activityTypes['Education']) connectionTexts.push(`estudió aquí (${activityTypes['Education']})`);
+              if (activityTypes['Exhibition']) connectionTexts.push(`expuso aquí (${activityTypes['Exhibition']})`);
+              if (activityTypes['Publication']) connectionTexts.push(`publicó aquí (${activityTypes['Publication']})`);
+              if (activityTypes['Project']) connectionTexts.push(`participó en proyectos (${activityTypes['Project']})`);
+
+              popupHtml += `<div class="bg-blue-50 border-l-4 border-blue-500 pl-2 py-1.5 mt-1 rounded-r">
+                <p class="text-stone-700 text-[9px] font-semibold leading-tight">Jaime Cuevas: ${connectionTexts.join(', ')}</p>`;
+
+              // Show individual activities
+              if (activityDetails['Position'] && activityDetails['Position'].length > 0) {
+                popupHtml += `<div class="text-[8px] text-stone-600 mt-0.5"><strong>📋 Posiciones:</strong> ${activityDetails['Position'].slice(0, 2).join(', ')}</div>`;
+              }
+              if (activityDetails['Education'] && activityDetails['Education'].length > 0) {
+                popupHtml += `<div class="text-[8px] text-stone-600"><strong>🎓 Formación:</strong> ${activityDetails['Education'].slice(0, 2).join(', ')}</div>`;
+              }
+              if (activityDetails['Exhibition'] && activityDetails['Exhibition'].length > 0) {
+                popupHtml += `<div class="text-[8px] text-stone-600"><strong>🖼️ Exposiciones:</strong> ${activityDetails['Exhibition'].slice(0, 2).join(', ')}</div>`;
+              }
+
               popupHtml += `</div>`;
+            } else {
+              popupHtml += `<div class="text-stone-500 text-[9px] italic mt-1">ℹ️ Sin actividades de Jaime registradas en esta ubicación</div>`;
             }
+          } else {
+            popupHtml += `<div class="text-stone-500 text-[9px] italic mt-1">ℹ️ Ubicación sin institución anfitriona</div>`;
           }
 
           // Context: why this location is relevant
-          if (props.why_relevant) {
+          let contextText = props.why_relevant;
+
+          // Auto-generate context if not curated
+          if (!contextText && parentOrg) {
+            const activities = Object.entries(activityTypes).map(([type, count]) => {
+              const typeLabel = {
+                'Position': 'posiciones',
+                'Education': 'programas de formación',
+                'Exhibition': 'exposiciones',
+                'Publication': 'publicaciones',
+                'Project': 'proyectos'
+              }[type] || type.toLowerCase();
+              return `${count} ${typeLabel}`;
+            }).join(', ');
+
+            if (activities) {
+              contextText = `Ubicación asociada a ${activities} de Jaime Cuevas en ${parentOrg.label}.`;
+            }
+          }
+
+          if (contextText) {
             popupHtml += `<div class="bg-emerald-50 border-l-2 border-emerald-400 pl-2 py-1 mt-1 rounded-r">
               <p class="text-stone-600 text-[9px] font-medium">📌 Contexto:</p>
-              <p class="text-stone-700 text-[9px] leading-tight">${props.why_relevant}</p>
+              <p class="text-stone-700 text-[9px] leading-tight">${contextText}</p>
             </div>`;
           }
 
