@@ -354,6 +354,9 @@ jc:ORG_0042 a crm:E74_Group ;
 
 jc:ORG_0038 a crm:E74_Group .
 
+jc:ORG_0043 a crm:E74_Group ;
+    rdfs:label "Promoción del Arte" .
+
 jc:LOC_0001 a crm:E53_Place ;
     rdfs:label "Museo Nacional de Bellas Artes (MNBA)" ;
     geo:long -70.64354723358485 ;
@@ -383,7 +386,7 @@ jc:LOC_0004 a crm:E53_Place ;
     skos:exactMatch <https://www.wikidata.org/wiki/Q1465225> .
 
 jc:LOC_0005 a crm:E53_Place ;
-    rdfs:label "Universitat de Barcelona (FIMA / Plaça Universitat)" ;
+    rdfs:label "FIMA - Facultad de Información y Medios Audiovisuales (Universitat de Barcelona)" ;
     geo:long 2.139053349698989 ;
     geo:lat 41.38154687801553 ;
     schema:areaServed "Barcelona" ;
@@ -754,8 +757,8 @@ jc:LOC_0058 a crm:E53_Place ;
 
 jc:LOC_0059 a crm:E53_Place ;
     rdfs:label "Tabacalera, Calle de Embajadores 51" ;
-    geo:long -3.7038 ;
-    geo:lat 40.4168 ;
+    geo:long -3.703136525126451 ;
+    geo:lat 40.40663337469876 ;
     schema:areaServed "Madrid" ;
     skos:exactMatch <https://www.wikidata.org/wiki/Q9256> .
 
@@ -1394,6 +1397,8 @@ jc:ORG_0029 crm:P87_is_identified_by jc:LOC_0049 .
 
 jc:ORG_0040 crm:P87_is_identified_by jc:LOC_0056 .
 
+jc:ORG_0043 crm:P87_is_identified_by jc:LOC_0059 .
+
 jc:ORG_0035 crm:P87_is_identified_by jc:LOC_0065 .
 
 jc:PER_0001 crm:P14i_performed jc:PRJ_0008 .
@@ -1856,6 +1861,8 @@ jc:PER_0001 crm:P14_carried_out_by jc:COM_0006 .
 
 jc:PER_0001 crm:P14_carried_out_by jc:COM_0007 .
 
+jc:ORG_0043 crm:P355_is_area_of jc:ORG_0013 .
+
 jc:PER_0001 crm:P14i_performed jc:EDU_0001 .
 
 jc:EDU_0001 crm:P87_is_identified_by jc:ORG_0005 .
@@ -1890,7 +1897,7 @@ jc:EDU_0008 crm:P87_is_identified_by jc:ORG_0004 .
 
 jc:PER_0001 crm:P14i_performed jc:EDU_0009 .
 
-jc:EDU_0009 crm:P87_is_identified_by jc:ORG_0013 .
+jc:EDU_0009 crm:P87_is_identified_by jc:ORG_0043 .
 
 jc:PER_0001 crm:P14i_performed jc:EDU_0010 .
 
@@ -2552,7 +2559,7 @@ jc:EDU_0007 crm:P7_took_place_at jc:LOC_0009 .
 
 jc:EDU_0008 crm:P7_took_place_at jc:LOC_0004 .
 
-jc:EDU_0009 crm:P7_took_place_at jc:LOC_0012 .
+jc:EDU_0009 crm:P7_took_place_at jc:LOC_0059 .
 
 jc:EDU_0010 crm:P7_took_place_at jc:LOC_0045 .
 

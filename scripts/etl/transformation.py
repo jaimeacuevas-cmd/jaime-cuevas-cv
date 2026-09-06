@@ -211,12 +211,26 @@ class DataTransformer:
         for idx, row in enumerate(rows):
             node = self._create_base_node('Education', row, idx)
 
+            # Extract coordinates if available
+            coordinates = None
+            coords_str = row.get('coordenadas_origen', '').strip()
+            if coords_str and coords_str not in ['[N/A]', 'N/A', '']:
+                try:
+                    parts = coords_str.split(',')
+                    if len(parts) == 2:
+                        lat = float(parts[0].strip())
+                        lon = float(parts[1].strip())
+                        coordinates = validate_coordinates(lon, lat)
+                except (ValueError, TypeError) as e:
+                    logger.warning(f"Invalid coordinates for Education {idx}: {coords_str}")
+
             node.update({
                 'label': row.get('nombre_programa', '').strip(),
                 'category': row.get('nivel_formativo', '').strip() or None,
                 'institution': row.get('institucion', '').strip() or None,
                 'period': normalize_period(row.get('periodo')),
                 'field': row.get('campo_estudio', '').strip() or None,
+                'coordinates': list(coordinates) if coordinates else None,
                 '_sheet_name': 'Formacion_Academica',
             })
 

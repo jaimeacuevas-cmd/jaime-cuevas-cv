@@ -117,7 +117,7 @@
       },
       "properties": {
         "id": "LOC_0005",
-        "name": "Universitat de Barcelona (FIMA / Plaça Universitat)",
+        "name": "FIMA - Facultad de Información y Medios Audiovisuales (Universitat de Barcelona)",
         "type": "Location",
         "city": "Barcelona",
         "country": null,
@@ -1311,8 +1311,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.7038,
-          40.4168
+          -3.703136525126451,
+          40.40663337469876
         ]
       },
       "properties": {
@@ -1326,7 +1326,7 @@
         "why_relevant": null,
         "micro_summary": null,
         "is_core": false,
-        "parent_org_id": null,
+        "parent_org_id": "ORG_0043",
         "is_user_primary": false,
         "precision_type": "exact"
       }
