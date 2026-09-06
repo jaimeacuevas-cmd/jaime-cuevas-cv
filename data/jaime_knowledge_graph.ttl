@@ -922,7 +922,7 @@ jc:EDU_0016 a crm:E7_Activity ;
     rdfs:label "Prevención de Riesgos y Árbol de Causas" .
 
 jc:CAR_0001 a crm:E7_Activity ;
-    rdfs:label "Gestor de Proyectos Patrimoniales | Punto Focal ENPD | Investigador de Colecciones" .
+    rdfs:label "Investigador de Colecciones" .
 
 jc:CAR_0002 a crm:E7_Activity ;
     rdfs:label "Evaluador de Proyectos Culturales (FONDART)" .
@@ -962,6 +962,15 @@ jc:CAR_0013 a crm:E7_Activity ;
 
 jc:CAR_0014 a crm:E7_Activity ;
     rdfs:label "Investigador - Proyecto Monvoisin en América" .
+
+jc:CAR_0015 a crm:E7_Activity ;
+    rdfs:label "Gestor de Proyectos Patrimoniales" .
+
+jc:CAR_0016 a crm:E7_Activity ;
+    rdfs:label "Punto Focal - Estrategia Nacional de Patrimonios Digitales (ENPD)" .
+
+jc:CAR_0017 a crm:E7_Activity ;
+    rdfs:label "Asistente de Investigación en Curatoría" .
 
 jc:PUB_0001 a crm:E31_Document ;
     rdfs:label "Monvoisin en América: Identidades, atribuciones y mercado del arte" ;
@@ -2000,6 +2009,10 @@ jc:EXP_0001 crm:P14i_performed jc:PRJ_0008 .
 
 jc:CAR_0014 crm:P14i_performed jc:PRJ_0008 .
 
+jc:CAR_0015 crm:P14i_performed jc:EXP_0001 .
+
+jc:CAR_0017 crm:P14i_performed jc:EXP_DESACATOS .
+
 jc:PER_0001 crm:P14i_performed jc:EDU_0001 .
 
 jc:EDU_0001 crm:P87_is_identified_by jc:ORG_0005 .
@@ -2121,6 +2134,18 @@ jc:CAR_0013 crm:P14_carried_out_by jc:ORG_0008 .
 jc:PER_0001 crm:P14i_performed jc:CAR_0014 .
 
 jc:CAR_0014 crm:P14_carried_out_by jc:ORG_0002 .
+
+jc:PER_0001 crm:P14i_performed jc:CAR_0015 .
+
+jc:CAR_0015 crm:P14_carried_out_by jc:ORG_0002 .
+
+jc:PER_0001 crm:P14i_performed jc:CAR_0016 .
+
+jc:CAR_0016 crm:P14_carried_out_by jc:ORG_0002 .
+
+jc:PER_0001 crm:P14i_performed jc:CAR_0017 .
+
+jc:CAR_0017 crm:P14_carried_out_by jc:ORG_0002 .
 
 jc:PER_0001 crm:P14i_performed jc:EXP_0001 .
 

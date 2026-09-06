@@ -2,11 +2,11 @@
   "metadata": {
     "version": "2.0",
     "source": "CV_Dataset_Maestro_Jaime_Cuevas.xlsx",
-    "node_count": 267,
-    "link_count": 691,
+    "node_count": 270,
+    "link_count": 699,
     "sheet_count": 12,
     "validation_status": "PASS",
-    "validation_warnings": 149,
+    "validation_warnings": 150,
     "filtered_nodes": 41
   },
   "nodes": [
@@ -3148,7 +3148,7 @@
     {
       "id": "CAR_0001",
       "type": "Position",
-      "label": "Gestor de Proyectos Patrimoniales | Punto Focal ENPD | Investigador de Colecciones",
+      "label": "Investigador de Colecciones",
       "short_name": null,
       "category": null,
       "description": null,
@@ -3158,10 +3158,10 @@
       "row_number": 1,
       "organization": "Museo Nacional de Bellas Artes (MNBA)",
       "period": null,
-      "start_year": 2017,
+      "start_year": 2019,
       "end_year": 2025,
-      "skills": "Humanidades Digitales | CIDOC-CRM | Bases de Datos Relacionales | Conservación Preventiva | Logística Clavo a Clavo | Descolonización de Metadatos",
-      "achievements": "Desarrollo plataforma web Quinsac | Implementación Plan Nacional de Patrimonios Digitales | Coordinación logística expo Episodio Monvoisin ($1.273M en seguros)"
+      "skills": "Análisis histórico-artístico | Catalogación | Gestión de autoridades | Conservación preventiva | Administración de colecciones | Tramitación ante Consejo de Monumentos Nacionales",
+      "achievements": "Análisis exhaustivo del acervo MNBA; ingreso y control de autoridades en bases de datos nacionales; tramitación de préstamos interinstitucionales; supervisión de conservación preventiva en sala durante montaje y exhibición"
     },
     {
       "id": "CAR_0002",
@@ -3396,6 +3396,60 @@
       "end_year": 2025,
       "skills": "Investigación histórico-artística | Catalogación transnacional | Desarrollo de plataformas digitales | Gestión de datos patrimoniales",
       "achievements": "Co-liderazgo en catastro transnacional de obra pictórica de Raymond Monvoisin y sus discípulos (Clara Filleul, Procesa Sarmiento, Gregorio Torres, Francisco Javier Mandiola) en museos y colecciones privadas de 4 países. Director técnico en desarrollo de producto digital QUINSAC para gestión y consulta del catálogo razonado."
+    },
+    {
+      "id": "CAR_0015",
+      "type": "Position",
+      "label": "Gestor de Proyectos Patrimoniales",
+      "short_name": null,
+      "category": null,
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 15,
+      "organization": "Museo Nacional de Bellas Artes (MNBA)",
+      "period": null,
+      "start_year": 2023,
+      "end_year": 2025,
+      "skills": "Gestión presupuestaria | Licitaciones de servicios museológicos | Logística especializada | Conservación preventiva | Administración de seguros",
+      "achievements": "Liderazgo crítico en coordinación logística de la exposición \"Episodio Monvoisin\": 74 obras de gran formato desde 6 regiones, provenientes de 14 instituciones distintas. Gestión de transporte, embalaje especializado y seguros contra todo riesgo."
+    },
+    {
+      "id": "CAR_0016",
+      "type": "Position",
+      "label": "Punto Focal - Estrategia Nacional de Patrimonios Digitales (ENPD)",
+      "short_name": null,
+      "category": null,
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 16,
+      "organization": "Museo Nacional de Bellas Artes / Subsecretaría del Patrimonio Cultural",
+      "period": null,
+      "start_year": 2024,
+      "end_year": 2025,
+      "skills": "Humanidades Digitales | Estrategia de Patrimonios Digitales | Gestión de colecciones digitales | Políticas públicas de digitalización | Representación institucional",
+      "achievements": "Liderazgo como Punto Focal en delineación de la Estrategia Nacional de Patrimonios Digitales. Alineación del MNBA con Plan de Acción ENPD 2024-2029. Representante oficial ante Subsecretaría del Patrimonio Cultural para reportería y rendición de cuentas (período enero-junio 2025)."
+    },
+    {
+      "id": "CAR_0017",
+      "type": "Position",
+      "label": "Asistente de Investigación en Curatoría",
+      "short_name": null,
+      "category": null,
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 17,
+      "organization": "Museo Nacional de Bellas Artes (MNBA)",
+      "period": null,
+      "start_year": 2017,
+      "end_year": 2017,
+      "skills": "Investigación curatorial | Historia del arte feminista | Análisis histórico de acervos públicos",
+      "achievements": "Asistencia de investigación bajo dirección de Gloria Cortés Aliaga para la exposición \"Desacatos. Prácticas artísticas femeninas 1835-1938\", orientada a subvertir la omisión androcéntrica en el acervo público chileno."
     },
     {
       "id": "PUB_0001",
@@ -7963,6 +8017,24 @@
       "_sheet_name": "Relaciones_Grafo_LOD"
     },
     {
+      "id": "REL_0312",
+      "source": "CAR_0015",
+      "target": "EXP_0001",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0313",
+      "source": "CAR_0017",
+      "target": "EXP_DESACATOS",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
       "id": "IMPL_01000",
       "source": "PER_0001",
       "target": "EDU_0001",
@@ -8256,7 +8328,7 @@
       "target": "CAR_0001",
       "predicate": "crm:P14i_performed",
       "predicate_label": "Desempeñó",
-      "description": "Position: Gestor de Proyectos Patrimoniales | Punto Focal ENPD | Investigador de Colecciones",
+      "description": "Position: Investigador de Colecciones",
       "_sheet_name": "Trayectoria_Laboral"
     },
     {
@@ -8514,6 +8586,60 @@
     {
       "id": "IMPL_01061",
       "source": "PER_0001",
+      "target": "CAR_0015",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Desempeñó",
+      "description": "Position: Gestor de Proyectos Patrimoniales",
+      "_sheet_name": "Trayectoria_Laboral"
+    },
+    {
+      "id": "IMPL_01062",
+      "source": "CAR_0015",
+      "target": "ORG_0002",
+      "predicate": "crm:P14_carried_out_by",
+      "predicate_label": "En organización",
+      "description": "Position at: Museo Nacional de Bellas Artes (MNBA)",
+      "_sheet_name": "Trayectoria_Laboral"
+    },
+    {
+      "id": "IMPL_01063",
+      "source": "PER_0001",
+      "target": "CAR_0016",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Desempeñó",
+      "description": "Position: Punto Focal - Estrategia Nacional de Patrimonios Digitales (ENPD)",
+      "_sheet_name": "Trayectoria_Laboral"
+    },
+    {
+      "id": "IMPL_01064",
+      "source": "CAR_0016",
+      "target": "ORG_0002",
+      "predicate": "crm:P14_carried_out_by",
+      "predicate_label": "En organización",
+      "description": "Position at: Museo Nacional de Bellas Artes / Subsecretaría del Patrimonio Cultural",
+      "_sheet_name": "Trayectoria_Laboral"
+    },
+    {
+      "id": "IMPL_01065",
+      "source": "PER_0001",
+      "target": "CAR_0017",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Desempeñó",
+      "description": "Position: Asistente de Investigación en Curatoría",
+      "_sheet_name": "Trayectoria_Laboral"
+    },
+    {
+      "id": "IMPL_01066",
+      "source": "CAR_0017",
+      "target": "ORG_0002",
+      "predicate": "crm:P14_carried_out_by",
+      "predicate_label": "En organización",
+      "description": "Position at: Museo Nacional de Bellas Artes (MNBA)",
+      "_sheet_name": "Trayectoria_Laboral"
+    },
+    {
+      "id": "IMPL_01067",
+      "source": "PER_0001",
       "target": "EXP_0001",
       "predicate": "crm:P14i_performed",
       "predicate_label": "Curó",
@@ -8521,7 +8647,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01062",
+      "id": "IMPL_01068",
       "source": "[N/A]",
       "target": "EXP_0001",
       "predicate": "crm:P14i_performed",
@@ -8530,7 +8656,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01063",
+      "id": "IMPL_01069",
       "source": "PER_0015",
       "target": "EXP_0001",
       "predicate": "crm:P14i_performed",
@@ -8539,7 +8665,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01064",
+      "id": "IMPL_01070",
       "source": "PER_0016",
       "target": "EXP_0001",
       "predicate": "crm:P14i_performed",
@@ -8548,7 +8674,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01065",
+      "id": "IMPL_01071",
       "source": "PER_0017",
       "target": "EXP_0001",
       "predicate": "crm:P14i_performed",
@@ -8557,7 +8683,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01066",
+      "id": "IMPL_01072",
       "source": "PER_0018",
       "target": "EXP_0001",
       "predicate": "crm:P14i_performed",
@@ -8566,7 +8692,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01067",
+      "id": "IMPL_01073",
       "source": "PER_0019",
       "target": "EXP_0001",
       "predicate": "crm:P14i_performed",
@@ -8575,7 +8701,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01068",
+      "id": "IMPL_01074",
       "source": "EXP_0001",
       "target": "[N/A]",
       "predicate": "crm:P7_took_place_at",
@@ -8584,7 +8710,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01069",
+      "id": "IMPL_01075",
       "source": "EXP_0001",
       "target": "LOC_0001",
       "predicate": "crm:P7_took_place_at",
@@ -8593,7 +8719,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01070",
+      "id": "IMPL_01076",
       "source": "PER_0001",
       "target": "EXP_0001_M01",
       "predicate": "crm:P14i_performed",
@@ -8602,7 +8728,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01071",
+      "id": "IMPL_01077",
       "source": "[N/A]",
       "target": "EXP_0001_M01",
       "predicate": "crm:P14i_performed",
@@ -8611,7 +8737,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01072",
+      "id": "IMPL_01078",
       "source": "PER_0015",
       "target": "EXP_0001_M01",
       "predicate": "crm:P14i_performed",
@@ -8620,7 +8746,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01073",
+      "id": "IMPL_01079",
       "source": "EXP_0001_M01",
       "target": "LOC_0001",
       "predicate": "crm:P7_took_place_at",
@@ -8629,7 +8755,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01074",
+      "id": "IMPL_01080",
       "source": "EXP_0001_M01",
       "target": "LOC_0026",
       "predicate": "crm:P7_took_place_at",
@@ -8638,7 +8764,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01075",
+      "id": "IMPL_01081",
       "source": "PER_0001",
       "target": "EXP_0001_M02",
       "predicate": "crm:P14i_performed",
@@ -8647,7 +8773,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01076",
+      "id": "IMPL_01082",
       "source": "[N/A]",
       "target": "EXP_0001_M02",
       "predicate": "crm:P14i_performed",
@@ -8656,7 +8782,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01077",
+      "id": "IMPL_01083",
       "source": "PER_0015",
       "target": "EXP_0001_M02",
       "predicate": "crm:P14i_performed",
@@ -8665,7 +8791,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01078",
+      "id": "IMPL_01084",
       "source": "EXP_0001_M02",
       "target": "LOC_0001",
       "predicate": "crm:P7_took_place_at",
@@ -8674,7 +8800,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01079",
+      "id": "IMPL_01085",
       "source": "EXP_0001_M02",
       "target": "LOC_0027",
       "predicate": "crm:P7_took_place_at",
@@ -8683,7 +8809,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01080",
+      "id": "IMPL_01086",
       "source": "PER_0001",
       "target": "EXP_0001_M03",
       "predicate": "crm:P14i_performed",
@@ -8692,7 +8818,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01081",
+      "id": "IMPL_01087",
       "source": "[N/A]",
       "target": "EXP_0001_M03",
       "predicate": "crm:P14i_performed",
@@ -8701,7 +8827,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01082",
+      "id": "IMPL_01088",
       "source": "PER_0015",
       "target": "EXP_0001_M03",
       "predicate": "crm:P14i_performed",
@@ -8710,7 +8836,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01083",
+      "id": "IMPL_01089",
       "source": "EXP_0001_M03",
       "target": "LOC_0001",
       "predicate": "crm:P7_took_place_at",
@@ -8719,7 +8845,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01084",
+      "id": "IMPL_01090",
       "source": "EXP_0001_M03",
       "target": "LOC_0028",
       "predicate": "crm:P7_took_place_at",
@@ -8728,7 +8854,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01085",
+      "id": "IMPL_01091",
       "source": "PER_0001",
       "target": "EXP_0001_M04",
       "predicate": "crm:P14i_performed",
@@ -8737,7 +8863,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01086",
+      "id": "IMPL_01092",
       "source": "[N/A]",
       "target": "EXP_0001_M04",
       "predicate": "crm:P14i_performed",
@@ -8746,7 +8872,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01087",
+      "id": "IMPL_01093",
       "source": "PER_0015",
       "target": "EXP_0001_M04",
       "predicate": "crm:P14i_performed",
@@ -8755,7 +8881,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01088",
+      "id": "IMPL_01094",
       "source": "EXP_0001_M04",
       "target": "LOC_0001",
       "predicate": "crm:P7_took_place_at",
@@ -8764,7 +8890,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01089",
+      "id": "IMPL_01095",
       "source": "EXP_0001_M04",
       "target": "LOC_0029",
       "predicate": "crm:P7_took_place_at",
@@ -8773,7 +8899,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01090",
+      "id": "IMPL_01096",
       "source": "PER_0001",
       "target": "EXP_0001_M05",
       "predicate": "crm:P14i_performed",
@@ -8782,7 +8908,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01091",
+      "id": "IMPL_01097",
       "source": "[N/A]",
       "target": "EXP_0001_M05",
       "predicate": "crm:P14i_performed",
@@ -8791,7 +8917,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01092",
+      "id": "IMPL_01098",
       "source": "PER_0015",
       "target": "EXP_0001_M05",
       "predicate": "crm:P14i_performed",
@@ -8800,7 +8926,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01093",
+      "id": "IMPL_01099",
       "source": "EXP_0001_M05",
       "target": "LOC_0001",
       "predicate": "crm:P7_took_place_at",
@@ -8809,7 +8935,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01094",
+      "id": "IMPL_01100",
       "source": "EXP_0001_M05",
       "target": "LOC_0030",
       "predicate": "crm:P7_took_place_at",
@@ -8818,7 +8944,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01095",
+      "id": "IMPL_01101",
       "source": "PER_0001",
       "target": "EXP_0001_M06",
       "predicate": "crm:P14i_performed",
@@ -8827,7 +8953,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01096",
+      "id": "IMPL_01102",
       "source": "[N/A]",
       "target": "EXP_0001_M06",
       "predicate": "crm:P14i_performed",
@@ -8836,7 +8962,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01097",
+      "id": "IMPL_01103",
       "source": "PER_0015",
       "target": "EXP_0001_M06",
       "predicate": "crm:P14i_performed",
@@ -8845,7 +8971,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01098",
+      "id": "IMPL_01104",
       "source": "EXP_0001_M06",
       "target": "LOC_0001",
       "predicate": "crm:P7_took_place_at",
@@ -8854,7 +8980,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01099",
+      "id": "IMPL_01105",
       "source": "EXP_0001_M06",
       "target": "LOC_0031",
       "predicate": "crm:P7_took_place_at",
@@ -8863,7 +8989,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01100",
+      "id": "IMPL_01106",
       "source": "PER_0001",
       "target": "EXP_0001_M07",
       "predicate": "crm:P14i_performed",
@@ -8872,7 +8998,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01101",
+      "id": "IMPL_01107",
       "source": "[N/A]",
       "target": "EXP_0001_M07",
       "predicate": "crm:P14i_performed",
@@ -8881,7 +9007,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01102",
+      "id": "IMPL_01108",
       "source": "PER_0015",
       "target": "EXP_0001_M07",
       "predicate": "crm:P14i_performed",
@@ -8890,7 +9016,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01103",
+      "id": "IMPL_01109",
       "source": "EXP_0001_M07",
       "target": "LOC_0001",
       "predicate": "crm:P7_took_place_at",
@@ -8899,7 +9025,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01104",
+      "id": "IMPL_01110",
       "source": "EXP_0001_M07",
       "target": "LOC_0032",
       "predicate": "crm:P7_took_place_at",
@@ -8908,7 +9034,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01105",
+      "id": "IMPL_01111",
       "source": "PER_0001",
       "target": "EXP_0001_M08",
       "predicate": "crm:P14i_performed",
@@ -8917,7 +9043,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01106",
+      "id": "IMPL_01112",
       "source": "[N/A]",
       "target": "EXP_0001_M08",
       "predicate": "crm:P14i_performed",
@@ -8926,7 +9052,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01107",
+      "id": "IMPL_01113",
       "source": "PER_0015",
       "target": "EXP_0001_M08",
       "predicate": "crm:P14i_performed",
@@ -8935,7 +9061,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01108",
+      "id": "IMPL_01114",
       "source": "EXP_0001_M08",
       "target": "LOC_0001",
       "predicate": "crm:P7_took_place_at",
@@ -8944,7 +9070,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01109",
+      "id": "IMPL_01115",
       "source": "EXP_0001_M08",
       "target": "LOC_0033",
       "predicate": "crm:P7_took_place_at",
@@ -8953,7 +9079,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01110",
+      "id": "IMPL_01116",
       "source": "PER_0001",
       "target": "EXP_0001_M09",
       "predicate": "crm:P14i_performed",
@@ -8962,7 +9088,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01111",
+      "id": "IMPL_01117",
       "source": "[N/A]",
       "target": "EXP_0001_M09",
       "predicate": "crm:P14i_performed",
@@ -8971,7 +9097,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01112",
+      "id": "IMPL_01118",
       "source": "PER_0015",
       "target": "EXP_0001_M09",
       "predicate": "crm:P14i_performed",
@@ -8980,7 +9106,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01113",
+      "id": "IMPL_01119",
       "source": "EXP_0001_M09",
       "target": "LOC_0001",
       "predicate": "crm:P7_took_place_at",
@@ -8989,7 +9115,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01114",
+      "id": "IMPL_01120",
       "source": "EXP_0001_M09",
       "target": "LOC_0034",
       "predicate": "crm:P7_took_place_at",
@@ -8998,7 +9124,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01115",
+      "id": "IMPL_01121",
       "source": "PER_0001",
       "target": "EXP_0001_M10",
       "predicate": "crm:P14i_performed",
@@ -9007,7 +9133,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01116",
+      "id": "IMPL_01122",
       "source": "[N/A]",
       "target": "EXP_0001_M10",
       "predicate": "crm:P14i_performed",
@@ -9016,7 +9142,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01117",
+      "id": "IMPL_01123",
       "source": "PER_0015",
       "target": "EXP_0001_M10",
       "predicate": "crm:P14i_performed",
@@ -9025,7 +9151,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01118",
+      "id": "IMPL_01124",
       "source": "EXP_0001_M10",
       "target": "LOC_0001",
       "predicate": "crm:P7_took_place_at",
@@ -9034,7 +9160,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01119",
+      "id": "IMPL_01125",
       "source": "EXP_0001_M10",
       "target": "LOC_0035",
       "predicate": "crm:P7_took_place_at",
@@ -9043,7 +9169,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01120",
+      "id": "IMPL_01126",
       "source": "PER_0001",
       "target": "EXP_0001_M11",
       "predicate": "crm:P14i_performed",
@@ -9052,7 +9178,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01121",
+      "id": "IMPL_01127",
       "source": "[N/A]",
       "target": "EXP_0001_M11",
       "predicate": "crm:P14i_performed",
@@ -9061,7 +9187,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01122",
+      "id": "IMPL_01128",
       "source": "PER_0015",
       "target": "EXP_0001_M11",
       "predicate": "crm:P14i_performed",
@@ -9070,7 +9196,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01123",
+      "id": "IMPL_01129",
       "source": "EXP_0001_M11",
       "target": "LOC_0001",
       "predicate": "crm:P7_took_place_at",
@@ -9079,7 +9205,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01124",
+      "id": "IMPL_01130",
       "source": "EXP_0001_M11",
       "target": "LOC_0036",
       "predicate": "crm:P7_took_place_at",
@@ -9088,7 +9214,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01125",
+      "id": "IMPL_01131",
       "source": "PER_0001",
       "target": "EXP_0001_M12",
       "predicate": "crm:P14i_performed",
@@ -9097,7 +9223,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01126",
+      "id": "IMPL_01132",
       "source": "[N/A]",
       "target": "EXP_0001_M12",
       "predicate": "crm:P14i_performed",
@@ -9106,7 +9232,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01127",
+      "id": "IMPL_01133",
       "source": "PER_0018",
       "target": "EXP_0001_M12",
       "predicate": "crm:P14i_performed",
@@ -9115,7 +9241,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01128",
+      "id": "IMPL_01134",
       "source": "EXP_0001_M12",
       "target": "LOC_0001",
       "predicate": "crm:P7_took_place_at",
@@ -9124,7 +9250,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01129",
+      "id": "IMPL_01135",
       "source": "EXP_0001_M12",
       "target": "LOC_0037",
       "predicate": "crm:P7_took_place_at",
@@ -9133,7 +9259,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01130",
+      "id": "IMPL_01136",
       "source": "PER_0001",
       "target": "EXP_0001_M13",
       "predicate": "crm:P14i_performed",
@@ -9142,7 +9268,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01131",
+      "id": "IMPL_01137",
       "source": "[N/A]",
       "target": "EXP_0001_M13",
       "predicate": "crm:P14i_performed",
@@ -9151,7 +9277,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01132",
+      "id": "IMPL_01138",
       "source": "PER_0015",
       "target": "EXP_0001_M13",
       "predicate": "crm:P14i_performed",
@@ -9160,7 +9286,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01133",
+      "id": "IMPL_01139",
       "source": "EXP_0001_M13",
       "target": "LOC_0001",
       "predicate": "crm:P7_took_place_at",
@@ -9169,7 +9295,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01134",
+      "id": "IMPL_01140",
       "source": "EXP_0001_M13",
       "target": "LOC_0038",
       "predicate": "crm:P7_took_place_at",
@@ -9178,7 +9304,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01135",
+      "id": "IMPL_01141",
       "source": "PER_0001",
       "target": "EXP_0002",
       "predicate": "crm:P14i_performed",
@@ -9187,7 +9313,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01136",
+      "id": "IMPL_01142",
       "source": "PER_0008",
       "target": "EXP_0002",
       "predicate": "crm:P14i_performed",
@@ -9196,7 +9322,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01137",
+      "id": "IMPL_01143",
       "source": "PER_0031",
       "target": "EXP_0002",
       "predicate": "crm:P14i_performed",
@@ -9205,7 +9331,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01138",
+      "id": "IMPL_01144",
       "source": "PER_0032",
       "target": "EXP_0002",
       "predicate": "crm:P14i_performed",
@@ -9214,7 +9340,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01139",
+      "id": "IMPL_01145",
       "source": "EXP_0002",
       "target": "LOC_0020",
       "predicate": "crm:P7_took_place_at",
@@ -9223,7 +9349,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01140",
+      "id": "IMPL_01146",
       "source": "EXP_0002",
       "target": "LOC_0055",
       "predicate": "crm:P7_took_place_at",
@@ -9232,7 +9358,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01141",
+      "id": "IMPL_01147",
       "source": "PER_0001",
       "target": "EXP_0003",
       "predicate": "crm:P14i_performed",
@@ -9241,7 +9367,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01142",
+      "id": "IMPL_01148",
       "source": "PER_0004",
       "target": "EXP_0003",
       "predicate": "crm:P14i_performed",
@@ -9250,7 +9376,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01143",
+      "id": "IMPL_01149",
       "source": "PER_0026",
       "target": "EXP_0003",
       "predicate": "crm:P14i_performed",
@@ -9259,7 +9385,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01144",
+      "id": "IMPL_01150",
       "source": "PER_0027",
       "target": "EXP_0003",
       "predicate": "crm:P14i_performed",
@@ -9268,7 +9394,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01145",
+      "id": "IMPL_01151",
       "source": "PER_0028",
       "target": "EXP_0003",
       "predicate": "crm:P14i_performed",
@@ -9277,7 +9403,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01146",
+      "id": "IMPL_01152",
       "source": "PER_0029",
       "target": "EXP_0003",
       "predicate": "crm:P14i_performed",
@@ -9286,7 +9412,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01147",
+      "id": "IMPL_01153",
       "source": "PER_0030",
       "target": "EXP_0003",
       "predicate": "crm:P14i_performed",
@@ -9295,7 +9421,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01148",
+      "id": "IMPL_01154",
       "source": "EXP_0003",
       "target": "[N/A]",
       "predicate": "crm:P7_took_place_at",
@@ -9304,7 +9430,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01149",
+      "id": "IMPL_01155",
       "source": "EXP_0003",
       "target": "LOC_0001",
       "predicate": "crm:P7_took_place_at",
@@ -9313,7 +9439,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01150",
+      "id": "IMPL_01156",
       "source": "PER_0001",
       "target": "EXP_0004",
       "predicate": "crm:P14i_performed",
@@ -9322,7 +9448,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01151",
+      "id": "IMPL_01157",
       "source": "PER_0004",
       "target": "EXP_0004",
       "predicate": "crm:P14i_performed",
@@ -9331,7 +9457,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01152",
+      "id": "IMPL_01158",
       "source": "[Varios]",
       "target": "EXP_0004",
       "predicate": "crm:P14i_performed",
@@ -9340,7 +9466,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01153",
+      "id": "IMPL_01159",
       "source": "EXP_0004",
       "target": "LOC_0001",
       "predicate": "crm:P7_took_place_at",
@@ -9349,7 +9475,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01154",
+      "id": "IMPL_01160",
       "source": "EXP_0004",
       "target": "LOC_0039",
       "predicate": "crm:P7_took_place_at",
@@ -9358,7 +9484,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01155",
+      "id": "IMPL_01161",
       "source": "PER_0001",
       "target": "EXP_0005",
       "predicate": "crm:P14i_performed",
@@ -9367,7 +9493,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01156",
+      "id": "IMPL_01162",
       "source": "[N/A]",
       "target": "EXP_0005",
       "predicate": "crm:P14i_performed",
@@ -9376,7 +9502,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01157",
+      "id": "IMPL_01163",
       "source": "PER_0033",
       "target": "EXP_0005",
       "predicate": "crm:P14i_performed",
@@ -9385,7 +9511,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01158",
+      "id": "IMPL_01164",
       "source": "PER_0034",
       "target": "EXP_0005",
       "predicate": "crm:P14i_performed",
@@ -9394,7 +9520,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01159",
+      "id": "IMPL_01165",
       "source": "PER_0035",
       "target": "EXP_0005",
       "predicate": "crm:P14i_performed",
@@ -9403,7 +9529,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01160",
+      "id": "IMPL_01166",
       "source": "EXP_0005",
       "target": "[N/A]",
       "predicate": "crm:P7_took_place_at",
@@ -9412,7 +9538,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01161",
+      "id": "IMPL_01167",
       "source": "EXP_0005",
       "target": "LOC_0022",
       "predicate": "crm:P7_took_place_at",
@@ -9421,7 +9547,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01162",
+      "id": "IMPL_01168",
       "source": "PER_0001",
       "target": "EXP_0006",
       "predicate": "crm:P14i_performed",
@@ -9430,7 +9556,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01163",
+      "id": "IMPL_01169",
       "source": "[N/A]",
       "target": "EXP_0006",
       "predicate": "crm:P14i_performed",
@@ -9439,7 +9565,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01164",
+      "id": "IMPL_01170",
       "source": "PER_0022",
       "target": "EXP_0006",
       "predicate": "crm:P14i_performed",
@@ -9448,7 +9574,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01165",
+      "id": "IMPL_01171",
       "source": "EXP_0006",
       "target": "LOC_0050",
       "predicate": "crm:P7_took_place_at",
@@ -9457,7 +9583,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01166",
+      "id": "IMPL_01172",
       "source": "EXP_0006",
       "target": "LOC_0023",
       "predicate": "crm:P7_took_place_at",
@@ -9466,7 +9592,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01167",
+      "id": "IMPL_01173",
       "source": "PER_0001",
       "target": "EXP_0007",
       "predicate": "crm:P14i_performed",
@@ -9475,7 +9601,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01168",
+      "id": "IMPL_01174",
       "source": "PER_0011",
       "target": "EXP_0007",
       "predicate": "crm:P14i_performed",
@@ -9484,7 +9610,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01169",
+      "id": "IMPL_01175",
       "source": "PER_0022",
       "target": "EXP_0007",
       "predicate": "crm:P14i_performed",
@@ -9493,7 +9619,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01170",
+      "id": "IMPL_01176",
       "source": "EXP_0007",
       "target": "LOC_0023",
       "predicate": "crm:P7_took_place_at",
@@ -9502,7 +9628,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01171",
+      "id": "IMPL_01177",
       "source": "EXP_0007",
       "target": "LOC_0002",
       "predicate": "crm:P7_took_place_at",
@@ -9511,7 +9637,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01172",
+      "id": "IMPL_01178",
       "source": "PER_0001",
       "target": "EXP_0008",
       "predicate": "crm:P14i_performed",
@@ -9520,7 +9646,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01173",
+      "id": "IMPL_01179",
       "source": "PER_0008",
       "target": "EXP_0008",
       "predicate": "crm:P14i_performed",
@@ -9529,7 +9655,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01174",
+      "id": "IMPL_01180",
       "source": "53 Artistas emergentes UCH",
       "target": "EXP_0008",
       "predicate": "crm:P14i_performed",
@@ -9538,7 +9664,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01175",
+      "id": "IMPL_01181",
       "source": "EXP_0008",
       "target": "LOC_0002",
       "predicate": "crm:P7_took_place_at",
@@ -9547,7 +9673,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01176",
+      "id": "IMPL_01182",
       "source": "EXP_0008",
       "target": "LOC_0003",
       "predicate": "crm:P7_took_place_at",
@@ -9556,7 +9682,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01177",
+      "id": "IMPL_01183",
       "source": "PER_0001",
       "target": "EXP_0009",
       "predicate": "crm:P14i_performed",
@@ -9565,7 +9691,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01178",
+      "id": "IMPL_01184",
       "source": "PER_0011",
       "target": "EXP_0009",
       "predicate": "crm:P14i_performed",
@@ -9574,7 +9700,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01179",
+      "id": "IMPL_01185",
       "source": "PER_0023",
       "target": "EXP_0009",
       "predicate": "crm:P14i_performed",
@@ -9583,7 +9709,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01180",
+      "id": "IMPL_01186",
       "source": "EXP_0009",
       "target": "[N/A]",
       "predicate": "crm:P7_took_place_at",
@@ -9592,7 +9718,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01181",
+      "id": "IMPL_01187",
       "source": "EXP_0009",
       "target": "LOC_0002",
       "predicate": "crm:P7_took_place_at",
@@ -9601,7 +9727,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01182",
+      "id": "IMPL_01188",
       "source": "PER_0001",
       "target": "EXP_0010",
       "predicate": "crm:P14i_performed",
@@ -9610,7 +9736,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01183",
+      "id": "IMPL_01189",
       "source": "[N/A]",
       "target": "EXP_0010",
       "predicate": "crm:P14i_performed",
@@ -9619,7 +9745,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01184",
+      "id": "IMPL_01190",
       "source": "PER_0021",
       "target": "EXP_0010",
       "predicate": "crm:P14i_performed",
@@ -9628,7 +9754,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01185",
+      "id": "IMPL_01191",
       "source": "PER_0036",
       "target": "EXP_0010",
       "predicate": "crm:P14i_performed",
@@ -9637,7 +9763,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01186",
+      "id": "IMPL_01192",
       "source": "PER_0037",
       "target": "EXP_0010",
       "predicate": "crm:P14i_performed",
@@ -9646,7 +9772,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01187",
+      "id": "IMPL_01193",
       "source": "PER_0038",
       "target": "EXP_0010",
       "predicate": "crm:P14i_performed",
@@ -9655,7 +9781,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01188",
+      "id": "IMPL_01194",
       "source": "PER_0039",
       "target": "EXP_0010",
       "predicate": "crm:P14i_performed",
@@ -9664,7 +9790,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01189",
+      "id": "IMPL_01195",
       "source": "EXP_0010",
       "target": "LOC_0024",
       "predicate": "crm:P7_took_place_at",
@@ -9673,7 +9799,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01190",
+      "id": "IMPL_01196",
       "source": "EXP_0010",
       "target": "LOC_0001",
       "predicate": "crm:P7_took_place_at",
@@ -9682,7 +9808,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01191",
+      "id": "IMPL_01197",
       "source": "PER_0001",
       "target": "EXP_0010_1",
       "predicate": "crm:P14i_performed",
@@ -9691,7 +9817,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01192",
+      "id": "IMPL_01198",
       "source": "[N/A]",
       "target": "EXP_0010_1",
       "predicate": "crm:P14i_performed",
@@ -9700,7 +9826,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01193",
+      "id": "IMPL_01199",
       "source": "PER_0021",
       "target": "EXP_0010_1",
       "predicate": "crm:P14i_performed",
@@ -9709,7 +9835,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01194",
+      "id": "IMPL_01200",
       "source": "PER_0036",
       "target": "EXP_0010_1",
       "predicate": "crm:P14i_performed",
@@ -9718,7 +9844,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01195",
+      "id": "IMPL_01201",
       "source": "PER_0037",
       "target": "EXP_0010_1",
       "predicate": "crm:P14i_performed",
@@ -9727,7 +9853,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01196",
+      "id": "IMPL_01202",
       "source": "PER_0038",
       "target": "EXP_0010_1",
       "predicate": "crm:P14i_performed",
@@ -9736,7 +9862,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01197",
+      "id": "IMPL_01203",
       "source": "PER_0039",
       "target": "EXP_0010_1",
       "predicate": "crm:P14i_performed",
@@ -9745,7 +9871,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01198",
+      "id": "IMPL_01204",
       "source": "EXP_0010_1",
       "target": "LOC_0025",
       "predicate": "crm:P7_took_place_at",
@@ -9754,7 +9880,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01199",
+      "id": "IMPL_01205",
       "source": "EXP_0010_1",
       "target": "LOC_0024",
       "predicate": "crm:P7_took_place_at",
@@ -9763,7 +9889,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01200",
+      "id": "IMPL_01206",
       "source": "PER_0001",
       "target": "EXP_0011_01",
       "predicate": "crm:P14i_performed",
@@ -9772,7 +9898,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01201",
+      "id": "IMPL_01207",
       "source": "[N/A]",
       "target": "EXP_0011_01",
       "predicate": "crm:P14i_performed",
@@ -9781,7 +9907,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01202",
+      "id": "IMPL_01208",
       "source": "PER_0020",
       "target": "EXP_0011_01",
       "predicate": "crm:P14i_performed",
@@ -9790,7 +9916,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01203",
+      "id": "IMPL_01209",
       "source": "EXP_0011_01",
       "target": "LOC_0057",
       "predicate": "crm:P7_took_place_at",
@@ -9799,7 +9925,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01204",
+      "id": "IMPL_01210",
       "source": "EXP_0011_01",
       "target": "LOC_0001",
       "predicate": "crm:P7_took_place_at",
@@ -9808,7 +9934,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01205",
+      "id": "IMPL_01211",
       "source": "PER_0001",
       "target": "EXP_0011_02",
       "predicate": "crm:P14i_performed",
@@ -9817,7 +9943,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01206",
+      "id": "IMPL_01212",
       "source": "[N/A]",
       "target": "EXP_0011_02",
       "predicate": "crm:P14i_performed",
@@ -9826,7 +9952,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01207",
+      "id": "IMPL_01213",
       "source": "PER_0020",
       "target": "EXP_0011_02",
       "predicate": "crm:P14i_performed",
@@ -9835,7 +9961,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01208",
+      "id": "IMPL_01214",
       "source": "EXP_0011_02",
       "target": "LOC_0025",
       "predicate": "crm:P7_took_place_at",
@@ -9844,7 +9970,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01209",
+      "id": "IMPL_01215",
       "source": "EXP_0011_02",
       "target": "LOC_0057",
       "predicate": "crm:P7_took_place_at",
@@ -9853,7 +9979,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01210",
+      "id": "IMPL_01216",
       "source": "PER_0001",
       "target": "EXP_0011_03",
       "predicate": "crm:P14i_performed",
@@ -9862,7 +9988,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01211",
+      "id": "IMPL_01217",
       "source": "[N/A]",
       "target": "EXP_0011_03",
       "predicate": "crm:P14i_performed",
@@ -9871,7 +9997,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01212",
+      "id": "IMPL_01218",
       "source": "PER_0020",
       "target": "EXP_0011_03",
       "predicate": "crm:P14i_performed",
@@ -9880,7 +10006,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01213",
+      "id": "IMPL_01219",
       "source": "EXP_0011_03",
       "target": "LOC_0024",
       "predicate": "crm:P7_took_place_at",
@@ -9889,7 +10015,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01214",
+      "id": "IMPL_01220",
       "source": "EXP_0011_03",
       "target": "LOC_0025",
       "predicate": "crm:P7_took_place_at",
@@ -9898,7 +10024,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01215",
+      "id": "IMPL_01221",
       "source": "PER_0001",
       "target": "EXP_0012",
       "predicate": "crm:P14i_performed",
@@ -9907,7 +10033,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01216",
+      "id": "IMPL_01222",
       "source": "[N/A]",
       "target": "EXP_0012",
       "predicate": "crm:P14i_performed",
@@ -9916,7 +10042,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01217",
+      "id": "IMPL_01223",
       "source": "PER_0040",
       "target": "EXP_0012",
       "predicate": "crm:P14i_performed",
@@ -9925,7 +10051,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01218",
+      "id": "IMPL_01224",
       "source": "PER_0041",
       "target": "EXP_0012",
       "predicate": "crm:P14i_performed",
@@ -9934,7 +10060,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01219",
+      "id": "IMPL_01225",
       "source": "PER_0042",
       "target": "EXP_0012",
       "predicate": "crm:P14i_performed",
@@ -9943,7 +10069,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01220",
+      "id": "IMPL_01226",
       "source": "PER_0043",
       "target": "EXP_0012",
       "predicate": "crm:P14i_performed",
@@ -9952,7 +10078,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01221",
+      "id": "IMPL_01227",
       "source": "Colección MUSAC",
       "target": "EXP_0012",
       "predicate": "crm:P14i_performed",
@@ -9961,7 +10087,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01222",
+      "id": "IMPL_01228",
       "source": "EXP_0012",
       "target": "[N/A]",
       "predicate": "crm:P7_took_place_at",
@@ -9970,7 +10096,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01223",
+      "id": "IMPL_01229",
       "source": "EXP_0012",
       "target": "LOC_0021",
       "predicate": "crm:P7_took_place_at",
@@ -9979,7 +10105,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01224",
+      "id": "IMPL_01230",
       "source": "PER_0001",
       "target": "EXP_0013",
       "predicate": "crm:P14i_performed",
@@ -9988,7 +10114,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01225",
+      "id": "IMPL_01231",
       "source": "[N/A]",
       "target": "EXP_0013",
       "predicate": "crm:P14i_performed",
@@ -9997,7 +10123,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01226",
+      "id": "IMPL_01232",
       "source": "PER_0031",
       "target": "EXP_0013",
       "predicate": "crm:P14i_performed",
@@ -10006,7 +10132,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01227",
+      "id": "IMPL_01233",
       "source": "EXP_0013",
       "target": "[N/A]",
       "predicate": "crm:P7_took_place_at",
@@ -10015,7 +10141,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01228",
+      "id": "IMPL_01234",
       "source": "EXP_0013",
       "target": "LOC_0056",
       "predicate": "crm:P7_took_place_at",
@@ -10024,7 +10150,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01229",
+      "id": "IMPL_01235",
       "source": "PER_0038",
       "target": "EXP_0014",
       "predicate": "crm:P14i_performed",
@@ -10033,7 +10159,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01230",
+      "id": "IMPL_01236",
       "source": "PER_0038",
       "target": "EXP_0014",
       "predicate": "crm:P14i_performed",
@@ -10042,7 +10168,7 @@
       "_sheet_name": "Exposiciones_Curadurias"
     },
     {
-      "id": "IMPL_01231",
+      "id": "IMPL_01237",
       "source": "PER_0001",
       "target": "COM_0001",
       "predicate": "crm:P14i_performed",
@@ -10051,7 +10177,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01232",
+      "id": "IMPL_01238",
       "source": "COM_0001",
       "target": "ORG_0003",
       "predicate": "crm:P61_occurred_at",
@@ -10060,7 +10186,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01233",
+      "id": "IMPL_01239",
       "source": "PER_0001",
       "target": "COM_0002",
       "predicate": "crm:P14i_performed",
@@ -10069,7 +10195,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01234",
+      "id": "IMPL_01240",
       "source": "COM_0002",
       "target": "ORG_0007",
       "predicate": "crm:P61_occurred_at",
@@ -10078,7 +10204,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01235",
+      "id": "IMPL_01241",
       "source": "PER_0001",
       "target": "COM_0003",
       "predicate": "crm:P14i_performed",
@@ -10087,7 +10213,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01236",
+      "id": "IMPL_01242",
       "source": "COM_0003",
       "target": "ORG_0004",
       "predicate": "crm:P61_occurred_at",
@@ -10096,7 +10222,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01237",
+      "id": "IMPL_01243",
       "source": "PER_0001",
       "target": "COM_0004",
       "predicate": "crm:P14i_performed",
@@ -10105,7 +10231,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01238",
+      "id": "IMPL_01244",
       "source": "COM_0004",
       "target": "ORG_0004",
       "predicate": "crm:P61_occurred_at",
@@ -10114,7 +10240,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01239",
+      "id": "IMPL_01245",
       "source": "PER_0001",
       "target": "COM_0005",
       "predicate": "crm:P14i_performed",
@@ -10123,7 +10249,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01240",
+      "id": "IMPL_01246",
       "source": "COM_0005",
       "target": "ORG_0002",
       "predicate": "crm:P61_occurred_at",
@@ -10132,7 +10258,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01241",
+      "id": "IMPL_01247",
       "source": "PER_0001",
       "target": "COM_0006",
       "predicate": "crm:P14i_performed",
@@ -10141,7 +10267,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01242",
+      "id": "IMPL_01248",
       "source": "COM_0006",
       "target": "ORG_0032",
       "predicate": "crm:P61_occurred_at",
@@ -10150,7 +10276,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01243",
+      "id": "IMPL_01249",
       "source": "PER_0001",
       "target": "COM_0007",
       "predicate": "crm:P14i_performed",
@@ -10159,7 +10285,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01244",
+      "id": "IMPL_01250",
       "source": "COM_0007",
       "target": "ORG_0030",
       "predicate": "crm:P61_occurred_at",
@@ -10168,7 +10294,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01245",
+      "id": "IMPL_01251",
       "source": "PER_0001",
       "target": "COM_0008",
       "predicate": "crm:P14i_performed",
@@ -10177,7 +10303,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01246",
+      "id": "IMPL_01252",
       "source": "COM_0008",
       "target": "ORG_0003",
       "predicate": "crm:P61_occurred_at",
@@ -10186,7 +10312,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01247",
+      "id": "IMPL_01253",
       "source": "PER_0001",
       "target": "COM_0009",
       "predicate": "crm:P14i_performed",
@@ -10195,7 +10321,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01248",
+      "id": "IMPL_01254",
       "source": "COM_0009",
       "target": "ORG_0004",
       "predicate": "crm:P61_occurred_at",
@@ -10204,7 +10330,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01249",
+      "id": "IMPL_01255",
       "source": "PER_0001",
       "target": "COM_0010",
       "predicate": "crm:P14i_performed",
@@ -10213,7 +10339,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01250",
+      "id": "IMPL_01256",
       "source": "COM_0010",
       "target": "ORG_0033",
       "predicate": "crm:P61_occurred_at",
@@ -10222,7 +10348,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01251",
+      "id": "IMPL_01257",
       "source": "PER_0001",
       "target": "COM_0011",
       "predicate": "crm:P14i_performed",
@@ -10231,7 +10357,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01252",
+      "id": "IMPL_01258",
       "source": "COM_0011",
       "target": "ORG_0031",
       "predicate": "crm:P61_occurred_at",
@@ -10240,7 +10366,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01253",
+      "id": "IMPL_01259",
       "source": "PER_0001",
       "target": "COM_0012",
       "predicate": "crm:P14i_performed",
@@ -10249,7 +10375,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01254",
+      "id": "IMPL_01260",
       "source": "COM_0012",
       "target": "ORG_0026",
       "predicate": "crm:P61_occurred_at",
@@ -10258,7 +10384,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01255",
+      "id": "IMPL_01261",
       "source": "PER_0001",
       "target": "COM_0013",
       "predicate": "crm:P14i_performed",
@@ -10267,7 +10393,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01256",
+      "id": "IMPL_01262",
       "source": "COM_0013",
       "target": "ORG_0010",
       "predicate": "crm:P61_occurred_at",
@@ -10276,7 +10402,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01257",
+      "id": "IMPL_01263",
       "source": "PER_0001",
       "target": "COM_0014",
       "predicate": "crm:P14i_performed",
@@ -10285,7 +10411,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01258",
+      "id": "IMPL_01264",
       "source": "COM_0014",
       "target": "ORG_0007",
       "predicate": "crm:P61_occurred_at",
@@ -10294,7 +10420,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01259",
+      "id": "IMPL_01265",
       "source": "PER_0001",
       "target": "COM_0015",
       "predicate": "crm:P14i_performed",
@@ -10303,7 +10429,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01260",
+      "id": "IMPL_01266",
       "source": "COM_0015",
       "target": "ORG_0002",
       "predicate": "crm:P61_occurred_at",
@@ -10312,7 +10438,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01261",
+      "id": "IMPL_01267",
       "source": "PER_0001",
       "target": "COM_0016",
       "predicate": "crm:P14i_performed",
@@ -10321,7 +10447,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01262",
+      "id": "IMPL_01268",
       "source": "COM_0016",
       "target": "ORG_0002",
       "predicate": "crm:P61_occurred_at",
@@ -10330,7 +10456,7 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01263",
+      "id": "IMPL_01269",
       "source": "PER_0001",
       "target": "COM_0017",
       "predicate": "crm:P14i_performed",
@@ -10339,62 +10465,8 @@
       "_sheet_name": "Medios_y_Congresos"
     },
     {
-      "id": "IMPL_01264",
-      "source": "COM_0017",
-      "target": "ORG_0002",
-      "predicate": "crm:P61_occurred_at",
-      "predicate_label": "Ocurrió en",
-      "description": "Congress/Media hosted at organization",
-      "_sheet_name": "Medios_y_Congresos"
-    },
-    {
-      "id": "IMPL_01265",
-      "source": "PER_0001",
-      "target": "COM_0018",
-      "predicate": "crm:P14i_performed",
-      "predicate_label": "Participó en",
-      "description": "Media/Congress: Matriz Imaginada. Archivo Salón de Estudiantes 2013",
-      "_sheet_name": "Medios_y_Congresos"
-    },
-    {
-      "id": "IMPL_01266",
-      "source": "COM_0018",
-      "target": "ORG_0003",
-      "predicate": "crm:P61_occurred_at",
-      "predicate_label": "Ocurrió en",
-      "description": "Congress/Media hosted at organization",
-      "_sheet_name": "Medios_y_Congresos"
-    },
-    {
-      "id": "IMPL_01267",
-      "source": "PER_0001",
-      "target": "COM_0019",
-      "predicate": "crm:P14i_performed",
-      "predicate_label": "Participó en",
-      "description": "Media/Congress: Presentación del modelo de gestión Salón de Estudiantes 2013",
-      "_sheet_name": "Medios_y_Congresos"
-    },
-    {
-      "id": "IMPL_01268",
-      "source": "COM_0019",
-      "target": "ORG_0013",
-      "predicate": "crm:P61_occurred_at",
-      "predicate_label": "Ocurrió en",
-      "description": "Congress/Media hosted at organization",
-      "_sheet_name": "Medios_y_Congresos"
-    },
-    {
-      "id": "IMPL_01269",
-      "source": "PER_0001",
-      "target": "COM_0020",
-      "predicate": "crm:P14i_performed",
-      "predicate_label": "Participó en",
-      "description": "Media/Congress: Ciclo Instagram Live: Monvoisin en América (5 capítulos)",
-      "_sheet_name": "Medios_y_Congresos"
-    },
-    {
       "id": "IMPL_01270",
-      "source": "COM_0020",
+      "source": "COM_0017",
       "target": "ORG_0002",
       "predicate": "crm:P61_occurred_at",
       "predicate_label": "Ocurrió en",
@@ -10404,16 +10476,16 @@
     {
       "id": "IMPL_01271",
       "source": "PER_0001",
-      "target": "COM_0021",
+      "target": "COM_0018",
       "predicate": "crm:P14i_performed",
       "predicate_label": "Participó en",
-      "description": "Media/Congress: Desde el Museo. Miradas Alteradas: colonialismo y dominación",
+      "description": "Media/Congress: Matriz Imaginada. Archivo Salón de Estudiantes 2013",
       "_sheet_name": "Medios_y_Congresos"
     },
     {
       "id": "IMPL_01272",
-      "source": "COM_0021",
-      "target": "ORG_0002",
+      "source": "COM_0018",
+      "target": "ORG_0003",
       "predicate": "crm:P61_occurred_at",
       "predicate_label": "Ocurrió en",
       "description": "Congress/Media hosted at organization",
@@ -10422,16 +10494,16 @@
     {
       "id": "IMPL_01273",
       "source": "PER_0001",
-      "target": "COM_0022",
+      "target": "COM_0019",
       "predicate": "crm:P14i_performed",
       "predicate_label": "Participó en",
-      "description": "Media/Congress: Instagram Live: Representación de la afrodescendencia en la Colección MNBA",
+      "description": "Media/Congress: Presentación del modelo de gestión Salón de Estudiantes 2013",
       "_sheet_name": "Medios_y_Congresos"
     },
     {
       "id": "IMPL_01274",
-      "source": "COM_0022",
-      "target": "ORG_0002",
+      "source": "COM_0019",
+      "target": "ORG_0013",
       "predicate": "crm:P61_occurred_at",
       "predicate_label": "Ocurrió en",
       "description": "Congress/Media hosted at organization",
@@ -10440,15 +10512,15 @@
     {
       "id": "IMPL_01275",
       "source": "PER_0001",
-      "target": "COM_0023",
+      "target": "COM_0020",
       "predicate": "crm:P14i_performed",
       "predicate_label": "Participó en",
-      "description": "Media/Congress: Desde el Museo: Adquisiciones en contexto",
+      "description": "Media/Congress: Ciclo Instagram Live: Monvoisin en América (5 capítulos)",
       "_sheet_name": "Medios_y_Congresos"
     },
     {
       "id": "IMPL_01276",
-      "source": "COM_0023",
+      "source": "COM_0020",
       "target": "ORG_0002",
       "predicate": "crm:P61_occurred_at",
       "predicate_label": "Ocurrió en",
@@ -10458,15 +10530,15 @@
     {
       "id": "IMPL_01277",
       "source": "PER_0001",
-      "target": "COM_0024",
+      "target": "COM_0021",
       "predicate": "crm:P14i_performed",
       "predicate_label": "Participó en",
-      "description": "Media/Congress: Recorrido mediado por la exposición Adquisiciones en contexto",
+      "description": "Media/Congress: Desde el Museo. Miradas Alteradas: colonialismo y dominación",
       "_sheet_name": "Medios_y_Congresos"
     },
     {
       "id": "IMPL_01278",
-      "source": "COM_0024",
+      "source": "COM_0021",
       "target": "ORG_0002",
       "predicate": "crm:P61_occurred_at",
       "predicate_label": "Ocurrió en",
@@ -10476,15 +10548,15 @@
     {
       "id": "IMPL_01279",
       "source": "PER_0001",
-      "target": "COM_0025",
+      "target": "COM_0022",
       "predicate": "crm:P14i_performed",
       "predicate_label": "Participó en",
-      "description": "Media/Congress: Lanzamiento plataforma web QUINSAC y libro Monvoisin en América",
+      "description": "Media/Congress: Instagram Live: Representación de la afrodescendencia en la Colección MNBA",
       "_sheet_name": "Medios_y_Congresos"
     },
     {
       "id": "IMPL_01280",
-      "source": "COM_0025",
+      "source": "COM_0022",
       "target": "ORG_0002",
       "predicate": "crm:P61_occurred_at",
       "predicate_label": "Ocurrió en",
@@ -10494,16 +10566,16 @@
     {
       "id": "IMPL_01281",
       "source": "PER_0001",
-      "target": "COM_0026",
+      "target": "COM_0023",
       "predicate": "crm:P14i_performed",
       "predicate_label": "Participó en",
-      "description": "Media/Congress: Los canteros de Pedro Lira: Trayectoria histórica y aproximación iconográfica",
+      "description": "Media/Congress: Desde el Museo: Adquisiciones en contexto",
       "_sheet_name": "Medios_y_Congresos"
     },
     {
       "id": "IMPL_01282",
-      "source": "COM_0026",
-      "target": "ORG_0006",
+      "source": "COM_0023",
+      "target": "ORG_0002",
       "predicate": "crm:P61_occurred_at",
       "predicate_label": "Ocurrió en",
       "description": "Congress/Media hosted at organization",
@@ -10512,15 +10584,15 @@
     {
       "id": "IMPL_01283",
       "source": "PER_0001",
-      "target": "COM_0027",
+      "target": "COM_0024",
       "predicate": "crm:P14i_performed",
       "predicate_label": "Participó en",
-      "description": "Media/Congress: Cápsula audiovisual de mediación: Exposición Episodio Monvoisin en el MNBA",
+      "description": "Media/Congress: Recorrido mediado por la exposición Adquisiciones en contexto",
       "_sheet_name": "Medios_y_Congresos"
     },
     {
       "id": "IMPL_01284",
-      "source": "COM_0027",
+      "source": "COM_0024",
       "target": "ORG_0002",
       "predicate": "crm:P61_occurred_at",
       "predicate_label": "Ocurrió en",
@@ -10530,6 +10602,60 @@
     {
       "id": "IMPL_01285",
       "source": "PER_0001",
+      "target": "COM_0025",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Media/Congress: Lanzamiento plataforma web QUINSAC y libro Monvoisin en América",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01286",
+      "source": "COM_0025",
+      "target": "ORG_0002",
+      "predicate": "crm:P61_occurred_at",
+      "predicate_label": "Ocurrió en",
+      "description": "Congress/Media hosted at organization",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01287",
+      "source": "PER_0001",
+      "target": "COM_0026",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Media/Congress: Los canteros de Pedro Lira: Trayectoria histórica y aproximación iconográfica",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01288",
+      "source": "COM_0026",
+      "target": "ORG_0006",
+      "predicate": "crm:P61_occurred_at",
+      "predicate_label": "Ocurrió en",
+      "description": "Congress/Media hosted at organization",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01289",
+      "source": "PER_0001",
+      "target": "COM_0027",
+      "predicate": "crm:P14i_performed",
+      "predicate_label": "Participó en",
+      "description": "Media/Congress: Cápsula audiovisual de mediación: Exposición Episodio Monvoisin en el MNBA",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01290",
+      "source": "COM_0027",
+      "target": "ORG_0002",
+      "predicate": "crm:P61_occurred_at",
+      "predicate_label": "Ocurrió en",
+      "description": "Congress/Media hosted at organization",
+      "_sheet_name": "Medios_y_Congresos"
+    },
+    {
+      "id": "IMPL_01291",
+      "source": "PER_0001",
       "target": "PUB_0001",
       "predicate": "crm:P108_has_produced",
       "predicate_label": "Produjo/Publicó",
@@ -10537,7 +10663,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01286",
+      "id": "IMPL_01292",
       "source": "PER_0001",
       "target": "PUB_0002",
       "predicate": "crm:P108_has_produced",
@@ -10546,7 +10672,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01287",
+      "id": "IMPL_01293",
       "source": "PER_0001",
       "target": "PUB_0003",
       "predicate": "crm:P108_has_produced",
@@ -10555,7 +10681,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01288",
+      "id": "IMPL_01294",
       "source": "PER_0001",
       "target": "PUB_0004",
       "predicate": "crm:P108_has_produced",
@@ -10564,7 +10690,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01289",
+      "id": "IMPL_01295",
       "source": "PER_0001",
       "target": "PUB_0005",
       "predicate": "crm:P108_has_produced",
@@ -10573,7 +10699,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01290",
+      "id": "IMPL_01296",
       "source": "PER_0001",
       "target": "PUB_0006",
       "predicate": "crm:P108_has_produced",
@@ -10582,7 +10708,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01291",
+      "id": "IMPL_01297",
       "source": "PER_0001",
       "target": "PUB_0007",
       "predicate": "crm:P108_has_produced",
@@ -10591,7 +10717,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01292",
+      "id": "IMPL_01298",
       "source": "PER_0001",
       "target": "PUB_0008",
       "predicate": "crm:P108_has_produced",
@@ -10600,7 +10726,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01293",
+      "id": "IMPL_01299",
       "source": "PER_0001",
       "target": "PUB_0009",
       "predicate": "crm:P108_has_produced",
@@ -10609,7 +10735,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01294",
+      "id": "IMPL_01300",
       "source": "PER_0001",
       "target": "PUB_0010",
       "predicate": "crm:P108_has_produced",
@@ -10618,7 +10744,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01295",
+      "id": "IMPL_01301",
       "source": "PER_0001",
       "target": "PUB_0011",
       "predicate": "crm:P108_has_produced",
@@ -10627,7 +10753,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01296",
+      "id": "IMPL_01302",
       "source": "PER_0001",
       "target": "PUB_0012",
       "predicate": "crm:P108_has_produced",
@@ -10636,7 +10762,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01297",
+      "id": "IMPL_01303",
       "source": "PER_0001",
       "target": "PUB_0013",
       "predicate": "crm:P108_has_produced",
@@ -10645,7 +10771,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01298",
+      "id": "IMPL_01304",
       "source": "PER_0001",
       "target": "PUB_0014",
       "predicate": "crm:P108_has_produced",
@@ -10654,7 +10780,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01299",
+      "id": "IMPL_01305",
       "source": "PER_0001",
       "target": "PUB_0015",
       "predicate": "crm:P108_has_produced",
@@ -10663,7 +10789,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01300",
+      "id": "IMPL_01306",
       "source": "PER_0001",
       "target": "PUB_0016",
       "predicate": "crm:P108_has_produced",
@@ -10672,7 +10798,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01301",
+      "id": "IMPL_01307",
       "source": "PER_0001",
       "target": "PUB_0017",
       "predicate": "crm:P108_has_produced",
@@ -10681,7 +10807,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01302",
+      "id": "IMPL_01308",
       "source": "PER_0001",
       "target": "PUB_0018",
       "predicate": "crm:P108_has_produced",
@@ -10690,7 +10816,7 @@
       "_sheet_name": "Publicaciones"
     },
     {
-      "id": "IMPL_01303",
+      "id": "IMPL_01309",
       "source": "PER_0001",
       "target": "PRJ_0001",
       "predicate": "crm:P14i_performed",
@@ -10699,7 +10825,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01304",
+      "id": "IMPL_01310",
       "source": "PER_0001",
       "target": "PRJ_0002",
       "predicate": "crm:P14i_performed",
@@ -10708,7 +10834,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01305",
+      "id": "IMPL_01311",
       "source": "PER_0001",
       "target": "PRJ_0003",
       "predicate": "crm:P14i_performed",
@@ -10717,7 +10843,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01306",
+      "id": "IMPL_01312",
       "source": "PER_0001",
       "target": "PRJ_0004",
       "predicate": "crm:P14i_performed",
@@ -10726,7 +10852,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01307",
+      "id": "IMPL_01313",
       "source": "PER_0001",
       "target": "PRJ_0005",
       "predicate": "crm:P14i_performed",
@@ -10735,7 +10861,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01308",
+      "id": "IMPL_01314",
       "source": "PER_0001",
       "target": "PRJ_0006",
       "predicate": "crm:P14i_performed",
@@ -10744,7 +10870,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01309",
+      "id": "IMPL_01315",
       "source": "PER_0001",
       "target": "PRJ_0007",
       "predicate": "crm:P14i_performed",
@@ -10753,7 +10879,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01310",
+      "id": "IMPL_01316",
       "source": "PER_0001",
       "target": "PRJ_0008",
       "predicate": "crm:P14i_performed",
@@ -10762,7 +10888,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01311",
+      "id": "IMPL_01317",
       "source": "PER_0001",
       "target": "PRJ_0008_N01",
       "predicate": "crm:P14i_performed",
@@ -10771,7 +10897,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01312",
+      "id": "IMPL_01318",
       "source": "PER_0001",
       "target": "PRJ_0008_N02",
       "predicate": "crm:P14i_performed",
@@ -10780,7 +10906,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01313",
+      "id": "IMPL_01319",
       "source": "PER_0001",
       "target": "PRJ_0008_N03",
       "predicate": "crm:P14i_performed",
@@ -10789,7 +10915,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01314",
+      "id": "IMPL_01320",
       "source": "PER_0001",
       "target": "PRJ_0008_N04",
       "predicate": "crm:P14i_performed",
@@ -10798,7 +10924,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01315",
+      "id": "IMPL_01321",
       "source": "PER_0001",
       "target": "PRJ_0009",
       "predicate": "crm:P14i_performed",
@@ -10807,7 +10933,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01316",
+      "id": "IMPL_01322",
       "source": "PER_0001",
       "target": "PRJ_0010",
       "predicate": "crm:P14i_performed",
@@ -10816,7 +10942,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01317",
+      "id": "IMPL_01323",
       "source": "PER_0001",
       "target": "PRJ_0011",
       "predicate": "crm:P14i_performed",
@@ -10825,7 +10951,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01318",
+      "id": "IMPL_01324",
       "source": "PER_0001",
       "target": "PRJ_0012",
       "predicate": "crm:P14i_performed",
@@ -10834,7 +10960,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01319",
+      "id": "IMPL_01325",
       "source": "PER_0001",
       "target": "PRJ_0013",
       "predicate": "crm:P14i_performed",
@@ -10843,7 +10969,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01320",
+      "id": "IMPL_01326",
       "source": "PER_0001",
       "target": "PRJ_0014",
       "predicate": "crm:P14i_performed",
@@ -10852,7 +10978,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01321",
+      "id": "IMPL_01327",
       "source": "PER_0001",
       "target": "PRJ_0015",
       "predicate": "crm:P14i_performed",
@@ -10861,7 +10987,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01322",
+      "id": "IMPL_01328",
       "source": "PER_0001",
       "target": "PRJ_0016",
       "predicate": "crm:P14i_performed",
@@ -10870,7 +10996,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01323",
+      "id": "IMPL_01329",
       "source": "PER_0009",
       "target": "PRJ_0017",
       "predicate": "crm:P14i_performed",
@@ -10879,7 +11005,7 @@
       "_sheet_name": "Proyectos_y_Fondos"
     },
     {
-      "id": "IMPL_01324",
+      "id": "IMPL_01330",
       "source": "PER_0001",
       "target": "DIG_0001",
       "predicate": "crm:P14i_performed",
@@ -10888,7 +11014,7 @@
       "_sheet_name": "Portafolio_Digital_Web"
     },
     {
-      "id": "IMPL_01325",
+      "id": "IMPL_01331",
       "source": "PER_0001",
       "target": "DIG_0006",
       "predicate": "crm:P14i_performed",
@@ -10897,7 +11023,7 @@
       "_sheet_name": "Portafolio_Digital_Web"
     },
     {
-      "id": "IMPL_01326",
+      "id": "IMPL_01332",
       "source": "PER_0001",
       "target": "DIG_0008",
       "predicate": "crm:P14i_performed",
@@ -10906,7 +11032,7 @@
       "_sheet_name": "Portafolio_Digital_Web"
     },
     {
-      "id": "IMPL_01327",
+      "id": "IMPL_01333",
       "source": "PER_0001",
       "target": "DIG_0009",
       "predicate": "crm:P14i_performed",
@@ -10915,7 +11041,7 @@
       "_sheet_name": "Portafolio_Digital_Web"
     },
     {
-      "id": "IMPL_01328",
+      "id": "IMPL_01334",
       "source": "PER_0001",
       "target": "DIG_0010",
       "predicate": "crm:P14i_performed",
@@ -10924,7 +11050,7 @@
       "_sheet_name": "Portafolio_Digital_Web"
     },
     {
-      "id": "IMPL_01329",
+      "id": "IMPL_01335",
       "source": "PER_0001",
       "target": "DIG_0011",
       "predicate": "crm:P14i_performed",
@@ -10933,7 +11059,7 @@
       "_sheet_name": "Portafolio_Digital_Web"
     },
     {
-      "id": "IMPL_01330",
+      "id": "IMPL_01336",
       "source": "PER_0001",
       "target": "DIG_0012",
       "predicate": "crm:P14i_performed",
@@ -10942,7 +11068,7 @@
       "_sheet_name": "Portafolio_Digital_Web"
     },
     {
-      "id": "IMPL_01331",
+      "id": "IMPL_01337",
       "source": "PER_0001",
       "target": "DIG_0013",
       "predicate": "crm:P14i_performed",
@@ -10951,7 +11077,7 @@
       "_sheet_name": "Portafolio_Digital_Web"
     },
     {
-      "id": "IMPL_01332",
+      "id": "IMPL_01338",
       "source": "PER_0001",
       "target": "DIG_0014",
       "predicate": "crm:P14i_performed",
@@ -10960,7 +11086,7 @@
       "_sheet_name": "Portafolio_Digital_Web"
     },
     {
-      "id": "IMPL_01333",
+      "id": "IMPL_01339",
       "source": "PER_0001",
       "target": "DIG_0015",
       "predicate": "crm:P14i_performed",
@@ -10969,7 +11095,7 @@
       "_sheet_name": "Portafolio_Digital_Web"
     },
     {
-      "id": "IMPL_01334",
+      "id": "IMPL_01340",
       "source": "PER_0001",
       "target": "DIG_0006",
       "predicate": "crm:P14i_performed",
