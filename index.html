@@ -1666,6 +1666,185 @@
       };
       L.control.layers(baseMaps, null, { position: 'topright' }).addTo(leafletMap);
 
+      // CLUSTER EXPLOSION SYSTEM
+      const coordinateKey = (lat, lng) => `${lat.toFixed(4)},${lng.toFixed(4)}`;
+      const clusterMap = {};
+      const expandedClusters = new Set();
+      let clusterLayerGroup = L.layerGroup().addTo(leafletMap);
+      const baseMarkersByCluster = new Map(); // Track base markers for clusters
+
+      // Group features by coordinates to detect clusters
+      geoData.features.forEach(feature => {
+        if (feature.geometry.type === 'Point') {
+          const coords = feature.geometry.coordinates;
+          const key = coordinateKey(coords[1], coords[0]);
+          if (!clusterMap[key]) clusterMap[key] = [];
+          clusterMap[key].push(feature);
+        }
+      });
+
+      // Mark features that are part of multi-feature clusters
+      geoData.features.forEach(feature => {
+        if (feature.geometry.type === 'Point') {
+          const coords = feature.geometry.coordinates;
+          const key = coordinateKey(coords[1], coords[0]);
+          feature.properties._clusterKey = key;
+          feature.properties._clusterSize = clusterMap[key].length;
+          feature.properties._isCluster = clusterMap[key].length > 1;
+        }
+      });
+
+      function toggleCluster(clusterKey, baseLatlng) {
+        if (expandedClusters.has(clusterKey)) {
+          collapseCluster(clusterKey);
+        } else {
+          expandCluster(clusterKey, baseLatlng);
+        }
+      }
+
+      function expandCluster(clusterKey, baseLatlng) {
+        expandedClusters.add(clusterKey);
+        const features = clusterMap[clusterKey];
+        if (features.length <= 1) return;
+
+        const zoom = leafletMap.getZoom();
+        const radiusInMeters = Math.max(50, 60 * (21 - zoom));
+        const radiusInLatLng = radiusInMeters / 111000;
+
+        features.forEach((feature, index) => {
+          if (index === 0) return; // Base marker stays in place
+
+          const angle = (index / features.length) * 2 * Math.PI;
+          const newLat = baseLatlng.lat + radiusInLatLng * Math.sin(angle);
+          const newLng = baseLatlng.lng + radiusInLatLng * Math.cos(angle);
+
+          const marker = L.circleMarker(L.latLng(newLat, newLng), {
+            radius: 5.5,
+            fillColor: '#7f1d1d',
+            color: '#fecaca',
+            weight: 2,
+            opacity: 1,
+            fillOpacity: 0.85
+          });
+
+          marker._feature = feature;
+          marker._clusterKey = clusterKey;
+          marker._isExpanded = true;
+          marker._baseIndex = index;
+
+          // Create popup HTML for expanded marker
+          buildAndBindPopup(marker, feature);
+
+          // Add to cluster layer
+          marker.addTo(clusterLayerGroup);
+
+          // Add connector line
+          const line = L.polyline([baseLatlng, [newLat, newLng]], {
+            color: '#991b1b',
+            weight: 1.5,
+            opacity: 0.35,
+            dashArray: '3,3',
+            className: 'cluster-connector'
+          }).addTo(clusterLayerGroup);
+          line._clusterKey = clusterKey;
+        });
+      }
+
+      function collapseCluster(clusterKey) {
+        expandedClusters.delete(clusterKey);
+        clusterLayerGroup.eachLayer(layer => {
+          if (layer._clusterKey === clusterKey) {
+            clusterLayerGroup.removeLayer(layer);
+          }
+        });
+      }
+
+      function buildAndBindPopup(layer, feature) {
+        const props = feature.properties;
+        const popupHtml = createLocationPopupHtml(props);
+        layer.bindPopup(popupHtml, { maxWidth: 300 });
+      }
+
+      function createLocationPopupHtml(props) {
+        let popupHtml = `<div class="p-2 space-y-1.5 font-sans text-xs max-w-[280px]">`;
+        popupHtml += `<strong class="text-sm font-bold text-stone-900 leading-snug block">${props.name}</strong>`;
+
+        if (props.type) {
+          popupHtml += `<span class="inline-block px-1.5 py-0.2 rounded text-[9px] font-semibold bg-brand-50 text-brand-900 border border-brand-200">${props.type}</span>`;
+        }
+
+        if (props.city || props.country) {
+          popupHtml += `<div class="text-stone-500 text-[10px]">📍 ${props.city || ''} ${props.country ? '(' + props.country + ')' : ''}</div>`;
+        }
+
+        const parentOrgId = props.parent_org_id;
+        const parentOrg = parentOrgId ? fullGraphData.nodes.find(n => n.id === parentOrgId) : null;
+
+        let activityTypes = {};
+        let activityDetails = {};
+
+        if (parentOrg) {
+          popupHtml += `<div class="text-stone-700 text-[10px] font-medium mt-1">🏢 Institución: ${parentOrg.label}</div>`;
+
+          fullGraphData.links.forEach(link => {
+            if (link.source === 'PER_0001') {
+              const node = fullGraphData.nodes.find(n => n.id === link.target);
+              if (node && ['Position', 'Education', 'Exhibition', 'Publication', 'Project', 'Media'].includes(node.type)) {
+                const hasOrgLink = fullGraphData.links.some(l =>
+                  (l.source === link.target && l.target === parentOrgId) ||
+                  (l.target === link.target && l.source === parentOrgId)
+                );
+                const hasLocationLink = fullGraphData.links.some(l =>
+                  (l.source === link.target && l.target === props.id) ||
+                  (l.target === link.target && l.source === props.id)
+                );
+
+                if (hasOrgLink || hasLocationLink) {
+                  if (!activityTypes[node.type]) {
+                    activityTypes[node.type] = 0;
+                    activityDetails[node.type] = [];
+                  }
+                  activityTypes[node.type]++;
+                  if (!activityDetails[node.type].includes(node.label)) {
+                    activityDetails[node.type].push(node.label);
+                  }
+                }
+              }
+            }
+          });
+
+          if (Object.keys(activityTypes).length > 0) {
+            const connectionTexts = [];
+            if (activityTypes['Position']) connectionTexts.push(`trabajó aquí (${activityTypes['Position']})`);
+            if (activityTypes['Education']) connectionTexts.push(`estudió aquí (${activityTypes['Education']})`);
+            if (activityTypes['Exhibition']) connectionTexts.push(`expuso aquí (${activityTypes['Exhibition']})`);
+            if (activityTypes['Publication']) connectionTexts.push(`publicó aquí (${activityTypes['Publication']})`);
+            if (activityTypes['Project']) connectionTexts.push(`participó en proyectos (${activityTypes['Project']})`);
+            if (activityTypes['Media']) connectionTexts.push(`presentó en eventos (${activityTypes['Media']})`);
+
+            popupHtml += `<div class="bg-blue-50 border-l-4 border-blue-500 pl-2 py-1.5 mt-1 rounded-r">
+              <p class="text-stone-700 text-[9px] font-semibold leading-tight">Jaime Cuevas: ${connectionTexts.join(', ')}</p>`;
+
+            if (activityDetails['Media'] && activityDetails['Media'].length > 0) {
+              popupHtml += `<div class="text-[8px] text-stone-600"><strong>🎤 Eventos:</strong> ${activityDetails['Media'].slice(0, 2).join(', ')}</div>`;
+            }
+
+            popupHtml += `</div>`;
+          } else {
+            popupHtml += `<div class="text-stone-500 text-[9px] italic mt-1">ℹ️ Sin actividades de Jaime registradas en esta ubicación</div>`;
+          }
+        } else {
+          popupHtml += `<div class="text-stone-500 text-[9px] italic mt-1">ℹ️ Ubicación sin institución anfitriona</div>`;
+        }
+
+        popupHtml += `<button onclick="window.openInspectorFromMap('${props.id}')" class="mt-2 w-full py-1.5 px-2 text-[9px] font-semibold bg-stone-900 hover:bg-brand-900 text-white rounded transition-colors text-center block">
+          🔍 Detalles Completos →
+        </button>`;
+
+        popupHtml += `</div>`;
+        return popupHtml;
+      }
+
       L.geoJSON(geoData, {
         style: function (feature) {
           if (feature.geometry.type === 'LineString') {
@@ -1678,193 +1857,47 @@
           }
         },
         pointToLayer: function (feature, latlng) {
+          // Visual indicator for cluster members (slightly darker for multi-feature locations)
+          const isCluster = feature.properties._isClusterSize > 1;
           return L.circleMarker(latlng, {
-            radius: 6.5,
-            fillColor: '#b91c1c',
+            radius: isCluster ? 7 : 6.5,
+            fillColor: isCluster ? '#dc2626' : '#b91c1c',
             color: '#ffffff',
-            weight: 2,
+            weight: isCluster ? 2.5 : 2,
             opacity: 1,
-            fillOpacity: 0.9
+            fillOpacity: isCluster ? 0.95 : 0.9,
+            className: isCluster ? 'cluster-base-marker' : ''
           });
         },
         onEachFeature: function (feature, layer) {
           const props = feature.properties;
-
-          // Find related entities (nodes and links connected to this location)
-          const locationId = props.id;
-          const relatedLinks = fullGraphData.links.filter(l =>
-            l.source === locationId || l.target === locationId
-          );
-
-          const relatedNodeIds = new Set();
-          relatedLinks.forEach(link => {
-            if (link.source === locationId) relatedNodeIds.add(link.target);
-            if (link.target === locationId) relatedNodeIds.add(link.source);
-          });
-
-          const relatedNodes = Array.from(relatedNodeIds)
-            .map(id => fullGraphData.nodes.find(n => n.id === id))
-            .filter(n => n && n.type !== 'Location'); // Exclude other locations
-
-          // Compact, glanceable popup with context
-          let popupHtml = `<div class="p-2 space-y-1.5 font-sans text-xs max-w-[280px]">`;
-          popupHtml += `<strong class="text-sm font-bold text-stone-900 leading-snug block">${props.name}</strong>`;
-
-          if (props.type) {
-            popupHtml += `<span class="inline-block px-1.5 py-0.2 rounded text-[9px] font-semibold bg-brand-50 text-brand-900 border border-brand-200">${props.type}</span>`;
-          }
-
-          if (props.city || props.country) {
-            popupHtml += `<div class="text-stone-500 text-[10px]">📍 ${props.city || ''} ${props.country ? '(' + props.country + ')' : ''}</div>`;
-          }
-
-          // Find parent organization and Jaime's activities
-          const parentOrgId = props.parent_org_id;
-          const parentOrg = parentOrgId ? fullGraphData.nodes.find(n => n.id === parentOrgId) : null;
-
-          // Initialize activity tracking in outer scope so it's accessible for context generation
-          let activityTypes = {};
-          let activityDetails = {};
-
-          if (parentOrg) {
-            popupHtml += `<div class="text-stone-700 text-[10px] font-medium mt-1">🏢 Institución: ${parentOrg.label}</div>`;
-
-            // Find Jaime's activities at this organization AND directly at this location
-            activityTypes = {};
-            activityDetails = {};
-
-            fullGraphData.links.forEach(link => {
-              if (link.source === 'PER_0001') {
-                const node = fullGraphData.nodes.find(n => n.id === link.target);
-                if (node && ['Position', 'Education', 'Exhibition', 'Publication', 'Project', 'Media'].includes(node.type)) {
-                  // Check if activity is linked to parent org OR directly to this location
-                  const hasOrgLink = fullGraphData.links.some(l =>
-                    (l.source === link.target && l.target === parentOrgId) ||
-                    (l.target === link.target && l.source === parentOrgId)
-                  );
-                  const hasLocationLink = fullGraphData.links.some(l =>
-                    (l.source === link.target && l.target === props.id) ||
-                    (l.target === link.target && l.source === props.id)
-                  );
-
-                  if (hasOrgLink || hasLocationLink) {
-                    if (!activityTypes[node.type]) {
-                      activityTypes[node.type] = 0;
-                      activityDetails[node.type] = [];
-                    }
-                    activityTypes[node.type]++;
-                    if (!activityDetails[node.type].includes(node.label)) {
-                      activityDetails[node.type].push(node.label);
-                    }
-                  }
-                }
-              }
-            });
-
-            if (Object.keys(activityTypes).length > 0) {
-              // Create a human-readable summary
-              const connectionTexts = [];
-              if (activityTypes['Position']) connectionTexts.push(`trabajó aquí (${activityTypes['Position']})`);
-              if (activityTypes['Education']) connectionTexts.push(`estudió aquí (${activityTypes['Education']})`);
-              if (activityTypes['Exhibition']) connectionTexts.push(`expuso aquí (${activityTypes['Exhibition']})`);
-              if (activityTypes['Publication']) connectionTexts.push(`publicó aquí (${activityTypes['Publication']})`);
-              if (activityTypes['Project']) connectionTexts.push(`participó en proyectos (${activityTypes['Project']})`);
-              if (activityTypes['Media']) connectionTexts.push(`presentó en eventos (${activityTypes['Media']})`);
-
-              popupHtml += `<div class="bg-blue-50 border-l-4 border-blue-500 pl-2 py-1.5 mt-1 rounded-r">
-                <p class="text-stone-700 text-[9px] font-semibold leading-tight">Jaime Cuevas: ${connectionTexts.join(', ')}</p>`;
-
-              // Show individual activities
-              if (activityDetails['Position'] && activityDetails['Position'].length > 0) {
-                popupHtml += `<div class="text-[8px] text-stone-600 mt-0.5"><strong>📋 Posiciones:</strong> ${activityDetails['Position'].slice(0, 2).join(', ')}</div>`;
-              }
-              if (activityDetails['Education'] && activityDetails['Education'].length > 0) {
-                popupHtml += `<div class="text-[8px] text-stone-600"><strong>🎓 Formación:</strong> ${activityDetails['Education'].slice(0, 2).join(', ')}</div>`;
-              }
-              if (activityDetails['Exhibition'] && activityDetails['Exhibition'].length > 0) {
-                popupHtml += `<div class="text-[8px] text-stone-600"><strong>🖼️ Exposiciones:</strong> ${activityDetails['Exhibition'].slice(0, 2).join(', ')}</div>`;
-              }
-              if (activityDetails['Media'] && activityDetails['Media'].length > 0) {
-                popupHtml += `<div class="text-[8px] text-stone-600"><strong>🎤 Eventos:</strong> ${activityDetails['Media'].slice(0, 2).join(', ')}</div>`;
-              }
-
-              popupHtml += `</div>`;
-            } else {
-              popupHtml += `<div class="text-stone-500 text-[9px] italic mt-1">ℹ️ Sin actividades de Jaime registradas en esta ubicación</div>`;
-            }
-          } else {
-            popupHtml += `<div class="text-stone-500 text-[9px] italic mt-1">ℹ️ Ubicación sin institución anfitriona</div>`;
-          }
-
-          // Context: why this location is relevant
-          let contextText = props.why_relevant;
-
-          // Auto-generate context if not curated
-          if (!contextText && parentOrg) {
-            const activities = Object.entries(activityTypes).map(([type, count]) => {
-              const typeLabel = {
-                'Position': 'posiciones',
-                'Education': 'programas de formación',
-                'Exhibition': 'exposiciones',
-                'Publication': 'publicaciones',
-                'Project': 'proyectos',
-                'Media': 'presentaciones en eventos'
-              }[type] || type.toLowerCase();
-              return `${count} ${typeLabel}`;
-            }).join(', ');
-
-            if (activities) {
-              contextText = `Ubicación asociada a ${activities} de Jaime Cuevas en ${parentOrg.label}.`;
-            }
-          }
-
-          if (contextText) {
-            popupHtml += `<div class="bg-emerald-50 border-l-2 border-emerald-400 pl-2 py-1 mt-1 rounded-r">
-              <p class="text-stone-600 text-[9px] font-medium">📌 Contexto:</p>
-              <p class="text-stone-700 text-[9px] leading-tight">${contextText}</p>
-            </div>`;
-          }
-
-          if (props.micro_summary && props.micro_summary !== props.why_relevant) {
-            popupHtml += `<p class="text-stone-700 text-[11px] leading-tight border-l-2 border-brand-600 pl-1.5 mt-1 bg-stone-50 py-0.5 rounded-r">${props.micro_summary}</p>`;
-          }
-
-          // Show connected activities/entities
-          if (relatedNodes.length > 0) {
-            popupHtml += `<div class="mt-1.5 bg-amber-50 border border-amber-200 rounded p-1.5">
-              <p class="text-stone-600 text-[9px] font-semibold mb-1 block">🔗 Conexiones (${relatedNodes.length}):</p>
-              <div class="space-y-0.5">`;
-
-            relatedNodes.slice(0, 5).forEach(node => {
-              if (node) {
-                const glyph = categoryGlyphs[node.type] || '◈';
-                popupHtml += `<div class="text-[9px] text-stone-700">
-                  <span class="font-semibold">${glyph}</span> ${node.label || node.id}
-                </div>`;
-              }
-            });
-
-            if (relatedNodes.length > 5) {
-              popupHtml += `<div class="text-[9px] text-stone-500 italic mt-1">+${relatedNodes.length - 5} más</div>`;
-            }
-
-            popupHtml += `</div></div>`;
-          } else {
-            popupHtml += `<div class="mt-1.5 bg-gray-50 border border-gray-200 rounded p-1.5">
-              <p class="text-stone-500 text-[9px] italic">📌 Ubicación sin conexiones explícitas en el grafo</p>
-            </div>`;
-          }
-
-          popupHtml += `<button onclick="window.openInspectorFromMap('${props.id}')" class="mt-2 w-full py-1.5 px-2 text-[9px] font-semibold bg-stone-900 hover:bg-brand-900 text-white rounded transition-colors text-center block">
-            🔍 Detalles Completos →
-          </button>`;
-
-          popupHtml += `</div>`;
+          const popupHtml = createLocationPopupHtml(props);
           layer.bindPopup(popupHtml, { maxWidth: 300 });
 
-          layer.on('click', () => {
-            window.openInspectorFromMap(props.id);
-          });
+          // Handle clicks for clusters
+          if (props._isCluster) {
+            layer.on('click', (e) => {
+              e.stopPropagation();
+              const latlng = layer.getLatLng();
+              toggleCluster(props._clusterKey, latlng);
+            });
+            layer.on('mouseover', () => {
+              layer.setStyle({ weight: 3, fillOpacity: 1 });
+            });
+            layer.on('mouseout', () => {
+              layer.setStyle({ weight: 2.5, fillOpacity: 0.95 });
+            });
+          } else {
+            layer.on('click', (e) => {
+              e.stopPropagation();
+              window.openInspectorFromMap(props.id);
+            });
+          }
+
+          // Store base marker for this cluster
+          if (props._isCluster) {
+            baseMarkersByCluster.set(props._clusterKey, layer);
+          }
         }
       }).addTo(leafletMap);
     }
