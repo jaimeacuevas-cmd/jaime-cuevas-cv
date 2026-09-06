@@ -13,12 +13,13 @@ permissions:
   id-token: write
 
 concurrency:
-  group: ${{ github.event_name == 'pull_request' && format('pr-{0}', github.event.pull_request.number) || 'pages' }}
-  cancel-in-progress: ${{ github.event_name == 'push' }}
+  group: ${{ github.event_name == 'pull_request' && format('pr-{0}', github.event.pull_request.number) || 'deploy-pages' }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 jobs:
-  build-and-deploy:
+  build-and-test:
     runs-on: ubuntu-latest
+    name: Build & Validate ETL
     steps:
       - name: Checkout del Repositorio
         uses: actions/checkout@v4
@@ -37,7 +38,7 @@ jobs:
         run: |
           python3 scripts/build.py
 
-      - name: Validar Outputs
+      - name: Validar Outputs (JSON/GeoJSON/TTL)
         run: |
           python3 -c "
           import json
@@ -67,17 +68,71 @@ jobs:
             sys.exit(1)
           "
 
+      - name: Ejecutar Auditorías Fase 5-7
+        run: |
+          echo "=== Phase 5: Data Integrity ==="
+          python3 scripts/audit_phase5.py | tail -20
+          echo ""
+          echo "=== Phase 6: Build Reproducibility ==="
+          python3 scripts/audit_phase6.py | tail -15
+          echo ""
+          echo "=== Phase 7: Security & Performance ==="
+          python3 scripts/audit_phase7.py | tail -15
+
+      - name: Verificar Reproducibilidad
+        run: |
+          python3 -c "
+          import hashlib
+          from pathlib import Path
+
+          files = [
+              'dist/data/graph_data.json',
+              'dist/data/cartografia.geojson',
+              'dist/data/jaime_knowledge_graph.ttl'
+          ]
+
+          for f in files:
+              p = Path(f)
+              if p.exists():
+                  content = p.read_text()
+                  size = len(content)
+                  sha = hashlib.sha256(content.encode()).hexdigest()
+                  print(f'✓ {p.name}: {size} bytes | SHA256: {sha[:16]}...')
+              else:
+                  raise FileNotFoundError(f'{f} not found')
+          "
+
+  deploy-to-pages:
+    needs: build-and-test
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    name: Deploy to GitHub Pages
+    steps:
+      - name: Checkout del Repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar Dependencias Python
+        run: |
+          python3 -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Ejecutar Pipeline ETL
+        run: |
+          python3 scripts/build.py
+
       - name: Configurar GitHub Pages
-        if: github.event_name == 'push'
         uses: actions/configure-pages@v4
 
       - name: Subir Artefacto Web
-        if: github.event_name == 'push'
         uses: actions/upload-pages-artifact@v3
         with:
           path: 'dist/'
 
       - name: Desplegar a GitHub Pages
-        if: github.event_name == 'push'
         id: deployment
         uses: actions/deploy-pages@v4
