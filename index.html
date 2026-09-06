@@ -1716,24 +1716,33 @@
           if (parentOrg) {
             popupHtml += `<div class="text-stone-700 text-[10px] font-medium mt-1">🏢 Institución: ${parentOrg.label}</div>`;
 
-            // Find Jaime's activities at this organization
+            // Find Jaime's activities at this organization AND directly at this location
             const activityTypes = {};
             const activityDetails = {};
+
             fullGraphData.links.forEach(link => {
               if (link.source === 'PER_0001') {
                 const node = fullGraphData.nodes.find(n => n.id === link.target);
                 if (node && ['Position', 'Education', 'Exhibition', 'Publication', 'Project'].includes(node.type)) {
+                  // Check if activity is linked to parent org OR directly to this location
                   const hasOrgLink = fullGraphData.links.some(l =>
                     (l.source === link.target && l.target === parentOrgId) ||
                     (l.target === link.target && l.source === parentOrgId)
                   );
-                  if (hasOrgLink) {
+                  const hasLocationLink = fullGraphData.links.some(l =>
+                    (l.source === link.target && l.target === props.id) ||
+                    (l.target === link.target && l.source === props.id)
+                  );
+
+                  if (hasOrgLink || hasLocationLink) {
                     if (!activityTypes[node.type]) {
                       activityTypes[node.type] = 0;
                       activityDetails[node.type] = [];
                     }
                     activityTypes[node.type]++;
-                    activityDetails[node.type].push(node.label);
+                    if (!activityDetails[node.type].includes(node.label)) {
+                      activityDetails[node.type].push(node.label);
+                    }
                   }
                 }
               }

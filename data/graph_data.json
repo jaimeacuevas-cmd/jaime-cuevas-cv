@@ -3,7 +3,7 @@
     "version": "2.0",
     "source": "CV_Dataset_Maestro_Jaime_Cuevas.xlsx",
     "node_count": 261,
-    "link_count": 660,
+    "link_count": 677,
     "sheet_count": 12,
     "validation_status": "PASS",
     "validation_warnings": 148,
@@ -7725,6 +7725,15 @@
       "_sheet_name": "Relaciones_Grafo_LOD"
     },
     {
+      "id": "REL_0298",
+      "source": "EDU_0001",
+      "target": "LOC_0005",
+      "predicate": "crm:P7_took_place_at",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
       "id": "IMPL_01000",
       "source": "PER_0001",
       "target": "EDU_0001",
@@ -10684,6 +10693,166 @@
       "predicate_label": "Produjo/Desarrolló",
       "description": "Digital Heritage: Archivo de Conferencias y Webinars",
       "_sheet_name": "Portafolio_Digital_Web"
+    },
+    {
+      "id": "IMPL_02000",
+      "source": "PUB_0017",
+      "target": "LOC_0019",
+      "predicate": "crm:P7_took_place_at",
+      "predicate_label": "Asociado a",
+      "description": "Derived from ORG_0022 → LOC_0019",
+      "_sheet_name": "DERIVED",
+      "_derived": true
+    },
+    {
+      "id": "IMPL_02001",
+      "source": "PRJ_0016",
+      "target": "LOC_0007",
+      "predicate": "crm:P7_took_place_at",
+      "predicate_label": "Asociado a",
+      "description": "Derived from ORG_0008 → LOC_0007",
+      "_sheet_name": "DERIVED",
+      "_derived": true
+    },
+    {
+      "id": "IMPL_02002",
+      "source": "EDU_0003",
+      "target": "LOC_0004",
+      "predicate": "crm:P7_took_place_at",
+      "predicate_label": "Asociado a",
+      "description": "Derived from ORG_0004 → LOC_0004",
+      "_sheet_name": "DERIVED",
+      "_derived": true
+    },
+    {
+      "id": "IMPL_02003",
+      "source": "EDU_0004",
+      "target": "LOC_0046",
+      "predicate": "crm:P7_took_place_at",
+      "predicate_label": "Asociado a",
+      "description": "Derived from ORG_0003 → LOC_0046",
+      "_sheet_name": "DERIVED",
+      "_derived": true
+    },
+    {
+      "id": "IMPL_02004",
+      "source": "EDU_0005",
+      "target": "LOC_0008",
+      "predicate": "crm:P7_took_place_at",
+      "predicate_label": "Asociado a",
+      "description": "Derived from ORG_0009 → LOC_0008",
+      "_sheet_name": "DERIVED",
+      "_derived": true
+    },
+    {
+      "id": "IMPL_02005",
+      "source": "EDU_0005",
+      "target": "LOC_0036",
+      "predicate": "crm:P7_took_place_at",
+      "predicate_label": "Asociado a",
+      "description": "Derived from ORG_0009 → LOC_0036",
+      "_sheet_name": "DERIVED",
+      "_derived": true
+    },
+    {
+      "id": "IMPL_02006",
+      "source": "EDU_0006",
+      "target": "LOC_0046",
+      "predicate": "crm:P7_took_place_at",
+      "predicate_label": "Asociado a",
+      "description": "Derived from ORG_0003 → LOC_0046",
+      "_sheet_name": "DERIVED",
+      "_derived": true
+    },
+    {
+      "id": "IMPL_02007",
+      "source": "EDU_0007",
+      "target": "LOC_0009",
+      "predicate": "crm:P7_took_place_at",
+      "predicate_label": "Asociado a",
+      "description": "Derived from ORG_0010 → LOC_0009",
+      "_sheet_name": "DERIVED",
+      "_derived": true
+    },
+    {
+      "id": "IMPL_02008",
+      "source": "EDU_0008",
+      "target": "LOC_0004",
+      "predicate": "crm:P7_took_place_at",
+      "predicate_label": "Asociado a",
+      "description": "Derived from ORG_0004 → LOC_0004",
+      "_sheet_name": "DERIVED",
+      "_derived": true
+    },
+    {
+      "id": "IMPL_02009",
+      "source": "EDU_0009",
+      "target": "LOC_0012",
+      "predicate": "crm:P7_took_place_at",
+      "predicate_label": "Asociado a",
+      "description": "Derived from ORG_0013 → LOC_0012",
+      "_sheet_name": "DERIVED",
+      "_derived": true
+    },
+    {
+      "id": "IMPL_02010",
+      "source": "EDU_0010",
+      "target": "LOC_0045",
+      "predicate": "crm:P7_took_place_at",
+      "predicate_label": "Asociado a",
+      "description": "Derived from ORG_0036 → LOC_0045",
+      "_sheet_name": "DERIVED",
+      "_derived": true
+    },
+    {
+      "id": "IMPL_02011",
+      "source": "EDU_0011",
+      "target": "LOC_0044",
+      "predicate": "crm:P7_took_place_at",
+      "predicate_label": "Asociado a",
+      "description": "Derived from ORG_0035 → LOC_0044",
+      "_sheet_name": "DERIVED",
+      "_derived": true
+    },
+    {
+      "id": "IMPL_02012",
+      "source": "EDU_0012",
+      "target": "LOC_0046",
+      "predicate": "crm:P7_took_place_at",
+      "predicate_label": "Asociado a",
+      "description": "Derived from ORG_0003 → LOC_0046",
+      "_sheet_name": "DERIVED",
+      "_derived": true
+    },
+    {
+      "id": "IMPL_02013",
+      "source": "EDU_0013",
+      "target": "LOC_0046",
+      "predicate": "crm:P7_took_place_at",
+      "predicate_label": "Asociado a",
+      "description": "Derived from ORG_0003 → LOC_0046",
+      "_sheet_name": "DERIVED",
+      "_derived": true
+    },
+    {
+      "id": "IMPL_02014",
+      "source": "EDU_0014",
+      "target": "LOC_0042",
+      "predicate": "crm:P7_took_place_at",
+      "predicate_label": "Asociado a",
+      "description": "Derived from ORG_0033 → LOC_0042",
+      "_sheet_name": "DERIVED",
+      "_derived": true
+    },
+    {
+      "id": "IMPL_02015",
+      "source": "EDU_0016",
+      "target": "LOC_0047",
+      "predicate": "crm:P7_took_place_at",
+      "predicate_label": "Asociado a",
+      "description": "Derived from ORG_0038 → LOC_0047",
+      "_sheet_name": "DERIVED",
+      "_derived": true
     }
   ]
 }
