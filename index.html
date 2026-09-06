@@ -1722,12 +1722,16 @@
           const parentOrgId = props.parent_org_id;
           const parentOrg = parentOrgId ? fullGraphData.nodes.find(n => n.id === parentOrgId) : null;
 
+          // Initialize activity tracking in outer scope so it's accessible for context generation
+          let activityTypes = {};
+          let activityDetails = {};
+
           if (parentOrg) {
             popupHtml += `<div class="text-stone-700 text-[10px] font-medium mt-1">🏢 Institución: ${parentOrg.label}</div>`;
 
             // Find Jaime's activities at this organization AND directly at this location
-            const activityTypes = {};
-            const activityDetails = {};
+            activityTypes = {};
+            activityDetails = {};
 
             fullGraphData.links.forEach(link => {
               if (link.source === 'PER_0001') {
