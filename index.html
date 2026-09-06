@@ -256,6 +256,18 @@
       filter: drop-shadow(0 0 12px rgba(244, 63, 94, 0.9));
     }
 
+    /* Pinned node styling - visual feedback */
+    .node.pinned circle {
+      filter: drop-shadow(0 0 6px rgba(34, 197, 94, 0.7));
+      stroke: #22c55e;
+      stroke-width: 3px;
+    }
+    .node.pinned.root-node circle {
+      stroke: #22c55e;
+      stroke-width: 3px;
+      filter: drop-shadow(0 0 10px rgba(34, 197, 94, 0.8));
+    }
+
     /* Custom Leaflet styling */
     .leaflet-popup-content-wrapper {
       border-radius: 8px;
@@ -1487,6 +1499,7 @@
       // Refresh dynamic state classes
       nodeSelection.classed('is-expandable', d => d.has_unexpanded && !d.is_expanded);
       nodeSelection.classed('is-expanded', d => d.is_expanded);
+      nodeSelection.classed('pinned', d => d.pinned);
 
       // Apply type filters with ROOT NODE IMMUNITY
       nodeSelection.style('display', d => (d.id === 'PER_0001' || !hiddenNodeTypes.has(d.type)) ? 'block' : 'none');
@@ -1531,10 +1544,11 @@
 
     function dragended(event, d) {
       if (!event.active) simulation.alphaTarget(0);
-      if (!d.pinned) {
-        d.fx = null;
-        d.fy = null;
-      }
+      // Auto-pin: keep node where it was dropped
+      d.pinned = true;
+      d.fx = d.x;
+      d.fy = d.y;
+      console.log(`✓ Node ${d.id} pinned at position [${d.x.toFixed(0)}, ${d.y.toFixed(0)}]. Double-click to unpin.`);
     }
 
     function highlightNeighbors(targetNode) {
