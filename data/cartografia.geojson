@@ -2,8 +2,8 @@
   "type": "FeatureCollection",
   "metadata": {
     "projection": "WGS84",
-    "feature_count": 52,
-    "filtered_count": 11
+    "feature_count": 57,
+    "filtered_count": 7
   },
   "features": [
     {
@@ -336,6 +336,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -58.44653347584588,
+          -34.62815117682938
+        ]
+      },
+      "properties": {
+        "id": "LOC_0014",
+        "name": "Fundación TyPA / CAIA UBA (Buenos Aires)",
+        "type": "Location",
+        "city": "Buenos Aires",
+        "country": null,
+        "wikidata": null,
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": "ORG_0016",
+        "is_user_primary": false,
+        "precision_type": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -77.0369,
           -12.0601
         ]
@@ -352,6 +377,81 @@
         "micro_summary": null,
         "is_core": false,
         "parent_org_id": "ORG_0018",
+        "is_user_primary": false,
+        "precision_type": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.63368673405564,
+          -23.53422346887216
+        ]
+      },
+      "properties": {
+        "id": "LOC_0016",
+        "name": "Pinacoteca do Estado de São Paulo",
+        "type": "Location",
+        "city": "São Paulo",
+        "country": null,
+        "wikidata": "Q1464673",
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": "ORG_0019",
+        "is_user_primary": false,
+        "precision_type": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.5364,
+          -31.5375
+        ]
+      },
+      "properties": {
+        "id": "LOC_0017",
+        "name": "Museo Provincial de Bellas Artes Franklin Rawson",
+        "type": "Location",
+        "city": "San Juan",
+        "country": null,
+        "wikidata": "Q16609935",
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": "ORG_0020",
+        "is_user_primary": false,
+        "precision_type": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.5286,
+          -34.5796
+        ]
+      },
+      "properties": {
+        "id": "LOC_0018",
+        "name": "IIPC-TAREA, Universidad Nacional de San Martín (UNSAM)",
+        "type": "Location",
+        "city": "Buenos Aires",
+        "country": null,
+        "wikidata": "Q1486",
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": "ORG_0021",
         "is_user_primary": false,
         "precision_type": "exact"
       }
@@ -1304,6 +1404,31 @@
         "parent_org_id": null,
         "is_user_primary": true,
         "precision_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.4531,
+          -34.6372
+        ]
+      },
+      "properties": {
+        "id": "LOC_0065",
+        "name": "Facultad de Filosofía y Letras, Universidad de Buenos Aires",
+        "type": "Location",
+        "city": "Buenos Aires",
+        "country": null,
+        "wikidata": null,
+        "description": "Facultad de Filosofía y Letras de la Universidad de Buenos Aires, ubicada en Puán 480",
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": "ORG_0035",
+        "is_user_primary": false,
+        "precision_type": "exact"
       }
     }
   ]

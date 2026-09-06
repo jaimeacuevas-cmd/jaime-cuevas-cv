@@ -789,6 +789,13 @@ jc:LOC_0064 a crm:E53_Place ;
     geo:lat -33.43714059270721 ;
     schema:areaServed "Chile" .
 
+jc:LOC_0065 a crm:E53_Place ;
+    rdfs:label "Facultad de Filosofía y Letras, Universidad de Buenos Aires" ;
+    geo:long -58.4531 ;
+    geo:lat -34.6372 ;
+    schema:areaServed "Buenos Aires" ;
+    dc:description "Facultad de Filosofía y Letras de la Universidad de Buenos Aires, ubicada en Puán 480" .
+
 jc:VOC_0001 a skos:Concept ;
     rdfs:label "Humanidades Digitales" ;
     skos:definition "Campo metodológico que aplica herramientas computacionales, modelado de datos y visualizaciones al patrimonio y la cultura." .
@@ -1387,6 +1394,8 @@ jc:ORG_0029 crm:P87_is_identified_by jc:LOC_0049 .
 
 jc:ORG_0040 crm:P87_is_identified_by jc:LOC_0056 .
 
+jc:ORG_0035 crm:P87_is_identified_by jc:LOC_0065 .
+
 jc:PER_0001 crm:P14i_performed jc:PRJ_0008 .
 
 jc:PRJ_0008 crm:P108_has_produced jc:DIG_0001 .
@@ -1540,192 +1549,6 @@ jc:PER_0001 crm:P11_had_participant jc:PER_0004 .
 jc:PER_0001 crm:P11_had_participant jc:PER_0011 .
 
 jc:PER_0008 crm:P11_had_participant jc:PER_0011 .
-
-jc:PER_0022 PRJ_0009 jc:crm:P11_had_participant .
-
-jc:PER_0022 PUB_0003 jc:crm:P129_subject_of .
-
-jc:PER_0022 EXP_0006 jc:crm:P129_subject_of .
-
-jc:PER_0022 EXP_0007 jc:crm:P129_subject_of .
-
-jc:PER_0022 LOC_0053 jc:crm:P74_has_current_or_former_residence .
-
-jc:PER_0022 COM_0012 jc:crm:P11_had_participant .
-
-jc:PER_0001 EXP_0001 jc:crm:P11_had_participant .
-
-jc:PER_0001 EXP_0001_M01 jc:crm:P11_had_participant .
-
-jc:PER_0001 EXP_0001_M02 jc:crm:P11_had_participant .
-
-jc:PER_0001 EXP_0001_M03 jc:crm:P11_had_participant .
-
-jc:PER_0001 EXP_0001_M04 jc:crm:P11_had_participant .
-
-jc:PER_0001 EXP_0001_M05 jc:crm:P11_had_participant .
-
-jc:PER_0001 EXP_0001_M06 jc:crm:P11_had_participant .
-
-jc:PER_0001 EXP_0001_M07 jc:crm:P11_had_participant .
-
-jc:PER_0001 EXP_0001_M08 jc:crm:P11_had_participant .
-
-jc:PER_0001 EXP_0001_M09 jc:crm:P11_had_participant .
-
-jc:PER_0001 EXP_0001_M10 jc:crm:P11_had_participant .
-
-jc:PER_0001 EXP_0001_M11 jc:crm:P11_had_participant .
-
-jc:PER_0001 EXP_0001_M12 jc:crm:P11_had_participant .
-
-jc:PER_0001 EXP_0001_M13 jc:crm:P11_had_participant .
-
-jc:PER_0001 EXP_0002 jc:crm:P11_had_participant .
-
-jc:PER_0001 EXP_0005 jc:crm:P11_had_participant .
-
-jc:PER_0001 EXP_0006 jc:crm:P11_had_participant .
-
-jc:PER_0001 EXP_0007 jc:crm:P11_had_participant .
-
-jc:PER_0001 EXP_0008 jc:crm:P11_had_participant .
-
-jc:PER_0001 EXP_0009 jc:crm:P11_had_participant .
-
-jc:PER_0001 EXP_0010 jc:crm:P11_had_participant .
-
-jc:PER_0001 EXP_0010_1 jc:crm:P11_had_participant .
-
-jc:PER_0001 EXP_0011_01 jc:crm:P11_had_participant .
-
-jc:PER_0001 EXP_0011_02 jc:crm:P11_had_participant .
-
-jc:PER_0001 EXP_0011_03 jc:crm:P11_had_participant .
-
-jc:PER_0001 COM_0001 jc:crm:P11_had_participant .
-
-jc:PER_0001 COM_0002 jc:crm:P11_had_participant .
-
-jc:PER_0001 COM_0003 jc:crm:P11_had_participant .
-
-jc:PER_0001 COM_0004 jc:crm:P11_had_participant .
-
-jc:PER_0001 COM_0005 jc:crm:P11_had_participant .
-
-jc:PER_0001 COM_0006 jc:crm:P11_had_participant .
-
-jc:PER_0001 COM_0007 jc:crm:P11_had_participant .
-
-jc:PER_0001 COM_0008 jc:crm:P11_had_participant .
-
-jc:PER_0001 COM_0009 jc:crm:P11_had_participant .
-
-jc:PER_0001 COM_0010 jc:crm:P11_had_participant .
-
-jc:PER_0001 COM_0011 jc:crm:P11_had_participant .
-
-jc:PER_0001 COM_0012 jc:crm:P11_had_participant .
-
-jc:PER_0001 COM_0013 jc:crm:P11_had_participant .
-
-jc:PER_0001 COM_0014 jc:crm:P11_had_participant .
-
-jc:PER_0001 COM_0015 jc:crm:P11_had_participant .
-
-jc:PER_0001 COM_0016 jc:crm:P11_had_participant .
-
-jc:PER_0001 COM_0017 jc:crm:P11_had_participant .
-
-jc:PER_0001 COM_0018 jc:crm:P11_had_participant .
-
-jc:PER_0001 COM_0019 jc:crm:P11_had_participant .
-
-jc:PER_0001 COM_0020 jc:crm:P11_had_participant .
-
-jc:PER_0001 COM_0021 jc:crm:P11_had_participant .
-
-jc:PER_0001 COM_0022 jc:crm:P11_had_participant .
-
-jc:PER_0001 COM_0023 jc:crm:P11_had_participant .
-
-jc:PER_0001 COM_0024 jc:crm:P11_had_participant .
-
-jc:PER_0001 COM_0025 jc:crm:P11_had_participant .
-
-jc:PER_0001 COM_0026 jc:crm:P11_had_participant .
-
-jc:PER_0001 COM_0027 jc:crm:P11_had_participant .
-
-jc:PER_0001 PRJ_0003 jc:crm:P11_had_participant .
-
-jc:PER_0001 PRJ_0004 jc:crm:P11_had_participant .
-
-jc:PER_0001 PRJ_0007 jc:crm:P11_had_participant .
-
-jc:PER_0001 PRJ_0008_N01 jc:crm:P11_had_participant .
-
-jc:PER_0001 PRJ_0008_N02 jc:crm:P11_had_participant .
-
-jc:PER_0001 PRJ_0008_N03 jc:crm:P11_had_participant .
-
-jc:PER_0001 PRJ_0008_N04 jc:crm:P11_had_participant .
-
-jc:PER_0001 PRJ_0011 jc:crm:P11_had_participant .
-
-jc:PER_0001 PRJ_0012 jc:crm:P11_had_participant .
-
-jc:PER_0001 PRJ_0013 jc:crm:P11_had_participant .
-
-jc:PER_0001 PRJ_0014 jc:crm:P11_had_participant .
-
-jc:PER_0001 PRJ_0015 jc:crm:P11_had_participant .
-
-jc:PER_0001 PUB_0001 jc:crm:P11_had_participant .
-
-jc:PER_0001 PUB_0002 jc:crm:P11_had_participant .
-
-jc:PER_0001 PUB_0003 jc:crm:P11_had_participant .
-
-jc:PER_0001 PUB_0004 jc:crm:P11_had_participant .
-
-jc:PER_0001 PUB_0006 jc:crm:P11_had_participant .
-
-jc:PER_0001 PUB_0007 jc:crm:P11_had_participant .
-
-jc:PER_0001 PUB_0008 jc:crm:P11_had_participant .
-
-jc:PER_0001 PUB_0009 jc:crm:P11_had_participant .
-
-jc:PER_0001 PUB_0010 jc:crm:P11_had_participant .
-
-jc:PER_0001 PUB_0011 jc:crm:P11_had_participant .
-
-jc:PER_0001 PUB_0012 jc:crm:P11_had_participant .
-
-jc:PER_0001 PUB_0013 jc:crm:P11_had_participant .
-
-jc:PER_0001 PUB_0014 jc:crm:P11_had_participant .
-
-jc:PER_0001 PUB_0015 jc:crm:P11_had_participant .
-
-jc:PER_0001 PUB_0016 jc:crm:P11_had_participant .
-
-jc:PER_0001 PUB_0017 jc:crm:P11_had_participant .
-
-jc:PER_0001 PUB_0018 jc:crm:P11_had_participant .
-
-jc:PER_0004 EXP_0003 jc:crm:P11_had_participant .
-
-jc:PER_0004 EXP_0004 jc:crm:P11_had_participant .
-
-jc:PER_0008 EXP_0002 jc:crm:P11_had_participant .
-
-jc:PER_0008 EXP_0008 jc:crm:P11_had_participant .
-
-jc:PER_0011 EXP_0007 jc:crm:P11_had_participant .
-
-jc:PER_0011 EXP_0009 jc:crm:P11_had_participant .
 
 jc:PER_0002 crm:P14i_performed jc:PUB_0001 .
 
@@ -2012,6 +1835,26 @@ jc:CAR_0014 crm:P14i_performed jc:PRJ_0008 .
 jc:CAR_0015 crm:P14i_performed jc:EXP_0001 .
 
 jc:CAR_0017 crm:P14i_performed jc:EXP_DESACATOS .
+
+jc:PRJ_0008 crm:P7_took_place_at jc:LOC_0016 .
+
+jc:PRJ_0008 crm:P7_took_place_at jc:LOC_0017 .
+
+jc:PRJ_0008 crm:P7_took_place_at jc:LOC_0014 .
+
+jc:PRJ_0008 crm:P7_took_place_at jc:LOC_0018 .
+
+jc:PER_0001 crm:P14_carried_out_by jc:PRJ_0008 .
+
+jc:COM_0011 crm:P7_took_place_at jc:LOC_0065 .
+
+jc:COM_0007 crm:P7_took_place_at jc:LOC_0040 .
+
+jc:PER_0001 crm:P14_carried_out_by jc:COM_0011 .
+
+jc:PER_0001 crm:P14_carried_out_by jc:COM_0006 .
+
+jc:PER_0001 crm:P14_carried_out_by jc:COM_0007 .
 
 jc:PER_0001 crm:P14i_performed jc:EDU_0001 .
 
@@ -2714,6 +2557,8 @@ jc:EDU_0009 crm:P7_took_place_at jc:LOC_0012 .
 jc:EDU_0010 crm:P7_took_place_at jc:LOC_0045 .
 
 jc:EDU_0011 crm:P7_took_place_at jc:LOC_0044 .
+
+jc:EDU_0011 crm:P7_took_place_at jc:LOC_0065 .
 
 jc:EDU_0014 crm:P7_took_place_at jc:LOC_0042 .
 

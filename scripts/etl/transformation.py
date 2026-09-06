@@ -405,7 +405,7 @@ class DataTransformer:
                 continue
 
             # Validate that source/target are legitimate node IDs (start with known prefixes)
-            valid_prefixes = ('PER_', 'ORG_', 'LOC_', 'EXP_', 'CAR_', 'PRJ_', 'EDU_', 'PUB_', 'MED_', 'DIG_', '[')
+            valid_prefixes = ('PER_', 'ORG_', 'LOC_', 'EXP_', 'CAR_', 'PRJ_', 'EDU_', 'PUB_', 'COM_', 'DIG_', '[')
 
             if source and not any(source.startswith(p) for p in valid_prefixes):
                 reason = f"Source has invalid ID format: {source}"
