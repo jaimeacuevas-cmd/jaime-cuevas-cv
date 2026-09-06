@@ -754,8 +754,8 @@ jc:LOC_0058 a crm:E53_Place ;
 
 jc:LOC_0059 a crm:E53_Place ;
     rdfs:label "Tabacalera, Calle de Embajadores 51" ;
-    geo:long -3.6954 ;
-    geo:lat 40.4094 ;
+    geo:long -3.703136525126451 ;
+    geo:lat 40.40663337469876 ;
     schema:areaServed "Madrid" ;
     skos:exactMatch <https://www.wikidata.org/wiki/Q9256> .
 
