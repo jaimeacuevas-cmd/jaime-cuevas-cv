@@ -960,6 +960,9 @@ jc:CAR_0012 a crm:E7_Activity ;
 jc:CAR_0013 a crm:E7_Activity ;
     rdfs:label "Coordinador de Itinerancias Expositivas" .
 
+jc:CAR_0014 a crm:E7_Activity ;
+    rdfs:label "Investigador - Proyecto Monvoisin en América" .
+
 jc:PUB_0001 a crm:E31_Document ;
     rdfs:label "Monvoisin en América: Identidades, atribuciones y mercado del arte" ;
     dc:issued "2023"^^xsd:gYear .
@@ -1295,6 +1298,9 @@ jc:DIG_0014 a crm:E73_Information_Object ;
 
 jc:DIG_0015 a crm:E73_Information_Object ;
     rdfs:label "Archivo de Conferencias y Webinars" .
+
+jc:DIG_0006 a crm:E73_Information_Object ;
+    rdfs:label "https://quinsac.mnba.gob.cl/" .
 
 jc:ORG_0002 crm:P87_is_identified_by jc:LOC_0001 .
 
@@ -1988,6 +1994,12 @@ jc:EXP_0011_03 crm:P14i_performed jc:CAR_0013 .
 
 jc:PRJ_0007 crm:P7_took_place_at jc:LOC_0013 .
 
+jc:PRJ_0008 dcat:produces jc:DIG_0006 .
+
+jc:EXP_0001 crm:P14i_performed jc:PRJ_0008 .
+
+jc:CAR_0014 crm:P14i_performed jc:PRJ_0008 .
+
 jc:PER_0001 crm:P14i_performed jc:EDU_0001 .
 
 jc:EDU_0001 crm:P87_is_identified_by jc:ORG_0005 .
@@ -2105,6 +2117,10 @@ jc:CAR_0012 crm:P14_carried_out_by jc:ORG_0038 .
 jc:PER_0001 crm:P14i_performed jc:CAR_0013 .
 
 jc:CAR_0013 crm:P14_carried_out_by jc:ORG_0008 .
+
+jc:PER_0001 crm:P14i_performed jc:CAR_0014 .
+
+jc:CAR_0014 crm:P14_carried_out_by jc:ORG_0002 .
 
 jc:PER_0001 crm:P14i_performed jc:EXP_0001 .
 
@@ -2651,6 +2667,8 @@ jc:PER_0001 crm:P14i_performed jc:DIG_0013 .
 jc:PER_0001 crm:P14i_performed jc:DIG_0014 .
 
 jc:PER_0001 crm:P14i_performed jc:DIG_0015 .
+
+jc:PER_0001 crm:P14i_performed jc:DIG_0006 .
 
 jc:PUB_0017 crm:P7_took_place_at jc:LOC_0019 .
 
