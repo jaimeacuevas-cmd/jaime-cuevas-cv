@@ -1736,7 +1736,7 @@
             fullGraphData.links.forEach(link => {
               if (link.source === 'PER_0001') {
                 const node = fullGraphData.nodes.find(n => n.id === link.target);
-                if (node && ['Position', 'Education', 'Exhibition', 'Publication', 'Project'].includes(node.type)) {
+                if (node && ['Position', 'Education', 'Exhibition', 'Publication', 'Project', 'Media'].includes(node.type)) {
                   // Check if activity is linked to parent org OR directly to this location
                   const hasOrgLink = fullGraphData.links.some(l =>
                     (l.source === link.target && l.target === parentOrgId) ||
@@ -1769,6 +1769,7 @@
               if (activityTypes['Exhibition']) connectionTexts.push(`expuso aquí (${activityTypes['Exhibition']})`);
               if (activityTypes['Publication']) connectionTexts.push(`publicó aquí (${activityTypes['Publication']})`);
               if (activityTypes['Project']) connectionTexts.push(`participó en proyectos (${activityTypes['Project']})`);
+              if (activityTypes['Media']) connectionTexts.push(`presentó en eventos (${activityTypes['Media']})`);
 
               popupHtml += `<div class="bg-blue-50 border-l-4 border-blue-500 pl-2 py-1.5 mt-1 rounded-r">
                 <p class="text-stone-700 text-[9px] font-semibold leading-tight">Jaime Cuevas: ${connectionTexts.join(', ')}</p>`;
@@ -1782,6 +1783,9 @@
               }
               if (activityDetails['Exhibition'] && activityDetails['Exhibition'].length > 0) {
                 popupHtml += `<div class="text-[8px] text-stone-600"><strong>🖼️ Exposiciones:</strong> ${activityDetails['Exhibition'].slice(0, 2).join(', ')}</div>`;
+              }
+              if (activityDetails['Media'] && activityDetails['Media'].length > 0) {
+                popupHtml += `<div class="text-[8px] text-stone-600"><strong>🎤 Eventos:</strong> ${activityDetails['Media'].slice(0, 2).join(', ')}</div>`;
               }
 
               popupHtml += `</div>`;
@@ -1803,7 +1807,8 @@
                 'Education': 'programas de formación',
                 'Exhibition': 'exposiciones',
                 'Publication': 'publicaciones',
-                'Project': 'proyectos'
+                'Project': 'proyectos',
+                'Media': 'presentaciones en eventos'
               }[type] || type.toLowerCase();
               return `${count} ${typeLabel}`;
             }).join(', ');
