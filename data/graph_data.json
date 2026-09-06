@@ -2,12 +2,12 @@
   "metadata": {
     "version": "2.0",
     "source": "CV_Dataset_Maestro_Jaime_Cuevas.xlsx",
-    "node_count": 261,
-    "link_count": 677,
+    "node_count": 264,
+    "link_count": 681,
     "sheet_count": 12,
     "validation_status": "PASS",
     "validation_warnings": 148,
-    "filtered_nodes": 43
+    "filtered_nodes": 41
   },
   "nodes": [
     {
@@ -2832,6 +2832,78 @@
       "parent_org_id": null,
       "is_user_primary": false,
       "precision_type": "exact"
+    },
+    {
+      "id": "LOC_0062",
+      "type": "Location",
+      "label": "UChile Campus Juan Gomez Millas",
+      "short_name": null,
+      "category": "Sede Universitaria",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 62,
+      "city": "Chile",
+      "district": "Santiago",
+      "coordinates": [
+        -70.59598366056628,
+        -33.46665877200571
+      ],
+      "wikidata": null,
+      "why_relevant": null,
+      "micro_summary": null,
+      "parent_org_id": null,
+      "is_user_primary": true,
+      "precision_type": ""
+    },
+    {
+      "id": "LOC_0063",
+      "type": "Location",
+      "label": "Centro de Estudios Árabes \"Eugenio Chahuán\", Universidad de Chile",
+      "short_name": null,
+      "category": "Centro de Investigación",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 63,
+      "city": "Santiago",
+      "district": "Ñuñoa",
+      "coordinates": [
+        -70.59510712009342,
+        -33.46513656821872
+      ],
+      "wikidata": null,
+      "why_relevant": null,
+      "micro_summary": null,
+      "parent_org_id": null,
+      "is_user_primary": true,
+      "precision_type": ""
+    },
+    {
+      "id": "LOC_0064",
+      "type": "Location",
+      "label": "Instituto de Estudios Internacionales de la Universidad de Chile",
+      "short_name": null,
+      "category": "Departamento Universitario",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 64,
+      "city": "Chile",
+      "district": "Providencia",
+      "coordinates": [
+        -70.62813240660158,
+        -33.43714059270721
+      ],
+      "wikidata": null,
+      "why_relevant": null,
+      "micro_summary": null,
+      "parent_org_id": null,
+      "is_user_primary": true,
+      "precision_type": ""
     },
     {
       "id": "EDU_0001",
@@ -7728,6 +7800,42 @@
       "id": "REL_0298",
       "source": "EDU_0001",
       "target": "LOC_0005",
+      "predicate": "crm:P7_took_place_at",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0299",
+      "source": "EDU_0004",
+      "target": "LOC_0062",
+      "predicate": "crm:P7_took_place_at",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0300",
+      "source": "EDU_0006",
+      "target": "LOC_0064",
+      "predicate": "crm:P7_took_place_at",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0301",
+      "source": "EDU_0012",
+      "target": "LOC_0048",
+      "predicate": "crm:P7_took_place_at",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0302",
+      "source": "EDU_0013",
+      "target": "LOC_0063",
       "predicate": "crm:P7_took_place_at",
       "year": "",
       "description": null,

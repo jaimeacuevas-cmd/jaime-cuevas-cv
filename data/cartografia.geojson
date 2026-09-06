@@ -2,8 +2,8 @@
   "type": "FeatureCollection",
   "metadata": {
     "projection": "WGS84",
-    "feature_count": 49,
-    "filtered_count": 13
+    "feature_count": 52,
+    "filtered_count": 11
   },
   "features": [
     {
@@ -1229,6 +1229,81 @@
         "parent_org_id": null,
         "is_user_primary": false,
         "precision_type": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.59598366056628,
+          -33.46665877200571
+        ]
+      },
+      "properties": {
+        "id": "LOC_0062",
+        "name": "UChile Campus Juan Gomez Millas",
+        "type": "Location",
+        "city": "Chile",
+        "country": null,
+        "wikidata": null,
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": null,
+        "is_user_primary": true,
+        "precision_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.59510712009342,
+          -33.46513656821872
+        ]
+      },
+      "properties": {
+        "id": "LOC_0063",
+        "name": "Centro de Estudios Árabes \"Eugenio Chahuán\", Universidad de Chile",
+        "type": "Location",
+        "city": "Santiago",
+        "country": null,
+        "wikidata": null,
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": null,
+        "is_user_primary": true,
+        "precision_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.62813240660158,
+          -33.43714059270721
+        ]
+      },
+      "properties": {
+        "id": "LOC_0064",
+        "name": "Instituto de Estudios Internacionales de la Universidad de Chile",
+        "type": "Location",
+        "city": "Chile",
+        "country": null,
+        "wikidata": null,
+        "description": null,
+        "why_relevant": null,
+        "micro_summary": null,
+        "is_core": false,
+        "parent_org_id": null,
+        "is_user_primary": true,
+        "precision_type": ""
       }
     }
   ]
