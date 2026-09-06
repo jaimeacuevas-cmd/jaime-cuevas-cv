@@ -385,21 +385,59 @@ class DataTransformer:
     def _transform_links(self, relations_raw: List[Dict]) -> List[Dict]:
         """Transform Relaciones_Grafo_LOD → link records."""
         links = []
+        discarded = []
 
         for idx, row in enumerate(relations_raw):
+            source = row.get('id_origen', '').strip() or None
+            target = row.get('id_destino', '').strip() or None
+            predicate = row.get('predicado_cidoc', 'rdfs:seeAlso').strip()
+
+            # VALIDATION: Check for corrupted links where source/target contains CRM predicates
+            # This happens when fields get swapped during data entry
+            if source and source.startswith(('crm:', 'schema:', 'rdfs:', 'skos:')):
+                reason = f"Source is a predicate: {source}"
+                discarded.append({'row': idx + 2, 'reason': reason})
+                continue
+
+            if target and target.startswith(('crm:', 'schema:', 'rdfs:', 'skos:')):
+                reason = f"Target is a predicate: {target}"
+                discarded.append({'row': idx + 2, 'reason': reason})
+                continue
+
+            # Validate that source/target are legitimate node IDs (start with known prefixes)
+            valid_prefixes = ('PER_', 'ORG_', 'LOC_', 'EXP_', 'CAR_', 'PRJ_', 'EDU_', 'PUB_', 'MED_', 'DIG_', '[')
+
+            if source and not any(source.startswith(p) for p in valid_prefixes):
+                reason = f"Source has invalid ID format: {source}"
+                discarded.append({'row': idx + 2, 'reason': reason})
+                continue
+
+            if target and not any(target.startswith(p) for p in valid_prefixes):
+                reason = f"Target has invalid ID format: {target}"
+                discarded.append({'row': idx + 2, 'reason': reason})
+                continue
+
             link = {
                 'id': f"REL_{idx+1:04d}",
-                'source': row.get('id_origen', '').strip() or None,
-                'target': row.get('id_destino', '').strip() or None,
-                'predicate': row.get('predicado_cidoc', 'rdfs:seeAlso').strip(),
+                'source': source,
+                'target': target,
+                'predicate': predicate,
                 'year': row.get('ano'),
                 'description': row.get('descripcion', '').strip() or None,
                 '_sheet_name': 'Relaciones_Grafo_LOD',
             }
 
-            # Only add if source and target are present
+            # Only add if source and target are present and valid
             if link['source'] and link['target']:
                 links.append(link)
+
+        # Log discarded links
+        if discarded:
+            logger.warning(f"Discarded {len(discarded)} malformed links during transformation:")
+            for item in discarded[:5]:  # Show first 5
+                logger.warning(f"  Row {item['row']}: {item['reason']}")
+            if len(discarded) > 5:
+                logger.warning(f"  ... and {len(discarded) - 5} more")
 
         return links
 
