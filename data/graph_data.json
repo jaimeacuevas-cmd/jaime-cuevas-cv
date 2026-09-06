@@ -2,12 +2,12 @@
   "metadata": {
     "version": "2.0",
     "source": "CV_Dataset_Maestro_Jaime_Cuevas.xlsx",
-    "node_count": 278,
-    "link_count": 563,
+    "node_count": 279,
+    "link_count": 623,
     "sheet_count": 12,
     "validation_status": "PASS",
     "validation_warnings": 57,
-    "filtered_nodes": 34
+    "filtered_nodes": 33
   },
   "nodes": [
     {
@@ -2962,6 +2962,30 @@
       "precision_type": ""
     },
     {
+      "id": "LOC_0059",
+      "type": "Location",
+      "label": "Tabacalera, Calle de Embajadores 51",
+      "short_name": null,
+      "category": "Centro Cultural / Espacio Experimental",
+      "description": null,
+      "url": null,
+      "is_core": false,
+      "source_sheet": "",
+      "row_number": 59,
+      "city": "Madrid",
+      "district": "Lavapiés",
+      "coordinates": [
+        -3.7038,
+        40.4168
+      ],
+      "wikidata": "Q9256",
+      "why_relevant": null,
+      "micro_summary": null,
+      "parent_org_id": null,
+      "is_user_primary": false,
+      "precision_type": "exact"
+    },
+    {
       "id": "LOC_0062",
       "type": "Location",
       "label": "UChile Campus Juan Gomez Millas",
@@ -5554,6 +5578,33 @@
       "_sheet_name": "Relaciones_Grafo_LOD"
     },
     {
+      "id": "REL_0017",
+      "source": "PRJ_0008",
+      "target": "COM_0001",
+      "predicate": "crm:P129_is_subject_of",
+      "year": "2024",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0018",
+      "source": "PRJ_0008",
+      "target": "COM_0002",
+      "predicate": "crm:P129_is_subject_of",
+      "year": "2024",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0019",
+      "source": "PRJ_0008",
+      "target": "COM_0020",
+      "predicate": "crm:P129_is_subject_of",
+      "year": "2020",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
       "id": "REL_0020",
       "source": "PER_0001",
       "target": "PRJ_0001",
@@ -6607,6 +6658,429 @@
       "_sheet_name": "Relaciones_Grafo_LOD"
     },
     {
+      "id": "REL_0230",
+      "source": "COM_0001",
+      "target": "PER_0001",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0231",
+      "source": "COM_0001",
+      "target": "EXP_0001",
+      "predicate": "crm:P129_is_subject_of",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0232",
+      "source": "COM_0002",
+      "target": "PER_0001",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0233",
+      "source": "COM_0002",
+      "target": "PRJ_0008",
+      "predicate": "crm:P129_is_subject_of",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0234",
+      "source": "COM_0004",
+      "target": "PER_0001",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0235",
+      "source": "COM_0004",
+      "target": "PRJ_0008",
+      "predicate": "crm:P108_has_produced",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0236",
+      "source": "COM_0006",
+      "target": "PER_0001",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0237",
+      "source": "COM_0006",
+      "target": "PRJ_0006",
+      "predicate": "crm:P108_has_produced",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0238",
+      "source": "COM_0016",
+      "target": "PER_0001",
+      "predicate": "crm:P129_subject_of",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0239",
+      "source": "COM_0016",
+      "target": "EXP_0001",
+      "predicate": "crm:P129_is_subject_of",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0240",
+      "source": "COM_0020",
+      "target": "PER_0001",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0241",
+      "source": "COM_0020",
+      "target": "PRJ_0008",
+      "predicate": "crm:P108_has_produced",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0242",
+      "source": "COM_0025",
+      "target": "PER_0001",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0243",
+      "source": "COM_0025",
+      "target": "PRJ_0008",
+      "predicate": "crm:P108_has_produced",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0244",
+      "source": "COM_0027",
+      "target": "PER_0001",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0245",
+      "source": "COM_0027",
+      "target": "EXP_0001",
+      "predicate": "crm:P129_is_subject_of",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0246",
+      "source": "COM_0003",
+      "target": "PER_0001",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0247",
+      "source": "COM_0005",
+      "target": "PER_0001",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0248",
+      "source": "COM_0005",
+      "target": "PRJ_0006",
+      "predicate": "crm:P108_has_produced",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0249",
+      "source": "COM_0005",
+      "target": "PRJ_0008",
+      "predicate": "crm:P129_is_subject_of",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0250",
+      "source": "COM_0007",
+      "target": "PER_0001",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0251",
+      "source": "COM_0008",
+      "target": "PER_0001",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0252",
+      "source": "COM_0009",
+      "target": "PER_0001",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0253",
+      "source": "COM_0010",
+      "target": "PER_0001",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0254",
+      "source": "COM_0011",
+      "target": "PER_0001",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0255",
+      "source": "COM_0012",
+      "target": "PER_0001",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0256",
+      "source": "COM_0013",
+      "target": "PER_0001",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0257",
+      "source": "COM_0014",
+      "target": "PER_0001",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0258",
+      "source": "COM_0018",
+      "target": "PER_0001",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0259",
+      "source": "COM_0018",
+      "target": "EXP_0008",
+      "predicate": "crm:P129_is_subject_of",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0260",
+      "source": "COM_0019",
+      "target": "PER_0001",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0261",
+      "source": "COM_0019",
+      "target": "EXP_0008",
+      "predicate": "crm:P129_is_subject_of",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0262",
+      "source": "COM_0021",
+      "target": "PER_0001",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0263",
+      "source": "COM_0022",
+      "target": "PER_0001",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0264",
+      "source": "COM_0023",
+      "target": "PER_0001",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0265",
+      "source": "COM_0023",
+      "target": "EXP_0003",
+      "predicate": "crm:P129_is_subject_of",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0266",
+      "source": "COM_0024",
+      "target": "PER_0001",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0267",
+      "source": "COM_0024",
+      "target": "EXP_0003",
+      "predicate": "crm:P129_is_subject_of",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0268",
+      "source": "COM_0015",
+      "target": "PER_0001",
+      "predicate": "crm:P129_subject_of",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0269",
+      "source": "COM_0015",
+      "target": "PRJ_0008",
+      "predicate": "crm:P129_is_subject_of",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0270",
+      "source": "COM_0017",
+      "target": "PER_0001",
+      "predicate": "crm:P129_subject_of",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0271",
+      "source": "COM_0026",
+      "target": "PER_0001",
+      "predicate": "crm:P14i_performed",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0272",
+      "source": "COM_0025",
+      "target": "DIG_0001",
+      "predicate": "crm:P108_has_produced",
+      "year": "Communication produces digital resource (QUINSAC platform launch)",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0273",
+      "source": "COM_0012",
+      "target": "PRJ_0009",
+      "predicate": "crm:P108_has_produced",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0274",
+      "source": "COM_0018",
+      "target": "PRJ_0010",
+      "predicate": "crm:P108_has_produced",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0275",
+      "source": "COM_0019",
+      "target": "PRJ_0010",
+      "predicate": "crm:P108_has_produced",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0276",
+      "source": "COM_0012",
+      "target": "EXP_0006",
+      "predicate": "crm:P129_is_subject_of",
+      "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
       "id": "REL_0277",
       "source": "PER_0003",
       "target": "PRJ_0008",
@@ -6733,6 +7207,24 @@
       "_sheet_name": "Relaciones_Grafo_LOD"
     },
     {
+      "id": "REL_0291",
+      "source": "COM_0012",
+      "target": "EXP_0007",
+      "predicate": "crm:P129_is_subject_of",
+      "year": 2015,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0292",
+      "source": "EXP_0001_M01",
+      "target": "COM_0017",
+      "predicate": "crm:P129_is_subject_of",
+      "year": 2025,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
       "id": "REL_0293",
       "source": "PUB_0002",
       "target": "EDU_0003",
@@ -6756,6 +7248,24 @@
       "target": "EDU_0003",
       "predicate": "crm:P108_has_produced",
       "year": 2019,
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0296",
+      "source": "COM_0019",
+      "target": "LOC_0059",
+      "predicate": "crm:P7_took_place_at",
+      "year": "Presentación realizada en Tabacalera",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0297",
+      "source": "COM_0006",
+      "target": "LOC_0041",
+      "predicate": "crm:P7_took_place_at",
+      "year": "",
       "description": null,
       "_sheet_name": "Relaciones_Grafo_LOD"
     },
@@ -6945,6 +7455,60 @@
       "target": "PRJ_0008",
       "predicate": "crm:P14_carried_out_by",
       "year": "",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0319",
+      "source": "COM_0011",
+      "target": "LOC_0065",
+      "predicate": "crm:P7_took_place_at",
+      "year": "2016",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0320",
+      "source": "COM_0006",
+      "target": "LOC_0041",
+      "predicate": "crm:P7_took_place_at",
+      "year": "2019",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0321",
+      "source": "COM_0007",
+      "target": "LOC_0040",
+      "predicate": "crm:P7_took_place_at",
+      "year": "2017",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0322",
+      "source": "PER_0001",
+      "target": "COM_0011",
+      "predicate": "crm:P14_carried_out_by",
+      "year": "2016",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0323",
+      "source": "PER_0001",
+      "target": "COM_0006",
+      "predicate": "crm:P14_carried_out_by",
+      "year": "2019",
+      "description": null,
+      "_sheet_name": "Relaciones_Grafo_LOD"
+    },
+    {
+      "id": "REL_0324",
+      "source": "PER_0001",
+      "target": "COM_0007",
+      "predicate": "crm:P14_carried_out_by",
+      "year": "2017",
       "description": null,
       "_sheet_name": "Relaciones_Grafo_LOD"
     },
