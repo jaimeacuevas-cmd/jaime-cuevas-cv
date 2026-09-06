@@ -2065,6 +2065,8 @@ jc:PER_0001 crm:P14i_performed jc:CAR_0007 .
 
 jc:CAR_0007 crm:P14_carried_out_by jc:ORG_0037 .
 
+jc:CAR_0007 crm:P7_took_place_at jc:LOC_0046 .
+
 jc:PER_0001 crm:P14i_performed jc:CAR_0008 .
 
 jc:CAR_0008 crm:P14_carried_out_by jc:ORG_0012 .
