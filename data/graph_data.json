@@ -3094,7 +3094,11 @@
       "row_number": 1,
       "institution": "Universitat de Barcelona",
       "period": null,
-      "field": null
+      "field": null,
+      "coordinates": [
+        2.1734,
+        41.3851
+      ]
     },
     {
       "id": "EDU_0002",
@@ -3109,7 +3113,11 @@
       "row_number": 2,
       "institution": "Ministerio de Ciencia, Innovación y Universidades",
       "period": null,
-      "field": null
+      "field": null,
+      "coordinates": [
+        -3.7038,
+        40.4168
+      ]
     },
     {
       "id": "EDU_0003",
@@ -3124,7 +3132,11 @@
       "row_number": 3,
       "institution": "Universidad Adolfo Ibáñez",
       "period": null,
-      "field": null
+      "field": null,
+      "coordinates": [
+        -70.5516,
+        -33.4975
+      ]
     },
     {
       "id": "EDU_0004",
@@ -3139,7 +3151,11 @@
       "row_number": 4,
       "institution": "Universidad de Chile",
       "period": null,
-      "field": null
+      "field": null,
+      "coordinates": [
+        -70.682,
+        -33.4414
+      ]
     },
     {
       "id": "EDU_0005",
@@ -3154,7 +3170,11 @@
       "row_number": 5,
       "institution": "Universidad Alberto Hurtado",
       "period": null,
-      "field": null
+      "field": null,
+      "coordinates": [
+        -70.6615,
+        -33.4445
+      ]
     },
     {
       "id": "EDU_0006",
@@ -3169,7 +3189,11 @@
       "row_number": 6,
       "institution": "Universidad de Chile (IEI)",
       "period": null,
-      "field": null
+      "field": null,
+      "coordinates": [
+        -70.65,
+        -33.444
+      ]
     },
     {
       "id": "EDU_0007",
@@ -3184,7 +3208,11 @@
       "row_number": 7,
       "institution": "IDEA - Universidad de Santiago de Chile",
       "period": null,
-      "field": null
+      "field": null,
+      "coordinates": [
+        -70.6789,
+        -33.4468
+      ]
     },
     {
       "id": "EDU_0008",
@@ -3199,7 +3227,11 @@
       "row_number": 8,
       "institution": "Universidad Adolfo Ibáñez",
       "period": null,
-      "field": null
+      "field": null,
+      "coordinates": [
+        -70.5516,
+        -33.4975
+      ]
     },
     {
       "id": "EDU_0009",
@@ -3214,7 +3246,11 @@
       "row_number": 9,
       "institution": "Ministerio de Educación, Cultura y Deporte (España)",
       "period": null,
-      "field": null
+      "field": null,
+      "coordinates": [
+        -3.6954,
+        40.4094
+      ]
     },
     {
       "id": "EDU_0010",
@@ -3229,7 +3265,11 @@
       "row_number": 10,
       "institution": "Instituto Mexicano de Curaduría y Restauración",
       "period": null,
-      "field": null
+      "field": null,
+      "coordinates": [
+        -99.1332,
+        19.4326
+      ]
     },
     {
       "id": "EDU_0011",
@@ -3244,7 +3284,11 @@
       "row_number": 11,
       "institution": "CENFOTO UDP",
       "period": null,
-      "field": null
+      "field": null,
+      "coordinates": [
+        -70.65,
+        -33.45
+      ]
     },
     {
       "id": "EDU_0012",
@@ -3259,7 +3303,11 @@
       "row_number": 12,
       "institution": "Centro de Estudios Judaicos, Universidad de Chile",
       "period": null,
-      "field": null
+      "field": null,
+      "coordinates": [
+        -70.65,
+        -33.444
+      ]
     },
     {
       "id": "EDU_0013",
@@ -3274,7 +3322,11 @@
       "row_number": 13,
       "institution": "Centro de Estudios Árabes, Universidad de Chile",
       "period": null,
-      "field": null
+      "field": null,
+      "coordinates": [
+        -70.65,
+        -33.444
+      ]
     },
     {
       "id": "EDU_0014",
@@ -3289,7 +3341,11 @@
       "row_number": 14,
       "institution": "Pontificia Universidad Católica de Chile (PUC)",
       "period": null,
-      "field": null
+      "field": null,
+      "coordinates": [
+        -70.6406,
+        -33.4411
+      ]
     },
     {
       "id": "EDU_0015",
@@ -3304,7 +3360,11 @@
       "row_number": 15,
       "institution": "SERPAT / Programa BiblioRedes",
       "period": null,
-      "field": null
+      "field": null,
+      "coordinates": [
+        -70.6439,
+        -33.4352
+      ]
     },
     {
       "id": "EDU_0016",
@@ -3319,7 +3379,11 @@
       "row_number": 16,
       "institution": "Instituto de Seguridad Laboral (ISL)",
       "period": null,
-      "field": null
+      "field": null,
+      "coordinates": [
+        -70.65,
+        -33.444
+      ]
     },
     {
       "id": "CAR_0001",
