@@ -3,7 +3,7 @@
     "version": "2.0",
     "source": "CV_Dataset_Maestro_Jaime_Cuevas.xlsx",
     "node_count": 279,
-    "link_count": 623,
+    "link_count": 622,
     "sheet_count": 12,
     "validation_status": "PASS",
     "validation_warnings": 57,
@@ -7469,15 +7469,6 @@
     },
     {
       "id": "REL_0320",
-      "source": "COM_0006",
-      "target": "LOC_0041",
-      "predicate": "crm:P7_took_place_at",
-      "year": "2019",
-      "description": null,
-      "_sheet_name": "Relaciones_Grafo_LOD"
-    },
-    {
-      "id": "REL_0321",
       "source": "COM_0007",
       "target": "LOC_0040",
       "predicate": "crm:P7_took_place_at",
@@ -7486,7 +7477,7 @@
       "_sheet_name": "Relaciones_Grafo_LOD"
     },
     {
-      "id": "REL_0322",
+      "id": "REL_0321",
       "source": "PER_0001",
       "target": "COM_0011",
       "predicate": "crm:P14_carried_out_by",
@@ -7495,7 +7486,7 @@
       "_sheet_name": "Relaciones_Grafo_LOD"
     },
     {
-      "id": "REL_0323",
+      "id": "REL_0322",
       "source": "PER_0001",
       "target": "COM_0006",
       "predicate": "crm:P14_carried_out_by",
@@ -7504,7 +7495,7 @@
       "_sheet_name": "Relaciones_Grafo_LOD"
     },
     {
-      "id": "REL_0324",
+      "id": "REL_0323",
       "source": "PER_0001",
       "target": "COM_0007",
       "predicate": "crm:P14_carried_out_by",

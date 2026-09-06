@@ -1848,8 +1848,6 @@ jc:PER_0001 crm:P14_carried_out_by jc:PRJ_0008 .
 
 jc:COM_0011 crm:P7_took_place_at jc:LOC_0065 .
 
-jc:COM_0006 crm:P7_took_place_at jc:LOC_0041 .
-
 jc:COM_0007 crm:P7_took_place_at jc:LOC_0040 .
 
 jc:PER_0001 crm:P14_carried_out_by jc:COM_0011 .
