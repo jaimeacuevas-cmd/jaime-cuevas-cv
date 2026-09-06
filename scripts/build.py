@@ -278,4 +278,22 @@ class ETLPipeline:
 if __name__ == '__main__':
     pipeline = ETLPipeline(BASE_DIR)
     success = pipeline.run()
+
+    # Run data sync validation
+    if success:
+        logger.info("\n" + "=" * 80)
+        logger.info("[VALIDATION] Running data sync validation...")
+        logger.info("=" * 80)
+
+        validation_script = BASE_DIR / 'scripts' / 'validate_data_sync.py'
+        if validation_script.exists():
+            import subprocess
+            result = subprocess.run([sys.executable, str(validation_script)],
+                                  capture_output=False, text=True)
+            if result.returncode != 0:
+                logger.error("❌ Data sync validation FAILED")
+                success = False
+            else:
+                logger.info("✓ Data sync validation PASSED")
+
     sys.exit(0 if success else 1)
