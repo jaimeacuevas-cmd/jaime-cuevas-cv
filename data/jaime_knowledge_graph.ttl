@@ -446,7 +446,7 @@ jc:LOC_0013 a crm:E53_Place ;
     skos:exactMatch <https://www.wikidata.org/wiki/Q13371> .
 
 jc:LOC_0014 a crm:E53_Place ;
-    rdfs:label "Fundación TyPA / CAIA UBA (Buenos Aires)" ;
+    rdfs:label "Fundación TyPA" ;
     geo:long -58.44653347584588 ;
     geo:lat -34.62815117682938 ;
     schema:areaServed "Buenos Aires" .
