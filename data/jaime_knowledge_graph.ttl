@@ -957,6 +957,9 @@ jc:CAR_0011 a crm:E7_Activity ;
 jc:CAR_0012 a crm:E7_Activity ;
     rdfs:label "Director de Infraestructuras Culturales | Arquitecto de Datos & Curador de Colecciones" .
 
+jc:CAR_0013 a crm:E7_Activity ;
+    rdfs:label "Coordinador de Itinerancias Expositivas" .
+
 jc:PUB_0001 a crm:E31_Document ;
     rdfs:label "Monvoisin en América: Identidades, atribuciones y mercado del arte" ;
     dc:issued "2023"^^xsd:gYear .
@@ -1973,6 +1976,18 @@ jc:EDU_0012 crm:P7_took_place_at jc:LOC_0048 .
 
 jc:EDU_0013 crm:P7_took_place_at jc:LOC_0063 .
 
+jc:EXP_0010 crm:P14i_performed jc:CAR_0013 .
+
+jc:EXP_0010_1 crm:P14i_performed jc:CAR_0013 .
+
+jc:EXP_0011_01 crm:P14i_performed jc:CAR_0013 .
+
+jc:EXP_0011_02 crm:P14i_performed jc:CAR_0013 .
+
+jc:EXP_0011_03 crm:P14i_performed jc:CAR_0013 .
+
+jc:PRJ_0007 crm:P7_took_place_at jc:LOC_0013 .
+
 jc:PER_0001 crm:P14i_performed jc:EDU_0001 .
 
 jc:EDU_0001 crm:P87_is_identified_by jc:ORG_0005 .
@@ -2086,6 +2101,10 @@ jc:CAR_0011 crm:P14_carried_out_by jc:ORG_0004 .
 jc:PER_0001 crm:P14i_performed jc:CAR_0012 .
 
 jc:CAR_0012 crm:P14_carried_out_by jc:ORG_0038 .
+
+jc:PER_0001 crm:P14i_performed jc:CAR_0013 .
+
+jc:CAR_0013 crm:P14_carried_out_by jc:ORG_0008 .
 
 jc:PER_0001 crm:P14i_performed jc:EXP_0001 .
 
